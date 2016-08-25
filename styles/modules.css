@@ -1,0 +1,96 @@
+.site-header {
+  background: #D5DED9;
+}
+
+.heading-group-h1 {
+  float: left;
+  padding: 0 0 .2em 1em;
+}
+
+.icon-menu {
+  font-size: 3em;
+  float: right;
+}
+
+.main-nav {
+  padding: 0.1em;
+  text-align: right;
+}
+
+.main-nav ul {
+  display: none;
+  padding: 0;
+  list-style: none;
+  clear: both;
+}
+
+.main-nav:hover ul {
+  display: block;
+}
+
+.main-nav li {
+  margin-right: .4em;
+  font-size: 1.5em;
+  padding: .5em .2em;
+  border-bottom: 1px solid #ccc;
+}
+
+.subpage-nav ul{
+  display: block;
+}
+
+
+
+#filters {
+  padding: 0;
+  list-style: none;
+}
+
+.template {
+  display: none;
+}
+
+.byline {
+  color: #777;
+}
+
+.byline a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#article-export label {
+  font-size: .8em;
+  font-style: italic;
+  color: #ccc;
+}
+
+#about {
+  display: none;
+}
+#cell-line-table {
+  width: 80%;
+}
+#cell-line-table td{
+  width: 20%;
+  font-family: serif;
+}
+
+.cellline:hover{
+  background-color: gray;
+  color: white;
+}
+
+@media only screen and (min-width: 640px) {
+  .subpage-nav li{
+    display: inline-block;
+    width: 20%;
+    float: left;
+
+  }
+
+  .main-nav ul li:hover a {
+    color: #29506D;
+  }
+
+}

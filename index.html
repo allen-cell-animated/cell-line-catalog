@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="vendor/styles/normalize.css">
+    <link rel="stylesheet" href="styles/icons.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/modules.css">
+    <!-- Allen Institute favicon -->
+    <link rel="icon" type="image/x-icon" href="/static/images/favicons/cellscience/favicon.png">
+
+    <script id="cellList-template" type="text/x-handlebars-template">
+      <tr class= 'cellline' data-fluorophore ={{fluorophore}} data-tagLocation={{tagLocation}} id = {{ID}}>
+        <td>
+          {{ID}}
+        </td>
+        <td>
+          {{structure}}
+        </td>
+        <td>
+          {{gene}}
+        </td>
+        <td>
+          {{tagLocation}}
+        </td>
+        <td>
+          {{fluorophore}}
+        </td>
+        <td>
+          {{linker}}
+        </td>
+        <td>
+          {{sequence}}
+        </td>
+      </tr>
+    </script>
+    <script id="author-filter-template" type="text/x-handlebars-template">
+      <option value="{{author}}">{{author}}</option>
+    </script>
+    <script id="category-filter-template" type="text/x-handlebars-template">
+      <option value="{{category}}">{{category}}</option>
+    </script>
+
+    <script id="cell-profile-info-template" type="text/x-handlebars-template">
+        <ul id={{ID}}>
+          <li>ID: {{ID}}</li>
+          <li>Structure: {{structure}}</li>
+          <li>Gene: {{gene}}</li>
+          <li>Tag Location: {{tagLocation}}</li>
+          <li>Fluorophore: {{fluorophore}}</li>
+          <li>Linker: {{linker}}</li>
+          <li>Sequence: {{sequence}}</li>
+        </ul>
+    </script>
+  </head>
+  <body>
+    <header class="site-header clearfix">
+      <section class="heading-group-h1">
+        <h1>
+          Cell Line Catalog
+        </h1>
+        <h2></h2>
+      </section>
+      <nav class="main-nav">
+        <div class="icon-menu"></div>
+        <ul>
+          <li class="tab" data-content="cell-line-list"><a href="#" class="icon-home"> All Cell Lines</a></li>
+          <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
+
+        </ul>
+      </nav>
+    </header>
+    <main>
+
+      <section id="cell-line-list" class="tab-content">
+        <div>
+          <ul id="filters">
+            <li>
+              <select id="tagLocation-filter">
+                <option value="">-- Filter by Tag Location --</option>
+              </select>
+            </li>
+            <li>
+              <select id="fluorophore-filter">
+                <option value="">-- Filter by Flurorophore --</option>
+              </select>
+            </li>
+          </ul>
+          <table>
+            <tbody id="cell-line-table">
+              <tr>
+                <td>
+                  ID
+                </td>
+                <td>
+                  Structure
+                </td>
+                <td>
+                  Gene
+                </td>
+                <td>
+                  Location of Tag
+                </td>
+                <td>
+                  Fluorophore
+                </td>
+                <td>
+                  Linker
+                </td>
+                <td>
+                  Sequence
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </section>
+
+      <!-- CELL LINE PROFILE -------------->
+      <section id="cellline-profile" class="tab-content">
+        <div class="back-button">
+          <a href="#">Back to full list</a>
+
+        </div>
+        <div id="cellline-info">
+
+        </div>
+        <div class="">
+
+        </div>
+        <div class="subpage-nav">
+          <nav>
+            <ul>
+              <li><a href="#">Editing</a></li>
+              <li><a href="#">Genome</a></li>
+              <li><a href="#">Validation</a></li>
+              <li><a href="#">Methods</a></li>
+              <li><a href="#">Stem Cell Characteristics</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="subpage">
+
+        </div>
+      </section>
+      <section id="about" class="tab-content">
+        <header>
+          Welcome to the Cell Line Catalog
+        </header>
+        <section>
+          <h1>Here you will find information on each of our cell lines</h1>
+          <ul>
+            <li>This resource will be updated as we create new lines </li>
+            <li>and data.</li>
+            <li>Consider becoming a beta tester</li>
+          </ul>
+        </section>
+      </section>
+    </main>
+    <footer>
+      &copy; 2016 Megan Riel-Mehan
+    </footer>
+    <!-- Vendor Files -->
+    <script src="/vendor/scripts/jquery-2.1.4.js"></script>
+    <script src="/vendor/scripts/handlebars.js"></script>
+    <script src="/vendor/scripts/marked.js"></script>
+    <!-- Model Files -->
+    <script src="/scripts/models/cellLine.js"></script>
+    <!-- View Files -->
+    <script src="/scripts/views/articleView.js"></script>
+    <script src="/scripts/views/cellLineSubpage.js"></script>
+
+  </body>
+</html>
