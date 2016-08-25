@@ -5,7 +5,7 @@ img {
 body {
   line-height: 1.5;
   font-size: 100%;
-  color: #313131;
+  color: #838689;
 }
 
 main {
@@ -33,11 +33,11 @@ address {
 
 a, a:link, a:active {
   text-decoration: none;
-  color: #777;
+  color: #7A6A53;
 }
 
 a:hover, a:focus {
-  color: #29506D;
+  color: #99B2B7;
 }
 
 a:visited {

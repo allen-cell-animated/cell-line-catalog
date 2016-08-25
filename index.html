@@ -12,18 +12,30 @@
     <!-- Code Fellows favicon -->
     <link rel="icon" type="image/x-icon" href="https://i.imgur.com/7v5ASc8.png">
 
-    <script id="article-template" type="text/x-handlebars-template">
-      <article class="clearfix" data-author="{{author}}" data-category="{{category}}">
-        <header>
-          <h1>{{title}}</h1>
-          <div class="byline">
-            By <address><a href="{{authorUrl}}">{{author}}</a></address>
-            {{publishStatus}}
-          </div>
-        </header>
-        <section class="article-body">{{{body}}}</section>
-        <a href="#" class="read-on">Read on &rarr;</a>
-      </article>
+    <script id="cellList-template" type="text/x-handlebars-template">
+      <tr class= 'cellline' data-fluorophore ={{fluorophore}} data-tagLocation={{tagLocation}} id = {{id}}>
+        <td>
+          {{ID}}
+        </td>
+        <td>
+          {{Structure}}
+        </td>
+        <td>
+          {{Gene}}
+        </td>
+        <td>
+          {{tagLocation}}
+        </td>
+        <td>
+          {{fluorophore}}
+        </td>
+        <td>
+          {{linker}}
+        </td>
+        <td>
+          {{sequence}}
+        </td>
+      </tr>
     </script>
     <script id="author-filter-template" type="text/x-handlebars-template">
       <option value="{{author}}">{{author}}</option>
@@ -36,60 +48,88 @@
     <header class="site-header clearfix">
       <section class="heading-group-h1">
         <h1>
-          Kilovolt Blog!
+          Cell Line Catalog
         </h1>
-        <h2>The shocking power of static pages</h2>
+        <h2></h2>
       </section>
       <nav class="main-nav">
         <div class="icon-menu"></div>
         <ul>
-          <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
+          <li class="tab" data-content="cell-line-list"><a href="#" class="icon-home"> All Cell Lines</a></li>
           <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
-          <li><a href="http://twitter.com/codefellowsSEA" target="_blank" class="icon-twitter3"> Twitter</a></li>
-          <li><a href="http://github.com/" target="_blank" class="icon-github"> GitHub</a></li>
+
         </ul>
       </nav>
     </header>
     <main>
-      <section id="articles" class="tab-content">
+
+      <section id="cell-line-list" class="tab-content">
         <div>
           <ul id="filters">
             <li>
-              <select id="author-filter">
-                <option value="">-- Filter by Authors --</option>
+              <select id="tagLocation-filter">
+                <option value="">-- Filter by Tag Location --</option>
               </select>
             </li>
             <li>
-              <select id="category-filter">
-                <option value="">-- Filter by Categories --</option>
+              <select id="fluorophore-filter">
+                <option value="">-- Filter by Flurorophore --</option>
               </select>
             </li>
           </ul>
+          <table>
+            <tbody id="cell-line-table">
+              <tr>
+                <td>
+                  ID
+                </td>
+                <td>
+                  Structure
+                </td>
+                <td>
+                  Gene
+                </td>
+                <td>
+                  Location of Tag
+                </td>
+                <td>
+                  Fluorophore
+                </td>
+                <td>
+                  Linker
+                </td>
+                <td>
+                  Sequence
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
         </div>
       </section>
       <section id="about" class="tab-content">
         <header>
-          Welcome to my Blog
+          Welcome to the Cell Line Catalog
         </header>
         <section>
-          <h1>Some of my intrests:</h1>
+          <h1>Here you will find information on each of our cell lines</h1>
           <ul>
-            <li>Coding</li>
-            <li>Sharing what I've learned</li>
-            <li>Hanging with my family</li>
+            <li>This resource will be updated as we create new lines </li>
+            <li>and data.</li>
+            <li>Consider becoming a beta tester</li>
           </ul>
         </section>
       </section>
     </main>
     <footer>
-      &copy; 2016 Code Fellows | Static Blog | Happy Ipsum!
+      &copy; 2016 Megan Riel-Mehan
     </footer>
     <!-- Vendor Files -->
     <script src="/vendor/scripts/jquery-2.1.4.js"></script>
     <script src="/vendor/scripts/handlebars.js"></script>
     <script src="/vendor/scripts/marked.js"></script>
     <!-- Model Files -->
-    <script src="/scripts/models/article.js"></script>
+    <script src="/scripts/models/cellLine.js"></script>
     <!-- View Files -->
     <script src="/scripts/views/articleView.js"></script>
   </body>

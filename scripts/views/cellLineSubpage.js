@@ -1,19 +1,9 @@
 (function(module) {
 
 
-  var cellListView = {};
+  var cellLineSubPageView = {};
 
-  cellListView.handleRowSelect = function() {
-    $('#cell-line-table').on('click', '.cellline',function() {
-      console.log($(this));
-      $('.cell-line-list').hide();
-      $('.subpage[data-subpageid="' + $(this).val() + '"]').fadeIn();
-      // cellLineSubPageView.renderView();
-  })
-};
-
-
-  cellListView.handleFluorophoreFilter = function() {
+  cellLineSubPageView.handleFluorophoreFilter = function() {
     $('#fluorophore-filter').on('change', function() {
       console.log($(this).val());
       if ($(this).val()) {
@@ -26,8 +16,7 @@
     });
   };
 
-
-  cellListView.handleTagFilter = function() {
+  cellLineSubPageView.handleTagFilter = function() {
     $('#tagLocation-filter').on('change', function() {
       if ($(this).val()) {
         $('.cellline').hide();
@@ -39,7 +28,7 @@
     });
   };
 
-  cellListView.handleMainNav = function() {
+  cellLineSubPageView.handleMainNav = function() {
     $('.main-nav').on('click', '.tab', function(e) {
       $('.tab-content').hide();
       $('#' + $(this).data('content')).fadeIn();
@@ -47,33 +36,33 @@
     $('.main-nav .tab:first').click();
   };
 
-  cellListView.createFilter= function(filterid, option ){
+  cellLineSubPageView.createFilter= function(filterid, option ){
     var $parentOptions = $(filterid);
     console.log(option);
     $('<option>').val(option).text(option).appendTo($parentOptions);
   };
 
-  cellListView.renderIndexPage = function() {
+  cellLineSubPageView.renderIndexPage = function() {
     CellLine.allTagLocations().forEach(function(a){
-      cellListView.createFilter(('#tagLocation-filter'), a)
+      cellLineSubPageView.createFilter(('#tagLocation-filter'), a)
 
     })
     CellLine.allFluorophores().forEach(function(a){
-      cellListView.createFilter(('#fluorophore-filter'), a)
+      cellLineSubPageView.createFilter(('#fluorophore-filter'), a)
 
     })
     CellLine.allCellLines.forEach(function(a) {
       $('#cell-line-table').append(a.toHtml($('#cellList-template')));
     });
 
-    cellListView.handleFluorophoreFilter();
-    cellListView.handleTagFilter();
-    cellListView.handleMainNav();
-    cellListView.handleRowSelect();
+    cellLineSubPageView.handleFluorophoreFilter();
+    cellLineSubPageView.handleTagFilter();
+    cellLineSubPageView.handleMainNav();
+
 
   };
 
-CellLine.fetchAll('../data/cell-lines.json', 'cell-lines', cellListView.renderIndexPage);
+CellLine.fetchAll('../data/cell-lines.json', 'cell-lines', cellLineSubPageView.renderIndexPage);
 
-  module.cellListView = cellListView;
+  module.cellLineSubPageView = cellLineSubPageView;
 })(window);

@@ -1,0 +1,44 @@
+[
+  {
+    "ID": 1,
+    "structure": "structure",
+    "gene": "Gene",
+    "tagLocation": "C-terminus",
+    "fluorophore": "GFP",
+    "linker": "ATTA"
+
+  },
+    {
+      "ID": 2,
+      "structure": "structure",
+      "gene": "Gene",
+      "tagLocation": "C-terminus",
+      "fluorophore": "GFP",
+      "linker": "ATTA",
+      "subpage": [{
+          "Editing" : "",
+          "Genome" :""
+            }
+          ]
+
+    },
+
+    {
+      "ID": 3,
+      "structure": "structure",
+      "gene": "Gene",
+      "tagLocation": "C-terminus",
+      "fluorophore": "YFP",
+      "linker": "ATTA"
+
+    },
+    {
+      "ID": 4,
+      "structure": "structure",
+      "gene": "Gene",
+      "tagLocation": "C-terminus",
+      "fluorophore": "fCherry",
+      "linker": "ATTA"
+
+    }
+  ]
