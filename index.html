@@ -9,19 +9,19 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/modules.css">
-    <!-- Code Fellows favicon -->
-    <link rel="icon" type="image/x-icon" href="https://i.imgur.com/7v5ASc8.png">
+    <!-- Allen Institute favicon -->
+    <link rel="icon" type="image/x-icon" href="/static/images/favicons/cellscience/favicon.png">
 
     <script id="cellList-template" type="text/x-handlebars-template">
-      <tr class= 'cellline' data-fluorophore ={{fluorophore}} data-tagLocation={{tagLocation}} id = {{id}}>
+      <tr class= 'cellline' data-fluorophore ={{fluorophore}} data-tagLocation={{tagLocation}} id = {{ID}}>
         <td>
           {{ID}}
         </td>
         <td>
-          {{Structure}}
+          {{structure}}
         </td>
         <td>
-          {{Gene}}
+          {{gene}}
         </td>
         <td>
           {{tagLocation}}
@@ -42,6 +42,18 @@
     </script>
     <script id="category-filter-template" type="text/x-handlebars-template">
       <option value="{{category}}">{{category}}</option>
+    </script>
+
+    <script id="cell-profile-info-template" type="text/x-handlebars-template">
+        <ul id={{ID}}>
+          <li>ID: {{ID}}</li>
+          <li>Structure: {{structure}}</li>
+          <li>Gene: {{gene}}</li>
+          <li>Tag Location: {{tagLocation}}</li>
+          <li>Fluorophore: {{fluorophore}}</li>
+          <li>Linker: {{linker}}</li>
+          <li>Sequence: {{sequence}}</li>
+        </ul>
     </script>
   </head>
   <body>
@@ -107,6 +119,34 @@
 
         </div>
       </section>
+
+      <!-- CELL LINE PROFILE -------------->
+      <section id="cellline-profile" class="tab-content">
+        <div class="back-button">
+          <a href="#">Back to full list</a>
+
+        </div>
+        <div id="cellline-info">
+
+        </div>
+        <div class="">
+
+        </div>
+        <div class="subpage-nav">
+          <nav>
+            <ul>
+              <li><a href="#">Editing</a></li>
+              <li><a href="#">Genome</a></li>
+              <li><a href="#">Validation</a></li>
+              <li><a href="#">Methods</a></li>
+              <li><a href="#">Stem Cell Characteristics</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="subpage">
+
+        </div>
+      </section>
       <section id="about" class="tab-content">
         <header>
           Welcome to the Cell Line Catalog
@@ -132,5 +172,7 @@
     <script src="/scripts/models/cellLine.js"></script>
     <!-- View Files -->
     <script src="/scripts/views/articleView.js"></script>
+    <script src="/scripts/views/cellLineSubpage.js"></script>
+
   </body>
 </html>

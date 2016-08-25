@@ -18,6 +18,10 @@ hr {
   width: 80%;
 }
 
+li{
+  list-style: none;
+}
+
 /*TEXT STYLES
 =======================================*/
 p {

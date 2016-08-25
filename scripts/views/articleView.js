@@ -5,12 +5,14 @@
 
   cellListView.handleRowSelect = function() {
     $('#cell-line-table').on('click', '.cellline',function() {
-      console.log($(this));
-      $('.cell-line-list').hide();
-      $('.subpage[data-subpageid="' + $(this).val() + '"]').fadeIn();
-      // cellLineSubPageView.renderView();
-  })
-};
+      currentID=eval(this.id);
+      $('#cell-line-list').hide();
+      $('#cellline-profile').show();
+      var selectedCellLine = CellLine.allCellLines.find(function(ele, index, array){ return ele.ID === currentID});
+      console.log(selectedCellLine);
+      cellLineProfileView.RenderProfile(selectedCellLine);
+    });
+  };
 
 
   cellListView.handleFluorophoreFilter = function() {
@@ -55,13 +57,13 @@
 
   cellListView.renderIndexPage = function() {
     CellLine.allTagLocations().forEach(function(a){
-      cellListView.createFilter(('#tagLocation-filter'), a)
+      cellListView.createFilter(('#tagLocation-filter'), a);
 
-    })
+    });
     CellLine.allFluorophores().forEach(function(a){
-      cellListView.createFilter(('#fluorophore-filter'), a)
+      cellListView.createFilter(('#fluorophore-filter'), a);
 
-    })
+    });
     CellLine.allCellLines.forEach(function(a) {
       $('#cell-line-table').append(a.toHtml($('#cellList-template')));
     });
@@ -73,7 +75,7 @@
 
   };
 
-CellLine.fetchAll('../data/cell-lines.json', 'cell-lines', cellListView.renderIndexPage);
+  CellLine.fetchAll('../data/cell-lines.json', 'cell-lines', cellListView.renderIndexPage);
 
   module.cellListView = cellListView;
 })(window);

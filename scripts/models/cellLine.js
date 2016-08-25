@@ -46,7 +46,7 @@ function CellLine (opts) {
               console.log('got your data right here');
               var retreivedData =  JSON.parse(localStorage.getItem(name, data));
               CellLine.loadIntoObjectArray(retreivedData);
-              nextFunction(url, name, nextFunction);
+              nextFunction();
             } //end of success
           });  //end of ajax
         };
