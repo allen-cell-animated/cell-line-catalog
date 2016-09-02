@@ -53,7 +53,7 @@
 
   CellLine.allTagLocations = function() {
     return CellLine.allCellLines.map(function(currentCellLine) {
-      return currentCellLine.tagLocation;
+      return currentCellLine.terminal_tagged;
     }).filter(function(element, index, array){
       return array.indexOf(element)===index;
       // TODO:DONE complete this function to sum up all of the words.
@@ -62,7 +62,7 @@
 
   CellLine.allFluorophores = function() {
     return CellLine.allCellLines.map(function(currentCellLine) {
-      return currentCellLine.fluorophore;
+      return currentCellLine.fluorescent_tag;
     }).filter(function(element, index, array){
       return array.indexOf(element)===index;
       // TODO:DONE complete this function to sum up all of the words.

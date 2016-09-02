@@ -3,6 +3,11 @@
 
   var cellLineProfileView = {};
 
+  cellLineProfileView.goBack = function(){
+    $('.back-button').on('click', function(){
+      $('.main-nav .tab:first').click();
+    })
+  }
 
   cellLineProfileView.handleSubNav = function() {
     $('.subpage-nav').on('click', '.tab', function(e) {
@@ -15,6 +20,7 @@
     if ($('#cellline-info').find('ul').length ===0){
       $('#cellline-info').append(cellLine.toHtml($('#cell-profile-info-template')));
       cellLineProfileView.handleSubNav();
+      cellLineProfileView.goBack();
     }
   };
 

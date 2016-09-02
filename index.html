@@ -13,7 +13,7 @@
     <link rel="icon" type="image/x-icon" href="/static/images/favicons/cellscience/favicon.png">
 
     <script id="cellList-template" type="text/x-handlebars-template">
-      <tr class= 'cellline' data-fluorophore ={{fluorophore}} data-tagLocation={{tagLocation}} id = {{ID}}>
+      <tr class= 'cellline' data-fluorescent_tag ={{fluorophore}} data-terminal_tagged={{tagLocation}} id = {{ID}}>
         <td>
           {{cell_line_id}}
         </td>
@@ -45,11 +45,11 @@
 
       </tr>
     </script>
-    <script id="author-filter-template" type="text/x-handlebars-template">
-      <option value="{{author}}">{{author}}</option>
+    <script id="tag-filter-template" type="text/x-handlebars-template">
+      <option value="{{terminal_tagged}}">{{terminal_tagged}}</option>
     </script>
-    <script id="category-filter-template" type="text/x-handlebars-template">
-      <option value="{{category}}">{{category}}</option>
+    <script id="fluorophore-filter-template" type="text/x-handlebars-template">
+      <option value="{{fluorescent_tag}}">{{fluorescent_tag}}</option>
     </script>
 
     <script id="cell-profile-info-template" type="text/x-handlebars-template">
@@ -137,7 +137,7 @@
       <!-- CELL LINE PROFILE -------------->
       <section id="cellline-profile" class="tab-content">
         <div class="back-button">
-          <a href="#">Back to full list</a>
+          <a href="#">&lArr; Back to full list</a>
         </div>
 
         <div id="cellline-info">
@@ -183,8 +183,10 @@
     <script src="/vendor/scripts/jquery-2.1.4.js"></script>
     <script src="/vendor/scripts/handlebars.js"></script>
     <script src="/vendor/scripts/marked.js"></script>
+
     <!-- Model Files -->
     <script src="/scripts/models/cellLine.js"></script>
+
     <!-- View Files -->
     <script src="/scripts/views/cellLineTableView.js"></script>
     <script src="/scripts/views/cellLineSubpage.js"></script>
