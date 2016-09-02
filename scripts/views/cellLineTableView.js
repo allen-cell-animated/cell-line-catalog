@@ -20,7 +20,7 @@
       console.log($(this).val());
       if ($(this).val()) {
         $('.cellline').hide();
-        $('.cellline[data-fluorophore="' + $(this).val() + '"]').fadeIn();
+        $('.cellline[data-fluorescent_tag="' + $(this).val() + '"]').fadeIn();
       } else {
         $('.cellline').fadeIn();
       }
@@ -33,7 +33,7 @@
     $('#tagLocation-filter').on('change', function() {
       if ($(this).val()) {
         $('.cellline').hide();
-        $('.cellline[data-tagLocation="' + $(this).val() + '"]').fadeIn();
+        $('.cellline[data-terminal_tagged="' + $(this).val() + '"]').fadeIn();
       } else {
         $('.cellline').fadeIn();
       }
@@ -75,7 +75,7 @@
 
   };
 
-  CellLine.fetchAll('../data/cell-lines.json', 'cell-lines', cellListView.renderIndexPage);
+  CellLine.updateData('../data/cell_line_catalog.json', 'cell-lines', CellLine.loadIntoObjectArray,  cellListView.renderIndexPage);
 
   module.cellListView = cellListView;
 })(window);

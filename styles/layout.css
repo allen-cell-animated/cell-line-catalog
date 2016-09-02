@@ -31,6 +31,20 @@ footer{
 
 }
 
+.cellline-info{
+  width:40%;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.profile-image{
+  width:60%;
+  display: inline-block;
+
+
+}
+
+
 @media only screen and (min-width: 640px) {
   .heading-group-h1 {
     padding: .1em .1em .1em 2em;
