@@ -75,7 +75,7 @@
 
   };
 
-  CellLine.fetchAll('../data/cell-lines.json', 'cell-lines', cellListView.renderIndexPage);
+  CellLine.updateData('../data/cell_line_catalog.json', 'cell-lines', CellLine.loadIntoObjectArray,  cellListView.renderIndexPage);
 
   module.cellListView = cellListView;
 })(window);

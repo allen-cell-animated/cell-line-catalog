@@ -15,26 +15,34 @@
     <script id="cellList-template" type="text/x-handlebars-template">
       <tr class= 'cellline' data-fluorophore ={{fluorophore}} data-tagLocation={{tagLocation}} id = {{ID}}>
         <td>
-          {{ID}}
+          {{cell_line_id}}
+        </td>
+        <td>
+          {{gene_symbol}}
+        </td>
+        <td>
+          {{gene_name}}
+        </td>
+        <td>
+          {{gene_id}}
+        </td>
+        <td>
+          {{ensembl_id}}
         </td>
         <td>
           {{structure}}
         </td>
         <td>
-          {{gene}}
+          {{terminal_tagged}}
         </td>
         <td>
-          {{tagLocation}}
-        </td>
-        <td>
-          {{fluorophore}}
+          {{fluorescent_tag}}
         </td>
         <td>
           {{linker}}
         </td>
-        <td>
-          {{sequence}}
-        </td>
+
+
       </tr>
     </script>
     <script id="author-filter-template" type="text/x-handlebars-template">
@@ -46,13 +54,19 @@
 
     <script id="cell-profile-info-template" type="text/x-handlebars-template">
         <ul id={{ID}}>
-          <li>ID: {{ID}}</li>
-          <li>Structure: {{structure}}</li>
-          <li>Gene: {{gene}}</li>
-          <li>Tag Location: {{tagLocation}}</li>
-          <li>Fluorophore: {{fluorophore}}</li>
-          <li>Linker: {{linker}}</li>
-          <li>Sequence: {{sequence}}</li>
+          <h4>{{ID}}</h4>
+          <li><span class="profile-summary-key">Gene Symbol: {{gene_symbol}}</li>
+          <li><span class="profile-summary-key">Gene:</span> {{gene_name}}</li>
+          <li><span class="profile-summary-key">Gene ID:</span> {{gene_id}}</li>
+          <li><span class="profile-summary-key">Fluorophore:</span> {{fluorescent_tag}}</li>
+          <li><span class="profile-summary-key">Linker:</span> {{linker}}</li>
+          <li><span class="profile-summary-key">Plasmid Sequence:</span> {{plasmid_sequence}}</li>
+          <li><span class="profile-summary-key">Morphology:</span> {{cell_line_morphology}}</li>
+        </ul>
+        <ul id="cell-profile-buttons">
+          <li><a href="{{request_link}}">Request Line</a></li>
+          <li><a href="{{beta_tester}}">Be a Beta Tester</a></li>
+          <li><a href="{{WTC_parent_line}}">WTC Parent Line</a></li>
         </ul>
     </script>
   </head>
@@ -96,13 +110,13 @@
                   ID
                 </td>
                 <td>
-                  Structure
+                  Gene symbol
                 </td>
                 <td>
-                  Gene
+                  Gene name
                 </td>
                 <td>
-                  Location of Tag
+                  Gene id
                 </td>
                 <td>
                   Fluorophore
@@ -124,14 +138,15 @@
       <section id="cellline-profile" class="tab-content">
         <div class="back-button">
           <a href="#">Back to full list</a>
-
         </div>
+
         <div id="cellline-info">
-
         </div>
-        <div class="">
 
+        <div class="profile-image">
+          <img src="images/cell-image.jpg" alt="" />
         </div>
+
         <div class="subpage-nav">
           <nav>
             <ul>
@@ -162,7 +177,7 @@
       </section>
     </main>
     <footer>
-      &copy; 2016 Megan Riel-Mehan
+      &copy; 2016 Allen Institute
     </footer>
     <!-- Vendor Files -->
     <script src="/vendor/scripts/jquery-2.1.4.js"></script>
@@ -171,7 +186,7 @@
     <!-- Model Files -->
     <script src="/scripts/models/cellLine.js"></script>
     <!-- View Files -->
-    <script src="/scripts/views/articleView.js"></script>
+    <script src="/scripts/views/cellLineTableView.js"></script>
     <script src="/scripts/views/cellLineSubpage.js"></script>
 
   </body>
