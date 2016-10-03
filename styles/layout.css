@@ -31,6 +31,23 @@ footer{
 
 }
 
+
+#cell-line-table {
+  width: 70%;
+}
+#cell-line-table td{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: .8em;
+  min-width: 65px;
+
+}
+
+.cellline:hover{
+  /*background-color: gray;
+  color: white;*/
+}
+
 .cellline-info{
   width:40%;
   box-sizing: border-box;
@@ -41,6 +58,16 @@ footer{
   width:60%;
   display: inline-block;
 
+}
+.table-head{
+  /*background-color: #D5DED9;*/
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+
+td.title{
 
 }
 

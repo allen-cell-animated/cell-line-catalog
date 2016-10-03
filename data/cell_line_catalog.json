@@ -11,7 +11,7 @@
     "fluorescent_tag": "mEGFP",
     "linker": "N",
     "plasmid_sequence": "addgene link",
-    "cell_line_morphology": "image"
+    "cell_line_morphology": "images/cell-image.jpg"
   },
   {
     "cell_line_id": "AICS-007",

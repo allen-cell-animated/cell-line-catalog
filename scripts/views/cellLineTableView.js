@@ -8,7 +8,7 @@
       currentID=eval(this.id);
       $('#cell-line-list').hide();
       $('#cellline-profile').show();
-      var selectedCellLine = CellLine.allCellLines.find(function(ele, index, array){ return ele.ID === currentID});
+      var selectedCellLine = CellLine.allCellLines.find(function(ele, index, array){ return ele.ID === currentID;});
       console.log(selectedCellLine);
       cellLineProfileView.RenderProfile(selectedCellLine);
     });
@@ -75,7 +75,7 @@
 
   };
 
-  CellLine.updateData('../data/cell_line_catalog.json', 'cell-lines', CellLine.loadIntoObjectArray,  cellListView.renderIndexPage);
+  CellLine.updateData('../data/cell_line_catalog.json', 'cell-lines', CellLine.loadIntoObjectArray, cellListView.renderIndexPage);
 
   module.cellListView = cellListView;
 })(window);

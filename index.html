@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <title>Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="vendor/styles/normalize.css">
-    <link rel="stylesheet" href="styles/icons.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/layout.css">
-    <link rel="stylesheet" href="styles/modules.css">
+    <link rel="stylesheet" href="/vendor/styles/normalize.css">
+    <link rel="stylesheet" href="/styles/icons.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/modules.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+
     <!-- Allen Institute favicon -->
     <link rel="icon" type="image/x-icon" href="/static/images/favicons/cellscience/favicon.png">
 
     <script id="cellList-template" type="text/x-handlebars-template">
-      <tr class= 'cellline' data-fluorescent_tag ={{fluorophore}} data-terminal_tagged={{tagLocation}} id = {{ID}}>
+      <tr class= ' cellline' data-fluorescent_tag ={{fluorescent_tag}} data-terminal_tagged={{terminal_tagged}} id = {{ID}}>
         <td>
           {{cell_line_id}}
         </td>
@@ -72,13 +75,14 @@
   </head>
   <body>
     <header class="site-header clearfix">
+      <nav class="main-nav clearfix">
+
       <section class="heading-group-h1">
         <h1>
           Cell Line Catalog
         </h1>
         <h2></h2>
       </section>
-      <nav class="main-nav">
         <div class="icon-menu"></div>
         <ul>
           <li class="tab" data-content="cell-line-list"><a href="#" class="icon-home"> All Cell Lines</a></li>
@@ -103,40 +107,44 @@
               </select>
             </li>
           </ul>
-          <table>
-            <tbody id="cell-line-table">
-              <tr>
-                <td class="title">
-                  ID
-                </td>
-                <td class="title">
-                  Gene symbol
-                </td>
-                <td class="title">
-                  Gene name
-                </td>
-                <td class="title">
-                  Gene id
-                </td>
-                <td class="title">
-                  Ensemble ID
-                </td>
-                <td class="title">
-                  Tag Location
-                </td>
-                <td class="title">
-                  Fluorophore
-                </td>
-                <td class="title">
-                  Linker
-                </td>
-                <td class="title">
-                  Sequence
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="table-responsive">
 
+          <table class="table table-hover">
+              <thead>
+                <tr>
+                  <td >
+                    ID
+                  </td>
+                  <td >
+                    Gene symbol
+                  </td>
+                  <td>
+                    Gene name
+                  </td>
+                  <td>
+                    Gene id
+                  </td>
+                  <td>
+                    Ensemble ID
+                  </td>
+                  <td>
+                    Structure
+                  </td>
+                  <td>
+                    Tag Location
+                  </td>
+                  <td>
+                    Fluorophore
+                  </td>
+                  <td>
+                    Linker
+                  </td>
+                </tr>
+              </thead>
+              <tbody id="cell-line-table">
+              </tbody>
+          </table>
+        </div>
         </div>
       </section>
 
@@ -189,6 +197,7 @@
     <script src="/vendor/scripts/jquery-2.1.4.js"></script>
     <script src="/vendor/scripts/handlebars.js"></script>
     <script src="/vendor/scripts/marked.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js" integrity=""></script>
 
     <!-- Model Files -->
     <script src="/scripts/models/cellLine.js"></script>

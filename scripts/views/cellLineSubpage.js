@@ -6,8 +6,8 @@
   cellLineProfileView.goBack = function(){
     $('.back-button').on('click', function(){
       $('.main-nav .tab:first').click();
-    })
-  }
+    });
+  };
 
   cellLineProfileView.handleSubNav = function() {
     $('.subpage-nav').on('click', '.tab', function(e) {
