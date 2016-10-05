@@ -2,8 +2,18 @@
   float: left;
 }
 
+.displayoff{
+  display: none;
+}
+
 .pull-right {
   float: right;
+}
+
+.btn{
+  margin: 20px;
+  color: #003056;
+  font-weight:700;
 }
 
 .clearfix::after {
@@ -31,16 +41,11 @@ footer{
 
 }
 
-
 #cell-line-table {
   width: 70%;
 }
-#cell-line-table td{
-  padding-left: 10px;
-  padding-right: 10px;
-  font-size: .8em;
-  min-width: 65px;
 
+#cell-line-table td{
 }
 
 .cellline:hover{
@@ -55,7 +60,6 @@ footer{
 }
 
 .profile-image{
-  width:60%;
   display: inline-block;
 
 }

@@ -26,6 +26,10 @@
 
 .main-nav:hover ul {
   display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+
 }
 
 .main-nav li {

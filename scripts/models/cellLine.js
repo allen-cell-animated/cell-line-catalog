@@ -56,7 +56,6 @@
       return currentCellLine.terminal_tagged;
     }).filter(function(element, index, array){
       return array.indexOf(element)===index;
-      // TODO:DONE complete this function to sum up all of the words.
     });
   };
 
@@ -65,7 +64,6 @@
       return currentCellLine.fluorescent_tag;
     }).filter(function(element, index, array){
       return array.indexOf(element)===index;
-      // TODO:DONE complete this function to sum up all of the words.
     });
   };
 

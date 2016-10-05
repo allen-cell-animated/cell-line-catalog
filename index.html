@@ -6,77 +6,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/vendor/styles/normalize.css">
     <link rel="stylesheet" href="/styles/icons.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="/styles/base.css">
     <link rel="stylesheet" href="/styles/layout.css">
     <link rel="stylesheet" href="/styles/modules.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
 
     <!-- Allen Institute favicon -->
     <link rel="icon" type="image/x-icon" href="/static/images/favicons/cellscience/favicon.png">
 
     <script id="cellList-template" type="text/x-handlebars-template">
-      <tr class= ' cellline' data-fluorescent_tag ={{fluorescent_tag}} data-terminal_tagged={{terminal_tagged}} id = {{ID}}>
+      <tr class= ' cellline' data-fluorescent_tag ={{Main_fluorescent_tag}} data-terminal_tagged={{Main_terminal_tagged}} id = {{cell_line_id}}>
         <td>
           {{cell_line_id}}
         </td>
         <td>
-          {{gene_symbol}}
+          {{Main_gene_symbol}}
         </td>
         <td>
-          {{gene_name}}
+          {{Main_gene_name}}
         </td>
         <td>
-          {{gene_id}}
+          {{Main_gene_id}}
         </td>
         <td>
-          {{ensembl_id}}
+          {{Main_ensembl_id}}
         </td>
         <td>
-          {{structure}}
+          {{Main_structure}}
         </td>
         <td>
-          {{terminal_tagged}}
+          {{Main_terminal_tagged}}
         </td>
         <td>
-          {{fluorescent_tag}}
+          {{Main_fluorescent_tag}}
         </td>
         <td>
-          {{linker}}
+          {{Main_linker}}
         </td>
-
-
       </tr>
     </script>
     <script id="tag-filter-template" type="text/x-handlebars-template">
-      <option value="{{terminal_tagged}}">{{terminal_tagged}}</option>
+      <option value="{{Main_terminal_tagged}}">{{Main_terminal_tagged}}</option>
     </script>
     <script id="fluorophore-filter-template" type="text/x-handlebars-template">
-      <option value="{{fluorescent_tag}}">{{fluorescent_tag}}</option>
+      <option value="{{Main_fluorescent_tag}}">{{Main_fluorescent_tag}}</option>
     </script>
 
     <script id="cell-profile-info-template" type="text/x-handlebars-template">
-        <ul id={{ID}}>
-          <h4>{{ID}}</h4>
-          <li><span class="profile-summary-key">Gene Symbol: {{gene_symbol}}</li>
-          <li><span class="profile-summary-key">Gene:</span> {{gene_name}}</li>
-          <li><span class="profile-summary-key">Gene ID:</span> {{gene_id}}</li>
-          <li><span class="profile-summary-key">Fluorophore:</span> {{fluorescent_tag}}</li>
-          <li><span class="profile-summary-key">Linker:</span> {{linker}}</li>
-          <li><span class="profile-summary-key">Plasmid Sequence:</span> {{plasmid_sequence}}</li>
-          <li><span class="profile-summary-key">Morphology:</span> {{cell_line_morphology}}</li>
-        </ul>
-        <ul id="cell-profile-buttons">
-          <li><a href="{{request_link}}">Request Line</a></li>
-          <li><a href="{{beta_tester}}">Be a Beta Tester</a></li>
-          <li><a href="{{WTC_parent_line}}">WTC Parent Line</a></li>
-        </ul>
+        <h4>{{cell_line_id}}</h4>
+        <div class="col-md-4 bg-primary">
+          <ul id={{cell_line_id}} class="center-block">
+            <h4>{{cell_line_id}}</h4>
+            <li><span class="profile-summary-key">Gene Symbol: {{Main_gene_symbol}}</li>
+            <li><span class="profile-summary-key">Gene:</span> {{Main_gene_name}}</li>
+            <li><span class="profile-summary-key">Gene ID:</span> {{Main_gene_id}}</li>
+            <li><span class="profile-summary-key">Fluorophore:</span> {{Main_fluorescent_tag}}</li>
+            <li><span class="profile-summary-key">Linker:</span> {{Main_linker}}</li>
+            <li><span class="profile-summary-key">Plasmid Sequence:</span> {{Main_plasmid_sequence}}</li>
+            <li><span class="profile-summary-key">Morphology:</span> {{Main_cell_line_morphology}}</li>
+          </ul>
+          <ul id="cell-profile-buttons">
+            <div class="row">
+              <li class="col-md-6 center-block"><a class="btn btn-danger center-block" href="{{request_link}}">Request Line</a></li>
+              <li class="col-md-6 "><a class="btn btn-danger center-block" href="{{beta_tester}}">Be a Beta Tester</a></li>
+            </div>
+            <li><a class="btn btn-danger center-block" href="{{WTC_parent_line}}">WTC Parent Line</a></li>
+          </ul>
+          <div class="profile-image">
+            <img src="images/cell-image.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-md-8 bg-primary">
+        </div>
     </script>
+    <script id="editingDesign-template" type="text/x-handlebars-template">
+      <div class="row">
+        <div class="col-md-4 bg-primary">
+          <ul id=editingDesign-info>
+            <li><span>NCBI Isoform:</span><span>{{EditingDesign_NCBI_isoform}}</span></li>
+            <li><span>crRNA:</span><span>{{EditingDesign_crRNA_seq}}</span></li>
+            <li><span>Plasmid sequence:</span><span>{{Main_plasmid_sequence}}</span></li>
+            <li><span>Cas9:</span><span>{{EditingDesign_cas9}}</span></li>
+          </ul>
+        </div>
+      </div>
+    </script>
+
   </head>
   <body>
     <header class="site-header clearfix">
       <nav class="main-nav clearfix">
-
       <section class="heading-group-h1">
         <h1>
           Cell Line Catalog
@@ -85,15 +105,14 @@
       </section>
         <div class="icon-menu"></div>
         <ul>
-          <li class="tab" data-content="cell-line-list"><a href="#" class="icon-home"> All Cell Lines</a></li>
-          <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
-
+          <li class="tab" data-content="cell-line-list"><a data-toggle="tab" href="#cell-line-list" class="icon-home">All Cell Lines</a></li>
+          <li class="tab" data-content="about"><a data-toggle="tab" href="#about" class="icon-address-book"> About</a></li>
         </ul>
       </nav>
     </header>
-    <main>
 
-      <section id="cell-line-list" class="tab-content">
+    <main class="tab-content">
+      <section id="cell-line-list" class="tab-pane active">
         <div>
           <ul id="filters">
             <li>
@@ -108,8 +127,7 @@
             </li>
           </ul>
           <div class="table-responsive">
-
-          <table class="table table-hover">
+            <table class="table table-hover">
               <thead>
                 <tr>
                   <td >
@@ -149,34 +167,43 @@
       </section>
 
       <!-- CELL LINE PROFILE -------------->
-      <section id="cellline-profile" class="tab-content">
+      <section id="cellline-profile" class="tab-pane">
         <div class="back-button">
-          <a href="#">&lArr; Back to full list</a>
+          <a data-toggle="tab" href="#cell-line-list">&lArr; Back to full list</a>
         </div>
 
-        <div id="cellline-info">
-        </div>
-
-        <div class="profile-image">
-          <img src="images/cell-image.jpg" alt="" />
+        <div id="cellline-info" class="row ">
         </div>
 
         <div class="subpage-nav">
           <nav>
-            <ul>
-              <li><a href="#">Editing</a></li>
-              <li><a href="#">Genome</a></li>
-              <li><a href="#">Validation</a></li>
-              <li><a href="#">Methods</a></li>
-              <li><a href="#">Stem Cell Characteristics</a></li>
+            <ul class="nav nav-tabs" role="tablist">
+              <li class="nav-link active"><a data-toggle="tab" href="#editingdesign">Editing Design</a></li>
+              <li ><a  data-toggle="tab" href="#genomiccharacterizations">Genomic Characterization</a></li>
+              <li ><a class="nav-link" data-toggle="tab" href="#validation">Validation</a></li>
+              <li ><a class="nav-link" data-toggle="tab"  href="#stemcellcharacteristics">Stem Cell Characteristics</a></li>
+              <li ><a class="nav-link" data-toggle="tab" href="#supplementaryinformation">Supplementary Information</a></li>
             </ul>
           </nav>
         </div>
-        <div class="subpage">
+        <div class="subpage tab-content">
+          <div class="tab-pane active" id="editingdesign">
+          </div>
+          <div class="tab-pane" id="genomiccharacterizations" role="tabpanel">
 
+          </div>
+          <div class="tab-pane" id="validation" role="tabpanel">
+
+          </div>
+          <div class="tab-pane" id="stemcellcharacteristics" role="tabpanel">
+
+          </div>
+          <div class="tab-pane" id="supplementaryinformation" role="tabpanel">
+
+          </div>
         </div>
       </section>
-      <section id="about" class="tab-content">
+      <section id="about" class="tab-pane">
         <header>
           Welcome to the Cell Line Catalog
         </header>
@@ -197,7 +224,7 @@
     <script src="/vendor/scripts/jquery-2.1.4.js"></script>
     <script src="/vendor/scripts/handlebars.js"></script>
     <script src="/vendor/scripts/marked.js"></script>
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js" integrity=""></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js" integrity=""></script>
 
     <!-- Model Files -->
     <script src="/scripts/models/cellLine.js"></script>
