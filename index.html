@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/vendor/styles/normalize.css">
     <link rel="stylesheet" href="/styles/icons.css">
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <!-- <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css"> -->
     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="/styles/base.css">
     <link rel="stylesheet" href="/styles/layout.css">
     <link rel="stylesheet" href="/styles/modules.css">
 
     <!-- Allen Institute favicon -->
-    <link rel="icon" type="image/x-icon" href="/static/images/favicons/cellscience/favicon.png">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
 
     <script id="cellList-template" type="text/x-handlebars-template">
-      <tr class= ' cellline' data-fluorescent_tag ={{Main_fluorescent_tag}} data-terminal_tagged={{Main_terminal_tagged}} id = {{cell_line_id}}>
+      <tr class= 'cellline' data-fluorescent_tag ={{Main_fluorescent_tag}} data-terminal_tagged={{Main_terminal_tagged}} id = {{cell_line_id}}>
         <td>
           {{cell_line_id}}
         </td>
@@ -55,30 +55,34 @@
 
     <script id="cell-profile-info-template" type="text/x-handlebars-template">
         <h4>{{cell_line_id}}</h4>
-        <div class="col-md-4 bg-primary">
-          <ul id={{cell_line_id}} class="center-block">
-            <h4>{{cell_line_id}}</h4>
-            <li><span class="profile-summary-key">Gene Symbol: {{Main_gene_symbol}}</li>
-            <li><span class="profile-summary-key">Gene:</span> {{Main_gene_name}}</li>
-            <li><span class="profile-summary-key">Gene ID:</span> {{Main_gene_id}}</li>
-            <li><span class="profile-summary-key">Fluorophore:</span> {{Main_fluorescent_tag}}</li>
-            <li><span class="profile-summary-key">Linker:</span> {{Main_linker}}</li>
-            <li><span class="profile-summary-key">Plasmid Sequence:</span> {{Main_plasmid_sequence}}</li>
-            <li><span class="profile-summary-key">Morphology:</span> {{Main_cell_line_morphology}}</li>
-          </ul>
-          <ul id="cell-profile-buttons">
-            <div class="row">
-              <li class="col-md-6 center-block"><a class="btn btn-danger center-block" href="{{request_link}}">Request Line</a></li>
-              <li class="col-md-6 "><a class="btn btn-danger center-block" href="{{beta_tester}}">Be a Beta Tester</a></li>
+        <div class="col-md-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4>{{cell_line_id}}</h4>
             </div>
-            <li><a class="btn btn-danger center-block" href="{{WTC_parent_line}}">WTC Parent Line</a></li>
-          </ul>
-          <div class="profile-image">
-            <img src="images/cell-image.jpg" alt="" />
+            <div class="panel-body">
+              <ul id={{cell_line_id}} class="list-group">
+                <li class="list-group-item"><span class="">Gene Symbol: </span><span class="">{{Main_gene_symbol}}</span></li>
+                <li class="list-group-item"><span class="">Gene:</span><span class=""> {{Main_gene_name}}</span></li>
+                <li class="list-group-item"><span class="profile-summary-key">Gene ID:</span> <span class="">{{Main_gene_id}}</span></li>
+                <li class="list-group-item"><span class="profile-summary-key">Fluorophore:</span> <span class="">{{Main_fluorescent_tag}}</span></li>
+                <li class="list-group-item"><span class="profile-summary-key">Linker:</span><span class=""> {{Main_linker}}</span></li>
+                <li class="list-group-item"><span class="profile-summary-key">Plasmid Sequence:</span><span class=""> {{Main_plasmid_sequence}}</span></li>
+
+                </ul>
+              <div class="">
+                    <a class="btn btn-primary text-center" role="button" href="{{request_link}}">Request Line</a>
+                    <a class="btn btn-primary text-center" role="button" href="{{beta_tester}}">Be a Beta Tester</a>
+                    <a class="btn btn-primary btn-block" role="button" href="{{WTC_parent_line}}">WTC Parent Line</a>
+              </div>
+            </div>
+
+
+          <div class="panel-footer">
+            <img class="" src="images/cell-image.jpg" alt="" />
           </div>
         </div>
-        <div class="col-md-8 bg-primary">
-        </div>
+      </div>
     </script>
     <script id="editingDesign-template" type="text/x-handlebars-template">
       <div class="row">
@@ -171,23 +175,24 @@
         <div class="back-button">
           <a data-toggle="tab" href="#cell-line-list">&lArr; Back to full list</a>
         </div>
-
-        <div id="cellline-info" class="row ">
+        <div class="container">
+          <div id="cellline-info" class="row ">
+          </div>
         </div>
 
         <div class="subpage-nav">
           <nav>
             <ul class="nav nav-tabs" role="tablist">
-              <li class="nav-link active"><a data-toggle="tab" href="#editingdesign">Editing Design</a></li>
-              <li ><a  data-toggle="tab" href="#genomiccharacterizations">Genomic Characterization</a></li>
-              <li ><a class="nav-link" data-toggle="tab" href="#validation">Validation</a></li>
-              <li ><a class="nav-link" data-toggle="tab"  href="#stemcellcharacteristics">Stem Cell Characteristics</a></li>
-              <li ><a class="nav-link" data-toggle="tab" href="#supplementaryinformation">Supplementary Information</a></li>
+              <li class="sub-page-tab active"><a data-toggle="tab" href="#editingdesign">Editing Design</a></li>
+              <li class="sub-page-tab"><a data-toggle="tab" href="#genomiccharacterizations">Genomic Characterization</a></li>
+              <li class="sub-page-tab"><a data-toggle="tab" href="#validation">Validation</a></li>
+              <li class="sub-page-tab"><a data-toggle="tab"  href="#stemcellcharacteristics">Stem Cell Characteristics</a></li>
+              <li class="sub-page-tab"><a data-toggle="tab" href="#supplementaryinformation">Supplementary Information</a></li>
             </ul>
           </nav>
         </div>
         <div class="subpage tab-content">
-          <div class="tab-pane active" id="editingdesign">
+          <div class="tab-pane active container" id="editingdesign">
           </div>
           <div class="tab-pane" id="genomiccharacterizations" role="tabpanel">
 

@@ -3029,7 +3029,7 @@ select[multiple].input-lg {
 .btn:hover,
 .btn:focus,
 .btn.focus {
-  color: #003056;
+  color: #333;
   text-decoration: none;
 }
 .btn:active,
@@ -3053,25 +3053,25 @@ fieldset[disabled] a.btn {
   pointer-events: none;
 }
 .btn-default {
-  color: #003056;
+  color: #333;
   background-color: #fff;
   border-color: #ccc;
 }
 .btn-default:focus,
 .btn-default.focus {
-  color: #003056;
+  color: #333;
   background-color: #e6e6e6;
   border-color: #8c8c8c;
 }
 .btn-default:hover {
-  color: #003056;
+  color: #333;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #003056;
+  color: #333;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
@@ -3084,7 +3084,7 @@ fieldset[disabled] a.btn {
 .btn-default:active.focus,
 .btn-default.active.focus,
 .open > .dropdown-toggle.btn-default.focus {
-  color: #003056;
+  color: #333;
   background-color: #d4d4d4;
   border-color: #8c8c8c;
 }
@@ -3107,7 +3107,7 @@ fieldset[disabled] .btn-default.focus {
 }
 .btn-default .badge {
   color: #fff;
-  background-color: #003056;
+  background-color: #333;
 }
 .btn-primary {
   color: #fff;

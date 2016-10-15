@@ -53,7 +53,7 @@
 
   CellLine.allTagLocations = function() {
     return CellLine.allCellLines.map(function(currentCellLine) {
-      return currentCellLine.terminal_tagged;
+      return currentCellLine.Main_terminal_tagged;
     }).filter(function(element, index, array){
       return array.indexOf(element)===index;
     });
@@ -61,7 +61,7 @@
 
   CellLine.allFluorophores = function() {
     return CellLine.allCellLines.map(function(currentCellLine) {
-      return currentCellLine.fluorescent_tag;
+      return currentCellLine.Main_fluorescent_tag;
     }).filter(function(element, index, array){
       return array.indexOf(element)===index;
     });
