@@ -63,6 +63,11 @@
   text-decoration: none;
 }
 
+.profile-summary-key{
+  display: inline-block;
+  width: 50%;
+}
+
 #article-export label {
   font-size: .8em;
   font-style: italic;
@@ -73,6 +78,13 @@
   display: none;
 }
 
+.btn{
+  margin-bottom: 10px;
+}
+
+.bg-lightgray{
+  background-color: #f2f2f2
+}
 
 @media only screen and (min-width: 1130px) {
   .subpage-nav li{

@@ -62,18 +62,30 @@
             </div>
             <div class="panel-body">
               <ul id={{cell_line_id}} class="list-group">
-                <li class="list-group-item"><span class="">Gene Symbol: </span><span class="">{{Main_gene_symbol}}</span></li>
-                <li class="list-group-item"><span class="">Gene:</span><span class=""> {{Main_gene_name}}</span></li>
+                <li class="list-group-item"><span class="profile-summary-key">Gene Symbol: </span><span class="">{{Main_gene_symbol}}</span></li>
+                <li class="list-group-item"><span class="profile-summary-key">Gene:</span><span class=""> {{Main_gene_name}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Gene ID:</span> <span class="">{{Main_gene_id}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Fluorophore:</span> <span class="">{{Main_fluorescent_tag}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Linker:</span><span class=""> {{Main_linker}}</span></li>
-                <li class="list-group-item"><span class="profile-summary-key">Plasmid Sequence:</span><span class=""> {{Main_plasmid_sequence}}</span></li>
+                <li class="list-group-item"><span class="profile-summary-key">Plasmid Sequence:</span><span class="">{{Main_plasmid_sequence}}</span></li>
 
                 </ul>
-              <div class="">
-                    <a class="btn btn-primary text-center" role="button" href="{{request_link}}">Request Line</a>
-                    <a class="btn btn-primary text-center" role="button" href="{{beta_tester}}">Be a Beta Tester</a>
+              <div class="row">
+                  <div class="col-md-12">
+                    <div class="col-lg-6">
+                      <a class="btn btn-primary btn-block" role="button" href="{{request_link}}">Request Line</a>
+                    </div>
+                    <div class="col-lg-6">
+                      <a class="btn btn-primary btn-block" role="button" href="{{beta_tester}}">Be a Beta Tester</a>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="col-md-12">
+
                     <a class="btn btn-primary btn-block" role="button" href="{{WTC_parent_line}}">WTC Parent Line</a>
+                  </div>
+                </div>
+
               </div>
             </div>
 
@@ -83,17 +95,42 @@
           </div>
         </div>
       </div>
+      <div class="col-md-8">
+        <div class="panel panel-primary">
+          <img class="" src="images/cell-image.jpg" alt="" />
+        </div>
+      </div>
     </script>
+
+    <!-- subpages templates --------------->
     <script id="editingDesign-template" type="text/x-handlebars-template">
       <div class="row">
-        <div class="col-md-4 bg-primary">
-          <ul id=editingDesign-info>
-            <li><span>NCBI Isoform:</span><span>{{EditingDesign_NCBI_isoform}}</span></li>
-            <li><span>crRNA:</span><span>{{EditingDesign_crRNA_seq}}</span></li>
-            <li><span>Plasmid sequence:</span><span>{{Main_plasmid_sequence}}</span></li>
-            <li><span>Cas9:</span><span>{{EditingDesign_cas9}}</span></li>
-          </ul>
+        <div class="col-md-4">
+          <div class="panel panel-primary bg-lightgray">
+            <div class="panel-body ">
+              <ul id=editingDesign-info class="list-group">
+                <li class="list-group-item">
+                  <span class="profile-summary-key">NCBI Isoform:</span>
+                  <span>{{EditingDesign_NCBI_isoform}}</span></li>
+                <li class="list-group-item">
+                  <span class="profile-summary-key">crRNA:</span>
+                  <span>{{EditingDesign_crRNA_seq}}</span></li>
+                <li class="list-group-item">
+                  <span class="profile-summary-key">Plasmid sequence:</span>
+                  <span>{{Main_plasmid_sequence}}</span></li>
+                <li class="list-group-item">
+                  <span class="profile-summary-key">Cas9:</span>
+                  <span>{{EditingDesign_cas9}}</span></li>
+              </ul>
+            </div>
+          </div>
         </div>
+        <div class="col-md-4">
+          <div class="panel panel-primary">
+            <img class="" src="images/cell-image.jpg" alt="" />
+          </div>
+        </div>
+
       </div>
     </script>
 
