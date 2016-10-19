@@ -37,7 +37,10 @@ footer{
   width: 80%;
   margin: auto;
   margin-top: 200px;
+}
 
+.tab-section{
+  display: none;
 }
 
 #cell-line-table {
@@ -67,13 +70,7 @@ footer{
   font-size: 1.2em;
   font-weight: bold;
   margin-bottom: 20px;
-
 }
-
-td.title{
-
-}
-
 
 @media only screen and (min-width: 640px) {
   .heading-group-h1 {

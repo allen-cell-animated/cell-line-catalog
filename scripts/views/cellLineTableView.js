@@ -8,10 +8,10 @@
       currentID=(this.id);
       console.log(currentID);
       $('#cell-line-list').hide();
-      $('#cellline-profile').fadeIn();
       var selectedCellLine = CellLine.allCellLines.find(function(ele, index, array){ return ele.cell_line_id === currentID;});
       console.log(selectedCellLine);
       cellLineProfileView.RenderProfile(selectedCellLine);
+      $('#cellline-profile').fadeIn();
     });
   };
 
@@ -44,7 +44,8 @@
 
   cellListView.handleMainNav = function() {
     $('.main-nav').on('click', '.tab', function(e) {
-      // $('.tab-content').hide();
+      $('.tab-section').hide();
+      console.log($(this).data('content'));
       $('#' + $(this).data('content')).fadeIn();
     });
     $('.main-nav .tab:first').click();
