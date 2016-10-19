@@ -4,8 +4,6 @@ img {
 
 body {
   line-height: 1.5;
-  font-size: 100%;
-  color: #838689;
 }
 
 main {
@@ -22,6 +20,11 @@ li{
   list-style: none;
 }
 
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+
 /*TEXT STYLES
 =======================================*/
 p {
@@ -36,12 +39,9 @@ address {
 =======================================*/
 
 a, a:link, a:active {
-  text-decoration: none;
-  color: #7A6A53;
 }
 
 a:hover, a:focus {
-  color: #99B2B7;
 }
 
 a:visited {

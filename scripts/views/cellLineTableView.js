@@ -5,10 +5,11 @@
 
   cellListView.handleRowSelect = function() {
     $('#cell-line-table').on('click', '.cellline',function() {
-      currentID=eval(this.id);
+      currentID=(this.id);
+      console.log(currentID);
       $('#cell-line-list').hide();
-      $('#cellline-profile').show();
-      var selectedCellLine = CellLine.allCellLines.find(function(ele, index, array){ return ele.ID === currentID});
+      $('#cellline-profile').fadeIn();
+      var selectedCellLine = CellLine.allCellLines.find(function(ele, index, array){ return ele.cell_line_id === currentID;});
       console.log(selectedCellLine);
       cellLineProfileView.RenderProfile(selectedCellLine);
     });
@@ -43,7 +44,7 @@
 
   cellListView.handleMainNav = function() {
     $('.main-nav').on('click', '.tab', function(e) {
-      $('.tab-content').hide();
+      // $('.tab-content').hide();
       $('#' + $(this).data('content')).fadeIn();
     });
     $('.main-nav .tab:first').click();
@@ -56,6 +57,7 @@
   };
 
   cellListView.renderIndexPage = function() {
+    $('#cellline-profile').hide();
     CellLine.allTagLocations().forEach(function(a){
       cellListView.createFilter(('#tagLocation-filter'), a);
 
@@ -75,7 +77,7 @@
 
   };
 
-  CellLine.updateData('../data/cell_line_catalog.json', 'cell-lines', CellLine.loadIntoObjectArray,  cellListView.renderIndexPage);
+  CellLine.updateData('../data/cell_line_catalog.json', 'cell-lines', CellLine.loadIntoObjectArray, cellListView.renderIndexPage);
 
   module.cellListView = cellListView;
 })(window);

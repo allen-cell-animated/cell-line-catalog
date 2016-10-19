@@ -2,8 +2,17 @@
   float: left;
 }
 
+.displayoff{
+  display: none;
+}
+
 .pull-right {
   float: right;
+}
+
+.btn{
+  color: #003056;
+  font-weight:700;
 }
 
 .clearfix::after {
@@ -31,6 +40,18 @@ footer{
 
 }
 
+#cell-line-table {
+  width: 70%;
+}
+
+#cell-line-table td{
+}
+
+.cellline:hover{
+  /*background-color: gray;
+  color: white;*/
+}
+
 .cellline-info{
   width:40%;
   box-sizing: border-box;
@@ -38,9 +59,18 @@ footer{
 }
 
 .profile-image{
-  width:60%;
   display: inline-block;
 
+}
+.table-head{
+  /*background-color: #D5DED9;*/
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+
+td.title{
 
 }
 

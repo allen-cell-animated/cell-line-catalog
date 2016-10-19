@@ -1,6 +1,6 @@
 (function(module) {
   function CellLine (opts) {
-    for (key in opts) {
+    for (var key in opts) {
       this[key] = opts[key];
     }
   }
@@ -53,19 +53,17 @@
 
   CellLine.allTagLocations = function() {
     return CellLine.allCellLines.map(function(currentCellLine) {
-      return currentCellLine.terminal_tagged;
+      return currentCellLine.Main_terminal_tagged;
     }).filter(function(element, index, array){
       return array.indexOf(element)===index;
-      // TODO:DONE complete this function to sum up all of the words.
     });
   };
 
   CellLine.allFluorophores = function() {
     return CellLine.allCellLines.map(function(currentCellLine) {
-      return currentCellLine.fluorescent_tag;
+      return currentCellLine.Main_fluorescent_tag;
     }).filter(function(element, index, array){
       return array.indexOf(element)===index;
-      // TODO:DONE complete this function to sum up all of the words.
     });
   };
 

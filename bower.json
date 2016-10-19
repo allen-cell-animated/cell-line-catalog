@@ -1,0 +1,22 @@
+{
+  "name": "cell-line-catalog",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Megan Riel-Mehan"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/meganrm/cell-line-catalog",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
+  }
+}
