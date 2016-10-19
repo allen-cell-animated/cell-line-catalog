@@ -44,7 +44,8 @@
 
   cellListView.handleMainNav = function() {
     $('.main-nav').on('click', '.tab', function(e) {
-      // $('.tab-content').hide();
+      $('.tab-section').hide();
+      console.log($(this).data('content'));
       $('#' + $(this).data('content')).fadeIn();
     });
     $('.main-nav .tab:first').click();
