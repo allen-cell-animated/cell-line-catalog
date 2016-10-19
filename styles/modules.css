@@ -39,6 +39,10 @@
   border-bottom: 1px solid #ccc;
 }
 
+.subpage{
+  margin-top: 10px;
+}
+
 .subpage-nav ul{
   display: block;
 }

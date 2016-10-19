@@ -8,10 +8,10 @@
       currentID=(this.id);
       console.log(currentID);
       $('#cell-line-list').hide();
-      $('#cellline-profile').fadeIn();
       var selectedCellLine = CellLine.allCellLines.find(function(ele, index, array){ return ele.cell_line_id === currentID;});
       console.log(selectedCellLine);
       cellLineProfileView.RenderProfile(selectedCellLine);
+      $('#cellline-profile').fadeIn();
     });
   };
 

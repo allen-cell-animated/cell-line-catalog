@@ -53,6 +53,7 @@
       <option value="{{Main_fluorescent_tag}}">{{Main_fluorescent_tag}}</option>
     </script>
 
+<!-- cell profile template -->
     <script id="cell-profile-info-template" type="text/x-handlebars-template">
         <h4>{{cell_line_id}}</h4>
         <div class="col-md-4">
@@ -68,28 +69,23 @@
                 <li class="list-group-item"><span class="profile-summary-key">Fluorophore:</span> <span class="">{{Main_fluorescent_tag}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Linker:</span><span class=""> {{Main_linker}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Plasmid Sequence:</span><span class="">{{Main_plasmid_sequence}}</span></li>
-
-                </ul>
-              <div class="row">
-                  <div class="col-md-12">
-                    <div class="col-lg-6">
-                      <a class="btn btn-primary btn-block" role="button" href="{{request_link}}">Request Line</a>
-                    </div>
-                    <div class="col-lg-6">
-                      <a class="btn btn-primary btn-block" role="button" href="{{beta_tester}}">Be a Beta Tester</a>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="col-md-12">
-
-                    <a class="btn btn-primary btn-block" role="button" href="{{WTC_parent_line}}">WTC Parent Line</a>
-                  </div>
+              </ul>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="col-lg-6">
+                  <a class="btn btn-primary btn-block" role="button" href="{{request_link}}">Request Line</a>
                 </div>
-
+                <div class="col-lg-6">
+                  <a class="btn btn-primary btn-block" role="button" href="{{beta_tester}}">Be a Beta Tester</a>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="col-md-12">
+                  <a class="btn btn-primary btn-block" role="button" href="{{WTC_parent_line}}">WTC Parent Line</a>
+                </div>
               </div>
             </div>
-
-
+          </div>
           <div class="panel-footer">
             <img class="" src="images/cell-image.jpg" alt="" />
           </div>
@@ -105,7 +101,7 @@
     <!-- subpages templates --------------->
     <script id="editingDesign-template" type="text/x-handlebars-template">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-sm-5">
           <div class="panel panel-primary bg-lightgray">
             <div class="panel-body ">
               <ul id=editingDesign-info class="list-group">
@@ -124,12 +120,37 @@
               </ul>
             </div>
           </div>
-        </div>
-        <div class="col-md-4">
           <div class="panel panel-primary">
-            <img class="" src="images/cell-image.jpg" alt="" />
+            <div class="panel-body ">
+              <img class="" src="images/editing-image.png" alt="" />
+            </div>
           </div>
         </div>
+        <div class="col-sm-7">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4>Expression Level</h4>
+            </div>
+            <div class="panel-body">
+              <div class="center-block image-scale">
+                <img class="" src="images/editing-expression-level.png" alt="" />
+              </div>
+            </div>
+            <div class="panel-footer">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <span class="profile-summary-key">FPKM passage 8</span>
+                  <span>35.60</span></li>
+                <li class="list-group-item">
+                  <span class="profile-summary-key">FPKM passage 14</span>
+                  <span>22.86</span></li>
+              </ul>
+
+
+            </div>
+          </div>
+        </div>
+
 
       </div>
     </script>
@@ -147,7 +168,7 @@
         <div class="icon-menu"></div>
         <ul>
           <li class="tab" data-content="cell-line-list"><a data-toggle="tab" href="#cell-line-list" class="icon-home">All Cell Lines</a></li>
-          <li class="tab" data-content="about"><a data-toggle="tab" href="#about" class="icon-address-book"> About</a></li>
+          <li class="tab" data-content="about"><a data-toggle="tab" href="#about" class="icon-address-book">About</a></li>
         </ul>
       </nav>
     </header>
@@ -229,18 +250,18 @@
           </nav>
         </div>
         <div class="subpage tab-content">
-          <div class="tab-pane active container" id="editingdesign">
+          <div class="tab-pane subpage-tab active container" id="editingdesign">
           </div>
-          <div class="tab-pane" id="genomiccharacterizations" role="tabpanel">
+          <div class="tab-pane subpage-tab" id="genomiccharacterizations" role="tabpanel">
 
           </div>
-          <div class="tab-pane" id="validation" role="tabpanel">
+          <div class="tab-pane subpage-tab" id="validation" role="tabpanel">
 
           </div>
-          <div class="tab-pane" id="stemcellcharacteristics" role="tabpanel">
+          <div class="tab-pane subpage-tab" id="stemcellcharacteristics" role="tabpanel">
 
           </div>
-          <div class="tab-pane" id="supplementaryinformation" role="tabpanel">
+          <div class="tab-pane subpage-tab" id="supplementaryinformation" role="tabpanel">
 
           </div>
         </div>
