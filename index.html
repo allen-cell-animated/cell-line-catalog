@@ -99,6 +99,8 @@
     </script>
 
     <!-- subpages templates --------------->
+    <!-- editingdesign template --------------->
+
     <script id="editingDesign-template" type="text/x-handlebars-template">
       <div class="row">
         <div class="col-sm-5">
@@ -122,7 +124,9 @@
           </div>
           <div class="panel panel-primary">
             <div class="panel-body ">
-              <img class="" src="images/editing-image.png" alt="" />
+              <div class="center-block image-scale">
+                <img class="" src="images/editing-image.png" alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -145,13 +149,172 @@
                   <span class="profile-summary-key">FPKM passage 14</span>
                   <span>22.86</span></li>
               </ul>
-
-
             </div>
           </div>
         </div>
+      </div>
+    </script>
 
+    <!-- genomiccharacterizations templates --------------->
+    <script id="genomiccharacterizations-template" type="text/x-handlebars-template">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="panel panel-primary bg-lightgray">
+            <div class="panel-body ">
+              <ul id=editingDesign-info class="list-group">
+                <li class="list-group-item">
+                  <span class="profile-summary-key">WTC baseline variants</span>
+                  <span>Link to UCSC track</span></li>
+                <li class="list-group-item">
+                  <span class="profile-summary-key">Exome Clone 1</span>
+                  <span>Link to UCSC track</span></li>
+                <li class="list-group-item">
+                  <span class="profile-summary-key">Exome Clone 1</span>
+                  <span>Addgene #/URL</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="panel panel-primary">
 
+            <div class="panel-body">
+              <div class="center-block image-scale">
+              </div>
+            </div>
+            <div class="panel-footer">
+              <h4>RNA-Seq</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4>ddPCR ratios</h4>
+            </div>
+            <div class="panel-body">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4>Allelic Sequence</h4>
+            </div>
+            <div class="panel-body">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4>Off-Target Sequencing</h4>
+            </div>
+            <div class="panel-body">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </script>
+
+    <!-- validation templates --------------->
+    <script id="validation-template" type="text/x-handlebars-template">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="thumbnail">
+            <img src="images/validation-westernblot.png">
+            <div class="caption">
+              <h3>Western Blot</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="thumbnail">
+            <img src="images/validation-localisation.png">
+            <div class="caption">
+              <h3>Localization</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </script>
+
+    <!-- stemcellcharacteristics templates --------------->
+    <script id="stemcellcharacteristics-template" type="text/x-handlebars-template">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4>Pluripotency Analysis</h4>
+            </div>
+            <div class="panel-body">
+              <div class="center-block image-scale">
+                <img class="" src="images/stemcell-analysis.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4>Karyotype Analysis</h4>
+            </div>
+            <div class="panel-body">
+              <div class="center-block image-scale">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4>Cardiomyocyte Differentiation</h4>
+            </div>
+            <div class="panel-body">
+              <div class="center-block image-scale">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </script>
+
+    <!-- supplementaryinformation templates --------------->
+    <script id="supplementaryinformation-template" type="text/x-handlebars-template">
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="panel panel-primary bg-lightgray">
+            <div class="panel-header">
+              <h4>Primers</h4>
+            </div>
+            <div class="panel-body">
+              <ul id=editingDesign-info class="list-group">
+                <li class="list-group-item">
+                  <span class="profile-summary-key">5' Junction</span>
+                  <span>F: NNNNNN</span></li>
+                <li class="list-group-item">
+                  <span class="profile-summary-key">3' Junction</span>
+                  <span>R: NNNNNN</span></li>
+                <li class="list-group-item">
+                  <span class="profile-summary-key">T7 Internal</span>
+                  <span></span></li>
+                <li class="list-group-item">
+                  <span class="profile-summary-key">ddPCR</span>
+                  <span></span></li>
+                <li class="list-group-item">
+                  <span class="profile-summary-key">Off-targets</span>
+                  <span></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </script>
 
@@ -252,16 +415,16 @@
         <div class="subpage tab-content">
           <div class="tab-pane subpage-tab active container" id="editingdesign">
           </div>
-          <div class="tab-pane subpage-tab" id="genomiccharacterizations" role="tabpanel">
+          <div class="tab-pane subpage-tab container" id="genomiccharacterizations" role="tabpanel">
 
           </div>
-          <div class="tab-pane subpage-tab" id="validation" role="tabpanel">
+          <div class="tab-pane subpage-tab container" id="validation" role="tabpanel">
 
           </div>
-          <div class="tab-pane subpage-tab" id="stemcellcharacteristics" role="tabpanel">
+          <div class="tab-pane subpage-tab container" id="stemcellcharacteristics" role="tabpanel">
 
           </div>
-          <div class="tab-pane subpage-tab" id="supplementaryinformation" role="tabpanel">
+          <div class="tab-pane subpage-tab container" id="supplementaryinformation" role="tabpanel">
 
           </div>
         </div>
