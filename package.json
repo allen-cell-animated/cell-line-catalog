@@ -2,7 +2,7 @@
   "name": "cell-line-catalog",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +23,9 @@
     "grunt-contrib-less": "^1.3.0",
     "grunt-csscomb": "^3.1.1",
     "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-request-proxy": "^2.0.0"
   }
 }
