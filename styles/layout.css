@@ -57,6 +57,14 @@ footer{
   margin-top: 200px;
 }
 
+.table-cell-line-id{
+  min-width: 80px;
+}
+
+.table-main-termial-tagged{
+  min-width: 104px;
+}
+
 .tab-section{
   display: none;
 }
