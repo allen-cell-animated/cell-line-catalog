@@ -25,6 +25,17 @@
   max-width: 80%;
 }
 
+.sub-page-tab{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#cellline-info{
+  margin-bottom: 40px;
+}
+
+
+
 #filters select {
   width: 90%;
   margin: .2em 5%;
@@ -71,6 +82,15 @@ footer{
   font-weight: bold;
   margin-bottom: 20px;
 }
+
+.text-success{
+  color: #bad636
+}
+
+.text-info{
+  color: #003056
+}
+
 
 @media only screen and (min-width: 640px) {
   .heading-group-h1 {
