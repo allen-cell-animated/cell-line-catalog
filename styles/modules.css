@@ -20,6 +20,7 @@
 .main-nav ul {
   display: none;
   padding: 0;
+  margin-right: 30px;
   list-style: none;
   clear: both;
 }
