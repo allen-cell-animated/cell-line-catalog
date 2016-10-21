@@ -30,6 +30,28 @@
   max-width: 80%;
 }
 
+.logo{
+  background-image: url(/images/logo-CLC.png)  ;
+  vertical-align: middle;
+    display: inline-block;
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
+
+.heading-group-h1 a{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    float: left;
+    vertical-align: middle;
+    overflow: hidden;
+    width: 20rem;
+    height: 80px;
+    margin-left: 20px;
+}
+
 .sub-page-tab{
   font-weight: bold;
   font-size: 16px;
