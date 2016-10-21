@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="vendor/styles/normalize.css">
     <link rel="stylesheet" href="styles/icons.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="/styles/bootstrap.min.css">
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/modules.css">
     <link rel="stylesheet" href="vendor/styles/railscasts.css">
@@ -48,20 +49,19 @@
     </header>
     <main class="clearfix">
       <section id="write" class="tab-content">
-        <h1>New Article</h1>
+        <h4>New CellLine</h4>
         <form action="#" id="new-form">
           <label>
-            <input type="text" id="article-title" placeholder="Article title" required>
-          </label>
-          <textarea id="article-body" rows="8" cols="40" required></textarea>
-          <label>
-            <input type="text" id="article-author" placeholder="Author Name" required>
+            <input type="text" id="cell-line-ID" placeholder="cell-line-id" required>
           </label>
           <label>
-            <input type="text" id="article-author-url" placeholder="Author's URL" required>
+            <input type="text" id="gene-symbol" placeholder="Gene Symbol" required>
           </label>
           <label>
-            <input type="text" id="article-category" placeholder="Category" required>
+            <input type="text" id="gene-name" placeholder="Gene Name" required>
+          </label>
+          <label>
+            <input type="text" id="gene-id" placeholder="Gene ID" required>
           </label>
           <label>
             <input type="checkbox" id="article-published"> Published

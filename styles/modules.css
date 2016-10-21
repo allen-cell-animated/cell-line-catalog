@@ -41,11 +41,20 @@
 }
 
 .subpage{
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
-.subpage-nav ul{
-  display: block;
+.subpage-nav nav{
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.subpage-nav a{
+  height: 66px;
+  vertical-align: middle;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 
@@ -99,15 +108,6 @@
 
 
 @media only screen and (min-width: 1130px) {
-  .subpage-nav li{
-    display: inline-block;
-    width: 20%;
-    float: left;
 
-  }
-
-  .main-nav ul li:hover a {
-    /*color: #29506D;*/
-  }
 
 }
