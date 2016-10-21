@@ -26,7 +26,7 @@
         <td>
           {{Main_gene_name}}
         </td>
-        <td>
+        <td class="main-gene-id-header">
           {{Main_gene_id}}
         </td>
         <td>
@@ -73,15 +73,15 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="col-lg-6">
-                  <a class="btn btn-warning btn-block" role="button" href="mailto:info@cell_line_catalog.org">Request Line</a>
+                  <a class="btn btn-warning btn-block" role="button" href="mailto:info@cell_line_catalog.org?subject=Requesting {{cell_line_id}}">Request this line</a>
                 </div>
                 <div class="col-lg-6">
-                  <a class="btn btn-warning btn-block" role="button" href="mailto:info@cell_line_catalog.org">Be a Beta Tester</a>
+                  <a class="btn btn-warning btn-block" role="button" href="mailto:info@cell_line_catalog.org?subject=Beta tester for {{cell_line_id}}">Be a beta tester</a>
                 </div>
               </div>
               <div class="col-md-12">
                 <div class="col-md-12">
-                  <a class="btn btn-warning btn-block" role="button" href="{{WTC_parent_line}}">WTC Parent Line</a>
+                  <a class="btn btn-warning btn-block" role="button" href="{{WTC_parent_line}}">Order WTC parent line</a>
                 </div>
               </div>
             </div>
@@ -323,10 +323,9 @@
     <header class="site-header clearfix">
       <nav class="main-nav clearfix">
       <section class="heading-group-h1">
-        <h1 class="text-info">
-          Cell Line Catalog
-        </h1>
-        <h2></h2>
+        <div class="back-button">
+          <a data-toggle="tab" class="logo" href="#cell-line-list"></a>
+        </div>
       </section>
         <div class="icon-menu"></div>
         <ul>
@@ -365,7 +364,7 @@
                     Gene name
                   </th>
                   <th>
-                    Gene id
+                    Gene ID
                   </th>
                   <th>
                     Ensemble ID
