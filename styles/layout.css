@@ -14,6 +14,10 @@
   font-weight:700;
 }
 
+.main-gene-id-header{
+  min-width: 70px;
+}
+
 .btn-warning:hover{
   background-color: #bad636;
   border: solid 1px #bad636;
