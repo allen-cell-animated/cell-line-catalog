@@ -78,7 +78,11 @@
 
 .profile-summary-key{
   display: inline-block;
-  width: 50%;
+  width: 45%;
+}
+.profile-summary-value{
+  display: inline-block;
+  width: 40%;
 }
 
 #article-export label {
