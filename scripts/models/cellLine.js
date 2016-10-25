@@ -6,6 +6,7 @@
   }
 
   CellLine.allCellLines = [];
+  CellLine.allCellLinesFB = [];
 
   CellLine.prototype.toHtml= function(templateid){
     var source = $(templateid).html();

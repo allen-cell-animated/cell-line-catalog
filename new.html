@@ -3,16 +3,16 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Blog</title>
-    <link rel="stylesheet" href="vendor/styles/normalize.css">
-    <link rel="stylesheet" href="styles/icons.css">
-    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="/vendor/styles/normalize.css">
+    <link rel="stylesheet" href="/styles/icons.css">
+    <!-- <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css"> -->
     <link rel="stylesheet" href="/styles/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/layout.css">
-    <link rel="stylesheet" href="styles/modules.css">
-    <link rel="stylesheet" href="vendor/styles/railscasts.css">
-    <!-- Code Fellows favicon -->
-    <link rel="icon" type="image/x-icon" href="https://i.imgur.com/7v5ASc8.png">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/modules.css">
+
+    <!-- Allen Institute favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
 
     <script id="article-template" type="text/x-handlebars-template">
       <article
@@ -33,63 +33,217 @@
     </head>
   <body>
     <header class="site-header clearfix">
-      <section class="heading-group-h1 pull-left">
-        <h1>
-          Kilovolt Blog!
-        </h1>
-        <h2>The shocking power of static pages</h2>
+      <nav class="main-nav clearfix">
+      <section class="heading-group-h1">
+        <div class="back-button">
+          <a data-toggle="tab" class="logo" href="#cell-line-list"></a>
+        </div>
       </section>
-      <nav class="main-nav">
-        <div class="icon-menu"></div>
-        <ul>
-          <li class="tab" data-content="write"><a href="#" class="icon-home"> Write</a></li>
-          <li class="tab" data-content="articles"><a href="#" class="icon-home"> Preview</a></li>
-        </ul>
+
       </nav>
     </header>
+
     <main class="clearfix">
-      <section id="write" class="tab-content">
-        <h4>New CellLine</h4>
-        <form action="#" id="new-form">
-          <label>
-            <input type="text" id="cell-line-ID" placeholder="cell-line-id" required>
-          </label>
-          <label>
-            <input type="text" id="gene-symbol" placeholder="Gene Symbol" required>
-          </label>
-          <label>
-            <input type="text" id="gene-name" placeholder="Gene Name" required>
-          </label>
-          <label>
-            <input type="text" id="gene-id" placeholder="Gene ID" required>
-          </label>
-          <label>
-            <input type="checkbox" id="article-published"> Published
-          </label>
+      <section>
+        <form id="sign-in"><h4>Sign-In</h4>
+          <input type="text" id="username" value="" placeholder="email">
+          <input type="password" id="password" value="" placeholder="password">
+          <button type="submit" id='signin' class ='button'>Sign In</button>
         </form>
       </section>
-      <section id="articles" class="tab-content">
+      <section id="write" class="tab-content">
+        <h4>New CellLine</h4>
+        <div class="container">
+          <form action="#" id="new-form" class="form-horizontal">
+            <div class="form-group">
+              <label for="cell_line_id" class="col-sm-2">Cell line ID</label>
+                <div class="col-sm-3">
+                  <input type="text" class="form-control" id="cell_line_id" placeholder="cell line ID" required>
+                </div>
+            </div>
+            <section class='entries'>
+
+            <div class="form-group">
+              <label for="Main_gene_symbol" class="col-sm-2">Gene Symbol</label>
+                <div class="col-sm-3">
+                  <input type="text" class="form-control" id="Main_gene_symbol" placeholder="Gene Symbol" >
+                </div>
+            </div>
+            <div class="form-group">
+              <label for="Main_gene_name" class="col-sm-2">Gene Name</label>
+                <div class="col-sm-3">
+                  <input type="text" class="form-control" id="Main_gene_name" placeholder="Gene Name" >
+                </div>
+            </div>
+            <div class="form-group">
+              <label for="Main_gene_id" class="col-sm-2">Gene ID</label>
+                <div class="col-sm-3">
+                <input type="text" class="form-control" id="Main_gene_id" placeholder="Gene ID" >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="Main_mrna_id" class="col-sm-2">mRNA ID</label>
+                <div class="col-sm-3">
+                <input type="text" class="form-control" id="Main_mrna_id" placeholder="mRNA ID" >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="Main_ensembl_id" class="col-sm-2">Ensemble ID</label>
+                <div class="col-sm-3">
+                <input type="text" class="form-control" id="Main_ensembl_id" placeholder="Ensemble ID" >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="Main_structure" class="col-sm-2">Structure</label>
+                <div class="col-sm-3">
+                <input type="text" class="form-control" id="Main_structure" placeholder="Structure" >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="Main_terminal_tagged" class="col-sm-2">Tag location</label>
+                <div class="col-sm-3">
+                <input type="text" class="form-control" id="Main_terminal_tagged" placeholder="C or N terminus">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="Main_fluorescent_tag" class="col-sm-2">Fluorophore</label>
+                <div class="col-sm-3">
+                <input type="text" class="form-control" id="Main_fluorescent_tag" placeholder="eg mEGFP" >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="Main_linker" class="col-sm-2">Linker</label>
+                <div class="col-sm-3">
+                <input type="text" class="form-control" id="Main_linker" placeholder="Linker" >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="Main_plasmid_sequence" class="col-sm-2">Plasmid Sequence</label>
+                <div class="col-sm-3">
+                <input type="text" class="form-control" id="Main_plasmid_sequence" placeholder="Plasmid Sequence" >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="Main_cell_line_morphology" class="col-sm-2">Morphology Image</label>
+                <div class="col-sm-3">
+                <input type="file" class="form-control image" id="Main_cell_line_morphology" placeholder="Morphology Image" >
+              </div>
+            </div>
+            <h4>Editing Design</h4>
+            <div class="form-group">
+              <label for="EditingDesign_crRNA_seq" class="col-sm-2">crRNA sequence</label>
+                <div class="col-sm-3">
+                <input type="text" class="form-control" id="EditingDesign_crRNA_seq" placeholder="crRNA sequence" >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="EditingDesign_cas9" class="col-sm-2">Cas9</label>
+                <div class="col-sm-3">
+                <input type="text" class="form-control" id="EditingDesign_cas9" placeholder="cas9" >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="EditingDesign_NCBI_isoform" class="col-sm-2">NCBI</label>
+                <div class="col-sm-3">
+                <input type="text" class="form-control" id="EditingDesign_NCBI_isoform" placeholder="NCBI isoform" >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="EditingDesign_gene_figure" class="col-sm-2">Gene figure</label>
+                <div class="col-sm-3">
+                <input type="file" class="form-control image" id="EditingDesign_gene_figure" placeholder="Gene figure" >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="EditingDesign_p14_fpkm" class="col-sm-2">p14 fpkm</label>
+                <div class="col-sm-3">
+                <input type="text" class="form-control" id="EditingDesign_p14_fpkm" placeholder="p14 fpkm" >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="EditingDesign_p18_fpkm" class="col-sm-2">p14 fpkm</label>
+                <div class="col-sm-3">
+                <input type="text" class="form-control" id="EditingDesign_p18_fpkm" placeholder="p18 fpkm" >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="EditingDesign_expression_figure" class="col-sm-2">Expression figure</label>
+                <div class="col-sm-3">
+                <input type="file" class="form-control image" id="EditingDesign_expression_figure" placeholder="Expression figure">
+              </div>
+            </div>
+            <h4>Genomic Characterization</h4>
+            <div class="form-group">
+              <label for="GenomicCharacterization_ddpcr" class="col-sm-2">DD PCR</label>
+                <div class="col-sm-3">
+                <input type="file" class="form-control spreadsheet" id="GenomicCharacterization_ddpcr" placeholder="DDPCR" >
+              </div>
+            </div>
+            <h4>Validation</h4>
+            <div class="form-group">
+              <label for="Validation_western_blot" class="col-sm-2">Western Blog</label>
+                <div class="col-sm-3">
+                <input type="file" class="form-control image" id="Validation_western_blot" placeholder="Genomic Characterization" >
+              </div>
+            </div>
+            <h4>Stem Cell Characterization</h4>
+            <div class="form-group">
+              <label for="StemCellCharacterization_pluripotency_analysis" class="col-sm-2">Flow</label>
+                <div class="col-sm-3">
+                <input type="file" class="form-control image" id="StemCellCharacterization_pluripotency_analysis" placeholder="" >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="StemCellCharacterization_karyotype" class="col-sm-2">Karyotype image</label>
+                <div class="col-sm-3">
+                <input type="file" class="form-control image" id="StemCellCharacterization_karyotype" placeholder="" >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="StemCellCharacterization_differentiation" class="col-sm-2">Differentiation</label>
+                <div class="col-sm-3">
+                <input type="file" class="form-control spreadsheet" id="StemCellCharacterization_differentiation" placeholder="Genomic Characterization" >
+              </div>
+            </div>
+            <h4>Supplementary Information</h4>
+
+            <button type="submit" name="button">Submit New Cellline</button>
+          </section>
+
+          </div>
+
+        </form>
+      </div>
 
       </section>
-      <section id="article-export">
-        <label id="export-field" for="article-json" class="pull-right">
-          <input type="text" readonly id="article-json">
-          When finalized, copy the above JSON, and paste into blogArticles.js
-        </label>
-      </section>
+
     </main>
     <footer>
-      &copy; 2016 Code Fellows | Static Blog | Happy Ipsum!
     </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDqRykRRn0r1_eF5ZZl0B98BnnSONHv4os",
+        authDomain: "cell-line-catalog-db.firebaseapp.com",
+        databaseURL: "https://cell-line-catalog-db.firebaseio.com",
+        storageBucket: "cell-line-catalog-db.appspot.com",
+        messagingSenderId: "328096498772"
+      };
+      firebase.initializeApp(config);
+    </script>
     <!-- Vendor Files -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
     <script src="/vendor/scripts/marked.js"></script>
     <script src="/vendor/scripts/highlight.pack.js"></script>
     <!-- Model Files -->
-    <script src="/scripts/models/article.js"></script>
+    <script src="/scripts/models/cellLine.js"></script>
+    <script src="/scripts/models/cellLineFB.js"></script>
+
     <!-- View Files -->
-    <script src="/scripts/views/articleView.js"></script>
-    <script src="/scripts/views/newArticle.js"></script>
-  </body>
+    <script src="/scripts/views/newCellLine.js"></script>
+
+   </body>
 </html>
