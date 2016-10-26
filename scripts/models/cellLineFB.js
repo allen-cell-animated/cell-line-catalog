@@ -20,7 +20,12 @@
     }
   };
   FirebaseallCellLines.on('value', function(snapshot) {
-    CellLine.allCellLinesFB = snapshot.val();
+    if (snapshot.val()) {
+      CellLine.allCellLinesFB = snapshot.val();
+    }
+    else {
+      CellLine.allCellLinesFB = [];
+    }
   });
 
 
