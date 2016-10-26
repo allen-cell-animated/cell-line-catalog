@@ -45,20 +45,29 @@ newCellLine.lookup = function(){
     }
     else{
       console.log('new cell line');
-      var updates = {};
       var blank = newCellLine.allAttributes.reduce(function(acc, cur){
         acc[cur] = '';
         return acc;
       },{});
-      console.log(blank);
-      var newCellLineKey = FirebaseRef.ref().child('celllines').push().key;
-      updates['/celllines/' + newCellLine.currentID] = newCellLineKey;
-      updates['/celllinesdata/' + newCellLineKey] = blank;
-      return firebase.database().ref().update(updates).then(function(snapshot){
-        newCellLine.read(CellLine.allCellLinesFB[newCellLine.currentID]);
-      });
-
+      newCellLine.write(blank);
     }
+  });
+};
+
+newCellLine.resetform = function(celllineid) {
+  console.log('setting form new cell line', celllineid);
+  $('.entries').children().remove();
+  $('footer').children().remove();
+  $('<h4>').html('Saved cell line: '+ celllineid).appendTo($('footer'));
+};
+
+newCellLine.write = function(data) {
+  var updates = {};
+  var newCellLineKey = FirebaseRef.ref().child('celllines').push().key;
+  updates['/celllines/' + newCellLine.currentID] = newCellLineKey;
+  updates['/celllinesdata/' + newCellLineKey] = data;
+  return firebase.database().ref().update(updates).then(function(snapshot){
+    newCellLine.read(CellLine.allCellLinesFB[newCellLine.currentID]);
   });
 };
 
@@ -74,12 +83,13 @@ newCellLine.submitLine = function() {
   $('#write').on('submit', newCellLine.update);
 };
 
-newCellLine.update = function() {
+newCellLine.update = function(event) {
   var celldata = newCellLine.create();
   console.log(celldata);
   var updates = {};
   var cellLineKey = CellLine.allCellLinesFB[newCellLine.currentID];
   updates['/celllinesdata/' + cellLineKey] = celldata;
+  newCellLine.resetform(newCellLine.currentID);
   return firebase.database().ref().update(updates);
 };
 

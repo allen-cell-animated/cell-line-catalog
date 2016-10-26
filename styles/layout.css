@@ -43,6 +43,10 @@
     background-repeat: no-repeat;
 
 }
+.new-header{
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 40px;
+}
 
 .heading-group-h1 a{
     display: flex;

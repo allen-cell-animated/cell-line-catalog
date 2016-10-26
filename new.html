@@ -29,11 +29,17 @@
           <div class="col-sm-5">
             <input type="text" class="form-control" id="Main_gene_name" placeholder="Gene Name" value="{{Main_gene_name}}">
           </div>
+          <div class="col-sm-5">
+            <span>{{Main_gene_name}}</span>
+          </div>
       </div>
       <div class="form-group">
         <label for="Main_gene_id" class="col-sm-2">Gene ID</label>
           <div class="col-sm-5">
           <input type="text" class="form-control" id="Main_gene_id" placeholder="Gene ID" value="{{Main_gene_id}}">
+        </div>
+        <div class="col-sm-5">
+          <span>{{Main_gene_id}}</span>
         </div>
       </div>
       <div class="form-group">
@@ -41,11 +47,17 @@
           <div class="col-sm-5">
           <input type="text" class="form-control" id="Main_mrna_id" placeholder="mRNA ID" value="{{Main_mrna_id}}">
         </div>
+        <div class="col-sm-5">
+          <span>{{Main_mrna_id}}</span>
+        </div>
       </div>
       <div class="form-group">
         <label for="Main_ensembl_id" class="col-sm-2">Ensemble ID</label>
           <div class="col-sm-5">
           <input type="text" class="form-control" id="Main_ensembl_id" placeholder="Ensemble ID" value="{{Main_ensembl_id}}">
+        </div>
+        <div class="col-sm-5">
+          <span>{{Main_ensembl_id}}</span>
         </div>
       </div>
       <div class="form-group">
@@ -53,11 +65,17 @@
           <div class="col-sm-5">
           <input type="text" class="form-control" id="Main_structure" placeholder="Structure" value="{{Main_structure}}">
         </div>
+        <div class="col-sm-5">
+          <span>{{Main_structure}}</span>
+        </div>
       </div>
       <div class="form-group">
         <label for="Main_terminal_tagged" class="col-sm-2">Tag location</label>
           <div class="col-sm-5">
           <input type="text" class="form-control" id="Main_terminal_tagged" placeholder="C or N terminus" value="{{Main_terminal_tagged}}">
+        </div>
+        <div class="col-sm-5">
+          <span>{{Main_terminal_tagged}}</span>
         </div>
       </div>
       <div class="form-group">
@@ -65,17 +83,26 @@
           <div class="col-sm-5">
           <input type="text" class="form-control" id="Main_fluorescent_tag" placeholder="eg mEGFP" value="{{Main_fluorescent_tag}}">
         </div>
+        <div class="col-sm-5">
+          <span>{{Main_fluorescent_tag}}</span>
+        </div>
       </div>
       <div class="form-group">
         <label for="Main_linker" class="col-sm-2">Linker</label>
           <div class="col-sm-5">
           <input type="text" class="form-control" id="Main_linker" placeholder="Linker" value="{{Main_linker}}">
         </div>
+        <div class="col-sm-5">
+          <span>{{Main_linker}}</span>
+        </div>
       </div>
       <div class="form-group">
         <label for="Main_plasmid_sequence" class="col-sm-2">Plasmid Sequence</label>
           <div class="col-sm-5">
           <input type="text" class="form-control" id="Main_plasmid_sequence" placeholder="Plasmid Sequence" value="{{Main_plasmid_sequence}}">
+        </div>
+        <div class="col-sm-5">
+          <span>{{Main_plasmid_sequence}}</span>
         </div>
       </div>
       <div class="form-group">
@@ -84,24 +111,36 @@
           <input type="file" class="form-control image" id="Main_cell_line_morphology" placeholder="Morphology Image">
           <input type="text" class="form-control" id="Main_cell_line_morphology_url" value="{{Main_cell_line_morphology_url}}">
         </div>
+        <div class="col-sm-5">
+          <span>{{Main_cell_line_morphology_url}}</span>
+        </div>
       </div>
       <h4>Editing Design</h4>
       <div class="form-group">
         <label for="EditingDesign_crRNA_seq" class="col-sm-2">crRNA sequence</label>
           <div class="col-sm-5">
-          <input type="text" class="form-control" id="EditingDesign_crRNA_seq" placeholder="crRNA sequence" >
+          <input type="text" class="form-control" id="EditingDesign_crRNA_seq" placeholder="crRNA sequence" value="{{EditingDesign_crRNA_seq}}">
+        </div>
+        <div class="col-sm-5">
+          <span>{{EditingDesign_crRNA_seq}}</span>
         </div>
       </div>
       <div class="form-group">
         <label for="EditingDesign_cas9" class="col-sm-2">Cas9</label>
           <div class="col-sm-5">
-          <input type="text" class="form-control" id="EditingDesign_cas9" placeholder="cas9" >
+          <input type="text" class="form-control" id="EditingDesign_cas9" placeholder="cas9" value="{{EditingDesign_cas9}}">
+        </div>
+        <div class="col-sm-5">
+          <span>{{EditingDesign_cas9}}</span>
         </div>
       </div>
       <div class="form-group">
         <label for="EditingDesign_NCBI_isoform" class="col-sm-2">NCBI</label>
           <div class="col-sm-5">
-          <input type="text" class="form-control" id="EditingDesign_NCBI_isoform" placeholder="NCBI isoform" >
+          <input type="text" class="form-control" id="EditingDesign_NCBI_isoform" placeholder="NCBI isoform" value="{{EditingDesign_NCBI_isoform}}">
+        </div>
+        <div class="col-sm-5">
+          <span>{{EditingDesign_NCBI_isoform}}</span>
         </div>
       </div>
       <div class="form-group">
@@ -109,23 +148,35 @@
           <div class="col-sm-5">
           <input type="file" class="form-control image" id="EditingDesign_gene_figure" placeholder="Gene figure" >
         </div>
+        <div class="col-sm-5">
+          <span>{{EditingDesign_gene_figure_url}}</span>
+        </div>
       </div>
       <div class="form-group">
         <label for="EditingDesign_p14_fpkm" class="col-sm-2">p14 fpkm</label>
           <div class="col-sm-5">
-          <input type="text" class="form-control" id="EditingDesign_p14_fpkm" placeholder="p14 fpkm" >
+          <input type="text" class="form-control" id="EditingDesign_p14_fpkm" placeholder="p14 fpkm" value="{{EditingDesign_p14_fpkm}}">
+        </div>
+        <div class="col-sm-5">
+          <span>{{EditingDesign_p14_fpkm}}</span>
         </div>
       </div>
       <div class="form-group">
         <label for="EditingDesign_p18_fpkm" class="col-sm-2">p14 fpkm</label>
           <div class="col-sm-5">
-          <input type="text" class="form-control" id="EditingDesign_p18_fpkm" placeholder="p18 fpkm" >
+          <input type="text" class="form-control" id="EditingDesign_p18_fpkm" placeholder="p18 fpkm" value="{{EditingDesign_p18_fpkm}}">
+        </div>
+        <div class="col-sm-5">
+          <span>{{EditingDesign_p18_fpkm}}</span>
         </div>
       </div>
       <div class="form-group">
         <label for="EditingDesign_expression_figure" class="col-sm-2">Expression figure</label>
           <div class="col-sm-5">
           <input type="file" class="form-control image" id="EditingDesign_expression_figure" placeholder="Expression figure">
+        </div>
+        <div class="col-sm-5">
+          <span>{{EditingDesign_expression_figure_url}}</span>
         </div>
       </div>
       <h4>Genomic Characterization</h4>
@@ -167,25 +218,39 @@
     </script>
     </head>
   <body>
-    <header class="site-header clearfix">
-      <nav class="main-nav clearfix">
-      <section class="heading-group-h1">
-        <div class="back-button">
-          <a data-toggle="tab" class="logo" href="#cell-line-list"></a>
-        </div>
-      </section>
+    <header class="new-header clearfix ">
+      <div class="row">
 
-      </nav>
+        <nav class="main-nav clearfix col-sm-5">
+          <section class="heading-group-h1">
+            <div class="back-button">
+              <a data-toggle="tab" class="logo" href="#cell-line-list"></a>
+            </div>
+          </section>
+        </nav>
+        <div class="">
+          <section class="col-sm-6 pull right">
+            <form id="sign-in" class="form-horizontal"><h4>Sign-In</h4>
+              <div class="form-group ">
+                <label for=""></label>
+                  <div class="col-sm-5">
+                    <input type="text" class="form-control" id="username" value="" placeholder="email">
+                  </div>
+                  <div class="col-sm-5">
+                    <input type="password" class="form-control" id="password" value="" placeholder="password">
+                  </div>
+                <button type="submit" id='signin' class ='btn btn-warning'>Sign In</button>
+              </div>
+            </form>
+          </section>
+        </div>
+
+      </div>
+
     </header>
 
     <main class="clearfix">
-      <section>
-        <form id="sign-in"><h4>Sign-In</h4>
-          <input type="text" id="username" value="" placeholder="email">
-          <input type="password" id="password" value="" placeholder="password">
-          <button type="submit" id='signin' class ='button'>Sign In</button>
-        </form>
-      </section>
+
       <section id="write" class="tab-content">
         <h4>New CellLine</h4>
         <div class="container">
@@ -198,8 +263,6 @@
                 <div class="col-sm-5">
                   <button type="button" class="btn btn-warning" name="button" id="checkcellID">Submit Cell Line name</button>
                 </div>
-
-
             </div>
             <section class='entries'>
 
