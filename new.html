@@ -164,7 +164,7 @@
         </div>
       </div>
       <div class="form-group">
-        <label for="EditingDesign_p18_fpkm" class="col-sm-2">p14 fpkm</label>
+        <label for="EditingDesign_p18_fpkm" class="col-sm-2">p18 fpkm</label>
           <div class="col-sm-5">
           <input type="text" class="form-control" id="EditingDesign_p18_fpkm" placeholder="p18 fpkm" value="{{EditingDesign_p18_fpkm}}">
         </div>
@@ -190,7 +190,7 @@
       </div>
       <h4>Validation</h4>
       <div class="form-group">
-        <label for="Validation_western_blot" class="col-sm-2">Western Blog</label>
+        <label for="Validation_western_blot" class="col-sm-2">Western Blot</label>
           <div class="col-sm-5">
           <input type="file" class="form-control image" id="Validation_western_blot" placeholder="Genomic Characterization" >
         </div>
@@ -284,21 +284,20 @@
       <section id="write" class="tab-content">
         <h4>New CellLine</h4>
         <div class="container">
-          <form action="#" id="new-form" class="form-horizontal">
+          <form action="#" id="lookup-id" class="form-horizontal">
             <div class="form-group">
               <label for="cell_line_id" class="col-sm-2">Cell line ID</label>
                 <div class="col-sm-5">
                   <input type="text" class="form-control" id="cell_line_id" placeholder="enter a new or exsisting ID" required>
                 </div>
                 <div class="col-sm-5">
-                  <button type="button" class="btn btn-warning" name="button" id="checkcellID">Look up cell line ID</button>
+                  <button type="submit" class="btn btn-warning" name="button" id="checkcellID">Look up cell line ID</button>
                 </div>
-            </div>
+              </div>
+            </form>
+          <form action="#" id="new-form" class="form-horizontal">
             <section class='entries'>
-
-
-          </section>
-
+            </section>
           </div>
 
         </form>

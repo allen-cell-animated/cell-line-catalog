@@ -41,8 +41,8 @@
   };
 
   newCellLine.lookup = function(){
-    $('#checkcellID').on('click', function(){
-      newCellLine.currentID = $(this).parent().siblings().find('input').val();
+    $('#lookup-id').on('submit', function(){
+      newCellLine.currentID = $(this).find('#cell_line_id').val();
       $('.entries').children().remove();
       if (CellLine.allCellLinesFB[newCellLine.currentID]) {
         console.log('exsiting cell line');
@@ -50,11 +50,10 @@
       }
       else{
         console.log('new cell line');
-        var blank = newCellLine.allAttributes.reduce(function(acc, cur){
-          acc[cur] = '';
-          return acc;
-        },{});
-        newCellLine.write(blank);
+        var data = {
+          cell_line_id :newCellLine.currentID
+        }
+        newCellLine.write(data);
       }
     });
   };
@@ -85,10 +84,11 @@
   };
 
   newCellLine.submitLine = function() {
-    $('#write').on('submit', newCellLine.update);
+    $('#new-form').on('submit', newCellLine.update);
   };
 
   newCellLine.update = function(event) {
+    event.preventDefault();
     var celldata = newCellLine.create();
     console.log(celldata);
     var updates = {};
