@@ -1,21 +1,10 @@
 (function(module) {
 
-  FirebaseRef = firebase.database();
-  FirebaseallCellLines = FirebaseRef.ref('/celllines');
-// Create a root reference
-  FirebaseRef.storageRef = firebase.storage().ref();
+  firebaseLocal = firebase.database();
+  FirebaseallCellLines = firebaseLocal.ref('/celllines');
+  firebaseLocal.storageRef = firebase.storage().ref();
 
-  FirebaseRef.signinHandler = function(){
-    $('#sign-in').submit(signin);
-    function signin() {
-      event.preventDefault();
-      var email    = $('#sign-in #username').val();
-      var password = $('#sign-in #password').val();
-      FirebaseRef.signin(email, password);
-    }
-  };
-
-  FirebaseRef.signin =function(email, password){
+  firebaseLocal.signin =function(email, password){
     firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
     // Handle Errors here.
       var errorCode = error.code;
@@ -26,7 +15,7 @@
   };
 
 
-  FirebaseRef.register = function(email, password){
+  firebaseLocal.register = function(email, password){
     firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
     // Handle Errors here.
       var errorCode = error.code;
@@ -46,54 +35,13 @@
     });
   };
 
-  FirebaseRef.registerHandler = function(){
-    $('#sign-up').submit(signup);
-    function signup() {
-      event.preventDefault();
-      var email    = $('#sign-up #username').val();
-      var password = $('#sign-up #password').val();
-      var color = $('#sign-up #robot-test').val();
-      if (color === 'purple') {
-        console.log('registering user', email);
-        FirebaseRef.register(email, password);
-      }
-      else{
-        $('#sign-up .errors').empty();
-        $('#sign-up .errors').text('Sorry, please answer question correctly');
-      }
-    }
-  };
-
-  FirebaseRef.signinRegisterSwitch = function(){
-    $('#new-user').on('click', function(){
-      $('#sign-in').addClass('displayoff');
-      $('#sign-up').removeClass('displayoff');
-    });
-  };
-
-  FirebaseRef.signOutHandler = function(){
-    $('#signout').on('click', function(){
-      $('.current-user h4').empty();
-      $('.current-user').addClass('displayoff');
-      FirebaseRef.signOut();
-    })
-  }
-
-  FirebaseRef.signOut = function(){
-    firebase.auth().signOut().then(function() {
-    // Sign-out successful.
-    }, function(error) {
-    // An error happened.
-    });
-  }
-
-
 
   FirebaseallCellLines.on('value', function(snapshot) {
     if (snapshot.val()) {
       CellLine.allCellLinesFB = snapshot.val();
     }
     else {
+      console.log('nothing from firebase');
       CellLine.allCellLinesFB = [];
     }
   });
@@ -104,14 +52,17 @@
       $('.current-user').removeClass('displayoff');
       $('.current-user h4').text('Signed in as: ' + user.email);
     } else {
-      $('#sign-in').removeClass('displayoff')
+      $('#sign-in').removeClass('displayoff');
     }
   });
 
+  firebaseLocal.signOut = function(){
+    firebase.auth().signOut().then(function() {
+    // Sign-out successful.
+    }, function(error) {
+    // An error happened.
+    });
+  };
 
-  FirebaseRef.signOutHandler();
-  FirebaseRef.registerHandler();
-  FirebaseRef.signinRegisterSwitch();
-  FirebaseRef.signinHandler();
-  module.FirebaseRef = FirebaseRef;
+  module.firebaseLocal = firebaseLocal;
 })(window);
