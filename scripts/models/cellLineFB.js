@@ -4,6 +4,17 @@
   FirebaseallCellLines = firebaseLocal.ref('/celllines');
   firebaseLocal.storageRef = firebase.storage().ref();
 
+  FirebaseallCellLines.on('value', function(snapshot) {
+    if (snapshot.val()) {
+      CellLine.allCellLinesFB = snapshot.val();
+    }
+    else {
+      console.log('nothing from firebase');
+      CellLine.allCellLinesFB = [];
+    }
+  });
+
+
   firebaseLocal.signin =function(email, password){
     firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
     // Handle Errors here.
@@ -36,15 +47,7 @@
   };
 
 
-  FirebaseallCellLines.on('value', function(snapshot) {
-    if (snapshot.val()) {
-      CellLine.allCellLinesFB = snapshot.val();
-    }
-    else {
-      console.log('nothing from firebase');
-      CellLine.allCellLinesFB = [];
-    }
-  });
+
 
   firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
