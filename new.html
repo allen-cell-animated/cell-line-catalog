@@ -232,7 +232,8 @@
         </nav>
         <div class="">
           <section class="col-sm-6 pull right">
-            <form id="sign-in" class="form-horizontal"><h4>Sign-In</h4>
+            <form id="sign-in" class="user-forms form-horizontal">
+              <h4>Sign-In</h4>
               <div class="form-group ">
                 <label for=""></label>
                   <div class="col-sm-5">
@@ -243,7 +244,34 @@
                   </div>
                 <button type="submit" id='signin' class ='btn btn-warning'>Sign In</button>
               </div>
+              <button class="btn btn-xs btn-warning" type="button" name="button" id="new-user">New User? Register</button>
             </form>
+
+            <form id="sign-up" class="user-forms form-horizontal displayoff"><h4>Sign-Up</h4>
+              <div class="form-group ">
+                <label for=""></label>
+                  <div class="col-sm-5">
+                    <input type="text" class="form-control" id="username" value="" placeholder="email">
+                  </div>
+                  <div class="col-sm-5">
+                    <input type="password" class="form-control" id="password" value="" placeholder="password">
+                  </div>
+
+                <button type="submit" id='signin' class ='btn btn-warning'>Sign Up</button>
+                <div class="form-group">
+                  <label for="robot-test" class="col-sm-5">What color is the 5th floor?</label>
+                  <div class="col-sm-5">
+                    <input type="text" class="form-control" id="robot-test" value="" placeholder="I am not a robot">
+                    </div>
+                  </div>
+              </div>
+              <p class='errors'>
+              </p>
+            </form>
+            <div class="current-user displayoff">
+              <h4></h4>
+                <button class="btn btn-xs btn-warning" type="button" name="button" id="signout">Sign Out</button>
+            </div>
           </section>
         </div>
 
