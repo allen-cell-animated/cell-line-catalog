@@ -20,6 +20,14 @@
       }).then(function(){console.log('signedin');});
     }
   };
+
+  FirebaseRef.register = function(){
+    firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
+    // Handle Errors here.
+    var errorCode = error.code;
+    var errorMessage = error.message;
+  // ...
+});
   FirebaseallCellLines.on('value', function(snapshot) {
     if (snapshot.val()) {
       CellLine.allCellLinesFB = snapshot.val();
@@ -29,7 +37,7 @@
     }
   });
 
-
+  
 
   FirebaseRef.signin();
   module.FirebaseRef = FirebaseRef;
