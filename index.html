@@ -21,16 +21,7 @@
           {{cell_line_id}}
         </td>
         <td>
-          {{Main_gene_symbol}}
-        </td>
-        <td>
           {{Main_gene_name}}
-        </td>
-        <td class="main-gene-id-header">
-          {{Main_gene_id}}
-        </td>
-        <td>
-          {{Main_ensembl_id}}
         </td>
         <td>
           {{Main_structure}}
@@ -41,9 +32,7 @@
         <td>
           {{Main_fluorescent_tag}}
         </td>
-        <td>
-          {{Main_linker}}
-        </td>
+
       </tr>
     </script>
     <script id="tag-filter-template" type="text/x-handlebars-template">
@@ -64,9 +53,9 @@
 
             <div class="panel-body">
               <ul id={{cell_line_id}} class="list-group">
-                <li class="list-group-item"><span class="profile-summary-key">Gene Symbol: </span><span class="profile-summary-value">{{Main_gene_symbol}}</span></li>
-                <li class="list-group-item"><span class="profile-summary-key">Gene:</span><span class="profile-summary-key"> {{Main_gene_name}}</span></li>
-                <li class="list-group-item"><span class="profile-summary-key">Gene ID:</span> <span class="profile-summary-value">{{Main_gene_id}}</span></li>
+                <li class="list-group-item"><span class="profile-summary-key">Gene: </span><span class="profile-summary-value">{{Main_gene_name}}</span></li>
+                <li class="list-group-item"><span class="profile-summary-key">Gene symbol:</span> <span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id}}">{{Main_gene_symbol}}</a></span></li>
+                <li class="list-group-item"><span class="profile-summary-key">mRNA:</span> <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id}}">{{Main_mrna_id}}</a></span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Fluorophore:</span> <span class="profile-summary-value">{{Main_fluorescent_tag}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Linker:</span><span class="profile-summary-value"> {{Main_linker}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Plasmid Sequence:</span><span class="profile-summary-value">{{Main_plasmid_sequence}}</span></li>
@@ -87,14 +76,23 @@
               </div>
             </div>
           </div>
-          <div class="panel-footer">
-            <img class="" src="images/cell-image.jpg" alt="" />
-          </div>
+
         </div>
       </div>
       <div class="col-md-8">
         <div class="panel panel-primary">
-          <img class="" src="images/cell-image.jpg" alt="" />
+          <img class="morphology-main" src="images/cell-image.jpg" alt="" />
+          <div class="panel-footer">
+            <div class="row">
+              <div class = "col-md-6">
+                <a href="#" class="thumbnails"><img class="active morphology-thumbnail" src="images/cell-image.jpg" alt="" /></a>
+              </div>
+              <div class = "col-md-6">
+                <a href="#" class="thumbnails"><img class="morphology-thumbnail" src="images/clone_morphology.jpg" alt="" /></a>
+              </div>
+            </div>
+            <span>Colonies at 10X magnification 3 after plating.</span>
+          </div>
         </div>
       </div>
     </script>
@@ -104,7 +102,7 @@
 
     <script id="editingDesign-template" type="text/x-handlebars-template">
       <div class="row">
-        <div class="col-sm-5">
+        <div class="col-sm-6">
           <div class="panel panel-primary bg-lightgray">
             <div class="panel-body ">
               <ul id=editingDesign-info class="list-group">
@@ -123,22 +121,15 @@
               </ul>
             </div>
           </div>
-          <div class="panel panel-primary">
-            <div class="panel-body ">
-              <div class="center-block image-scale">
-                <img class="" src="images/editing-image.png" alt="" />
-              </div>
-            </div>
-          </div>
         </div>
-        <div class="col-sm-7">
+        <div class="col-sm-6">
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h4>Expression Level</h4>
             </div>
             <div class="panel-body">
               <div class="center-block image-scale">
-                <img class="" src="images/editing-expression-level.png" alt="" />
+                <img class="" src="images/expression.jpg" alt="" />
               </div>
             </div>
             <div class="panel-footer">
@@ -153,7 +144,25 @@
             </div>
           </div>
         </div>
+
       </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4>GFP insert</h4>
+            </div>
+            <div class="panel-body ">
+              <div class="center-block image-scale">
+                <img class="" src="images/gfp_insert.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        </div>
     </script>
 
     <!-- genomiccharacterizations templates --------------->
@@ -207,6 +216,9 @@
               <h4>Allelic Sequence</h4>
             </div>
             <div class="panel-body">
+              <div class="center-block image-scale">
+                <img class="" src="{{GenomicCharacterization_allelic_image}}" alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -229,18 +241,29 @@
     <script id="validation-template" type="text/x-handlebars-template">
       <div class="row">
         <div class="col-sm-6">
-          <div class="thumbnail">
-            <img src="images/validation-westernblot.png">
-            <div class="caption">
-              <h3>Western Blot</h3>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4>Western Blot</h4>
+            </div>
+            <div class="panel-body ">
+              <div class="center-block image-scale">              <img src="images/validation-westernblot.png">
+              </div>
+              <div class="caption">
+                <h4>Western Blot methods</h4>
+                <p>{{Validation_western_blot_caption}}</p>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-sm-6">
-          <div class="thumbnail">
-            <img src="images/validation-localisation.png">
-            <div class="caption">
-              <h3>Localization</h3>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4>Localization</h4>
+            </div>
+            <div class="panel-body ">
+              <div class="center-block image-scale">
+                <img class="" src="images/Validation/Tubulin-clone-105-IF-100416.jpg" alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -253,22 +276,11 @@
         <div class="col-sm-6">
           <div class="panel panel-primary">
             <div class="panel-heading">
-              <h4>Pluripotency Analysis</h4>
-            </div>
-            <div class="panel-body">
-              <div class="center-block image-scale">
-                <img class="" src="images/stemcell-analysis.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
               <h4>Karyotype Analysis</h4>
             </div>
             <div class="panel-body">
               <div class="center-block image-scale">
+                <img class="" src="images/Karyotype.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -279,8 +291,25 @@
               <h4>Cardiomyocyte Differentiation</h4>
             </div>
             <div class="panel-body">
-              <div class="center-block image-scale">
-              </div>
+              <table class="table table-hover table-striped">
+                <thead>
+                  <tr>
+                    <th>Clone</th>
+                    <th>cTnT + cardiomyocytes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>cl101</td>
+                    <td>90%</td>
+                  </tr>
+                  <tr>
+                    <td>cl105</td>
+                    <td>92%</td>
+                  </tr>
+                </tbody>
+
+              </table>
             </div>
           </div>
         </div>
@@ -355,20 +384,11 @@
             <table class="table table-hover table-striped">
               <thead class='text-info'>
                 <tr>
-                  <th >
+                  <th>
                     ID
-                  </th>
-                  <th >
-                    Gene symbol
                   </th>
                   <th>
                     Gene name
-                  </th>
-                  <th>
-                    Gene ID
-                  </th>
-                  <th>
-                    Ensemble ID
                   </th>
                   <th>
                     Structure
@@ -378,9 +398,6 @@
                   </th>
                   <th>
                     Fluorophore
-                  </th>
-                  <th>
-                    Linker
                   </th>
                 </tr>
               </thead>

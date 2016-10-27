@@ -17,7 +17,7 @@
         var errorMessage = error.message;
         console.log(errorMessage);
       // ...
-      });
+      }).then(function(){console.log('signedin');});
     }
   };
   FirebaseallCellLines.on('value', function(snapshot) {
