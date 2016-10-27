@@ -41,7 +41,8 @@
   };
 
   newCellLine.lookup = function(){
-    $('#lookup-id').on('submit', function(){
+    $('#lookup-id').on('submit', function(event){
+      event.preventDefault();
       newCellLine.currentID = $(this).find('#cell_line_id').val();
       $('.entries').children().remove();
       if (CellLine.allCellLinesFB[newCellLine.currentID]) {
