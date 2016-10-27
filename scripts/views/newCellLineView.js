@@ -63,7 +63,7 @@ newCellLine.resetform = function(celllineid) {
 
 newCellLine.write = function(data) {
   var updates = {};
-  var newCellLineKey = FirebaseRef.ref().child('celllines').push().key;
+  var newCellLineKey = firebaseLocal.ref().child('celllines').push().key;
   updates['/celllines/' + newCellLine.currentID] = newCellLineKey;
   updates['/celllinesdata/' + newCellLineKey] = data;
   return firebase.database().ref().update(updates).then(function(snapshot){
@@ -102,7 +102,7 @@ newCellLine.uploadImages = function() {
       contentType: 'image'
     };
     console.log('Stored ' + cellLineID + '/' + this.id + '/' + file.name);
-    var uploadTask = FirebaseRef.storageRef.child('images/' +
+    var uploadTask = firebaseLocal.storageRef.child('images/' +
     cellLineID + '/' + this.id + '/' +file.name).put(file, metadata);
 
     uploadTask.on(firebase.storage.TaskEvent.STATE_CHANGED, // or 'state_changed'
