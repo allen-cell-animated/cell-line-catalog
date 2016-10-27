@@ -23,6 +23,7 @@
     "StemCellCharacterization_pluripotency_analysis": "flow_example.xlsx",
     "StemCellCharacterization_karyotype": "Karyotype.jpg",
     "StemCellCharacterization_differentiation": "differentiation.xlsx",
+    "Validation_western_blot_caption":"Whole cells lysate were extracted from AICS000 and AICS012 cells using M-PER buffer supplemented with protease inhibitors and nuclease. 5 μg whole lysate was separated on 4-12% Bolt Bis-Tris Plus gels and transferred onto 0.45 μm nitrocellulose membranes. Untagged (indicated with dashed boxes) and GFP-tagged (indicated with solid boxes) alpha tubulin was detected using (A) mouse monoclonal anti-alpha tubulin antibody (ThermoFisher #62204; 1:10,000 in PBS-T with 5% milk, 2 hrs at room temperature) and (B) mouse monoclonal anti-GFP antibody (Sigma-Aldrich #11814460001; 1:250 in PBS-T with 5% milk, 2hrs at room temperature). Beta actin (indicated in with dotted boxes) was used as loading control (mouse monoclonal anti- beta actin; ThermoFisher, #MA5-15739; 1:10,000 in PBS-T with 5% milk, 2hrs at room temperature). A goat polyclonal anti-mouse Alexa 654-conjugated secondary antibody was used (1:10,000 in in PBS-T with 5% milk, 1.5 hrs at room temperature) and the blots were imaged using ChemiDoc MP system (BioRad). AICS012 final clones are indicated in bold.",
     "": ""
   },
   {
@@ -49,6 +50,7 @@
     "StemCellCharacterization_pluripotency_analysis": "N",
     "StemCellCharacterization_karyotype": "N",
     "StemCellCharacterization_differentiation": "N",
+    "Validation_western_blot_caption":"Whole cells lysate were extracted from AICS000 and AICS012 cells using M-PER buffer supplemented with protease inhibitors and nuclease. 5 μg whole lysate was separated on 4-12% Bolt Bis-Tris Plus gels and transferred onto 0.45 μm nitrocellulose membranes. Untagged (indicated with dashed boxes) and GFP-tagged (indicated with solid boxes) alpha tubulin was detected using (A) mouse monoclonal anti-alpha tubulin antibody (ThermoFisher #62204; 1:10,000 in PBS-T with 5% milk, 2 hrs at room temperature) and (B) mouse monoclonal anti-GFP antibody (Sigma-Aldrich #11814460001; 1:250 in PBS-T with 5% milk, 2hrs at room temperature). Beta actin (indicated in with dotted boxes) was used as loading control (mouse monoclonal anti- beta actin; ThermoFisher, #MA5-15739; 1:10,000 in PBS-T with 5% milk, 2hrs at room temperature). A goat polyclonal anti-mouse Alexa 654-conjugated secondary antibody was used (1:10,000 in in PBS-T with 5% milk, 1.5 hrs at room temperature) and the blots were imaged using ChemiDoc MP system (BioRad). AICS012 final clones are indicated in bold.",
     "": "N"
   },
   {
@@ -75,6 +77,7 @@
     "StemCellCharacterization_pluripotency_analysis": "N",
     "StemCellCharacterization_karyotype": "N",
     "StemCellCharacterization_differentiation": "N",
+    "Validation_western_blot_caption":"Whole cells lysate were extracted from AICS000 and AICS012 cells using M-PER buffer supplemented with protease inhibitors and nuclease. 5 μg whole lysate was separated on 4-12% Bolt Bis-Tris Plus gels and transferred onto 0.45 μm nitrocellulose membranes. Untagged (indicated with dashed boxes) and GFP-tagged (indicated with solid boxes) alpha tubulin was detected using (A) mouse monoclonal anti-alpha tubulin antibody (ThermoFisher #62204; 1:10,000 in PBS-T with 5% milk, 2 hrs at room temperature) and (B) mouse monoclonal anti-GFP antibody (Sigma-Aldrich #11814460001; 1:250 in PBS-T with 5% milk, 2hrs at room temperature). Beta actin (indicated in with dotted boxes) was used as loading control (mouse monoclonal anti- beta actin; ThermoFisher, #MA5-15739; 1:10,000 in PBS-T with 5% milk, 2hrs at room temperature). A goat polyclonal anti-mouse Alexa 654-conjugated secondary antibody was used (1:10,000 in in PBS-T with 5% milk, 1.5 hrs at room temperature) and the blots were imaged using ChemiDoc MP system (BioRad). AICS012 final clones are indicated in bold.",
     "": "N"
   },
   {
@@ -101,6 +104,7 @@
     "StemCellCharacterization_pluripotency_analysis": "N",
     "StemCellCharacterization_karyotype": "N",
     "StemCellCharacterization_differentiation": "N",
+    "Validation_western_blot_caption":"Whole cells lysate were extracted from AICS000 and AICS012 cells using M-PER buffer supplemented with protease inhibitors and nuclease. 5 μg whole lysate was separated on 4-12% Bolt Bis-Tris Plus gels and transferred onto 0.45 μm nitrocellulose membranes. Untagged (indicated with dashed boxes) and GFP-tagged (indicated with solid boxes) alpha tubulin was detected using (A) mouse monoclonal anti-alpha tubulin antibody (ThermoFisher #62204; 1:10,000 in PBS-T with 5% milk, 2 hrs at room temperature) and (B) mouse monoclonal anti-GFP antibody (Sigma-Aldrich #11814460001; 1:250 in PBS-T with 5% milk, 2hrs at room temperature). Beta actin (indicated in with dotted boxes) was used as loading control (mouse monoclonal anti- beta actin; ThermoFisher, #MA5-15739; 1:10,000 in PBS-T with 5% milk, 2hrs at room temperature). A goat polyclonal anti-mouse Alexa 654-conjugated secondary antibody was used (1:10,000 in in PBS-T with 5% milk, 1.5 hrs at room temperature) and the blots were imaged using ChemiDoc MP system (BioRad). AICS012 final clones are indicated in bold.",
     "": "N"
   },
   {
@@ -127,6 +131,7 @@
     "StemCellCharacterization_pluripotency_analysis": "N",
     "StemCellCharacterization_karyotype": "N",
     "StemCellCharacterization_differentiation": "N",
+    "Validation_western_blot_caption":"Whole cells lysate were extracted from AICS000 and AICS012 cells using M-PER buffer supplemented with protease inhibitors and nuclease. 5 μg whole lysate was separated on 4-12% Bolt Bis-Tris Plus gels and transferred onto 0.45 μm nitrocellulose membranes. Untagged (indicated with dashed boxes) and GFP-tagged (indicated with solid boxes) alpha tubulin was detected using (A) mouse monoclonal anti-alpha tubulin antibody (ThermoFisher #62204; 1:10,000 in PBS-T with 5% milk, 2 hrs at room temperature) and (B) mouse monoclonal anti-GFP antibody (Sigma-Aldrich #11814460001; 1:250 in PBS-T with 5% milk, 2hrs at room temperature). Beta actin (indicated in with dotted boxes) was used as loading control (mouse monoclonal anti- beta actin; ThermoFisher, #MA5-15739; 1:10,000 in PBS-T with 5% milk, 2hrs at room temperature). A goat polyclonal anti-mouse Alexa 654-conjugated secondary antibody was used (1:10,000 in in PBS-T with 5% milk, 1.5 hrs at room temperature) and the blots were imaged using ChemiDoc MP system (BioRad). AICS012 final clones are indicated in bold.",
     "": "N"
   },
   {

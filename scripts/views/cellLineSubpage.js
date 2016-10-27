@@ -9,12 +9,13 @@
     });
   };
 
-  cellLineProfileView.handleSubNav = function() {
-    // $('.subpage-nav').on('click', '.nav-item', function(e) {
-    //   e.preventDefault();
-    //   $(this).tab('show');
-    // });
-    // $('.sub-nav .tab:first').click();
+  cellLineProfileView.gallery = function() {
+    $('.thumbnails').on('click', '.morphology-thumbnail', function(e) {
+      e.preventDefault();
+      $('.morphology-main').attr('src', $(this).attr('src')) ;
+      $(this).addClass('active');
+      $(this).parents('.col-md-6').siblings().find('.active').removeClass('active')
+    });
   };
 
 
@@ -30,8 +31,8 @@
       $('#stemcellcharacteristics').append(cellLine.toHtml($('#stemcellcharacteristics-template')));
       $('#supplementaryinformation').append(cellLine.toHtml($('#supplementaryinformation-template')));
 
-      cellLineProfileView.handleSubNav();
       cellLineProfileView.goBack();
+      cellLineProfileView.gallery();
     }
   };
 

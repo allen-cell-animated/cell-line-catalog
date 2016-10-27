@@ -47,6 +47,13 @@
   border-bottom: 1px solid lightgray;
   margin-bottom: 40px;
 }
+.morphology-thumbnail.active{
+  opacity: 0.7;
+}
+
+.morphology-thumbnail:hover{
+  opacity: 0.7;
+}
 
 .heading-group-h1 a{
     display: flex;
