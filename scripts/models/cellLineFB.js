@@ -4,7 +4,6 @@
   FirebaseallCellLines = firebaseLocal.ref('/celllines');
   firebaseLocal.storageRef = firebase.storage().ref();
 
-
   firebaseLocal.signin =function(email, password){
     firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
     // Handle Errors here.
@@ -37,16 +36,12 @@
   };
 
 
-
-  
-
-
-
   FirebaseallCellLines.on('value', function(snapshot) {
     if (snapshot.val()) {
       CellLine.allCellLinesFB = snapshot.val();
     }
     else {
+      console.log('nothing from firebase');
       CellLine.allCellLinesFB = [];
     }
   });
@@ -61,10 +56,13 @@
     }
   });
 
+  firebaseLocal.signOut = function(){
+    firebase.auth().signOut().then(function() {
+    // Sign-out successful.
+    }, function(error) {
+    // An error happened.
+    });
+  };
 
-  firebaseLocal.signOutHandler();
-  firebaseLocal.registerHandler();
-  firebaseLocal.signinRegisterSwitch();
-  firebaseLocal.signinHandler();
   module.firebaseLocal = firebaseLocal;
 })(window);

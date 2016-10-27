@@ -10,7 +10,7 @@
     }
   };
 
-  firebaseLocal.registerHandler = function(){
+  cellLineUsers.registerHandler = function(){
     $('#sign-up').submit(signup);
     function signup() {
       event.preventDefault();
@@ -28,14 +28,14 @@
     }
   };
 
-  firebaseLocal.signinRegisterSwitch = function(){
+  cellLineUsers.signinRegisterSwitch = function(){
     $('#new-user').on('click', function(){
       $('#sign-in').addClass('displayoff');
       $('#sign-up').removeClass('displayoff');
     });
   };
 
-  firebaseLocal.signOutHandler = function(){
+  cellLineUsers.signOutHandler = function(){
     $('#signout').on('click', function(){
       $('.current-user h4').empty();
       $('.current-user').addClass('displayoff');
@@ -43,13 +43,7 @@
     });
   };
 
-  firebaseLocal.signOut = function(){
-    firebase.auth().signOut().then(function() {
-    // Sign-out successful.
-    }, function(error) {
-    // An error happened.
-    });
-  };
+
 
   module.cellLineUsers = cellLineUsers;
 })(window);
