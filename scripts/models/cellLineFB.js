@@ -7,6 +7,7 @@
   FirebaseallCellLines.on('value', function(snapshot) {
     if (snapshot.val()) {
       CellLine.allCellLinesFB = snapshot.val();
+      console.log('loaded firebase cellines');
     }
     else {
       console.log('nothing from firebase');
