@@ -2,7 +2,7 @@
   cellLineUsers = {};
   cellLineUsers.signinHandler = function(){
     $('#sign-in').submit(signin);
-    function signin() {
+    function signin(event) {
       event.preventDefault();
       var email    = $('#sign-in #username').val();
       var password = $('#sign-in #password').val();
@@ -12,7 +12,7 @@
 
   cellLineUsers.registerHandler = function(){
     $('#sign-up').submit(signup);
-    function signup() {
+    function signup(event) {
       event.preventDefault();
       var email    = $('#sign-up #username').val();
       var password = $('#sign-up #password').val();
