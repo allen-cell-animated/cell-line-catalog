@@ -81,14 +81,14 @@
       </div>
       <div class="col-md-8">
         <div class="panel panel-primary">
-          <img class="morphology-main" src="images/cell-image.jpg" alt="" />
+          <img class="morphology-main" src="/images/cell-image.jpg" alt="" />
           <div class="panel-footer">
-            <div class="row">
-              <div class = "col-md-6">
-                <a href="#" class="thumbnails"><img class="active morphology-thumbnail" src="images/cell-image.jpg" alt="" /></a>
+            <div class="">
+              <div class="fiftypercent">
+                <a href="#" class="thumbnails"><img class="active morphology-thumbnail" src="/images/cell-image.jpg" alt="" /></a>
               </div>
-              <div class = "col-md-6">
-                <a href="#" class="thumbnails"><img class="morphology-thumbnail" src="images/clone_morphology.jpg" alt="" /></a>
+              <div class="fiftypercent">
+                <a href="#" class="thumbnails"><img class="morphology-thumbnail" src="/images/clone_morphology.jpg" alt="" /></a>
               </div>
             </div>
             <span>Colonies at 10X magnification 3 after plating.</span>
@@ -129,7 +129,7 @@
             </div>
             <div class="panel-body">
               <div class="center-block image-scale">
-                <img class="" src="images/expression.jpg" alt="" />
+                <img class="" src="/images/expression.jpg" alt="" />
               </div>
             </div>
             <div class="panel-footer">
@@ -155,7 +155,7 @@
             </div>
             <div class="panel-body ">
               <div class="center-block image-scale">
-                <img class="" src="images/gfp_insert.jpg" alt="" />
+                <img class="" src="/images/gfp_insert.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -246,7 +246,7 @@
               <h4>Western Blot</h4>
             </div>
             <div class="panel-body ">
-              <div class="center-block image-scale">              <img src="images/validation-westernblot.png">
+              <div class="center-block image-scale">              <img src="/images/validation-westernblot.png">
               </div>
               <div class="caption">
                 <h4>Western Blot methods</h4>
@@ -262,7 +262,7 @@
             </div>
             <div class="panel-body ">
               <div class="center-block image-scale">
-                <img class="" src="images/Validation/Tubulin-clone-105-IF-100416.jpg" alt="" />
+                <img class="" src="/images/Validation/Tubulin-clone-105-IF-100416.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -280,7 +280,7 @@
             </div>
             <div class="panel-body">
               <div class="center-block image-scale">
-                <img class="" src="images/Karyotype.jpg" alt="" />
+                <img class="" src="/images/Karyotype.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -413,7 +413,7 @@
         <div class="back-button">
           <a data-toggle="tab" href="#cell-line-list">&lArr; Back to full list</a>
         </div>
-        <div class="container">
+        <div class="container-fluid">
           <div id="cellline-info" class="row ">
           </div>
         </div>
@@ -423,7 +423,7 @@
             <ul class="nav nav-pills nav-justified" role="tablist">
               <li class="sub-page-tab active"><a data-toggle="tab" href="#editingdesign">Editing Design</a></li>
               <li class="sub-page-tab"><a data-toggle="tab" href="#genomiccharacterizations">Genomic Characterization</a></li>
-              <li class="sub-page-tab"><a data-toggle="tab" href="#validation">Validation</a></li>
+              <li class="sub-page-tab"><a data-toggle="tab" href="#validation">Cellular Validation</a></li>
               <li class="sub-page-tab"><a data-toggle="tab"  href="#stemcellcharacteristics">Stem Cell Characteristics</a></li>
               <li class="sub-page-tab"><a data-toggle="tab" href="#supplementaryinformation">Supplementary Information</a></li>
             </ul>
@@ -446,6 +446,8 @@
           </div>
         </div>
       </section>
+      <!-- ABOUT -------------->
+
       <section id="about" class="tab-section">
         <header>
           Welcome to the Cell Line Catalog
@@ -466,8 +468,8 @@
     <!-- Vendor Files -->
     <script src="/vendor/scripts/jquery-2.1.4.js"></script>
     <script src="/vendor/scripts/handlebars.js"></script>
-    <script src="/vendor/scripts/marked.js"></script>
     <script src="/vendor/scripts/bootstrap.min.js"></script>
+    <script src="/vendor/scripts/page.js"></script>
 
     <!-- Model Files -->
     <script src="/scripts/models/cellLine.js"></script>
@@ -475,6 +477,12 @@
     <!-- View Files -->
     <script src="/scripts/views/cellLineTableView.js"></script>
     <script src="/scripts/views/cellLineSubpage.js"></script>
+
+    <!-- Controller files: -->
+    <script src="/scripts/controllers/celllineController.js"></script>
+    <!-- <script src="/scripts/controllers/aboutController.js"></script>
+    <script src="/scripts/controllers/adminController.js"></script> -->
+    <script src="/scripts/controllers/routes.js"></script>
 
   </body>
 </html>

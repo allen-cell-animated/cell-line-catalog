@@ -6,6 +6,7 @@
   cellLineProfileView.goBack = function(){
     $('.back-button').on('click', function(){
       $('.main-nav .tab:first').click();
+      page('/');
     });
   };
 
@@ -14,7 +15,7 @@
       e.preventDefault();
       $('.morphology-main').attr('src', $(this).attr('src')) ;
       $(this).addClass('active');
-      $(this).parents('.col-md-6').siblings().find('.active').removeClass('active')
+      $(this).parents('.col-md-6').siblings().find('.active').removeClass('active');
     });
   };
 
@@ -30,9 +31,9 @@
       $('#validation').append(cellLine.toHtml($('#validation-template')));
       $('#stemcellcharacteristics').append(cellLine.toHtml($('#stemcellcharacteristics-template')));
       $('#supplementaryinformation').append(cellLine.toHtml($('#supplementaryinformation-template')));
-
       cellLineProfileView.goBack();
       cellLineProfileView.gallery();
+      $('#cellline-profile').show();
     }
   };
 

@@ -31,6 +31,7 @@
   newCellLine.initnewCellLinePage = function() {
     newCellLine.uploadImages();
     newCellLine.submitLine();
+    newCellLine.uploadTables();
     $('#cell_line_id').show();
     newCellLine.lookup();
     //user handling
@@ -45,6 +46,10 @@
       event.preventDefault();
       newCellLine.currentID = $(this).find('#cell_line_id').val();
       $('.entries').children().remove();
+      if (CellLine.allCellLinesFB.length === 0) {
+        prompt('Database connection lost, reloading');
+        document.location.reload(true);
+      }
       if (CellLine.allCellLinesFB[newCellLine.currentID]) {
         console.log('exsiting cell line');
         newCellLine.read(CellLine.allCellLinesFB[newCellLine.currentID]);
@@ -53,7 +58,7 @@
         console.log('new cell line');
         var data = {
           cell_line_id :newCellLine.currentID
-        }
+        };
         newCellLine.write(data);
       }
     });
@@ -119,6 +124,15 @@
         console.log(uploadTask.snapshot.downloadURL);
         return firebase.database().ref().child('/celllinesdata/' + refKey).update(updates);
       });
+    });
+  };
+
+  newCellLine.uploadTables = function() {
+    $('#write').on('change', '.spreadsheet', function(event) {
+      var cellLineID = $('#cell_line_id').val();
+      var file = this.files[0];
+      var id = this.id;
+      console.log(file);
     });
   };
 

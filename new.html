@@ -15,210 +15,231 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
 
     <script id="new-cellline-template" type="text/x-handlebars-template">
-      <div class="form-group">
-        <label for="Main_gene_symbol" class="col-sm-2">Gene Symbol</label>
-          <div class="col-sm-5">
-            <input type="text" class="form-control" id="Main_gene_symbol" placeholder="Gene Symbol" value="{{Main_gene_symbol}}">
+      <section class="data-section" id="main-data">
+        <div class="form-group">
+          <label for="Main_gene_symbol" class="col-sm-2">Gene Symbol</label>
+            <div class="col-sm-5">
+              <input type="text" class="form-control" id="Main_gene_symbol" placeholder="Gene Symbol" value="{{Main_gene_symbol}}">
+            </div>
+            <div class="col-sm-5">
+              <span>{{Main_gene_symbol}}</span>
+            </div>
+        </div>
+        <div class="form-group">
+          <label for="Main_gene_name" class="col-sm-2">Gene Name</label>
+            <div class="col-sm-5">
+              <input type="text" class="form-control" id="Main_gene_name" placeholder="Gene Name" value="{{Main_gene_name}}">
+            </div>
+            <div class="col-sm-5">
+              <span>{{Main_gene_name}}</span>
+            </div>
+        </div>
+        <div class="form-group">
+          <label for="Main_gene_id" class="col-sm-2">Gene ID</label>
+            <div class="col-sm-5">
+            <input type="text" class="form-control" id="Main_gene_id" placeholder="Gene ID" value="{{Main_gene_id}}">
           </div>
           <div class="col-sm-5">
-            <span>{{Main_gene_symbol}}</span>
+            <span>{{Main_gene_id}}</span>
           </div>
-      </div>
-      <div class="form-group">
-        <label for="Main_gene_name" class="col-sm-2">Gene Name</label>
-          <div class="col-sm-5">
-            <input type="text" class="form-control" id="Main_gene_name" placeholder="Gene Name" value="{{Main_gene_name}}">
+        </div>
+        <div class="form-group">
+          <label for="Main_mrna_id" class="col-sm-2">mRNA ID</label>
+            <div class="col-sm-5">
+            <input type="text" class="form-control" id="Main_mrna_id" placeholder="mRNA ID" value="{{Main_mrna_id}}">
           </div>
           <div class="col-sm-5">
-            <span>{{Main_gene_name}}</span>
+            <span>{{Main_mrna_id}}</span>
           </div>
-      </div>
-      <div class="form-group">
-        <label for="Main_gene_id" class="col-sm-2">Gene ID</label>
+        </div>
+        <div class="form-group">
+          <label for="Main_ensembl_id" class="col-sm-2">Ensemble ID</label>
+            <div class="col-sm-5">
+            <input type="text" class="form-control" id="Main_ensembl_id" placeholder="Ensemble ID" value="{{Main_ensembl_id}}">
+          </div>
           <div class="col-sm-5">
-          <input type="text" class="form-control" id="Main_gene_id" placeholder="Gene ID" value="{{Main_gene_id}}">
+            <span>{{Main_ensembl_id}}</span>
+          </div>
         </div>
-        <div class="col-sm-5">
-          <span>{{Main_gene_id}}</span>
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="Main_mrna_id" class="col-sm-2">mRNA ID</label>
+        <div class="form-group">
+          <label for="Main_structure" class="col-sm-2">Structure</label>
+            <div class="col-sm-5">
+            <input type="text" class="form-control" id="Main_structure" placeholder="Structure" value="{{Main_structure}}">
+          </div>
           <div class="col-sm-5">
-          <input type="text" class="form-control" id="Main_mrna_id" placeholder="mRNA ID" value="{{Main_mrna_id}}">
+            <span>{{Main_structure}}</span>
+          </div>
         </div>
-        <div class="col-sm-5">
-          <span>{{Main_mrna_id}}</span>
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="Main_ensembl_id" class="col-sm-2">Ensemble ID</label>
+        <div class="form-group">
+          <label for="Main_terminal_tagged" class="col-sm-2">Tag location</label>
+            <div class="col-sm-5">
+            <input type="text" class="form-control" id="Main_terminal_tagged" placeholder="C or N terminus" value="{{Main_terminal_tagged}}">
+          </div>
           <div class="col-sm-5">
-          <input type="text" class="form-control" id="Main_ensembl_id" placeholder="Ensemble ID" value="{{Main_ensembl_id}}">
+            <span>{{Main_terminal_tagged}}</span>
+          </div>
         </div>
-        <div class="col-sm-5">
-          <span>{{Main_ensembl_id}}</span>
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="Main_structure" class="col-sm-2">Structure</label>
+        <div class="form-group">
+          <label for="Main_fluorescent_tag" class="col-sm-2">Fluorophore</label>
+            <div class="col-sm-5">
+            <input type="text" class="form-control" id="Main_fluorescent_tag" placeholder="eg mEGFP" value="{{Main_fluorescent_tag}}">
+          </div>
           <div class="col-sm-5">
-          <input type="text" class="form-control" id="Main_structure" placeholder="Structure" value="{{Main_structure}}">
+            <span>{{Main_fluorescent_tag}}</span>
+          </div>
         </div>
-        <div class="col-sm-5">
-          <span>{{Main_structure}}</span>
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="Main_terminal_tagged" class="col-sm-2">Tag location</label>
+        <div class="form-group">
+          <label for="Main_linker" class="col-sm-2">Linker</label>
+            <div class="col-sm-5">
+            <input type="text" class="form-control" id="Main_linker" placeholder="Linker" value="{{Main_linker}}">
+          </div>
           <div class="col-sm-5">
-          <input type="text" class="form-control" id="Main_terminal_tagged" placeholder="C or N terminus" value="{{Main_terminal_tagged}}">
+            <span>{{Main_linker}}</span>
+          </div>
         </div>
-        <div class="col-sm-5">
-          <span>{{Main_terminal_tagged}}</span>
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="Main_fluorescent_tag" class="col-sm-2">Fluorophore</label>
+        <div class="form-group">
+          <label for="Main_plasmid_sequence" class="col-sm-2">Plasmid Sequence</label>
+            <div class="col-sm-5">
+            <input type="text" class="form-control" id="Main_plasmid_sequence" placeholder="Plasmid Sequence" value="{{Main_plasmid_sequence}}">
+          </div>
           <div class="col-sm-5">
-          <input type="text" class="form-control" id="Main_fluorescent_tag" placeholder="eg mEGFP" value="{{Main_fluorescent_tag}}">
+            <span>{{Main_plasmid_sequence}}</span>
+          </div>
         </div>
-        <div class="col-sm-5">
-          <span>{{Main_fluorescent_tag}}</span>
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="Main_linker" class="col-sm-2">Linker</label>
+        <div class="form-group">
+          <label for="Main_cell_line_morphology" class="col-sm-2">Morphology Image</label>
+            <div class="col-sm-5">
+            <input type="file" class="form-control image" id="Main_cell_line_morphology" placeholder="Morphology Image">
+            <input type="text" class="form-control" id="Main_cell_line_morphology_url" value="{{Main_cell_line_morphology_url}}">
+          </div>
           <div class="col-sm-5">
-          <input type="text" class="form-control" id="Main_linker" placeholder="Linker" value="{{Main_linker}}">
+            <img src="{{Main_cell_line_morphology_url}}">
+            <span>{{Main_cell_line_morphology_url}}</span>
+          </div>
         </div>
-        <div class="col-sm-5">
-          <span>{{Main_linker}}</span>
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="Main_plasmid_sequence" class="col-sm-2">Plasmid Sequence</label>
+      </section>
+      <section class="data-section" id="Editing-design-data">
+        <h4>Editing Design</h4>
+        <div class="form-group">
+          <label for="EditingDesign_crRNA_seq" class="col-sm-2">crRNA sequence</label>
+            <div class="col-sm-5">
+            <input type="text" class="form-control" id="EditingDesign_crRNA_seq" placeholder="crRNA sequence" value="{{EditingDesign_crRNA_seq}}">
+          </div>
           <div class="col-sm-5">
-          <input type="text" class="form-control" id="Main_plasmid_sequence" placeholder="Plasmid Sequence" value="{{Main_plasmid_sequence}}">
+            <span>{{EditingDesign_crRNA_seq}}</span>
+          </div>
         </div>
-        <div class="col-sm-5">
-          <span>{{Main_plasmid_sequence}}</span>
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="Main_cell_line_morphology" class="col-sm-2">Morphology Image</label>
+        <div class="form-group">
+          <label for="EditingDesign_cas9" class="col-sm-2">Cas9</label>
+            <div class="col-sm-5">
+            <input type="text" class="form-control" id="EditingDesign_cas9" placeholder="cas9" value="{{EditingDesign_cas9}}">
+          </div>
           <div class="col-sm-5">
-          <input type="file" class="form-control image" id="Main_cell_line_morphology" placeholder="Morphology Image">
-          <input type="text" class="form-control" id="Main_cell_line_morphology_url" value="{{Main_cell_line_morphology_url}}">
+            <span>{{EditingDesign_cas9}}</span>
+          </div>
         </div>
-        <div class="col-sm-5">
-          <img src="{{Main_cell_line_morphology_url}}">
-          <span>{{Main_cell_line_morphology_url}}</span>
-        </div>
-
-      </div>
-      <h4>Editing Design</h4>
-      <div class="form-group">
-        <label for="EditingDesign_crRNA_seq" class="col-sm-2">crRNA sequence</label>
+        <div class="form-group">
+          <label for="EditingDesign_NCBI_isoform" class="col-sm-2">NCBI</label>
+            <div class="col-sm-5">
+            <input type="text" class="form-control" id="EditingDesign_NCBI_isoform" placeholder="NCBI isoform" value="{{EditingDesign_NCBI_isoform}}">
+          </div>
           <div class="col-sm-5">
-          <input type="text" class="form-control" id="EditingDesign_crRNA_seq" placeholder="crRNA sequence" value="{{EditingDesign_crRNA_seq}}">
+            <span>{{EditingDesign_NCBI_isoform}}</span>
+          </div>
         </div>
-        <div class="col-sm-5">
-          <span>{{EditingDesign_crRNA_seq}}</span>
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="EditingDesign_cas9" class="col-sm-2">Cas9</label>
+        <div class="form-group">
+          <label for="EditingDesign_gene_figure" class="col-sm-2">Gene figure</label>
+            <div class="col-sm-5">
+            <input type="file" class="form-control image" id="EditingDesign_gene_figure" placeholder="Gene figure" >
+          </div>
           <div class="col-sm-5">
-          <input type="text" class="form-control" id="EditingDesign_cas9" placeholder="cas9" value="{{EditingDesign_cas9}}">
+            <img src="{{EditingDesign_gene_figure_url}}">
+            <span>{{EditingDesign_gene_figure_url}}</span>
+          </div>
         </div>
-        <div class="col-sm-5">
-          <span>{{EditingDesign_cas9}}</span>
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="EditingDesign_NCBI_isoform" class="col-sm-2">NCBI</label>
+        <div class="form-group">
+          <label for="EditingDesign_p14_fpkm" class="col-sm-2">p14 fpkm</label>
+            <div class="col-sm-5">
+            <input type="text" class="form-control" id="EditingDesign_p14_fpkm" placeholder="p14 fpkm" value="{{EditingDesign_p14_fpkm}}">
+          </div>
           <div class="col-sm-5">
-          <input type="text" class="form-control" id="EditingDesign_NCBI_isoform" placeholder="NCBI isoform" value="{{EditingDesign_NCBI_isoform}}">
+            <span>{{EditingDesign_p14_fpkm}}</span>
+          </div>
         </div>
-        <div class="col-sm-5">
-          <span>{{EditingDesign_NCBI_isoform}}</span>
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="EditingDesign_gene_figure" class="col-sm-2">Gene figure</label>
+        <div class="form-group">
+          <label for="EditingDesign_p18_fpkm" class="col-sm-2">p18 fpkm</label>
+            <div class="col-sm-5">
+            <input type="text" class="form-control" id="EditingDesign_p18_fpkm" placeholder="p18 fpkm" value="{{EditingDesign_p18_fpkm}}">
+          </div>
           <div class="col-sm-5">
-          <input type="file" class="form-control image" id="EditingDesign_gene_figure" placeholder="Gene figure" >
+            <span>{{EditingDesign_p18_fpkm}}</span>
+          </div>
         </div>
-        <div class="col-sm-5">
-          <span>{{EditingDesign_gene_figure_url}}</span>
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="EditingDesign_p14_fpkm" class="col-sm-2">p14 fpkm</label>
+        <div class="form-group">
+          <label for="EditingDesign_expression_figure" class="col-sm-2">Expression figure</label>
+            <div class="col-sm-5">
+            <input type="file" class="form-control image" id="EditingDesign_expression_figure" placeholder="Expression figure">
+          </div>
           <div class="col-sm-5">
-          <input type="text" class="form-control" id="EditingDesign_p14_fpkm" placeholder="p14 fpkm" value="{{EditingDesign_p14_fpkm}}">
+            <img src="{EditingDesign_expression_figure_url}}">
+            <span>{{EditingDesign_expression_figure_url}}</span>
+          </div>
         </div>
-        <div class="col-sm-5">
-          <span>{{EditingDesign_p14_fpkm}}</span>
+      </section>
+      <section class="data-section" id="genomic-characterization">
+        <h4>Genomic Characterization</h4>
+        <div class="form-group">
+          <label for="GenomicCharacterization_ddpcr" class="col-sm-2">DD PCR</label>
+            <div class="col-sm-5">
+            <input type="file" class="form-control spreadsheet" id="GenomicCharacterization_ddpcr" placeholder="DDPCR" >
+          </div>
         </div>
-      </div>
-      <div class="form-group">
-        <label for="EditingDesign_p18_fpkm" class="col-sm-2">p18 fpkm</label>
+      </section>
+      <section class="data-section" id="Validation">
+        <h4>Validation</h4>
+        <div class="form-group">
+          <label for="Validation_western_blot" class="col-sm-2">Western Blot</label>
+            <div class="col-sm-5">
+            <input type="file" class="form-control image" id="Validation_western_blot" placeholder="Genomic Characterization" >
+          </div>
           <div class="col-sm-5">
-          <input type="text" class="form-control" id="EditingDesign_p18_fpkm" placeholder="p18 fpkm" value="{{EditingDesign_p18_fpkm}}">
+            <img src="{{Validation_western_blot_url}}">
+            <span>{{Validation_western_blot_url}}</span>
+          </div>
         </div>
-        <div class="col-sm-5">
-          <span>{{EditingDesign_p18_fpkm}}</span>
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="EditingDesign_expression_figure" class="col-sm-2">Expression figure</label>
+      </section>
+      <section class="data-section" id="stem-cell-characterization">
+        <h4>Stem Cell Characterization</h4>
+        <div class="form-group">
+          <label for="StemCellCharacterization_pluripotency_analysis" class="col-sm-2">Flow</label>
+            <div class="col-sm-5">
+            <input type="file" class="form-control image" id="StemCellCharacterization_pluripotency_analysis" placeholder="" >
+          </div>
           <div class="col-sm-5">
-          <input type="file" class="form-control image" id="EditingDesign_expression_figure" placeholder="Expression figure">
+            <img src="{{StemCellCharacterization_pluripotency_analysis_url}}">
+            <span>{{StemCellCharacterization_pluripotency_analysis_url}}</span>
+          </div>
         </div>
-        <div class="col-sm-5">
-          <span>{{EditingDesign_expression_figure_url}}</span>
-        </div>
-      </div>
-      <h4>Genomic Characterization</h4>
-      <div class="form-group">
-        <label for="GenomicCharacterization_ddpcr" class="col-sm-2">DD PCR</label>
+        <div class="form-group">
+          <label for="StemCellCharacterization_karyotype" class="col-sm-2">Karyotype image</label>
+            <div class="col-sm-5">
+            <input type="file" class="form-control image" id="StemCellCharacterization_karyotype" placeholder="" >
+          </div>
           <div class="col-sm-5">
-          <input type="file" class="form-control spreadsheet" id="GenomicCharacterization_ddpcr" placeholder="DDPCR" >
+            <img src="{{StemCellCharacterization_karyotype_url}}">
+            <span>{{StemCellCharacterization_karyotype_url}}</span>
+          </div>
         </div>
-      </div>
-      <h4>Validation</h4>
-      <div class="form-group">
-        <label for="Validation_western_blot" class="col-sm-2">Western Blot</label>
-          <div class="col-sm-5">
-          <input type="file" class="form-control image" id="Validation_western_blot" placeholder="Genomic Characterization" >
+        <div class="form-group">
+          <label for="StemCellCharacterization_differentiation" class="col-sm-2">Differentiation</label>
+            <div class="col-sm-5">
+            <input type="file" class="form-control spreadsheet" id="StemCellCharacterization_differentiation" placeholder="Genomic Characterization" >
+          </div>
         </div>
-        <div class="col-sm-5">
-          <span>{{Validation_western_blot_url}}</span>
-        </div>
-      </div>
-      <h4>Stem Cell Characterization</h4>
-      <div class="form-group">
-        <label for="StemCellCharacterization_pluripotency_analysis" class="col-sm-2">Flow</label>
-          <div class="col-sm-5">
-          <input type="file" class="form-control image" id="StemCellCharacterization_pluripotency_analysis" placeholder="" >
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="StemCellCharacterization_karyotype" class="col-sm-2">Karyotype image</label>
-          <div class="col-sm-5">
-          <input type="file" class="form-control image" id="StemCellCharacterization_karyotype" placeholder="" >
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="StemCellCharacterization_differentiation" class="col-sm-2">Differentiation</label>
-          <div class="col-sm-5">
-          <input type="file" class="form-control spreadsheet" id="StemCellCharacterization_differentiation" placeholder="Genomic Characterization" >
-        </div>
-      </div>
-      <h4>Supplementary Information</h4>
-
+      </section>
+      <section class="data-section" id="supplementary">
+        <h4>Supplementary Information</h4>
+      </section>
       <button type="submit" name="button" class="btn btn-warning">Save cell line</button>
     </script>
     </head>

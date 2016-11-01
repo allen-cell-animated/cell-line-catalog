@@ -108,7 +108,15 @@
   margin: auto;
 }
 
+.data-section{
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 20px;
+}
 
+.fiftypercent{
+  width: 50%;
+  float: left;
+}
 
 
 @media only screen and (min-width: 1130px) {

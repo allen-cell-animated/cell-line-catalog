@@ -21,18 +21,18 @@
     });
   };
 
-  CellLine.fetchAll = function(url, name, loadDataintoArray, renderDatatoDOM) {
+  CellLine.fetchAll = function(url, name, callback) {
     $.get(url, function(data, message, xhr) {
       localStorage.setItem(name, JSON.stringify(data));
       localStorage['eTag' + name] = xhr.getResponseHeader('eTag');
-      loadDataintoArray(name);
-      renderDatatoDOM();
+      CellLine.loadIntoObjectArray(name);
+      callback();
     });
   };
 
-  CellLine.updateData = function(url, name, loadDataintoArray, renderDatatoDOM) {
+  CellLine.updateData = function(url, name, callback) {
     if (!localStorage[name]) {
-      CellLine.fetchAll(url, name, loadDataintoArray, renderDatatoDOM);
+      CellLine.fetchAll(url, name, callback);
     }
     else{
       $.ajax({
@@ -41,11 +41,11 @@
         success: function(data, message, xhr){
           var newTag = xhr.getResponseHeader('eTag');
           if (newTag !== localStorage['eTag' + name]){
-            CellLine.fetchAll(url, name, loadDataintoArray, renderDatatoDOM);
+            CellLine.fetchAll(url, name, callback);
           } //end of if
           else {
-            loadDataintoArray(name);
-            renderDatatoDOM();
+            CellLine.loadIntoObjectArray(name);
+            callback();
           }
         } //end of success
       });  //end of ajax
