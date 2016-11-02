@@ -16,7 +16,11 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
 
     <script id="cellList-template" type="text/x-handlebars-template">
-      <tr class= 'cellline' data-fluorescent_tag ={{Main_fluorescent_tag}} data-terminal_tagged={{Main_terminal_tagged}} id = {{cell_line_id}}>
+      <tr class= 'cellline'
+       data-Main_fluorescent_tag-filter={{Main_fluorescent_tag}} data-Main_structure-filter ={{Main_structure}}
+       data-Main_gene_name-filter ={{Main_gene_name}}
+       data-Main_parent_line-filter ="{{Main_parent_line}}"
+       id = {{cell_line_id}}>
         <td class='table-cell-line-id'>
           {{cell_line_id}}
         </td>
@@ -32,10 +36,13 @@
         <td>
           {{Main_fluorescent_tag}}
         </td>
+        <td>
+          {{Main_parent_line}}
+        </td>
 
       </tr>
     </script>
-    <script id="tag-filter-template" type="text/x-handlebars-template">
+    <script id="-filter-template" type="text/x-handlebars-template">
       <option value="{{Main_terminal_tagged}}">{{Main_terminal_tagged}}</option>
     </script>
     <script id="fluorophore-filter-template" type="text/x-handlebars-template">
@@ -63,15 +70,14 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="col-lg-6">
-                  <a class="btn btn-warning btn-block" role="button" href="mailto:info@cell_line_catalog.org?subject=Requesting {{cell_line_id}}">Request this line</a>
+                  <a class="btn btn-warning btn-block" role="button" href="mailto:info@cell_line_catalog.org?subject=Requesting {{cell_line_id}}">Order cell line</a>
                 </div>
                 <div class="col-lg-6">
-                  <a class="btn btn-warning btn-block" role="button" href="mailto:info@cell_line_catalog.org?subject=Beta tester for {{cell_line_id}}">Be a beta tester</a>
+                  <a class="btn btn-warning btn-block" role="button" href="{{Main_parent_line}}">Order parental line</a>
                 </div>
               </div>
               <div class="col-md-12">
                 <div class="col-md-12">
-                  <a class="btn btn-warning btn-block" role="button" href="{{WTC_parent_line}}">Order WTC parent line</a>
                 </div>
               </div>
             </div>
@@ -113,7 +119,7 @@
                   <span class="profile-summary-key">crRNA:</span>
                   <span>{{EditingDesign_crRNA_seq}}</span></li>
                 <li class="list-group-item">
-                  <span class="profile-summary-key">Plasmid sequence:</span>
+                  <span class="profile-summary-key">Doner plasmid sequence:</span>
                   <span>{{Main_plasmid_sequence}}</span></li>
                 <li class="list-group-item">
                   <span class="profile-summary-key">Cas9:</span>
@@ -122,7 +128,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6">
+        <!-- <div class="col-sm-6">
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h4>Expression Level</h4>
@@ -143,7 +149,7 @@
               </ul>
             </div>
           </div>
-        </div>
+        </div> -->
 
       </div>
 
@@ -354,12 +360,12 @@
       <nav class="main-nav clearfix">
       <section class="heading-group-h1">
         <div class="back-button">
-          <a data-toggle="tab" class="logo" href="#cell-line-list"></a>
+          <a data-toggle="tab" class="logo" href="#"></a>
         </div>
       </section>
         <div class="icon-menu"></div>
         <ul>
-          <li class="tab" data-content="cell-line-list"><a data-toggle="tab" href="#cell-line-list" class="icon-home">All Cell Lines</a></li>
+          <li class="tab" data-content="cell-line-list"><a data-toggle="tab" href="#" class="icon-home">All Cell Lines</a></li>
           <li class="tab" data-content="about"><a data-toggle="tab" href="#about" class="icon-address-book">About</a></li>
         </ul>
       </nav>
@@ -370,13 +376,23 @@
         <div>
           <ul id="filters">
             <li>
-              <select id="tagLocation-filter">
-                <option value="">-- Filter by Tag Location --</option>
+              <select id="Main_structure-filter" class="form-control filter">
+                <option value="">Filter by Structure</option>
               </select>
             </li>
             <li>
-              <select id="fluorophore-filter">
-                <option value="">-- Filter by Flurorophore --</option>
+              <select id="Main_fluorescent_tag-filter" class="form-control filter">
+                <option value="">Filter by Flurorophore</option>
+              </select>
+            </li>
+            <li>
+              <select id="Main_gene_name-filter" class="form-control filter">
+                <option value="">Filter by Gene</option>
+              </select>
+            </li>
+            <li>
+              <select id="Main_parent_line-filter" class="form-control filter">
+                <option value="">Filter by Parental Line</option>
               </select>
             </li>
           </ul>
@@ -399,9 +415,13 @@
                   <th>
                     Fluorophore
                   </th>
+                  <th>
+                    Parental Line
+                  </th>
                 </tr>
               </thead>
               <tbody id="cell-line-table">
+                <p class = 'errors displayoff'>Nothing matches your filters</p>
               </tbody>
           </table>
         </div>

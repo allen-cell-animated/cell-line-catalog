@@ -6,14 +6,43 @@
       ctx.celllines = CellLine.allCellLines;
       next();
     };
-    if (CellLine.allCellLinesFB.length){
+    if (CellLine.allCellLines.length){
+      console.log('already loaded');
       ctx.celllines = CellLine.allCellLines;
       next();
     }
     else{
+      console.log('getting data');
       CellLine.updateData('/data/cell_line_catalog.json', 'cell-lines', cellLineData);
 
     }
+  };
+
+  celllineController.restartFilter = function(ctx, next) {
+    if(ctx.celllines.length) {
+      $('#cell-line-table .errors').hide()
+      cellListView.drawTable(ctx.celllines);
+    } else{
+      $('#cell-line-table .errors').show();
+    }
+  };
+
+  celllineController.filter = function(ctx, next) {
+    var complaintsData = function(array) {
+      ctx.celllines = array;
+      next();
+    };
+    var array = CellLine.allCellLines.filter(function(ele, index, array){ return ele[ctx.params.filtername] === ctx.params.filtervalue;});
+    complaintsData(array);
+  };
+
+  celllineController.filtersec = function(ctx, next) {
+    var complaintsData = function(array) {
+      ctx.celllines = array;
+      next();
+    };
+    var array = ctx.celllines.filter(function(ele, index, array){ return ele[ctx.params.filternamesec] === ctx.params.filtervaluesec;});
+    complaintsData(array);
   };
 
   celllineController.loadById = function(ctx, next) {
@@ -28,6 +57,7 @@
 
   celllineController.index = function(ctx, next) {
     if(ctx.celllines.length) {
+      console.log('rendering index page');
       cellListView.renderIndexPage(ctx.celllines);
     } else{
       page('/');

@@ -52,17 +52,9 @@
     };
   };
 
-  CellLine.allTagLocations = function() {
+  CellLine.allInCategory = function(category) {
     return CellLine.allCellLines.map(function(currentCellLine) {
-      return currentCellLine.Main_terminal_tagged;
-    }).filter(function(element, index, array){
-      return array.indexOf(element)===index;
-    });
-  };
-
-  CellLine.allFluorophores = function() {
-    return CellLine.allCellLines.map(function(currentCellLine) {
-      return currentCellLine.Main_fluorescent_tag;
+      return currentCellLine[category];
     }).filter(function(element, index, array){
       return array.indexOf(element)===index;
     });

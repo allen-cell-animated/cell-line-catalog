@@ -2,71 +2,75 @@
 
 
   var cellListView = {};
+  cellListView.filters = ['Main_gene_name', 'Main_structure', 'Main_fluorescent_tag', 'Main_parent_line'];
 
-  cellListView.handleRowSelect = function() {
-    $('#cell-line-table').on('click', '.cellline',function() {
-      currentID=(this.id);
-      $('#cell-line-list').hide();
-      $('#cellline-profile').fadeIn();
-      page('/cellline/' + currentID);
-    });
+  $('#cell-line-table').on('click', '.cellline',function() {
+    currentID=(this.id);
+    $('#cell-line-list').hide();
+    $('#cellline-profile').fadeIn();
+    page('/cellline/' + currentID);
+  });
+
+
+
+  $('.filter').on('change', readFilters);
+
+  cellLineView.readFilters = function(){
+    $('.cellline').hide();
+    var filters = $('.filter').map(function() {
+      return {
+        value : $(this).val(),
+        filter: this.id.replace('-filter', '')
+      };}).get().filter(function(ele){
+        return ele.value !== ''
+      });
+    if (filters.length <= 2) {
+      url = filters.reduce(function(acc, cur){
+        acc.push('/' + cur.filter + '/' +cur.value)
+        return acc
+      },[]);
+      page(url.join(''))
+    }
+    else  {
+
+    }
+
   };
+  // $('.filter').change();
 
 
-  cellListView.handleFluorophoreFilter = function() {
-    $('#fluorophore-filter').on('change', function() {
-      if ($(this).val()) {
-        $('.cellline').hide();
-        $('.cellline[data-fluorescent_tag="' + $(this).val() + '"]').fadeIn();
-      } else {
-        $('.cellline').fadeIn();
-      }
-      $('#tagLocation-filter').val('');
-    });
-  };
 
+    //
+    // $('.main-nav').on('click', '.tab', function(e) {
+    //   $('.tab-section').hide();
+    //   $('#' + $(this).data('content')).fadeIn();
+    // });
+    // $('.main-nav .tab:first').click();
 
-  cellListView.handleTagFilter = function() {
-    $('#tagLocation-filter').on('change', function() {
-      if ($(this).val()) {
-        $('.cellline').hide();
-        $('.cellline[data-terminal_tagged="' + $(this).val() + '"]').fadeIn();
-      } else {
-        $('.cellline').fadeIn();
-      }
-      $('#fluorophore-filter').val('');
-    });
-  };
-
-  cellListView.handleMainNav = function() {
-    $('.main-nav').on('click', '.tab', function(e) {
-      $('.tab-section').hide();
-      $('#' + $(this).data('content')).fadeIn();
-    });
-    $('.main-nav .tab:first').click();
-  };
-
-  cellListView.createFilter= function(filterid, option ){
+  cellListView.createFilter= function(filterid, option){
     var $parentOptions = $(filterid);
-    $('<option>').val(option).text(option).appendTo($parentOptions);
+    $('<option>').val(option).text(option).addClass('options').appendTo($parentOptions);
+  };
+
+  cellListView.drawTable = function(celllines) {
+    celllines.forEach(function(a) {
+      $('#cell-line-table').append(a.toHtml($('#cellList-template')));
+    });
   };
 
   cellListView.renderIndexPage = function(allcelllines) {
     $('#cellline-profile').hide();
     $('#cell-line-table').children().remove();
-    CellLine.allTagLocations().forEach(function(a){
-      cellListView.createFilter(('#tagLocation-filter'), a);
-    });
-    CellLine.allFluorophores().forEach(function(a){
-      cellListView.createFilter(('#fluorophore-filter'), a);
-    });
-    allcelllines.forEach(function(a) {
-      $('#cell-line-table').append(a.toHtml($('#cellList-template')));
-    });
-    cellListView.handleFluorophoreFilter();
-    cellListView.handleTagFilter();
-    cellListView.handleMainNav();
-    cellListView.handleRowSelect();
+    $('#cell-line-list').show();
+    if ($('select').find('.options').length ===0) {
+      cellListView.filters.forEach(function(filter){
+        CellLine.allInCategory(filter).forEach(function(option){
+          cellListView.createFilter(('#'+filter+'-filter'), option);
+        });
+      });
+    }
+    // $('.filter').change();
+    cellListView.drawTable(allcelllines);
   };
 
 

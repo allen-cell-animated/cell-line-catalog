@@ -10,8 +10,21 @@ page('/cellline/:id',
   celllineController.loadById,
   celllineController.subpageIndex);
 
+page('/:filtername/:filtervalue',
+  celllineController.filter,
+  celllineController.restartFilter,
+  celllineController.index);
+
+
+page('/:filtername/:filtervalue/:filternamesec/:filtervaluesec',
+  celllineController.filter,
+  celllineController.filtersec,
+  celllineController.restartFilter,
+  celllineController.index);
+
+
 // Redirect home if the default filter option is selected:
-// page('/category', '/');
+page('/:filtername/', '/');
 // page('/author', '/');
 //
 // page('/author/:authorName',
@@ -22,8 +35,8 @@ page('/cellline/:id',
 //   celllineController.loadByCategory,
 //   celllineController.index);
 
-page('*', function(){
-  $('body').text('Not found!');
-});
+// page('*', function(){
+//   $('body').text('Not found!');
+// });
 
 page();
