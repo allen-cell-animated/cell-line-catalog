@@ -7,24 +7,31 @@
       next();
     };
     if (CellLine.allCellLines.length){
-      console.log('already loaded');
       ctx.celllines = CellLine.allCellLines;
       next();
     }
     else{
-      console.log('getting data');
       CellLine.updateData('/data/cell_line_catalog.json', 'cell-lines', cellLineData);
 
     }
   };
 
-  celllineController.restartFilter = function(ctx, next) {
-    if(ctx.celllines.length) {
-      $('#cell-line-table .errors').hide()
-      cellListView.drawTable(ctx.celllines);
-    } else{
-      $('#cell-line-table .errors').show();
+
+  celllineController.checkContext = function(ctx, next) {
+    if(ctx.celllines.length !== 0) {
+      console.log('length=',ctx.celllines.length);
+      $('#cell-line-list .errors').hide();
+    } else {
+      $('#cell-line-list .errors').show();
+      $('.filter').val('');
     }
+    next();
+  };
+
+  celllineController.restartFilter = function(ctx, next) {
+    cellListView.setFilters(ctx);
+    cellListView.drawTable(ctx.celllines);
+    next();
   };
 
   celllineController.filter = function(ctx, next) {
@@ -57,7 +64,6 @@
 
   celllineController.index = function(ctx, next) {
     if(ctx.celllines.length) {
-      console.log('rendering index page');
       cellListView.renderIndexPage(ctx.celllines);
     } else{
       page('/');
@@ -71,6 +77,11 @@
       page('/');
     }
   };
+
+  celllineController.resetFilters = function(ctx, next) {
+    cellListView.resetFilters();
+    next();
+  }
 
 
 

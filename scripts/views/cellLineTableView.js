@@ -12,44 +12,41 @@
   });
 
 
+  cellListView.setFilters = function(ctx){
+    $('#'+ ctx.params.filtername + '-filter').val(ctx.params.filtervalue);
+    $('#'+ ctx.params.filternamesec + '-filter').val(ctx.params.filtervaluesec);
+  };
 
-  $('.filter').on('change', readFilters);
-
-  cellLineView.readFilters = function(){
+  cellListView.readFilters = function(){
     $('.cellline').hide();
     var filters = $('.filter').map(function() {
       return {
         value : $(this).val(),
         filter: this.id.replace('-filter', '')
       };}).get().filter(function(ele){
-        return ele.value !== ''
+        return ele.value !== '';
       });
-    if (filters.length <= 2) {
       url = filters.reduce(function(acc, cur){
-        acc.push('/' + cur.filter + '/' +cur.value)
-        return acc
+        acc.push('/' + cur.filter + '/' +cur.value);
+        return acc;
       },[]);
-      page(url.join(''))
-    }
-    else  {
-
-    }
-
+      page(url.join(''));
   };
-  // $('.filter').change();
 
+  cellListView.checkContext = function(ctx){
+    if(ctx.celllines.length !== 0) {
+      $('#cell-line-list .errors').hide();
+    } else {
+      $('#cell-line-list .errors').show();
+      $('.filter').val('');
+    }
+  };
 
-
-    //
-    // $('.main-nav').on('click', '.tab', function(e) {
-    //   $('.tab-section').hide();
-    //   $('#' + $(this).data('content')).fadeIn();
-    // });
-    // $('.main-nav .tab:first').click();
+  $('.filter').on('change', cellListView.readFilters);
 
   cellListView.createFilter= function(filterid, option){
     var $parentOptions = $(filterid);
-    $('<option>').val(option).text(option).addClass('options').appendTo($parentOptions);
+    $('<option>').val(option).addClass('options').attr('data-content', "<span class='label label-success'>Relish</span>").text(option).appendTo($parentOptions);
   };
 
   cellListView.drawTable = function(celllines) {
@@ -69,11 +66,12 @@
         });
       });
     }
-    // $('.filter').change();
     cellListView.drawTable(allcelllines);
   };
 
-
+  cellListView.resetFilters =function(){
+    $('.filter').val('');
+  };
 
   module.cellListView = cellListView;
 })(window);

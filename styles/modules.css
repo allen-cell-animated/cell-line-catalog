@@ -103,6 +103,10 @@
   background-color: #f2f2f2
 }
 
+.errors{
+  color:red;
+}
+
 .image-scale img{
   width: 100%;
   margin: auto;
@@ -116,6 +120,10 @@
 .fiftypercent{
   width: 50%;
   float: left;
+}
+
+.acknowledgements{
+  text-align: center;
 }
 
 

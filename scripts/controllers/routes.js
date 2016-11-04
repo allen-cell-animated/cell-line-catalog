@@ -1,5 +1,6 @@
 page('/',
   celllineController.loadAll,
+  celllineController.resetFilters,
   celllineController.index);
 
 // page('/about', aboutController.index);
@@ -11,16 +12,24 @@ page('/cellline/:id',
   celllineController.subpageIndex);
 
 page('/:filtername/:filtervalue',
+  celllineController.loadAll,
   celllineController.filter,
+  celllineController.checkContext,
   celllineController.restartFilter,
   celllineController.index);
 
 
 page('/:filtername/:filtervalue/:filternamesec/:filtervaluesec',
+  celllineController.loadAll,
   celllineController.filter,
   celllineController.filtersec,
+  celllineController.checkContext,
   celllineController.restartFilter,
-  celllineController.index);
+  celllineController.index
+);
+
+  // page('/:filtername/:filtervalue/:filternamesec/:filtervaluesec/:filternamelast/:filtervaluelast',
+  //   celllineController.reset);
 
 
 // Redirect home if the default filter option is selected:
