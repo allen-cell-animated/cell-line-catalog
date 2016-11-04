@@ -28,8 +28,15 @@ page('/:filtername/:filtervalue/:filternamesec/:filtervaluesec',
   celllineController.index
 );
 
-  // page('/:filtername/:filtervalue/:filternamesec/:filtervaluesec/:filternamelast/:filtervaluelast',
-  //   celllineController.reset);
+  page('/:filtername/:filtervalue/:filternamesec/:filtervaluesec/:filternamelast/:filtervaluelast',
+  celllineController.loadAll,
+  celllineController.filter,
+  celllineController.filtersec,
+  celllineController.filterthird,
+  celllineController.checkContext,
+  celllineController.restartFilter,
+  celllineController.index
+);
 
 
 // Redirect home if the default filter option is selected:

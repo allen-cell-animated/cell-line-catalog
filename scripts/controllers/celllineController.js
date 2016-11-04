@@ -52,6 +52,15 @@
     complaintsData(array);
   };
 
+  celllineController.filterthird = function(ctx, next) {
+    var complaintsData = function(array) {
+      ctx.celllines = array;
+      next();
+    };
+    var array = ctx.celllines.filter(function(ele, index, array){ return ele[ctx.params.filternamelast] === ctx.params.filtervaluelast;});
+    complaintsData(array);
+  };
+
   celllineController.loadById = function(ctx, next) {
     ctx.celllines = [];
     var complaintsData = function(array) {
