@@ -103,12 +103,28 @@
   background-color: #f2f2f2
 }
 
+.errors{
+  color:red;
+}
+
 .image-scale img{
   width: 100%;
   margin: auto;
 }
 
+.data-section{
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 20px;
+}
 
+.fiftypercent{
+  width: 50%;
+  float: left;
+}
+
+.acknowledgements{
+  text-align: center;
+}
 
 
 @media only screen and (min-width: 1130px) {

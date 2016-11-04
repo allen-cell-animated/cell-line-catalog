@@ -21,18 +21,18 @@
     });
   };
 
-  CellLine.fetchAll = function(url, name, loadDataintoArray, renderDatatoDOM) {
+  CellLine.fetchAll = function(url, name, callback) {
     $.get(url, function(data, message, xhr) {
       localStorage.setItem(name, JSON.stringify(data));
       localStorage['eTag' + name] = xhr.getResponseHeader('eTag');
-      loadDataintoArray(name);
-      renderDatatoDOM();
+      CellLine.loadIntoObjectArray(name);
+      callback();
     });
   };
 
-  CellLine.updateData = function(url, name, loadDataintoArray, renderDatatoDOM) {
+  CellLine.updateData = function(url, name, callback) {
     if (!localStorage[name]) {
-      CellLine.fetchAll(url, name, loadDataintoArray, renderDatatoDOM);
+      CellLine.fetchAll(url, name, callback);
     }
     else{
       $.ajax({
@@ -41,28 +41,20 @@
         success: function(data, message, xhr){
           var newTag = xhr.getResponseHeader('eTag');
           if (newTag !== localStorage['eTag' + name]){
-            CellLine.fetchAll(url, name, loadDataintoArray, renderDatatoDOM);
+            CellLine.fetchAll(url, name, callback);
           } //end of if
           else {
-            loadDataintoArray(name);
-            renderDatatoDOM();
+            CellLine.loadIntoObjectArray(name);
+            callback();
           }
         } //end of success
       });  //end of ajax
     };
   };
 
-  CellLine.allTagLocations = function() {
+  CellLine.allInCategory = function(category) {
     return CellLine.allCellLines.map(function(currentCellLine) {
-      return currentCellLine.Main_terminal_tagged;
-    }).filter(function(element, index, array){
-      return array.indexOf(element)===index;
-    });
-  };
-
-  CellLine.allFluorophores = function() {
-    return CellLine.allCellLines.map(function(currentCellLine) {
-      return currentCellLine.Main_fluorescent_tag;
+      return currentCellLine[category];
     }).filter(function(element, index, array){
       return array.indexOf(element)===index;
     });

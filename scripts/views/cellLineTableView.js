@@ -2,83 +2,76 @@
 
 
   var cellListView = {};
+  cellListView.filters = ['Main_gene_name', 'Main_structure', 'Main_fluorescent_tag', 'Main_parent_line'];
 
-  cellListView.handleRowSelect = function() {
-    $('#cell-line-table').on('click', '.cellline',function() {
-      currentID=(this.id);
-      console.log(currentID);
-      $('#cell-line-list').hide();
-      var selectedCellLine = CellLine.allCellLines.find(function(ele, index, array){ return ele.cell_line_id === currentID;});
-      console.log(selectedCellLine);
-      cellLineProfileView.RenderProfile(selectedCellLine);
-      $('#cellline-profile').fadeIn();
-    });
+  $('#cell-line-table').on('click', '.cellline',function() {
+    currentID=(this.id);
+    $('#cell-line-list').hide();
+    $('#cellline-profile').fadeIn();
+    page('/cellline/' + currentID);
+  });
+
+
+  cellListView.setFilters = function(ctx){
+    $('#'+ ctx.params.filtername + '-filter').val(ctx.params.filtervalue);
+    $('#'+ ctx.params.filternamesec + '-filter').val(ctx.params.filtervaluesec);
   };
 
-
-  cellListView.handleFluorophoreFilter = function() {
-    $('#fluorophore-filter').on('change', function() {
-      console.log($(this).val());
-      if ($(this).val()) {
-        $('.cellline').hide();
-        $('.cellline[data-fluorescent_tag="' + $(this).val() + '"]').fadeIn();
-      } else {
-        $('.cellline').fadeIn();
-      }
-      $('#tagLocation-filter').val('');
-    });
+  cellListView.readFilters = function(){
+    $('.cellline').hide();
+    var filters = $('.filter').map(function() {
+      return {
+        value : $(this).val(),
+        filter: this.id.replace('-filter', '')
+      };}).get().filter(function(ele){
+        return ele.value !== '';
+      });
+      url = filters.reduce(function(acc, cur){
+        acc.push('/' + cur.filter + '/' +cur.value);
+        return acc;
+      },[]);
+      page(url.join(''));
   };
 
-
-  cellListView.handleTagFilter = function() {
-    $('#tagLocation-filter').on('change', function() {
-      if ($(this).val()) {
-        $('.cellline').hide();
-        $('.cellline[data-terminal_tagged="' + $(this).val() + '"]').fadeIn();
-      } else {
-        $('.cellline').fadeIn();
-      }
-      $('#fluorophore-filter').val('');
-    });
+  cellListView.checkContext = function(ctx){
+    if(ctx.celllines.length !== 0) {
+      $('#cell-line-list .errors').hide();
+    } else {
+      $('#cell-line-list .errors').show();
+      $('.filter').val('');
+    }
   };
 
-  cellListView.handleMainNav = function() {
-    $('.main-nav').on('click', '.tab', function(e) {
-      $('.tab-section').hide();
-      console.log($(this).data('content'));
-      $('#' + $(this).data('content')).fadeIn();
-    });
-    $('.main-nav .tab:first').click();
-  };
+  $('.filter').on('change', cellListView.readFilters);
 
-  cellListView.createFilter= function(filterid, option ){
+  cellListView.createFilter= function(filterid, option){
     var $parentOptions = $(filterid);
-    console.log(option);
-    $('<option>').val(option).text(option).appendTo($parentOptions);
+    $('<option>').val(option).addClass('options').attr('data-content', "<span class='label label-success'>Relish</span>").text(option).appendTo($parentOptions);
   };
 
-  cellListView.renderIndexPage = function() {
-    $('#cellline-profile').hide();
-    CellLine.allTagLocations().forEach(function(a){
-      cellListView.createFilter(('#tagLocation-filter'), a);
-
-    });
-    CellLine.allFluorophores().forEach(function(a){
-      cellListView.createFilter(('#fluorophore-filter'), a);
-
-    });
-    CellLine.allCellLines.forEach(function(a) {
+  cellListView.drawTable = function(celllines) {
+    celllines.forEach(function(a) {
       $('#cell-line-table').append(a.toHtml($('#cellList-template')));
     });
-
-    cellListView.handleFluorophoreFilter();
-    cellListView.handleTagFilter();
-    cellListView.handleMainNav();
-    cellListView.handleRowSelect();
-
   };
 
-  CellLine.updateData('/data/cell_line_catalog.json', 'cell-lines', CellLine.loadIntoObjectArray, cellListView.renderIndexPage);
+  cellListView.renderIndexPage = function(allcelllines) {
+    $('#cellline-profile').hide();
+    $('#cell-line-table').children().remove();
+    $('#cell-line-list').show();
+    if ($('select').find('.options').length ===0) {
+      cellListView.filters.forEach(function(filter){
+        CellLine.allInCategory(filter).forEach(function(option){
+          cellListView.createFilter(('#'+filter+'-filter'), option);
+        });
+      });
+    }
+    cellListView.drawTable(allcelllines);
+  };
+
+  cellListView.resetFilters =function(){
+    $('.filter').val('');
+  };
 
   module.cellListView = cellListView;
 })(window);

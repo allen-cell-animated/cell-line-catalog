@@ -4,17 +4,18 @@
   FirebaseallCellLines = firebaseLocal.ref('/celllines');
   firebaseLocal.storageRef = firebase.storage().ref();
 
-  FirebaseallCellLines.on('value', function(snapshot) {
-    if (snapshot.val()) {
-      CellLine.allCellLinesFB = snapshot.val();
-      console.log('loaded firebase cellines');
-    }
-    else {
-      console.log('nothing from firebase');
-      CellLine.allCellLinesFB = [];
-    }
+  $( document ).ready(function() {
+    FirebaseallCellLines.on('value', function(snapshot) {
+      if (snapshot.val()) {
+        CellLine.allCellLinesFB = snapshot.val();
+        console.log('loaded firebase cellines');
+      }
+      else {
+        console.log('nothing from firebase');
+        CellLine.allCellLinesFB = [];
+      }
+    });
   });
-
 
   firebaseLocal.signin =function(email, password){
     firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {

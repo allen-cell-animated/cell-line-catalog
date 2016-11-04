@@ -34,3 +34,7 @@ p {
 address {
   display: inline-block;
 }
+
+option  {
+  color: red !important;
+}

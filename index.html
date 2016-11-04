@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Blog</title>
+    <title>Cell Line Catalog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/vendor/styles/normalize.css">
     <link rel="stylesheet" href="/styles/icons.css">
@@ -16,15 +16,22 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
 
     <script id="cellList-template" type="text/x-handlebars-template">
-      <tr class= 'cellline' data-fluorescent_tag ={{Main_fluorescent_tag}} data-terminal_tagged={{Main_terminal_tagged}} id = {{cell_line_id}}>
+      <tr class= 'cellline'
+       data-Main_fluorescent_tag-filter={{Main_fluorescent_tag}} data-Main_structure-filter ={{Main_structure}}
+       data-Main_gene_name-filter ={{Main_gene_name}}
+       data-Main_parent_line-filter ="{{Main_parent_line}}"
+       id = {{cell_line_id}}>
         <td class='table-cell-line-id'>
           {{cell_line_id}}
         </td>
         <td>
-          {{Main_gene_name}}
+          {{Main_structure}}
         </td>
         <td>
-          {{Main_structure}}
+          Protein
+        </td>
+        <td>
+          {{Main_gene_name}} <span class=gene-symbol>({{Main_gene_symbol}})</span>
         </td>
         <td class='table-main-termial-tagged'>
           {{Main_terminal_tagged}}
@@ -32,10 +39,14 @@
         <td>
           {{Main_fluorescent_tag}}
         </td>
+        <td>
+          WTC
+          {{Main_parent_line}}
+        </td>
 
       </tr>
     </script>
-    <script id="tag-filter-template" type="text/x-handlebars-template">
+    <script id="-filter-template" type="text/x-handlebars-template">
       <option value="{{Main_terminal_tagged}}">{{Main_terminal_tagged}}</option>
     </script>
     <script id="fluorophore-filter-template" type="text/x-handlebars-template">
@@ -44,11 +55,11 @@
 
 <!-- cell profile template -->
     <script id="cell-profile-info-template" type="text/x-handlebars-template">
-        <h4>{{cell_line_id}}</h4>
+        <!-- <h4>Cell Line ID: {{cell_line_id}}</h4> -->
         <div class="col-md-4">
           <div class="panel panel-primary">
             <div class="panel-heading">
-              <h4>{{cell_line_id}}</h4>
+              <h4>Cell Line ID: {{cell_line_id}}</h4>
             </div>
 
             <div class="panel-body">
@@ -63,15 +74,14 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="col-lg-6">
-                  <a class="btn btn-warning btn-block" role="button" href="mailto:info@cell_line_catalog.org?subject=Requesting {{cell_line_id}}">Request this line</a>
+                  <a class="btn btn-warning btn-block" role="button" href="mailto:info@cell_line_catalog.org?subject=Requesting {{cell_line_id}}">Order {{cell_line_id}}</a>
                 </div>
                 <div class="col-lg-6">
-                  <a class="btn btn-warning btn-block" role="button" href="mailto:info@cell_line_catalog.org?subject=Beta tester for {{cell_line_id}}">Be a beta tester</a>
+                  <a class="btn btn-warning btn-block" role="button" href="{{Main_parent_line}}">Order parental line</a>
                 </div>
               </div>
               <div class="col-md-12">
                 <div class="col-md-12">
-                  <a class="btn btn-warning btn-block" role="button" href="{{WTC_parent_line}}">Order WTC parent line</a>
                 </div>
               </div>
             </div>
@@ -81,14 +91,15 @@
       </div>
       <div class="col-md-8">
         <div class="panel panel-primary">
-          <img class="morphology-main" src="images/cell-image.jpg" alt="" />
+          <img class="morphology-main" src="/images/cell-image.jpg" alt="" />
+          <div class="caption">{{morphology_image_caption}}</div>
           <div class="panel-footer">
-            <div class="row">
-              <div class = "col-md-6">
-                <a href="#" class="thumbnails"><img class="active morphology-thumbnail" src="images/cell-image.jpg" alt="" /></a>
+            <div class="">
+              <div class="fiftypercent">
+                <a href="#" class="thumbnails"><img class="active morphology-thumbnail" src="/images/cell-image.jpg" alt="" /></a>
               </div>
-              <div class = "col-md-6">
-                <a href="#" class="thumbnails"><img class="morphology-thumbnail" src="images/clone_morphology.jpg" alt="" /></a>
+              <div class="fiftypercent">
+                <a href="#" class="thumbnails"><img class="morphology-thumbnail" src="/images/clone_morphology.jpg" alt="" /></a>
               </div>
             </div>
             <span>Colonies at 10X magnification 3 after plating.</span>
@@ -113,7 +124,7 @@
                   <span class="profile-summary-key">crRNA:</span>
                   <span>{{EditingDesign_crRNA_seq}}</span></li>
                 <li class="list-group-item">
-                  <span class="profile-summary-key">Plasmid sequence:</span>
+                  <span class="profile-summary-key">Doner plasmid sequence:</span>
                   <span>{{Main_plasmid_sequence}}</span></li>
                 <li class="list-group-item">
                   <span class="profile-summary-key">Cas9:</span>
@@ -122,29 +133,6 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h4>Expression Level</h4>
-            </div>
-            <div class="panel-body">
-              <div class="center-block image-scale">
-                <img class="" src="images/expression.jpg" alt="" />
-              </div>
-            </div>
-            <div class="panel-footer">
-              <ul class="list-group">
-                <li class="list-group-item">
-                  <span class="profile-summary-key">FPKM passage 14</span>
-                  <span>{{EditingDesign_p14_fpkm}}</span></li>
-                <li class="list-group-item">
-                  <span class="profile-summary-key">FPKM passage 18</span>
-                  <span>{{EditingDesign_p18_fpkm}}</span></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
       </div>
 
       <div class="row">
@@ -155,14 +143,12 @@
             </div>
             <div class="panel-body ">
               <div class="center-block image-scale">
-                <img class="" src="images/gfp_insert.jpg" alt="" />
+                <img class="" src="/images/gfp_insert.jpg" alt="" />
               </div>
             </div>
           </div>
         </div>
-
-
-        </div>
+      </div>
     </script>
 
     <!-- genomiccharacterizations templates --------------->
@@ -187,7 +173,6 @@
         </div>
         <div class="col-sm-6">
           <div class="panel panel-primary">
-
             <div class="panel-body">
               <div class="center-block image-scale">
               </div>
@@ -234,7 +219,6 @@
           </div>
         </div>
       </div>
-
     </script>
 
     <!-- validation templates --------------->
@@ -246,7 +230,7 @@
               <h4>Western Blot</h4>
             </div>
             <div class="panel-body ">
-              <div class="center-block image-scale">              <img src="images/validation-westernblot.png">
+              <div class="center-block image-scale"><img src="/images/validation-westernblot.png">
               </div>
               <div class="caption">
                 <h4>Western Blot methods</h4>
@@ -262,7 +246,7 @@
             </div>
             <div class="panel-body ">
               <div class="center-block image-scale">
-                <img class="" src="images/Validation/Tubulin-clone-105-IF-100416.jpg" alt="" />
+                <img class="" src="/images/Validation/Tubulin-clone-105-IF-100416.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -280,7 +264,7 @@
             </div>
             <div class="panel-body">
               <div class="center-block image-scale">
-                <img class="" src="images/Karyotype.jpg" alt="" />
+                <img class="" src="/images/Karyotype.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -294,18 +278,18 @@
               <table class="table table-hover table-striped">
                 <thead>
                   <tr>
-                    <th>Clone</th>
-                    <th>cTnT + cardiomyocytes</th>
+                    <th></th>
+                    <th>8</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>cl101</td>
-                    <td>90%</td>
-                  </tr>
+                    <td>Day of Beating</td>
+                    <td>8</td>lg
+2                </tr>
                   <tr>
-                    <td>cl105</td>
-                    <td>92%</td>
+                    <td>Troponin T %</td>
+                    <td>90</td>
                   </tr>
                 </tbody>
 
@@ -319,7 +303,19 @@
     <!-- supplementaryinformation template --------------->
     <script id="supplementaryinformation-template" type="text/x-handlebars-template">
       <div class="row">
-        <div class="col-sm-5">
+        <div class="col-sm-12">
+          <div class="acknowledgements">
+            <div class="">
+              <h4>Acknowledgements</h4>
+            </div>
+            <div class="">
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
           <div class="panel panel-primary bg-lightgray">
             <div class="panel-heading">
               <h4>Primers</h4>
@@ -345,53 +341,88 @@
             </div>
           </div>
         </div>
+        <div class="col-sm-6">
+          <div class="panel panel-primary bg-lightgray">
+            <div class="panel-heading">
+              <h4>Protocols</h4>
+            </div>
+            <div class="panel-body">
+              <ul id=editingDesign-info class="list-group">
+                <li class="list-group-item">
+                  <span class="profile-summary-key">Cell Culture</span>
+                  <span>F: NNNNNN</span></li>
+                <li class="list-group-item">
+                  <span class="profile-summary-key">Transfection</span>
+                  <span>R: NNNNNN</span></li>
+                <li class="list-group-item">
+                  <span class="profile-summary-key">ddPCR</span>
+                  <span></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="panel panel-primary bg-lightgray">
+            <div class="panel-heading">
+              <h4>Off-targets</h4>
+            </div>
+            <div class="panel-body">
+
+            </div>
+          </div>
+        </div>
       </div>
     </script>
-
   </head>
+<!-- BODY START -->
   <body>
     <header class="site-header clearfix">
       <nav class="main-nav clearfix">
       <section class="heading-group-h1">
         <div class="back-button">
-          <a data-toggle="tab" class="logo" href="#cell-line-list"></a>
+          <a data-toggle="tab" class="logo" href="#"></a>
         </div>
       </section>
-        <div class="icon-menu"></div>
-        <ul>
-          <li class="tab" data-content="cell-line-list"><a data-toggle="tab" href="#cell-line-list" class="icon-home">All Cell Lines</a></li>
-          <li class="tab" data-content="about"><a data-toggle="tab" href="#about" class="icon-address-book">About</a></li>
-        </ul>
       </nav>
     </header>
 
     <main class="">
       <section id="cell-line-list" class="tab-section active">
         <div>
-          <ul id="filters">
-            <li>
-              <select id="tagLocation-filter">
-                <option value="">-- Filter by Tag Location --</option>
+          <form id="filters" class="form-horizontal">
+            <div class="form-group">
+              <select id="Main_structure-filter" class="form-control filter col-md-2">
+                <option value="">Filter by Structure</option>
               </select>
-            </li>
-            <li>
-              <select id="fluorophore-filter">
-                <option value="">-- Filter by Flurorophore --</option>
+              <select id="Main_fluorescent_tag-filter" class="form-control filter col-md-2">
+                <option value="">Filter by Flurorophore</option>
               </select>
-            </li>
-          </ul>
+
+              <select id="Main_gene_name-filter" class="form-control filter col-md-2">
+                <option value="">Filter by Gene</option>
+              </select>
+
+              <select id="Main_parent_line-filter" class="form-control filter col-md-2">
+                <option value="">Filter by Parental Line</option>
+              </select>
+            </div>
+
+          </form>
           <div class="table-responsive">
             <table class="table table-hover table-striped">
               <thead class='text-info'>
                 <tr>
                   <th>
-                    ID
-                  </th>
-                  <th>
-                    Gene name
+                    Cell Line ID
                   </th>
                   <th>
                     Structure
+                  </th>
+                  <th>
+                    Protein
+                  </th>
+                  <th>
+                    Gene name
                   </th>
                   <th>
                     Tag Location
@@ -399,9 +430,13 @@
                   <th>
                     Fluorophore
                   </th>
+                  <th>
+                    Parental Line
+                  </th>
                 </tr>
               </thead>
               <tbody id="cell-line-table">
+                <p class = 'errors displayoff'>Nothing matches your filters</p>
               </tbody>
           </table>
         </div>
@@ -413,7 +448,7 @@
         <div class="back-button">
           <a data-toggle="tab" href="#cell-line-list">&lArr; Back to full list</a>
         </div>
-        <div class="container">
+        <div class="container-fluid">
           <div id="cellline-info" class="row ">
           </div>
         </div>
@@ -423,7 +458,7 @@
             <ul class="nav nav-pills nav-justified" role="tablist">
               <li class="sub-page-tab active"><a data-toggle="tab" href="#editingdesign">Editing Design</a></li>
               <li class="sub-page-tab"><a data-toggle="tab" href="#genomiccharacterizations">Genomic Characterization</a></li>
-              <li class="sub-page-tab"><a data-toggle="tab" href="#validation">Validation</a></li>
+              <li class="sub-page-tab"><a data-toggle="tab" href="#validation">Cellular Validation</a></li>
               <li class="sub-page-tab"><a data-toggle="tab"  href="#stemcellcharacteristics">Stem Cell Characteristics</a></li>
               <li class="sub-page-tab"><a data-toggle="tab" href="#supplementaryinformation">Supplementary Information</a></li>
             </ul>
@@ -446,6 +481,8 @@
           </div>
         </div>
       </section>
+      <!-- ABOUT -------------->
+
       <section id="about" class="tab-section">
         <header>
           Welcome to the Cell Line Catalog
@@ -466,8 +503,8 @@
     <!-- Vendor Files -->
     <script src="/vendor/scripts/jquery-2.1.4.js"></script>
     <script src="/vendor/scripts/handlebars.js"></script>
-    <script src="/vendor/scripts/marked.js"></script>
     <script src="/vendor/scripts/bootstrap.min.js"></script>
+    <script src="/vendor/scripts/page.js"></script>
 
     <!-- Model Files -->
     <script src="/scripts/models/cellLine.js"></script>
@@ -475,6 +512,12 @@
     <!-- View Files -->
     <script src="/scripts/views/cellLineTableView.js"></script>
     <script src="/scripts/views/cellLineSubpage.js"></script>
+
+    <!-- Controller files: -->
+    <script src="/scripts/controllers/celllineController.js"></script>
+    <!-- <script src="/scripts/controllers/aboutController.js"></script>
+    <script src="/scripts/controllers/adminController.js"></script> -->
+    <script src="/scripts/controllers/routes.js"></script>
 
   </body>
 </html>
