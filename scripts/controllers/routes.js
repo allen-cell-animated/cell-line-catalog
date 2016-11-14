@@ -1,6 +1,11 @@
 page('/',
   celllineController.loadAll,
   celllineController.resetFilters,
+  celllineController.mainindex);
+
+page('/cell-line-catalog',
+  celllineController.loadAll,
+  celllineController.resetFilters,
   celllineController.index);
 
 // page('/about', aboutController.index);
