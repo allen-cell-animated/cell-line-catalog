@@ -18,6 +18,10 @@
   min-width: 70px;
 }
 
+#main{
+  text-align: center;
+}
+
 .btn-warning:hover{
   background-color: #bad636;
   border: solid 1px #bad636;
@@ -35,8 +39,8 @@
 }
 
 .logo{
-  background-image: url(/images/logo-CLC.png)  ;
-  vertical-align: middle;
+    background-image: url(/images/logo-CLC.png)  ;
+    vertical-align: middle;
     display: inline-block;
     background-size: contain;
     background-position: left;

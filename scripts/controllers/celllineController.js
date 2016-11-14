@@ -79,6 +79,14 @@
     }
   };
 
+  celllineController.mainindex = function(ctx, next) {
+    if(ctx.celllines.length) {
+      cellListView.renderMainPage(ctx.celllines);
+    } else{
+      page('/');
+    }
+  };
+
   celllineController.subpageIndex = function(ctx, next) {
     if(ctx.celllines) {
       cellLineProfileView.RenderProfile(ctx.celllines);
