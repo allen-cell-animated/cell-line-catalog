@@ -4,10 +4,10 @@
   var cellLineProfileView = {};
 
   cellLineProfileView.goBack = function(){
-    $('.back-button').on('click', function(){
-      $('.main-nav .tab:first').click();
-      page('/');
-    });
+    // $('.back-button').on('click', function(){
+    //   $('.main-nav .tab:first').click();
+    //   page('/');
+    // });
   };
 
   cellLineProfileView.gallery = function() {
