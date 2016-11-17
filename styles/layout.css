@@ -147,6 +147,10 @@ footer{
   color: #003056
 }
 
+#in_progress{
+  margin-top: 100px;
+}
+
 @media only screen and (min-width: 640px) {
   .heading-group-h1 {
     padding: .1em .1em .1em 2em;
