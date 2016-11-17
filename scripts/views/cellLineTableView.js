@@ -51,7 +51,12 @@
 
   cellListView.drawTable = function(celllines) {
     celllines.forEach(function(a) {
-      $('#cell-line-table').append(a.toHtml($('#cellList-template')));
+      if (a.status === 'complete') {
+        $('#cell-line-table').append(a.toHtml($('#cellList-template')));
+      }
+      else {
+        $('#in_progress #cell-line-table').append(a.toHtml($('#cellList-template')));
+      }
     });
   };
 

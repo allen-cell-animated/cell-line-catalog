@@ -1,6 +1,7 @@
 [
   {
     "cell_line_id": "AICS-005",
+    "status": "complete",
     "Main_gene_symbol": "PXN",
     "Main_gene_name": "Paxillin",
     "Protein": "Paxillin",
@@ -35,6 +36,7 @@
   },
   {
     "cell_line_id": "AICS-012",
+    "status": "complete",
     "Main_gene_symbol": "TUBA1B",
     "Main_gene_name": "Tubulin-alpha 1b",
     "Protein": "Alpha-tubulin",
@@ -69,6 +71,7 @@
   },
   {
     "cell_line_id": "AICS-031",
+    "status": "in_progress",
     "Main_gene_symbol": "TUBA1B",
     "Main_gene_name": "Tubulin-alpha 1b",
     "Protein": "Alpha-tubulin",
@@ -103,6 +106,7 @@
   },
   {
     "cell_line_id": "AICS-011",
+    "status": "complete",
     "Main_gene_symbol": "TOMM20",
     "Main_gene_name": "Translocase of outer mitochondrial membrane 20",
     "Protein": "TOM20",
@@ -137,6 +141,7 @@
   },
   {
     "cell_line_id": "AICS-013",
+    "status": "complete",
     "Main_gene_symbol": "LMNB1",
     "Main_gene_name": "Lamin B1",
     "Protein": "LaminB1",
@@ -171,6 +176,7 @@
   },
   {
     "cell_line_id": "AICS-029",
+    "status": "in_progress",
     "Main_gene_symbol": "LMNB1",
     "Main_gene_name": "Lamin B1",
     "Protein": "LaminB1",
@@ -205,6 +211,7 @@
   },
   {
     "cell_line_id": "AICS-017",
+    "status": "complete",
     "Main_gene_symbol": "DSP",
     "Main_gene_name": "Desmoplakin",
     "Protein": "Desmoplakin",
@@ -239,6 +246,7 @@
   },
   {
     "cell_line_id": "AICS-016",
+    "status": "in_progress",
     "Main_gene_symbol": "ACTB",
     "Main_gene_name": "Actin beta",
     "Protein": "Beta-actin",
@@ -273,6 +281,7 @@
   },
   {
     "cell_line_id": "AICS-010",
+    "status": "in_progress",
     "Main_gene_symbol": "SEC61B",
     "Main_gene_name": "Sec61 translocon beta subunit",
     "Protein": "Sec61-beta",
@@ -307,6 +316,7 @@
   },
   {
     "cell_line_id": "AICS-014",
+    "status": "in_progress",
     "Main_gene_symbol": "FBL",
     "Main_gene_name": "Fibrillarin",
     "Protein": "Fibrillarin",
@@ -341,6 +351,7 @@
   },
   {
     "cell_line_id": "AICS-024",
+    "status": "in_progress",
     "Main_gene_symbol": "MYH10",
     "Main_gene_name": "Myosin heavy chain 10",
     "Protein": "Myosin IIB",
@@ -375,6 +386,7 @@
   },
   {
     "cell_line_id": "AICS-032",
+    "status": "in_progress",
     "Main_gene_symbol": "CETN2",
     "Main_gene_name": "Centrin 2",
     "Protein": "Centrin",
@@ -409,6 +421,7 @@
   },
   {
     "cell_line_id": "AICS-020",
+    "status": "in_progress",
     "Main_gene_symbol": "VIM",
     "Main_gene_name": "Vimentin",
     "Protein": "Vimentin",
@@ -443,6 +456,7 @@
   },
   {
     "cell_line_id": "AICS-023",
+    "status": "in_progress",
     "Main_gene_symbol": "TJP1",
     "Main_gene_name": "Tight junction protein 1",
     "Protein": "ZO-1",
@@ -477,6 +491,7 @@
   },
   {
     "cell_line_id": "AICS-030",
+    "status": "in_progress",
     "Main_gene_symbol": "MAP1LC3B",
     "Main_gene_name": "Microtubule associated protein 1 light chain 3 beta",
     "Protein": "LC3",
@@ -511,6 +526,7 @@
   },
   {
     "cell_line_id": "AICS-036",
+    "status": "in_progress",
     "Main_gene_symbol": "AAVS1-CAG-GFP",
     "Main_gene_name": "",
     "Protein": "GFP",
@@ -545,6 +561,7 @@
   },
   {
     "cell_line_id": "AICS-025",
+    "status": "in_progress",
     "Main_gene_symbol": "ST6GAL1",
     "Main_gene_name": "ST6 beta-galactoside alpha-2,6-sialyltransferase 1",
     "Protein": "beta-galactoside alpha-2,6-sialyltransferase 1",
@@ -579,6 +596,7 @@
   },
   {
     "cell_line_id": "AICS-022",
+    "status": "in_progress",
     "Main_gene_symbol": "LAMP1",
     "Main_gene_name": "lysosomal associated membrane protein 1",
     "Protein": "LAMP1",
