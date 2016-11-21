@@ -29,7 +29,6 @@ page('/:filtername/:filtervalue/:filternamesec/:filtervaluesec',
   celllineController.filter,
   celllineController.filtersec,
   celllineController.checkContext,
-  celllineController.restartFilter,
   celllineController.index
 );
 
@@ -39,13 +38,12 @@ page('/:filtername/:filtervalue/:filternamesec/:filtervaluesec',
   celllineController.filtersec,
   celllineController.filterthird,
   celllineController.checkContext,
-  celllineController.restartFilter,
   celllineController.index
 );
 
 
 // Redirect home if the default filter option is selected:
-page('/:filtername/', '/');
+page('/:filtername/', '/cell-line-catalog');
 // page('/author', '/');
 //
 // page('/author/:authorName',

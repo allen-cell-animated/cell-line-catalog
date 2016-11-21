@@ -13,6 +13,7 @@
 
 
   cellListView.setFilters = function(ctx){
+    console.log(ctx.params.filtername, ctx.params.filtervalue);
     $('#'+ ctx.params.filtername + '-filter').val(ctx.params.filtervalue);
     $('#'+ ctx.params.filternamesec + '-filter').val(ctx.params.filtervaluesec);
   };
@@ -26,11 +27,17 @@
       };}).get().filter(function(ele){
         return ele.value !== '';
       });
-      url = filters.reduce(function(acc, cur){
-        acc.push('/' + cur.filter + '/' +cur.value);
-        return acc;
-      },[]);
-      page(url.join(''));
+      if (filters.length> 0) {
+        url = filters.reduce(function(acc, cur){
+          acc.push('/' + cur.filter + '/' +cur.value);
+          return acc;
+        },[]);
+        page(url.join(''));
+      }
+      else{
+        page('/cell-line-catalog')
+      }
+
   };
 
   cellListView.checkContext = function(ctx){
@@ -60,7 +67,7 @@
     });
   };
 
-  cellListView.renderIndexPage = function(allcelllines) {
+  cellListView.renderIndexPage = function(ctx) {
     $('#cellline-profile').hide();
     $('#cell-line-table').children().remove();
     $('#cell-line-list').show();
@@ -73,7 +80,8 @@
         });
       });
     }
-    cellListView.drawTable(allcelllines);
+    cellListView.setFilters(ctx);
+    cellListView.drawTable(ctx.celllines);
   };
 
   cellListView.renderMainPage = function(){
