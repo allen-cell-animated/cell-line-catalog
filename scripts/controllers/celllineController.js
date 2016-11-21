@@ -30,7 +30,7 @@
 
   celllineController.restartFilter = function(ctx, next) {
     cellListView.setFilters(ctx);
-    cellListView.drawTable(ctx.celllines);
+    // cellListView.drawTable(ctx.celllines);
     next();
   };
 
@@ -72,18 +72,15 @@
   };
 
   celllineController.index = function(ctx, next) {
-    if(ctx.celllines.length) {
-      cellListView.renderIndexPage(ctx.celllines);
-    } else{
-      page('/');
-    }
+      cellListView.renderIndexPage(ctx);
+
   };
 
   celllineController.mainindex = function(ctx, next) {
     if(ctx.celllines.length) {
       cellListView.renderMainPage(ctx.celllines);
     } else{
-      page('/');
+      page('/cell-line-catalog');
     }
   };
 
@@ -91,7 +88,7 @@
     if(ctx.celllines) {
       cellLineProfileView.RenderProfile(ctx.celllines);
     } else{
-      page('/');
+      page('/cell-line-catalog');
     }
   };
 

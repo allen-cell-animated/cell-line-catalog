@@ -113,8 +113,12 @@
             <input type="text" class="form-control" id="Main_cell_line_morphology_url" value="{{Main_cell_line_morphology_url}}">
           </div>
           <div class="col-sm-5">
-            <img src="{{Main_cell_line_morphology_url}}">
+            <img src="{{Main_cell_line_morphology_url}}" >
             <span>{{Main_cell_line_morphology_url}}</span>
+            <video width="320" height="240" autoplay controls>
+                <source src="{{Main_cell_line_morphology_url}}" type="video/mp4">
+                    Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </section>
@@ -240,6 +244,12 @@
       <section class="data-section" id="supplementary">
         <h4>Supplementary Information</h4>
       </section>
+      <section class="data-section" id="supplementary">
+        <h4>Status</h4>
+        <input type="checkbox"> Completed
+        <p>If left unchecked, the cell line will be saved but detailed information will not be shown in the cell line catalog</p>
+      </section>
+
       <button type="submit" name="button" class="btn btn-warning">Save cell line</button>
     </script>
     </head>
@@ -326,7 +336,6 @@
 
         </form>
       </div>
-
       </section>
 
     </main>
