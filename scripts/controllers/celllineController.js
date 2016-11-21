@@ -30,7 +30,7 @@
 
   celllineController.restartFilter = function(ctx, next) {
     cellListView.setFilters(ctx);
-    cellListView.drawTable(ctx.celllines);
+    // cellListView.drawTable(ctx.celllines);
     next();
   };
 

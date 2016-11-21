@@ -32,7 +32,7 @@ page('/:filtername/:filtervalue/:filternamesec/:filtervaluesec',
   celllineController.index
 );
 
-  page('/:filtername/:filtervalue/:filternamesec/:filtervaluesec/:filternamelast/:filtervaluelast',
+page('/:filtername/:filtervalue/:filternamesec/:filtervaluesec/:filternamelast/:filtervaluelast',
   celllineController.loadAll,
   celllineController.filter,
   celllineController.filtersec,

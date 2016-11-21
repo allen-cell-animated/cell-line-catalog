@@ -13,7 +13,6 @@
 
 
   cellListView.setFilters = function(ctx){
-    console.log(ctx.params.filtername, ctx.params.filtervalue);
     $('#'+ ctx.params.filtername + '-filter').val(ctx.params.filtervalue);
     $('#'+ ctx.params.filternamesec + '-filter').val(ctx.params.filtervaluesec);
   };
@@ -58,10 +57,13 @@
 
   cellListView.drawTable = function(celllines) {
     celllines.forEach(function(a) {
+      console.log('sorting:', a );
       if (a.status === 'complete') {
+        console.log('complete', a);
         $('#cell-line-table').append(a.toHtml($('#cellList-template')));
       }
       else {
+        console.log('in progress', a);
         $('#in_progress #cell-line-table').append(a.toHtml($('#cellList-template')));
       }
     });
