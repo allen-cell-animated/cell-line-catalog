@@ -3,13 +3,7 @@
 
   var cellLineProfileView = {};
 
-  cellLineProfileView.goBack = function(){
-    // $('.back-button').on('click', function(){
-    //   $('.main-nav .tab:first').click();
-    //   page('/');
-    // });
-  };
-
+  
   cellLineProfileView.gallery = function() {
     $('.thumbnails').on('click', '.morphology-thumbnail', function(e) {
       e.preventDefault();
