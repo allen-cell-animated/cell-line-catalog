@@ -15,7 +15,7 @@
     var testKey = 'test';
     try {
       localStorage.setItem(testKey, '1');
-      // localStorage.removeItem(testKey);
+      localStorage.removeItem(testKey);
       return false
     } catch (e) {
       return true;
@@ -28,7 +28,6 @@
       $('<p>').html('This site requires access to local storage to work properly, please disable private browsing').addClass('errors').appendTo($('main'))
     }
     else{
-      console.log('not private');
     }
   }
 
@@ -77,13 +76,10 @@
 
   cellListView.drawTable = function(celllines) {
     celllines.forEach(function(a) {
-      console.log('sorting:', a );
       if (a.status === 'complete') {
-        console.log('complete', a);
         $('#cell-line-table').append(a.toHtml($('#cellList-template')));
       }
       else {
-        console.log('in progress', a);
         $('#in_progress #cell-line-table').append(a.toHtml($('#cellList-template')));
       }
     });
