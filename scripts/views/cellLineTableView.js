@@ -12,18 +12,18 @@
   });
 
   cellListView.checkPrivate = function(){
-    var testKey = 'test', storage = window.sessionStorage;
+    var testKey = 'test';
     try {
-      storage.setItem(testKey, '1');
-      storage.removeItem(testKey);
-      return localStorageName in win && win[localStorageName];
-    } catch (error) {
+      localStorage.setItem(testKey, '1');
+      // localStorage.removeItem(testKey);
+      return false
+    } catch (e) {
       return true;
     }
   };
 
   cellListView.alertPrivateBrowsers = function(){
-    if (cellListView.checkPrivate()) {
+    if (cellListView.checkPrivate() === true) {
       console.log('private!');
       $('<p>').html('This site requires access to local storage to work properly, please disable private browsing').addClass('errors').appendTo($('main'))
     }
