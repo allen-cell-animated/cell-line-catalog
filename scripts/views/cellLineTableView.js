@@ -11,6 +11,26 @@
     page('/cellline/' + currentID);
   });
 
+  cellListView.checkPrivate = function(){
+    var testKey = 'test', storage = window.sessionStorage;
+    try {
+      storage.setItem(testKey, '1');
+      storage.removeItem(testKey);
+      return localStorageName in win && win[localStorageName];
+    } catch (error) {
+      return true;
+    }
+  };
+
+  cellListView.alertPrivateBrowsers = function(){
+    if (cellListView.checkPrivate()) {
+      console.log('private!');
+      $('<p>').html('This site requires access to local storage to work properly, please disable private browsing').addClass('errors').appendTo($('main'))
+    }
+    else{
+      console.log('not private');
+    }
+  }
 
   cellListView.setFilters = function(ctx){
     $('#'+ ctx.params.filtername + '-filter').val(ctx.params.filtervalue);

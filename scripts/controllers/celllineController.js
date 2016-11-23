@@ -1,6 +1,11 @@
 (function(module){
   var celllineController = {};
 
+  celllineController.privateAlert = function(ctx, next) {
+    cellListView.alertPrivateBrowsers();
+    next();
+  };
+
   celllineController.loadAll = function(ctx, next) {
     var cellLineData = function(allCellLines) {
       ctx.celllines = CellLine.allCellLines;
