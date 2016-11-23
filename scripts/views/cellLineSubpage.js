@@ -3,7 +3,7 @@
 
   var cellLineProfileView = {};
 
-  
+
   cellLineProfileView.gallery = function() {
     $('.thumbnails').on('click', '.morphology-thumbnail', function(e) {
       e.preventDefault();
@@ -25,7 +25,7 @@
       $('#validation').append(cellLine.toHtml($('#validation-template')));
       $('#stemcellcharacteristics').append(cellLine.toHtml($('#stemcellcharacteristics-template')));
       $('#supplementaryinformation').append(cellLine.toHtml($('#supplementaryinformation-template')));
-      cellLineProfileView.goBack();
+      // cellLineProfileView.goBack();
       cellLineProfileView.gallery();
       $('#cellline-profile').show();
     }
