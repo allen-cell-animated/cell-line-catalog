@@ -24,7 +24,17 @@
       var errorMessage = error.message;
       console.log(errorMessage);
     // ...
-    }).then(function(){console.log('signedin');});
+    }).then(function(){FirebaseallCellLines.on('value', function(snapshot) {
+      if (snapshot.val()) {
+        CellLine.allCellLinesFB = snapshot.val();
+        console.log('loaded firebase cellines');
+      }
+      else {
+        console.log('nothing from firebase');
+        CellLine.allCellLinesFB = [];
+      }
+    });
+  });
   };
 
 
@@ -56,8 +66,10 @@
       $('.user-forms').addClass('displayoff');
       $('.current-user').removeClass('displayoff');
       $('.current-user h4').text('Signed in as: ' + user.email);
+      $('#lookup-id').removeClass('displayoff');
     } else {
       $('#sign-in').removeClass('displayoff');
+      $('#lookup-id').addClass('displayoff');
     }
   });
 
