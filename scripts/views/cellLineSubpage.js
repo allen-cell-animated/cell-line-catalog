@@ -8,8 +8,8 @@
     $('.thumbnails').on('click', '.morphology-thumbnail', function(e) {
       e.preventDefault();
       $('.morphology-main').attr('src', $(this).attr('src')) ;
+      $(this).parents().find('.active').removeClass('active');
       $(this).addClass('active');
-      $(this).parents('.col-md-6').siblings().find('.active').removeClass('active');
     });
   };
 
