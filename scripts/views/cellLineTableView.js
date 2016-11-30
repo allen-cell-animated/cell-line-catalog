@@ -80,7 +80,7 @@
         $('#cell-line-table').append(a.toHtml($('#cellList-template')));
       }
       else {
-        $('#in_progress #cell-line-table').append(a.toHtml($('#cellList-template')));
+        $('#in-progress-table').append(a.toHtml($('#cellList-template')));
       }
     });
   };
@@ -88,6 +88,7 @@
   cellListView.renderIndexPage = function(ctx) {
     $('#cellline-profile').hide();
     $('#cell-line-table').children().remove();
+    $('#in-progress-table').children().remove();
     $('#cell-line-list').show();
     $('#main').hide();
     $('.logo').attr('background-image', 'url(/images/logo-CLC.png)');
