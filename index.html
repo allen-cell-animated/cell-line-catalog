@@ -65,6 +65,7 @@
               <ul id={{cell_line_id}} class="list-group">
                 <li class="list-group-item"><span class="profile-summary-key">Gene: </span><span class="profile-summary-value">{{Main_gene_name}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Gene symbol:</span> <span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id}}">{{Main_gene_symbol}}</a></span></li>
+                <li class="list-group-item"><span class="profile-summary-key">Protein: </span><span class="profile-summary-value">{{Main_protein}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">mRNA:</span> <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id}}">{{Main_mrna_id}}</a></span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Fluorophore:</span> <span class="profile-summary-value">{{Main_fluorescent_tag}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Linker:</span><span class="profile-summary-value"> {{Main_linker}}</span></li>
@@ -72,10 +73,10 @@
               </ul>
             <div class="row">
               <div class="col-md-12">
-                <div class="col-lg-6">
+                <div class="col-xlg-6">
                   <a class="btn btn-warning btn-block" role="button" href="mailto:info@cell_line_catalog.org?subject=Requesting {{cell_line_id}}">Order {{cell_line_id}}</a>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-xlg-6">
                   <a class="btn btn-warning btn-block" role="button" href="{{Main_parent_line}}">Order parental line</a>
                 </div>
               </div>
@@ -153,71 +154,107 @@
     <!-- genomiccharacterizations templates --------------->
     <script id="genomiccharacterizations-template" type="text/x-handlebars-template">
       <div class="row">
+        <div class="col-sm-12">
+          <div class="thumbnail">
+            <img src="..." alt="...">
+            <div class="caption">
+              <h3>Sequenced Junctions</h3>
+              <p>Caption</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
         <div class="col-sm-6">
-          <div class="panel panel-primary bg-lightgray">
-            <div class="panel-body ">
-              <ul id=editingDesign-info class="list-group">
-                <li class="list-group-item">
-                  <span class="profile-summary-key">WTC baseline variants</span>
-                  <span><a href="">Link to UCSC track</a></span></li>
-                <li class="list-group-item">
-                  <span class="profile-summary-key">Exome Clone 1</span>
-                  <span>Link to UCSC track</span></li>
-                <li class="list-group-item">
-                  <span class="profile-summary-key">Exome Clone 1</span>
-                  <span>Addgene #/URL</span></li>
-              </ul>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4>GFP-tagged and untagged alleles</h4>
+            </div>
+            <div class="panel-body">
+              <div class="thumbnail">
+                <img src="..." alt="...">
+                <div class="caption">
+                  <p>Caption</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-sm-6">
           <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4>GFP and donor plasmid copy number</h4>
+            </div>
             <div class="panel-body">
-              <div class="center-block image-scale">
-              </div>
+              <table class = "table">
+                <thead>
+                  <tr>
+                    <th>
+                    </th>
+                    <th>mEGFP
+                    </th>
+                    <th>plasmid
+                    </th>
+                  </tr>
+                  <tbody>
+                    <tr>
+                      <td>clone #
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                    </tr>
+                  </tbody>
+                </thead>
+              </table>
             </div>
             <div class="panel-footer">
-              <h4>RNA-Seq</h4>
+              <p>Caption</p>
             </div>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-12">
+        <div class="col-sm-6">
           <div class="panel panel-primary">
             <div class="panel-heading">
-              <h4>ddPCR ratios</h4>
+              <h4>crRNA off-targets</h4>
             </div>
-            <div class="panel-body">
+            <div class="panel-body">  <table class = "table">
+                <thead>
+                  <tr>
+                    <th>clones analyzed
+                    </th>
+                    <th>off-targets sequence per clone
+                    </th>
+                    <th>total sites sequenced
+                    </th>
+                    <th>mutations identified
+                    </th>
+                  </tr>
+                  <tbody>
+                    <tr>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                      <td>
+                      </td>
+                    </tr>
+                  </tbody>
+                </thead>
+              </table>
+            </div>
+            <div class="panel-footer">
+              <p>Caption</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h4>Allelic Sequence</h4>
-            </div>
-            <div class="panel-body">
-              <div class="center-block image-scale">
-                <img class="" src="{{GenomicCharacterization_allelic_image}}" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h4>Off-Target Sequencing</h4>
-            </div>
-            <div class="panel-body">
-            </div>
-          </div>
-        </div>
-      </div>
+
     </script>
 
     <!-- validation templates --------------->
