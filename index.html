@@ -14,7 +14,16 @@
 
     <!-- Allen Institute favicon -->
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+        ga('create', 'UA-88352103-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
     <script id="cellList-template" type="text/x-handlebars-template">
       <tr class= 'cellline'
        data-Main_fluorescent_tag-filter={{Main_fluorescent_tag}} data-Main_structure-filter ={{Main_structure}}
@@ -613,7 +622,7 @@
 
           </form>
           <div class="table-responsive">
-            <h3 class="text-primary">Cell Lines Currently Available at Coriell</h3>
+            <h3 class="text-primary table-title">Cell Lines Currently Available at Coriell</h3>
             <table class="table table-hover table-striped" id="complete">
               <thead class='text-info'>
                 <tr>
@@ -648,7 +657,7 @@
 
           </div>
           <div class="table-responsive" id="in_progress">
-            <h3 class="text-primary">List of Cell Lines in Progress </h3>
+            <h3 class="text-primary table-title">List of Cell Lines in Progress </h3>
             <table class="table table-striped" >
               <thead class='text-info'>
                 <tr>
@@ -757,6 +766,7 @@
     <!-- <script src="/scripts/controllers/aboutController.js"></script>
     <script src="/scripts/controllers/adminController.js"></script> -->
     <script src="/scripts/controllers/routes.js"></script>
+
 
   </body>
 </html>
