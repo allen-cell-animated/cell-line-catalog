@@ -121,6 +121,14 @@
   margin-bottom: 20px;
 }
 
+.thirtypercent{
+  width: 33%;
+  float: left;
+}
+.morphology-thumbnail{
+  width: 90%;
+}
+
 .fiftypercent{
   width: 50%;
   float: left;

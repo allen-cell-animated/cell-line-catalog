@@ -60,11 +60,14 @@
   border-bottom: 1px solid lightgray;
   margin-bottom: 40px;
 }
-.morphology-thumbnail.active{
+
+.thumbnail{
+}
+.thirtypercent .morphology-thumbnail.active{
   opacity: 0.7;
 }
 
-.morphology-thumbnail:hover{
+.thirtypercent .morphology-thumbnail:hover{
   opacity: 0.7;
 }
 
