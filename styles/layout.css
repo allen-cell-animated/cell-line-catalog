@@ -38,13 +38,22 @@
   max-width: 80%;
 }
 
+.site-logo::before{
+  b
+
+}
+
 .logo{
-    background-image: url(/images/logo-CLC.png)  ;
+    background-image: url('/images/logo_CS_header.png')  ;
+    content: '';
     vertical-align: middle;
     display: inline-block;
-    background-size: contain;
+    background-size:contain;
     background-position: left;
     background-repeat: no-repeat;
+    height: 40px;
+    margin: 10px 0px;
+    width: 272px;
 
 }
 .new-header{
