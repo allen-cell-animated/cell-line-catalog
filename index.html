@@ -250,17 +250,8 @@
                     <th>mutations identified
                     </th>
                   </tr>
-                  <tbody>
-                    <tr>
-                      <td>
-                      </td>
-                      <td>
-                      </td>
-                      <td>
-                      </td>
-                      <td>
-                      </td>
-                    </tr>
+                  <tbody id="off-target-table">
+
                   </tbody>
                 </thead>
               </table>
@@ -280,6 +271,18 @@
         <td>{{mEGFP}}
         </td>
         <td>{{plasmid}}
+        </td>
+      </tr>
+    </script>
+    <script id="offTargets-template" type="text/x-handlebars-template">
+      <tr>
+        <td>{{clonesAnalyzed}}
+        </td>
+        <td>{{off-targetsSequenced}}
+        </td>
+        <td>{{sitesSequenced}}
+        </td>
+        <td>{{mutationsIdentified}}
         </td>
       </tr>
     </script>
@@ -338,9 +341,9 @@
                       </th>
                     </tr>
                   </thead>
-                  <tbody>
-                    <tr>
-                      <td rowspan="3">
+                  <tbody id="pluripotent-table-body">
+                    <!-- <tr> -->
+                      <!-- <td rowspan="3">
                         Transcription factors
                       </td>
                       <td class="text-center">
@@ -392,7 +395,7 @@
                       <td>
                         96
                       </td>
-                    </tr>
+                    </tr> -->
                   </tbody>
                 </table>
               </div>
@@ -454,6 +457,23 @@
           </div>
         </div>
       </div>
+    </script>
+
+    <script id="pluripotent-template" type="text/x-handlebars-template">
+      <tr>
+        <td r>
+          {{Marker_type}}
+        </td>
+        <td class="text-center">
+          {{Marker}}
+        </td>
+        <td class="text-center">
+          {{positiveCells}}
+        </td>
+      </tr>
+
+
+
     </script>
 
     <!-- supplementaryinformation template --------------->
