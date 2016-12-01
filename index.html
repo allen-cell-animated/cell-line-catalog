@@ -220,15 +220,8 @@
                     <th>plasmid
                     </th>
                   </tr>
-                  <tbody>
-                    <tr>
-                      <td>clone #
-                      </td>
-                      <td>
-                      </td>
-                      <td>
-                      </td>
-                    </tr>
+                  <tbody id="ddPCR-table">
+
                   </tbody>
                 </thead>
               </table>
@@ -280,6 +273,16 @@
       </div>
 
     </script>
+    <script id="ddPCR-template" type="text/x-handlebars-template">
+      <tr>
+        <td>{{clone}}
+        </td>
+        <td>{{mEGFP}}
+        </td>
+        <td>{{plasmid}}
+        </td>
+      </tr>
+    </script>
 
     <!-- validation templates --------------->
     <script id="validation-template" type="text/x-handlebars-template">
@@ -290,10 +293,10 @@
               <h4>Western Blot</h4>
             </div>
             <div class="panel-body ">
-              <div class="center-block image-scale"><img src="/images/validation-westernblot.png">
+              <div class="center-block image-scale"><img src="{{Validation_WesternBlot}}">
               </div>
               <div class="caption">
-                <h4>Western Blot methods</h4>
+                <!-- <h4>Western Blot methods</h4> -->
                 <p>{{Validation_western_blot_caption}}</p>
               </div>
             </div>
@@ -306,7 +309,7 @@
             </div>
             <div class="panel-body ">
               <div class="center-block image-scale">
-                <img class="" src="/images/Validation/Tubulin-clone-105-IF-100416.jpg" alt="" />
+                <img class="" src="{{Validation_Immunofluorescence}}" alt="" />
               </div>
             </div>
           </div>
@@ -468,62 +471,63 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-6">
-          <div class="panel panel-primary bg-lightgray">
-            <div class="panel-heading">
-              <h4>Primers</h4>
+
+            <div class="col-sm-6">
+              <div class="panel panel-primary bg-lightgray">
+                <div class="panel-heading">
+                  <h4>Protocols</h4>
+                </div>
+                <div class="panel-body">
+                  <ul id=editingDesign-info class="list-group">
+                    <li class="list-group-item">
+                      <span class="profile-summary-key">Cell Culture</span>
+                      <a href='{{Supplementary_cell_culture_link}}' download="{{cell_line_id}}.pdf">Download cell culture protocol</a></li>
+                    <!-- <li class="list-group-item">
+                      <span class="profile-summary-key">Transfection</span>
+                      <span>R: NNNNNN</span></li>
+                    <li class="list-group-item">
+                      <span class="profile-summary-key">ddPCR</span>
+                      <span></span></li> -->
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div class="panel-body">
-              <ul id=editingDesign-info class="list-group">
-                <li class="list-group-item">
-                  <span class="profile-summary-key">5' Junction</span>
-                  <span>F: NNNNNN</span></li>
-                <li class="list-group-item">
-                  <span class="profile-summary-key">3' Junction</span>
-                  <span>R: NNNNNN</span></li>
-                <li class="list-group-item">
-                  <span class="profile-summary-key">T7 Internal</span>
-                  <span></span></li>
-                <li class="list-group-item">
-                  <span class="profile-summary-key">ddPCR</span>
-                  <span></span></li>
-                <li class="list-group-item">
-                  <span class="profile-summary-key">Off-targets</span>
-                  <span></span></li>
-              </ul>
-            </div>
+            <!-- <div class="col-sm-6">
+              <div class="panel panel-primary bg-lightgray">
+                <div class="panel-heading">
+                  <h4>Primers</h4>
+                </div>
+                  <div class="panel-body">
+                    <ul id=editingDesign-info class="list-group">
+                      <li class="list-group-item">
+                        <span class="profile-summary-key">5' Junction</span>
+                        <span>F: NNNNNN</span></li>
+                      <li class="list-group-item">
+                        <span class="profile-summary-key">3' Junction</span>
+                        <span>R: NNNNNN</span></li>
+                      <li class="list-group-item">
+                        <span class="profile-summary-key">T7 Internal</span>
+                        <span></span></li>
+                      <li class="list-group-item">
+                        <span class="profile-summary-key">ddPCR</span>
+                        <span></span></li>
+                      <li class="list-group-item">
+                        <span class="profile-summary-key">Off-targets</span>
+                        <span></span></li>
+                    </ul>
+                  </div>
           </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="panel panel-primary bg-lightgray">
-            <div class="panel-heading">
-              <h4>Protocols</h4>
-            </div>
-            <div class="panel-body">
-              <ul id=editingDesign-info class="list-group">
-                <li class="list-group-item">
-                  <span class="profile-summary-key">Cell Culture</span>
-                  <span>F: NNNNNN</span></li>
-                <li class="list-group-item">
-                  <span class="profile-summary-key">Transfection</span>
-                  <span>R: NNNNNN</span></li>
-                <li class="list-group-item">
-                  <span class="profile-summary-key">ddPCR</span>
-                  <span></span></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
+        </div> -->
+
+        <!-- <div class="col-sm-6">
           <div class="panel panel-primary bg-lightgray">
             <div class="panel-heading">
               <h4>Off-targets</h4>
             </div>
             <div class="panel-body">
-
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </script>
   </head>

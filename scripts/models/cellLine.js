@@ -14,6 +14,13 @@
     return renderTemplate(this);
   };
 
+  CellLine.prototype.nestedToHtml= function(templateid, nestedObj){
+    var source = $(templateid).html();
+    var renderTemplate = Handlebars.compile(source);
+    console.log(nestedObj);
+    return renderTemplate(nestedObj);
+  };
+
   CellLine.loadIntoObjectArray = function(name){
     var retreivedData =  JSON.parse(localStorage.getItem(name));
     CellLine.allCellLines = retreivedData.sort(function(a, b){return a.cell_line_id.split('-')[1] - b.cell_line_id.split('-')[1]}).map(function(ele){
