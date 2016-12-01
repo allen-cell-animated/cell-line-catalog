@@ -93,7 +93,16 @@
     "GenomicCharacterization_sequences_link_caption": "Junctional sequences were amplified and sanger sequenced",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0012/GenomicCharacterization_tagged_allele_gel.png",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR product that captures both the mEGFP tagged allele (larger band) and wild-type untagged allele (smaller band)",
-    "GenomicCharacterization_ddpcr": "GenomicCharacterization_ddpcr.csv",
+    "GenomicCharacterization_ddpcr": [
+                                        	{
+                                        		"clone": "clone50",
+                                        		"mEGFP": "0.51",
+                                        		"plasmid": "0.01"
+                                        	},
+                                        	{
+                                        		"clone": ""
+                                        	}
+                                        ],
     "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 reference gene from ddPCR assay; plasmid: AmpR/RPP30 from ddPCR assay",
     "GenomicCharacterization_offtargets": "GenomicCharacterization_offtargets.csv",
     "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; 9 sites were sanger sequenced to confirm no off-target editing",

@@ -24,6 +24,9 @@
       $('#cellline-info').append(cellLine.toHtml($('#cell-profile-info-template')));
       $('#editingdesign').append(cellLine.toHtml($('#editingDesign-template')));
       $('#genomiccharacterizations').append(cellLine.toHtml($('#genomiccharacterizations-template')));
+      cellLine['GenomicCharacterization_ddpcr'].forEach(function(a){
+        $('#ddPCR-table').append(cellLine.nestedToHtml($('#ddPCR-template'), a ))
+      });
       $('#validation').append(cellLine.toHtml($('#validation-template')));
       $('#stemcellcharacteristics').append(cellLine.toHtml($('#stemcellcharacteristics-template')));
       $('#supplementaryinformation').append(cellLine.toHtml($('#supplementaryinformation-template')));

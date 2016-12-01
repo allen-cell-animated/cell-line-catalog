@@ -220,15 +220,8 @@
                     <th>plasmid
                     </th>
                   </tr>
-                  <tbody>
-                    <tr>
-                      <td>clone #
-                      </td>
-                      <td>
-                      </td>
-                      <td>
-                      </td>
-                    </tr>
+                  <tbody id="ddPCR-table">
+                  
                   </tbody>
                 </thead>
               </table>
@@ -279,6 +272,16 @@
         </div>
       </div>
 
+    </script>
+    <script id="ddPCR-template" type="text/x-handlebars-template">
+      <tr>
+        <td>{{clone}}
+        </td>
+        <td>{{mEGFP}}
+        </td>
+        <td>{{plasmid}}
+        </td>
+      </tr>
     </script>
 
     <!-- validation templates --------------->
