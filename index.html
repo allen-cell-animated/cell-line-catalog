@@ -74,10 +74,10 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="col-xlg-6">
-                  <a class="btn btn-warning btn-block" role="button" href="mailto:info@cell_line_catalog.org?subject=Requesting {{cell_line_id}}">Order {{cell_line_id}}</a>
+                  <a class="btn btn-warning btn-block" role="button" href="{{Main_order_link}}" target="_blank">Order {{cell_line_id}}</a>
                 </div>
                 <div class="col-xlg-6">
-                  <a class="btn btn-warning btn-block" role="button" href="{{Main_parent_line}}">Order parental line</a>
+                  <a class="btn btn-warning btn-block" role="button" href="{{Main_parent_line}}" target="_blank">Order parental line</a>
                 </div>
               </div>
               <div class="col-md-12">
@@ -91,18 +91,42 @@
       </div>
       <div class="col-md-8">
         <div class="panel panel-primary">
-          <img class="morphology-main" src="/images/cell-image.jpg" alt="" />
-          <div class="caption">{{morphology_image_caption}}</div>
-          <div class="panel-footer">
+          <div class="morphology-main">
+            <img  src="{{Main_cell_line_morphology}}" alt="" />
+            <small class="caption">{{Main_cell_line_morphology_caption}}</small>
+          </div>
+          <div class="panel-footer clearfix">
             <div class="">
-              <div class="fiftypercent">
-                <a href="#" class="thumbnails"><img class="active morphology-thumbnail" src="/images/cell-image.jpg" alt="" /></a>
+              <div class="thirtypercent thumbnails">
+                <div class="morphology-thumbnail">
+                  <a href="#" >
+                    <img class="active toappend" src="{{Main_cell_line_morphology}}" alt="" />
+                  </a>
+                  <small class="caption">{{Main_cell_line_morphology_caption}}</small>
+                </div>
               </div>
-              <div class="fiftypercent">
-                <a href="#" class="thumbnails"><img class="morphology-thumbnail" src="/images/clone_morphology.jpg" alt="" /></a>
+              <div class="thirtypercent thumbnails">
+                <div class="morphology-thumbnail">
+                  <a href="#">
+                    <video class="toappend" width="100%"  >
+                      <source src="{{Main_cell_line_movie1}}" type="video/mp4">
+                          Your browser does not support the video tag.
+                    </video>
+                  </a>
+                  <small class="caption">{{Main_cell_line_movie2_caption}}</small>
+                </div>
               </div>
-            </div>
-            <span>Colonies at 10X magnification 3 after plating.</span>
+              <div class="thirtypercent thumbnails">
+                <div class="morphology-thumbnail">
+                  <a href="#" >
+                    <video  class="toappend" width="100%"  >
+                      <source src="{{Main_cell_line_movie2}}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                  </a>
+                  <small class="caption">{{Main_cell_line_movie2_caption}}</small>
+                </div>
+              </div>
           </div>
         </div>
       </div>
@@ -143,7 +167,7 @@
             </div>
             <div class="panel-body ">
               <div class="center-block image-scale">
-                <img class="" src="/images/gfp_insert.jpg" alt="" />
+                <img class="" src="{{EditingDesign_gene_figure}}" alt="" />
               </div>
             </div>
           </div>
@@ -156,10 +180,10 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="thumbnail">
-            <img src="..." alt="...">
+            <img src="{{GenomicCharacterization_junction_schematic}}" alt="...">
             <div class="caption">
               <h3>Sequenced Junctions</h3>
-              <p>Caption</p>
+              <p>{{GenomicCharacterization_junction_schematic_caption}}</p>
             </div>
           </div>
         </div>
@@ -172,9 +196,9 @@
             </div>
             <div class="panel-body">
               <div class="thumbnail">
-                <img src="..." alt="...">
+                <img src="{{GenomicCharacterization_tagged_allele_gel}}" alt="...">
                 <div class="caption">
-                  <p>Caption</p>
+                  <p>{{GenomicCharacterization_tagged_allele_gel_caption}}</p>
                 </div>
               </div>
             </div>
@@ -210,7 +234,7 @@
               </table>
             </div>
             <div class="panel-footer">
-              <p>Caption</p>
+              <p>{{GenomicCharacterization_ddpcr_caption}}</p>
             </div>
           </div>
         </div>
@@ -249,7 +273,7 @@
               </table>
             </div>
             <div class="panel-footer">
-              <p>Caption</p>
+              <p>{{GenomicCharacterization_offtargets_caption}}</p>
             </div>
           </div>
         </div>
@@ -370,8 +394,11 @@
                 </table>
               </div>
               <div class="col-sm-6">
-                <table></table>
-              </div>
+                <div class="center-block image-scale">
+                  <img class="" src="{{StemCellCharacterization_rnaseq_fig}}" alt="" />
+                  <div class="caption">{{StemCellCharacterization_rnaseq_fig_caption}}</div>
+                </div>
+               </div>
             </div>
           </div>
         </div>
@@ -384,8 +411,11 @@
             </div>
             <div class="panel-body">
               <div class="center-block image-scale">
-                <img class="" src="/images/Karyotype.jpg" alt="" />
+                <img class="" src="{{StemCellCharacterization_karyotype}}" alt="" />
               </div>
+            </div>
+            <div class="panel-footer">
+              <div class="caption">{{StemCellCharacterization_karyotype_caption}}</div>
             </div>
           </div>
         </div>
@@ -414,6 +444,9 @@
                 </tbody>
 
               </table>
+            </div>
+            <div class="panel-footer">
+              <div class="caption">{{StemCellCharacterization_differentiation_caption}}</div>
             </div>
           </div>
         </div>
@@ -532,7 +565,7 @@
         <header class="bg-info text-center">
           <h2 class="text-info  text-white">Allen Cell Collection</h2>
           <p class="text-success">
-            Preview-release. Full database will be available January 11, 2017.
+            Preview-release: Full database available January 11, 2017
           </p>
         </header>
         <div>
@@ -557,7 +590,6 @@
           </form>
           <div class="table-responsive">
             <h3 class="text-primary">Cell Lines Currently Available at Coriell</h3>
-            <small>Vist Coriell to order any of these cell lines, or click on a row for more infomation. </small>
             <table class="table table-hover table-striped" id="complete">
               <thead class='text-info'>
                 <tr>
@@ -588,6 +620,8 @@
                 <p class = 'errors displayoff'>Nothing matches your filters</p>
               </tbody>
             </table>
+            <small>Vist Coriell to order any of these cell lines, or click on a row for more infomation. </small>
+
           </div>
           <div class="table-responsive" id="in_progress">
             <h3 class="text-primary">List of Cell Lines in Progress </h3>

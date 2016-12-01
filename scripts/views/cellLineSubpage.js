@@ -7,7 +7,9 @@
   cellLineProfileView.gallery = function() {
     $('.thumbnails').on('click', '.morphology-thumbnail', function(e) {
       e.preventDefault();
-      $('.morphology-main').attr('src', $(this).attr('src')) ;
+      $('.morphology-main').empty();
+      $('.morphology-main').append($(this).find('.toappend').clone().attr('controls', '').attr('autoplay',''));
+      $('.morphology-main').append($(this).find('.caption').clone());
       $(this).parents().find('.active').removeClass('active');
       $(this).addClass('active');
     });
