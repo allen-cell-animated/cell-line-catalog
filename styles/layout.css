@@ -159,8 +159,12 @@ footer{
   color: #003056
 }
 
+.table-title{
+  margin-bottom: 0.5em;
+}
+
 #in_progress{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 
