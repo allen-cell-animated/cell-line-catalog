@@ -90,8 +90,9 @@
     $('#cell-line-table').children().remove();
     $('#in-progress-table').children().remove();
     $('#cell-line-list').show();
+    $('#cell-line-catalog-nav').addClass('active');
+    $('#home').removeClass('active');
     $('#main').hide();
-    $('.logo').attr('background-image', 'url(/images/logo-CLC.png)');
     if ($('select').find('.options').length ===0) {
       cellListView.filters.forEach(function(filter){
         CellLine.allInCategory(filter).forEach(function(option){
@@ -108,6 +109,8 @@
     $('#cell-line-list').hide();
     $('#cell-line-table').children().remove();
     $('#main').show();
+    $('#cell-line-catalog-nav').removeClass('active');
+    $('#home').addClass('active');
     $('.logo').attr('background-image', 'url(/images/logo-AC.png)');
   };
 

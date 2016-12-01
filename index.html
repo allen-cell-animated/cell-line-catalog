@@ -497,12 +497,25 @@
 <!-- BODY START -->
   <body>
     <header class="site-header clearfix">
-      <nav class="main-nav clearfix">
-      <section class="heading-group-h1">
-        <div class="back-button">
-          <a class="logo" href="/cell-line-catalog"></a>
-        </div>
-      </section>
+      <nav class="navbar navbar-default ">
+        <section class=" container container-fluid">
+          <div class="back-button navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="back-button">
+              <a class="logo site-logo navbar-brand" href="/"></a>
+            </div>
+          </div>
+          <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="nav navbar-nav">
+              <li id="home" ><a href="/">Home<span class="sr-only">(current)</span></a></li>
+              <li id="cell-line-catalog-nav"><a href="/cell-line-catalog">Allen Cell Collection</a></li>
+          </div>
+        </section>
       </nav>
     </header>
 
@@ -516,6 +529,12 @@
         </div>
       </section>
       <section id="cell-line-list" class="tab-section active">
+        <header class="bg-info text-center">
+          <h2 class="text-info  text-white">Allen Cell Collection</h2>
+          <p class="text-success">
+            Preview-release. Full database will be available January 11, 2017.
+          </p>
+        </header>
         <div>
           <form id="filters" class="form-horizontal">
             <div class="form-group">
@@ -537,6 +556,8 @@
 
           </form>
           <div class="table-responsive">
+            <h3 class="text-primary">Cell Lines Currently Available at Coriell</h3>
+            <small>Vist Coriell to order any of these cell lines, or click on a row for more infomation. </small>
             <table class="table table-hover table-striped" id="complete">
               <thead class='text-info'>
                 <tr>
@@ -569,7 +590,7 @@
             </table>
           </div>
           <div class="table-responsive" id="in_progress">
-            <h4 class="text-primary">Cell Lines in Progress </h4>
+            <h3 class="text-primary">List of Cell Lines in Progress </h3>
             <table class="table table-striped" >
               <thead class='text-info'>
                 <tr>
