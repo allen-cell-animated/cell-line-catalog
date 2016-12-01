@@ -104,13 +104,57 @@
                                         	}
                                         ],
     "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 reference gene from ddPCR assay; plasmid: AmpR/RPP30 from ddPCR assay",
-    "GenomicCharacterization_offtargets": "GenomicCharacterization_offtargets.csv",
+    "GenomicCharacterization_offtargets": [
+                                      	{
+                                      		"clonesAnalyzed": "5",
+                                      		"off-targetsSequenced": "9",
+                                      		"sitesSequenced": "45",
+                                      		"mutationsIdentified": "0"
+                                      	},
+                                      	{
+                                      		"clonesAnalyzed": ""
+                                      	}
+                                      ],
     "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; 9 sites were sanger sequenced to confirm no off-target editing",
     "Validation_WesternBlot": "/images/AICS-0012/Validation_WesternBlot.png",
     "Validation_WesternBlot_caption": "N",
     "Validation_Immunofluorescence": "/images/AICS-0012/Validation_Immunofluorescence.jpg",
     "Validation_Immunofluorescence_caption": "N",
-    "StemCellCharacterization_pluripotency_analysis": "StemCellCharacterization_pluripotency_analysis.csv",
+    "StemCellCharacterization_pluripotency_analysis": [
+                	{
+                		"Marker_type": "Transcription factors",
+                		"Marker": "NANOG",
+                		"positiveCells": "99.7"
+                	},
+                	{
+                		"Marker_type": "Transcription factors",
+                		"Marker": "SOX2",
+                		"positiveCells": "99.4"
+                	},
+                	{
+                		"Marker_type": "Transcription factors",
+                		"Marker": "4-Oct",
+                		"positiveCells": "97.7"
+                	},
+                	{
+                		"Marker_type": "Cell surface markers",
+                		"Marker": "SSEA-1",
+                		"positiveCells": "0.16"
+                	},
+                	{
+                		"Marker_type": "Cell surface markers",
+                		"Marker": "SSEA-3",
+                		"positiveCells": "99.7"
+                	},
+                	{
+                		"Marker_type": "Cell surface markers",
+                		"Marker": "TRA-160",
+                		"positiveCells": "90.8"
+                	},
+                	{
+                		"Marker_type": ""
+                	}
+                ],
     "StemCellCharacterization_pluripotency_analysis_caption": "Flow cytometry analysis of stem cell transcription factor and cell surface markers",
     "StemCellCharacterization_karyotype": "/images/AICS-0012/StemCellCharacterization_karyotype.png",
     "StemCellCharacterization_karyotype_caption": "Post banking karyotype analysis",
