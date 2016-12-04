@@ -1,6 +1,6 @@
 [
   {
-    "cell_line_id": "AICS-005",
+    "cell_line_id": "AICS-0005",
     "status": "complete",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "PXN",
@@ -14,7 +14,8 @@
     "Main_fluorescent_tag": "EGFP",
     "Main_linker": "GTSGGS",
     "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS0005&Product=iPSC",
-    "Main_plasmid_sequence": "addgene link",
+    "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_plasmid_sequence": "",
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "N",
     "Main_cell_line_movie1": "N",
@@ -58,7 +59,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-012",
+    "cell_line_id": "AICS-0012",
     "status": "complete",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TUBA1B",
@@ -72,7 +73,8 @@
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "GGSGGS",
     "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS0012&Product=iPSC",
-    "Main_plasmid_sequence": "addgene link",
+    "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_plasmid_sequence": "",
     "Main_cell_line_morphology": "/images/AICS-0012/Main_cell_line_morphology.jpg",
     "Main_cell_line_morphology_caption": "Viability and colony formation photographed 3 days post-thaw at 10X. Cells were treated with ROCK inhibitor for 24hrs post-thaw.",
     "Main_cell_line_movie1": "/images/AICS-0012/Main_cell_line_movie1.mp4",
@@ -161,7 +163,7 @@
     "StemCellCharacterization_differentiation": "StemCellCharacterization_differentiation.csv",
     "StemCellCharacterization_differentiation_caption": "WTC cardiomyocyte differentiation",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0012/StemCellCharacterization_rnaseq_fig.png",
-    "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus",
+    "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples are shown for comparison.",
     "Supplementary_cell_culture_link": "/data/pdfs/AICS-012/Supplementary_cell_culture_link.pdf",
     "Supplementary_transfection_link": "N",
     "Supplementary_ddPCR_link": "N",
@@ -169,7 +171,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-031",
+    "cell_line_id": "AICS-0031",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TUBA1B",
@@ -183,7 +185,8 @@
     "Main_fluorescent_tag": "mtagRFP-T",
     "Main_linker": "GGSGGS",
     "Main_order_link": "",
-    "Main_plasmid_sequence": "addgene link",
+    "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_plasmid_sequence": "",
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "N",
     "Main_cell_line_movie1": "N",
@@ -227,7 +230,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-011",
+    "cell_line_id": "AICS-0011",
     "status": "complete",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TOMM20",
@@ -241,7 +244,8 @@
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "GGSGDPPVAT",
     "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS0011&Product=iPSC",
-    "Main_plasmid_sequence": "addgene link",
+    "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_plasmid_sequence": "",
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "N",
     "Main_cell_line_movie1": "N",
@@ -285,7 +289,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-013",
+    "cell_line_id": "AICS-0013",
     "status": "complete",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "LMNB1",
@@ -299,7 +303,8 @@
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "SGLRSRAQAS",
     "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS0013&Product=iPSC",
-    "Main_plasmid_sequence": "addgene link",
+    "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_plasmid_sequence": "",
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "N",
     "Main_cell_line_movie1": "N",
@@ -343,7 +348,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-029",
+    "cell_line_id": "AICS-0029",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "LMNB1",
@@ -357,7 +362,8 @@
     "Main_fluorescent_tag": "tdTomato",
     "Main_linker": "SGLRSRAQAS",
     "Main_order_link": "",
-    "Main_plasmid_sequence": "addgene link",
+    "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_plasmid_sequence": "",
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "N",
     "Main_cell_line_movie1": "N",
@@ -401,7 +407,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-017",
+    "cell_line_id": "AICS-0017",
     "status": "complete",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "DSP",
@@ -415,7 +421,8 @@
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "HDPPVAT",
     "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS0017&Product=iPSC",
-    "Main_plasmid_sequence": "addgene link",
+    "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_plasmid_sequence": "",
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "N",
     "Main_cell_line_movie1": "N",
@@ -459,7 +466,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-016",
+    "cell_line_id": "AICS-0016",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "ACTB",
@@ -473,7 +480,8 @@
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "AGSGT",
     "Main_order_link": "",
-    "Main_plasmid_sequence": "addgene link",
+    "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_plasmid_sequence": "",
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "N",
     "Main_cell_line_movie1": "N",
@@ -517,7 +525,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-010",
+    "cell_line_id": "AICS-0010",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "SEC61B",
@@ -531,7 +539,8 @@
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "SGLRS",
     "Main_order_link": "",
-    "Main_plasmid_sequence": "addgene link",
+    "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_plasmid_sequence": "",
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "N",
     "Main_cell_line_movie1": "N",
@@ -575,7 +584,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-014",
+    "cell_line_id": "AICS-0014",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "FBL",
@@ -589,7 +598,8 @@
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "KPNSAVDGTAGPGSIAT",
     "Main_order_link": "",
-    "Main_plasmid_sequence": "addgene link",
+    "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_plasmid_sequence": "",
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "N",
     "Main_cell_line_movie1": "N",
@@ -633,7 +643,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-024",
+    "cell_line_id": "AICS-0024",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "MYH10",
@@ -647,7 +657,8 @@
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "YSDLELKLRIP",
     "Main_order_link": "",
-    "Main_plasmid_sequence": "addgene link",
+    "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_plasmid_sequence": "",
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "N",
     "Main_cell_line_movie1": "N",
@@ -691,7 +702,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-032",
+    "cell_line_id": "AICS-0032",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "CETN2",
@@ -705,7 +716,8 @@
     "Main_fluorescent_tag": "mtagRFP-T",
     "Main_linker": "SGLRS",
     "Main_order_link": "",
-    "Main_plasmid_sequence": "addgene link",
+    "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_plasmid_sequence": "",
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "N",
     "Main_cell_line_movie1": "N",
@@ -749,7 +761,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-020",
+    "cell_line_id": "AICS-0020",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "VIM",
@@ -763,7 +775,8 @@
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "SGLRSGSGGGSASGGSGS",
     "Main_order_link": "",
-    "Main_plasmid_sequence": "addgene link",
+    "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_plasmid_sequence": "",
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "N",
     "Main_cell_line_movie1": "N",
@@ -807,7 +820,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-023",
+    "cell_line_id": "AICS-0023",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TJP1",
@@ -821,7 +834,8 @@
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "SGLRSRALERDK",
     "Main_order_link": "",
-    "Main_plasmid_sequence": "addgene link",
+    "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_plasmid_sequence": "",
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "N",
     "Main_cell_line_movie1": "N",
@@ -865,7 +879,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-030",
+    "cell_line_id": "AICS-0030",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "MAP1LC3B",
@@ -879,7 +893,8 @@
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "SGLRS",
     "Main_order_link": "",
-    "Main_plasmid_sequence": "addgene link",
+    "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_plasmid_sequence": "",
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "N",
     "Main_cell_line_movie1": "N",
@@ -923,7 +938,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-036",
+    "cell_line_id": "AICS-0036",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "AAVS1-CAG-GFP",
@@ -937,7 +952,8 @@
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "",
     "Main_order_link": "",
-    "Main_plasmid_sequence": "addgene link",
+    "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_plasmid_sequence": "",
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "N",
     "Main_cell_line_movie1": "N",
@@ -981,7 +997,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-025",
+    "cell_line_id": "AICS-0025",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "ST6GAL1",
@@ -995,7 +1011,8 @@
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "LQSTVPRARDPPVAT",
     "Main_order_link": "",
-    "Main_plasmid_sequence": "addgene link",
+    "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_plasmid_sequence": "",
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "N",
     "Main_cell_line_movie1": "N",
@@ -1039,7 +1056,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-022",
+    "cell_line_id": "AICS-0022",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "LAMP1",
@@ -1053,7 +1070,8 @@
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "EFGSTGSTGSTGADPPVAT",
     "Main_order_link": "",
-    "Main_plasmid_sequence": "addgene link",
+    "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_plasmid_sequence": "",
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "N",
     "Main_cell_line_movie1": "N",
