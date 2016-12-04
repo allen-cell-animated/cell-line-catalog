@@ -8,8 +8,7 @@ page('/cell-line-catalog',
   celllineController.resetFilters,
   celllineController.index);
 
-// page('/about', aboutController.index);
-// page('/admin', adminController.index);
+
 
 page('/cellline/:id',
   celllineController.loadAll,

@@ -24,9 +24,13 @@
       var errorMessage = error.message;
       console.log(errorMessage);
     // ...
-    }).then(function(){console.log('signedin');});
-  };
-
+  }).then(function(){
+    console.log('signedin');
+    FirebaseallCellLines.once('value', function(snapshot){
+      CellLine.allCellLinesFB = snapshot.val();
+    });
+  });
+}
 
   firebaseLocal.register = function(email, password){
     firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
