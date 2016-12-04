@@ -10,10 +10,9 @@ page('/cell-line-catalog',
   celllineController.resetFilters,
   celllineController.index);
 
-
 page('/cellline/:id',
   celllineController.loadAll,
-  celllineController.privateAlert,  
+  celllineController.privateAlert,
   celllineController.loadById,
   celllineController.subpageIndex);
 

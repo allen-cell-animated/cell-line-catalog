@@ -37,7 +37,6 @@
   });
   };
 
-
   firebaseLocal.register = function(email, password){
     firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
     // Handle Errors here.

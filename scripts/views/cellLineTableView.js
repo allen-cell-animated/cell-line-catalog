@@ -16,7 +16,7 @@
     try {
       localStorage.setItem(testKey, '1');
       localStorage.removeItem(testKey);
-      return false
+      return false;
     } catch (e) {
       return true;
     }
@@ -25,11 +25,11 @@
   cellListView.alertPrivateBrowsers = function(){
     if (cellListView.checkPrivate() === true) {
       console.log('private!');
-      $('<p>').html('This site requires access to local storage to work properly, please disable private browsing').addClass('errors').appendTo($('main'))
+      $('<p>').html('This site requires access to local storage to work properly, please disable private browsing').addClass('errors').appendTo($('main'));
     }
     else{
     }
-  }
+  };
 
   cellListView.setFilters = function(ctx){
     $('#'+ ctx.params.filtername + '-filter').val(ctx.params.filtervalue);
@@ -45,16 +45,16 @@
       };}).get().filter(function(ele){
         return ele.value !== '';
       });
-      if (filters.length> 0) {
-        url = filters.reduce(function(acc, cur){
-          acc.push('/' + cur.filter + '/' +cur.value);
-          return acc;
-        },[]);
-        page(url.join(''));
-      }
-      else{
-        page('/cell-line-catalog')
-      }
+    if (filters.length> 0) {
+      url = filters.reduce(function(acc, cur){
+        acc.push('/' + cur.filter + '/' +cur.value);
+        return acc;
+      },[]);
+      page(url.join(''));
+    }
+    else{
+      page('/cell-line-catalog');
+    }
 
   };
 
