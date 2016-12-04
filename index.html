@@ -14,7 +14,16 @@
 
     <!-- Allen Institute favicon -->
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+        ga('create', 'UA-88352103-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
     <script id="cellList-template" type="text/x-handlebars-template">
       <tr class= 'cellline'
        data-Main_fluorescent_tag-filter={{Main_fluorescent_tag}} data-Main_structure-filter ={{Main_structure}}
@@ -25,7 +34,7 @@
           {{cell_line_id}}
         </td>
         <td>
-          {{Protein}}
+          {{Main_protein}}
         </td>
         <td>
           {{Main_gene_name}} <span class=gene-symbol>({{Main_gene_symbol}})</span>
@@ -40,7 +49,6 @@
           {{Main_fluorescent_tag}}
         </td>
         <td>
-          WTC
           {{Main_parent_line}}
         </td>
 
@@ -66,6 +74,7 @@
               <ul id={{cell_line_id}} class="list-group">
                 <li class="list-group-item"><span class="profile-summary-key">Gene: </span><span class="profile-summary-value">{{Main_gene_name}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Gene symbol:</span> <span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id}}">{{Main_gene_symbol}}</a></span></li>
+                <li class="list-group-item"><span class="profile-summary-key">Protein: </span><span class="profile-summary-value">{{Main_protein}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">mRNA:</span> <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id}}">{{Main_mrna_id}}</a></span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Fluorophore:</span> <span class="profile-summary-value">{{Main_fluorescent_tag}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Linker:</span><span class="profile-summary-value"> {{Main_linker}}</span></li>
@@ -73,11 +82,11 @@
               </ul>
             <div class="row">
               <div class="col-md-12">
-                <div class="col-lg-6">
-                  <a class="btn btn-warning btn-block" role="button" href="mailto:info@cell_line_catalog.org?subject=Requesting {{cell_line_id}}">Order {{cell_line_id}}</a>
+                <div class="col-xlg-6">
+                  <a class="btn btn-warning btn-block" role="button" href="{{Main_order_link}}" target="_blank">Order {{cell_line_id}}</a>
                 </div>
-                <div class="col-lg-6">
-                  <a class="btn btn-warning btn-block" role="button" href="{{Main_parent_line}}">Order parental line</a>
+                <div class="col-xlg-6">
+                  <a class="btn btn-warning btn-block" role="button" href="{{Main_parent_line}}" target="_blank">Order parental line</a>
                 </div>
               </div>
               <div class="col-md-12">
@@ -91,18 +100,42 @@
       </div>
       <div class="col-md-8">
         <div class="panel panel-primary">
-          <img class="morphology-main" src="/images/cell-image.jpg" alt="" />
-          <div class="caption">{{morphology_image_caption}}</div>
-          <div class="panel-footer">
+          <div class="morphology-main">
+            <img  src="{{Main_cell_line_morphology}}" alt="" />
+            <small class="caption">{{Main_cell_line_morphology_caption}}</small>
+          </div>
+          <div class="panel-footer clearfix">
             <div class="">
-              <div class="fiftypercent">
-                <a href="#" class="thumbnails"><img class="active morphology-thumbnail" src="/images/cell-image.jpg" alt="" /></a>
+              <div class="thirtypercent thumbnails">
+                <div class="morphology-thumbnail">
+                  <a href="#" >
+                    <img class="active toappend" src="{{Main_cell_line_morphology}}" alt="" />
+                  </a>
+                  <small class="caption">{{Main_cell_line_morphology_caption}}</small>
+                </div>
               </div>
-              <div class="fiftypercent">
-                <a href="#" class="thumbnails"><img class="morphology-thumbnail" src="/images/clone_morphology.jpg" alt="" /></a>
+              <div class="thirtypercent thumbnails">
+                <div class="morphology-thumbnail">
+                  <a href="#">
+                    <video class="toappend" width="100%"  >
+                      <source src="{{Main_cell_line_movie1}}" type="video/mp4">
+                          Your browser does not support the video tag.
+                    </video>
+                  </a>
+                  <small class="caption">{{Main_cell_line_movie2_caption}}</small>
+                </div>
               </div>
-            </div>
-            <span>Colonies at 10X magnification 3 after plating.</span>
+              <div class="thirtypercent thumbnails">
+                <div class="morphology-thumbnail">
+                  <a href="#" >
+                    <video  class="toappend" width="100%"  >
+                      <source src="{{Main_cell_line_movie2}}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                  </a>
+                  <small class="caption">{{Main_cell_line_movie2_caption}}</small>
+                </div>
+              </div>
           </div>
         </div>
       </div>
@@ -143,7 +176,7 @@
             </div>
             <div class="panel-body ">
               <div class="center-block image-scale">
-                <img class="" src="/images/gfp_insert.jpg" alt="" />
+                <img class="" src="{{EditingDesign_gene_figure}}" alt="" />
               </div>
             </div>
           </div>
@@ -154,71 +187,113 @@
     <!-- genomiccharacterizations templates --------------->
     <script id="genomiccharacterizations-template" type="text/x-handlebars-template">
       <div class="row">
+        <div class="col-sm-12">
+          <div class="thumbnail">
+            <img src="{{GenomicCharacterization_junction_schematic}}" alt="...">
+            <div class="caption">
+              <h3>Sequenced Junctions</h3>
+              <p>{{GenomicCharacterization_junction_schematic_caption}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
         <div class="col-sm-6">
-          <div class="panel panel-primary bg-lightgray">
-            <div class="panel-body ">
-              <ul id=editingDesign-info class="list-group">
-                <li class="list-group-item">
-                  <span class="profile-summary-key">WTC baseline variants</span>
-                  <span>Link to UCSC track</span></li>
-                <li class="list-group-item">
-                  <span class="profile-summary-key">Exome Clone 1</span>
-                  <span>Link to UCSC track</span></li>
-                <li class="list-group-item">
-                  <span class="profile-summary-key">Exome Clone 1</span>
-                  <span>Addgene #/URL</span></li>
-              </ul>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4>GFP-tagged and untagged alleles</h4>
+            </div>
+            <div class="panel-body">
+              <div class="thumbnail">
+                <img src="{{GenomicCharacterization_tagged_allele_gel}}" alt="...">
+                <div class="caption">
+                  <p>{{GenomicCharacterization_tagged_allele_gel_caption}}</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-sm-6">
           <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4>GFP and donor plasmid copy number</h4>
+            </div>
             <div class="panel-body">
-              <div class="center-block image-scale">
-              </div>
+              <table class = "table">
+                <thead>
+                  <tr>
+                    <th>
+                    </th>
+                    <th>mEGFP
+                    </th>
+                    <th>plasmid
+                    </th>
+                  </tr>
+                  <tbody id="ddPCR-table">
+
+                  </tbody>
+                </thead>
+              </table>
             </div>
             <div class="panel-footer">
-              <h4>RNA-Seq</h4>
+              <p>{{GenomicCharacterization_ddpcr_caption}}</p>
             </div>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-12">
+        <div class="col-sm-6">
           <div class="panel panel-primary">
             <div class="panel-heading">
-              <h4>ddPCR ratios</h4>
+              <h4>crRNA off-targets</h4>
             </div>
-            <div class="panel-body">
+            <div class="panel-body">  <table class = "table">
+                <thead>
+                  <tr>
+                    <th>clones analyzed
+                    </th>
+                    <th>off-targets sequence per clone
+                    </th>
+                    <th>total sites sequenced
+                    </th>
+                    <th>mutations identified
+                    </th>
+                  </tr>
+                  <tbody id="off-target-table">
+
+                  </tbody>
+                </thead>
+              </table>
+            </div>
+            <div class="panel-footer">
+              <p>{{GenomicCharacterization_offtargets_caption}}</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h4>Allelic Sequence</h4>
-            </div>
-            <div class="panel-body">
-              <div class="center-block image-scale">
-                <img class="" src="{{GenomicCharacterization_allelic_image}}" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h4>Off-Target Sequencing</h4>
-            </div>
-            <div class="panel-body">
-            </div>
-          </div>
-        </div>
-      </div>
+
+    </script>
+    <script id="ddPCR-template" type="text/x-handlebars-template">
+      <tr>
+        <td>{{clone}}
+        </td>
+        <td>{{mEGFP}}
+        </td>
+        <td>{{plasmid}}
+        </td>
+      </tr>
+    </script>
+    <script id="offTargets-template" type="text/x-handlebars-template">
+      <tr>
+        <td>{{clonesAnalyzed}}
+        </td>
+        <td>{{off-targetsSequenced}}
+        </td>
+        <td>{{sitesSequenced}}
+        </td>
+        <td>{{mutationsIdentified}}
+        </td>
+      </tr>
     </script>
 
     <!-- validation templates --------------->
@@ -230,10 +305,10 @@
               <h4>Western Blot</h4>
             </div>
             <div class="panel-body ">
-              <div class="center-block image-scale"><img src="/images/validation-westernblot.png">
+              <div class="center-block image-scale"><img src="{{Validation_WesternBlot}}">
               </div>
               <div class="caption">
-                <h4>Western Blot methods</h4>
+                <!-- <h4>Western Blot methods</h4> -->
                 <p>{{Validation_western_blot_caption}}</p>
               </div>
             </div>
@@ -246,7 +321,7 @@
             </div>
             <div class="panel-body ">
               <div class="center-block image-scale">
-                <img class="" src="/images/Validation/Tubulin-clone-105-IF-100416.jpg" alt="" />
+                <img class="" src="{{Validation_Immunofluorescence}}" alt="" />
               </div>
             </div>
           </div>
@@ -257,6 +332,93 @@
     <!-- stemcellcharacteristics templates --------------->
     <script id="stemcellcharacteristics-template" type="text/x-handlebars-template">
       <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4>Pluripotency Analysis</h4>
+            </div>
+            <div class="panel-body">
+              <div class="col-sm-6">
+                <table class="table" id="pluripotent-table">
+                  <thead>
+                    <tr>
+                      <th>
+                      </th>
+                      <th class="text-center">marker
+                      </th>
+                      <th class="text-center">% positive cells
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody id="pluripotent-table-body">
+                    <!-- <tr> -->
+                      <!-- <td rowspan="3">
+                        Transcription factors
+                      </td>
+                      <td class="text-center">
+                        NANOG
+                      </td>
+                      <td class="text-center">
+                        98
+                      </td>
+                    </tr>
+                    <tr class="text-center">
+                      <td >
+                        SOX2
+                      </td>
+                      <td >
+                        99
+                      </td>
+                    </tr>
+                    <tr class="text-center">
+                      <td>
+                        OCT4
+                      </td>
+                      <td>
+                        96
+                      </td>
+                    </tr>
+                    <tr>
+                      <td rowspan="3">
+                        Cell surface markers
+                      </td>
+                      <td class="text-center">
+                        SSEA-1
+                      </td>
+                      <td class="text-center">
+                        3
+                      </td>
+                    </tr>
+                    <tr class="text-center">
+                      <td>
+                        SSEA-3
+                      </td>
+                      <td >
+                        95
+                      </td>
+                    </tr>
+                    <tr class="text-center">
+                      <td>
+                        TRA-160, TRA-161
+                      </td>
+                      <td>
+                        96
+                      </td>
+                    </tr> -->
+                  </tbody>
+                </table>
+              </div>
+              <div class="col-sm-6">
+                <div class="center-block image-scale">
+                  <img class="" src="{{StemCellCharacterization_rnaseq_fig}}" alt="" />
+                  <div class="caption">{{StemCellCharacterization_rnaseq_fig_caption}}</div>
+                </div>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
         <div class="col-sm-6">
           <div class="panel panel-primary">
             <div class="panel-heading">
@@ -264,8 +426,11 @@
             </div>
             <div class="panel-body">
               <div class="center-block image-scale">
-                <img class="" src="/images/Karyotype.jpg" alt="" />
+                <img class="" src="{{StemCellCharacterization_karyotype}}" alt="" />
               </div>
+            </div>
+            <div class="panel-footer">
+              <div class="caption">{{StemCellCharacterization_karyotype_caption}}</div>
             </div>
           </div>
         </div>
@@ -275,11 +440,11 @@
               <h4>Cardiomyocyte Differentiation</h4>
             </div>
             <div class="panel-body">
-              <table class="table table-hover table-striped">
+              <table class="table table-striped">
                 <thead>
                   <tr>
                     <th></th>
-                    <th>8</th>
+                    <th></th>
                   </tr>
                 </thead>
                 <tbody>
@@ -295,9 +460,29 @@
 
               </table>
             </div>
+            <div class="panel-footer">
+              <div class="caption">{{StemCellCharacterization_differentiation_caption}}</div>
+            </div>
           </div>
         </div>
       </div>
+    </script>
+
+    <script id="pluripotent-template" type="text/x-handlebars-template">
+      <tr>
+        <td r>
+          {{Marker_type}}
+        </td>
+        <td class="text-center">
+          {{Marker}}
+        </td>
+        <td class="text-center">
+          {{positiveCells}}
+        </td>
+      </tr>
+
+
+
     </script>
 
     <!-- supplementaryinformation template --------------->
@@ -315,74 +500,88 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-6">
-          <div class="panel panel-primary bg-lightgray">
-            <div class="panel-heading">
-              <h4>Primers</h4>
+
+            <div class="col-sm-6">
+              <div class="panel panel-primary bg-lightgray">
+                <div class="panel-heading">
+                  <h4>Protocols</h4>
+                </div>
+                <div class="panel-body">
+                  <ul id=editingDesign-info class="list-group">
+                    <li class="list-group-item">
+                      <span class="profile-summary-key">Cell Culture</span>
+                      <a href='{{Supplementary_cell_culture_link}}' download="{{cell_line_id}}.pdf">Download cell culture protocol</a></li>
+                    <!-- <li class="list-group-item">
+                      <span class="profile-summary-key">Transfection</span>
+                      <span>R: NNNNNN</span></li>
+                    <li class="list-group-item">
+                      <span class="profile-summary-key">ddPCR</span>
+                      <span></span></li> -->
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div class="panel-body">
-              <ul id=editingDesign-info class="list-group">
-                <li class="list-group-item">
-                  <span class="profile-summary-key">5' Junction</span>
-                  <span>F: NNNNNN</span></li>
-                <li class="list-group-item">
-                  <span class="profile-summary-key">3' Junction</span>
-                  <span>R: NNNNNN</span></li>
-                <li class="list-group-item">
-                  <span class="profile-summary-key">T7 Internal</span>
-                  <span></span></li>
-                <li class="list-group-item">
-                  <span class="profile-summary-key">ddPCR</span>
-                  <span></span></li>
-                <li class="list-group-item">
-                  <span class="profile-summary-key">Off-targets</span>
-                  <span></span></li>
-              </ul>
-            </div>
+            <!-- <div class="col-sm-6">
+              <div class="panel panel-primary bg-lightgray">
+                <div class="panel-heading">
+                  <h4>Primers</h4>
+                </div>
+                  <div class="panel-body">
+                    <ul id=editingDesign-info class="list-group">
+                      <li class="list-group-item">
+                        <span class="profile-summary-key">5' Junction</span>
+                        <span>F: NNNNNN</span></li>
+                      <li class="list-group-item">
+                        <span class="profile-summary-key">3' Junction</span>
+                        <span>R: NNNNNN</span></li>
+                      <li class="list-group-item">
+                        <span class="profile-summary-key">T7 Internal</span>
+                        <span></span></li>
+                      <li class="list-group-item">
+                        <span class="profile-summary-key">ddPCR</span>
+                        <span></span></li>
+                      <li class="list-group-item">
+                        <span class="profile-summary-key">Off-targets</span>
+                        <span></span></li>
+                    </ul>
+                  </div>
           </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="panel panel-primary bg-lightgray">
-            <div class="panel-heading">
-              <h4>Protocols</h4>
-            </div>
-            <div class="panel-body">
-              <ul id=editingDesign-info class="list-group">
-                <li class="list-group-item">
-                  <span class="profile-summary-key">Cell Culture</span>
-                  <span>F: NNNNNN</span></li>
-                <li class="list-group-item">
-                  <span class="profile-summary-key">Transfection</span>
-                  <span>R: NNNNNN</span></li>
-                <li class="list-group-item">
-                  <span class="profile-summary-key">ddPCR</span>
-                  <span></span></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
+        </div> -->
+
+        <!-- <div class="col-sm-6">
           <div class="panel panel-primary bg-lightgray">
             <div class="panel-heading">
               <h4>Off-targets</h4>
             </div>
             <div class="panel-body">
-
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </script>
   </head>
 <!-- BODY START -->
   <body>
     <header class="site-header clearfix">
-      <nav class="main-nav clearfix">
-      <section class="heading-group-h1">
-        <div class="back-button">
-          <a class="logo" href="/cell-line-catalog"></a>
-        </div>
-      </section>
+      <nav class="navbar navbar-default ">
+        <section class=" container container-fluid">
+          <div class="back-button navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="back-button">
+              <a class="logo site-logo navbar-brand" href="/"></a>
+            </div>
+          </div>
+          <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="nav navbar-nav">
+              <li id="home" ><a href="/">Home<span class="sr-only">(current)</span></a></li>
+              <li id="cell-line-catalog-nav"><a href="/cell-line-catalog">Allen Cell Collection</a></li>
+          </div>
+        </section>
       </nav>
     </header>
 
@@ -396,6 +595,12 @@
         </div>
       </section>
       <section id="cell-line-list" class="tab-section active">
+        <header class="bg-info text-center">
+          <h2 class="text-info  text-white">Allen Cell Collection</h2>
+          <p class="text-success">
+            Preview-release: Full database available January 11, 2017
+          </p>
+        </header>
         <div>
           <form id="filters" class="form-horizontal">
             <div class="form-group">
@@ -417,6 +622,7 @@
 
           </form>
           <div class="table-responsive">
+            <h3 class="text-primary table-title">Cell Lines Currently Available at Coriell</h3>
             <table class="table table-hover table-striped" id="complete">
               <thead class='text-info'>
                 <tr>
@@ -447,9 +653,11 @@
                 <p class = 'errors displayoff'>Nothing matches your filters</p>
               </tbody>
             </table>
+            <small>Vist Coriell to order any of these cell lines, or click on a row for more infomation. </small>
+
           </div>
           <div class="table-responsive" id="in_progress">
-            <h4 class="text-primary">Cell Lines in Progress </h4>
+            <h3 class="text-primary table-title">List of Cell Lines in Progress </h3>
             <table class="table table-striped" >
               <thead class='text-info'>
                 <tr>
@@ -476,7 +684,7 @@
                   </th>
                 </tr>
               </thead>
-              <tbody id="cell-line-table">
+              <tbody id="in-progress-table">
               </tbody>
             </table>
           </div>
@@ -486,7 +694,7 @@
       <!-- CELL LINE PROFILE -------------->
       <section id="cellline-profile" class="tab-section">
         <div class="back-button">
-          <a  href="/cell-line-catalog">&lArr; Back to full list</a>
+          <a  href="/cell-line-catalog">&lArr; Return to full list</a>
         </div>
         <div class="container-fluid">
           <div id="cellline-info" class="row ">
@@ -558,6 +766,7 @@
     <!-- <script src="/scripts/controllers/aboutController.js"></script>
     <script src="/scripts/controllers/adminController.js"></script> -->
     <script src="/scripts/controllers/routes.js"></script>
+
 
   </body>
 </html>

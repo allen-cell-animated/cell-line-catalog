@@ -38,24 +38,36 @@
   max-width: 80%;
 }
 
+.site-logo::before{
+  b
+
+}
+
 .logo{
-    background-image: url(/images/logo-CLC.png)  ;
+    background-image: url('/images/logo_CS_header.png')  ;
+    content: '';
     vertical-align: middle;
     display: inline-block;
-    background-size: contain;
+    background-size:contain;
     background-position: left;
     background-repeat: no-repeat;
+    height: 40px;
+    margin: 10px 0px;
+    width: 272px;
 
 }
 .new-header{
   border-bottom: 1px solid lightgray;
   margin-bottom: 40px;
 }
-.morphology-thumbnail.active{
+
+.thumbnail{
+}
+.thirtypercent .morphology-thumbnail.active{
   opacity: 0.7;
 }
 
-.morphology-thumbnail:hover{
+.thirtypercent .morphology-thumbnail:hover{
   opacity: 0.7;
 }
 
@@ -147,8 +159,12 @@ footer{
   color: #003056
 }
 
+.table-title{
+  margin-bottom: 0.5em;
+}
+
 #in_progress{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 

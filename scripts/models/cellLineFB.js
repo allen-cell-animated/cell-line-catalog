@@ -24,13 +24,18 @@
       var errorMessage = error.message;
       console.log(errorMessage);
     // ...
-  }).then(function(){
-    console.log('signedin');
-    FirebaseallCellLines.once('value', function(snapshot){
-      CellLine.allCellLinesFB = snapshot.val();
+    }).then(function(){FirebaseallCellLines.on('value', function(snapshot) {
+      if (snapshot.val()) {
+        CellLine.allCellLinesFB = snapshot.val();
+        console.log('loaded firebase cellines');
+      }
+      else {
+        console.log('nothing from firebase');
+        CellLine.allCellLinesFB = [];
+      }
     });
   });
-}
+  };
 
   firebaseLocal.register = function(email, password){
     firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
@@ -60,8 +65,10 @@
       $('.user-forms').addClass('displayoff');
       $('.current-user').removeClass('displayoff');
       $('.current-user h4').text('Signed in as: ' + user.email);
+      $('#lookup-id').removeClass('displayoff');
     } else {
       $('#sign-in').removeClass('displayoff');
+      $('#lookup-id').addClass('displayoff');
     }
   });
 

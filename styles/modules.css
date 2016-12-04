@@ -57,6 +57,10 @@
   margin-right: 5px;
 }
 
+.text-white{
+    color: white;
+}
+
 
 #filters {
   padding: 0;
@@ -115,6 +119,14 @@
 .data-section{
   border-bottom: 1px solid lightgray;
   margin-bottom: 20px;
+}
+
+.thirtypercent{
+  width: 33%;
+  float: left;
+}
+.morphology-thumbnail{
+  width: 90%;
 }
 
 .fiftypercent{

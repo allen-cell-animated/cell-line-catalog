@@ -11,6 +11,25 @@
     page('/cellline/' + currentID);
   });
 
+  cellListView.checkPrivate = function(){
+    var testKey = 'test';
+    try {
+      localStorage.setItem(testKey, '1');
+      localStorage.removeItem(testKey);
+      return false;
+    } catch (e) {
+      return true;
+    }
+  };
+
+  cellListView.alertPrivateBrowsers = function(){
+    if (cellListView.checkPrivate() === true) {
+      console.log('private!');
+      $('<p>').html('This site requires access to local storage to work properly, please disable private browsing').addClass('errors').appendTo($('main'));
+    }
+    else{
+    }
+  };
 
   cellListView.setFilters = function(ctx){
     $('#'+ ctx.params.filtername + '-filter').val(ctx.params.filtervalue);
@@ -26,16 +45,16 @@
       };}).get().filter(function(ele){
         return ele.value !== '';
       });
-      if (filters.length> 0) {
-        url = filters.reduce(function(acc, cur){
-          acc.push('/' + cur.filter + '/' +cur.value);
-          return acc;
-        },[]);
-        page(url.join(''));
-      }
-      else{
-        page('/cell-line-catalog')
-      }
+    if (filters.length> 0) {
+      url = filters.reduce(function(acc, cur){
+        acc.push('/' + cur.filter + '/' +cur.value);
+        return acc;
+      },[]);
+      page(url.join(''));
+    }
+    else{
+      page('/cell-line-catalog');
+    }
 
   };
 
@@ -57,14 +76,11 @@
 
   cellListView.drawTable = function(celllines) {
     celllines.forEach(function(a) {
-      console.log('sorting:', a );
       if (a.status === 'complete') {
-        console.log('complete', a);
         $('#cell-line-table').append(a.toHtml($('#cellList-template')));
       }
       else {
-        console.log('in progress', a);
-        $('#in_progress #cell-line-table').append(a.toHtml($('#cellList-template')));
+        $('#in-progress-table').append(a.toHtml($('#cellList-template')));
       }
     });
   };
@@ -72,9 +88,11 @@
   cellListView.renderIndexPage = function(ctx) {
     $('#cellline-profile').hide();
     $('#cell-line-table').children().remove();
+    $('#in-progress-table').children().remove();
     $('#cell-line-list').show();
+    $('#cell-line-catalog-nav').addClass('active');
+    $('#home').removeClass('active');
     $('#main').hide();
-    $('.logo').attr('background-image', 'url(/images/logo-CLC.png)');
     if ($('select').find('.options').length ===0) {
       cellListView.filters.forEach(function(filter){
         CellLine.allInCategory(filter).forEach(function(option){
@@ -91,6 +109,8 @@
     $('#cell-line-list').hide();
     $('#cell-line-table').children().remove();
     $('#main').show();
+    $('#cell-line-catalog-nav').removeClass('active');
+    $('#home').addClass('active');
     $('.logo').attr('background-image', 'url(/images/logo-AC.png)');
   };
 
