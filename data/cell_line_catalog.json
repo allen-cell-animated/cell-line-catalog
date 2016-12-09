@@ -93,7 +93,7 @@
     "EditingDesign_expression_figure": "N",
     "GenomicCharacterization_junction_schematic": "/images/AICS-0012/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_junction_schematic_caption": "Full allele PCR",
-    "GenomicCharacterization_sequences_link": "GenomicCharacterization_sequences_link.fasta",
+    "GenomicCharacterization_sequences_link": "/data/pdfs/AICS-012/GenomicCharacterization_sequences_link.fasta",
     "GenomicCharacterization_sequences_link_caption": "Junctional sequences were amplified and sanger sequenced",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0012/GenomicCharacterization_tagged_allele_gel.png",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR product that captures both the mEGFP tagged allele (larger band) and wild-type untagged allele (smaller band)",
