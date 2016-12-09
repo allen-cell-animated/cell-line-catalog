@@ -1,6 +1,6 @@
 [
   {
-    "cell_line_id": "AICS-005",
+    "cell_line_id": "AICS-0005",
     "status": "complete",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "PXN",
@@ -58,7 +58,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-012",
+    "cell_line_id": "AICS-0012",
     "status": "complete",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TUBA1B",
@@ -95,7 +95,7 @@
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR product that captures both the mEGFP tagged allele (larger band) and wild-type untagged allele (smaller band)",
     "GenomicCharacterization_ddpcr": [
                                         	{
-                                        		"clone": "clone50",
+                                        		"clone": "clone105",
                                         		"mEGFP": "0.51",
                                         		"plasmid": "0.01"
                                         	},
@@ -169,7 +169,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-031",
+    "cell_line_id": "AICS-0031",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TUBA1B",
@@ -227,7 +227,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-011",
+    "cell_line_id": "AICS-0011",
     "status": "complete",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TOMM20",
@@ -285,7 +285,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-013",
+    "cell_line_id": "AICS-0013",
     "status": "complete",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "LMNB1",
@@ -343,7 +343,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-029",
+    "cell_line_id": "AICS-0029",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "LMNB1",
@@ -401,7 +401,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-017",
+    "cell_line_id": "AICS-0017",
     "status": "complete",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "DSP",
@@ -459,7 +459,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-016",
+    "cell_line_id": "AICS-0016",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "ACTB",
@@ -517,7 +517,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-010",
+    "cell_line_id": "AICS-0010",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "SEC61B",
@@ -575,7 +575,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-014",
+    "cell_line_id": "AICS-0014",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "FBL",
@@ -633,7 +633,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-024",
+    "cell_line_id": "AICS-0024",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "MYH10",
@@ -691,7 +691,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-032",
+    "cell_line_id": "AICS-0032",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "CETN2",
@@ -749,7 +749,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-020",
+    "cell_line_id": "AICS-0020",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "VIM",
@@ -807,7 +807,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-023",
+    "cell_line_id": "AICS-0023",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TJP1",
@@ -865,7 +865,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-030",
+    "cell_line_id": "AICS-0030",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "MAP1LC3B",
@@ -923,7 +923,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-036",
+    "cell_line_id": "AICS-0036",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "AAVS1-CAG-GFP",
@@ -981,7 +981,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-025",
+    "cell_line_id": "AICS-0025",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "ST6GAL1",
@@ -1039,7 +1039,7 @@
     "Supplementary_offtargets_link": "N"
   },
   {
-    "cell_line_id": "AICS-022",
+    "cell_line_id": "AICS-0022",
     "status": "in_progress",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "LAMP1",
