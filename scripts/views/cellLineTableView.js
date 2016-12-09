@@ -50,7 +50,7 @@
           acc.push('/' + cur.filter + '/' +cur.value);
           return acc;
         },[]);
-        page(url.join(''));
+        page('/filter' + url.join(''));
       }
       else{
         page('/cell-line-catalog')

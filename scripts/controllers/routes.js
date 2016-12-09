@@ -13,11 +13,11 @@ page('/cell-line-catalog',
 
 page('/cellline/:id',
   celllineController.loadAll,
-  celllineController.privateAlert,  
+  celllineController.privateAlert,
   celllineController.loadById,
   celllineController.subpageIndex);
 
-page('/:filtername/:filtervalue',
+page('/filter/:filtername/:filtervalue',
   celllineController.privateAlert,
   celllineController.loadAll,
   celllineController.filter,
@@ -26,7 +26,7 @@ page('/:filtername/:filtervalue',
   celllineController.index);
 
 
-page('/:filtername/:filtervalue/:filternamesec/:filtervaluesec',
+page('/filter/:filtername/:filtervalue/:filternamesec/:filtervaluesec',
   celllineController.loadAll,
   celllineController.filter,
   celllineController.filtersec,
@@ -34,7 +34,7 @@ page('/:filtername/:filtervalue/:filternamesec/:filtervaluesec',
   celllineController.index
 );
 
-page('/:filtername/:filtervalue/:filternamesec/:filtervaluesec/:filternamelast/:filtervaluelast',
+page('/filter/:filtername/:filtervalue/:filternamesec/:filtervaluesec/:filternamelast/:filtervaluelast',
   celllineController.loadAll,
   celllineController.filter,
   celllineController.filtersec,
