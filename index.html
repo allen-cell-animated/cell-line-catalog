@@ -92,7 +92,7 @@
                   <a class="btn btn-warning btn-block" role="button" href="{{Main_order_link}}" target="_blank">Order {{cell_line_id}}</a>
                 </div>
                 <div class="col-xlg-6">
-                  <a class="btn btn-warning btn-block" role="button" href="{{Main_parent_line}}" target="_blank">Order parental line</a>
+                  <a class="btn btn-warning btn-block" role="button" href="{{Main_parental_order_link}}" target="_blank">Order parental line</a>
                 </div>
               </div>
               <div class="col-md-12">
@@ -161,12 +161,12 @@
               <ul id=editingDesign-info class="list-group">
                 <li class="list-group-item">
                   <span class="profile-summary-key">NCBI Isoform:</span>
-                  <span>{{EditingDesign_NCBI_isoform}}</span></li>
+                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id}}">{{Main_mrna_id}}</a></span></li>
                 <li class="list-group-item">
                   <span class="profile-summary-key">crRNA:</span>
                   <span>{{EditingDesign_crRNA_seq}}</span></li>
                 <li class="list-group-item">
-                  <span class="profile-summary-key">Doner plasmid sequence:</span>
+                  <span class="profile-summary-key">Donor plasmid sequence:</span>
                   <span>{{Main_plasmid_sequence}}</span></li>
                 <li class="list-group-item">
                   <span class="profile-summary-key">Cas9:</span>
@@ -668,7 +668,7 @@
                 <p class = 'errors displayoff'>Nothing matches your filters</p>
               </tbody>
             </table>
-            <small>Vist Coriell to order any of these cell lines, or click on a row for more infomation. </small>
+            <small>Visit <a href="https://catalog.coriell.org/1/AllenCellCollection" target="_blank">Coriell </a>to order any of these cell lines, or click on a row for more infomation. </small>
 
           </div>
           <div class="table-responsive" id="in_progress">

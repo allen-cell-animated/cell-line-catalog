@@ -16,7 +16,7 @@
     try {
       localStorage.setItem(testKey, '1');
       localStorage.removeItem(testKey);
-      return false
+      return false;
     } catch (e) {
       return true;
     }
@@ -25,11 +25,11 @@
   cellListView.alertPrivateBrowsers = function(){
     if (cellListView.checkPrivate() === true) {
       console.log('private!');
-      $('<p>').html('This site requires access to local storage to work properly, please disable private browsing').addClass('errors').appendTo($('main'))
+      $('<p>').html('This site requires access to local storage to work properly, please disable private browsing').addClass('errors').appendTo($('main'));
     }
     else{
     }
-  }
+  };
 
   cellListView.setFilters = function(ctx){
     $('#'+ ctx.params.filtername + '-filter').val(ctx.params.filtervalue);
@@ -55,6 +55,7 @@
       else{
         page('/cell-line-catalog')
       }
+
 
   };
 
@@ -100,12 +101,16 @@
         });
       });
     }
+    $('#cell-collection-banner').show();
+
     cellListView.setFilters(ctx);
     cellListView.drawTable(ctx.celllines);
   };
 
   cellListView.renderMainPage = function(){
     $('#cellline-profile').hide();
+    $('#cell-collection-banner').hide();
+
     $('#cell-line-list').hide();
     $('#cell-line-table').children().remove();
     $('#main').show();

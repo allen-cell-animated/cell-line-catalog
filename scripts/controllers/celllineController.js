@@ -77,7 +77,7 @@
   };
 
   celllineController.index = function(ctx, next) {
-      cellListView.renderIndexPage(ctx);
+    cellListView.renderIndexPage(ctx);
 
   };
 
@@ -100,7 +100,7 @@
   celllineController.resetFilters = function(ctx, next) {
     cellListView.resetFilters();
     next();
-  }
+  };
 
 
 

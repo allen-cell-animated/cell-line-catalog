@@ -25,22 +25,23 @@
       $('#editingdesign').append(cellLine.toHtml($('#editingDesign-template')));
       $('#genomiccharacterizations').append(cellLine.toHtml($('#genomiccharacterizations-template')));
       cellLine['GenomicCharacterization_ddpcr'].forEach(function(a){
-        $('#ddPCR-table').append(cellLine.nestedToHtml($('#ddPCR-template'), a ))
+        $('#ddPCR-table').append(cellLine.nestedToHtml($('#ddPCR-template'), a ));
       });
       cellLine['GenomicCharacterization_offtargets'].forEach(function(a){
-        $('#off-target-table').append(cellLine.nestedToHtml($('#offTargets-template'), a ))
+        $('#off-target-table').append(cellLine.nestedToHtml($('#offTargets-template'), a ));
       });
 
 
       $('#validation').append(cellLine.toHtml($('#validation-template')));
       $('#stemcellcharacteristics').append(cellLine.toHtml($('#stemcellcharacteristics-template')));
       cellLine['StemCellCharacterization_pluripotency_analysis'].forEach(function(a){
-        $('#pluripotent-table-body').append(cellLine.nestedToHtml($('#pluripotent-template'), a ))
+        $('#pluripotent-table-body').append(cellLine.nestedToHtml($('#pluripotent-template'), a ));
       });
 
       $('#supplementaryinformation').append(cellLine.toHtml($('#supplementaryinformation-template')));
       // cellLineProfileView.goBack();
       cellLineProfileView.gallery();
+      $('#cell-collection-banner').show();
       $('#cellline-profile').show();
     }
   };

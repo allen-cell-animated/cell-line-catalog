@@ -47,10 +47,9 @@
       newCellLine.currentID = $(this).find('#cell_line_id').val();
       $('.entries').children().remove();
       if (CellLine.allCellLinesFB.length === 0) {
-        prompt('Database connection lost, reloading');
-        document.location.reload(true);
+        console.log('no firebase');
       }
-      if (CellLine.allCellLinesFB[newCellLine.currentID]) {
+      else if (CellLine.allCellLinesFB[newCellLine.currentID]) {
         console.log('exsiting cell line');
         newCellLine.read(CellLine.allCellLinesFB[newCellLine.currentID]);
       }
