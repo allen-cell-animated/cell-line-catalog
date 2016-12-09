@@ -36,7 +36,7 @@
        data-Main_gene_name-filter ={{Main_gene_name}}
        data-Main_parent_line-filter ="{{Main_parent_line}}"
        id = {{cell_line_id}}>
-        <td class='table-cell-line-id '>
+        <td class='table-cell-line-id'>
           {{cell_line_id}}
         </td>
         <td>
@@ -56,6 +56,12 @@
         </td>
         <td>
           {{Main_parent_line}}
+        </td>
+        <td>
+          {{status}}
+        </td>
+        <td>
+          {{Main_data_available}}
         </td>
 
       </tr>
@@ -641,7 +647,7 @@
             <table class="table table-hover table-striped" id="complete">
               <thead class='text-info'>
                 <tr>
-                  <th>
+                  <th class="">
                     Cell Line ID
                   </th>
                   <th>
@@ -661,6 +667,12 @@
                   </th>
                   <th>
                     Parental Line
+                  </th>
+                  <th>
+                    Cells available to order
+                  </th>
+                  <th>
+                    Full data available
                   </th>
                 </tr>
               </thead>
@@ -696,6 +708,9 @@
                   </th>
                   <th>
                     Parental Line
+                  </th>
+                  <th>
+                    Status
                   </th>
                 </tr>
               </thead>

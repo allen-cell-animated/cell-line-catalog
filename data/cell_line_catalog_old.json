@@ -1,7 +1,8 @@
 [
   {
     "cell_line_id": "AICS-0005",
-    "status": "complete",
+    "status": "Completed",
+    "Main_data_available": "January 11, 2017",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "PXN",
     "Main_gene_name": "Paxillin",
@@ -60,7 +61,8 @@
   },
   {
     "cell_line_id": "AICS-0012",
-    "status": "complete",
+    "status": "Completed",
+    "Main_data_available": "yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TUBA1B",
     "Main_gene_name": "Tubulin-alpha 1b",
@@ -119,7 +121,8 @@
   },
   {
     "cell_line_id": "AICS-0031",
-    "status": "in_progress",
+    "status": "Screening & QC",
+    "Main_data_available": "TBA",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TUBA1B",
     "Main_gene_name": "Tubulin-alpha 1b",
@@ -178,7 +181,8 @@
   },
   {
     "cell_line_id": "AICS-0011",
-    "status": "complete",
+    "status": "Completed",
+    "Main_data_available": "January 11, 2017",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TOMM20",
     "Main_gene_name": "Translocase of outer mitochondrial membrane 20",
@@ -237,7 +241,8 @@
   },
   {
     "cell_line_id": "AICS-0013",
-    "status": "complete",
+    "status": "Completed",
+    "Main_data_available": "January 11, 2017",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "LMNB1",
     "Main_gene_name": "Lamin B1",
@@ -296,7 +301,8 @@
   },
   {
     "cell_line_id": "AICS-0029",
-    "status": "in_progress",
+    "status": "Screening & QC",
+    "Main_data_available": "TBA",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "LMNB1",
     "Main_gene_name": "Lamin B1",
@@ -355,7 +361,8 @@
   },
   {
     "cell_line_id": "AICS-0017",
-    "status": "complete",
+    "status": "Completed",
+    "Main_data_available": "January 11, 2017",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "DSP",
     "Main_gene_name": "Desmoplakin",
@@ -414,7 +421,8 @@
   },
   {
     "cell_line_id": "AICS-0016",
-    "status": "in_progress",
+    "status": "Final QC",
+    "Main_data_available": "TBA",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "ACTB",
     "Main_gene_name": "Actin beta",
@@ -473,7 +481,8 @@
   },
   {
     "cell_line_id": "AICS-0010",
-    "status": "in_progress",
+    "status": "Final QC",
+    "Main_data_available": "TBA",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "SEC61B",
     "Main_gene_name": "Sec61 translocon beta subunit",
@@ -532,7 +541,8 @@
   },
   {
     "cell_line_id": "AICS-0014",
-    "status": "in_progress",
+    "status": "Final QC",
+    "Main_data_available": "TBA",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "FBL",
     "Main_gene_name": "Fibrillarin",
@@ -591,7 +601,8 @@
   },
   {
     "cell_line_id": "AICS-0024",
-    "status": "in_progress",
+    "status": "Screening & QC",
+    "Main_data_available": "TBA",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "MYH10",
     "Main_gene_name": "Myosin heavy chain 10",
@@ -650,7 +661,8 @@
   },
   {
     "cell_line_id": "AICS-0032",
-    "status": "in_progress",
+    "status": "Screening & QC",
+    "Main_data_available": "TBA",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "CETN2",
     "Main_gene_name": "Centrin 2",
@@ -709,7 +721,8 @@
   },
   {
     "cell_line_id": "AICS-0020",
-    "status": "in_progress",
+    "status": "Screening & QC",
+    "Main_data_available": "TBA",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "VIM",
     "Main_gene_name": "Vimentin",
@@ -768,7 +781,8 @@
   },
   {
     "cell_line_id": "AICS-0023",
-    "status": "in_progress",
+    "status": "Screening & QC",
+    "Main_data_available": "TBA",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TJP1",
     "Main_gene_name": "Tight junction protein 1",
@@ -827,7 +841,8 @@
   },
   {
     "cell_line_id": "AICS-0030",
-    "status": "in_progress",
+    "status": "Screening & QC",
+    "Main_data_available": "TBA",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "MAP1LC3B",
     "Main_gene_name": "Microtubule associated protein 1 light chain 3 beta",
@@ -886,7 +901,8 @@
   },
   {
     "cell_line_id": "AICS-0036",
-    "status": "in_progress",
+    "status": "Screening & QC",
+    "Main_data_available": "TBA",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "AAVS1-CAG-GFP",
     "Main_gene_name": "",
@@ -945,7 +961,8 @@
   },
   {
     "cell_line_id": "AICS-0025",
-    "status": "in_progress",
+    "status": "Pre-clonal edited",
+    "Main_data_available": "TBA",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "ST6GAL1",
     "Main_gene_name": "ST6 beta-galactoside alpha-2,6-sialyltransferase 1",
@@ -1004,7 +1021,8 @@
   },
   {
     "cell_line_id": "AICS-0022",
-    "status": "in_progress",
+    "status": "Design phase",
+    "Main_data_available": "TBA",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "LAMP1",
     "Main_gene_name": "lysosomal associated membrane protein 1",
