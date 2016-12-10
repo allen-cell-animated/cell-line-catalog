@@ -163,6 +163,10 @@ footer{
   margin-bottom: 0.5em;
 }
 
+.nav>li.disabled>a:hover, .nav>li.disabled>a:focus{
+  background-color: #eee;
+}
+
 #in_progress{
   margin-top: 50px;
 }
