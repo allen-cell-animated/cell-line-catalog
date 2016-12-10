@@ -8,6 +8,11 @@ body {
 
 main {
   margin: auto;
+}
+
+section{
+  margin: auto;
+
   width: 90%;
 }
 
@@ -26,8 +31,7 @@ ul{
 }
 
 header{
-  padding:5px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 /*TEXT STYLES
 =======================================*/

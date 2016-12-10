@@ -111,7 +111,7 @@ footer{
 }
 
 .table-cell-line-id{
-  min-width: 80px;
+  min-width: 100px;
 }
 
 .table-main-termial-tagged{
@@ -161,6 +161,10 @@ footer{
 
 .table-title{
   margin-bottom: 0.5em;
+}
+
+.nav>li.disabled>a:hover, .nav>li.disabled>a:focus{
+  background-color: #eee;
 }
 
 #in_progress{

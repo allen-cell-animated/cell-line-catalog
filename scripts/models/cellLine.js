@@ -17,7 +17,6 @@
   CellLine.prototype.nestedToHtml= function(templateid, nestedObj){
     var source = $(templateid).html();
     var renderTemplate = Handlebars.compile(source);
-    console.log(nestedObj);
     return renderTemplate(nestedObj);
   };
 

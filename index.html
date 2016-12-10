@@ -21,16 +21,22 @@
         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
         ga('create', 'UA-88352103-1', 'auto');
-        ga('send', 'pageview');
+        // Replace the following lines with the plugins you want to use.
+        ga('require', 'eventTracker');
+        ga('require', 'outboundLinkTracker');
+        ga('require', 'urlChangeTracker');
+        // ...
 
+        ga('send', 'pageview');
     </script>
+    <script async src="/vendor/scripts/autotrack.js"></script>
     <script id="cellList-template" type="text/x-handlebars-template">
       <tr class= 'cellline'
        data-Main_fluorescent_tag-filter={{Main_fluorescent_tag}} data-Main_structure-filter ={{Main_structure}}
        data-Main_gene_name-filter ={{Main_gene_name}}
        data-Main_parent_line-filter ="{{Main_parent_line}}"
        id = {{cell_line_id}}>
-        <td class='table-cell-line-id '>
+        <td class='table-cell-line-id'>
           {{cell_line_id}}
         </td>
         <td>
@@ -50,6 +56,12 @@
         </td>
         <td>
           {{Main_parent_line}}
+        </td>
+        <td>
+          {{status}}
+        </td>
+        <td>
+          {{Main_data_available}}
         </td>
 
       </tr>
@@ -101,17 +113,23 @@
       <div class="col-md-8">
         <div class="panel panel-primary">
           <div class="morphology-main">
-            <img  src="{{Main_cell_line_morphology}}" alt="" />
-            <small class="caption">{{Main_cell_line_morphology_caption}}</small>
+            <video  class="toappend" width="100%" autoplay controls >
+              <source src="{{Main_cell_line_movie2}}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <small class="caption">{{Main_cell_line_movie1_caption}}</small>
+
           </div>
           <div class="panel-footer clearfix">
             <div class="">
               <div class="thirtypercent thumbnails">
                 <div class="morphology-thumbnail">
                   <a href="#" >
-                    <img class="active toappend" src="{{Main_cell_line_morphology}}" alt="" />
-                  </a>
-                  <small class="caption">{{Main_cell_line_morphology_caption}}</small>
+                    <video  class="toappend" width="100%"  >
+                      <source src="{{Main_cell_line_movie2}}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>                  </a>
+                  <small class="caption">{{Main_cell_line_movie1_caption}}</small>
                 </div>
               </div>
               <div class="thirtypercent thumbnails">
@@ -128,12 +146,9 @@
               <div class="thirtypercent thumbnails">
                 <div class="morphology-thumbnail">
                   <a href="#" >
-                    <video  class="toappend" width="100%"  >
-                      <source src="{{Main_cell_line_movie2}}" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                    <img  src="{{Main_cell_line_morphology}}" alt="" />
                   </a>
-                  <small class="caption">{{Main_cell_line_movie2_caption}}</small>
+                  <small class="caption">{{Main_cell_line_morphology_caption}}</small>
                 </div>
               </div>
           </div>
@@ -192,7 +207,7 @@
             <img src="{{GenomicCharacterization_junction_schematic}}" alt="...">
             <div class="caption">
               <h3>Sequenced Junctions</h3>
-              <p>{{GenomicCharacterization_junction_schematic_caption}}</p>
+              <a href = "{{GenomicCharacterization_sequences_link}}">{{GenomicCharacterization_junction_schematic_caption}}</a>
             </div>
           </div>
         </div>
@@ -205,7 +220,7 @@
             </div>
             <div class="panel-body">
               <div class="thumbnail">
-                <img src="{{GenomicCharacterization_tagged_allele_gel}}" alt="...">
+                <img class ="GenomicCharacterization_tagged_allele_gel" id={{GenomicCharacterization_tagged_allele_gel}}  src="{{GenomicCharacterization_tagged_allele_gel}}" alt="...">
                 <div class="caption">
                   <p>{{GenomicCharacterization_tagged_allele_gel_caption}}</p>
                 </div>
@@ -583,9 +598,20 @@
           </div>
         </section>
       </nav>
+      <div id="cell-collection-banner" class="bg-info text-center site-header clearfix col-md-12 displayoff">
+            <h2 class="text-info  text-white">Allen Cell Collection</h2>
+            <p class="text-success">
+              Preview-release: Full database available January 11, 2017
+            </p>
+
+      </div>
+
     </header>
 
+
+
     <main class="">
+
       <section id="main" class="tab-section active">
         <p>
           Future home of animated cell
@@ -595,12 +621,7 @@
         </div>
       </section>
       <section id="cell-line-list" class="tab-section active">
-        <header class="bg-info text-center">
-          <h2 class="text-info  text-white">Allen Cell Collection</h2>
-          <p class="text-success">
-            Preview-release: Full database available January 11, 2017
-          </p>
-        </header>
+
         <div>
           <form id="filters" class="form-horizontal">
             <div class="form-group">
@@ -626,7 +647,7 @@
             <table class="table table-hover table-striped" id="complete">
               <thead class='text-info'>
                 <tr>
-                  <th>
+                  <th class="">
                     Cell Line ID
                   </th>
                   <th>
@@ -646,6 +667,12 @@
                   </th>
                   <th>
                     Parental Line
+                  </th>
+                  <th>
+                    Cells available to order
+                  </th>
+                  <th>
+                    Full data available
                   </th>
                 </tr>
               </thead>
@@ -682,6 +709,9 @@
                   <th>
                     Parental Line
                   </th>
+                  <th>
+                    Status
+                  </th>
                 </tr>
               </thead>
               <tbody id="in-progress-table">
@@ -702,18 +732,23 @@
         </div>
 
         <div class="subpage-nav">
-          <nav class="">
+          <nav class="subpage-nav">
             <ul class="nav nav-pills nav-justified" role="tablist">
-              <li class="sub-page-tab active"><a data-toggle="tab" href="#editingdesign">Editing Design</a></li>
-              <li class="sub-page-tab"><a data-toggle="tab" href="#genomiccharacterizations">Genomic Characterization</a></li>
-              <li class="sub-page-tab"><a data-toggle="tab" href="#validation">Cellular Validation</a></li>
-              <li class="sub-page-tab"><a data-toggle="tab"  href="#stemcellcharacteristics">Stem Cell Characteristics</a></li>
-              <li class="sub-page-tab"><a data-toggle="tab" href="#supplementaryinformation">Supplementary Information</a></li>
+              <li id="tab_editingdesign" class="sub-page-tab  disabled">
+                <a data-toggle="tab" href="#editingdesign">Editing Design</a></li>
+              <li id="tab_genomiccharacterizations"class="sub-page-tab disabled">
+                <a  data-toggle="tab" href="#genomiccharacterizations">Genomic Characterization</a></li>
+              <li id="tab_validation" class="sub-page-tab disabled">
+                <a data-toggle="tab" href="#validation">Cellular Validation</a></li>
+              <li id="tab_stemcellcharacteristics" class="sub-page-tab disabled">
+                <a data-toggle="tab"  href="#stemcellcharacteristics">Stem Cell Characteristics</a></li>
+              <li id="tab_supplementaryinformation" class="sub-page-tab disabled">
+                <a data-toggle="tab" href="#supplementaryinformation">Supplementary Information</a></li>
             </ul>
           </nav>
         </div>
         <div class="subpage tab-content">
-          <div class="tab-pane subpage-tab active container" id="editingdesign">
+          <div class="tab-pane subpage-tab container" id="editingdesign">
           </div>
           <div class="tab-pane subpage-tab container" id="genomiccharacterizations" role="tabpanel">
 
@@ -753,6 +788,7 @@
     <script src="/vendor/scripts/handlebars.js"></script>
     <script src="/vendor/scripts/bootstrap.min.js"></script>
     <script src="/vendor/scripts/page.js"></script>
+
 
     <!-- Model Files -->
     <script src="/scripts/models/cellLine.js"></script>

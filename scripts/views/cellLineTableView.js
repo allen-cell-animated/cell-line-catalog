@@ -45,16 +45,17 @@
       };}).get().filter(function(ele){
         return ele.value !== '';
       });
-    if (filters.length> 0) {
-      url = filters.reduce(function(acc, cur){
-        acc.push('/' + cur.filter + '/' +cur.value);
-        return acc;
-      },[]);
-      page(url.join(''));
-    }
-    else{
-      page('/cell-line-catalog');
-    }
+      if (filters.length> 0) {
+        url = filters.reduce(function(acc, cur){
+          acc.push('/' + cur.filter + '/' +cur.value);
+          return acc;
+        },[]);
+        page('/filter' + url.join(''));
+      }
+      else{
+        page('/cell-line-catalog')
+      }
+
 
   };
 
@@ -76,7 +77,7 @@
 
   cellListView.drawTable = function(celllines) {
     celllines.forEach(function(a) {
-      if (a.status === 'complete') {
+      if (a.status === 'Completed') {
         $('#cell-line-table').append(a.toHtml($('#cellList-template')));
       }
       else {
@@ -100,12 +101,16 @@
         });
       });
     }
+    $('#cell-collection-banner').show();
+
     cellListView.setFilters(ctx);
     cellListView.drawTable(ctx.celllines);
   };
 
   cellListView.renderMainPage = function(){
     $('#cellline-profile').hide();
+    $('#cell-collection-banner').hide();
+
     $('#cell-line-list').hide();
     $('#cell-line-table').children().remove();
     $('#main').show();
