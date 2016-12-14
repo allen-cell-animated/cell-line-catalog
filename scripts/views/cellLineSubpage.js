@@ -12,7 +12,7 @@
   }
 
   cellLineProfileView.checkforData = function(cellLine){
-    if (cellLine.Main_data_available === 'Yes') {
+    if (cellLine.Main_cell_line_movie1 !== '') {
       $('.morphology-images').show();
       $('#images-not-available').hide();
     }

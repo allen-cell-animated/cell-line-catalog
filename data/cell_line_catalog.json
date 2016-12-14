@@ -1,7 +1,7 @@
 [
   {
     "cell_line_id": "AICS-0005",
-    "status": "Completed",
+    "status": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
         "done": "false"
@@ -38,11 +38,11 @@
     "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS0005&Product=iPSC",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
-    "Main_cell_line_morphology": "image",
+    "Main_cell_line_morphology": "/images/AICS-0005/Main_cell_line_morphology.jpg",
     "Main_cell_line_morphology_caption": "",
-    "Main_cell_line_movie1": "",
+    "Main_cell_line_movie1": "/images/AICS-0005/Main_cell_line_movie1.jpg",
     "Main_cell_line_movie1_caption": "",
-    "Main_cell_line_movie2": "",
+    "Main_cell_line_movie2": "/images/AICS-0005/Main_cell_line_movie2.mp4",
     "Main_cell_line_movie2_caption": "",
     "EditingDesign_crRNA_seq": "GCACCTAGCAGAAGAGCTTG",
     "EditingDesign_cas9": "Wildtype spCas9",
@@ -82,7 +82,7 @@
   },
   {
     "cell_line_id": "AICS-0012",
-    "status": "Completed",
+    "status": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
         "done": "true"
@@ -298,7 +298,7 @@
   },
   {
     "cell_line_id": "AICS-0011",
-    "status": "Completed",
+    "status": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
         "done": "false"
@@ -379,7 +379,7 @@
   },
   {
     "cell_line_id": "AICS-0013",
-    "status": "Completed",
+    "status": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
         "done": "false"
@@ -540,7 +540,7 @@
   },
   {
     "cell_line_id": "AICS-0017",
-    "status": "Completed",
+    "status": "Yes",
     "Main_data_available": "January 11, 2017",
     "subpaged_status": [
       { "id": "editingdesign",
