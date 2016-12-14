@@ -12,6 +12,14 @@
   }
 
   cellLineProfileView.checkforData = function(cellLine){
+    if (cellLine.Main_data_available === 'Yes') {
+      $('.morphology-images').show();
+      $('#images-not-available').hide();
+    }
+    else {
+      $('.morphology-images').hide();
+      $('#images-not-available').show();
+    }
     cellLine.subpaged_status.forEach(function(a){
       if (a.done==='true') {
         $('#tab_' + a.id).removeClass('disabled');
@@ -20,6 +28,12 @@
           $('#' + a.id).addClass('active');
 
         }
+      }
+      else {
+        $('#tab_' + a.id).addClass('disabled');
+        $('#tab_' + a.id).removeClass('active');
+        $('#' + a.id).removeClass('active');
+
       }
     })
   };
