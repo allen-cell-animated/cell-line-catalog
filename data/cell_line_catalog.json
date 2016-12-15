@@ -42,17 +42,17 @@
       {
         "type":"movie",
         "link":"/images/AICS-0005/Main_cell_line_movie2.mp4",
-        "caption":""
+        "caption":"Timelapse movie of a hiPSC colony expressing paxillin-mEGFP. Images taken in 3D every 5 minutes for 400 minutes on a spinning-disk confocal microscope. Image is a maximum intensity projection of four slices near the bottom of the cell. Movie sped up 3000x over real time."
       },
       {
         "type":"image",
         "link":"/images/AICS-0005/Main_cell_line_movie1.jpg",
-        "caption":""
+        "caption":"Single image of a live hiPSC colony expressing Tom20-mEGFP imaged on a spinning-disk confocal microscope. Left panel is a single slice of the z-tack near the bottom of the cell; right pnael is this same projection overlaid onto one slice of the same z-stack in the transmitted light channel."
       },
       {
         "type":"image",
         "link":"/images/AICS-0005/Main_cell_line_morphology.jpg",
-        "caption":""
+        "caption":"Viability and colony formation photographed 3 days post-thaw at 4X magnification. Cells were treated with ROCK inhibitor for 24 hrs post-thaw."
       }
     ],
     "Main_cell_line_morphology": "/images/AICS-0005/Main_cell_line_morphology.jpg",
@@ -374,17 +374,17 @@
       {
         "type":"movie",
         "link":"/images/AICS-0011/Main_cell_line_movie2.mp4",
-        "caption":""
+        "caption":"Z-stack of live hiPSC cells expressing Tom20-mEGFP imaged on a spinning-disk confocal microscope. Image starts at the bottom of the cells and ends at the top."
       },
       {
         "type":"image",
         "link":"/images/AICS-0011/Main_cell_line_movie1.jpg",
-        "caption":""
+        "caption":"Single image of a live hiPSC colony expressing Tom20-mEGFP imaged on a spinning-disk confocal microscope. Image is a maximum intensity projection of 5 z-slices near the bottom of the cell."
       },
       {
         "type":"image",
         "link":"/images/AICS-0011/Main_cell_line_morphology.jpg",
-        "caption":""
+        "caption":"Viability and colony formation photographed 3 days post-thaw at 4X magnification. Cells were treated with ROCK inhibitor for 24 hrs post-thaw."
       }
     ],
 
@@ -473,17 +473,17 @@
       {
         "type":"movie",
         "link":"/images/AICS-0013/Main_cell_line_movie2.mp4",
-        "caption":""
+        "caption":"Timelapse movie of a hiPSC colony expressing LaminB1-mEGFP. Images taken in 3D every 3 minutes for 12 hours on a spinning-disk confocal microscope. Image is a maximum intensity projection. Movie sped up 1800x over real time."
       },
       {
         "type":"image",
         "link":"/images/AICS-0013/Main_cell_line_movie1.jpg",
-        "caption":""
+        "caption":"Single image of a live hiPSC colony expressing LaminB1-mEGFP. Image is a maximum intensity projection of a spinning-disk confocal z-stack"
       },
       {
         "type":"image",
         "link":"/images/AICS-0013/Main_cell_line_morphology.jpg",
-        "caption":""
+        "caption":"Viability and colony formation photographed 3 days post-thaw at 4X magnification. Cells were treated with ROCK inhibitor for 24 hrs post-thaw."
       }
     ],
     "Main_cell_line_morphology": "image",
@@ -652,12 +652,12 @@
       {
         "type":"image",
         "link":"/images/AICS-0017/Main_cell_line_movie1.jpg",
-        "caption":""
+        "caption":"Single image of a live hiPSC colony expressing Desmoplakin-mEGFP imaged on a spinning-disk confocal microscope. Left panel is a maximum intensity projection of the z-stack; right panel is this same projection overlaid onto one slice of the same z-stack in the transmitted light channel."
       },
       {
         "type":"image",
         "link":"/images/AICS-0017/Main_cell_line_morphology.jpg",
-        "caption":""
+        "caption":"Viability and colony formation photographed 3 days post-thaw at 4X magnification. Cells were treated with ROCK inhibitor for 24 hrs post-thaw."
       }
     ],
     "Main_cell_line_morphology": "image",

@@ -171,6 +171,9 @@ footer{
   margin-top: 50px;
 }
 
+.caption-holder{
+  padding:10px;
+}
 
 @media only screen and (min-width: 640px) {
   .heading-group-h1 {
