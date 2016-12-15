@@ -12,7 +12,8 @@
   }
 
   cellLineProfileView.checkforData = function(cellLine){
-    if (cellLine.Main_cell_line_movie1 !== '') {
+    if (cellLine.Main_media.length > 0) {
+      cellLineProfileView.makeGallery(cellLine);
       $('.morphology-images').show();
       $('#images-not-available').hide();
     }
@@ -20,6 +21,7 @@
       $('.morphology-images').hide();
       $('#images-not-available').show();
     }
+
     cellLine.subpaged_status.forEach(function(a){
       if (a.done==='true') {
         $('#tab_' + a.id).removeClass('disabled');
@@ -39,7 +41,7 @@
   };
 
   cellLineProfileView.gallery = function() {
-    $('.thumbnails').on('click', '.morphology-thumbnail', function(e) {
+    $('#gallery-thumbnails').on('click', '.morphology-thumbnail', function(e) {
       e.preventDefault();
       $('.morphology-main').empty();
       $('.morphology-main').append($(this).find('.toappend').clone().attr('controls', '').attr('autoplay',''));
@@ -49,6 +51,32 @@
     });
   };
 
+  cellLineProfileView.makeGallery = function(cellLine){
+    $('.morphology-main').empty();
+    $('#gallery-thumbnails').empty();
+
+    if (cellLine.Main_media[0].type === "movie") {
+      console.log('movie', cellLine.Main_media[0]);
+      $('.morphology-main').append(cellLine.nestedToHtml($('#gallery-main-movie-template'), cellLine.Main_media[0]))
+    }
+    else if (cellLine.Main_media[0].type ==="image") {
+      console.log('image', cellLine.Main_media[0]);
+      $('.morphology-main').append(cellLine.nestedToHtml($('#gallery-main-image-template'), cellLine.Main_media[0]))
+
+    }
+    cellLine.Main_media.forEach(function(a){
+      if (a.type === "movie") {
+        console.log('movie', a);
+        $('#gallery-thumbnails').append(cellLine.nestedToHtml($('#movie-thumbnail-template'), a))
+      }
+      else if (a.type ==="image") {
+        console.log('image', a);
+        $('#gallery-thumbnails').append(cellLine.nestedToHtml($('#image-thumbnail-template'), a))
+
+      }
+    })
+  }
+
 
 
   cellLineProfileView.RenderProfile = function(cellLine) {
@@ -56,6 +84,7 @@
     $('.subpage-tab').children().remove();
     if ($('#cellline-info').find('ul').length ===0){
       $('#cellline-info').append(cellLine.toHtml($('#cell-profile-info-template')));
+
       $('#editingdesign').append(cellLine.toHtml($('#editingDesign-template')));
       $('#genomiccharacterizations').append(cellLine.toHtml($('#genomiccharacterizations-template')));
       if (typeof(cellLine['GenomicCharacterization_ddpcr']) !=='string') {

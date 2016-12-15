@@ -38,6 +38,23 @@
     "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS0005&Product=iPSC",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
+    "Main_media":[
+      {
+        "type":"movie",
+        "link":"/images/AICS-0005/Main_cell_line_movie2.mp4",
+        "caption":""
+      },
+      {
+        "type":"image",
+        "link":"/images/AICS-0005/Main_cell_line_movie1.jpg",
+        "caption":""
+      },
+      {
+        "type":"image",
+        "link":"/images/AICS-0005/Main_cell_line_morphology.jpg",
+        "caption":""
+      }
+    ],
     "Main_cell_line_morphology": "/images/AICS-0005/Main_cell_line_morphology.jpg",
     "Main_cell_line_morphology_caption": "",
     "Main_cell_line_movie1": "/images/AICS-0005/Main_cell_line_movie1.jpg",
@@ -120,6 +137,23 @@
     "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS0012&Product=iPSC",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
+    "Main_media":[
+      {
+        "type":"movie",
+        "link":"/images/AICS-0012/Main_cell_line_movie2.mp4",
+        "caption":"Timelapse movie of a hiPSC colony expressing alpha tubulin-mEGFP. Images taken in 3D every 4 minutes for 400minutes on a spinning-disk confocal microscope. Image is a maximum intensity projection Movie sped up 1200x over real time."
+      },
+      {
+        "type":"movie",
+        "link":"/images/AICS-0012/Main_cell_line_movie1.mp4",
+        "caption":"Z-stack of live hiPSC cells expressing alpha tubulin-mEGFP imaged on a spinning-disk confocal microscope. Image starts at the bottom of the cells and ends at the top."
+      },
+      {
+        "type":"image",
+        "link":"/images/AICS-0012/Main_cell_line_morphology.jpg",
+        "caption":"Viability and colony formation photographed 3 days post-thaw at 10X. Cells were treated with ROCK inhibitor for 24hrs post-thaw."
+      }
+    ],
     "Main_cell_line_morphology": "/images/AICS-0012/Main_cell_line_morphology.jpg",
     "Main_cell_line_morphology_caption": "Viability and colony formation photographed 3 days post-thaw at 10X. Cells were treated with ROCK inhibitor for 24hrs post-thaw.",
     "Main_cell_line_movie1": "/images/AICS-0012/Main_cell_line_movie1.mp4",
@@ -254,6 +288,7 @@
     "Main_order_link": "",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
+    "Main_media":[],
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "",
     "Main_cell_line_movie1": "",
@@ -335,6 +370,24 @@
     "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS0011&Product=iPSC",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
+    "Main_media":[
+      {
+        "type":"movie",
+        "link":"/images/AICS-0011/Main_cell_line_movie2.mp4",
+        "caption":""
+      },
+      {
+        "type":"image",
+        "link":"/images/AICS-0011/Main_cell_line_movie1.jpg",
+        "caption":""
+      },
+      {
+        "type":"image",
+        "link":"/images/AICS-0011/Main_cell_line_morphology.jpg",
+        "caption":""
+      }
+    ],
+
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "",
     "Main_cell_line_movie1": "",
@@ -416,6 +469,23 @@
     "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS0013&Product=iPSC",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
+    "Main_media":[
+      {
+        "type":"movie",
+        "link":"/images/AICS-0013/Main_cell_line_movie2.mp4",
+        "caption":""
+      },
+      {
+        "type":"image",
+        "link":"/images/AICS-0013/Main_cell_line_movie1.jpg",
+        "caption":""
+      },
+      {
+        "type":"image",
+        "link":"/images/AICS-0013/Main_cell_line_morphology.jpg",
+        "caption":""
+      }
+    ],
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "",
     "Main_cell_line_movie1": "",
@@ -577,6 +647,19 @@
     "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS0017&Product=iPSC",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
+    "Main_media":[
+
+      {
+        "type":"image",
+        "link":"/images/AICS-0017/Main_cell_line_movie1.jpg",
+        "caption":""
+      },
+      {
+        "type":"image",
+        "link":"/images/AICS-0017/Main_cell_line_morphology.jpg",
+        "caption":""
+      }
+    ],
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "",
     "Main_cell_line_movie1": "",
@@ -658,6 +741,8 @@
     "Main_order_link": "",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
+    "Main_media":[],
+
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "",
     "Main_cell_line_movie1": "",
@@ -739,6 +824,8 @@
     "Main_order_link": "",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
+    "Main_media":[],
+
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "",
     "Main_cell_line_movie1": "",
@@ -820,6 +907,8 @@
     "Main_order_link": "",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
+    "Main_media":[],
+
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "",
     "Main_cell_line_movie1": "",
@@ -901,6 +990,8 @@
     "Main_order_link": "",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
+    "Main_media":[],
+
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "",
     "Main_cell_line_movie1": "",
@@ -982,6 +1073,8 @@
     "Main_order_link": "",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
+    "Main_media":[],
+
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "",
     "Main_cell_line_movie1": "",
@@ -1063,6 +1156,8 @@
     "Main_order_link": "",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
+    "Main_media":[],
+
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "",
     "Main_cell_line_movie1": "",
@@ -1144,6 +1239,8 @@
     "Main_order_link": "",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
+    "Main_media":[],
+
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "",
     "Main_cell_line_movie1": "",
@@ -1225,6 +1322,8 @@
     "Main_order_link": "",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
+    "Main_media":[],
+
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "",
     "Main_cell_line_movie1": "",
@@ -1306,6 +1405,8 @@
     "Main_order_link": "",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
+    "Main_media":[],
+
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "",
     "Main_cell_line_movie1": "",
@@ -1387,6 +1488,8 @@
     "Main_order_link": "",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
+    "Main_media":[],
+
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "",
     "Main_cell_line_movie1": "",
@@ -1469,6 +1572,8 @@
     "Main_order_link": "",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
+    "Main_media":[],
+
     "Main_cell_line_morphology": "image",
     "Main_cell_line_morphology_caption": "",
     "Main_cell_line_movie1": "",
