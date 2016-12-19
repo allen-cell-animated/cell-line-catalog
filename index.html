@@ -5,12 +5,14 @@
     <title>Cell Line Catalog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/vendor/styles/normalize.css">
+    <link rel="stylesheet" href="/bower_components/flickity/dist/flickity.css" media="screen">
     <link rel="stylesheet" href="/styles/icons.css">
     <!-- <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css"> -->
     <link rel="stylesheet" href="/styles/bootstrap.min.css">
     <link rel="stylesheet" href="/styles/base.css">
     <link rel="stylesheet" href="/styles/layout.css">
     <link rel="stylesheet" href="/styles/modules.css">
+
 
     <!-- Allen Institute favicon -->
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
@@ -164,17 +166,26 @@
     </script>
 
     <script id="gallery-main-movie-template" type="text/x-handlebars-template">
+      <div class="carousel-cell">
         <video  class="toappend" width="100%" autoplay controls >
           <source src="{{link}}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <small class="caption">{{caption}}</small>
+        <div class="caption-container">
+          <small class="caption">{{caption}}</small>
+        </div>
+      </div>
+
     </script>
 
     <script id="gallery-main-image-template" type="text/x-handlebars-template">
+      <div class="carousel-cell">
         <img  class="toappend" width="100%" src="{{link}}" />
+        <div class="caption-container">
+          <small class="caption">{{caption}}</small>
+        </div>
+      </div>
 
-        <small class="caption">{{caption}}</small>
     </script>
 
     <script id="movie-thumbnail-template" type="text/x-handlebars-template">
@@ -185,7 +196,9 @@
               <source src="{{link}}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>                  </a>
-          <small class="caption">{{caption}}</small>
+          <div class="caption-container">
+            <small class="caption">{{caption}}</small>
+          </div>
         </div>
       </div>
     </script>
@@ -195,7 +208,9 @@
           <a href="#">
             <img class="toappend" src="{{link}}" alt="" />
           </a>
-          <small class="caption">{{caption}}</small>
+          <div class="caption-container">
+            <small class="caption">{{caption}}</small>
+          </div>
         </div>
       </div>
     </script>
@@ -765,7 +780,9 @@
       </section>
 
       <!-- CELL LINE PROFILE -------------->
+
       <section id="cellline-profile" class="tab-section">
+
         <div class="back-button">
           <a  href="/cell-line-catalog">&lArr; Return to full list</a>
         </div>
@@ -843,6 +860,8 @@
     <!-- Vendor Files -->
     <script src="/vendor/scripts/jquery-2.1.4.js"></script>
     <script src="/vendor/scripts/handlebars.js"></script>
+    <script src="/bower_components/flickity/dist/flickity.pkgd.min.js"></script>
+
     <script src="/vendor/scripts/bootstrap.min.js"></script>
     <script src="/vendor/scripts/page.js"></script>
 
