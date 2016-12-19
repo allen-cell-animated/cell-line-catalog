@@ -45,16 +45,16 @@
       };}).get().filter(function(ele){
         return ele.value !== '';
       });
-      if (filters.length> 0) {
-        url = filters.reduce(function(acc, cur){
-          acc.push('/' + cur.filter + '/' +cur.value);
-          return acc;
-        },[]);
-        page('/filter' + url.join(''));
-      }
-      else{
-        page('/cell-line-catalog')
-      }
+    if (filters.length> 0) {
+      url = filters.reduce(function(acc, cur){
+        acc.push('/' + cur.filter + '/' +cur.value);
+        return acc;
+      },[]);
+      page('/filter' + url.join(''));
+    }
+    else{
+      page('/cell-line-catalog');
+    }
 
 
   };

@@ -8,8 +8,8 @@
       e.preventDefault();
       console.log('disabled');
       return false;
-    })
-  }
+    });
+  };
 
   cellLineProfileView.checkforData = function(cellLine){
     if (cellLine.Main_media.length > 0) {
@@ -37,7 +37,7 @@
         $('#' + a.id).removeClass('active');
 
       }
-    })
+    });
   };
 
   cellLineProfileView.gallery = function() {
@@ -45,37 +45,32 @@
       e.preventDefault();
       $('.morphology-main').empty();
       $('.morphology-main').append($(this).find('.toappend').clone().attr('controls', '').attr('autoplay',''));
-      $('.morphology-main').append($(this).find('.caption').clone());
+      $('.morphology-main').append($(this).find('.caption-container').clone());
       $(this).parents().find('.active').removeClass('active');
       $(this).addClass('active');
     });
   };
+  // var $carousel = $('.carousel').flickity();
 
   cellLineProfileView.makeGallery = function(cellLine){
     $('.morphology-main').empty();
     $('#gallery-thumbnails').empty();
-
-    if (cellLine.Main_media[0].type === "movie") {
-      console.log('movie', cellLine.Main_media[0]);
-      $('.morphology-main').append(cellLine.nestedToHtml($('#gallery-main-movie-template'), cellLine.Main_media[0]))
+    if (cellLine.Main_media[0].type === 'movie') {
+      $('.morphology-main').append(cellLine.nestedToHtml($('#gallery-main-movie-template'), cellLine.Main_media[0]));
     }
-    else if (cellLine.Main_media[0].type ==="image") {
-      console.log('image', cellLine.Main_media[0]);
-      $('.morphology-main').append(cellLine.nestedToHtml($('#gallery-main-image-template'), cellLine.Main_media[0]))
-
+    else if (cellLine.Main_media[0].type ==='image') {
+      $('.morphology-main').append(cellLine.nestedToHtml($('#gallery-main-image-template'),cellLine.Main_media[0]));
     }
+
     cellLine.Main_media.forEach(function(a){
-      if (a.type === "movie") {
-        console.log('movie', a);
-        $('#gallery-thumbnails').append(cellLine.nestedToHtml($('#movie-thumbnail-template'), a))
+      if (a.type === 'movie') {
+        $('#gallery-thumbnails').append(cellLine.nestedToHtml($('#movie-thumbnail-template'), a));
       }
-      else if (a.type ==="image") {
-        console.log('image', a);
-        $('#gallery-thumbnails').append(cellLine.nestedToHtml($('#image-thumbnail-template'), a))
-
+      else if (a.type ==='image') {
+        $('#gallery-thumbnails').append(cellLine.nestedToHtml($('#image-thumbnail-template'), a));
       }
-    })
-  }
+    });
+  };
 
 
 
