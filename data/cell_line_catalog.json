@@ -228,7 +228,12 @@
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped (DCI, Inc., Seattle WA).",
     "StemCellCharacterization_trilineage": "StemCellCharacterization_trilineage.csv",
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Cells were stained for markers of Ectoderm, Endoderm, and Mesoderm lineages using directly conjugated antibodies from BD Bioscience. Gating was based on isotype controls.",
-    "StemCellCharacterization_differentiation": "StemCellCharacterization_differentiation.csv",
+    "StemCellCharacterization_differentiation":
+
+          {
+            "Day_of_beating": "d7",
+            "percent_positive_cells": 95.7
+          },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0012/StemCellCharacterization_rnaseq_fig.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. TUBA1B-mEGFP samples are from two independent clones.",
@@ -278,12 +283,6 @@
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
     "Main_media":[],
-    "Main_cell_line_morphology": "image",
-    "Main_cell_line_morphology_caption": "",
-    "Main_cell_line_movie1": "",
-    "Main_cell_line_movie1_caption": "",
-    "Main_cell_line_movie2": "",
-    "Main_cell_line_movie2_caption": "",
     "EditingDesign_crRNA_seq": "GATGCACTCACGCTGCGGGA",
     "EditingDesign_cas9": "Wildtype spCas9",
     "EditingDesign_NCBI_isoform": "",

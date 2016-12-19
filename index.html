@@ -516,22 +516,23 @@
               <h4>Cardiomyocyte Differentiation</h4>
             </div>
             <div class="panel-body">
-              <table class="table table-striped">
+              <table class="table">
                 <thead>
                   <tr>
-                    <th></th>
-                    <th></th>
+                    <th>Day of beating</th>
+                    <th>Troponin T, ~day 20, % positive cells</th>
                   </tr>
                 </thead>
-                <tbody>
+                <tbody id="differentiation-table">
                   <tr>
-                    <td>Day of Beating</td>
-                    <td>8</td>lg
-2                </tr>
-                  <tr>
-                    <td>Troponin T %</td>
-                    <td>90</td>
+                    {{#with StemCellCharacterization_differentiation}}
+
+                    <td class="tex-left">{{Day_of_beating}}</td>
+                    <td class="tex-left">{{percent_positive_cells}}</td>
+                    {{/with}}
+
                   </tr>
+
                 </tbody>
 
               </table>
@@ -556,8 +557,8 @@
           {{positiveCells}}
         </td>
       </tr>
-
-
+    </script>
+    <script id="differentiation-template" type="text/x-handlebars-template">
 
     </script>
 

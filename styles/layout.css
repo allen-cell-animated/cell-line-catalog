@@ -37,14 +37,12 @@
 .heading-group-h1 {
   max-width: 80%;
 }
-
+/*
 .site-logo::before{
-  b
-
-}
+}*/
 
 .logo{
-    background-image: url('/images/logo_CS_header.png')  ;
+    background-image: url('/images/logo_CS_header.png');
     content: '';
     vertical-align: middle;
     display: inline-block;
@@ -63,6 +61,7 @@
 
 .thumbnail{
 }
+
 .thirtypercent .morphology-thumbnail.active{
   opacity: 0.7;
 }
