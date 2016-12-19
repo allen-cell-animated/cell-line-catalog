@@ -230,9 +230,10 @@
                 <li class="list-group-item">
                   <span class="profile-summary-key">crRNA:</span>
                   <span>{{EditingDesign_crRNA_seq}}</span></li>
-                <li class="list-group-item">
+                  <!-- UNHIDE LATER -->
+                <!-- <li class="list-group-item">
                   <span class="profile-summary-key">Donor plasmid sequence:</span>
-                  <span>{{Main_plasmid_sequence}}</span></li>
+                  <span>{{Main_plasmid_sequence}}</span></li> -->
                 <li class="list-group-item">
                   <span class="profile-summary-key">Cas9:</span>
                   <span>{{EditingDesign_cas9}}</span></li>
@@ -341,6 +342,21 @@
             </div>
             <div class="panel-footer">
               <p>{{GenomicCharacterization_offtargets_caption}}</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4>Karyotype Analysis</h4>
+            </div>
+            <div class="panel-body">
+              <div class="center-block image-scale">
+                <img class="" src="{{StemCellCharacterization_karyotype}}" alt="" />
+              </div>
+            </div>
+            <div class="panel-footer">
+              <div class="caption">{{StemCellCharacterization_karyotype_caption}}</div>
             </div>
           </div>
         </div>
@@ -493,21 +509,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-6">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h4>Karyotype Analysis</h4>
-            </div>
-            <div class="panel-body">
-              <div class="center-block image-scale">
-                <img class="" src="{{StemCellCharacterization_karyotype}}" alt="" />
-              </div>
-            </div>
-            <div class="panel-footer">
-              <div class="caption">{{StemCellCharacterization_karyotype_caption}}</div>
-            </div>
-          </div>
-        </div>
+
         <div class="col-sm-6">
           <div class="panel panel-primary">
             <div class="panel-heading">
