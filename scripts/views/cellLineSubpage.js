@@ -56,21 +56,17 @@
     $('#gallery-thumbnails').empty();
 
     if (cellLine.Main_media[0].type === 'movie') {
-      console.log('movie', cellLine.Main_media[0]);
       $('.morphology-main').append(cellLine.nestedToHtml($('#gallery-main-movie-template'), cellLine.Main_media[0]));
     }
     else if (cellLine.Main_media[0].type ==='image') {
-      console.log('image', cellLine.Main_media[0]);
       $('.morphology-main').append(cellLine.nestedToHtml($('#gallery-main-image-template'), cellLine.Main_media[0]));
 
     }
     cellLine.Main_media.forEach(function(a){
       if (a.type === 'movie') {
-        console.log('movie', a);
         $('#gallery-thumbnails').append(cellLine.nestedToHtml($('#movie-thumbnail-template'), a));
       }
       else if (a.type ==='image') {
-        console.log('image', a);
         $('#gallery-thumbnails').append(cellLine.nestedToHtml($('#image-thumbnail-template'), a));
 
       }
@@ -97,11 +93,19 @@
           $('#off-target-table').append(cellLine.nestedToHtml($('#offTargets-template'), a ));
         });
       }
+
+
       $('#validation').append(cellLine.toHtml($('#validation-template')));
       $('#stemcellcharacteristics').append(cellLine.toHtml($('#stemcellcharacteristics-template')));
       if (typeof(cellLine['StemCellCharacterization_pluripotency_analysis'])!=='string') {
         cellLine['StemCellCharacterization_pluripotency_analysis'].forEach(function(a){
           $('#pluripotent-table-body').append(cellLine.nestedToHtml($('#pluripotent-template'), a ));
+        });
+      }
+      if (typeof(cellLine['StemCellCharacterization_trilineage']) !=='string') {
+        cellLine['StemCellCharacterization_trilineage'].forEach(function(a){
+          console.log(cellLine.nestedToHtml($('#trilineage-template'), a ));
+          $('#trilineage-table-body').append(cellLine.nestedToHtml($('#trilineage-template'), a ));
         });
       }
       $('#supplementaryinformation').append(cellLine.toHtml($('#supplementaryinformation-template')));
