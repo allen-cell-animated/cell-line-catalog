@@ -92,7 +92,7 @@
                 <li class="list-group-item"><span class="profile-summary-key">mRNA:</span> <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id}}">{{Main_mrna_id}}</a></span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Fluorophore:</span> <span class="profile-summary-value">{{Main_fluorescent_tag}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Linker:</span><span class="profile-summary-value"> {{Main_linker}}</span></li>
-                <li class="list-group-item"><span class="profile-summary-key">Plasmid Sequence:</span><span class="profile-summary-value">{{Main_plasmid_sequence}}</span></li>
+                <!-- <li class="list-group-item"><span class="profile-summary-key">Plasmid Sequence:</span><span class="profile-summary-value">{{Main_plasmid_sequence}}</span></li> -->
               </ul>
             <div class="row">
               <div class="col-md-12">
@@ -112,51 +112,6 @@
 
         </div>
       </div>
-      <!-- <div class="col-md-8 displayoff morphology-images"> -->
-        <!-- <div class="panel panel-primary"> -->
-          <!-- <div class="morphology-main">
-            <video  class="toappend" width="100%" autoplay controls >
-              <source src="{{Main_cell_line_movie2}}" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <small class="caption">{{Main_cell_line_movie1_caption}}</small>
-
-          </div> -->
-          <!-- <div class="panel-footer clearfix">
-            <div class=""> -->
-              <!-- <div class="thirtypercent thumbnails">
-                <div class="morphology-thumbnail">
-                  <a href="#" >
-                    <video  class="toappend" width="100%"  >
-                      <source src="{{Main_cell_line_movie2}}" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>                  </a>
-                  <small class="caption">{{Main_cell_line_movie1_caption}}</small>
-                </div>
-              </div> -->
-              <!-- <div class="thirtypercent thumbnails">
-                <div class="morphology-thumbnail">
-                  <a href="#">
-                    <video class="toappend" width="100%"  >
-                      <source src="{{Main_cell_line_movie1}}" type="video/mp4">
-                          Your browser does not support the video tag.
-                    </video>
-                  </a>
-                  <small class="caption">{{Main_cell_line_movie2_caption}}</small>
-                </div>
-              </div> -->
-              <!-- <div class="thirtypercent thumbnails">
-                <div class="morphology-thumbnail">
-                  <a href="#" >
-                    <img class="toappend" src="{{Main_cell_line_morphology}}" alt="" />
-                  </a>
-                  <small class="caption">{{Main_cell_line_morphology_caption}}</small>
-                </div>
-              </div> -->
-          <!-- </div>
-        </div>
-      </div>
-    </div> -->
       <div id="images-not-available" class="displayoff col-md-8">
         <header class="text-primary">
           <h4> Images of cell line {{cell_line_id}} will be available January 11th, 2017.
@@ -230,9 +185,10 @@
                 <li class="list-group-item">
                   <span class="profile-summary-key">crRNA:</span>
                   <span>{{EditingDesign_crRNA_seq}}</span></li>
-                <li class="list-group-item">
+                  <!-- UNHIDE LATER -->
+                <!-- <li class="list-group-item">
                   <span class="profile-summary-key">Donor plasmid sequence:</span>
-                  <span>{{Main_plasmid_sequence}}</span></li>
+                  <span>{{Main_plasmid_sequence}}</span></li> -->
                 <li class="list-group-item">
                   <span class="profile-summary-key">Cas9:</span>
                   <span>{{EditingDesign_cas9}}</span></li>
@@ -344,6 +300,21 @@
             </div>
           </div>
         </div>
+        <div class="col-sm-6">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4>Karyotype Analysis</h4>
+            </div>
+            <div class="panel-body">
+              <div class="center-block image-scale">
+                <img class="" src="{{StemCellCharacterization_karyotype}}" alt="" />
+              </div>
+            </div>
+            <div class="panel-footer">
+              <div class="caption">{{StemCellCharacterization_karyotype_caption}}</div>
+            </div>
+          </div>
+        </div>
       </div>
 
     </script>
@@ -425,60 +396,6 @@
                     </tr>
                   </thead>
                   <tbody id="pluripotent-table-body">
-                    <!-- <tr> -->
-                      <!-- <td rowspan="3">
-                        Transcription factors
-                      </td>
-                      <td class="text-center">
-                        NANOG
-                      </td>
-                      <td class="text-center">
-                        98
-                      </td>
-                    </tr>
-                    <tr class="text-center">
-                      <td >
-                        SOX2
-                      </td>
-                      <td >
-                        99
-                      </td>
-                    </tr>
-                    <tr class="text-center">
-                      <td>
-                        OCT4
-                      </td>
-                      <td>
-                        96
-                      </td>
-                    </tr>
-                    <tr>
-                      <td rowspan="3">
-                        Cell surface markers
-                      </td>
-                      <td class="text-center">
-                        SSEA-1
-                      </td>
-                      <td class="text-center">
-                        3
-                      </td>
-                    </tr>
-                    <tr class="text-center">
-                      <td>
-                        SSEA-3
-                      </td>
-                      <td >
-                        95
-                      </td>
-                    </tr>
-                    <tr class="text-center">
-                      <td>
-                        TRA-160, TRA-161
-                      </td>
-                      <td>
-                        96
-                      </td>
-                    </tr> -->
                   </tbody>
                 </table>
               </div>
@@ -493,45 +410,28 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-6">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h4>Karyotype Analysis</h4>
-            </div>
-            <div class="panel-body">
-              <div class="center-block image-scale">
-                <img class="" src="{{StemCellCharacterization_karyotype}}" alt="" />
-              </div>
-            </div>
-            <div class="panel-footer">
-              <div class="caption">{{StemCellCharacterization_karyotype_caption}}</div>
-            </div>
-          </div>
-        </div>
+
         <div class="col-sm-6">
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h4>Cardiomyocyte Differentiation</h4>
             </div>
             <div class="panel-body">
-              <table class="table table-striped">
+              <table class="table">
                 <thead>
                   <tr>
-                    <th></th>
-                    <th></th>
+                    <th>Day of beating</th>
+                    <th>Troponin T, ~day 20, % positive cells</th>
                   </tr>
                 </thead>
-                <tbody>
+                <tbody id="differentiation-table">
                   <tr>
-                    <td>Day of Beating</td>
-                    <td>8</td>lg
-2                </tr>
-                  <tr>
-                    <td>Troponin T %</td>
-                    <td>90</td>
+                    {{#with StemCellCharacterization_differentiation}}
+                    <td class="tex-left">{{Day_of_beating}}</td>
+                    <td class="tex-left">{{percent_positive_cells}}</td>
+                    {{/with}}
                   </tr>
                 </tbody>
-
               </table>
             </div>
             <div class="panel-footer">
@@ -554,9 +454,6 @@
           {{positiveCells}}
         </td>
       </tr>
-
-
-
     </script>
 
     <!-- supplementaryinformation template --------------->
@@ -568,7 +465,6 @@
               <h4>Acknowledgements</h4>
             </div>
             <div class="">
-
             </div>
           </div>
         </div>
@@ -656,18 +552,13 @@
           </div>
         </section>
       </nav>
-      <div id="cell-collection-banner" class="bg-info text-center site-header clearfix col-md-12 displayoff">
-            <h2 class="text-info  text-white">Allen Cell Collection</h2>
+      <div id="cell-collection-banner" class=" text-center site-header clearfix col-md-12 displayoff">
+            <h2 >Allen Cell Collection</h2>
             <p class="text-success">
               Preview-release: Full database available January 11, 2017
             </p>
-
       </div>
-
     </header>
-
-
-
     <main class="">
 
       <section id="main" class="tab-section active">
@@ -855,7 +746,8 @@
       </section>
     </main>
     <footer>
-      &copy; 2016 Allen Institute
+      <h4>Allen Institute for Cell Science</h4>
+      <p>&copy; 2016 Allen Institute</p>
     </footer>
     <!-- Vendor Files -->
     <script src="/vendor/scripts/jquery-2.1.4.js"></script>

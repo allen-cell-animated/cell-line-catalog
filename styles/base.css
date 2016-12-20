@@ -46,3 +46,11 @@ address {
 option  {
   color: red !important;
 }
+
+.text-white{
+    color: white;
+}
+
+.errors{
+  color:red;
+}
