@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/styles/base.css">
     <link rel="stylesheet" href="/styles/layout.css">
     <link rel="stylesheet" href="/styles/modules.css">
+    <link rel="stylesheet" href="/bower_components/flickity/dist/flickity.css" media="screen">
 
     <!-- Allen Institute favicon -->
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
@@ -32,6 +33,15 @@
             </div>
             <div class="col-sm-5">
               <span>{{Main_gene_name}}</span>
+            </div>
+        </div>
+        <div class="form-group">
+          <label for="Main_protein" class="col-sm-2">Protein</label>
+            <div class="col-sm-5">
+              <input type="text" class="form-control" id="Main_protein" placeholder="Protein" value="{{Main_protein}}">
+            </div>
+            <div class="col-sm-5">
+              <span>{{Main_protein}}</span>
             </div>
         </div>
         <div class="form-group">
@@ -95,6 +105,24 @@
           </div>
           <div class="col-sm-5">
             <span>{{Main_linker}}</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="Main_order_link" class="col-sm-2">Main Order Link</label>
+            <div class="col-sm-5">
+            <input type="text" class="form-control" id="Main_order_link" placeholder="Linker" value="{{Main_order_link}}">
+          </div>
+          <div class="col-sm-5">
+            <span>{{Main_order_link}}</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="Main_parental_order_link" class="col-sm-2">Parental order link</label>
+            <div class="col-sm-5">
+            <input type="text" class="form-control" id="Main_parental_order_link" placeholder="Linker" value="{{Main_parental_order_link}}">
+          </div>
+          <div class="col-sm-5">
+            <span>{{Main_parental_order_link}}</span>
           </div>
         </div>
         <div class="form-group">
@@ -162,21 +190,12 @@
           </div>
         </div>
         <div class="form-group">
-          <label for="EditingDesign_p14_fpkm" class="col-sm-2">p14 fpkm</label>
+          <label for="EditingDesign_gene_figure_caption" class="col-sm-2">Gene figure caption</label>
             <div class="col-sm-5">
-            <input type="text" class="form-control" id="EditingDesign_p14_fpkm" placeholder="p14 fpkm" value="{{EditingDesign_p14_fpkm}}">
+            <input type="text" class="form-control" id="EditingDesign_gene_figure_caption" placeholder="Gene figure caption}" value="{{EditingDesign_gene_figure_caption}}">
           </div>
           <div class="col-sm-5">
-            <span>{{EditingDesign_p14_fpkm}}</span>
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="EditingDesign_p18_fpkm" class="col-sm-2">p18 fpkm</label>
-            <div class="col-sm-5">
-            <input type="text" class="form-control" id="EditingDesign_p18_fpkm" placeholder="p18 fpkm" value="{{EditingDesign_p18_fpkm}}">
-          </div>
-          <div class="col-sm-5">
-            <span>{{EditingDesign_p18_fpkm}}</span>
+            <span>{{EditingDesign_gene_figure_caption}}</span>
           </div>
         </div>
         <div class="form-group">
@@ -355,11 +374,13 @@
       firebase.initializeApp(config);
     </script>
     <!-- Vendor Files -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+    <script src="/vendor/scripts/jquery-2.1.4.js"></script>
+    <script src="/vendor/scripts/page.js"></script>
     <script src="/vendor/scripts/marked.js"></script>
     <script src="/vendor/scripts/handlebars.js"></script>
     <script src="/vendor/scripts/highlight.pack.js"></script>
+    <script src="/bower_components/flickity/dist/flickity.pkgd.min.js"></script>
+
     <!-- Model Files -->
     <script src="/scripts/models/cellLine.js"></script>
     <script src="/scripts/models/cellLineFB.js"></script>
@@ -367,6 +388,10 @@
 
     <!-- View Files -->
     <script src="/scripts/views/newCellLineView.js"></script>
+
+    <!-- Controller Files -->
+    <script src="/scripts/controllers/celllineController.js"></script>
+    <script src="/scripts/controllers/routes.js"></script>
 
    </body>
 </html>
