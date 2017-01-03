@@ -136,7 +136,7 @@
   };
 
   newCellLine.create = function() {
-    var text_ids = $('#write input[type=text]').map(function() {
+    var text_ids = $('#write .form-control[type=text]').map(function() {
       return this.id;
     }).get();
     var image_ids = $('#write .image').map(function() {

@@ -36,6 +36,15 @@
             </div>
         </div>
         <div class="form-group">
+          <label for="status" class="col-sm-2">Is the cell line available?</label>
+            <div class="col-sm-5">
+              <input type="text" class="form-control" id="status" placeholder="Yes or No" value="{{status}}">
+            </div>
+            <div class="col-sm-5">
+              <span>{{status}}</span>
+            </div>
+        </div>
+        <div class="form-group">
           <label for="Main_protein" class="col-sm-2">Protein</label>
             <div class="col-sm-5">
               <input type="text" class="form-control" id="Main_protein" placeholder="Protein" value="{{Main_protein}}">
@@ -182,7 +191,7 @@
         <div class="form-group">
           <label for="EditingDesign_gene_figure" class="col-sm-2">Gene figure</label>
             <div class="col-sm-5">
-            <input type="file" class="form-control image" id="EditingDesign_gene_figure" placeholder="Gene figure" >
+              <input type="file" class="form-control image" id="EditingDesign_gene_figure" placeholder="Gene figure" >
           </div>
           <div class="col-sm-5">
             <img src="{{EditingDesign_gene_figure_url}}">
@@ -192,7 +201,7 @@
         <div class="form-group">
           <label for="EditingDesign_gene_figure_caption" class="col-sm-2">Gene figure caption</label>
             <div class="col-sm-5">
-            <input type="text" class="form-control" id="EditingDesign_gene_figure_caption" placeholder="Gene figure caption}" value="{{EditingDesign_gene_figure_caption}}">
+              <textarea type="text" class="form-control" id="EditingDesign_gene_figure_caption" placeholder="{{EditingDesign_gene_figure_caption}}" value="{{EditingDesign_gene_figure_caption}}" rows="3"></textarea>
           </div>
           <div class="col-sm-5">
             <span>{{EditingDesign_gene_figure_caption}}</span>
@@ -390,8 +399,6 @@
     <script src="/scripts/views/newCellLineView.js"></script>
 
     <!-- Controller Files -->
-    <script src="/scripts/controllers/celllineController.js"></script>
-    <script src="/scripts/controllers/routes.js"></script>
 
    </body>
 </html>
