@@ -38,10 +38,46 @@
         <div class="form-group">
           <label for="status" class="col-sm-2">Is the cell line available?</label>
             <div class="col-sm-5">
-              <input type="text" class="form-control" id="status" placeholder="Yes or No" value="{{status}}">
+              <input type="text" class="form-control" id="status" placeholder="Yes or current status" value="{{status}}">
             </div>
             <div class="col-sm-5">
               <span>{{status}}</span>
+            </div>
+        </div>
+        <div class="form-group">
+          <label for="status" class="col-sm-2">Data status</label>
+            <div class="col-sm-5">
+              <div class="checkbox">
+                <label>
+                  <input class="subpage-status" type="checkbox" id="editingdesign">Editing Design Complete
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input class="subpage-status" type="checkbox" id="genomiccharacterizations">Genomic Characterization Complete
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input class="subpage-status" type="checkbox" id="validation">Validation Complete
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input class="subpage-status" type="checkbox" id="stemcellcharacteristics">Stem cell characteristics Complete
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input class="subpage-status" type="checkbox" id="supplementaryinformation">Supplementary information Complete
+                </label>
+              </div>
+
+            </div>
+            <div class="col-sm-5">
+              {{#each subpaged_status}}
+                <span>{{this.id}} : {{this.done}}</span>
+                {{/each}}
             </div>
         </div>
         <div class="form-group">

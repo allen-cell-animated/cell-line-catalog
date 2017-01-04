@@ -85,6 +85,13 @@
       var exsitingCellLine = new CellLine(snapshot.val());
       console.log(exsitingCellLine);
       $('.entries').append(exsitingCellLine.toHtml($('#new-cellline-template')));
+      exsitingCellLine['subpaged_status'].forEach(function(ele){
+        if (ele.done === 'true') {
+          $('#' + ele.id).prop('checked', true);
+        }
+        else {
+        }
+      });
     });
   };
 
@@ -142,7 +149,9 @@
     var image_ids = $('#write .image').map(function() {
       return this.id;
     }).get();
+    var subpage_status = $('input[type=checkbox].subpage-status').map(function(){obj= {done: this.checked, id: this.id}; return obj;}).get();
     var cellLineEntry = new CellLine();
+    cellLineEntry['subpaged_status'] = subpage_status;
     text_ids.forEach(function(id){
       cellLineEntry[id] = $('#' + id).val();
     });
