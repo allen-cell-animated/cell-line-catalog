@@ -75,9 +75,11 @@
 
             </div>
             <div class="col-sm-5">
+              <ul>
               {{#each subpaged_status}}
-                <span>{{this.id}} : {{this.done}}</span>
+                <li>{{this.id}} : {{this.done}}</li>
                 {{/each}}
+              </ul>
             </div>
         </div>
         <div class="form-group">
