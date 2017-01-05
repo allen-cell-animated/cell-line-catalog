@@ -153,8 +153,6 @@
     "EditingDesign_NCBI_isoform": "NM_006082.2",
     "EditingDesign_gene_figure": "/images/AICS-0012/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: TUBA1B locus; Bottom: Zoom in on mEGFP insertion site at TUBA1B N-terminus",
-    "EditingDesign_p14_fpkm": "",
-    "EditingDesign_p18_fpkm": "",
     "EditingDesign_expression_figure": "",
     "GenomicCharacterization_junction_schematic": "/images/AICS-0012/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_junction_schematic_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
