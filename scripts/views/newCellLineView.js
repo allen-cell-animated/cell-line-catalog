@@ -2,6 +2,7 @@
 
   var newCellLine = {};
   newCellLine.currentID;
+  newCellLine.currentCellLine;
   newCellLine.allAttributes = [
     'cell_line_id',
     'Main_gene_symbol',
@@ -82,10 +83,10 @@
 
   newCellLine.read = function(key) {
     return firebase.database().ref('/celllinesdata/' + key).once('value').then(function(snapshot) {
-      var exsitingCellLine = new CellLine(snapshot.val());
-      console.log(exsitingCellLine);
-      $('.entries').append(exsitingCellLine.toHtml($('#new-cellline-template')));
-      exsitingCellLine['subpaged_status'].forEach(function(ele){
+      newCellLine.currentCellLine = new CellLine(snapshot.val());
+      console.log(newCellLine.currentCellLine);
+      $('.entries').append(newCellLine.currentCellLine.toHtml($('#new-cellline-template')));
+      newCellLine.currentCellLine['subpaged_status'].forEach(function(ele){
         if (ele.done === 'true') {
           $('#' + ele.id).prop('checked', true);
         }
@@ -150,12 +151,12 @@
       return this.id;
     }).get();
     var subpage_status = $('input[type=checkbox].subpage-status').map(function(){obj= {done: this.checked, id: this.id}; return obj;}).get();
-    var cellLineEntry = new CellLine();
-    cellLineEntry['subpaged_status'] = subpage_status;
+
+    newCellLine.currentCellLine['subpaged_status'] = subpage_status;
     text_ids.forEach(function(id){
-      cellLineEntry[id] = $('#' + id).val();
+      newCellLine.currentCellLine[id] = $('#' + id).val();
     });
-    return cellLineEntry;
+    return newCellLine.currentCellLine;
   };
 
   newCellLine.initnewCellLinePage();
