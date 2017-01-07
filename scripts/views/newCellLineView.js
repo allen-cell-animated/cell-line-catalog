@@ -2,6 +2,7 @@
 
   var newCellLine = {};
   newCellLine.currentID;
+  newCellLine.currentCellLine;
   newCellLine.allAttributes = [
     'cell_line_id',
     'Main_gene_symbol',
@@ -30,6 +31,7 @@
 
   newCellLine.initnewCellLinePage = function() {
     newCellLine.uploadImages();
+    newCellLine.uploadMedia();
     newCellLine.submitLine();
     newCellLine.uploadTables();
     $('#cell_line_id').show();
@@ -63,6 +65,13 @@
     });
   };
 
+  newCellLine.addmedia = function(){
+    $('#add-media').on('click', function(event){
+      event.preventDefault();
+      $('#media-holder').append(newCellLine.currentCellLine.toHtml($('#new-media-template')));
+    });
+  }
+
   newCellLine.resetform = function(celllineid) {
     console.log('setting form new cell line', celllineid);
     $('.entries').children().remove();
@@ -82,17 +91,20 @@
 
   newCellLine.read = function(key) {
     return firebase.database().ref('/celllinesdata/' + key).once('value').then(function(snapshot) {
-      var exsitingCellLine = new CellLine(snapshot.val());
-      console.log(exsitingCellLine);
-      $('.entries').append(exsitingCellLine.toHtml($('#new-cellline-template')));
-      exsitingCellLine['subpaged_status'].forEach(function(ele){
-        if (ele.done === 'true') {
-          $('#' + ele.id).prop('checked', true);
-        }
-        else {
-        }
-      });
+      newCellLine.currentCellLine = new CellLine(snapshot.val());
+      console.log(newCellLine.currentCellLine);
+      $('.entries').append(newCellLine.currentCellLine.toHtml($('#new-cellline-template')));
+      newCellLine.addmedia();
+      if (newCellLine.currentCellLine['subpaged_status']) {
+        newCellLine.currentCellLine['subpaged_status'].forEach(function(ele){
+          if (ele.done === true || ele.done === 'true') {
+            console.log(ele.id);
+            $('#' + ele.id).prop('checked', true);
+          }
+        });
+      }
     });
+
   };
 
   newCellLine.submitLine = function() {
@@ -114,20 +126,41 @@
     $('#write').on('change', '.image', function(event) {
       var cellLineID = $('#cell_line_id').val();
       var file = this.files[0];
-      var id = this.id;
+      var id = this.id.split('_upload')[0];
       var metadata = {
         contentType: 'image'
       };
       console.log('Stored ' + cellLineID + '/' + this.id + '/' + file.name);
       var uploadTask = firebaseLocal.storageRef.child('images/' +
-      cellLineID + '/' + this.id + '/' +file.name).put(file, metadata);
-
+      cellLineID + '/' + id + '/' +file.name).put(file, metadata);
       uploadTask.on(firebase.storage.TaskEvent.STATE_CHANGED, // or 'state_changed'
       function(snapshot) {
         refKey = CellLine.allCellLinesFB[cellLineID];
         var updates = {};
-        updates[id+'_url'] = uploadTask.snapshot.downloadURL;
         console.log(uploadTask.snapshot.downloadURL);
+        return firebase.database().ref().child('/celllinesdata/' + refKey).update(updates);
+      });
+    });
+  };
+
+  newCellLine.uploadMedia = function() {
+    $('#write').on('change', '.media', function(event) {
+      var cellLineID = $('#cell_line_id').val();
+      var file = this.files[0];
+      var id = this.id.split('_upload')[0];
+      var metadata = {
+        contentType: 'image'
+      };
+      var $urlField = $(this).parent().find('.media_url');
+      console.log($urlField);
+      console.log('Stored ' + cellLineID + '/' + id + '/' + file.name);
+      var uploadTask = firebaseLocal.storageRef.child('images/' +
+      cellLineID + '/' + id + '/' +file.name).put(file, metadata);
+      uploadTask.on(firebase.storage.TaskEvent.STATE_CHANGED, // or 'state_changed'
+      function(snapshot) {
+        refKey = CellLine.allCellLinesFB[cellLineID];
+        var updates = {};
+        $urlField.val(uploadTask.snapshot.downloadURL);
         return firebase.database().ref().child('/celllinesdata/' + refKey).update(updates);
       });
     });
@@ -143,19 +176,18 @@
   };
 
   newCellLine.create = function() {
-    var text_ids = $('#write .form-control[type=text]').map(function() {
+    var text_ids = $('#write .flat[type=text]').map(function() {
       return this.id;
     }).get();
     var image_ids = $('#write .image').map(function() {
       return this.id;
     }).get();
     var subpage_status = $('input[type=checkbox].subpage-status').map(function(){obj= {done: this.checked, id: this.id}; return obj;}).get();
-    var cellLineEntry = new CellLine();
-    cellLineEntry['subpaged_status'] = subpage_status;
+    newCellLine.currentCellLine['subpaged_status'] = subpage_status;
     text_ids.forEach(function(id){
-      cellLineEntry[id] = $('#' + id).val();
+      newCellLine.currentCellLine[id] = $('#' + id).val();
     });
-    return cellLineEntry;
+    return newCellLine.currentCellLine;
   };
 
   newCellLine.initnewCellLinePage();
