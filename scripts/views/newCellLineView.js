@@ -65,6 +65,13 @@
     });
   };
 
+  newCellLine.addmedia = function(){
+    $('#add-media').on('click', function(event){
+      event.preventDefault();
+      $('#media-holder').append(newCellLine.currentCellLine.toHtml($('#new-media-template')));
+    });
+  }
+
   newCellLine.resetform = function(celllineid) {
     console.log('setting form new cell line', celllineid);
     $('.entries').children().remove();
@@ -87,14 +94,15 @@
       newCellLine.currentCellLine = new CellLine(snapshot.val());
       console.log(newCellLine.currentCellLine);
       $('.entries').append(newCellLine.currentCellLine.toHtml($('#new-cellline-template')));
-      newCellLine.currentCellLine['subpaged_status'].forEach(function(ele){
-        if (ele.done === true || ele.done === 'true') {
-          console.log(ele.id);
-          $('#' + ele.id).prop('checked', true);
-        }
-        else {
-        }
-      });
+      newCellLine.addmedia();
+      if (newCellLine.currentCellLine['subpaged_status']) {
+        newCellLine.currentCellLine['subpaged_status'].forEach(function(ele){
+          if (ele.done === true || ele.done === 'true') {
+            console.log(ele.id);
+            $('#' + ele.id).prop('checked', true);
+          }
+        });
+      }
     });
 
   };
@@ -168,7 +176,7 @@
   };
 
   newCellLine.create = function() {
-    var text_ids = $('#write .form-control[type=text]').map(function() {
+    var text_ids = $('#write .flat[type=text]').map(function() {
       return this.id;
     }).get();
     var image_ids = $('#write .image').map(function() {
