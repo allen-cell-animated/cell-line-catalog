@@ -43,6 +43,7 @@
   cellLineProfileView.gallery = function() {
     $('#gallery-thumbnails').on('click', '.morphology-thumbnail', function(e) {
       e.preventDefault();
+      e.stopPropagation();
       $('.morphology-main').empty();
       $('.morphology-main').append($(this).find('.toappend').clone().attr('controls', '').attr('autoplay',''));
       $('.morphology-main').append($(this).find('.caption-container').clone());
@@ -104,7 +105,6 @@
       }
       if (typeof(cellLine['StemCellCharacterization_trilineage']) !=='string') {
         cellLine['StemCellCharacterization_trilineage'].forEach(function(a){
-          console.log(cellLine.nestedToHtml($('#trilineage-template'), a ));
           $('#trilineage-table-body').append(cellLine.nestedToHtml($('#trilineage-template'), a ));
         });
       }
