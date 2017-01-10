@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Marker_type,Marker,% positive cells
+=======
+Marker_type,Marker,percent_positive_cells
+>>>>>>> f94ae7b220800eeaa54fb46cc904765c1e23e659
 Ectoderm,PAX6,77.6
 Endoderm,SOX17,57.1
 Mesoderm,Brachyury,91.1
