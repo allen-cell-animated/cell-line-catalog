@@ -1,4 +1,4 @@
-(function(module){
+e(function(module){
 
   var newCellLine = {};
   newCellLine.currentID;

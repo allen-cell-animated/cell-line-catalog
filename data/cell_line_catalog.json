@@ -4,23 +4,23 @@
     "status": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
-        "done": "false"
+        "done": "true"
       },
       {
         "id":"genomiccharacterizations",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "supplementaryinformation",
-        "done": "false"
+        "done": "true"
       }
     ],
     "Main_data_available": "11-Jan-17",
@@ -358,23 +358,23 @@
     "status": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
-        "done": "false"
+        "done": "true"
       },
       {
         "id":"genomiccharacterizations",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "supplementaryinformation",
-        "done": "false"
+        "done": "true"
       }
     ],
     "Main_data_available": "11-Jan-17",
@@ -507,23 +507,23 @@
     "status": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
-        "done": "false"
+        "done": "true"
       },
       {
         "id":"genomiccharacterizations",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "supplementaryinformation",
-        "done": "false"
+        "done": "true"
       }
     ],
     "Main_data_available": "11-Jan-17",
@@ -566,11 +566,6 @@
         "file_name": "Lamin B1 cl210 12HR 20X_scalePt75_10fps.mov",
         "caption": "Timelapse movie of a hiPSC colony expressing LaminB1-mEGFP. Images taken in 3D every 3 minutes for 12 hours on a spinning-disk confocal microscope. Image is a maximum intensity projection. Movie sped up 1800x over real time.",
         "link": "https://player.vimeo.com/video/198393326"
-      },
-      {
-        "type":"movie",
-        "link":"/images/AICS-0013/Main_cell_line_movie2.mp4",
-        "caption":"Timelapse movie of a hiPSC colony expressing LaminB1-mEGFP. Images taken in 3D every 3 minutes for 12 hours on a spinning-disk confocal microscope. Image is a maximum intensity projection. Movie sped up 1800x over real time."
       },
       {
         "cell_line_id": "AICS-0013",
@@ -766,23 +761,23 @@
     "Main_data_available": "11-Jan-17",
     "subpaged_status": [
       { "id": "editingdesign",
-        "done": "false"
+        "done": "true"
       },
       {
         "id":"genomiccharacterizations",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "supplementaryinformation",
-        "done": "false"
+        "done": "true"
       }
     ],
     "Main_parent_line": "WTC",
