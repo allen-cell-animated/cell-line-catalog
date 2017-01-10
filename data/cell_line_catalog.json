@@ -23,7 +23,7 @@
         "done": "true"
       }
     ],
-    "Main_data_available": "11-Jan-17",
+    "Main_data_available": "January 11, 2017",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "PXN",
     "Main_gene_name": "Paxillin",
@@ -114,7 +114,7 @@
                     "positiveCells": 97.4
                   },
                   {
-                    "Marker": "OCT-3/4",
+                    "Marker": "OCT4",
                     "positiveCells": 97.4
                   },
                   {
@@ -246,7 +246,7 @@
     "EditingDesign_gene_figure": "/images/AICS-0012/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: TUBA1B locus; Bottom: Zoom in on mEGFP insertion site at TUBA1B N-terminus",
     "EditingDesign_expression_figure": "",
-    "GenomicCharacterization_junction_schematic": "/images/AICS-0012/GenomicCharacterization_junction_schematic.png",
+    "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_junction_schematic_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "GenomicCharacterization_sequences_link": "/data/pdfs/AICS-012/GenomicCharacterization_sequences_link.fasta",
     "GenomicCharacterization_sequences_link_caption": "Junctional sequences were amplified and sanger sequenced",
@@ -270,9 +270,9 @@
 
                                           ],
     "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
-    "Validation_WesternBlot": "/images/AICS-0012/Validation_WesternBlot.png",
+    "Validation_WesternBlot": "/images/AICS-0012/Western blot documentation  TUBA1B final clone only_final_01.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "/images/AICS-0012/Validation_Immunofluorescence.jpg",
+    "Validation_Immunofluorescence": "/images/AICS-0012/Tubulin clone 105 and AICS000 122016_01.jpg",
     "Validation_Immunofluorescence_caption": "",
     "StemCellCharacterization_pluripotency_analysis": [
                 	{
@@ -284,7 +284,7 @@
                 		"positiveCells": "99.4"
                 	},
                 	{
-                		"Marker": "Oct-4",
+                		"Marker": "OCT4",
                 		"positiveCells": "97.7"
                 	},
                 	{
@@ -420,7 +420,7 @@
       },
       {
         "id":"genomiccharacterizations",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "validation",
@@ -435,7 +435,7 @@
         "done": "true"
       }
     ],
-    "Main_data_available": "11-Jan-17",
+    "Main_data_available": "January 11, 2017",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TOMM20",
     "Main_gene_name": "Translocase of outer mitochondrial membrane 20",
@@ -510,7 +510,7 @@
                                         "positiveCells": 99.5
                                       },
                                       {
-                                        "Marker": "OCT-3/4",
+                                        "Marker": "OCT4",
                                         "positiveCells": 99.4
                                       },
                                       {
@@ -584,7 +584,7 @@
         "done": "true"
       }
     ],
-    "Main_data_available": "11-Jan-17",
+    "Main_data_available": "January 11, 2017",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "LMNB1",
     "Main_gene_name": "Lamin B1",
@@ -683,7 +683,7 @@
                                     "positiveCells": 99.9
                                   },
                                   {
-                                    "Marker": "OCT-3/4",
+                                    "Marker": "OCT4",
                                     "positiveCells": 94.8
                                   },
                                   {
@@ -816,7 +816,7 @@
   {
     "cell_line_id": "AICS-0017",
     "status": "Yes",
-    "Main_data_available": "11-Jan-17",
+    "Main_data_available": "January 11, 2017",
     "subpaged_status": [
       { "id": "editingdesign",
         "done": "true"
@@ -927,7 +927,7 @@
                                           "positiveCells": 99
                                         },
                                         {
-                                          "Marker": "OCT-3/4",
+                                          "Marker": "OCT4",
                                           "positiveCells": 98.3
                                         },
                                         {
@@ -1504,7 +1504,7 @@
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TJP1",
     "Main_gene_name": "Tight junction protein 1",
-    "Main_protein": "ZO-1",
+    "Main_protein": "Tight junction protein ZO-1",
     "Main_gene_id": 7082,
     "Main_mrna_id": "NM_000000.0",
     "Main_ensembl_id": "ENSG00000104067",
@@ -1728,7 +1728,7 @@
   {
     "cell_line_id": "AICS-0025",
     "status": "Pre-clonal edited",
-    "Main_data_available": "TBA",
+    "Main_data_available": "",
     "subpaged_status": [
       { "id": "editingdesign",
         "done": "false"
