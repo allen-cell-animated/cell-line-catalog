@@ -4,23 +4,23 @@
     "status": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
-        "done": "true"
+        "done": "false"
       },
       {
         "id":"genomiccharacterizations",
-        "done": "true"
+        "done": "false"
       },
       {
         "id": "validation",
-        "done": "true"
+        "done": "false"
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "true"
+        "done": "false"
       },
       {
         "id": "supplementaryinformation",
-        "done": "true"
+        "done": "false"
       }
     ],
     "Main_data_available": "11-Jan-17",
@@ -358,23 +358,23 @@
     "status": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
-        "done": "true"
+        "done": "false"
       },
       {
         "id":"genomiccharacterizations",
-        "done": "true"
+        "done": "false"
       },
       {
         "id": "validation",
-        "done": "true"
+        "done": "false"
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "true"
+        "done": "false"
       },
       {
         "id": "supplementaryinformation",
-        "done": "true"
+        "done": "false"
       }
     ],
     "Main_data_available": "11-Jan-17",
@@ -507,23 +507,23 @@
     "status": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
-        "done": "true"
+        "done": "false"
       },
       {
         "id":"genomiccharacterizations",
-        "done": "true"
+        "done": "false"
       },
       {
         "id": "validation",
-        "done": "true"
+        "done": "false"
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "true"
+        "done": "false"
       },
       {
         "id": "supplementaryinformation",
-        "done": "true"
+        "done": "false"
       }
     ],
     "Main_data_available": "11-Jan-17",
@@ -761,23 +761,23 @@
     "Main_data_available": "11-Jan-17",
     "subpaged_status": [
       { "id": "editingdesign",
-        "done": "true"
+        "done": "false"
       },
       {
         "id":"genomiccharacterizations",
-        "done": "true"
+        "done": "false"
       },
       {
         "id": "validation",
-        "done": "true"
+        "done": "false"
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "true"
+        "done": "false"
       },
       {
         "id": "supplementaryinformation",
-        "done": "true"
+        "done": "false"
       }
     ],
     "Main_parent_line": "WTC",
