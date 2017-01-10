@@ -496,9 +496,9 @@
         }
       ],
     "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
-    "Validation_WesternBlot": "",
+    "Validation_WesternBlot": "/images/AICS-0011/Western_blot.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "",
+    "Validation_Immunofluorescence": "/images/AICS-0011/Tom20_clone_27_and_AICS000.jpg",
     "Validation_Immunofluorescence_caption": "",
     "StemCellCharacterization_pluripotency_analysis": [
                                       {
