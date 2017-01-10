@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Cell Line Catalog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta http-equiv="Content-Security-Policy" content="img-src 'self' * data: *;"> -->
     <link rel="stylesheet" href="/vendor/styles/normalize.css">
     <link rel="stylesheet" href="/styles/icons.css">
     <!-- <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css"> -->
@@ -11,7 +12,7 @@
     <link rel="stylesheet" href="/styles/base.css">
     <link rel="stylesheet" href="/styles/layout.css">
     <link rel="stylesheet" href="/styles/modules.css">
-    <link rel="stylesheet" href="/bower_components/flickity/dist/flickity.css" media="screen">
+    <!-- <link rel="stylesheet" href="/bower_components/flickity/dist/flickity.css" media="screen"> -->
 
     <!-- Allen Institute favicon -->
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
@@ -117,10 +118,13 @@
 
     <script id="gallery-main-movie-template" type="text/x-handlebars-template">
       <div class="carousel-cell">
-        <video  class="toappend" width="100%" autoplay controls >
+        <div class='embed-container toappend'><iframe src="{{link}}?autoplay=1&loop=1&byline=0" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+        <!-- <video  class="toappend" width="100%" autoplay controls >
           <source src="{{link}}" type="video/mp4">
             Your browser does not support the video tag.
-        </video>
+
+
+        </video> -->
         <div class="caption-container">
           <small class="caption">{{caption}}</small>
         </div>
@@ -139,11 +143,11 @@
     <script id="movie-thumbnail-template" type="text/x-handlebars-template">
       <div class="thirtypercent thumbnails">
         <div class="morphology-thumbnail">
-          <a href="#" >
-            <video  class="toappend" width="100%"  >
+          <a href="#" ><div class='embed-container toappend'><iframe src="{{link}}" width="640" height="640" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+            <!-- <video  class="toappend" width="100%"  >
               <source src="{{link}}" type="video/mp4">
                 Your browser does not support the video tag.
-            </video>                  </a>
+            </video>           -->       </a>
           <div class="caption-container">
             <small class="caption">{{caption}}</small>
           </div>
@@ -745,7 +749,6 @@
     <script src="/vendor/scripts/handlebars.js"></script>
     <script src="/vendor/scripts/bootstrap.min.js"></script>
     <script src="/vendor/scripts/page.js"></script>
-    <script src="/bower_components/flickity/dist/flickity.pkgd.min.js"></script>
 
     <!-- Model Files -->
     <script src="/scripts/models/cellLine.js"></script>
@@ -756,8 +759,6 @@
 
     <!-- Controller files: -->
     <script src="/scripts/controllers/celllineController.js"></script>
-    <!-- <script src="/scripts/controllers/aboutController.js"></script>
-    <script src="/scripts/controllers/adminController.js"></script> -->
     <script src="/scripts/controllers/routes.js"></script>
   </body>
 </html>

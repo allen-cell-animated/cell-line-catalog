@@ -4,7 +4,8 @@ page('/',
   celllineController.resetFilters,
   celllineController.mainindex);
 
-
+page('/new.html',
+  celllineController.loadAll);
 
 page('/cell-line-catalog',
   celllineController.privateAlert,
