@@ -4,23 +4,23 @@
     "status": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
-        "done": "false"
+        "done": "true"
       },
       {
         "id":"genomiccharacterizations",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "supplementaryinformation",
-        "done": "false"
+        "done": "true"
       }
     ],
     "Main_data_available": "11-Jan-17",
@@ -76,27 +76,85 @@
     "EditingDesign_gene_figure": "/images/AICS-0005/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: PXN locus showing 4 PXN isoforms; Bottom: Zoom in on EGFP insertion site at PXN C-terminal exon",
     "EditingDesign_expression_figure": "expression.jpg",
-    "GenomicCharacterization_junction_schematic": "",
+    "GenomicCharacterization_junction_schematic": "/images/AICS-0005/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_junction_schematic_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise EGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "GenomicCharacterization_sequences_link": "",
     "GenomicCharacterization_sequences_link_caption": "",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0005/GenomicCharacterization_tagged_allele_gel.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
-    "GenomicCharacterization_ddpcr": "",
+    "GenomicCharacterization_ddpcr": [
+                                        {
+                                          "clone": "cl50",
+                                          "mEGFP": 0.56,
+                                          "plasmid": 0
+                                        }
+                                      ],
     "GenomicCharacterization_ddpcr_caption": "EGFP: EGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene",
-    "GenomicCharacterization_offtargets": "GenomicCharacterization_offtargets.csv",
+    "GenomicCharacterization_offtargets": [
+                                          	{
+                                          		"clonesAnalyzed": "5",
+                                          		"off-targetsSequenced": "11",
+                                          		"sitesSequenced": "55",
+                                          		"mutationsIdentified": "0"
+                                          	}
+
+                                          ],
     "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
-    "Validation_WesternBlot": "AICS012 TUBA1B-mEGFP Western documentation.pdf",
+    "Validation_WesternBlot": "images/AICS-0005/WesternblotdocumentationPXNfinalcloneonly_final.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "Tubulin clone 105 IF 100416.pdf",
+    "Validation_Immunofluorescence": "images/AICS-0005/Paxillin_clone_50_and_AICS000_122016.jpg",
     "Validation_Immunofluorescence_caption": "",
-    "StemCellCharacterization_pluripotency_analysis": "StemCellCharacterization_pluripotency_analysis.csv",
+    "StemCellCharacterization_pluripotency_analysis": [
+                  {
+                    "Marker": "NANOG",
+                    "positiveCells": 100
+                  },
+                  {
+                    "Marker": "SOX2",
+                    "positiveCells": 97.4
+                  },
+                  {
+                    "Marker": "OCT-3/4",
+                    "positiveCells": 97.4
+                  },
+                  {
+                    "Marker": "SSEA-1",
+                    "positiveCells": 2.01
+                  },
+                  {
+                    "Marker": "SSEA-3",
+                    "positiveCells": 100
+                  },
+                  {
+                    "Marker": "TRA-160",
+                    "positiveCells": 90
+                  }
+                ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0005/StemCellCharacterization_karyotype.jpg",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped (DCI, Inc., Seattle WA).",
-    "StemCellCharacterization_trilineage": "StemCellCharacterization_trilineage.csv",
+    "StemCellCharacterization_trilineage": [
+            {
+              "Germ_Layer": "Ectoderm",
+              "Marker": "PAX6",
+              "percent_positive_cells": 65.4
+            },
+            {
+              "Germ_Layer": "Endoderm",
+              "Marker": "SOX17",
+              "percent_positive_cells": 57.8
+            },
+            {
+              "Germ_Layer": "Mesoderm",
+              "Marker": "Brachyury",
+              "percent_positive_cells": 95.8
+            }
+          ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Cells were stained for markers of Ectoderm, Endoderm, and Mesoderm lineages using directly conjugated antibodies from BD Bioscience. Gating was based on isotype controls.",
-    "StemCellCharacterization_differentiation": "differentiation_table",
+    "StemCellCharacterization_differentiation": {
+      "Day_of_beating": "d8",
+      "percent_positive_cells": 76
+    },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0005/StemCellCharacterization_rnaseq_fig.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. PXNEGFP samples are from two independent clones.",
