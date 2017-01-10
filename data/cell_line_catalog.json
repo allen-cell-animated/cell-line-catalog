@@ -4,26 +4,26 @@
     "status": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
-        "done": "false"
+        "done": "true"
       },
       {
         "id":"genomiccharacterizations",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "supplementaryinformation",
-        "done": "false"
+        "done": "true"
       }
     ],
-    "Main_data_available": "11-Jan-17",
+    "Main_data_available": "January 11, 2017",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "PXN",
     "Main_gene_name": "Paxillin",
@@ -76,21 +76,60 @@
     "EditingDesign_gene_figure": "/images/AICS-0005/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: PXN locus showing 4 PXN isoforms; Bottom: Zoom in on EGFP insertion site at PXN C-terminal exon",
     "EditingDesign_expression_figure": "expression.jpg",
-    "GenomicCharacterization_junction_schematic": "",
+    "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_junction_schematic_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise EGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "GenomicCharacterization_sequences_link": "",
     "GenomicCharacterization_sequences_link_caption": "",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0005/GenomicCharacterization_tagged_allele_gel.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
-    "GenomicCharacterization_ddpcr": "",
+    "GenomicCharacterization_ddpcr": [
+                                      	{
+                                      		"clone": "clone50",
+                                      		"mEGFP": "0.56",
+                                      		"plasmid": "0"
+                                      	}
+                                      ],
     "GenomicCharacterization_ddpcr_caption": "EGFP: EGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene",
-    "GenomicCharacterization_offtargets": "GenomicCharacterization_offtargets.csv",
+    "GenomicCharacterization_offtargets": [
+                                          	{
+                                          		"clonesAnalyzed": "5",
+                                          		"off-targetsSequenced": "11",
+                                          		"sitesSequenced": "55",
+                                          		"mutationsIdentified": "0"
+                                          	}
+
+                                          ],
     "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
-    "Validation_WesternBlot": "AICS012 TUBA1B-mEGFP Western documentation.pdf",
+    "Validation_WesternBlot": "/images/AICS-0005/Western blot documentation PXN final clone only_final_01.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "Tubulin clone 105 IF 100416.pdf",
+    "Validation_Immunofluorescence": "/images/AICS-0005/Paxillin clone 50 and AICS000 122016_01.jpg",
     "Validation_Immunofluorescence_caption": "",
-    "StemCellCharacterization_pluripotency_analysis": "StemCellCharacterization_pluripotency_analysis.csv",
+    "StemCellCharacterization_pluripotency_analysis": [
+                                      {
+                                        "Marker": "NANOG",
+                                        "positiveCells": 0.00
+                                      },
+                                      {
+                                        "Marker": "SOX2",
+                                        "positiveCells": 0.00
+                                      },
+                                      {
+                                        "Marker": "OCT4",
+                                        "positiveCells": 0.00
+                                      },
+                                      {
+                                        "Marker": "SSEA-1",
+                                        "positiveCells": 0.00
+                                      },
+                                      {
+                                        "Marker": "SSEA-3",
+                                        "positiveCells": 0.00
+                                      },
+                                      {
+                                        "Marker": "TRA-160",
+                                        "positiveCells": 0.00
+                                      }
+                                    ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0005/StemCellCharacterization_karyotype.jpg",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped (DCI, Inc., Seattle WA).",
@@ -188,7 +227,7 @@
     "EditingDesign_gene_figure": "/images/AICS-0012/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: TUBA1B locus; Bottom: Zoom in on mEGFP insertion site at TUBA1B N-terminus",
     "EditingDesign_expression_figure": "",
-    "GenomicCharacterization_junction_schematic": "/images/AICS-0012/GenomicCharacterization_junction_schematic.png",
+    "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_junction_schematic_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "GenomicCharacterization_sequences_link": "/data/pdfs/AICS-012/GenomicCharacterization_sequences_link.fasta",
     "GenomicCharacterization_sequences_link_caption": "Junctional sequences were amplified and sanger sequenced",
@@ -212,9 +251,9 @@
 
                                           ],
     "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
-    "Validation_WesternBlot": "/images/AICS-0012/Validation_WesternBlot.png",
+    "Validation_WesternBlot": "/images/AICS-0012/Western blot documentation  TUBA1B final clone only_final_01.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "/images/AICS-0012/Validation_Immunofluorescence.jpg",
+    "Validation_Immunofluorescence": "/images/AICS-0012/Tubulin clone 105 and AICS000 122016_01.jpg",
     "Validation_Immunofluorescence_caption": "",
     "StemCellCharacterization_pluripotency_analysis": [
                 	{
@@ -226,7 +265,7 @@
                 		"positiveCells": "99.4"
                 	},
                 	{
-                		"Marker": "Oct-4",
+                		"Marker": "OCT4",
                 		"positiveCells": "97.7"
                 	},
                 	{
@@ -358,26 +397,26 @@
     "status": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
-        "done": "false"
+        "done": "true"
       },
       {
         "id":"genomiccharacterizations",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "supplementaryinformation",
-        "done": "false"
+        "done": "true"
       }
     ],
-    "Main_data_available": "11-Jan-17",
+    "Main_data_available": "January 11, 2017",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TOMM20",
     "Main_gene_name": "Translocase of outer mitochondrial membrane 20",
@@ -415,7 +454,7 @@
     "EditingDesign_gene_figure": "/images/AICS-0011/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: TOMM20 locus; Bottom: Zoom in on mEGFP insertion site at TOMM20 C-terminal exon",
     "EditingDesign_expression_figure": "",
-    "GenomicCharacterization_junction_schematic": "",
+    "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_junction_schematic_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "GenomicCharacterization_sequences_link": "",
     "GenomicCharacterization_sequences_link_caption": "",
@@ -438,9 +477,9 @@
   }
 ],
     "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
-    "Validation_WesternBlot": "",
+    "Validation_WesternBlot": "/images/AICS-0011/Western blot documentation TOMM20 final clone only_final_01.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "",
+    "Validation_Immunofluorescence": "/images/AICS-0011/Tom20 clone 27 and AICS000 122016_01.jpg",
     "Validation_Immunofluorescence_caption": "",
     "StemCellCharacterization_pluripotency_analysis": [
                                       {
@@ -452,7 +491,7 @@
                                         "positiveCells": 99.5
                                       },
                                       {
-                                        "Marker": "OCT-3/4",
+                                        "Marker": "OCT4",
                                         "positiveCells": 99.4
                                       },
                                       {
@@ -507,26 +546,26 @@
     "status": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
-        "done": "false"
+        "done": "true"
       },
       {
         "id":"genomiccharacterizations",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "supplementaryinformation",
-        "done": "false"
+        "done": "true"
       }
     ],
-    "Main_data_available": "11-Jan-17",
+    "Main_data_available": "January 11, 2017",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "LMNB1",
     "Main_gene_name": "Lamin B1",
@@ -587,7 +626,7 @@
     "EditingDesign_gene_figure": "/images/AICS-0013/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: LMNB1 locus showing 2 LMNB1 isoforms; Bottom: Zoom in on mEGFP insertion site at LMNB1 N-terminal exon",
     "EditingDesign_expression_figure": "",
-    "GenomicCharacterization_junction_schematic": "",
+    "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_junction_schematic_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "GenomicCharacterization_sequences_link": "",
     "GenomicCharacterization_sequences_link_caption": "",
@@ -611,9 +650,9 @@
 
                                           ],
     "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
-    "Validation_WesternBlot": "",
+    "Validation_WesternBlot": "/images/AICS-0013/",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "",
+    "Validation_Immunofluorescence": "/images/AICS-0013/",
     "Validation_Immunofluorescence_caption": "",
     "StemCellCharacterization_pluripotency_analysis": [
                                   {
@@ -625,7 +664,7 @@
                                     "positiveCells": 99.9
                                   },
                                   {
-                                    "Marker": "OCT-3/4",
+                                    "Marker": "OCT4",
                                     "positiveCells": 94.8
                                   },
                                   {
@@ -758,26 +797,26 @@
   {
     "cell_line_id": "AICS-0017",
     "status": "Yes",
-    "Main_data_available": "11-Jan-17",
+    "Main_data_available": "January 11, 2017",
     "subpaged_status": [
       { "id": "editingdesign",
-        "done": "false"
+        "done": "true"
       },
       {
         "id":"genomiccharacterizations",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "supplementaryinformation",
-        "done": "false"
+        "done": "true"
       }
     ],
     "Main_parent_line": "WTC",
@@ -833,23 +872,62 @@
     "EditingDesign_p14_fpkm": "",
     "EditingDesign_p18_fpkm": "",
     "EditingDesign_expression_figure": "",
-    "GenomicCharacterization_junction_schematic": "",
+    "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_junction_schematic_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "GenomicCharacterization_sequences_link": "",
     "GenomicCharacterization_sequences_link_caption": "",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0017/GenomicCharacterization_tagged_allele_gel.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
-    "GenomicCharacterization_ddpcr": "",
+    "GenomicCharacterization_ddpcr": [
+                                      	{
+                                      		"clone": "clone65",
+                                      		"mEGFP": "0.55",
+                                      		"plasmid": "0.03"
+                                      	}
+                                      ],
     "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene",
-    "GenomicCharacterization_offtargets": "",
+    "GenomicCharacterization_offtargets": [
+                                          	{
+                                          		"clonesAnalyzed": "3",
+                                          		"off-targetsSequenced": "9",
+                                          		"sitesSequenced": "27",
+                                          		"mutationsIdentified": "0"
+                                          	}
+
+                                          ],
     "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
-    "Validation_WesternBlot": "",
+    "Validation_WesternBlot": "/images/AICS-0017/Western blot documentation DSP final clone only_final_01.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "",
+    "Validation_Immunofluorescence": "/images/AICS-0017/desmoplakin 122016_01.jpg",
     "Validation_Immunofluorescence_caption": "",
-    "StemCellCharacterization_pluripotency_analysis": "",
+    "StemCellCharacterization_pluripotency_analysis": [
+                                  {
+                                    "Marker": "NANOG",
+                                    "positiveCells": 0.00
+                                  },
+                                  {
+                                    "Marker": "SOX2",
+                                    "positiveCells": 0.00
+                                  },
+                                  {
+                                    "Marker": "OCT4",
+                                    "positiveCells": 0.00
+                                  },
+                                  {
+                                    "Marker": "SSEA-1",
+                                    "positiveCells": 0.00
+                                  },
+                                  {
+                                    "Marker": "SSEA-3",
+                                    "positiveCells": 0.00
+                                  },
+                                  {
+                                    "Marker": "TRA-160",
+                                    "positiveCells": 0.00
+                                  }
+                                ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs�were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
-    "StemCellCharacterization_karyotype": "/images/AICS-0017StemCellCharacterization_karyotype.jpg",
+    "StemCellCharacterization_karyotype": "/images/AICS-0017/StemCellCharacterization_karyotype.jpg",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped (DCI, Inc., Seattle WA).",
     "StemCellCharacterization_trilineage": "StemCellCharacterization_trilineage.csv",
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Cells were stained for markers of Ectoderm, Endoderm, and Mesoderm lineages using directly conjugated antibodies from BD Bioscience. Gating was based on isotype controls.",
@@ -1613,7 +1691,7 @@
   {
     "cell_line_id": "AICS-0025",
     "status": "Pre-clonal edited",
-    "Main_data_available": "TBA",
+    "Main_data_available": "",
     "subpaged_status": [
       { "id": "editingdesign",
         "done": "false"
