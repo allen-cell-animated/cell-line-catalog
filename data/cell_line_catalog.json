@@ -83,7 +83,7 @@
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0005/GenomicCharacterization_tagged_allele_gel.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
     "GenomicCharacterization_junction_table": [
-                                                
+
                                                 {
                                                   "junction": "5'",
                                                   "expected_size": 1186,
@@ -273,7 +273,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_junction_schematic_caption": "",
     "GenomicCharacterization_junction_table": [
-                                                
+
                                                 {
                                                   "junction": "5'",
                                                   "expected_size": 1227,
@@ -524,7 +524,7 @@
     "GenomicCharacterization_junction_schematic": "/images/AICS-0011/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_junction_schematic_caption": "",
     "GenomicCharacterization_junction_table": [
-                                                
+
                                                 {
                                                   "junction": "5'",
                                                   "expected_size": 1870,
@@ -549,7 +549,7 @@
     "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "GenomicCharacterization_sequences_link": "",
     "GenomicCharacterization_sequences_link_caption": "",
-    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0011/",
+    "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
     "GenomicCharacterization_ddpcr": [
         {
@@ -720,7 +720,7 @@
     "GenomicCharacterization_junction_schematic": "/images/AICS-0013/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_junction_schematic_caption": "",
     "GenomicCharacterization_junction_table": [
-                                                
+
                                                 {
                                                   "junction": "5'",
                                                   "expected_size": 1460,
@@ -988,7 +988,7 @@
     "GenomicCharacterization_junction_schematic": "/images/AICS-0017/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_junction_schematic_caption": "",
     "GenomicCharacterization_junction_table": [
-                                                
+
                                                 {
                                                   "junction": "5'",
                                                   "expected_size": 1661,
