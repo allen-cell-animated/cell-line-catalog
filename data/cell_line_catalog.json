@@ -77,11 +77,35 @@
     "EditingDesign_gene_figure_caption": "Top: PXN locus showing 4 PXN isoforms; Bottom: Zoom in on EGFP insertion site at PXN C-terminal exon",
     "EditingDesign_expression_figure": "expression.jpg",
     "GenomicCharacterization_junction_schematic": "/images/AICS-0005/GenomicCharacterization_junction_schematic.png",
-    "GenomicCharacterization_junction_schematic_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise EGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
+    "GenomicCharacterization_junction_schematic_caption": "",
     "GenomicCharacterization_sequences_link": "",
     "GenomicCharacterization_sequences_link_caption": "",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0005/GenomicCharacterization_tagged_allele_gel.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
+    "GenomicCharacterization_junction_table": [
+                                                
+                                                {
+                                                  "junction": "5'",
+                                                  "expected_size": 1186,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "3'",
+                                                  "expected_size": 1150,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "WT internal",
+                                                  "expected_size": 800,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "Full junctional allele",
+                                                  "expected_size": "Tagged:2770; Untagged:2055",
+                                                  "confirmed_sequence": "Yes"
+                                                }
+                                            ],
+    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise EGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "GenomicCharacterization_ddpcr": [
                                         {
                                           "clone": "cl50",
@@ -132,7 +156,7 @@
                 ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0005/StemCellCharacterization_karyotype.jpg",
-    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped (DCI, Inc., Seattle WA).",
+    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped",
     "StemCellCharacterization_trilineage": [
             {
               "Germ_Layer": "Ectoderm",
@@ -247,7 +271,31 @@
     "EditingDesign_gene_figure_caption": "Top: TUBA1B locus; Bottom: Zoom in on mEGFP insertion site at TUBA1B N-terminus",
     "EditingDesign_expression_figure": "",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
-    "GenomicCharacterization_junction_schematic_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
+    "GenomicCharacterization_junction_schematic_caption": "",
+    "GenomicCharacterization_junction_table": [
+                                                
+                                                {
+                                                  "junction": "5'",
+                                                  "expected_size": 1227,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "3'",
+                                                  "expected_size": 1191,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "WT internal",
+                                                  "expected_size": 730,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "Full junctional allele",
+                                                  "expected_size": "Tagged:2835; Untagged:2120",
+                                                  "confirmed_sequence": "Yes"
+                                                }
+                                            ],
+    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "GenomicCharacterization_sequences_link": "/data/pdfs/AICS-012/GenomicCharacterization_sequences_link.fasta",
     "GenomicCharacterization_sequences_link_caption": "Junctional sequences were amplified and sanger sequenced",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0012/GenomicCharacterization_tagged_allele_gel.png",
@@ -302,7 +350,7 @@
                 ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0012/StemCellCharacterization_karyotype.jpg",
-    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped (DCI, Inc., Seattle WA).",
+    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped",
     "StemCellCharacterization_trilineage": [
                     {
                       "Germ_Layer": "Ectoderm",
@@ -474,7 +522,31 @@
     "EditingDesign_gene_figure_caption": "Top: TOMM20 locus; Bottom: Zoom in on mEGFP insertion site at TOMM20 C-terminal exon",
     "EditingDesign_expression_figure": "",
     "GenomicCharacterization_junction_schematic": "/images/AICS-0011/GenomicCharacterization_junction_schematic.png",
-    "GenomicCharacterization_junction_schematic_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
+    "GenomicCharacterization_junction_schematic_caption": "",
+    "GenomicCharacterization_junction_table": [
+                                                
+                                                {
+                                                  "junction": "5'",
+                                                  "expected_size": 1870,
+                                                  "confirmed_sequence": "Yes, but evidence of duplication"
+                                                },
+                                                {
+                                                  "junction": "3'",
+                                                  "expected_size": 1474,
+                                                  "confirmed_sequence": "Yes, but evidence of duplication"
+                                                },
+                                                {
+                                                  "junction": "WT internal",
+                                                  "expected_size": 722,
+                                                  "confirmed_sequence": "Yes, but evidence of duplication"
+                                                },
+                                                {
+                                                  "junction": "Full junctional allele",
+                                                  "expected_size": "Tagged:2923; Untagged:2208",
+                                                  "confirmed_sequence": "Cannot be amplified due to likely duplication"
+                                                }
+                                            ],
+    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "GenomicCharacterization_sequences_link": "",
     "GenomicCharacterization_sequences_link_caption": "",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0011/",
@@ -528,7 +600,7 @@
                                     ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0011/StemCellCharacterization_karyotype.jpg",
-    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped (DCI, Inc., Seattle WA).",
+    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
     "StemCellCharacterization_trilineage": [
                                         {
                                           "Germ_Layer": "Ectoderm",
@@ -646,7 +718,31 @@
     "EditingDesign_gene_figure_caption": "Top: LMNB1 locus showing 2 LMNB1 isoforms; Bottom: Zoom in on mEGFP insertion site at LMNB1 N-terminal exon",
     "EditingDesign_expression_figure": "",
     "GenomicCharacterization_junction_schematic": "/images/AICS-0013/GenomicCharacterization_junction_schematic.png",
-    "GenomicCharacterization_junction_schematic_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
+    "GenomicCharacterization_junction_schematic_caption": "",
+    "GenomicCharacterization_junction_table": [
+                                                
+                                                {
+                                                  "junction": "5'",
+                                                  "expected_size": 1460,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "3'",
+                                                  "expected_size": 1689,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "WT internal",
+                                                  "expected_size": 787,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "Full junctional allele",
+                                                  "expected_size": "Tagged:3100; Untagged:",
+                                                  "confirmed_sequence": "Yes"
+                                                }
+                                            ],
+    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "GenomicCharacterization_sequences_link": "",
     "GenomicCharacterization_sequences_link_caption": "",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0013/GenomicCharacterization_tagged_allele_gel.jpg",
@@ -701,7 +797,7 @@
                                 ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0013/StemCellCharacterization_karyotype.jpg",
-    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped (DCI, Inc., Seattle WA).",
+    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
     "StemCellCharacterization_trilineage": [
                             {
                               "Germ_Layer": "Ectoderm",
@@ -890,7 +986,31 @@
     "EditingDesign_gene_figure_caption": "Top: DSP locus showing 3 DSP  isoforms; Bottom: Zoom in on mEGFP insertion site at DSP C-terminal exon",
     "EditingDesign_expression_figure": "",
     "GenomicCharacterization_junction_schematic": "/images/AICS-0017/GenomicCharacterization_junction_schematic.png",
-    "GenomicCharacterization_junction_schematic_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
+    "GenomicCharacterization_junction_schematic_caption": "",
+    "GenomicCharacterization_junction_table": [
+                                                
+                                                {
+                                                  "junction": "5'",
+                                                  "expected_size": 1661,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "3'",
+                                                  "expected_size": 1421,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "WT internal",
+                                                  "expected_size": 634,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "Full junctional allele",
+                                                  "expected_size": "Tagged:3317; Untagged:2602",
+                                                  "confirmed_sequence": "Yes"
+                                                }
+                                            ],
+    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "GenomicCharacterization_sequences_link": "",
     "GenomicCharacterization_sequences_link_caption": "",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0017/GenomicCharacterization_tagged_allele_gel.jpg",
@@ -945,7 +1065,7 @@
                                       ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0017/StemCellCharacterization_karyotype.jpg",
-    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped (DCI, Inc., Seattle WA).",
+    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
     "StemCellCharacterization_trilineage":[
                                         {
                                           "Germ_Layer": "Ectoderm",
