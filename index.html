@@ -221,7 +221,7 @@
           <div class="thumbnail">
             <img src="{{GenomicCharacterization_junction_schematic}}" alt="...">
             <div class="caption">
-              <h3>Sequenced Junctions</h3>
+              <h3>Schematic of sequenced junctions</h3>
               <p>{{GenomicCharacterization_junction_schematic_caption}}</p>
             </div>
           </div>
@@ -234,14 +234,6 @@
               <h4>GFP-tagged and untagged alleles</h4>
             </div>
             <div class="panel-body">
-              <div class="thumbnail">
-                {{#if GenomicCharacterization_tagged_allele_gel}}
-                <img class ="GenomicCharacterization_tagged_allele_gel" id={{GenomicCharacterization_tagged_allele_gel}}  src="{{GenomicCharacterization_tagged_allele_gel}}" alt="...">
-                <div class="caption">
-                  <p>{{GenomicCharacterization_tagged_allele_gel_caption}}</p>
-                </div>
-                {{/if}}
-              </div>
               <table class="table">
                 <thead>
                   <tr>
@@ -250,7 +242,7 @@
                     <th>Confirmed Sequence</th>
                   </tr>
                 </thead>
-                <tbody id="differentiation-table">
+                <tbody id="junction-table">
                   {{#each GenomicCharacterization_junction_table}}
                   <tr>
                     <td class="tex-left">{{this.junction}}</td>
@@ -261,8 +253,29 @@
                 </tbody>
               </table>
             </div>
+            <div class="panel-footer">
+              <p>{{GenomicCharacterization_junction_table_caption}}</p>
+            </div>
           </div>
         </div>
+        {{#if GenomicCharacterization_tagged_allele_gel}}
+        <div class="col-sm-6">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4>GFP-tagged and untagged alleles</h4>
+            </div>
+            <div class="panel-body">
+              <div class="thumbnail">
+                <img class ="GenomicCharacterization_tagged_allele_gel" id={{GenomicCharacterization_tagged_allele_gel}}  src="{{GenomicCharacterization_tagged_allele_gel}}" alt="...">
+              </div>
+            </div>
+            <div class="panel-footer">
+              <p>{{GenomicCharacterization_tagged_allele_gel_caption}}</p>
+            </div>
+          </div>
+        </div>
+        {{/if}}
+
         <div class="col-sm-6">
           <div class="panel panel-primary">
             <div class="panel-heading">
@@ -280,7 +293,6 @@
                     </th>
                   </tr>
                   <tbody id="ddPCR-table">
-
                   </tbody>
                 </thead>
               </table>
@@ -290,8 +302,6 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
         <div class="col-sm-6">
           <div class="panel panel-primary">
             <div class="panel-heading">
@@ -320,6 +330,7 @@
             </div>
           </div>
         </div>
+      
         <div class="col-sm-6">
           <div class="panel panel-primary">
             <div class="panel-heading">
