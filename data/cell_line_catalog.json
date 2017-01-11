@@ -113,7 +113,7 @@
                                           "plasmid": 0
                                         }
                                       ],
-    "GenomicCharacterization_ddpcr_caption": "EGFP: EGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene",
+    "GenomicCharacterization_ddpcr_caption": "EGFP: EGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": [
                                           	{
                                           		"clonesAnalyzed": "5",
@@ -123,7 +123,7 @@
                                           	}
 
                                           ],
-    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
+    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing.",
     "Validation_WesternBlot": "images/AICS-0005/WesternblotdocumentationPXNfinalcloneonly_final.jpg",
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "images/AICS-0005/Paxillin_clone_50_and_AICS000_122016.jpg",
@@ -156,7 +156,7 @@
                 ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0005/StemCellCharacterization_karyotype.jpg",
-    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped",
+    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
     "StemCellCharacterization_trilineage": [
             {
               "Germ_Layer": "Ectoderm",
@@ -181,7 +181,7 @@
     },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0005/StemCellCharacterization_rnaseq_fig.png",
-    "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. PXNEGFP samples are from two independent clones.",
+    "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. PXN-EGFP samples are from two independent clones.",
     "Supplementary_cell_culture_link": "Supplementary_cell_culture_link.pdf",
     "Supplementary_transfection_link": "",
     "Supplementary_ddPCR_link": "",
@@ -307,7 +307,7 @@
                                       		"plasmid": "0.01"
                                       	}
                                       ],
-    "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene",
+    "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": [
                                           	{
                                           		"clonesAnalyzed": "5",
@@ -317,7 +317,7 @@
                                           	}
 
                                           ],
-    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
+    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing.",
     "Validation_WesternBlot": "/images/AICS-0012/Western blot documentation  TUBA1B final clone only_final_01.jpg",
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0012/Tubulin clone 105 and AICS000 122016_01.jpg",
@@ -350,7 +350,7 @@
                 ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0012/StemCellCharacterization_karyotype.jpg",
-    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped",
+    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
     "StemCellCharacterization_trilineage": [
                     {
                       "Germ_Layer": "Ectoderm",
@@ -567,7 +567,7 @@
           "mutationsIdentified": 0
         }
       ],
-    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
+    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing.",
     "Validation_WesternBlot": "/images/AICS-0011/Western_blot.jpg",
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0011/Tom20_clone_27_and_AICS000.jpg",
@@ -754,7 +754,7 @@
                                           "plasmid": 0.02
                                         }
                                       ],
-    "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene",
+    "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": [
                                           	{
                                           		"clonesAnalyzed": "5",
@@ -764,7 +764,7 @@
                                           	}
 
                                           ],
-    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
+    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing.",
     "Validation_WesternBlot": "/images/AICS-0013/Western_blot.jpg",
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0013/LaminB1_clone210_AICS000_122016.jpg",
@@ -1022,7 +1022,7 @@
                                           "plasmid": 0.03
                                         }
                                       ],
-    "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene",
+    "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": [
                                           	{
                                           		"clonesAnalyzed": "3",
@@ -1032,7 +1032,7 @@
                                           	}
 
                                           ],
-    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
+    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing.",
     "Validation_WesternBlot": "/images/AICS-0017/WesternBlot.jpg",
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0017/desmoplakin122016.jpg",
