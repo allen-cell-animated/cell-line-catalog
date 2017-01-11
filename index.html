@@ -235,11 +235,31 @@
             </div>
             <div class="panel-body">
               <div class="thumbnail">
+                {{#if GenomicCharacterization_tagged_allele_gel}}
                 <img class ="GenomicCharacterization_tagged_allele_gel" id={{GenomicCharacterization_tagged_allele_gel}}  src="{{GenomicCharacterization_tagged_allele_gel}}" alt="...">
                 <div class="caption">
                   <p>{{GenomicCharacterization_tagged_allele_gel_caption}}</p>
                 </div>
+                {{/if}}
               </div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Junction</th>
+                    <th>Expected Size</th>
+                    <th>Confirmed Sequence</th>
+                  </tr>
+                </thead>
+                <tbody id="differentiation-table">
+                  {{#each GenomicCharacterization_junction_table}}
+                  <tr>
+                    <td class="tex-left">{{this.junction}}</td>
+                    <td class="tex-left">{{this.expected_size}}</td>
+                    <td class="tex-left">{{this.confirmed_sequence}}</td>
+                  </tr>
+                  {{/each}}
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
