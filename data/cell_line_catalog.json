@@ -260,7 +260,12 @@
         "data_type": "single plane high mag image",
         "file_name": "20160531_C03_007scalePt75_8bit_fr24SpecSheet.tif",
         "caption": "Single image of a live hiPSC colony expressing alpha tubulin-mEGFP imaged on a spinning-disk confocal microscope. Image is a single slice taken in the middle of the z-stack.",
-        "link": "/images/AICS-0012/Main_cell_line_morphology.jpg"
+        "link": "/images/AICS-0012/20160531_C03_007scalePt75_8bit_fr24SpecSheet.jpg"
+      },
+      {
+        "type":"image",
+        "link":"/images/AICS-0012/Main_cell_line_morphology.jpg",
+        "caption":"Viability and colony formation photographed 3 days post-thaw at 4X magnification. Cells were treated with ROCK inhibitor for 24 hrs post-thaw."
       }
 
     ],
@@ -501,8 +506,11 @@
     "Main_media":[
       {
         "type":"movie",
-        "link":"/images/AICS-0011/Main_cell_line_movie2.mp4",
-        "caption":"Z-stack of live hiPSC cells expressing Tom20-mEGFP imaged on a spinning-disk confocal microscope. Image starts at the bottom of the cells and ends at the top."
+        "cell_line_id": "AICS-0011",
+        "data_type": "high mag z-stack",
+        "file_name": "20160424 I06 010fr20to60scalept75 8bit5fps.mov",
+        "caption": "Z-stack of live hiPSC cells expressing Tom20-mEGFP imaged on a spinning-disk confocal microscope. Image starts at the bottom of the cells and ends at the top..",
+        "link": "https://player.vimeo.com/video/198395310"
       },
       {
         "type":"image",
