@@ -23,7 +23,7 @@
         "done": "true"
       }
     ],
-    "Main_data_available": "January 11, 2017",
+    "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "PXN",
     "Main_gene_name": "Paxillin",
@@ -121,7 +121,6 @@
                                           		"sitesSequenced": "55",
                                           		"mutationsIdentified": "0"
                                           	}
-
                                           ],
     "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing.",
     "Validation_WesternBlot": "images/AICS-0005/WesternblotdocumentationPXNfinalcloneonly_final.jpg",
@@ -182,7 +181,7 @@
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0005/StemCellCharacterization_rnaseq_fig.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. PXN-EGFP samples are from two independent clones.",
-    "Supplementary_cell_culture_link": "Supplementary_cell_culture_link.pdf",
+    "Supplementary_cell_culture_link": "/data/pdfs/AICS-012/Supplementary_cell_culture_link.pdf",
     "Supplementary_transfection_link": "",
     "Supplementary_ddPCR_link": "",
     "Supplementary_primers_link": "",
@@ -488,7 +487,7 @@
         "done": "true"
       }
     ],
-    "Main_data_available": "January 11, 2017",
+    "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TOMM20",
     "Main_gene_name": "Translocase of outer mitochondrial membrane 20",
@@ -504,15 +503,25 @@
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
     "Main_media":[
+       {
+         "cell_line_id": "AICS-0011",
+         "data_type": "high mag z-stack",
+         "type":"movie",
+         "file_name": "20160424_I06_010fr20to60scalept75_8bit5fps.mov",
+         "caption": "Z-stack of live hiPSC cells expressing Tom20-mEGFP imaged on a spinning-disk confocal microscope. Image starts at the bottom of the cells and ends at the top.",
+         "link": "https://player.vimeo.com/video/198395310"
+       },
+       {
+         "cell_line_id": "AICS-0011",
+         "data_type": "timelapse in high mag",
+         "type":"movie",
+         "file_name": "MAX_20161118_C01_007scalePt75_8bitB5fps.mov",
+         "caption": "Timelapse movie of a hiPSC colony expressing tom20-mEGFP. Images taken as a partial z-stack near the bottom  of the cell every 11 seconds for 3 minutes on a spinning-disk confocal microscope. Image is a maximum intensity projection. Movie sped up 55x over real time.",
+         "link": "https://player.vimeo.com/video/198395370"
+       },
       {
-        "type":"movie",
         "cell_line_id": "AICS-0011",
-        "data_type": "high mag z-stack",
-        "file_name": "20160424 I06 010fr20to60scalept75 8bit5fps.mov",
-        "caption": "Z-stack of live hiPSC cells expressing Tom20-mEGFP imaged on a spinning-disk confocal microscope. Image starts at the bottom of the cells and ends at the top..",
-        "link": "https://player.vimeo.com/video/198395310"
-      },
-      {
+        "data_type": "single plane high mag image",
         "type":"image",
         "link":"/images/AICS-0011/Main_cell_line_movie1.jpg",
         "caption":"Single image of a live hiPSC colony expressing Tom20-mEGFP imaged on a spinning-disk confocal microscope. Image is a maximum intensity projection of 5 z-slices near the bottom of the cell."
@@ -634,7 +643,7 @@
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0011/StemCellCharacterization_rnaseq_fig.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. TOMM20-mEGFP samples are from two independent clones.",
-    "Supplementary_cell_culture_link": "Supplementary_cell_culture_link.pdf",
+    "Supplementary_cell_culture_link": "/data/pdfs/AICS-012/Supplementary_cell_culture_link.pdf",
     "Supplementary_transfection_link": "",
     "Supplementary_ddPCR_link": "",
     "Supplementary_primers_link": "",
@@ -664,7 +673,7 @@
         "done": "true"
       }
     ],
-    "Main_data_available": "January 11, 2017",
+    "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "LMNB1",
     "Main_gene_name": "Lamin B1",
@@ -920,7 +929,7 @@
   {
     "cell_line_id": "AICS-0017",
     "status": "Yes",
-    "Main_data_available": "January 11, 2017",
+    "Main_data_available": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
         "done": "true"
@@ -1100,7 +1109,7 @@
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0017/StemCellCharacterization_rnaseq_fig.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. DSP-mEGFP samples are from two independent clones.",
-    "Supplementary_cell_culture_link": "Supplementary_cell_culture_link.pdf",
+    "Supplementary_cell_culture_link": "/data/pdfs/AICS-012/Supplementary_cell_culture_link.pdf",
     "Supplementary_transfection_link": "",
     "Supplementary_ddPCR_link": "",
     "Supplementary_primers_link": "",
