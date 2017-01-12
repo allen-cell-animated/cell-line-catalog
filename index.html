@@ -523,7 +523,7 @@
 
     <!-- supplementaryinformation template --------------->
     <script id="supplementaryinformation-template" type="text/x-handlebars-template">
-      <div class="row">
+<!--      <div class="row">
         <div class="col-sm-12">
           <div class="acknowledgements">
             <div class="">
@@ -533,7 +533,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="row">
             <div class="col-sm-6">
               <div class="panel panel-primary bg-lightgray">
@@ -544,13 +544,28 @@
                   <ul id=editingDesign-info class="list-group">
                     <li class="list-group-item">
                       <span class="profile-summary-key">Cell Culture</span>
-                      <a href='{{Supplementary_cell_culture_link}}' download="{{cell_line_id}}.pdf">Download cell culture protocol</a></li>
+                      <a href='{{Supplementary_cell_culture_link}}' download="Cell_culture_protocol.pdf">Download cell culture protocol</a></li>
                     <!-- <li class="list-group-item">
                       <span class="profile-summary-key">Transfection</span>
                       <span>R: NNNNNN</span></li>
                     <li class="list-group-item">
                       <span class="profile-summary-key">ddPCR</span>
                       <span></span></li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+      </div>
+      <div class="row">
+            <div class="col-sm-6">
+              <div class="panel panel-primary bg-lightgray">
+                <div class="panel-heading">
+                  <h4>Acknowledgements</h4>
+                </div>
+                <div class="panel-body">
+                  <ul id=editingDesign-info class="list-group">
+                    <li class="list-group-item">
+                      <a href='{{Supplementary_acknowledgements}}' download="Allen_Cell_Collection_Acknowledgements.pdf">Allen Cell Collection Acknowledgements</a></li>
                   </ul>
                 </div>
               </div>
