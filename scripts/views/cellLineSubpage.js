@@ -44,7 +44,10 @@
       e.stopPropagation();
       e.preventDefault();
       $('.morphology-main').empty();
-      $('.morphology-main').append($(this).find('.toappend').clone().attr('controls', '').attr('autoplay',''));
+      var $fullscreen = $('.morphology-main').append($(this).find('.toappend').clone());
+      $fullscreen.find('.blocker').detach();
+      var $src = $fullscreen.find('iframe').attr('src');
+      $fullscreen.find('iframe').attr('src', $src + '?autoplay=1&loop=1&byline=0')
       $('.morphology-main').append($(this).find('.caption-container').clone().removeClass('hidden'));
       $(this).parents().find('.active').removeClass('active');
       $(this).addClass('active');
