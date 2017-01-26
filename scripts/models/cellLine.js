@@ -22,7 +22,7 @@
 
   CellLine.loadIntoObjectArray = function(name){
     var retreivedData =  JSON.parse(localStorage.getItem(name));
-    CellLine.allCellLines = retreivedData.sort(function(a, b){return a.cell_line_id.split('-')[1] - b.cell_line_id.split('-')[1]}).map(function(ele){
+    CellLine.allCellLines = retreivedData.sort(function(a, b){return a.cell_line_id.split('-')[1] - b.cell_line_id.split('-')[1];}).map(function(ele){
       return new CellLine(ele);
     });
   };

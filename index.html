@@ -141,26 +141,28 @@
     </script>
 
     <script id="movie-thumbnail-template" type="text/x-handlebars-template">
-      <div class="thirtypercent thumbnails">
-        <div class="morphology-thumbnail">
-          <a href="#" ><div class='embed-container toappend'><iframe src="{{link}}" width="640" height="640" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-            <!-- <video  class="toappend" width="100%"  >
-              <source src="{{link}}" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>           -->       </a>
-          <div class="caption-container">
+      <div class="col-md-3 col-sm-4 col-xs-6 thumbnails">
+        <div class="morphology-thumbnail" data-toggle="tooltip" title="{{caption}}" class="tooltip-caption">
+          <a href="#">
+            <div class='embed-container toappend' >
+              <div class="blocker"></div>
+              <iframe src="{{link}}" width="640" height="640" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+              </iframe>
+            </div>
+          </a>
+          <div class="caption-container hidden">
             <small class="caption">{{caption}}</small>
           </div>
-        </div>
+
       </div>
     </script>
     <script id="image-thumbnail-template" type="text/x-handlebars-template">
-      <div class="thirtypercent thumbnails">
-        <div class="morphology-thumbnail">
+      <div class="col-md-3 col-sm-4 col-xs-6 thumbnails">
+        <div class="morphology-thumbnail" data-toggle="tooltip" title="{{caption}}" class="tooltip-caption">
           <a href="#">
             <img class="toappend" src="{{link}}" alt="" />
           </a>
-          <div class="caption-container">
+          <div class="caption-container hidden">
             <small class="caption">{{caption}}</small>
           </div>
         </div>
@@ -380,7 +382,7 @@
             <div class="panel-heading">
               <h4>Western Blot</h4>
             </div>
-            <div class="panel-body ">
+            <div class="panel-body">
               <div class="center-block image-scale"><img src="{{Validation_WesternBlot}}">
               </div>
               <div class="caption">
@@ -731,7 +733,10 @@
                   <div class="morphology-main">
                   </div>
                   <div class="panel-footer clearfix">
-                    <div id="gallery-thumbnails">
+                    <h4>Collected Data Gallery</h4>
+                    <p>Click on image or movie below to see larger version</p>
+                    <div id="gallery-thumbnails" class="row">
+
                     </div>
                 </div>
               </div>
@@ -800,6 +805,7 @@
     <script src="/vendor/scripts/page.js"></script>
 
     <!-- Model Files -->
+    <script src="/scripts/models/ArrayIE.js"></script>
     <script src="/scripts/models/cellLine.js"></script>
 
     <!-- View Files -->

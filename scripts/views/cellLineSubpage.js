@@ -1,6 +1,5 @@
 (function(module) {
 
-
   var cellLineProfileView = {};
 
   cellLineProfileView.disableLinks = function(){
@@ -42,13 +41,14 @@
 
   cellLineProfileView.gallery = function() {
     $('#gallery-thumbnails').on('click', '.morphology-thumbnail', function(e) {
-      e.preventDefault();
       e.stopPropagation();
+      e.preventDefault();
       $('.morphology-main').empty();
       $('.morphology-main').append($(this).find('.toappend').clone().attr('controls', '').attr('autoplay',''));
-      $('.morphology-main').append($(this).find('.caption-container').clone());
+      $('.morphology-main').append($(this).find('.caption-container').clone().removeClass('hidden'));
       $(this).parents().find('.active').removeClass('active');
       $(this).addClass('active');
+      $('#tab_editingdesign a').click();
     });
   };
 
@@ -74,8 +74,6 @@
     });
   };
 
-
-
   cellLineProfileView.RenderProfile = function(cellLine) {
     $('#cellline-info').children().remove();
     $('.subpage-tab').children().remove();
@@ -94,7 +92,6 @@
           $('#off-target-table').append(cellLine.nestedToHtml($('#offTargets-template'), a ));
         });
       }
-
 
       $('#validation').append(cellLine.toHtml($('#validation-template')));
       $('#stemcellcharacteristics').append(cellLine.toHtml($('#stemcellcharacteristics-template')));
