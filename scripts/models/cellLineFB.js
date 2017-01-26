@@ -34,7 +34,7 @@
         CellLine.allCellLinesFB = [];
       }
     });
-  });
+    });
   };
 
   firebaseLocal.register = function(email, password){

@@ -78,7 +78,7 @@
 }
 
 .thumbnails{
-  padding-bottom: 20px;
+  min-height: 130px;
 }
 
 .gallery-thumbnails .toappend{

@@ -93,6 +93,7 @@
     $('#cell-line-list').show();
     $('#cell-line-catalog-nav').addClass('active');
     $('#home').removeClass('active');
+    $('.sub-page-tab.active').removeClass('active');
     $('#main').hide();
     if ($('select').find('.options').length ===0) {
       cellListView.filters.forEach(function(filter){
@@ -110,7 +111,6 @@
   cellListView.renderMainPage = function(){
     $('#cellline-profile').hide();
     $('#cell-collection-banner').hide();
-
     $('#cell-line-list').hide();
     $('#cell-line-table').children().remove();
     $('#main').show();
