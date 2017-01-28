@@ -35,7 +35,8 @@
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "EGFP",
     "Main_linker": "GTSGGS",
-    "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS0005&Product=iPSC",
+    "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0005&Product=iPSC",
+    "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0005_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
     "Main_media":[
@@ -225,8 +226,9 @@
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "GGSGGS",
-    "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS0012&Product=iPSC",
+    "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0012&Product=iPSC",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0012_CofA.pdf",
     "Main_plasmid_sequence": "",
     "Main_media":[
       {
@@ -501,8 +503,9 @@
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "GGSGDPPVAT",
-    "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS0011&Product=iPSC",
+    "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0011&Product=iPSC",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0011_CofA.pdf",
     "Main_plasmid_sequence": "",
     "Main_media":[
        {
@@ -688,8 +691,9 @@
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "SGLRSRAQAS",
-    "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS0013&Product=iPSC",
+    "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0013&Product=iPSC",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0013_CofA.pdf",
     "Main_plasmid_sequence": "",
     "Main_media":[
 
@@ -966,8 +970,9 @@
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "HDPPVAT",
-    "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS0017&Product=iPSC",
+    "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0017&Product=iPSC",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0017_CofA.pdf",
     "Main_plasmid_sequence": "",
     "Main_media":[
       {
