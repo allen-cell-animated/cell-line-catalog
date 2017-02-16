@@ -245,7 +245,7 @@
         "cell_line_id": "AICS-0012",
         "data_type": "timelapse in high mag",
         "file_name": "20161014_C01_001pt75_8bit15fps.mov",
-        "caption": "Timelapse movie of a hiPSC colony expressing alpha tubulin-mEGFP. Images taken as a single slice near the top of the cell every 1 minute for 65 minutes on a spinning-disk confocal microscope. Image is a maximum intensity projection Movie sped up 900x over real time.",
+        "caption": "Timelapse movie of a hiPSC colony expressing alpha tubulin-mEGFP. Images taken as a single slice near the top of the cell every 1 minute for 65 minutes on a spinning-disk confocal microscope. Movie sped up 900x over real time.",
         "link": "https://player.vimeo.com/video/198391342"
       },
       {
