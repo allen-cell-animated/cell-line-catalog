@@ -109,6 +109,7 @@
         });
       }
       $('#supplementaryinformation').append(cellLine.toHtml($('#supplementaryinformation-template')));
+      $('#protocols').append(cellLine.toHtml($('#protocols-template')));
       // cellLineProfileView.goBack();
       cellLineProfileView.gallery();
       $('#cell-collection-banner').show();

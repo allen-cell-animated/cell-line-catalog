@@ -21,6 +21,10 @@
       {
         "id": "supplementaryinformation",
         "done": "true"
+      },
+      {
+        "id": "protocols",
+        "done": "true"
       }
     ],
     "Main_data_available": "Yes",
@@ -187,7 +191,10 @@
     "Supplementary_transfection_link": "",
     "Supplementary_ddPCR_link": "",
     "Supplementary_primers_link": "",
-    "Supplementary_offtargets_link": ""
+    "Supplementary_offtargets_link": "",
+    "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
+    "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
+    "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf"
   },
   {
     "cell_line_id": "AICS-0012",
@@ -210,6 +217,10 @@
       },
       {
         "id": "supplementaryinformation",
+        "done": "true"
+      },
+      {
+        "id": "protocols",
         "done": "true"
       }
     ],
@@ -386,6 +397,9 @@
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. TUBA1B-mEGFP samples are from two independent clones.",
     "Supplementary_cell_culture_link": "/data/pdfs/AICS-012/Supplementary_cell_culture_link.pdf",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
+    "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
+    "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
+    "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Supplementary_transfection_link": "",
     "Supplementary_ddPCR_link": "",
     "Supplementary_primers_link": "",
@@ -488,6 +502,10 @@
       },
       {
         "id": "supplementaryinformation",
+        "done": "true"
+      },
+      {
+        "id": "protocols",
         "done": "true"
       }
     ],
@@ -653,7 +671,10 @@
     "Supplementary_transfection_link": "",
     "Supplementary_ddPCR_link": "",
     "Supplementary_primers_link": "",
-    "Supplementary_offtargets_link": ""
+    "Supplementary_offtargets_link": "",
+    "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
+    "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
+    "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf"
   },
   {
     "cell_line_id": "AICS-0013",
@@ -676,6 +697,10 @@
       },
       {
         "id": "supplementaryinformation",
+        "done": "true"
+      },
+      {
+        "id": "protocols",
         "done": "true"
       }
     ],
@@ -849,6 +874,9 @@
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. LMNB1-mEGFP samples are from two independent clones.",
     "Supplementary_cell_culture_link": "/data/pdfs/AICS-012/Supplementary_cell_culture_link.pdf",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
+    "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
+    "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
+    "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Supplementary_transfection_link": "",
     "Supplementary_ddPCR_link": "",
     "Supplementary_primers_link": "",
@@ -956,6 +984,10 @@
       },
       {
         "id": "supplementaryinformation",
+        "done": "true"
+      },
+      {
+        "id": "protocols",
         "done": "true"
       }
     ],
@@ -1120,6 +1152,9 @@
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. DSP-mEGFP samples are from two independent clones.",
     "Supplementary_cell_culture_link": "/data/pdfs/AICS-012/Supplementary_cell_culture_link.pdf",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
+    "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
+    "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
+    "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Supplementary_transfection_link": "",
     "Supplementary_ddPCR_link": "",
     "Supplementary_primers_link": "",
