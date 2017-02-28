@@ -47,15 +47,6 @@
 
       {
         "type":"movie",
-<<<<<<< HEAD
-        "link":"/images/AICS-0005/Main_cell_line_movie2.mp4",
-        "caption":"Timelapse movie of a hiPSC colony expressing paxillin-mEGFP. Images taken in 3D every 5 minutes for 400 minutes on a spinning-disk confocal microscope. Image is a maximum intensity projection of four slices near the bottom of the cell. Movie sped up 3000x over real time."
-      },
-      {
-        "type":"image",
-        "link":"/images/AICS-0005/Main_cell_line_movie1.jpg",
-        "caption":"Single image of a live hiPSC colony expressing Tom20-mEGFP imaged on a spinning-disk confocal microscope. Left panel is a single slice of the z-tack near the bottom of the cell; right pnael is this same projection overlaid onto one slice of the same z-stack in the transmitted light channel."
-=======
         "cell_line_id": "AICS-0005",
         "data_type": "timelapse in low mag",
         "file_name": "20160610_C04_001_position5_z4ScalePt75_8bit10fps.mov",
@@ -77,7 +68,6 @@
         "file_name": "20160513_C03_010Scalept75_ComboSpecSheet.tif",
         "caption": "Single image of a live hiPSC colony expressing paxillin-EGFP imaged on a spinning-disk confocal microscope. Left panel is a single slice of the z-tack near the bottom of the cell; right pnael is this same projection overlaid onto one slice of the same z-stack in the transmitted light channel.",
         "link": "/images/AICS-0005/Main_cell_line_movie1.jpg"
->>>>>>> f99db9b0db0c2efca2b70d738889befe6b32efcb
       },
       {
         "type":"image",
@@ -536,14 +526,6 @@
     "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0011_CofA.pdf",
     "Main_plasmid_sequence": "",
     "Main_media":[
-<<<<<<< HEAD
-      {
-        "type":"movie",
-        "link":"/images/AICS-0011/Main_cell_line_movie2.mp4",
-        "caption":"Z-stack of live hiPSC cells expressing Tom20-mEGFP imaged on a spinning-disk confocal microscope. Image starts at the bottom of the cells and ends at the top."
-      },
-      {
-=======
        {
          "cell_line_id": "AICS-0011",
          "data_type": "high mag z-stack",
@@ -563,7 +545,6 @@
       {
         "cell_line_id": "AICS-0011",
         "data_type": "single plane high mag image",
->>>>>>> f99db9b0db0c2efca2b70d738889befe6b32efcb
         "type":"image",
         "link":"/images/AICS-0011/Main_cell_line_movie1.jpg",
         "caption":"Single image of a live hiPSC colony expressing Tom20-mEGFP imaged on a spinning-disk confocal microscope. Image is a maximum intensity projection of 5 z-slices near the bottom of the cell."
@@ -759,16 +740,11 @@
       },
       {
         "type":"movie",
-<<<<<<< HEAD
-        "link":"/images/AICS-0013/Main_cell_line_movie2.mp4",
-        "caption":"Timelapse movie of a hiPSC colony expressing LaminB1-mEGFP. Images taken in 3D every 3 minutes for 12 hours on a spinning-disk confocal microscope. Image is a maximum intensity projection. Movie sped up 1800x over real time."
-=======
         "cell_line_id": "AICS-0013",
         "data_type": "timelapse in low mag",
         "file_name": "Lamin B1 cl210 12HR 20X_scalePt75_10fps.mov",
         "caption": "Timelapse movie of a hiPSC colony expressing LaminB1-mEGFP. Images taken in 3D every 3 minutes for 12 hours on a spinning-disk confocal microscope. Image is a maximum intensity projection. Movie sped up 1800x over real time.",
         "link": "https://player.vimeo.com/video/198393326"
->>>>>>> f99db9b0db0c2efca2b70d738889befe6b32efcb
       },
       {
         "cell_line_id": "AICS-0013",
@@ -776,12 +752,7 @@
         "file_name": "20161011_S01_001pos3t005maxProjScalePt75_8bitSpecSheet.tif",
         "caption": "Single image of a live hiPSC colony expressing LaminB1-mEGFP. Image is a maximum intensity projection of a spinning-disk confocal z-stack.",
         "type":"image",
-<<<<<<< HEAD
-        "link":"/images/AICS-0013/Main_cell_line_movie1.jpg",
-        "caption":"Single image of a live hiPSC colony expressing LaminB1-mEGFP. Image is a maximum intensity projection of a spinning-disk confocal z-stack"
-=======
         "link":"/images/AICS-0013/Main_cell_line_movie1.jpg"
->>>>>>> f99db9b0db0c2efca2b70d738889befe6b32efcb
       },
       {
         "type":"image",
@@ -1057,13 +1028,8 @@
         "data_type": "single plane high mag image",
         "file_name": "20161013_C01_001_s1_MAXonTransmittedz13_8bitScalePt75RGBresizeComboSpecSheet.tif",
         "type":"image",
-<<<<<<< HEAD
-        "link":"/images/AICS-0017/Main_cell_line_movie1.jpg",
-        "caption":"Single image of a live hiPSC colony expressing Desmoplakin-mEGFP imaged on a spinning-disk confocal microscope. Left panel is a maximum intensity projection of the z-stack; right panel is this same projection overlaid onto one slice of the same z-stack in the transmitted light channel."
-=======
         "caption": "Single image of a live hiPSC colony expressing Desmoplakin-mEGFP imaged on a spinning-disk confocal microscope. Left panel is a maximum intensity projection of the z-stack; right panel is this same projection overlaid onto one slice of the same z-stack in the transmitted light channel.",
         "link": "/images/AICS-0017/Main_cell_line_movie1.jpg"
->>>>>>> f99db9b0db0c2efca2b70d738889befe6b32efcb
       },
       {
         "type":"image",
