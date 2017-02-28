@@ -1,43 +1,23 @@
-.site-header {
-  /*background: #D5DED9;*/
-}
-
-.heading-group-h1 {
-  float: left;
-  padding: 0 0 .2em 1em;
-}
 
 .icon-menu {
   font-size: 3em;
   float: right;
 }
 
-.main-nav {
-  /*padding: 0.1em;
-  text-align: right;*/
-}
-
-.main-nav ul {
+/*SUBPAGE
+=======================================*/
+.tab-section{
   display: none;
-  padding: 0;
-  margin-right: 30px;
-  list-style: none;
-  clear: both;
 }
 
-.main-nav:hover ul {
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-
+.cellline-info{
+  width:40%;
+  box-sizing: border-box;
+  display: inline-block;
 }
 
-.main-nav li {
-  margin-right: .4em;
-  font-size: 1.5em;
-  padding: .5em .2em;
-  border-bottom: 1px solid #ccc;
+.profile-image{
+  display: inline-block;
 }
 
 .subpage{
@@ -57,58 +37,8 @@
   margin-right: 5px;
 }
 
-.text-white{
-    color: white;
-}
-
-
-#filters {
-  padding: 0;
-  list-style: none;
-}
-
-.template {
-  display: none;
-}
-
-.byline {
-  color: #777;
-}
-
-.byline a {
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.profile-summary-key{
-  display: inline-block;
-  width: 45%;
-}
-.profile-summary-value{
-  display: inline-block;
-  width: 40%;
-}
-
-#article-export label {
-  font-size: .8em;
-  font-style: italic;
-  color: #ccc;
-}
-
 #about {
   display: none;
-}
-
-.btn{
-  margin-bottom: 10px;
-}
-
-.bg-lightgray{
-  background-color: #f2f2f2
-}
-
-.errors{
-  color:red;
 }
 
 .image-scale img{
@@ -121,12 +51,52 @@
   margin-bottom: 20px;
 }
 
+.sub-page-tab a{
+  background-color: #eee;
+}
+
+#cellline-info{
+  margin-bottom: 40px;
+}
+
+/*gallery
+=======================================*/
+.thumbnail{
+}
+
+.thirtypercent .morphology-thumbnail.active{
+  opacity: 0.7;
+}
+
+.thirtypercent .morphology-thumbnail:hover{
+  opacity: 0.7;
+}
+
+.caption-container{
+  padding: 10px;
+  margin: auto;
+}
+
+.thumbnails{
+  min-height: 130px;
+}
+
+.gallery-thumbnails .toappend{
+  box-shadow: 1px 1px 10px #5b5460;
+}
+
+.sub-page-tab{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.morphology-thumbnail{
+  width: 90%;
+}
+
 .thirtypercent{
   width: 33%;
   float: left;
-}
-.morphology-thumbnail{
-  width: 90%;
 }
 
 .fiftypercent{
@@ -142,8 +112,24 @@
   width: 20%;
 }
 
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;
+}
 
-@media only screen and (min-width: 1130px) {
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
-
+.embed-container div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
 }

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/styles/base.css">
     <link rel="stylesheet" href="/styles/layout.css">
     <link rel="stylesheet" href="/styles/modules.css">
+    <link rel="stylesheet" href="/bower_components/flickity/dist/flickity.css" media="screen">
 
     <!-- Allen Institute favicon -->
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
@@ -28,16 +29,74 @@
         <div class="form-group">
           <label for="Main_gene_name" class="col-sm-2">Gene Name</label>
             <div class="col-sm-5">
-              <input type="text" class="form-control" id="Main_gene_name" placeholder="Gene Name" value="{{Main_gene_name}}">
+              <input type="text" class="form-control flat" id="Main_gene_name" placeholder="Gene Name" value="{{Main_gene_name}}">
             </div>
             <div class="col-sm-5">
               <span>{{Main_gene_name}}</span>
             </div>
         </div>
         <div class="form-group">
+          <label for="status" class="col-sm-2">Is the cell line available?</label>
+            <div class="col-sm-5">
+              <input type="text" class="form-control" id="status" placeholder="Yes or current status" value="{{status}}">
+            </div>
+            <div class="col-sm-5">
+              <span>{{status}}</span>
+            </div>
+        </div>
+        <div class="form-group">
+          <label for="status" class="col-sm-2">Data status</label>
+            <div class="col-sm-5">
+              <div class="checkbox">
+                <label>
+                  <input class="subpage-status" type="checkbox" id="editingdesign">Editing Design Complete
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input class="subpage-status" type="checkbox" id="genomiccharacterizations">Genomic Characterization Complete
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input class="subpage-status" type="checkbox" id="validation">Validation Complete
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input class="subpage-status" type="checkbox" id="stemcellcharacteristics">Stem cell characteristics Complete
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input class="subpage-status" type="checkbox" id="supplementaryinformation">Supplementary information Complete
+                </label>
+              </div>
+
+            </div>
+            <div class="col-sm-5">
+              <ul>
+              {{#if subpaged_status}}
+              {{#each subpaged_status}}
+                <li>{{this.id}} : {{this.done}}</li>
+                {{/each}}
+                {{/if}}
+              </ul>
+            </div>
+        </div>
+        <div class="form-group">
+          <label for="Main_protein" class="col-sm-2">Protein</label>
+            <div class="col-sm-5">
+              <input type="text" class="form-control flat" id="Main_protein" placeholder="Protein" value="{{Main_protein}}">
+            </div>
+            <div class="col-sm-5">
+              <span>{{Main_protein}}</span>
+            </div>
+        </div>
+        <div class="form-group">
           <label for="Main_gene_id" class="col-sm-2">Gene ID</label>
             <div class="col-sm-5">
-            <input type="text" class="form-control" id="Main_gene_id" placeholder="Gene ID" value="{{Main_gene_id}}">
+            <input type="text" class="form-control flat" id="Main_gene_id" placeholder="Gene ID" value="{{Main_gene_id}}">
           </div>
           <div class="col-sm-5">
             <span>{{Main_gene_id}}</span>
@@ -46,7 +105,7 @@
         <div class="form-group">
           <label for="Main_mrna_id" class="col-sm-2">mRNA ID</label>
             <div class="col-sm-5">
-            <input type="text" class="form-control" id="Main_mrna_id" placeholder="mRNA ID" value="{{Main_mrna_id}}">
+            <input type="text" class="form-control flat" id="Main_mrna_id" placeholder="mRNA ID" value="{{Main_mrna_id}}">
           </div>
           <div class="col-sm-5">
             <span>{{Main_mrna_id}}</span>
@@ -55,7 +114,7 @@
         <div class="form-group">
           <label for="Main_ensembl_id" class="col-sm-2">Ensemble ID</label>
             <div class="col-sm-5">
-            <input type="text" class="form-control" id="Main_ensembl_id" placeholder="Ensemble ID" value="{{Main_ensembl_id}}">
+            <input type="text" class="form-control flat" id="Main_ensembl_id" placeholder="Ensemble ID" value="{{Main_ensembl_id}}">
           </div>
           <div class="col-sm-5">
             <span>{{Main_ensembl_id}}</span>
@@ -64,7 +123,7 @@
         <div class="form-group">
           <label for="Main_structure" class="col-sm-2">Structure</label>
             <div class="col-sm-5">
-            <input type="text" class="form-control" id="Main_structure" placeholder="Structure" value="{{Main_structure}}">
+            <input type="text" class="form-control flat" id="Main_structure" placeholder="Structure" value="{{Main_structure}}">
           </div>
           <div class="col-sm-5">
             <span>{{Main_structure}}</span>
@@ -73,7 +132,7 @@
         <div class="form-group">
           <label for="Main_terminal_tagged" class="col-sm-2">Tag location</label>
             <div class="col-sm-5">
-            <input type="text" class="form-control" id="Main_terminal_tagged" placeholder="C or N terminus" value="{{Main_terminal_tagged}}">
+            <input type="text" class="form-control flat" id="Main_terminal_tagged" placeholder="C or N terminus" value="{{Main_terminal_tagged}}">
           </div>
           <div class="col-sm-5">
             <span>{{Main_terminal_tagged}}</span>
@@ -82,7 +141,7 @@
         <div class="form-group">
           <label for="Main_fluorescent_tag" class="col-sm-2">Fluorophore</label>
             <div class="col-sm-5">
-            <input type="text" class="form-control" id="Main_fluorescent_tag" placeholder="eg mEGFP" value="{{Main_fluorescent_tag}}">
+            <input type="text" class="form-control flat" id="Main_fluorescent_tag" placeholder="eg mEGFP" value="{{Main_fluorescent_tag}}">
           </div>
           <div class="col-sm-5">
             <span>{{Main_fluorescent_tag}}</span>
@@ -91,35 +150,82 @@
         <div class="form-group">
           <label for="Main_linker" class="col-sm-2">Linker</label>
             <div class="col-sm-5">
-            <input type="text" class="form-control" id="Main_linker" placeholder="Linker" value="{{Main_linker}}">
+            <input type="text" class="form-control flat" id="Main_linker" placeholder="Linker" value="{{Main_linker}}">
           </div>
           <div class="col-sm-5">
             <span>{{Main_linker}}</span>
           </div>
         </div>
         <div class="form-group">
+          <label for="Main_order_link" class="col-sm-2">Main Order Link</label>
+            <div class="col-sm-5">
+            <input type="text" class="form-control flat" id="Main_order_link" placeholder="Linker" value="{{Main_order_link}}">
+          </div>
+          <div class="col-sm-5">
+            <span>{{Main_order_link}}</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="Main_parental_order_link" class="col-sm-2">Parental order link</label>
+            <div class="col-sm-5">
+            <input type="text" class="form-control flat" id="Main_parental_order_link" placeholder="Linker" value="{{Main_parental_order_link}}">
+          </div>
+          <div class="col-sm-5">
+            <span>{{Main_parental_order_link}}</span>
+          </div>
+        </div>
+        <div class="form-group">
           <label for="Main_plasmid_sequence" class="col-sm-2">Plasmid Sequence</label>
             <div class="col-sm-5">
-            <input type="text" class="form-control" id="Main_plasmid_sequence" placeholder="Plasmid Sequence" value="{{Main_plasmid_sequence}}">
+            <input type="text" class="form-control flat" id="Main_plasmid_sequence" placeholder="Plasmid Sequence" value="{{Main_plasmid_sequence}}">
           </div>
           <div class="col-sm-5">
             <span>{{Main_plasmid_sequence}}</span>
           </div>
         </div>
-        <div class="form-group">
-          <label for="Main_cell_line_morphology" class="col-sm-2">Morphology Image</label>
+        <div id="media-holder">
+          {{#if Main_media}}
+          {{#each Main_media}}
+          <div class="form-group">
+            <label for="{{@key}}" class="col-sm-2">Media</label>
+              <div class="col-sm-5 media-group" id={{@key}}>
+                <div id="type">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="optionsRadios{{@key}}" id="optionsRadios1" value="movie" checked>Movie
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="optionsRadios{{@key}}" id="optionsRadios2" value="image">Image
+                    </label>
+                  </div>
+                </div>
+
+                <div class="image-group">
+                  <input type="file" class="form-control media" id="Main_cell_line_morphology_upload" placeholder="Morphology Image">
+                  <input type="text" class="form-control media_url media" id="Main_cell_line_morphology" value="{{this.link}}">
+                </div>
+
+                <div class="media-caption">
+                  <textarea type="text" class="form-control media" col=5 value="this.caption">{{this.caption}}</textarea>
+                </div>
+              </div>
             <div class="col-sm-5">
-            <input type="file" class="form-control image" id="Main_cell_line_morphology" placeholder="Morphology Image">
-            <input type="text" class="form-control" id="Main_cell_line_morphology_url" value="{{Main_cell_line_morphology_url}}">
+                <ul>
+                  <li>{{this.type}} : {{this.caption}}
+                    <img src="{{this.link}}" >
+                    <video width="320" height="240"  controls>
+                        <source src="{{this.link}}" type="video/mp4">
+                            Your browser does not support the video tag.
+                    </video>
+                  </li>
+                </ul>
+            </div>
           </div>
-          <div class="col-sm-5">
-            <img src="{{Main_cell_line_morphology_url}}" >
-            <span>{{Main_cell_line_morphology_url}}</span>
-            <video width="320" height="240" autoplay controls>
-                <source src="{{Main_cell_line_morphology_url}}" type="video/mp4">
-                    Your browser does not support the video tag.
-            </video>
-          </div>
+          {{/each}}
+          {{/if}}
+          <button class="btn btn-xs btn-warning" type="button" name="button" id="add-media">Add video or image</button>
         </div>
       </section>
       <section class="data-section" id="Editing-design-data">
@@ -127,7 +233,7 @@
         <div class="form-group">
           <label for="EditingDesign_crRNA_seq" class="col-sm-2">crRNA sequence</label>
             <div class="col-sm-5">
-            <input type="text" class="form-control" id="EditingDesign_crRNA_seq" placeholder="crRNA sequence" value="{{EditingDesign_crRNA_seq}}">
+            <input type="text" class="form-control flat" id="EditingDesign_crRNA_seq" placeholder="crRNA sequence" value="{{EditingDesign_crRNA_seq}}">
           </div>
           <div class="col-sm-5">
             <span>{{EditingDesign_crRNA_seq}}</span>
@@ -136,7 +242,7 @@
         <div class="form-group">
           <label for="EditingDesign_cas9" class="col-sm-2">Cas9</label>
             <div class="col-sm-5">
-            <input type="text" class="form-control" id="EditingDesign_cas9" placeholder="cas9" value="{{EditingDesign_cas9}}">
+            <input type="text" class="form-control flat" id="EditingDesign_cas9" placeholder="cas9" value="{{EditingDesign_cas9}}">
           </div>
           <div class="col-sm-5">
             <span>{{EditingDesign_cas9}}</span>
@@ -145,7 +251,7 @@
         <div class="form-group">
           <label for="EditingDesign_NCBI_isoform" class="col-sm-2">NCBI</label>
             <div class="col-sm-5">
-            <input type="text" class="form-control" id="EditingDesign_NCBI_isoform" placeholder="NCBI isoform" value="{{EditingDesign_NCBI_isoform}}">
+            <input type="text" class="form-control flat" id="EditingDesign_NCBI_isoform" placeholder="NCBI isoform" value="{{EditingDesign_NCBI_isoform}}">
           </div>
           <div class="col-sm-5">
             <span>{{EditingDesign_NCBI_isoform}}</span>
@@ -154,48 +260,95 @@
         <div class="form-group">
           <label for="EditingDesign_gene_figure" class="col-sm-2">Gene figure</label>
             <div class="col-sm-5">
-            <input type="file" class="form-control image" id="EditingDesign_gene_figure" placeholder="Gene figure" >
+              <input type="file" class="form-control media" id="EditingDesign_gene_figure_upload" placeholder="Gene figure">
+              <input type="text" class="form-control media_url flat" id="EditingDesign_gene_figure" value="{{EditingDesign_gene_figure}}">
           </div>
           <div class="col-sm-5">
-            <img src="{{EditingDesign_gene_figure_url}}">
-            <span>{{EditingDesign_gene_figure_url}}</span>
+            <img src="{{EditingDesign_gene_figure}}">
+            <span>{{EditingDesign_gene_figure}}</span>
           </div>
         </div>
         <div class="form-group">
-          <label for="EditingDesign_p14_fpkm" class="col-sm-2">p14 fpkm</label>
+          <label for="EditingDesign_gene_figure_caption" class="col-sm-2">Gene figure caption</label>
             <div class="col-sm-5">
-            <input type="text" class="form-control" id="EditingDesign_p14_fpkm" placeholder="p14 fpkm" value="{{EditingDesign_p14_fpkm}}">
+              <textarea type="text" class="form-control flat" id="EditingDesign_gene_figure_caption" placeholder="{{EditingDesign_gene_figure_caption}}" value="{{EditingDesign_gene_figure_caption}}" rows="3"></textarea>
           </div>
           <div class="col-sm-5">
-            <span>{{EditingDesign_p14_fpkm}}</span>
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="EditingDesign_p18_fpkm" class="col-sm-2">p18 fpkm</label>
-            <div class="col-sm-5">
-            <input type="text" class="form-control" id="EditingDesign_p18_fpkm" placeholder="p18 fpkm" value="{{EditingDesign_p18_fpkm}}">
-          </div>
-          <div class="col-sm-5">
-            <span>{{EditingDesign_p18_fpkm}}</span>
+            <span>{{EditingDesign_gene_figure_caption}}</span>
           </div>
         </div>
         <div class="form-group">
           <label for="EditingDesign_expression_figure" class="col-sm-2">Expression figure</label>
             <div class="col-sm-5">
-            <input type="file" class="form-control image" id="EditingDesign_expression_figure" placeholder="Expression figure">
-          </div>
+              <input type="file" class="form-control media" id="EditingDesign_expression_figure_upload" placeholder="Expression figure">
+              <input type="text" class="form-control media_url flat" id="EditingDesign_expression_figure" value="{{EditingDesign_expression_figure}}">
+            </div>
           <div class="col-sm-5">
-            <img src="{EditingDesign_expression_figure_url}}">
-            <span>{{EditingDesign_expression_figure_url}}</span>
+            <img src="{EditingDesign_expression_figure}}">
+            <span>{{EditingDesign_expression_figure}}</span>
           </div>
         </div>
       </section>
       <section class="data-section" id="genomic-characterization">
         <h4>Genomic Characterization</h4>
         <div class="form-group">
+          <label for="GenomicCharacterization_junction_schematic" class="col-sm-2">Junction Schematic</label>
+            <div class="col-sm-5">
+              <input type="file" class="form-control media" id="GenomicCharacterization_junction_schematic_upload" placeholder="Junction schematic">
+              <input type="text" class="form-control media_url flat" id="GenomicCharacterization_junction_schematic" value="{{GenomicCharacterization_junction_schematic}}">
+            </div>
+          <div class="col-sm-5">
+            <img src="{GenomicCharacterization_junction_schematic}}">
+            <span>{{GenomicCharacterization_junction_schematic}}</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="GenomicCharacterization_junction_schematic_caption" class="col-sm-2">Junction schematic caption</label>
+            <div class="col-sm-5">
+              <textarea type="text" class="form-control flat" id="GenomicCharacterization_junction_schematic_caption" placeholder="" value="{{GenomicCharacterization_junction_schematic_caption}}" rows="3">{{GenomicCharacterization_junction_schematic_caption}}</textarea>
+          </div>
+          <div class="col-sm-5">
+            <span>{{GenomicCharacterization_junction_schematic_caption}}</span>
+          </div>
+        </div>
+        <div class="form-group">
           <label for="GenomicCharacterization_ddpcr" class="col-sm-2">DD PCR</label>
             <div class="col-sm-5">
-            <input type="file" class="form-control spreadsheet" id="GenomicCharacterization_ddpcr" placeholder="DDPCR" >
+              <div id="GenomicCharacterization_ddpcr" placeholder="DDPCR" >
+                <label for="clone" class="col-sm-2">Clone</label>
+                <input type="text" class="form-control  nested col-sm-2" id="clone" value="{{GenomicCharacterization_ddpcr.clone}}">
+                <label for="mEGFP" class="col-sm-2">mEGFP</label>
+                <input type="text" class="form-control  nested col-sm-2" id="mEGFP" value="{{GenomicCharacterization_ddpcr.mEGFP}}">
+                <label for="plasmid" class="col-sm-2">Plasmid</label>
+                <input type="text" class="form-control  nested col-sm-2" id="plasmid" value="{{GenomicCharacterization_ddpcr.clone}}">
+              </div>
+            </div>
+          <div class="col-sm-5">
+            {{#each GenomicCharacterization_ddpcr}}
+            <ul>
+              <li>Clone: {{this.clone}}</li>
+              <li>mEGFP: {{this.mEGFP}}</li>
+              <li>Plasmid: {{this.plasmid}}</li>
+            </ul>
+            {{/each}}
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="GenomicCharacterization_ddpcr_caption" class="col-sm-2">ddPCR caption</label>
+            <div class="col-sm-5">
+              <textarea type="text" class="form-control flat" id="GenomicCharacterization_ddpcr_caption" placeholder="" value="{{GenomicCharacterization_ddpcr_caption}}" rows="3">{{GenomicCharacterization_ddpcr_caption}}</textarea>
+          </div>
+          <div class="col-sm-5">
+            <span>{{GenomicCharacterization_ddpcr_caption}}</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="GenomicCharacterization_offtargets_caption" class="col-sm-2">off targets caption</label>
+            <div class="col-sm-5">
+              <textarea type="text" class="form-control flat" id="GenomicCharacterization_offtargets_caption" placeholder="{{GenomicCharacterization_offtargets_caption}}" value="{{GenomicCharacterization_offtargets_caption}}" rows="3"></textarea>
+          </div>
+          <div class="col-sm-5">
+            <span>{{GenomicCharacterization_offtargets_caption}}</span>
           </div>
         </div>
       </section>
@@ -204,11 +357,23 @@
         <div class="form-group">
           <label for="Validation_western_blot" class="col-sm-2">Western Blot</label>
             <div class="col-sm-5">
-            <input type="file" class="form-control image" id="Validation_western_blot" placeholder="Genomic Characterization" >
+            <input type="file" class="form-control image" id="Validation_western_blot_upload" placeholder="Genomic Characterization" >
+            <input type="text" class="form-control media_url flat" id="Validation_WesternBlot" value="{{Validation_WesternBlot}}">
           </div>
           <div class="col-sm-5">
-            <img src="{{Validation_western_blot_url}}">
-            <span>{{Validation_western_blot_url}}</span>
+            <img src="{{Validation_WesternBlot}}">
+            <span>{{Validation_WesternBlot}}</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="Validation_Immunofluorescence" class="col-sm-2">Immunofluorescence</label>
+            <div class="col-sm-5">
+            <input type="file" class="form-control image" id="Validation_Immunofluorescence_upload" placeholder="Genomic Characterization" >
+            <input type="text" class="form-control media_url flat" id="Validation_Immunofluorescence" value="{{Validation_Immunofluorescence}}">
+          </div>
+          <div class="col-sm-5">
+            <img src="{{Validation_Immunofluorescence}}">
+            <span>{{Validation_Immunofluorescence}}</span>
           </div>
         </div>
       </section>
@@ -252,11 +417,47 @@
 
       <button type="submit" name="button" class="btn btn-warning">Save cell line</button>
     </script>
+    <script id="new-media-template" type="text/x-handlebars-template">
+      <div class="form-group">
+        <label for="{{@key}}" class="col-sm-2">Media</label>
+          <div class="col-sm-5 media-group" id={{@key}}>
+            <div id="type">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios{{@key}}" id="optionsRadios1" value="movie" checked>Movie
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios{{@key}}" id="optionsRadios2" value="image">Image
+                </label>
+              </div>
+            </div>
+            <div class="image-group">
+              <input type="file" class="form-control media" id="Main_cell_line_morphology_upload" placeholder="Morphology Image">
+              <input type="text" class="form-control media_url media" id="Main_cell_line_morphology" value="{{this.link}}">
+            </div>
+            <div class="media-caption">
+              <textarea type="text" class="form-control media" col=5 value="this.caption">{{this.caption}}</textarea>
+            </div>
+          </div>
+          <div class="col-sm-5">
+              <ul>
+                <li>{{this.type}} : {{this.caption}}
+                  <img src="{{this.link}}" >
+                  <video width="320" height="240"  controls>
+                      <source src="{{this.link}}" type="video/mp4">
+                          Your browser does not support the video tag.
+                  </video>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </script>
     </head>
   <body>
     <header class="new-header clearfix ">
       <div class="row">
-
         <nav class="main-nav clearfix col-sm-5">
           <section class="heading-group-h1">
             <div class="back-button">
@@ -271,7 +472,7 @@
               <div class="form-group ">
                 <label for=""></label>
                   <div class="col-sm-5">
-                    <input type="text" class="form-control" id="username" value="" placeholder="email">
+                    <input type="text" class="form-control " id="username" value="" placeholder="email">
                   </div>
                   <div class="col-sm-5">
                     <input type="password" class="form-control" id="password" value="" placeholder="password">
@@ -322,7 +523,7 @@
             <div class="form-group">
               <label for="cell_line_id" class="col-sm-2">Cell line ID</label>
                 <div class="col-sm-5">
-                  <input type="text" class="form-control" id="cell_line_id" placeholder="enter a new or exsisting ID" required>
+                  <input type="text" class="form-control flat" id="cell_line_id" placeholder="enter a new or exsisting ID" required>
                 </div>
                 <div class="col-sm-5">
                   <button type="submit" class="btn btn-warning" name="checkID" id="checkcellID">Look up cell line ID</button>
@@ -355,11 +556,13 @@
       firebase.initializeApp(config);
     </script>
     <!-- Vendor Files -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+    <script src="/vendor/scripts/jquery-2.1.4.js"></script>
+    <script src="/vendor/scripts/page.js"></script>
     <script src="/vendor/scripts/marked.js"></script>
     <script src="/vendor/scripts/handlebars.js"></script>
     <script src="/vendor/scripts/highlight.pack.js"></script>
+    <script src="/bower_components/flickity/dist/flickity.pkgd.min.js"></script>
+
     <!-- Model Files -->
     <script src="/scripts/models/cellLine.js"></script>
     <script src="/scripts/models/cellLineFB.js"></script>
@@ -367,6 +570,9 @@
 
     <!-- View Files -->
     <script src="/scripts/views/newCellLineView.js"></script>
+
+
+    <!-- Controller files: -->
 
    </body>
 </html>

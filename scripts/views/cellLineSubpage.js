@@ -1,6 +1,5 @@
 (function(module) {
 
-
   var cellLineProfileView = {};
 
   cellLineProfileView.disableLinks = function(){
@@ -8,8 +7,8 @@
       e.preventDefault();
       console.log('disabled');
       return false;
-    })
-  }
+    });
+  };
 
   cellLineProfileView.checkforData = function(cellLine){
     if (cellLine.Main_media.length > 0) {
@@ -37,17 +36,22 @@
         $('#' + a.id).removeClass('active');
 
       }
-    })
+    });
   };
 
   cellLineProfileView.gallery = function() {
     $('#gallery-thumbnails').on('click', '.morphology-thumbnail', function(e) {
+      e.stopPropagation();
       e.preventDefault();
       $('.morphology-main').empty();
-      $('.morphology-main').append($(this).find('.toappend').clone().attr('controls', '').attr('autoplay',''));
-      $('.morphology-main').append($(this).find('.caption').clone());
+      var $fullscreen = $('.morphology-main').append($(this).find('.toappend').clone());
+      $fullscreen.find('.blocker').detach();
+      var $src = $fullscreen.find('iframe').attr('src');
+      $fullscreen.find('iframe').attr('src', $src + '?autoplay=1&loop=1&byline=0')
+      $('.morphology-main').append($(this).find('.caption-container').clone().removeClass('hidden'));
       $(this).parents().find('.active').removeClass('active');
       $(this).addClass('active');
+      $('#tab_editingdesign a').click();
     });
   };
 
@@ -55,29 +59,23 @@
     $('.morphology-main').empty();
     $('#gallery-thumbnails').empty();
 
-    if (cellLine.Main_media[0].type === "movie") {
-      console.log('movie', cellLine.Main_media[0]);
-      $('.morphology-main').append(cellLine.nestedToHtml($('#gallery-main-movie-template'), cellLine.Main_media[0]))
+    if (cellLine.Main_media[0].type === 'movie') {
+      $('.morphology-main').append(cellLine.nestedToHtml($('#gallery-main-movie-template'), cellLine.Main_media[0]));
     }
-    else if (cellLine.Main_media[0].type ==="image") {
-      console.log('image', cellLine.Main_media[0]);
-      $('.morphology-main').append(cellLine.nestedToHtml($('#gallery-main-image-template'), cellLine.Main_media[0]))
+    else if (cellLine.Main_media[0].type ==='image') {
+      $('.morphology-main').append(cellLine.nestedToHtml($('#gallery-main-image-template'), cellLine.Main_media[0]));
 
     }
     cellLine.Main_media.forEach(function(a){
-      if (a.type === "movie") {
-        console.log('movie', a);
-        $('#gallery-thumbnails').append(cellLine.nestedToHtml($('#movie-thumbnail-template'), a))
+      if (a.type === 'movie') {
+        $('#gallery-thumbnails').append(cellLine.nestedToHtml($('#movie-thumbnail-template'), a));
       }
-      else if (a.type ==="image") {
-        console.log('image', a);
-        $('#gallery-thumbnails').append(cellLine.nestedToHtml($('#image-thumbnail-template'), a))
+      else if (a.type ==='image') {
+        $('#gallery-thumbnails').append(cellLine.nestedToHtml($('#image-thumbnail-template'), a));
 
       }
-    })
-  }
-
-
+    });
+  };
 
   cellLineProfileView.RenderProfile = function(cellLine) {
     $('#cellline-info').children().remove();
@@ -97,6 +95,7 @@
           $('#off-target-table').append(cellLine.nestedToHtml($('#offTargets-template'), a ));
         });
       }
+
       $('#validation').append(cellLine.toHtml($('#validation-template')));
       $('#stemcellcharacteristics').append(cellLine.toHtml($('#stemcellcharacteristics-template')));
       if (typeof(cellLine['StemCellCharacterization_pluripotency_analysis'])!=='string') {
@@ -104,7 +103,13 @@
           $('#pluripotent-table-body').append(cellLine.nestedToHtml($('#pluripotent-template'), a ));
         });
       }
+      if (typeof(cellLine['StemCellCharacterization_trilineage']) !=='string') {
+        cellLine['StemCellCharacterization_trilineage'].forEach(function(a){
+          $('#trilineage-table-body').append(cellLine.nestedToHtml($('#trilineage-template'), a ));
+        });
+      }
       $('#supplementaryinformation').append(cellLine.toHtml($('#supplementaryinformation-template')));
+      $('#protocols').append(cellLine.toHtml($('#protocols-template')));
       // cellLineProfileView.goBack();
       cellLineProfileView.gallery();
       $('#cell-collection-banner').show();

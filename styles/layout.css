@@ -12,14 +12,11 @@
 
 .btn{
   font-weight:700;
+  margin-bottom: 10px;
 }
 
-.main-gene-id-header{
-  min-width: 70px;
-}
-
-#main{
-  text-align: center;
+.bg-lightgray{
+  background-color: #f2f2f2
 }
 
 .btn-warning:hover{
@@ -34,17 +31,36 @@
   clear: both;
 }
 
-.heading-group-h1 {
-  max-width: 80%;
+.text-success{
+  color: #bad636
 }
 
-.site-logo::before{
-  b
+.text-info{
+  color: #003056
+}
 
+/*Header
+=======================================*/
+.heading-group-h1 {
+  max-width: 80%;
+  float: left;
+  padding: 0 0 .2em 1em;
+}
+
+.heading-group-h1 a{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    float: left;
+    vertical-align: middle;
+    overflow: hidden;
+    width: 20rem;
+    height: 80px;
+    margin-left: 20px;
 }
 
 .logo{
-    background-image: url('/images/logo_CS_header.png')  ;
+    background-image: url('/images/logo_CS_header.png');
     content: '';
     vertical-align: middle;
     display: inline-block;
@@ -61,39 +77,53 @@
   margin-bottom: 40px;
 }
 
-.thumbnail{
-}
-.thirtypercent .morphology-thumbnail.active{
-  opacity: 0.7;
-}
-
-.thirtypercent .morphology-thumbnail:hover{
-  opacity: 0.7;
+#cell-collection-banner{
+  background-color: #413B54;
+  color:#eee;
 }
 
-.heading-group-h1 a{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    float: left;
-    vertical-align: middle;
-    overflow: hidden;
-    width: 20rem;
-    height: 80px;
-    margin-left: 20px;
+.navbar{
+  margin-bottom: 0;
 }
 
-.sub-page-tab{
-  font-weight: bold;
-  font-size: 16px;
+.main-nav ul {
+  display: none;
+  padding: 0;
+  margin-right: 30px;
+  list-style: none;
+  clear: both;
 }
 
-.sub-page-tab a{
+.main-nav:hover ul {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+}
+
+.main-nav li {
+  margin-right: .4em;
+  font-size: 1.5em;
+  padding: .5em .2em;
+  border-bottom: 1px solid #ccc;
+}
+.nav>li.disabled>a:hover, .nav>li.disabled>a:focus{
   background-color: #eee;
 }
 
-#cellline-info{
-  margin-bottom: 40px;
+/*Home section
+=======================================*/
+#main{
+  text-align: center;
+  margin-top: 10em;
+  margin-bottom: 30em;
+}
+
+/*Table
+=======================================*/
+.main-gene-id-header{
+  min-width: 70px;
 }
 
 #filters select {
@@ -101,13 +131,20 @@
   margin: .2em 5%;
 }
 
-footer{
-  text-align: center;
-  font-size: .5em;
-  border-top: 2px gray solid;
-  width: 80%;
-  margin: auto;
-  margin-top: 200px;
+#filters {
+  padding: 0;
+  list-style: none;
+}
+
+.table-head{
+  /*background-color: #D5DED9;*/
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#in_progress{
+  margin-top: 50px;
 }
 
 .table-cell-line-id{
@@ -118,10 +155,6 @@ footer{
   min-width: 104px;
 }
 
-.tab-section{
-  display: none;
-}
-
 #cell-line-table {
   width: 70%;
 }
@@ -129,51 +162,30 @@ footer{
 #cell-line-table td{
 }
 
-.cellline:hover{
-  /*background-color: gray;
-  color: white;*/
-}
-
-.cellline-info{
-  width:40%;
-  box-sizing: border-box;
-  display: inline-block;
-}
-
-.profile-image{
-  display: inline-block;
-
-}
-.table-head{
-  /*background-color: #D5DED9;*/
-  font-size: 1.2em;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.text-success{
-  color: #bad636
-}
-
-.text-info{
-  color: #003056
-}
-
 .table-title{
   margin-bottom: 0.5em;
 }
 
-.nav>li.disabled>a:hover, .nav>li.disabled>a:focus{
-  background-color: #eee;
-}
+/*FOOTER
+=======================================*/
 
-#in_progress{
-  margin-top: 50px;
+footer{
+  text-align: center;
+  font-size: .8em;
+  margin: auto;
+  margin-top: 200px;
+  background-color: #5b5460;
+  height: 14em;
+  color:#eee;
+  padding: 20px;
 }
 
 .caption-holder{
   padding:10px;
 }
+
+/*MEDIA
+=======================================*/
 
 @media only screen and (min-width: 640px) {
   .heading-group-h1 {

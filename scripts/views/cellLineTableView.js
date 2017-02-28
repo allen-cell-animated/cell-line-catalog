@@ -45,16 +45,16 @@
       };}).get().filter(function(ele){
         return ele.value !== '';
       });
-      if (filters.length> 0) {
-        url = filters.reduce(function(acc, cur){
-          acc.push('/' + cur.filter + '/' +cur.value);
-          return acc;
-        },[]);
-        page('/filter' + url.join(''));
-      }
-      else{
-        page('/cell-line-catalog')
-      }
+    if (filters.length> 0) {
+      url = filters.reduce(function(acc, cur){
+        acc.push('/' + cur.filter + '/' +cur.value);
+        return acc;
+      },[]);
+      page('/filter' + url.join(''));
+    }
+    else{
+      page('/cell-line-catalog');
+    }
 
 
   };
@@ -93,6 +93,7 @@
     $('#cell-line-list').show();
     $('#cell-line-catalog-nav').addClass('active');
     $('#home').removeClass('active');
+    $('.sub-page-tab.active').removeClass('active');
     $('#main').hide();
     if ($('select').find('.options').length ===0) {
       cellListView.filters.forEach(function(filter){
@@ -110,7 +111,6 @@
   cellListView.renderMainPage = function(){
     $('#cellline-profile').hide();
     $('#cell-collection-banner').hide();
-
     $('#cell-line-list').hide();
     $('#cell-line-table').children().remove();
     $('#main').show();
