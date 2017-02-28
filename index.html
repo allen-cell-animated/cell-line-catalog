@@ -520,20 +520,47 @@
       </tr>
     </script>
 
-    <!-- supplementaryinformation template --------------->
-    <script id="supplementaryinformation-template" type="text/x-handlebars-template">
-<!--      <div class="row">
-        <div class="col-sm-12">
-          <div class="acknowledgements">
-            <div class="">
-              <h4>Acknowledgements</h4>
+    <!-- protocols template --------------->
+    <script id="protocols-template" type="text/x-handlebars-template">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="panel panel-primary bg-lightgray">
+            <div class="panel-heading">
+              <h4>Cell Culture</h4>
             </div>
-            <div class="">
+            <div class="panel-body">
+              <ul id=editingDesign-info class="list-group">
+                <li class="list-group-item">
+                  <span class="profile-summary-key"><a href='{{Protocols_culturing}}'
+                    download="AICS_WTC_cell_culture_protocol.pdf">WTC cell culture protocol</a></span></li>
+                <li class="list-group-item">
+                  <span class="profile-summary-key"><a href='{{Protocols_imaging}}'
+                    download="AICS_WTC_plating_on_glass_for_imaging.pdf">WTC plating on glass for imaging protocol</a></span></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="panel panel-primary bg-lightgray">
+            <div class="panel-heading">
+              <h4>Gene Editing</h4>
+            </div>
+            <div class="panel-body">
+              <ul id=editingDesign-info class="list-group">
+                <li class="list-group-item">
+                  <a href='{{Protocols_transfection}}'
+download="AICS_transfection_protocol.pdf">WTC transfection protocol</a></li>
+              </ul>
             </div>
           </div>
         </div>
-      </div> -->
-      <div class="row">
+      </div>
+    </script>
+
+    <!-- supplementaryinformation template --------------->
+    <script id="supplementaryinformation-template" type="text/x-handlebars-template">
+      <!-- <div class="row">
             <div class="col-sm-6">
               <div class="panel panel-primary bg-lightgray">
                 <div class="panel-heading">
@@ -544,32 +571,26 @@
                     <li class="list-group-item">
                       <span class="profile-summary-key">Cell Culture</span>
                       <a href='{{Supplementary_cell_culture_link}}' download="Cell_culture_protocol.pdf">Download cell culture protocol</a></li>
-                    <!-- <li class="list-group-item">
-                      <span class="profile-summary-key">Transfection</span>
-                      <span>R: NNNNNN</span></li>
-                    <li class="list-group-item">
-                      <span class="profile-summary-key">ddPCR</span>
-                      <span></span></li> -->
                   </ul>
                 </div>
               </div>
             </div>
-      </div>
+      </div> -->
       <div class="row">
-            <div class="col-sm-6">
-              <div class="panel panel-primary bg-lightgray">
-                <div class="panel-heading">
-                  <h4>Acknowledgements</h4>
-                </div>
-                <div class="panel-body">
-                  <ul id=editingDesign-info class="list-group">
-                    <li class="list-group-item">
-                      <a href='{{Supplementary_acknowledgements}}' download="Allen_Cell_Collection_Acknowledgements.pdf">Allen Cell Collection Acknowledgements</a></li>
-                  </ul>
-                </div>
-              </div>
+        <div class="col-sm-6">
+          <div class="panel panel-primary bg-lightgray">
+            <div class="panel-heading">
+              <h4>Acknowledgements</h4>
             </div>
-      </div>
+            <div class="panel-body">
+              <ul id=editingDesign-info class="list-group">
+                <li class="list-group-item">
+                  <a href='{{Supplementary_acknowledgements}}' download="Allen_Cell_Collection_Acknowledgements.pdf">Allen Cell Collection Acknowledgements</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> 
     </script>
   </head>
 <!-- BODY START -->
@@ -755,6 +776,8 @@
                 <a data-toggle="tab" href="#validation">Cellular Validation</a></li>
               <li id="tab_stemcellcharacteristics" class="sub-page-tab disabled">
                 <a data-toggle="tab"  href="#stemcellcharacteristics">Stem Cell Characteristics</a></li>
+              <li id="tab_protocols" class="sub-page-tab disabled">
+                <a data-toggle="tab" href="#protocols">Protocols</a></li>
               <li id="tab_supplementaryinformation" class="sub-page-tab disabled">
                 <a data-toggle="tab" href="#supplementaryinformation">Supplementary Information</a></li>
             </ul>
@@ -770,6 +793,9 @@
 
           </div>
           <div class="tab-pane subpage-tab container" id="stemcellcharacteristics" role="tabpanel">
+
+          </div>
+          <div class="tab-pane subpage-tab container" id="protocols" role="tabpanel">
 
           </div>
           <div class="tab-pane subpage-tab container" id="supplementaryinformation" role="tabpanel">
