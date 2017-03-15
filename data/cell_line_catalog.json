@@ -1252,7 +1252,14 @@
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
     "GenomicCharacterization_ddpcr": "N",
     "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene",
-    "GenomicCharacterization_offtargets": "N",
+    "GenomicCharacterization_offtargets": [
+                                          	{
+                                          		"clonesAnalyzed": "5",
+                                          		"off-targetsSequenced": "6",
+                                          		"sitesSequenced": "30",
+                                          		"mutationsIdentified": "0"
+                                          	}
+                                          ],
     "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing; crRNA used to edit ACTB has only 6 predicted off-targets after filtering",
     "Validation_WesternBlot": "/images/AICS-0016/Western blot documentation ACTB final clone only_final.jpg",
     "Validation_Immunofluorescence": "/images/AICS-0016/Beta actin clone 184 and AICS000 012017.jpg",
@@ -1365,7 +1372,14 @@
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
     "GenomicCharacterization_ddpcr": "N",
     "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene",
-    "GenomicCharacterization_offtargets": "N",
+    "GenomicCharacterization_offtargets": [
+                                          	{
+                                          		"clonesAnalyzed": "2",
+                                          		"off-targetsSequenced": "12",
+                                          		"sitesSequenced": "24",
+                                          		"mutationsIdentified": "0"
+                                          	}
+                                          ],
     "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
     "StemCellCharacterization_karyotype": "/images/AICS-0010/SEC61B_cl.55.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 20 G-banded metaphase cells were karyotyped.",
@@ -1485,7 +1499,14 @@
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
     "GenomicCharacterization_ddpcr": "N",
     "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene",
-    "GenomicCharacterization_offtargets": "N",
+    "GenomicCharacterization_offtargets": [
+                                          	{
+                                          		"clonesAnalyzed": "2",
+                                          		"off-targetsSequenced": "10",
+                                          		"sitesSequenced": "20",
+                                          		"mutationsIdentified": "0"
+                                          	}
+                                          ],
     "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
     "Validation_WesternBlot": "/images/AICS-0014/Western blot documentation FBL final clone only_final.jpg",
     "Validation_Immunofluorescence": "/images/AICS-0014/Fibrillarin clone 6 and AICS000 031417.jpg",
@@ -1613,7 +1634,14 @@
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
     "GenomicCharacterization_ddpcr": "N",
     "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene",
-    "GenomicCharacterization_offtargets": "N",
+    "GenomicCharacterization_offtargets": [
+                                          	{
+                                          		"clonesAnalyzed": "4",
+                                          		"off-targetsSequenced": "10",
+                                          		"sitesSequenced": "40",
+                                          		"mutationsIdentified": "0"
+                                          	}
+                                          ],
     "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
     "Validation_WesternBlot": "/images/AICS-0024/Western blot documentation MYH10 final clone only_final.jpg",
     "Validation_Immunofluorescence": "/images/AICS-0024/myosin clone 80 and AICS000 031017.jpg",
@@ -1899,7 +1927,14 @@
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
     "GenomicCharacterization_ddpcr": "N",
     "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene",
-    "GenomicCharacterization_offtargets": "N",
+    "GenomicCharacterization_offtargets": [
+                                          	{
+                                          		"clonesAnalyzed": "3",
+                                          		"off-targetsSequenced": "7",
+                                          		"sitesSequenced": "21",
+                                          		"mutationsIdentified": "0"
+                                          	}
+                                          ],
     "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
     "Validation_WesternBlot": "/images/AICS-0023/Western blot documentation TJP1 final clone only_final.jpg",
     "Validation_Immunofluorescence": "/images/AICS-0023/TJP1 clone 20 and AICS000 031017.jpg",
