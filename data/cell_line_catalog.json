@@ -1249,8 +1249,14 @@
     "GenomicCharacterization_sequences_link_caption": "N",
     "GenomicCharacterization_tagged_allele_gel": "N",
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
-    "GenomicCharacterization_ddpcr": "N",
-    "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene",
+    "GenomicCharacterization_ddpcr": [
+                                        {
+                                          "clone": "cl184",
+                                          "mEGFP": 0.52,
+                                          "plasmid": 0.01 
+                                        }
+                                      ],
+    "GenomicCharacterization_ddpcr_caption": "EGFP: EGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": [
                                           	{
                                           		"clonesAnalyzed": "5",
@@ -1260,6 +1266,29 @@
                                           	}
                                           ],
     "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing; crRNA used to edit ACTB has only 6 predicted off-targets after filtering",
+    "GenomicCharacterization_junction_table": [
+                                                {
+                                                  "junction": "5'",
+                                                  "expected_size": 1414,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "3'",
+                                                  "expected_size": 1935,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "WT internal",
+                                                  "expected_size": 794,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "Full junctional allele",
+                                                  "expected_size": "Tagged:; Untagged:",
+                                                  "confirmed_sequence": ""
+                                                }
+                                            ],
+    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise EGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "Validation_WesternBlot": "/images/AICS-0016/Western blot documentation ACTB final clone only_final.jpg",
     "Validation_Immunofluorescence": "/images/AICS-0016/Beta actin clone 184 and AICS000 012017.jpg",
     "StemCellCharacterization_pluripotency_analysis": "N",
@@ -1372,8 +1401,14 @@
     "GenomicCharacterization_sequences_link_caption": "N",
     "GenomicCharacterization_tagged_allele_gel": "N",
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
-    "GenomicCharacterization_ddpcr": "N",
-    "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene",
+    "GenomicCharacterization_ddpcr": [
+                                        {
+                                          "clone": "cl55",
+                                          "mEGFP": 0.47,
+                                          "plasmid": 0
+                                        }
+                                      ],
+    "GenomicCharacterization_ddpcr_caption": "EGFP: EGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": [
                                           	{
                                           		"clonesAnalyzed": "2",
@@ -1383,6 +1418,29 @@
                                           	}
                                           ],
     "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
+    "GenomicCharacterization_junction_table": [
+                                                {
+                                                  "junction": "5'",
+                                                  "expected_size": 1500,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "3'",
+                                                  "expected_size": 1803,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "WT internal",
+                                                  "expected_size": 810,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "Full junctional allele",
+                                                  "expected_size": "Tagged:; Untagged:",
+                                                  "confirmed_sequence": ""
+                                                }
+                                            ],
+    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise EGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "StemCellCharacterization_karyotype": "/images/AICS-0010/SEC61B_cl.55.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 20 G-banded metaphase cells were karyotyped.",
     "Validation_WesternBlot": "/images/AICS-0010/Western blot documentation SEC61B final clone only_final.jpg",
@@ -1502,8 +1560,14 @@
     "GenomicCharacterization_sequences_link_caption": "N",
     "GenomicCharacterization_tagged_allele_gel": "N",
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
-    "GenomicCharacterization_ddpcr": "N",
-    "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene",
+    "GenomicCharacterization_ddpcr": [
+                                        {
+                                          "clone": "cl6",
+                                          "mEGFP": 0.49,
+                                          "plasmid": 0
+                                        }
+                                      ],
+    "GenomicCharacterization_ddpcr_caption": "EGFP: EGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": [
                                           	{
                                           		"clonesAnalyzed": "2",
@@ -1513,6 +1577,29 @@
                                           	}
                                           ],
     "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
+    "GenomicCharacterization_junction_table": [
+                                                {
+                                                  "junction": "5'",
+                                                  "expected_size": 1560,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "3'",
+                                                  "expected_size": 1754,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "WT internal",
+                                                  "expected_size": 671,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "Full junctional allele",
+                                                  "expected_size": "Tagged:; Untagged:",
+                                                  "confirmed_sequence": ""
+                                                }
+                                            ],
+    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise EGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "Validation_WesternBlot": "/images/AICS-0014/Western blot documentation FBL final clone only_final.jpg",
     "Validation_Immunofluorescence": "/images/AICS-0014/Fibrillarin clone 6 and AICS000 031417.jpg",
     "StemCellCharacterization_pluripotency_analysis": "N",
@@ -1640,8 +1727,14 @@
     "GenomicCharacterization_sequences_link_caption": "N",
     "GenomicCharacterization_tagged_allele_gel": "N",
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
-    "GenomicCharacterization_ddpcr": "N",
-    "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene",
+    "GenomicCharacterization_ddpcr": [
+                                        {
+                                          "clone": "cl80",
+                                          "mEGFP": 0.51,
+                                          "plasmid": 0
+                                        }
+                                      ],
+    "GenomicCharacterization_ddpcr_caption": "EGFP: EGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": [
                                           	{
                                           		"clonesAnalyzed": "4",
@@ -1651,6 +1744,29 @@
                                           	}
                                           ],
     "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
+    "GenomicCharacterization_junction_table": [
+                                                {
+                                                  "junction": "5'",
+                                                  "expected_size": 1635,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "3'",
+                                                  "expected_size": 1719,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "WT internal",
+                                                  "expected_size": 818,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "Full junctional allele",
+                                                  "expected_size": "Tagged:; Untagged:",
+                                                  "confirmed_sequence": ""
+                                                }
+                                            ],
+    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise EGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "Validation_WesternBlot": "/images/AICS-0024/Western blot documentation MYH10 final clone only_final.jpg",
     "Validation_Immunofluorescence": "/images/AICS-0024/myosin clone 80 and AICS000 031017.jpg",
     "StemCellCharacterization_pluripotency_analysis": "N",
@@ -1936,8 +2052,14 @@
     "GenomicCharacterization_sequences_link_caption": "N",
     "GenomicCharacterization_tagged_allele_gel": "N",
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
-    "GenomicCharacterization_ddpcr": "N",
-    "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene",
+    "GenomicCharacterization_ddpcr": [
+                                        {
+                                          "clone": "cl20",
+                                          "mEGFP": 0.1,
+                                          "plasmid": 0
+                                        }
+                                      ],
+    "GenomicCharacterization_ddpcr_caption": "EGFP: EGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": [
                                           	{
                                           		"clonesAnalyzed": "3",
@@ -1947,6 +2069,29 @@
                                           	}
                                           ],
     "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
+    "GenomicCharacterization_junction_table": [
+                                                {
+                                                  "junction": "5'",
+                                                  "expected_size": 1445,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "3'",
+                                                  "expected_size": 1876,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "WT internal",
+                                                  "expected_size": 453,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "Full junctional allele",
+                                                  "expected_size": "Tagged:; Untagged:",
+                                                  "confirmed_sequence": ""
+                                                }
+                                            ],
+    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise EGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "Validation_WesternBlot": "/images/AICS-0023/Western blot documentation TJP1 final clone only_final.jpg",
     "Validation_Immunofluorescence": "/images/AICS-0023/TJP1 clone 20 and AICS000 031017.jpg",
     "StemCellCharacterization_pluripotency_analysis": "N",
