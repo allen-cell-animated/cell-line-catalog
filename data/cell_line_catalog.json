@@ -186,12 +186,7 @@
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0005/StemCellCharacterization_rnaseq_fig.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. PXN-EGFP samples are from two independent clones.",
-    "Supplementary_cell_culture_link": "/data/pdfs/AICS-012/Supplementary_cell_culture_link.pdf",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Supplementary_transfection_link": "",
-    "Supplementary_ddPCR_link": "",
-    "Supplementary_primers_link": "",
-    "Supplementary_offtargets_link": "",
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
     "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf"
@@ -1183,6 +1178,10 @@
       {
         "id": "supplementaryinformation",
         "done": "true"
+      },
+      {
+        "id": "protocols",
+        "done": "true"
       }
     ],
     "Main_media":[
@@ -1273,11 +1272,10 @@
     "StemCellCharacterization_differentiation_caption": "N",
     "StemCellCharacterization_rnaseq_fig": "N",
     "StemCellCharacterization_rnaseq_fig_caption": "N",
-    "Supplementary_cell_culture_link": "N",
-    "Supplementary_transfection_link": "N",
-    "Supplementary_ddPCR_link": "N",
-    "Supplementary_primers_link": "N",
-    "Supplementary_offtargets_link": "N"
+    "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
+    "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
+    "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
+    "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf"
   },
   {
     "cell_line_id": "AICS-0010",
@@ -1301,6 +1299,10 @@
       },
       {
         "id": "supplementaryinformation",
+        "done": "true"
+      },
+      {
+        "id": "protocols",
         "done": "true"
       }
     ],
@@ -1393,11 +1395,10 @@
     "StemCellCharacterization_differentiation_caption": "N",
     "StemCellCharacterization_rnaseq_fig": "N",
     "StemCellCharacterization_rnaseq_fig_caption": "N",
-    "Supplementary_cell_culture_link": "N",
-    "Supplementary_transfection_link": "N",
-    "Supplementary_ddPCR_link": "N",
-    "Supplementary_primers_link": "N",
-    "Supplementary_offtargets_link": "N"
+    "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
+    "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
+    "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
+    "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf"
   },
   {
     "cell_line_id": "AICS-0014",
@@ -1421,6 +1422,10 @@
       },
       {
         "id": "supplementaryinformation",
+        "done": "true"
+      },
+      {
+        "id": "protocols",
         "done": "true"
       }
     ],
@@ -1520,11 +1525,10 @@
     "StemCellCharacterization_differentiation_caption": "N",
     "StemCellCharacterization_rnaseq_fig": "N",
     "StemCellCharacterization_rnaseq_fig_caption": "N",
-    "Supplementary_cell_culture_link": "N",
-    "Supplementary_transfection_link": "N",
-    "Supplementary_ddPCR_link": "N",
-    "Supplementary_primers_link": "N",
-    "Supplementary_offtargets_link": "N"
+    "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
+    "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
+    "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
+    "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf"
   },
   {
     "cell_line_id": "AICS-0024",
@@ -1548,6 +1552,10 @@
       },
       {
         "id": "supplementaryinformation",
+        "done": "true"
+      },
+      {
+        "id": "protocols",
         "done": "true"
       }
     ],
@@ -1655,11 +1663,10 @@
     "StemCellCharacterization_differentiation_caption": "N",
     "StemCellCharacterization_rnaseq_fig": "N",
     "StemCellCharacterization_rnaseq_fig_caption": "N",
-    "Supplementary_cell_culture_link": "N",
-    "Supplementary_transfection_link": "N",
-    "Supplementary_ddPCR_link": "N",
-    "Supplementary_primers_link": "N",
-    "Supplementary_offtargets_link": "N"
+    "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
+    "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
+    "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
+    "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf"
   },
   {
     "cell_line_id": "AICS-0032",
@@ -1850,6 +1857,10 @@
       {
         "id": "supplementaryinformation",
         "done": "true"
+      },
+      {
+        "id": "protocols",
+        "done": "true"
       }
     ],
     "Main_media":[
@@ -1948,11 +1959,10 @@
     "StemCellCharacterization_differentiation_caption": "N",
     "StemCellCharacterization_rnaseq_fig": "N",
     "StemCellCharacterization_rnaseq_fig_caption": "N",
-    "Supplementary_cell_culture_link": "N",
-    "Supplementary_transfection_link": "N",
-    "Supplementary_ddPCR_link": "N",
-    "Supplementary_primers_link": "N",
-    "Supplementary_offtargets_link": "N"
+    "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
+    "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
+    "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
+    "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf"
   },
   {
     "cell_line_id": "AICS-0030",
