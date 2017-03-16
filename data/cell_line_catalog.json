@@ -1244,7 +1244,6 @@
     "EditingDesign_gene_figure": "/images/AICS-0016/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: ACTB locus; Bottom: Zoom in on mEGFP insertion site at ACTB N-terminal exon",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
-    "GenomicCharacterization_junction_schematic_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "GenomicCharacterization_sequences_link": "N",
     "GenomicCharacterization_sequences_link_caption": "N",
     "GenomicCharacterization_tagged_allele_gel": "N",
@@ -1256,7 +1255,7 @@
                                           "plasmid": 0.01 
                                         }
                                       ],
-    "GenomicCharacterization_ddpcr_caption": "EGFP: EGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
+    "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": [
                                           	{
                                           		"clonesAnalyzed": "5",
@@ -1288,7 +1287,7 @@
                                                   "confirmed_sequence": ""
                                                 }
                                             ],
-    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise EGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
+    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "Validation_WesternBlot": "/images/AICS-0016/Western blot documentation ACTB final clone only_final.jpg",
     "Validation_Immunofluorescence": "/images/AICS-0016/Beta actin clone 184 and AICS000 012017.jpg",
     "StemCellCharacterization_pluripotency_analysis": "N",
@@ -1396,7 +1395,6 @@
     "EditingDesign_gene_figure": "/images/AICS-0010/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: SEC61B locus; Bottom: Zoom in on mEGFP insertion site at SEC61B N-terminal exon",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
-    "GenomicCharacterization_junction_schematic_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "GenomicCharacterization_sequences_link": "N",
     "GenomicCharacterization_sequences_link_caption": "N",
     "GenomicCharacterization_tagged_allele_gel": "N",
@@ -1408,7 +1406,7 @@
                                           "plasmid": 0
                                         }
                                       ],
-    "GenomicCharacterization_ddpcr_caption": "EGFP: EGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
+    "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": [
                                           	{
                                           		"clonesAnalyzed": "2",
@@ -1440,7 +1438,7 @@
                                                   "confirmed_sequence": ""
                                                 }
                                             ],
-    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise EGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
+    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "StemCellCharacterization_karyotype": "/images/AICS-0010/SEC61B_cl.55.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 20 G-banded metaphase cells were karyotyped.",
     "Validation_WesternBlot": "/images/AICS-0010/Western blot documentation SEC61B final clone only_final.jpg",
@@ -1555,7 +1553,6 @@
     "EditingDesign_gene_figure": "/images/AICS-0014/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: FBL locus; Bottom: Zoom in on mEGFP insertion site at FBL C-terminal exon",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
-    "GenomicCharacterization_junction_schematic_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "GenomicCharacterization_sequences_link": "N",
     "GenomicCharacterization_sequences_link_caption": "N",
     "GenomicCharacterization_tagged_allele_gel": "N",
@@ -1567,7 +1564,7 @@
                                           "plasmid": 0
                                         }
                                       ],
-    "GenomicCharacterization_ddpcr_caption": "EGFP: EGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
+    "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": [
                                           	{
                                           		"clonesAnalyzed": "2",
@@ -1599,7 +1596,7 @@
                                                   "confirmed_sequence": ""
                                                 }
                                             ],
-    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise EGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
+    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "Validation_WesternBlot": "/images/AICS-0014/Western blot documentation FBL final clone only_final.jpg",
     "Validation_Immunofluorescence": "/images/AICS-0014/Fibrillarin clone 6 and AICS000 031417.jpg",
     "StemCellCharacterization_pluripotency_analysis": "N",
@@ -1722,7 +1719,6 @@
     "EditingDesign_gene_figure": "/images/AICS-0024/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: MYH10 locus showing 3 MYH10 isoforms; Bottom: Zoom in on mEGFP insertion site at MYH10 N-terminal exon",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
-    "GenomicCharacterization_junction_schematic_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "GenomicCharacterization_sequences_link": "N",
     "GenomicCharacterization_sequences_link_caption": "N",
     "GenomicCharacterization_tagged_allele_gel": "N",
@@ -1734,7 +1730,7 @@
                                           "plasmid": 0
                                         }
                                       ],
-    "GenomicCharacterization_ddpcr_caption": "EGFP: EGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
+    "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": [
                                           	{
                                           		"clonesAnalyzed": "4",
@@ -1766,7 +1762,7 @@
                                                   "confirmed_sequence": ""
                                                 }
                                             ],
-    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise EGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
+    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "Validation_WesternBlot": "/images/AICS-0024/Western blot documentation MYH10 final clone only_final.jpg",
     "Validation_Immunofluorescence": "/images/AICS-0024/myosin clone 80 and AICS000 031017.jpg",
     "StemCellCharacterization_pluripotency_analysis": "N",
@@ -2047,7 +2043,6 @@
     "EditingDesign_gene_figure": "/images/AICS-0023/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: TJP1 locus showing 4 TJP1  isoforms; Bottom: Zoom in on mEGFP insertion site at TJP1 N-terminal exon",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
-    "GenomicCharacterization_junction_schematic_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "GenomicCharacterization_sequences_link": "N",
     "GenomicCharacterization_sequences_link_caption": "N",
     "GenomicCharacterization_tagged_allele_gel": "N",
@@ -2059,7 +2054,7 @@
                                           "plasmid": 0
                                         }
                                       ],
-    "GenomicCharacterization_ddpcr_caption": "EGFP: EGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
+    "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": [
                                           	{
                                           		"clonesAnalyzed": "3",
@@ -2091,7 +2086,7 @@
                                                   "confirmed_sequence": ""
                                                 }
                                             ],
-    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise EGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
+    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "Validation_WesternBlot": "/images/AICS-0023/Western blot documentation TJP1 final clone only_final.jpg",
     "Validation_Immunofluorescence": "/images/AICS-0023/TJP1 clone 20 and AICS000 031017.jpg",
     "StemCellCharacterization_pluripotency_analysis": "N",
