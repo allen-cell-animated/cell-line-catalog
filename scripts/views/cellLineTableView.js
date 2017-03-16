@@ -77,7 +77,7 @@
 
   cellListView.drawTable = function(celllines) {
     celllines.forEach(function(a) {
-      if (a.status === 'Yes') {
+      if (a.status === 'Yes' || a.status === 'No') {
         $('#cell-line-table').append(a.toHtml($('#cellList-template')));
       }
       else {

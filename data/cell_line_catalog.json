@@ -1157,7 +1157,7 @@
   },
   {
     "cell_line_id": "AICS-0016",
-    "status": "Yes",
+    "status": "No",
     "Main_data_available": "April 2017",
     "subpaged_status": [
       { "id": "editingdesign",
@@ -1308,7 +1308,7 @@
   },
   {
     "cell_line_id": "AICS-0010",
-    "status": "Yes",
+    "status": "No",
     "Main_data_available": "April 2017",
     "subpaged_status": [
       { "id": "editingdesign",
@@ -1460,7 +1460,7 @@
   },
   {
     "cell_line_id": "AICS-0014",
-    "status": "Yes",
+    "status": "No",
     "Main_data_available": "April 2017",
     "subpaged_status": [
       { "id": "editingdesign",
@@ -1619,7 +1619,7 @@
   },
   {
     "cell_line_id": "AICS-0024",
-    "status": "Yes",
+    "status": "No",
     "Main_data_available": "April 2017",
     "subpaged_status": [
       { "id": "editingdesign",
@@ -1952,7 +1952,7 @@
   },
   {
     "cell_line_id": "AICS-0023",
-    "status": "Yes",
+    "status": "No",
     "Main_data_available": "April 2017",
     "subpaged_status": [
       { "id": "editingdesign",
