@@ -782,7 +782,7 @@
                                                 },
                                                 {
                                                   "junction": "Full junctional allele",
-                                                  "expected_size": "Tagged:3100; Untagged:",
+                                                  "expected_size": "Tagged:3100; Untagged:2350",
                                                   "confirmed_sequence": "Yes"
                                                 }
                                             ],
@@ -865,7 +865,7 @@
                   "percent_positive_cells": 36.2
                 },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
-    "StemCellCharacterization_rnaseq_fig": "/images/AICS-0013/StemCellCharacterization_rnaseq_fig.png",
+    "StemCellCharacterization_rnaseq_fig": "/images/AICS-0013/StemCellCharacterization_rnaseq_LMNB1.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. LMNB1-mEGFP samples are from two independent clones.",
     "Supplementary_cell_culture_link": "/data/pdfs/AICS-012/Supplementary_cell_culture_link.pdf",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
@@ -1143,7 +1143,7 @@
                                             "percent_positive_cells": 91.7
                                           },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
-    "StemCellCharacterization_rnaseq_fig": "/images/AICS-0017/StemCellCharacterization_rnaseq_fig.png",
+    "StemCellCharacterization_rnaseq_fig": "/images/AICS-0017/StemCellCharacterization_rnaseq_DSP.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. DSP-mEGFP samples are from two independent clones.",
     "Supplementary_cell_culture_link": "/data/pdfs/AICS-012/Supplementary_cell_culture_link.pdf",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
@@ -1283,7 +1283,7 @@
                                                 },
                                                 {
                                                   "junction": "Full junctional allele",
-                                                  "expected_size": "Tagged:; Untagged:",
+                                                  "expected_size": "Tagged:2950; Untagged:2200",
                                                   "confirmed_sequence": ""
                                                 }
                                             ],
@@ -1342,8 +1342,8 @@
       "percent_positive_cells": 72.5
     },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
-    "StemCellCharacterization_rnaseq_fig": "N",
-    "StemCellCharacterization_rnaseq_fig_caption": "N",
+    "StemCellCharacterization_rnaseq_fig": "/images/AICS-0016/StemCellCharacterization_rnaseq_ACTB.png",
+    "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. ACTB-mEGFP samples are from two independent clones.",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
     "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
@@ -1441,7 +1441,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_sequences_link": "N",
     "GenomicCharacterization_sequences_link_caption": "N",
-    "GenomicCharacterization_tagged_allele_gel": "N",
+    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0010/fullallele_gel_SEC61B.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
     "GenomicCharacterization_ddpcr": [
                                         {
@@ -1478,7 +1478,7 @@
                                                 },
                                                 {
                                                   "junction": "Full junctional allele",
-                                                  "expected_size": "Tagged:; Untagged:",
+                                                  "expected_size": "Tagged:2850; Untagged:2100",
                                                   "confirmed_sequence": ""
                                                 }
                                             ],
@@ -1537,8 +1537,8 @@
       "percent_positive_cells": 93.9
     },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
-    "StemCellCharacterization_rnaseq_fig": "N",
-    "StemCellCharacterization_rnaseq_fig_caption": "N",
+    "StemCellCharacterization_rnaseq_fig": "/images/AICS-0010/StemCellCharacterization_rnaseq_SEC61B.png",
+    "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. SEC61B-mEGFP samples are from two independent clones.",
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
     "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
@@ -1643,7 +1643,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_sequences_link": "N",
     "GenomicCharacterization_sequences_link_caption": "N",
-    "GenomicCharacterization_tagged_allele_gel": "N",
+    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0014/fullallele_gel2_FBL.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
     "GenomicCharacterization_ddpcr": [
                                         {
@@ -1680,7 +1680,7 @@
                                                 },
                                                 {
                                                   "junction": "Full junctional allele",
-                                                  "expected_size": "Tagged:; Untagged:",
+                                                  "expected_size": "Tagged:2850; Untagged:2100",
                                                   "confirmed_sequence": ""
                                                 }
                                             ],
@@ -1739,8 +1739,8 @@
       "percent_positive_cells": 63.1
     },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
-    "StemCellCharacterization_rnaseq_fig": "N",
-    "StemCellCharacterization_rnaseq_fig_caption": "N",
+    "StemCellCharacterization_rnaseq_fig": "/images/AICS-0014/StemCellCharacterization_rnaseq_FBL.png",
+    "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. FBL-mEGFP samples are from two independent clones.",
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
     "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
@@ -1853,7 +1853,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_sequences_link": "N",
     "GenomicCharacterization_sequences_link_caption": "N",
-    "GenomicCharacterization_tagged_allele_gel": "N",
+    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0024/fullallele_gel1_MYH10.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
     "GenomicCharacterization_ddpcr": [
                                         {
@@ -1890,7 +1890,7 @@
                                                 },
                                                 {
                                                   "junction": "Full junctional allele",
-                                                  "expected_size": "Tagged:; Untagged:",
+                                                  "expected_size": "Tagged:3850; Untagged:3100",
                                                   "confirmed_sequence": ""
                                                 }
                                             ],
@@ -1949,8 +1949,8 @@
       "percent_positive_cells": 98.2
     },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
-    "StemCellCharacterization_rnaseq_fig": "N",
-    "StemCellCharacterization_rnaseq_fig_caption": "N",
+    "StemCellCharacterization_rnaseq_fig": "/images/AICS-0024/StemCellCharacterization_rnaseq_MYH10.png",
+    "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. MYH10-mEGFP samples are from two independent clones.",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
     "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
@@ -2221,7 +2221,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_sequences_link": "N",
     "GenomicCharacterization_sequences_link_caption": "N",
-    "GenomicCharacterization_tagged_allele_gel": "N",
+    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0023/fullallele_gel1_TJP1.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
     "GenomicCharacterization_ddpcr": [
                                         {
@@ -2258,7 +2258,7 @@
                                                 },
                                                 {
                                                   "junction": "Full junctional allele",
-                                                  "expected_size": "Tagged:; Untagged:",
+                                                  "expected_size": "Tagged:3006; Untagged:",
                                                   "confirmed_sequence": ""
                                                 }
                                             ],
@@ -2317,8 +2317,8 @@
       "percent_positive_cells": 73.3
     },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
-    "StemCellCharacterization_rnaseq_fig": "N",
-    "StemCellCharacterization_rnaseq_fig_caption": "N",
+    "StemCellCharacterization_rnaseq_fig": "",
+    "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
     "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
