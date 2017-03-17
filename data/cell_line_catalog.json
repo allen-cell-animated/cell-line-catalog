@@ -188,7 +188,7 @@
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. PXN-EGFP samples are from two independent clones.",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
-    "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
+    "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf"
   },
   {
@@ -393,7 +393,7 @@
     "Supplementary_cell_culture_link": "/data/pdfs/AICS-012/Supplementary_cell_culture_link.pdf",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
-    "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
+    "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Supplementary_transfection_link": "",
     "Supplementary_ddPCR_link": "",
@@ -668,7 +668,7 @@
     "Supplementary_primers_link": "",
     "Supplementary_offtargets_link": "",
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
-    "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
+    "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf"
   },
   {
@@ -870,7 +870,7 @@
     "Supplementary_cell_culture_link": "/data/pdfs/AICS-012/Supplementary_cell_culture_link.pdf",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
-    "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
+    "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Supplementary_transfection_link": "",
     "Supplementary_ddPCR_link": "",
@@ -1148,7 +1148,7 @@
     "Supplementary_cell_culture_link": "/data/pdfs/AICS-012/Supplementary_cell_culture_link.pdf",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
-    "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
+    "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Supplementary_transfection_link": "",
     "Supplementary_ddPCR_link": "",
@@ -1346,7 +1346,7 @@
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. ACTB-mEGFP samples are from two independent clones.",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
-    "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
+    "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf"
   },
   {
@@ -1540,7 +1540,7 @@
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0010/StemCellCharacterization_rnaseq_SEC61B.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. SEC61B-mEGFP samples are from two independent clones.",
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
-    "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
+    "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf"
   },
@@ -1742,7 +1742,7 @@
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0014/StemCellCharacterization_rnaseq_FBL.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. FBL-mEGFP samples are from two independent clones.",
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
-    "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
+    "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf"
   },
@@ -1953,7 +1953,7 @@
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. MYH10-mEGFP samples are from two independent clones.",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
-    "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
+    "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf"
   },
   {
@@ -2321,7 +2321,7 @@
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
-    "Protocols_transfection":"/data/pdfs/AICS-_SOP_RNP Transfection.pdf",
+    "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf"
   },
   {
@@ -2409,70 +2409,86 @@
   },
   {
     "cell_line_id": "AICS-0036",
-    "status": "Screening & QC",
-    "Main_data_available": "",
+    "status": "No",
+    "Main_data_available": "April 2017",
     "subpaged_status": [
       { "id": "editingdesign",
-        "done": "false"
+        "done": "true"
       },
       {
         "id":"genomiccharacterizations",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "supplementaryinformation",
-        "done": "false"
+        "done": "true"
+      },
+      {
+        "id": "protocols",
+        "done": "true"
       }
     ],
     "Main_parent_line": "WTC",
-    "Main_gene_symbol": "AAVS1-CAG-GFP",
-    "Main_gene_name": "",
-    "Main_protein": "GFP",
-    "Main_gene_id": "",
-    "Main_mrna_id": "",
-    "Main_ensembl_id": "",
+    "Main_gene_symbol": "AAVS1",
+    "Main_gene_name": "Safe harbor locus",
+    "Main_protein": "NA",
+    "Main_gene_id": "17",
+    "Main_mrna_id": "NA",
     "Main_structure": "Cytoplasm",
-    "Main_terminal_tagged": "",
+    "Main_terminal_tagged": "NA",
     "Main_fluorescent_tag": "mEGFP",
-    "Main_linker": "",
+    "Main_linker": "NA",
     "Main_order_link": "",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "",
-    "Main_media":[],
+    "Main_media":[
+      {
+        "cell_line_id": "AICS-0036",
+        "type": "image",
+        "data_type": "single plane image",
+        "file_name": "AAVS1_cl6_MAX_ 20170306_I03_001Pos3ScalePt75_8bitSpecSheet",
+        "caption": "Localization of mEGFP expressed from a safe harbor locus in hiPSC colony. mEGFP localizes to the cytoplasm and nucleus. Spaces between cells appear dark. Weaker intensity is observed in the nucleolus within the nucleus. The bright spots are dead cells on top of the colony. Some variation in intensity levels is seen between cells. Image is a maximum intensity projection of a 3D spinning disk confocal z-stack of a live hiPSC colony. ",
+        "link": "/images/AICS-0036/AAVS1_cl6_MAX_ 20170306_I03_001Pos3ScalePt75_8bitSpecSheet.jpg"
+      },
+      {
+        "cell_line_id": "AICS-0036",
+        "type": "image",
+        "data_type": "morphology_image",
+        "file_name": "AICS-36_CL6_P28_d3_POST-BANK_170227_4X-2_scale",
+        "caption": "Viability and colony formation photographed 3 days post-thaw at 4X magnification. Cells were treated with ROCK inhibitor for 24 hrs post-thaw.",
+        "link": "/images/AICS-0036/AICS-36_CL6_P28_d3_POST-BANK_170227_4X-2_scale.jpg"
+      }
+    ],
 
-    "Main_cell_line_morphology": "image",
-    "Main_cell_line_morphology_caption": "",
-    "Main_cell_line_movie1": "",
-    "Main_cell_line_movie1_caption": "",
-    "Main_cell_line_movie2": "",
-    "Main_cell_line_movie2_caption": "",
-    "EditingDesign_crRNA_seq": "",
+    "EditingDesign_crRNA_seq": "GGGGCCACTAGGGACAGGAT",
     "EditingDesign_cas9": "Wildtype spCas9",
-    "EditingDesign_NCBI_isoform": "",
-    "EditingDesign_gene_figure": "",
-    "EditingDesign_gene_figure_caption": "",
-    "EditingDesign_p14_fpkm": "",
-    "EditingDesign_p18_fpkm": "",
-    "EditingDesign_expression_figure": "",
+    "EditingDesign_NCBI_isoform": "NA",
+    "EditingDesign_gene_figure": "/images/AICS-0036/AAVS1_gfp.png",
+    "EditingDesign_gene_figure_caption": "Top: mEGFP insertion site at AAVS1 locus in PPP1R12C intron; Bottom: Zoom in on mEGFP insertion site at AAVS1 locus",
     "GenomicCharacterization_junction_schematic": "",
-    "GenomicCharacterization_junction_schematic_caption": "",
     "GenomicCharacterization_sequences_link": "",
     "GenomicCharacterization_sequences_link_caption": "",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
-    "GenomicCharacterization_ddpcr": "",
-    "GenomicCharacterization_ddpcr_caption": "",
+    "GenomicCharacterization_ddpcr": [
+                                        {
+                                          "clone": "cl6",
+                                          "mEGFP": 0.48,
+                                          "plasmid": 0.01 
+                                        }
+                                      ],
+    "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "",
+    "Validation_WesternBlot": "/images/AICS-0036/Western blot documentation AAVS1 final clone only_final.jpg",
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "",
     "Validation_Immunofluorescence_caption": "",
@@ -2521,8 +2537,8 @@
             }
           ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Cells were stained for markers of Ectoderm, Endoderm, and Mesoderm lineages using directly conjugated antibodies from BD Bioscience. Gating was based on isotype controls.",
-    "StemCellCharacterization_karyotype": "",
-    "StemCellCharacterization_karyotype_caption": "",
+    "StemCellCharacterization_karyotype": "/images/AICS-0036/AAVS1_cl.6.JPG",
+    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
     "StemCellCharacterization_differentiation": {
       "Day_of_beating": "d7",
       "percent_positive_cells": 61.9
@@ -2530,11 +2546,10 @@
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
-    "Supplementary_cell_culture_link": "",
-    "Supplementary_transfection_link": "",
-    "Supplementary_ddPCR_link": "",
-    "Supplementary_primers_link": "",
-    "Supplementary_offtargets_link": ""
+    "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
+    "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
+    "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP Transfection.pdf",
+    "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf"
   },
   {
     "cell_line_id": "AICS-0025",
