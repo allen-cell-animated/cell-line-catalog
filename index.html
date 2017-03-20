@@ -217,6 +217,7 @@
 
     <!-- genomiccharacterizations templates --------------->
     <script id="genomiccharacterizations-template" type="text/x-handlebars-template">
+      {{#if GenomicCharacterization_junction_schematic}}
       <div class="row">
         <div class="col-sm-12">
           <div class="thumbnail">
@@ -228,8 +229,10 @@
           </div>
         </div>
       </div>
+      {{/if}}
       <div class="row">
         <div class="col-sm-6">
+          {{#if GenomicCharacterization_junction_table}}
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h4>Sequenced Junctions</h4>
@@ -258,6 +261,7 @@
               <p>{{GenomicCharacterization_junction_table_caption}}</p>
             </div>
           </div>
+          {{/if}}
         </div>
         {{#if GenomicCharacterization_tagged_allele_gel}}
         <div class="col-sm-6">
@@ -304,6 +308,7 @@
           </div>
         </div>
         <div class="col-sm-6">
+          {{#if GenomicCharacterization_offtargets_caption}}
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h4>crRNA Off-targets</h4>
@@ -330,6 +335,7 @@
               <p>{{GenomicCharacterization_offtargets_caption}}</p>
             </div>
           </div>
+          {{/if}}
         </div>
 
         <div class="col-sm-6">
@@ -392,6 +398,7 @@
           </div>
         </div>
         <div class="col-sm-6">
+          {{#if Validation_Immunofluorescence}}
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h4>Localization</h4>
@@ -402,6 +409,7 @@
               </div>
             </div>
           </div>
+          {{/if}}
         </div>
       </div>
     </script>
@@ -452,10 +460,12 @@
 
               </div>
               <div class="col-sm-6">
+                {{#if StemCellCharacterization_rnaseq_fig}}
                 <div class="center-block image-scale">
                   <img class="" src="{{StemCellCharacterization_rnaseq_fig}}" alt="" />
                   <div class="caption">{{StemCellCharacterization_rnaseq_fig_caption}}</div>
                 </div>
+                {{/if}}
                </div>
             </div>
           </div>
