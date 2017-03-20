@@ -4507,7 +4507,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #274f70;
-  background-color: #bad636;
+  background-color: #003056;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -4548,7 +4548,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #274f70;
-    background-color: #bad636;
+    background-color: #003056;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
@@ -6514,5 +6514,8 @@ button.close {
   background-color: #bad636;
   border: solid 1px #bad636;
   color: #003056;
+}
+.nav-pills li a:hover {
+  color: #274f70;
 }
 /*# sourceMappingURL=bootstrap.css.map */
