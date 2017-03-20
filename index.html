@@ -619,13 +619,13 @@ download="AICS_transfection_protocol.pdf">WTC transfection protocol</a></li>
         </section>
       </nav> -->
       <div id="cell-collection-banner" class=" text-center site-header clearfix col-md-12 displayoff">
-            <h2 >Allen Cell Collection</h2>
-            <p class="text-success">
-              Beta-release
-            </p>
-            <p class="text-success">
-              Internet Explorer is not supported. Use Chrome, Firefox, or Safari.
-            </p>
+        <h2 >Allen Cell Collection</h2>
+        <p class="text-success">
+          Beta-release
+        </p>
+        <p class="text-success">
+          Internet Explorer is not supported. Use Chrome, Firefox, or Safari.
+        </p>
       </div>
     </header>
     <main class="">
@@ -641,25 +641,35 @@ download="AICS_transfection_protocol.pdf">WTC transfection protocol</a></li>
       <section id="cell-line-list" class="tab-section active">
 
         <div>
-          <form id="filters" class="form-horizontal">
-            <div class="form-group">
-              <select id="Main_structure-filter" class="form-control filter col-md-2">
-                <option value="">Filter by Structure</option>
-              </select>
-              <select id="Main_fluorescent_tag-filter" class="form-control filter col-md-2">
-                <option value="">Filter by Flurorophore</option>
-              </select>
-
-              <select id="Main_gene_name-filter" class="form-control filter col-md-2">
-                <option value="">Filter by Gene</option>
-              </select>
-
-              <select id="Main_parent_line-filter" class="form-control filter col-md-2">
-                <option value="">Filter by Parental Line</option>
-              </select>
+          <div class="row">
+            <p class="col-md-8 col-md-offset-2 text-info">Here are our completed cell lines, which are available through Coriell as part of the <strong><a href="#top-of-table">Allen Cell Collection</a></strong>, along with those that are still in our <strong><a href="#in_progress">production pipeline</a></strong>, at the bottom of the page.
+            </p>
+          </div>
+          <div class="row">
+            <p class="col-md-8 col-md-offset-2 text-info">For all the completed lines that are available for purchase at Coriell we provide supplemental material (data, images, videos) related to the rigorous testing and quality control steps each line has undergone. These data, along with ordering information, can quickly be accessed by clicking on the line of choice in the table below.</p>
+          </div>
+          <nav class="navbar navbar-default" id="top-of-table">
+            <div class="container">
+              <span class="navbar-text text-info">Filter cell lines:</span>
+              <form id="filters" class="navbar-form">
+                <div class="form-group">
+                  <select id="Main_structure-filter" class="form-control filter col-md-2">
+                    <option value="">Filter by Structure</option>
+                  </select>
+                  <select id="Main_fluorescent_tag-filter" class="form-control filter col-md-2">
+                    <option value="">Filter by Flurorophore</option>
+                  </select>
+                  <select id="Main_gene_name-filter" class="form-control filter col-md-2">
+                    <option value="">Filter by Gene</option>
+                  </select>
+                  <select id="Main_parent_line-filter" class="form-control filter col-md-2">
+                    <option value="">Filter by Parental Line</option>
+                  </select>
+                </div>
+              </form>
             </div>
 
-          </form>
+          </nav>
           <div class="table-responsive">
             <h3 class="text-primary table-title">Cell Lines available in the Allen Cell Collection</h3>
             <table class="table table-hover table-striped" id="complete">
@@ -698,8 +708,7 @@ download="AICS_transfection_protocol.pdf">WTC transfection protocol</a></li>
                 <p class = 'errors displayoff'>Nothing matches your filters</p>
               </tbody>
             </table>
-            <small>Visit <a href="https://catalog.coriell.org/1/AllenCellCollection" target="_blank">Coriell </a>to order any of these cell lines, or click on a row for more infomation. </small>
-
+            <small class="table-footer">Visit <a href="https://catalog.coriell.org/1/AllenCellCollection" target="_blank">Coriell </a>to order any of these cell lines, or click on a row for more infomation. </small>
           </div>
           <div class="table-responsive" id="in_progress">
             <h3 class="text-primary table-title">Cell Lines in Progress</h3>

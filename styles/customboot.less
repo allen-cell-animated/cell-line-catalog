@@ -42,14 +42,14 @@
 @import "list-group.less";
 @import "panels.less";
 @import "responsive-embed.less";
-@import "wells.less";
+// @import "wells.less";
 @import "close.less";
 
 // Components w/ JavaScript
 @import "modals.less";
 @import "tooltip.less";
 @import "popovers.less";
-@import "carousel.less";
+// @import "carousel.less";
 
 // Utility classes
 @import "utilities.less";
@@ -62,7 +62,9 @@
 @brand-danger: #bad636;
 @brand-info: #003056;
 
-@link-hover-color:                  @brand-warning;
+@link-color:                        @brand-info;
+@link-hover-color:                  @brand-success;
+@link-hover-decoration:             none;
 @component-active-bg:               @brand-warning;
 @nav-tabs-active-link-hover-color:  @brand-success;
 @nav-link-hover-bg:                 @brand-success;
@@ -89,11 +91,10 @@
 @navbar-collapse-max-height:       340px;
 
 @navbar-default-color:             #777;
-@navbar-default-bg:                #ffffff;
 @navbar-default-border:            darken(@navbar-default-bg, 6.5%);
 
 // Navbar links
-@navbar-default-link-color:                @brand-primary;
+@navbar-default-link-color:                @brand-info;
 @navbar-default-link-hover-color:          @brand-warning;
 @navbar-default-link-hover-bg:             @brand-success;
 @navbar-default-link-active-color:         #ffffff;
@@ -129,3 +130,22 @@
 @state-danger-text:              @brand-danger;
 @state-danger-bg:                @brand-danger;
 @state-danger-border:            darken(spin(@state-danger-bg, -10), 5%);
+
+.navbar{
+  margin-bottom: 0;
+}
+
+.btn{
+  font-weight:700;
+  margin-bottom: 10px;
+}
+
+.bg-lightgray{
+  background-color: #f2f2f2
+}
+
+.btn-warning:hover{
+  background-color: @brand-success;
+  border: solid 1px @brand-success;
+  color: @brand-info;
+}
