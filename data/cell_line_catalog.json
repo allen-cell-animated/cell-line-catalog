@@ -1232,12 +1232,6 @@
     "Main_order_link": "",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/87425/",
-    "Main_cell_line_morphology": "",
-    "Main_cell_line_morphology_caption": "Viability and colony formation photographed 3 days post-thaw at 4X magnification. Cells were treated with ROCK inhibitor for 24 hrs post-thaw.",
-    "Main_cell_line_movie1": "N",
-    "Main_cell_line_movie1_caption": "N",
-    "Main_cell_line_movie2": "N",
-    "Main_cell_line_movie2_caption": "N",
     "EditingDesign_crRNA_seq": "GCCGTTGTCGACGACGAGCG",
     "EditingDesign_cas9": "Wildtype spCas9",
     "EditingDesign_NCBI_isoform": "NM_001101.3",
@@ -1246,8 +1240,8 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_sequences_link": "N",
     "GenomicCharacterization_sequences_link_caption": "N",
-    "GenomicCharacterization_tagged_allele_gel": "N",
-    "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
+    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0016/ACTB_full_allele_gel.jpg",
+    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
                                         {
                                           "clone": "cl184",
@@ -1283,11 +1277,11 @@
                                                 },
                                                 {
                                                   "junction": "Full junctional allele",
-                                                  "expected_size": "Tagged:2950; Untagged:2200",
-                                                  "confirmed_sequence": ""
+                                                  "expected_size": "Tagged:2888; Untagged:2159",
+                                                  "confirmed_sequence": "NA"
                                                 }
                                             ],
-    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
+    "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "Validation_WesternBlot": "/images/AICS-0016/Western blot documentation ACTB final clone only_final.jpg",
     "Validation_Immunofluorescence": "/images/AICS-0016/Beta actin clone 184 and AICS000 012017.jpg",
     "StemCellCharacterization_pluripotency_analysis": [
@@ -1441,8 +1435,8 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_sequences_link": "N",
     "GenomicCharacterization_sequences_link_caption": "N",
-    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0010/fullallele_gel_SEC61B.jpg",
-    "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
+    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0010/SEC61B_full_allele_gel.jpg",
+    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
                                         {
                                           "clone": "cl55",
@@ -1478,11 +1472,11 @@
                                                 },
                                                 {
                                                   "junction": "Full junctional allele",
-                                                  "expected_size": "Tagged:2850; Untagged:2100",
-                                                  "confirmed_sequence": ""
+                                                  "expected_size": "Tagged:3019; Untagged:2287",
+                                                  "confirmed_sequence": "NA"
                                                 }
                                             ],
-    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
+    "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "StemCellCharacterization_karyotype": "/images/AICS-0010/SEC61B_cl.55.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 20 G-banded metaphase cells were karyotyped.",
     "Validation_WesternBlot": "/images/AICS-0010/Western blot documentation SEC61B final clone only_final.jpg",
@@ -1643,8 +1637,8 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_sequences_link": "N",
     "GenomicCharacterization_sequences_link_caption": "N",
-    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0014/fullallele_gel2_FBL.jpg",
-    "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
+    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0014/FBL_full_allele_gel.jpg",
+    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
                                         {
                                           "clone": "cl6",
@@ -1680,11 +1674,11 @@
                                                 },
                                                 {
                                                   "junction": "Full junctional allele",
-                                                  "expected_size": "Tagged:2850; Untagged:2100",
-                                                  "confirmed_sequence": ""
+                                                  "expected_size": "Tagged:2925; Untagged:2169",
+                                                  "confirmed_sequence": "NA"
                                                 }
                                             ],
-    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
+    "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "Validation_WesternBlot": "/images/AICS-0014/Western blot documentation FBL final clone only_final.jpg",
     "Validation_Immunofluorescence": "/images/AICS-0014/Fibrillarin clone 6 and AICS000 031417.jpg",
     "StemCellCharacterization_pluripotency_analysis": [
@@ -1853,8 +1847,8 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_sequences_link": "N",
     "GenomicCharacterization_sequences_link_caption": "N",
-    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0024/fullallele_gel1_MYH10.jpg",
-    "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
+    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0024/MYH10_full_allele_gel.jpg",
+    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
                                         {
                                           "clone": "cl80",
@@ -1890,11 +1884,11 @@
                                                 },
                                                 {
                                                   "junction": "Full junctional allele",
-                                                  "expected_size": "Tagged:3850; Untagged:3100",
-                                                  "confirmed_sequence": ""
+                                                  "expected_size": "Tagged:3695; Untagged:2948",
+                                                  "confirmed_sequence": "NA"
                                                 }
                                             ],
-    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
+    "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "Validation_WesternBlot": "/images/AICS-0024/Western blot documentation MYH10 final clone only_final.jpg",
     "Validation_Immunofluorescence": "/images/AICS-0024/myosin clone 80 and AICS000 031017.jpg",
     "StemCellCharacterization_pluripotency_analysis": [
@@ -2221,8 +2215,8 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_sequences_link": "N",
     "GenomicCharacterization_sequences_link_caption": "N",
-    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0023/fullallele_gel1_TJP1.jpg",
-    "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
+    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0023/TJP1_full_allele_gel.jpg",
+    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
                                         {
                                           "clone": "cl20",
@@ -2258,11 +2252,11 @@
                                                 },
                                                 {
                                                   "junction": "Full junctional allele",
-                                                  "expected_size": "Tagged:3006; Untagged:",
-                                                  "confirmed_sequence": ""
+                                                  "expected_size": "Tagged:3006; Untagged:2256",
+                                                  "confirmed_sequence": "NA"
                                                 }
                                             ],
-    "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
+    "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "Validation_WesternBlot": "/images/AICS-0023/Western blot documentation TJP1 final clone only_final.jpg",
     "Validation_Immunofluorescence": "/images/AICS-0023/TJP1 clone 20 and AICS000 031017.jpg",
     "StemCellCharacterization_pluripotency_analysis": [
@@ -2292,7 +2286,7 @@
                   }
                 ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
-    "StemCellCharacterization_karyotype": "/images/AICS-0023/.JPG",
+    "StemCellCharacterization_karyotype": "/images/AICS-0023/TJP1_cl.20.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
     "StemCellCharacterization_trilineage": [
             {
@@ -2476,8 +2470,33 @@
     "GenomicCharacterization_junction_schematic": "",
     "GenomicCharacterization_sequences_link": "",
     "GenomicCharacterization_sequences_link_caption": "",
+    "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
+    "GenomicCharacterization_junction_table": [
+
+                                                {
+                                                  "junction": "5'",
+                                                  "expected_size": 1214,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "3'",
+                                                  "expected_size": "NA",
+                                                  "confirmed_sequence": "NA"
+                                                },
+                                                {
+                                                  "junction": "WT internal",
+                                                  "expected_size": 1391,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "junction": "Full junctional allele",
+                                                  "expected_size": "NA",
+                                                  "confirmed_sequence": "NA"
+                                                }
+                                            ],
+    "GenomicCharacterization_junction_table_caption": "PCR amplified 5' junction was used to establish delivery via HDR at the intended genomic locus. Tiled junctions were not possible to amplify or sequence due to the large size of the delivered sequence (5KB). The precise sequence of the delivered sequence was not determined because the mEGFP tag sequence was not fused to an endogenous coding sequence.",
     "GenomicCharacterization_ddpcr": [
                                         {
                                           "clone": "cl6",
