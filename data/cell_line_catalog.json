@@ -34,7 +34,6 @@
     "Main_protein": "Paxillin",
     "Main_gene_id": 5829,
     "Main_mrna_id": "NM_002859.3",
-    "Main_ensembl_id": "ENSG00000089159",
     "Main_structure": "Adhesions",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "EGFP",
@@ -66,7 +65,7 @@
         "cell_line_id": "AICS-0005",
         "data_type": "single plane high mag image",
         "file_name": "20160513_C03_010Scalept75_ComboSpecSheet.tif",
-        "caption": "Single image of a live hiPSC colony expressing paxillin-EGFP imaged on a spinning-disk confocal microscope. Left panel is a single slice of the z-tack near the bottom of the cell; right pnael is this same projection overlaid onto one slice of the same z-stack in the transmitted light channel.",
+        "caption": "Single image of a live hiPSC colony expressing paxillin-EGFP imaged on a spinning-disk confocal microscope. Left panel is a single slice of the z-tack near the bottom of the cell; right panel is this same projection overlaid onto one slice of the same z-stack in the transmitted light channel.",
         "link": "/images/AICS-0005/Main_cell_line_movie1.jpg"
       },
       {
@@ -80,11 +79,8 @@
     "EditingDesign_NCBI_isoform": "NM_002859.3",
     "EditingDesign_gene_figure": "/images/AICS-0005/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: PXN locus showing 4 PXN isoforms; Bottom: Zoom in on EGFP insertion site at PXN C-terminal exon",
-    "EditingDesign_expression_figure": "expression.jpg",
     "GenomicCharacterization_junction_schematic": "/images/AICS-0005/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_junction_schematic_caption": "",
-    "GenomicCharacterization_sequences_link": "",
-    "GenomicCharacterization_sequences_link_caption": "",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0005/GenomicCharacterization_tagged_allele_gel.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
     "GenomicCharacterization_junction_table": [
@@ -127,11 +123,9 @@
                                           		"mutationsIdentified": "0"
                                           	}
                                           ],
-    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing.",
+    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using Cas-OFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing.",
     "Validation_WesternBlot": "images/AICS-0005/WesternblotdocumentationPXNfinalcloneonly_final.jpg",
-    "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "images/AICS-0005/Paxillin_clone_50_and_AICS000_122016.jpg",
-    "Validation_Immunofluorescence_caption": "",
     "StemCellCharacterization_pluripotency_analysis": [
                   {
                     "Marker": "NANOG",
@@ -160,7 +154,7 @@
                 ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0005/StemCellCharacterization_karyotype.jpg",
-    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
+    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 20 G-banded metaphase cells were karyotyped.",
     "StemCellCharacterization_trilineage": [
             {
               "Germ_Layer": "Ectoderm",
@@ -227,7 +221,6 @@
     "Main_protein": "Alpha-tubulin",
     "Main_gene_id": 10376,
     "Main_mrna_id": "NM_006082.2",
-    "Main_ensembl_id": "ENSG00000123416",
     "Main_structure": "Microtubules",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -240,7 +233,6 @@
       {
         "type":"movie",
         "cell_line_id": "AICS-0012",
-        "type":"movie",
         "data_type": "high mag z-stack",
         "file_name": "20160531_C03_007scalept75_8bitCont5fps.mov",
         "caption": "Z-stack of live hiPSC cells expressing alpha tubulin-mEGFP imaged on a spinning-disk confocal microscope. Image starts at the bottom of the cells and ends at the top.",
@@ -282,7 +274,6 @@
     "EditingDesign_NCBI_isoform": "NM_006082.2",
     "EditingDesign_gene_figure": "/images/AICS-0012/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: TUBA1B locus; Bottom: Zoom in on mEGFP insertion site at TUBA1B N-terminus",
-    "EditingDesign_expression_figure": "",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_junction_schematic_caption": "",
     "GenomicCharacterization_junction_table": [
@@ -304,13 +295,11 @@
                                                 },
                                                 {
                                                   "junction": "Full junctional allele",
-                                                  "expected_size": "Tagged:2835; Untagged:2120",
+                                                  "expected_size": "Tagged:3011; Untagged:2279",
                                                   "confirmed_sequence": "Yes"
                                                 }
                                             ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    "GenomicCharacterization_sequences_link": "/data/pdfs/AICS-012/GenomicCharacterization_sequences_link.fasta",
-    "GenomicCharacterization_sequences_link_caption": "Junctional sequences were amplified and sanger sequenced",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0012/GenomicCharacterization_tagged_allele_gel.png",
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
     "GenomicCharacterization_ddpcr": [
@@ -330,11 +319,9 @@
                                           	}
 
                                           ],
-    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing.",
+    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using Cas-OFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing.",
     "Validation_WesternBlot": "/images/AICS-0012/Western blot documentation  TUBA1B final clone only_final_01.jpg",
-    "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0012/Tubulin clone 105 and AICS000 122016_01.jpg",
-    "Validation_Immunofluorescence_caption": "",
     "StemCellCharacterization_pluripotency_analysis": [
                 	{
                 		"Marker": "NANOG",
@@ -363,7 +350,7 @@
                 ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0012/StemCellCharacterization_karyotype.jpg",
-    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
+    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 20 G-banded metaphase cells were karyotyped.",
     "StemCellCharacterization_trilineage": [
                     {
                       "Germ_Layer": "Ectoderm",
@@ -431,7 +418,6 @@
     "Main_protein": "Alpha-tubulin",
     "Main_gene_id": 10376,
     "Main_mrna_id": "NM_006082.2",
-    "Main_ensembl_id": "ENSG00000123416",
     "Main_structure": "Microtubules",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mtagRFP-T",
@@ -447,11 +433,8 @@
     "EditingDesign_gene_figure_caption": "",
     "EditingDesign_p14_fpkm": "",
     "EditingDesign_p18_fpkm": "",
-    "EditingDesign_expression_figure": "",
     "GenomicCharacterization_junction_schematic": "",
     "GenomicCharacterization_junction_schematic_caption": "",
-    "GenomicCharacterization_sequences_link": "",
-    "GenomicCharacterization_sequences_link_caption": "",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
     "GenomicCharacterization_ddpcr": "",
@@ -459,9 +442,7 @@
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
     "Validation_WesternBlot": "",
-    "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "",
-    "Validation_Immunofluorescence_caption": "",
     "StemCellCharacterization_pluripotency_analysis": "",
     "StemCellCharacterization_pluripotency_analysis_caption": "",
     "StemCellCharacterization_karyotype": "",
@@ -511,7 +492,6 @@
     "Main_protein": "TOM20",
     "Main_gene_id": 9804,
     "Main_mrna_id": "NM_014765.2",
-    "Main_ensembl_id": "ENSG00000173726",
     "Main_structure": "Mitochondria",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -555,7 +535,6 @@
     "EditingDesign_NCBI_isoform": "NM_014765.2",
     "EditingDesign_gene_figure": "/images/AICS-0011/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: TOMM20 locus; Bottom: Zoom in on mEGFP insertion site at TOMM20 C-terminal exon",
-    "EditingDesign_expression_figure": "",
     "GenomicCharacterization_junction_schematic": "/images/AICS-0011/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_junction_schematic_caption": "",
     "GenomicCharacterization_junction_table": [
@@ -577,20 +556,18 @@
                                                 },
                                                 {
                                                   "junction": "Full junctional allele",
-                                                  "expected_size": "Tagged:2923; Untagged:2208",
+                                                  "expected_size": "Tagged:2955; Untagged:2208",
                                                   "confirmed_sequence": "Cannot be amplified due to likely duplication"
                                                 }
                                             ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    "GenomicCharacterization_sequences_link": "",
-    "GenomicCharacterization_sequences_link_caption": "",
     "GenomicCharacterization_tagged_allele_gel": "",
-    "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
+    "GenomicCharacterization_tagged_allele_gel_caption": "",
     "GenomicCharacterization_ddpcr": [
         {
           "clone": "cl27",
-          "mEGFP": "Analysis in progress",
-          "plasmid": "Analysis in progress"
+          "mEGFP": "0.76",
+          "plasmid": "0.75"
         }
       ],
     "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: KanR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
@@ -602,11 +579,9 @@
           "mutationsIdentified": 0
         }
       ],
-    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing.",
+    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using Cas-OFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing.",
     "Validation_WesternBlot": "/images/AICS-0011/Western_blot.jpg",
-    "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0011/Tom20_clone_27_and_AICS000.jpg",
-    "Validation_Immunofluorescence_caption": "",
     "StemCellCharacterization_pluripotency_analysis": [
                                       {
                                         "Marker": "NANOG",
@@ -635,7 +610,7 @@
                                     ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0011/StemCellCharacterization_karyotype.jpg",
-    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
+    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 20 G-banded metaphase cells were karyotyped.",
     "StemCellCharacterization_trilineage": [
                                         {
                                           "Germ_Layer": "Ectoderm",
@@ -706,7 +681,6 @@
     "Main_protein": "LaminB1",
     "Main_gene_id": 4001,
     "Main_mrna_id": "NM_005573.3",
-    "Main_ensembl_id": "ENSG00000113368",
     "Main_structure": "Nucleus",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -760,7 +734,6 @@
     "EditingDesign_NCBI_isoform": "NM_005573.3",
     "EditingDesign_gene_figure": "/images/AICS-0013/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: LMNB1 locus showing 2 LMNB1 isoforms; Bottom: Zoom in on mEGFP insertion site at LMNB1 N-terminal exon",
-    "EditingDesign_expression_figure": "",
     "GenomicCharacterization_junction_schematic": "/images/AICS-0013/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_junction_schematic_caption": "",
     "GenomicCharacterization_junction_table": [
@@ -782,13 +755,11 @@
                                                 },
                                                 {
                                                   "junction": "Full junctional allele",
-                                                  "expected_size": "Tagged:3100; Untagged:2350",
+                                                  "expected_size": "Tagged:2845; Untagged:2098",
                                                   "confirmed_sequence": "Yes"
                                                 }
                                             ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    "GenomicCharacterization_sequences_link": "",
-    "GenomicCharacterization_sequences_link_caption": "",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0013/GenomicCharacterization_tagged_allele_gel.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
     "GenomicCharacterization_ddpcr": [
@@ -808,11 +779,9 @@
                                           	}
 
                                           ],
-    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing.",
+    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using Cas-OFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing.",
     "Validation_WesternBlot": "/images/AICS-0013/Western_blot.jpg",
-    "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0013/LaminB1_clone210_AICS000_122016.jpg",
-    "Validation_Immunofluorescence_caption": "",
     "StemCellCharacterization_pluripotency_analysis": [
                                   {
                                     "Marker": "NANOG",
@@ -841,7 +810,7 @@
                                 ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0013/StemCellCharacterization_karyotype.jpg",
-    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
+    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 20 G-banded metaphase cells were karyotyped.",
     "StemCellCharacterization_trilineage": [
                             {
                               "Germ_Layer": "Ectoderm",
@@ -907,7 +876,6 @@
     "Main_protein": "LaminB1",
     "Main_gene_id": 4001,
     "Main_mrna_id": "NM_005573.3",
-    "Main_ensembl_id": "ENSG00000113368",
     "Main_structure": "Nucleus",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "tdTomato",
@@ -928,11 +896,8 @@
     "EditingDesign_gene_figure_caption": "",
     "EditingDesign_p14_fpkm": "",
     "EditingDesign_p18_fpkm": "",
-    "EditingDesign_expression_figure": "",
     "GenomicCharacterization_junction_schematic": "",
     "GenomicCharacterization_junction_schematic_caption": "",
-    "GenomicCharacterization_sequences_link": "",
-    "GenomicCharacterization_sequences_link_caption": "",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
     "GenomicCharacterization_ddpcr": "",
@@ -940,9 +905,7 @@
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
     "Validation_WesternBlot": "",
-    "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "",
-    "Validation_Immunofluorescence_caption": "",
     "StemCellCharacterization_pluripotency_analysis": "",
     "StemCellCharacterization_pluripotency_analysis_caption": "",
     "StemCellCharacterization_karyotype": "",
@@ -992,7 +955,6 @@
     "Main_protein": "Desmoplakin",
     "Main_gene_id": 1832,
     "Main_mrna_id": "NM_004415.3",
-    "Main_ensembl_id": "ENSG00000096696",
     "Main_structure": "Cell-cell junctions",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -1037,7 +999,6 @@
     "EditingDesign_NCBI_isoform": "NM_004415.3",
     "EditingDesign_gene_figure": "/images/AICS-0017/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: DSP locus showing 3 DSP  isoforms; Bottom: Zoom in on mEGFP insertion site at DSP C-terminal exon",
-    "EditingDesign_expression_figure": "",
     "GenomicCharacterization_junction_schematic": "/images/AICS-0017/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_junction_schematic_caption": "",
     "GenomicCharacterization_junction_table": [
@@ -1059,13 +1020,11 @@
                                                 },
                                                 {
                                                   "junction": "Full junctional allele",
-                                                  "expected_size": "Tagged:3317; Untagged:2602",
+                                                  "expected_size": "Tagged:3298; Untagged:2560",
                                                   "confirmed_sequence": "Yes"
                                                 }
                                             ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    "GenomicCharacterization_sequences_link": "",
-    "GenomicCharacterization_sequences_link_caption": "",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0017/GenomicCharacterization_tagged_allele_gel.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
     "GenomicCharacterization_ddpcr": [
@@ -1085,11 +1044,9 @@
                                           	}
 
                                           ],
-    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing.",
+    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using Cas-OFFinder; ~4 off-targets in exons and ~ 4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing.",
     "Validation_WesternBlot": "/images/AICS-0017/WesternBlot.jpg",
-    "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0017/desmoplakin122016.jpg",
-    "Validation_Immunofluorescence_caption": "",
     "StemCellCharacterization_pluripotency_analysis":[
                                         {
                                           "Marker": "NANOG",
@@ -1224,12 +1181,11 @@
     "Main_protein": "Beta-actin",
     "Main_gene_id": 60,
     "Main_mrna_id": "NM_001101.3",
-    "Main_ensembl_id": "ENSG00000075624",
     "Main_structure": "Actin",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "AGSGT",
-    "Main_order_link": "",
+    "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0016&Product=iPSC",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/87425/",
     "EditingDesign_crRNA_seq": "GCCGTTGTCGACGACGAGCG",
@@ -1238,8 +1194,6 @@
     "EditingDesign_gene_figure": "/images/AICS-0016/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: ACTB locus; Bottom: Zoom in on mEGFP insertion site at ACTB N-terminal exon",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
-    "GenomicCharacterization_sequences_link": "N",
-    "GenomicCharacterization_sequences_link_caption": "N",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0016/ACTB_full_allele_gel.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
@@ -1258,7 +1212,7 @@
                                           		"mutationsIdentified": "0"
                                           	}
                                           ],
-    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing; crRNA used to edit ACTB has only 6 predicted off-targets after filtering",
+    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using Cas-OFFinder; ~4 off-targets in exons and ~4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing; crRNA used to edit ACTB has only 6 predicted off-targets after filtering",
     "GenomicCharacterization_junction_table": [
                                                 {
                                                   "junction": "5'",
@@ -1413,12 +1367,11 @@
     "Main_protein": "Sec61-beta",
     "Main_gene_id": 10952,
     "Main_mrna_id": "NM_006808.2",
-    "Main_ensembl_id": "ENSG00000106803",
     "Main_structure": "Endoplasmic reticulum",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "SGLRS",
-    "Main_order_link": "",
+    "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0010&Product=iPSC",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/87426/",
     "Main_cell_line_morphology": "",
@@ -1433,8 +1386,6 @@
     "EditingDesign_gene_figure": "/images/AICS-0010/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: SEC61B locus; Bottom: Zoom in on mEGFP insertion site at SEC61B N-terminal exon",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
-    "GenomicCharacterization_sequences_link": "N",
-    "GenomicCharacterization_sequences_link_caption": "N",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0010/SEC61B_full_allele_gel.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
@@ -1453,7 +1404,7 @@
                                           		"mutationsIdentified": "0"
                                           	}
                                           ],
-    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
+    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using Cas-OFFinder; ~4 off-targets in exons and ~4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
     "GenomicCharacterization_junction_table": [
                                                 {
                                                   "junction": "5'",
@@ -1615,12 +1566,11 @@
     "Main_protein": "Fibrillarin",
     "Main_gene_id": 2091,
     "Main_mrna_id": "NM_001436.3",
-    "Main_ensembl_id": "ENSG00000105202",
     "Main_structure": "Nucleolus",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "KPNSAVDGTAGPG",
-    "Main_order_link": "https://www.addgene.org/87427/",
+    "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0014&Product=iPSC",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/87427/",
     "Main_cell_line_morphology": "",
@@ -1635,8 +1585,6 @@
     "EditingDesign_gene_figure": "/images/AICS-0014/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: FBL locus; Bottom: Zoom in on mEGFP insertion site at FBL C-terminal exon",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
-    "GenomicCharacterization_sequences_link": "N",
-    "GenomicCharacterization_sequences_link_caption": "N",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0014/FBL_full_allele_gel.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
@@ -1655,7 +1603,7 @@
                                           		"mutationsIdentified": "0"
                                           	}
                                           ],
-    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
+    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using Cas-OFFinder; ~4 off-targets in exons and ~4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
     "GenomicCharacterization_junction_table": [
                                                 {
                                                   "junction": "5'",
@@ -1825,12 +1773,11 @@
     "Main_protein": "Non-muscle myosin heavy chain IIB",
     "Main_gene_id": 4628,
     "Main_mrna_id": "NM_001256012.1",
-    "Main_ensembl_id": "ENSG00000133026",
     "Main_structure": "Myosin",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "YSDLELKLRIP",
-    "Main_order_link": "",
+    "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0024&Product=iPSC",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/87428/",
     "Main_cell_line_morphology": "",
@@ -1845,8 +1792,6 @@
     "EditingDesign_gene_figure": "/images/AICS-0024/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: MYH10 locus showing 3 MYH10 isoforms; Bottom: Zoom in on mEGFP insertion site at MYH10 N-terminal exon",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
-    "GenomicCharacterization_sequences_link": "N",
-    "GenomicCharacterization_sequences_link_caption": "N",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0024/MYH10_full_allele_gel.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
@@ -1865,7 +1810,7 @@
                                           		"mutationsIdentified": "0"
                                           	}
                                           ],
-    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
+    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using Cas-OFFinder; ~4 off-targets in exons and ~4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
     "GenomicCharacterization_junction_table": [
                                                 {
                                                   "junction": "5'",
@@ -1981,7 +1926,6 @@
     "Main_protein": "Centrin",
     "Main_gene_id": 1069,
     "Main_mrna_id": "NM_000000.0",
-    "Main_ensembl_id": "ENSG00000147400",
     "Main_structure": "Centrosome",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mtagRFP-T",
@@ -2004,11 +1948,8 @@
     "EditingDesign_gene_figure_caption": "",
     "EditingDesign_p14_fpkm": "",
     "EditingDesign_p18_fpkm": "",
-    "EditingDesign_expression_figure": "",
     "GenomicCharacterization_junction_schematic": "",
     "GenomicCharacterization_junction_schematic_caption": "",
-    "GenomicCharacterization_sequences_link": "",
-    "GenomicCharacterization_sequences_link_caption": "",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
     "GenomicCharacterization_ddpcr": "",
@@ -2016,9 +1957,7 @@
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
     "Validation_WesternBlot": "",
-    "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "",
-    "Validation_Immunofluorescence_caption": "",
     "StemCellCharacterization_pluripotency_analysis": "",
     "StemCellCharacterization_pluripotency_analysis_caption": "",
     "StemCellCharacterization_karyotype": "",
@@ -2064,7 +2003,6 @@
     "Main_protein": "Vimentin",
     "Main_gene_id": 7431,
     "Main_mrna_id": "NM_000000.0",
-    "Main_ensembl_id": "ENSG00000026025",
     "Main_structure": "Intermediate filaments",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -2087,11 +2025,8 @@
     "EditingDesign_gene_figure_caption": "",
     "EditingDesign_p14_fpkm": "",
     "EditingDesign_p18_fpkm": "",
-    "EditingDesign_expression_figure": "",
     "GenomicCharacterization_junction_schematic": "",
     "GenomicCharacterization_junction_schematic_caption": "",
-    "GenomicCharacterization_sequences_link": "",
-    "GenomicCharacterization_sequences_link_caption": "",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
     "GenomicCharacterization_ddpcr": "",
@@ -2099,9 +2034,7 @@
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
     "Validation_WesternBlot": "",
-    "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "",
-    "Validation_Immunofluorescence_caption": "",
     "StemCellCharacterization_pluripotency_analysis": "",
     "StemCellCharacterization_pluripotency_analysis_caption": "",
     "StemCellCharacterization_karyotype": "",
@@ -2193,12 +2126,11 @@
     "Main_protein": "Tight junction protein ZO1",
     "Main_gene_id": 7082,
     "Main_mrna_id": "NM_003257.4",
-    "Main_ensembl_id": "ENSG00000104067",
     "Main_structure": "Tight junctions",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "SGLRSRALERDK",
-    "Main_order_link": "",
+    "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0023&Product=iPSC",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/87429/",
     "Main_cell_line_morphology": "",
@@ -2213,8 +2145,6 @@
     "EditingDesign_gene_figure": "/images/AICS-0023/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: TJP1 locus showing 4 TJP1  isoforms; Bottom: Zoom in on mEGFP insertion site at TJP1 N-terminal exon",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
-    "GenomicCharacterization_sequences_link": "N",
-    "GenomicCharacterization_sequences_link_caption": "N",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0023/TJP1_full_allele_gel.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
@@ -2233,7 +2163,7 @@
                                           		"mutationsIdentified": "0"
                                           	}
                                           ],
-    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using CasOFFinder; ~4 off-targets in exons and ~4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
+    "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using Cas-OFFinder; ~4 off-targets in exons and ~4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
     "GenomicCharacterization_junction_table": [
                                                 {
                                                   "junction": "5'",
@@ -2349,7 +2279,6 @@
     "Main_protein": "LC3",
     "Main_gene_id": 81631,
     "Main_mrna_id": "NM_000000.0",
-    "Main_ensembl_id": "ENSG00000140941",
     "Main_structure": "Autophagosomes",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -2372,11 +2301,8 @@
     "EditingDesign_gene_figure_caption": "",
     "EditingDesign_p14_fpkm": "",
     "EditingDesign_p18_fpkm": "",
-    "EditingDesign_expression_figure": "",
     "GenomicCharacterization_junction_schematic": "",
     "GenomicCharacterization_junction_schematic_caption": "",
-    "GenomicCharacterization_sequences_link": "",
-    "GenomicCharacterization_sequences_link_caption": "",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
     "GenomicCharacterization_ddpcr": "",
@@ -2384,9 +2310,7 @@
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
     "Validation_WesternBlot": "",
-    "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "",
-    "Validation_Immunofluorescence_caption": "",
     "StemCellCharacterization_pluripotency_analysis": "",
     "StemCellCharacterization_pluripotency_analysis_caption": "",
     "StemCellCharacterization_karyotype": "",
@@ -2440,7 +2364,7 @@
     "Main_terminal_tagged": "NA",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "NA",
-    "Main_order_link": "",
+    "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0036&Product=iPSC",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "",
     "Main_media":[
@@ -2468,8 +2392,6 @@
     "EditingDesign_gene_figure": "/images/AICS-0036/AAVS1_gfp.png",
     "EditingDesign_gene_figure_caption": "Top: mEGFP insertion site at AAVS1 locus in PPP1R12C intron; Bottom: Zoom in on mEGFP insertion site at AAVS1 locus",
     "GenomicCharacterization_junction_schematic": "",
-    "GenomicCharacterization_sequences_link": "",
-    "GenomicCharacterization_sequences_link_caption": "",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
@@ -2508,9 +2430,7 @@
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
     "Validation_WesternBlot": "/images/AICS-0036/Western blot documentation AAVS1 final clone only_final.jpg",
-    "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "",
-    "Validation_Immunofluorescence_caption": "",
     "StemCellCharacterization_pluripotency_analysis": [
                   {
                     "Marker": "NANOG",
@@ -2601,7 +2521,6 @@
     "Main_protein": "beta-galactoside alpha-2,6-sialyltransferase 1",
     "Main_gene_id": 6480,
     "Main_mrna_id": "NM_000000.0",
-    "Main_ensembl_id": "ENSG00000073849",
     "Main_structure": "Golgi",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -2624,11 +2543,8 @@
     "EditingDesign_gene_figure_caption": "",
     "EditingDesign_p14_fpkm": "",
     "EditingDesign_p18_fpkm": "",
-    "EditingDesign_expression_figure": "",
     "GenomicCharacterization_junction_schematic": "",
     "GenomicCharacterization_junction_schematic_caption": "",
-    "GenomicCharacterization_sequences_link": "",
-    "GenomicCharacterization_sequences_link_caption": "",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
     "GenomicCharacterization_ddpcr": "",
@@ -2636,9 +2552,7 @@
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
     "Validation_WesternBlot": "",
-    "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "",
-    "Validation_Immunofluorescence_caption": "",
     "StemCellCharacterization_pluripotency_analysis": "",
     "StemCellCharacterization_pluripotency_analysis_caption": "",
     "StemCellCharacterization_karyotype": "",
@@ -2685,7 +2599,6 @@
     "Main_protein": "LAMP1",
     "Main_gene_id": 3916,
     "Main_mrna_id": "NM_000000.0",
-    "Main_ensembl_id": "ENSG00000185896",
     "Main_structure": "Lysosome",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -2708,11 +2621,8 @@
     "EditingDesign_gene_figure_caption": "",
     "EditingDesign_p14_fpkm": "",
     "EditingDesign_p18_fpkm": "",
-    "EditingDesign_expression_figure": "",
     "GenomicCharacterization_junction_schematic": "",
     "GenomicCharacterization_junction_schematic_caption": "",
-    "GenomicCharacterization_sequences_link": "",
-    "GenomicCharacterization_sequences_link_caption": "",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
     "GenomicCharacterization_ddpcr": "",
@@ -2720,9 +2630,7 @@
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
     "Validation_WesternBlot": "",
-    "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "",
-    "Validation_Immunofluorescence_caption": "",
     "StemCellCharacterization_pluripotency_analysis": "",
     "StemCellCharacterization_pluripotency_analysis_caption": "",
     "StemCellCharacterization_karyotype": "",
