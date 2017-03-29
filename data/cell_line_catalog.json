@@ -34,7 +34,7 @@
     "Main_protein": "Paxillin",
     "Main_gene_id": 5829,
     "Main_mrna_id": "NM_002859.3",
-    "Main_structure": "Adhesions",
+    "Main_structure": "Matrix adhesions",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "EGFP",
     "Main_linker": "GTSGGS",
@@ -218,7 +218,7 @@
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TUBA1B",
     "Main_gene_name": "Tubulin-alpha 1b",
-    "Main_protein": "Alpha-tubulin",
+    "Main_protein": "Alpha tubulin",
     "Main_gene_id": 10376,
     "Main_mrna_id": "NM_006082.2",
     "Main_structure": "Microtubules",
@@ -678,10 +678,10 @@
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "LMNB1",
     "Main_gene_name": "Lamin B1",
-    "Main_protein": "LaminB1",
+    "Main_protein": "Nuclear lamin B1",
     "Main_gene_id": 4001,
     "Main_mrna_id": "NM_005573.3",
-    "Main_structure": "Nucleus",
+    "Main_structure": "Nuclear envelope",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "SGLRSRAQAS",
@@ -955,7 +955,7 @@
     "Main_protein": "Desmoplakin",
     "Main_gene_id": 1832,
     "Main_mrna_id": "NM_004415.3",
-    "Main_structure": "Cell-cell junctions",
+    "Main_structure": "Desmosomes",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "HDPPVAT",
@@ -1114,7 +1114,7 @@
   },
   {
     "cell_line_id": "AICS-0016",
-    "status": "No",
+    "status": "Yes",
     "Main_data_available": "April 2017",
     "subpaged_status": [
       { "id": "editingdesign",
@@ -1178,10 +1178,10 @@
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "ACTB",
     "Main_gene_name": "Actin beta",
-    "Main_protein": "Beta-actin",
+    "Main_protein": "Beta actin",
     "Main_gene_id": 60,
     "Main_mrna_id": "NM_001101.3",
-    "Main_structure": "Actin",
+    "Main_structure": "Actin filaments",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "AGSGT",
@@ -1300,7 +1300,7 @@
   },
   {
     "cell_line_id": "AICS-0010",
-    "status": "No",
+    "status": "Yes",
     "Main_data_available": "April 2017",
     "subpaged_status": [
       { "id": "editingdesign",
@@ -1365,7 +1365,7 @@
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "SEC61B",
     "Main_gene_name": "Sec61 translocon beta subunit",
-    "Main_protein": "Sec61-beta",
+    "Main_protein": "Sec61 beta",
     "Main_gene_id": 10952,
     "Main_mrna_id": "NM_006808.2",
     "Main_structure": "Endoplasmic reticulum",
@@ -1493,7 +1493,7 @@
   },
   {
     "cell_line_id": "AICS-0014",
-    "status": "No",
+    "status": "Yes",
     "Main_data_available": "April 2017",
     "subpaged_status": [
       { "id": "editingdesign",
@@ -1693,7 +1693,7 @@
   },
   {
     "cell_line_id": "AICS-0024",
-    "status": "No",
+    "status": "Yes",
     "Main_data_available": "April 2017",
     "subpaged_status": [
       { "id": "editingdesign",
@@ -1776,7 +1776,7 @@
     "Main_protein": "Non-muscle myosin heavy chain IIB",
     "Main_gene_id": 4628,
     "Main_mrna_id": "NM_001256012.1",
-    "Main_structure": "Myosin",
+    "Main_structure": "Actomyosin bundles",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "YSDLELKLRIP",
@@ -2049,7 +2049,7 @@
   },
   {
     "cell_line_id": "AICS-0023",
-    "status": "No",
+    "status": "Yes",
     "Main_data_available": "April 2017",
     "subpaged_status": [
       { "id": "editingdesign",
@@ -2326,7 +2326,7 @@
   },
   {
     "cell_line_id": "AICS-0036",
-    "status": "No",
+    "status": "Yes",
     "Main_data_available": "April 2017",
     "subpaged_status": [
       { "id": "editingdesign",
