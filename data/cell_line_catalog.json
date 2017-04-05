@@ -34,6 +34,9 @@
     "Main_protein": "Paxillin",
     "Main_gene_id": 5829,
     "Main_mrna_id": "NM_002859.3",
+    "Main_mrna_id1": "NM_001080855.2",
+    "Main_mrna_id2": "NM_025157.4",
+    "Main_mrna_id3": "NM_001243756.1",
     "Main_structure": "Matrix adhesions",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "EGFP",
@@ -81,8 +84,8 @@
     "EditingDesign_gene_figure_caption": "Top: PXN locus showing 4 PXN isoforms; Bottom: Zoom in on EGFP insertion site at PXN C-terminal exon",
     "GenomicCharacterization_junction_schematic": "/images/AICS-0005/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_junction_schematic_caption": "",
-    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0005/GenomicCharacterization_tagged_allele_gel.jpg",
-    "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
+    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0005/PXN_full_allele.jpg",
+    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_junction_table": [
 
                                                 {
@@ -129,7 +132,7 @@
     "StemCellCharacterization_pluripotency_analysis": [
                   {
                     "Marker": "NANOG",
-                    "positiveCells": 100
+                    "positiveCells": 98.7 
                   },
                   {
                     "Marker": "SOX2",
@@ -137,11 +140,11 @@
                   },
                   {
                     "Marker": "OCT4",
-                    "positiveCells": 97.4
+                    "positiveCells": 97.3
                   },
                   {
                     "Marker": "SSEA-1",
-                    "positiveCells": 2.01
+                    "positiveCells": 3.49
                   },
                   {
                     "Marker": "SSEA-3",
@@ -174,10 +177,11 @@
           ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Cells were stained for markers of Ectoderm, Endoderm, and Mesoderm lineages using directly conjugated antibodies from BD Bioscience. Gating was based on isotype controls.",
     "StemCellCharacterization_differentiation": {
-      "Day_of_beating": "d8",
-      "percent_positive_cells": 76
+      "troponin_percent_positive": "66-98 (4)",
+      "Day_of_beating_percent": "75 (16)",
+      "Day_of_beating_range": "d7-d17"
     },
-    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
+    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in ().",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0005/StemCellCharacterization_rnaseq_fig.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. PXN-EGFP samples are from two independent clones.",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
@@ -300,8 +304,8 @@
                                                 }
                                             ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0012/GenomicCharacterization_tagged_allele_gel.png",
-    "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
+    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0012/TUBA1B_full_allele.jpg",
+    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
                                       	{
                                       		"clone": "clone105",
@@ -333,19 +337,19 @@
                 	},
                 	{
                 		"Marker": "OCT4",
-                		"positiveCells": "97.7"
+                		"positiveCells": "98.5"
                 	},
                 	{
                 		"Marker": "SSEA-1",
-                		"positiveCells": "0.16"
+                		"positiveCells": "5.29"
                 	},
                 	{
                 		"Marker": "SSEA-3",
-                		"positiveCells": "99.7"
+                		"positiveCells": "100"
                 	},
                 	{
                 		"Marker": "TRA-160",
-                		"positiveCells": "90.8"
+                		"positiveCells": "88.4"
                 	}
                 ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
@@ -369,12 +373,12 @@
                     }
                   ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Cells were stained for markers of Ectoderm, Endoderm, and Mesoderm lineages using directly conjugated antibodies from BD Bioscience. Gating was based on isotype controls.",
-    "StemCellCharacterization_differentiation":
-          {
-            "Day_of_beating": "d7",
-            "percent_positive_cells": 95.7
-          },
-    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
+    "StemCellCharacterization_differentiation": {
+      "troponin_percent_positive": "87-96 (4)",
+      "Day_of_beating_percent": "75 (12)",
+      "Day_of_beating_range": "d6-d20"
+    },
+    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in ().",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0012/StemCellCharacterization_rnaseq_fig.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. TUBA1B-mEGFP samples are from two independent clones.",
     "Supplementary_cell_culture_link": "/data/pdfs/AICS-012/Supplementary_cell_culture_link.pdf",
@@ -561,8 +565,8 @@
                                                 }
                                             ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    "GenomicCharacterization_tagged_allele_gel": "",
-    "GenomicCharacterization_tagged_allele_gel_caption": "",
+    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0011/TOMM20_full_allele.jpg",
+    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. GFP-tagged allele could not be amplified in TOMM20-mEGFP due to possible duplication at insertion site. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
         {
           "clone": "cl27",
@@ -593,19 +597,19 @@
                                       },
                                       {
                                         "Marker": "OCT4",
-                                        "positiveCells": 99.4
+                                        "positiveCells": 99.5
                                       },
                                       {
                                         "Marker": "SSEA-1",
-                                        "positiveCells": 0.25
+                                        "positiveCells": 8.08
                                       },
                                       {
                                         "Marker": "SSEA-3",
-                                        "positiveCells": 97.9
+                                        "positiveCells": 99.8
                                       },
                                       {
                                         "Marker": "TRA-160",
-                                        "positiveCells": 95.3
+                                        "positiveCells": 90.7
                                       }
                                     ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
@@ -629,11 +633,12 @@
                                         }
                                       ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Cells were stained for markers of Ectoderm, Endoderm, and Mesoderm lineages using directly conjugated antibodies from BD Bioscience. Gating was based on isotype controls.",
-    "StemCellCharacterization_differentiation":  {
-        "Day_of_beating": "d7",
-        "percent_positive_cells": 65.7
-      },
-    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
+    "StemCellCharacterization_differentiation": {
+      "troponin_percent_positive": "80-95 (2)",
+      "Day_of_beating_percent": "75 (12)",
+      "Day_of_beating_range": "d7-d13"
+    },
+    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in ().",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0011/StemCellCharacterization_rnaseq_fig.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. TOMM20-mEGFP samples are from two independent clones.",
     "Supplementary_cell_culture_link": "/data/pdfs/AICS-012/Supplementary_cell_culture_link.pdf",
@@ -760,8 +765,8 @@
                                                 }
                                             ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0013/GenomicCharacterization_tagged_allele_gel.jpg",
-    "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
+    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0013/LMNB1_full_allele.jpg",
+    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
                                         {
                                           "clone": "cl210",
@@ -785,7 +790,7 @@
     "StemCellCharacterization_pluripotency_analysis": [
                                   {
                                     "Marker": "NANOG",
-                                    "positiveCells": 99.3
+                                    "positiveCells": 99.9
                                   },
                                   {
                                     "Marker": "SOX2",
@@ -793,19 +798,19 @@
                                   },
                                   {
                                     "Marker": "OCT4",
-                                    "positiveCells": 94.8
+                                    "positiveCells": 99.7
                                   },
                                   {
                                     "Marker": "SSEA-1",
-                                    "positiveCells": 4.21
+                                    "positiveCells": 1.17
                                   },
                                   {
                                     "Marker": "SSEA-3",
-                                    "positiveCells": 99.4
+                                    "positiveCells": 98.4
                                   },
                                   {
                                     "Marker": "TRA-160",
-                                    "positiveCells": 98.3
+                                    "positiveCells": 86.1
                                   }
                                 ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
@@ -829,11 +834,12 @@
                             }
                           ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Cells were stained for markers of Ectoderm, Endoderm, and Mesoderm lineages using directly conjugated antibodies from BD Bioscience. Gating was based on isotype controls.",
-    "StemCellCharacterization_differentiation":{
-                  "Day_of_beating": "d7",
-                  "percent_positive_cells": 36.2
-                },
-    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
+    "StemCellCharacterization_differentiation": {
+      "troponin_percent_positive": "39-97 (4)",
+      "Day_of_beating_percent": "80 (10)",
+      "Day_of_beating_range": "d7-d12"
+    },
+    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in ().",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0013/StemCellCharacterization_rnaseq_LMNB1.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. LMNB1-mEGFP samples are from two independent clones.",
     "Supplementary_cell_culture_link": "/data/pdfs/AICS-012/Supplementary_cell_culture_link.pdf",
@@ -955,6 +961,8 @@
     "Main_protein": "Desmoplakin",
     "Main_gene_id": 1832,
     "Main_mrna_id": "NM_004415.3",
+    "Main_mrna_id1": "NM_001008844.2",
+    "Main_mrna_id2": "NM_001319034.1",
     "Main_structure": "Desmosomes",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -1025,8 +1033,8 @@
                                                 }
                                             ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0017/GenomicCharacterization_tagged_allele_gel.jpg",
-    "GenomicCharacterization_tagged_allele_gel_caption": "PCR primers were designed to amplify the full length insertion. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb plus ladder)",
+    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0017/DSP_full_allele.jpg",
+    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
                                         {
                                           "clone": "cl65",
@@ -1050,27 +1058,27 @@
     "StemCellCharacterization_pluripotency_analysis":[
                                         {
                                           "Marker": "NANOG",
-                                          "positiveCells": 99.4
+                                          "positiveCells": 99.5
                                         },
                                         {
                                           "Marker": "SOX2",
-                                          "positiveCells": 99
+                                          "positiveCells": 98.9
                                         },
                                         {
                                           "Marker": "OCT4",
-                                          "positiveCells": 98.3
+                                          "positiveCells": 98.7
                                         },
                                         {
                                           "Marker": "SSEA-1",
-                                          "positiveCells": 0.1
+                                          "positiveCells": 4.06
                                         },
                                         {
                                           "Marker": "SSEA-3",
-                                          "positiveCells": 96.7
+                                          "positiveCells": 99.5
                                         },
                                         {
                                           "Marker": "TRA-160",
-                                          "positiveCells": 91.1
+                                          "positiveCells": 86.2
                                         }
                                       ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
@@ -1094,12 +1102,12 @@
                                         }
                                       ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Cells were stained for markers of Ectoderm, Endoderm, and Mesoderm lineages using directly conjugated antibodies from BD Bioscience. Gating was based on isotype controls.",
-    "StemCellCharacterization_differentiation":
-                                          {
-                                            "Day_of_beating": "d7",
-                                            "percent_positive_cells": 91.7
-                                          },
-    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
+    "StemCellCharacterization_differentiation": {
+      "troponin_percent_positive": "92-95 (2)",
+      "Day_of_beating_percent": "50 (10)",
+      "Day_of_beating_range": "d7-d15"
+    },
+    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in ().",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0017/StemCellCharacterization_rnaseq_DSP.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. DSP-mEGFP samples are from two independent clones.",
     "Supplementary_cell_culture_link": "/data/pdfs/AICS-012/Supplementary_cell_culture_link.pdf",
@@ -1115,7 +1123,7 @@
   {
     "cell_line_id": "AICS-0016",
     "status": "Yes",
-    "Main_data_available": "April 2017",
+    "Main_data_available": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
         "done": "true"
@@ -1242,11 +1250,11 @@
     "StemCellCharacterization_pluripotency_analysis": [
                   {
                     "Marker": "NANOG",
-                    "positiveCells": 99.3
+                    "positiveCells": 100
                   },
                   {
                     "Marker": "SOX2",
-                    "positiveCells": 99.1
+                    "positiveCells": 100
                   },
                   {
                     "Marker": "OCT4",
@@ -1254,7 +1262,7 @@
                   },
                   {
                     "Marker": "SSEA-1",
-                    "positiveCells": 2.8
+                    "positiveCells": 7.76
                   },
                   {
                     "Marker": "SSEA-3",
@@ -1262,7 +1270,7 @@
                   },
                   {
                     "Marker": "TRA-160",
-                    "positiveCells": 92.7
+                    "positiveCells": 93.8
                   }
                 ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
@@ -1287,10 +1295,11 @@
           ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Cells were stained for markers of Ectoderm, Endoderm, and Mesoderm lineages using directly conjugated antibodies from BD Bioscience. Gating was based on isotype controls.",
     "StemCellCharacterization_differentiation": {
-      "Day_of_beating": "d7",
-      "percent_positive_cells": 72.5
+      "troponin_percent_positive": "72 (1)",
+      "Day_of_beating_percent": "100 (4)",
+      "Day_of_beating_range": "d7-d8"
     },
-    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
+    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T and gating was based on an isotype control. Range observed across multiple experiments is shown for Day of beating initiation; number of experiments is shown in ().",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0016/StemCellCharacterization_rnaseq_ACTB.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. ACTB-mEGFP samples are from two independent clones.",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
@@ -1301,7 +1310,7 @@
   {
     "cell_line_id": "AICS-0010",
     "status": "Yes",
-    "Main_data_available": "April 2017",
+    "Main_data_available": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
         "done": "true"
@@ -1378,10 +1387,6 @@
     "Main_donor_plasmid": "https://www.addgene.org/87426/",
     "Main_cell_line_morphology": "",
     "Main_cell_line_morphology_caption": "Viability and colony formation photographed 3 days post-thaw at 4X magnification. Cells were treated with ROCK inhibitor for 24 hrs post-thaw.",
-    "Main_cell_line_movie1": "N",
-    "Main_cell_line_movie1_caption": "N",
-    "Main_cell_line_movie2": "N",
-    "Main_cell_line_movie2_caption": "N",
     "EditingDesign_crRNA_seq": "GCCATACCATATTGGAGATG",
     "EditingDesign_cas9": "Wildtype spCas9",
     "EditingDesign_NCBI_isoform": "NM_006808.2",
@@ -1437,7 +1442,7 @@
     "StemCellCharacterization_pluripotency_analysis": [
                   {
                     "Marker": "NANOG",
-                    "positiveCells": 99.8
+                    "positiveCells": 99.9
                   },
                   {
                     "Marker": "SOX2",
@@ -1445,19 +1450,19 @@
                   },
                   {
                     "Marker": "OCT4",
-                    "positiveCells": 97.9
+                    "positiveCells": 97.4
                   },
                   {
                     "Marker": "SSEA-1",
-                    "positiveCells": 5.6
+                    "positiveCells": 0.45
                   },
                   {
                     "Marker": "SSEA-3",
-                    "positiveCells": 99.8
+                    "positiveCells": 95.2
                   },
                   {
                     "Marker": "TRA-160",
-                    "positiveCells": 96.8
+                    "positiveCells": 97.2
                   }
                 ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
@@ -1480,10 +1485,11 @@
           ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Cells were stained for markers of Ectoderm, Endoderm, and Mesoderm lineages using directly conjugated antibodies from BD Bioscience. Gating was based on isotype controls.",
     "StemCellCharacterization_differentiation": {
-      "Day_of_beating": "d7",
-      "percent_positive_cells": 93.9
+      "troponin_percent_positive": "95 (1)",
+      "Day_of_beating_percent": "80 (5)",
+      "Day_of_beating_range": "d7-d8"
     },
-    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
+    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T and gating was based on an isotype control. Range observed across multiple experiments is shown for Day of beating initiation; number of experiments is shown in ().",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0010/StemCellCharacterization_rnaseq_SEC61B.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. SEC61B-mEGFP samples are from two independent clones.",
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
@@ -1494,7 +1500,7 @@
   {
     "cell_line_id": "AICS-0014",
     "status": "Yes",
-    "Main_data_available": "April 2017",
+    "Main_data_available": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
         "done": "true"
@@ -1635,7 +1641,7 @@
     "StemCellCharacterization_pluripotency_analysis": [
                   {
                     "Marker": "NANOG",
-                    "positiveCells": 99.8
+                    "positiveCells": 99.9
                   },
                   {
                     "Marker": "SOX2",
@@ -1643,19 +1649,19 @@
                   },
                   {
                     "Marker": "OCT4",
-                    "positiveCells": 97.9
+                    "positiveCells": 97.2
                   },
                   {
                     "Marker": "SSEA-1",
-                    "positiveCells": 1.2
+                    "positiveCells": 1.8
                   },
                   {
                     "Marker": "SSEA-3",
-                    "positiveCells": 99.9
+                    "positiveCells": 96.3
                   },
                   {
                     "Marker": "TRA-160",
-                    "positiveCells": 98.1
+                    "positiveCells": 90.9
                   }
                 ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
@@ -1680,10 +1686,11 @@
           ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Cells were stained for markers of Ectoderm, Endoderm, and Mesoderm lineages using directly conjugated antibodies from BD Bioscience. Gating was based on isotype controls.",
     "StemCellCharacterization_differentiation": {
-      "Day_of_beating": "d7",
-      "percent_positive_cells": 63.1
+      "troponin_percent_positive": "64 (1)",
+      "Day_of_beating_percent": "75 (4)",
+      "Day_of_beating_range": "d7-d9"
     },
-    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
+    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T and gating was based on an isotype control. Range observed across multiple experiments is shown for Day of beating initiation; number of experiments is shown in ().",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0014/StemCellCharacterization_rnaseq_FBL.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. FBL-mEGFP samples are from two independent clones.",
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
@@ -1694,7 +1701,7 @@
   {
     "cell_line_id": "AICS-0024",
     "status": "Yes",
-    "Main_data_available": "April 2017",
+    "Main_data_available": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
         "done": "true"
@@ -1776,6 +1783,8 @@
     "Main_protein": "Non-muscle myosin heavy chain IIB",
     "Main_gene_id": 4628,
     "Main_mrna_id": "NM_001256012.1",
+    "Main_mrna_id1": "NM_001256095.1",
+    "Main_mrna_id2": "NM_005964.3",
     "Main_structure": "Actomyosin bundles",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -1849,7 +1858,7 @@
                   },
                   {
                     "Marker": "SSEA-1",
-                    "positiveCells": 4.3
+                    "positiveCells": 4.15
                   },
                   {
                     "Marker": "SSEA-3",
@@ -1882,10 +1891,11 @@
           ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Cells were stained for markers of Ectoderm, Endoderm, and Mesoderm lineages using directly conjugated antibodies from BD Bioscience. Gating was based on isotype controls.",
     "StemCellCharacterization_differentiation": {
-      "Day_of_beating": "d7",
-      "percent_positive_cells": 98.2
+      "troponin_percent_positive": "75-99 (2)",
+      "Day_of_beating_percent": "100 (4)",
+      "Day_of_beating_range": "d7-d16"
     },
-    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
+    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in ().",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0024/StemCellCharacterization_rnaseq_MYH10.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. MYH10-mEGFP samples are from two independent clones.",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
@@ -2050,7 +2060,7 @@
   {
     "cell_line_id": "AICS-0023",
     "status": "Yes",
-    "Main_data_available": "April 2017",
+    "Main_data_available": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
         "done": "true"
@@ -2124,6 +2134,7 @@
     "Main_protein": "Tight junction protein ZO1",
     "Main_gene_id": 7082,
     "Main_mrna_id": "NM_003257.4",
+    "Main_mrna_id1": "NM_175610.3",
     "Main_structure": "Tight junctions",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -2134,10 +2145,6 @@
     "Main_donor_plasmid": "https://www.addgene.org/87429/",
     "Main_cell_line_morphology": "",
     "Main_cell_line_morphology_caption": "Viability and colony formation photographed 3 days post-thaw at 4X magnification. Cells were treated with ROCK inhibitor for 24 hrs post-thaw.",
-    "Main_cell_line_movie1": "N",
-    "Main_cell_line_movie1_caption": "N",
-    "Main_cell_line_movie2": "N",
-    "Main_cell_line_movie2_caption": "N",
     "EditingDesign_crRNA_seq": "GGCCGCGGAGGCGCTCACCT",
     "EditingDesign_cas9": "Wildtype spCas9",
     "EditingDesign_NCBI_isoform": "NM_003257.4",
@@ -2203,7 +2210,7 @@
                   },
                   {
                     "Marker": "SSEA-1",
-                    "positiveCells": 3.5
+                    "positiveCells": 3.48
                   },
                   {
                     "Marker": "SSEA-3",
@@ -2211,7 +2218,7 @@
                   },
                   {
                     "Marker": "TRA-160",
-                    "positiveCells": 93.9
+                    "positiveCells": 94
                   }
                 ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Bioscience, acquired using a FACSAria Fusion (BD Bioscience), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
@@ -2236,10 +2243,11 @@
           ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Cells were stained for markers of Ectoderm, Endoderm, and Mesoderm lineages using directly conjugated antibodies from BD Bioscience. Gating was based on isotype controls.",
     "StemCellCharacterization_differentiation": {
-      "Day_of_beating": "d7",
-      "percent_positive_cells": 73.3
+      "troponin_percent_positive": "75-93 (3)",
+      "Day_of_beating_percent": "100 (6)",
+      "Day_of_beating_range": "d7-d17"
     },
-    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
+    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in ().",
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
@@ -2327,7 +2335,7 @@
   {
     "cell_line_id": "AICS-0036",
     "status": "Yes",
-    "Main_data_available": "April 2017",
+    "Main_data_available": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
         "done": "true"
@@ -2391,7 +2399,6 @@
     "EditingDesign_NCBI_isoform": "NA",
     "EditingDesign_gene_figure": "/images/AICS-0036/AAVS1_gfp.png",
     "EditingDesign_gene_figure_caption": "Top: mEGFP insertion site at AAVS1 locus in PPP1R12C intron; Bottom: Zoom in on mEGFP insertion site at AAVS1 locus",
-    "GenomicCharacterization_junction_schematic": "",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic.png",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
@@ -2479,10 +2486,11 @@
     "StemCellCharacterization_karyotype": "/images/AICS-0036/AAVS1_cl.6.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
     "StemCellCharacterization_differentiation": {
-      "Day_of_beating": "d7",
-      "percent_positive_cells": 61.9
+      "troponin_percent_positive": "94-96 (2)",
+      "Day_of_beating_percent": "100 (2)",
+      "Day_of_beating_range": "d8-d18"
     },
-    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T (BD Bioscience) and gating was based on an isotype control.",
+    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-Troponin T and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in ().",
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",

@@ -85,9 +85,8 @@
                 <li class="list-group-item"><span class="profile-summary-key">Gene: </span><span class="profile-summary-value">{{Main_gene_name}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Gene symbol:</span> <span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id}}">{{Main_gene_symbol}}</a></span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Protein: </span><span class="profile-summary-value">{{Main_protein}}</span></li>
-                <li class="list-group-item"><span class="profile-summary-key">mRNA:</span> <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id}}">{{Main_mrna_id}}</a></span></li>
+<!--                <li class="list-group-item"><span class="profile-summary-key">mRNA:</span> <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id}}">{{Main_mrna_id}}</a></span></li> -->
                 <li class="list-group-item"><span class="profile-summary-key">Fluorophore:</span> <span class="profile-summary-value">{{Main_fluorescent_tag}}</span></li>
-                <li class="list-group-item"><span class="profile-summary-key">Linker:</span><span class="profile-summary-value"> {{Main_linker}}</span></li>
                 <!-- <li class="list-group-item"><span class="profile-summary-key">Plasmid Sequence:</span><span class="profile-summary-value">{{Main_plasmid_sequence}}</span></li> -->
               </ul>
             <div class="row">
@@ -101,9 +100,11 @@
                 <div class="col-xlg-6">
                   <a class="btn btn-warning btn-block" role="button" href="{{Main_parental_order_link}}" target="_blank">Obtain parental line</a>
                 </div>
+                {{#if Main_donor_plasmid}}
                 <div class="col-xlg-6">
                   <a class="btn btn-warning btn-block" role="button" href="{{Main_donor_plasmid}}" target="_blank">Obtain donor plasmid</a>
                 </div>
+                {{/if}}
               </div>
               <div class="col-md-12">
                 <div class="col-md-12">
@@ -173,16 +174,22 @@
 
     <script id="editingDesign-template" type="text/x-handlebars-template">
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-7">
           <div class="panel panel-primary bg-lightgray">
             <div class="panel-body ">
               <ul id=editingDesign-info class="list-group">
                 <li class="list-group-item">
-                  <span class="profile-summary-key">NCBI Isoform:</span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id}}">{{Main_mrna_id}}</a></span></li>
+                  <span class="profile-summary-key">NCBI Isoform(s):</span>
+                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id}}">{{Main_mrna_id}}</a></span>
+                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id1}}">{{Main_mrna_id1}}</a></span>
+                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id2}}">{{Main_mrna_id2}}</a></span>
+                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id3}}">{{Main_mrna_id3}}</a></span></li>
                 <li class="list-group-item">
                   <span class="profile-summary-key">crRNA:</span>
                   <span>{{EditingDesign_crRNA_seq}}</span></li>
+                <li class="list-group-item">
+                  <span class="profile-summary-key">Linker:</span>
+                  <span class="profile-summary-value"> {{Main_linker}}</span></li>
                   <!-- UNHIDE LATER -->
                 <!-- <li class="list-group-item">
                   <span class="profile-summary-key">Donor plasmid sequence:</span>
@@ -482,15 +489,17 @@
               <table class="table">
                 <thead>
                   <tr>
-                    <th>Day of beating</th>
-                    <th>Troponin T, ~day 20, % positive cells</th>
+                    <th>Troponin T, % positive cells (n)</th>
+                    <th>% of experiments w/ beating cells (n)</th>
+                    <th>Day of beating initiation</th>
                   </tr>
                 </thead>
                 <tbody id="differentiation-table">
                   <tr>
                     {{#with StemCellCharacterization_differentiation}}
-                    <td class="tex-left">{{Day_of_beating}}</td>
-                    <td class="tex-left">{{percent_positive_cells}}</td>
+                    <td class="tex-left">{{troponin_percent_positive}}</td>
+                    <td class="tex-left">{{Day_of_beating_percent}}</td>
+                    <td class="tex-left">{{Day_of_beating_range}}</td>
                     {{/with}}
                   </tr>
                 </tbody>
