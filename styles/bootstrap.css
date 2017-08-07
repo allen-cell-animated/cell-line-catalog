@@ -6500,6 +6500,9 @@ button.close {
     display: none !important;
   }
 }
+#complete .cellline {
+  cursor: pointer;
+}
 .navbar {
   margin-bottom: 0;
 }
@@ -6517,5 +6520,8 @@ button.close {
 }
 .nav-pills li a:hover {
   color: #274f70;
+}
+#complete .status {
+  display: none;
 }
 /*# sourceMappingURL=bootstrap.css.map */

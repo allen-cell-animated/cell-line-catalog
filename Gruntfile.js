@@ -1,5 +1,15 @@
 module.exports = function(grunt) {
   grunt.initConfig({
+    watch: {
+      scripts: {
+        files: ['styles/customboot.less'],
+        task: ['dist-css'],
+        options: {
+          spawn: false,
+          atBegin: true,
+        },
+      },
+    },
     bspkg: grunt.file.readJSON('bower_components/bootstrap/package.json'),
     bspath: 'bower_components/bootstrap',
     banner: '/*!\n' +

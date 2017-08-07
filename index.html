@@ -49,21 +49,22 @@
         <td>
           {{Main_structure}}
         </td>
-        <td class='table-main-termial-tagged'>
-          {{Main_terminal_tagged}}
-        </td>
         <td>
           {{Main_fluorescent_tag}}
         </td>
         <td>
+          {{alleleCount}}
+        </td>
+        <td class='table-main-termial-tagged'>
+          {{Main_terminal_tagged}}
+        </td>
+        <td>
           {{Main_parent_line}}
         </td>
-        <td>
+        <td class="status">
           {{status}}
         </td>
-        <td>
-          {{Main_data_available}}
-        </td>
+
       </tr>
     </script>
     <script id="-filter-template" type="text/x-handlebars-template">
@@ -707,20 +708,19 @@ download="AICS_transfection_protocol.pdf">WTC transfection protocol</a></li>
                     Structure
                   </th>
                   <th>
-                    Tag Location
+                    Fluorophore
                   </th>
                   <th>
-                    Fluorophore
+                    Tagged alleles
+                  </th>
+                  <th>
+                    Tag Location
                   </th>
                   <th>
                     Parental Line
                   </th>
-                  <th>
-                    Cells available to order
-                  </th>
-                  <th>
-                    Full data available
-                  </th>
+
+
                 </tr>
               </thead>
               <tbody id="cell-line-table">
@@ -747,10 +747,13 @@ download="AICS_transfection_protocol.pdf">WTC transfection protocol</a></li>
                     Structure
                   </th>
                   <th>
-                    Tag Location
+                    Fluorophore
                   </th>
                   <th>
-                    Fluorophore
+                    Tagged alleles
+                  </th>
+                  <th>
+                    Tag Location
                   </th>
                   <th>
                     Parental Line
