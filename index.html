@@ -38,21 +38,22 @@
        data-Main_parent_line-filter ="{{Main_parent_line}}"
        id = {{cell_line_id}}>
        <span class="badge pull-right status">{{status}}</span>
-
+       <span class="pull-right glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <ul class="list-inline text-info list-inline-separated">
-          <li class="col-md-1 center-small image-holder"><div class="image-mask"><img src="/images/{{cell_line_id}}/single_plane_image.jpg"></div></li>
-          <li class="col-md-4 center-small">
+          <li class="col-lg-1 center-small image-holder"><div class="image-mask"><img src="/images/{{cell_line_id}}/single_plane_image.jpg"></div></li>
+          <li class="col-lg-4 center-small">
             <span class="header">
               <h4 class='table-cell-line-id'><span class="text-primary">{{cell_line_id}}  </span>
                 {{Main_protein}}  <small>  {{alleleCount}}-allelic</small>
               </h4>
             </span>
           </li>
-          <li class="col-md-2 inline-seperated-item">{{Main_gene_name}} <span class=gene-symbol>({{Main_gene_symbol}})</span></li>
-          <li class="col-md-2 inline-seperated-item">{{Main_structure}}</li>
-          <li class="col-md-1 inline-seperated-item">{{Main_fluorescent_tag}}</span></li>
-          <li class='col-md-1 inline-seperated-item'>{{Main_terminal_tagged}}</li>
-          <li class="col-md-1 inline-seperated-item">{{Main_parent_line}}</li>
+          <li class="col-lg-3 inline-seperated-item">{{Main_gene_name}} <span class=gene-symbol>({{Main_gene_symbol}})</span></li>
+          <li class="col-lg-2 inline-seperated-item">{{Main_structure}}</li>
+          <li class="col-lg-1 inline-seperated-item">{{Main_fluorescent_tag}}</span></li>
+          <li class='col-lg-1 inline-seperated-item'>{{Main_terminal_tagged}}</li>
+          <li class="col-lg-1 inline-seperated-item col-smaller">{{Main_parent_line}}</li>
+
         </ul>
       </li>
     </script>
