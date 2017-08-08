@@ -115,14 +115,11 @@
 
 .table-cell-line-id{
   min-width: 100px;
+  display: inline-block;
 }
 
 .table-main-termial-tagged{
   min-width: 104px;
-}
-
-#cell-line-table {
-  width: 70%;
 }
 
 #cell-line-table td{
@@ -140,6 +137,46 @@
 .navbar-form{
   border: none;
 }
+
+.image-mask{
+  display: inline-block;
+  overflow: hidden;
+  width: 75px;
+  height: 75px;
+  position: relative;
+  border-radius: 50%;
+}
+.image-mask img{
+  max-width: 369%;
+  left: -101px;
+  position: absolute;
+  top: -40px;
+}
+#complete .center-small{
+  display: block;
+  text-align: center;
+}
+#in_progress .image-holder{
+  display: none;
+}
+.image-holder{
+  width: 100%;
+}
+
+.list-inline-separated .inline-seperated-item {
+  margin-left: -10px;
+}
+.list-inline-separated .inline-seperated-item:first-child {
+  margin-left: 0px;
+}
+.list-inline-separated .inline-seperated-item:after {
+  content: '\2022';
+  margin: 0 5px;
+}
+.list-inline-separated .inline-seperated-item:last-child:after {
+  content: '';
+}
+
 /*FOOTER
 =======================================*/
 
@@ -161,10 +198,31 @@ footer{
 /*MEDIA
 =======================================*/
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 992px) {
   .heading-group-h1 {
     padding: .1em .1em .1em 2em;
     float: none;
+  }
+  .image-holder{
+    width: 5%;
+  }
+  .image-mask{
+    display: inline-block;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border-radius: 50%;
+    left: 0;
+  }
+  .image-mask img{
+    max-width: 369%;
+    left: -101px;
+    position: absolute;
+    top: -40px;
+  }
+  #complete .center-small{
+    text-align: left;
   }
 
   #filters select {
@@ -175,5 +233,18 @@ footer{
   #filters li {
     width: 20em;
     display: inline;
+  }
+  .list-inline-separated .inline-seperated-item {
+    margin-left: -10px;
+  }
+  .list-inline-separated .inline-seperated-item:first-child {
+    margin-left: 0px;
+  }
+  .list-inline-separated .inline-seperated-item:after {
+    content: '';
+    margin: 0 5px;
+  }
+  .list-inline-separated .inline-seperated-item:last-child:after {
+    content: '';
   }
 }

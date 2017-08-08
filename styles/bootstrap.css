@@ -6506,6 +6506,10 @@ button.close {
 .navbar {
   margin-bottom: 0;
 }
+#complete .cellline:hover {
+  background-color: #bad636;
+  color: white;
+}
 .btn {
   font-weight: 700;
   margin-bottom: 10px;
