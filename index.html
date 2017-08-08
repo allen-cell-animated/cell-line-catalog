@@ -53,7 +53,6 @@
           <li class="col-lg-1 inline-seperated-item">{{Main_fluorescent_tag}}</span></li>
           <li class='col-lg-1 inline-seperated-item'>{{Main_terminal_tagged}}</li>
           <li class="col-lg-1 inline-seperated-item col-smaller">{{Main_parent_line}}</li>
-
         </ul>
       </li>
     </script>
@@ -683,6 +682,23 @@ download="AICS_transfection_protocol.pdf">WTC transfection protocol</a></li>
           <div class="" id="complete">
             <h3 class="text-primary table-title">Cell lines available in the Allen Cell Collection</h3>
             <ul id="cell-line-table"  class="list-group">
+              <li class= "column-header list-group-item container-fluid">
+                <ul class="list-inline text-info list-inline-separated">
+                  <li class="col-lg-1 center-small image-holder"><div class="image-mask"><img src="/images/{{cell_line_id}}/single_plane_image.jpg"></div></li>
+                  <li class="col-lg-4 center-small">
+                    <span class="header">
+                      <h4 class='table-cell-line-id'><span class="text-primary">Cell Line ID  </span>
+                        Protein  <small>  allelic count</small>
+                      </h4>
+                    </span>
+                  </li>
+                  <li class="col-lg-3 inline-seperated-item">Gene Name <span class=gene-symbol>(gene symbol)</span></li>
+                  <li class="col-lg-2 inline-seperated-item">Structure</li>
+                  <li class="col-lg-1 inline-seperated-item">Fluorescent Tag</span></li>
+                  <li class='col-lg-1 inline-seperated-item'>Tag Location</li>
+                  <li class="col-lg-1 inline-seperated-item col-smaller">Parental Line</li>
+                </ul>
+              </li>
               <p class = 'errors displayoff'>Nothing matches your filters</p>
             </ul>
             <small class="table-footer">Visit <a href="https://catalog.coriell.org/1/AllenCellCollection" target="_blank">Coriell </a>to order any of these cell lines, or click on a row for more infomation. </small>

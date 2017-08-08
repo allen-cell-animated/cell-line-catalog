@@ -205,6 +205,9 @@ footer{
 .caption-holder{
   padding:10px;
 }
+.column-header{
+  display: none;
+}
 
 /*MEDIA
 =======================================*/
@@ -216,6 +219,10 @@ footer{
   }
   .image-holder{
     width: 5%;
+  }
+  .column-header{
+    display: block;
+    border-bottom: 3px solid #003056;
   }
   .image-mask{
     display: inline-block;

@@ -88,7 +88,7 @@
 
   cellListView.renderIndexPage = function(ctx) {
     $('#cellline-profile').hide();
-    $('#cell-line-table').children().remove();
+    $('#cell-line-table .cellline').remove();
     $('#in-progress-table').children().remove();
     $('#cell-line-list').show();
     $('#cell-line-catalog-nav').addClass('active');
@@ -112,7 +112,7 @@
     $('#cellline-profile').hide();
     $('#cell-collection-banner').hide();
     $('#cell-line-list').hide();
-    $('#cell-line-table').children().remove();
+    $('#cell-line-table .cellline').remove();
     $('#main').show();
     $('#cell-line-catalog-nav').removeClass('active');
     $('#home').addClass('active');
