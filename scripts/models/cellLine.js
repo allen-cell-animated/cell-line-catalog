@@ -3,6 +3,7 @@
     for (var key in opts) {
       this[key] = opts[key];
     }
+    this.displayID = Number(opts.cell_line_id.split('-')[1])
   }
 
   CellLine.allCellLines = [];
