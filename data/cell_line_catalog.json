@@ -1,6 +1,7 @@
 [
   {
     "cell_line_id": "AICS-0005",
+    "clone": "cl50",
     "alleleCount": "mono",
     "status": "Yes",
     "subpaged_status": [
@@ -194,6 +195,7 @@
   {
     "cell_line_id": "AICS-0012",
     "alleleCount": "mono",
+    "clone": "cl105",
     "status": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
@@ -395,6 +397,7 @@
   },
   {
     "cell_line_id": "AICS-0011",
+    "clone": "cl27",
     "alleleCount": "mono",
     "status": "Yes",
     "subpaged_status": [
@@ -587,6 +590,7 @@
   },
   {
     "cell_line_id": "AICS-0013",
+    "clone": "cl210",
     "alleleCount": "mono",
     "status": "Yes",
     "subpaged_status": [
@@ -788,6 +792,7 @@
   },
   {
     "cell_line_id": "AICS-0029",
+    "clone": "",
     "status": "Screening & QC",
     "alleleCount": "mono",
     "subpaged_status": [
@@ -863,6 +868,7 @@
   },
   {
     "cell_line_id": "AICS-0017",
+    "clone": "cl65",
     "alleleCount": "mono",
     "status": "Yes",
     "Main_data_available": "Yes",
@@ -1057,6 +1063,7 @@
   },
   {
     "cell_line_id": "AICS-0016",
+    "clone": "cl184",
     "alleleCount": "mono",
     "status": "Yes",
     "Main_data_available": "Yes",
@@ -1246,6 +1253,7 @@
   },
   {
     "cell_line_id": "AICS-0010",
+    "clone": "cl55",
     "alleleCount": "mono",
     "status": "Yes",
     "Main_data_available": "Yes",
@@ -1438,6 +1446,7 @@
   },
   {
     "cell_line_id": "AICS-0014",
+    "clone": "cl6",
     "alleleCount": "mono",
     "status": "Yes",
     "Main_data_available": "Yes",
@@ -1641,6 +1650,7 @@
   },
   {
     "cell_line_id": "AICS-0024",
+    "clone": "cl80",
     "alleleCount": "mono",
     "status": "Yes",
     "Main_data_available": "Yes",
@@ -1848,6 +1858,7 @@
   },
   {
     "cell_line_id": "AICS-0023",
+    "clone": "cl20",
     "status": "Yes",
     "alleleCount": "mono",
     "Main_data_available": "Yes",
@@ -2048,6 +2059,7 @@
   },
   {
     "cell_line_id": "AICS-0030",
+    "clone": "",
     "status": "Screening & QC",
     "alleleCount": "mono",
     "Main_data_available": "",
@@ -2126,6 +2138,7 @@
   },
   {
     "cell_line_id": "AICS-0033",
+    "clone": "",
     "status": "Screening & QC",
     "alleleCount": "mono",
     "Main_data_available": "",
@@ -2204,6 +2217,7 @@
   },
   {
     "cell_line_id": "AICS-0040",
+    "clone": "",
     "status": "Edited population",
     "alleleCount": "mono",
     "Main_data_available": "",
@@ -2282,6 +2296,7 @@
   },
   {
     "cell_line_id": "AICS-0053",
+    "clone": "",
     "status": "Edited population",
     "alleleCount": "mono",
     "Main_data_available": "",
@@ -2360,6 +2375,7 @@
   },
   {
     "cell_line_id": "AICS-0054",
+    "clone": "",
     "status": "Designed",
     "alleleCount": "mono",
     "Main_data_available": "",
@@ -2438,6 +2454,7 @@
   },
   {
     "cell_line_id": "AICS-0036",
+    "clone": "cl6",
     "status": "Yes",
     "alleleCount": "mono",
     "Main_data_available": "Yes",
@@ -2606,6 +2623,7 @@
   },
   {
     "cell_line_id": "AICS-0031",
+    "clone": "cl35",
     "alleleCount": "mono",
     "status": "Yes",
     "subpaged_status": [
@@ -2774,6 +2792,7 @@
   },
   {
     "cell_line_id": "AICS-0022",
+    "clone": "cl37",
     "alleleCount": "mono",
     "status": "Yes",
     "subpaged_status": [
@@ -2942,6 +2961,7 @@
   },
   {
     "cell_line_id": "AICS-0032",
+    "clone": "cl19",
     "alleleCount": "mono",
     "status": "Yes",
     "subpaged_status": [
@@ -3119,6 +3139,7 @@
   },
   {
     "cell_line_id": "AICS-0025",
+    "clone": "cl1",
     "alleleCount": "mono",
     "status": "Yes",
     "subpaged_status": [
@@ -3289,6 +3310,7 @@
   },
   {
     "cell_line_id": "AICS-0025",
+    "clone": "cl44",
     "alleleCount": "bi",
     "status": "Yes",
     "subpaged_status": [
