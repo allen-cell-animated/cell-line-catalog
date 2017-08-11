@@ -133,7 +133,7 @@
     "StemCellCharacterization_pluripotency_analysis": [
                   {
                     "Marker": "NANOG",
-                    "positiveCells": 98.7 
+                    "positiveCells": 98.7
                   },
                   {
                     "Marker": "SOX2",
@@ -789,6 +789,7 @@
   {
     "cell_line_id": "AICS-0029",
     "status": "Screening & QC",
+    "alleleCount": "mono",
     "subpaged_status": [
       { "id": "editingdesign",
         "done": "false"
@@ -1847,8 +1848,8 @@
   },
   {
     "cell_line_id": "AICS-0023",
-    "alleleCount": "mono",
     "status": "Yes",
+    "alleleCount": "mono",
     "Main_data_available": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
@@ -2047,8 +2048,8 @@
   },
   {
     "cell_line_id": "AICS-0030",
-    "alleleCount": "mono",
     "status": "Screening & QC",
+    "alleleCount": "mono",
     "Main_data_available": "",
     "subpaged_status": [
       { "id": "editingdesign",
@@ -2126,6 +2127,7 @@
   {
     "cell_line_id": "AICS-0033",
     "status": "Screening & QC",
+    "alleleCount": "mono",
     "Main_data_available": "",
     "subpaged_status": [
       { "id": "editingdesign",
@@ -2203,6 +2205,7 @@
   {
     "cell_line_id": "AICS-0040",
     "status": "Edited population",
+    "alleleCount": "mono",
     "Main_data_available": "",
     "subpaged_status": [
       { "id": "editingdesign",
@@ -2280,6 +2283,7 @@
   {
     "cell_line_id": "AICS-0053",
     "status": "Edited population",
+    "alleleCount": "mono",
     "Main_data_available": "",
     "subpaged_status": [
       { "id": "editingdesign",
@@ -2357,6 +2361,7 @@
   {
     "cell_line_id": "AICS-0054",
     "status": "Designed",
+    "alleleCount": "mono",
     "Main_data_available": "",
     "subpaged_status": [
       { "id": "editingdesign",
@@ -2433,8 +2438,8 @@
   },
   {
     "cell_line_id": "AICS-0036",
-    "alleleCount": "mono",
     "status": "Yes",
+    "alleleCount": "mono",
     "Main_data_available": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
