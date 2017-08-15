@@ -13,7 +13,7 @@ page('/cell-line-catalog',
   celllineController.resetFilters,
   celllineController.index);
 
-page('/cellline/:id',
+page('/cellline/:id/clone/:cloneid',
   celllineController.loadAll,
   celllineController.privateAlert,
   celllineController.loadById,
