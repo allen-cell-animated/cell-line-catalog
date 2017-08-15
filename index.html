@@ -32,39 +32,31 @@
     </script>
     <script async src="/vendor/scripts/autotrack.js"></script>
     <script id="cellList-template" type="text/x-handlebars-template">
-      <tr class= 'cellline'
+      <li class= "cellline list-group-item container-fluid"
        data-Main_fluorescent_tag-filter={{Main_fluorescent_tag}} data-Main_structure-filter ={{Main_structure}}
        data-Main_gene_name-filter ={{Main_gene_name}}
        data-Main_parent_line-filter ="{{Main_parent_line}}" data-cloneid="{{clone_number}}"
        id = {{cell_line_id}}>
-        <td class='table-cell-line-id'>
-          {{cell_line_id}}
-        </td>
-        <td>
-          {{Main_protein}}
-        </td>
-        <td>
-          {{Main_gene_name}} <span class=gene-symbol>({{Main_gene_symbol}})</span>
-        </td>
-        <td>
-          {{Main_structure}}
-        </td>
-        <td>
-          {{Main_fluorescent_tag}}
-        </td>
-        <td>
-          {{alleleCount}}
-        </td>
-        <td class='table-main-termial-tagged'>
-          {{Main_terminal_tagged}}
-        </td>
-        <td>
-          {{Main_parent_line}}
-        </td>
-        <td class="status">
-          {{status}}
-        </td>
-      </tr>
+       <span class="badge pull-right status">{{status}}</span>
+       <span class="pull-right glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <ul class="list-inline text-info list-inline-separated">
+          <li class="col-lg-1 center-small image-holder"><div class="image-mask"><img src="/images/{{cell_line_id}}/single_plane_image.jpg"></div></li>
+          <li class="col-lg-3 center-small">
+            <span class="header">
+              <h4 class='table-cell-line-id'><span class="text-primary">{{displayID}}  </span>
+                {{Main_protein}}
+                <!-- <small>  {{alleleCount}}-allelic</small> -->
+              </h4>
+            </span>
+          </li>
+          <li class="col-lg-3 inline-seperated-item">{{Main_gene_name}} <span class=gene-symbol>({{Main_gene_symbol}})</span></li>
+          <li class="col-lg-1 inline-seperated-item">{{alleleCount}}</li>
+          <li class="col-lg-2 inline-seperated-item">{{Main_structure}}</li>
+          <li class="col-lg-1 inline-seperated-item">{{Main_fluorescent_tag}}</span></li>
+          <li class='col-lg-1 inline-seperated-item'>{{Main_terminal_tagged}}</li>
+          <li class="col-lg-1 inline-seperated-item col-smaller">{{Main_parent_line}}</li>
+        </ul>
+      </li>
     </script>
     <script id="-filter-template" type="text/x-handlebars-template">
       <option value="{{Main_terminal_tagged}}">{{Main_terminal_tagged}}</option>
@@ -692,82 +684,35 @@
             </div>
 
           </nav>
-          <div class="table-responsive">
+          <div class="" id="complete">
             <h3 class="text-primary table-title">Cell lines available in the Allen Cell Collection</h3>
-            <table class="table table-hover table-striped" id="complete">
-              <thead class='text-info'>
-                <tr>
-                  <th class="">
-                    Cell Line ID
-                  </th>
-                  <th>
-                    Protein
-                  </th>
-                  <th>
-                    Gene name
-                  </th>
-                  <th>
-                    Structure
-                  </th>
-                  <th>
-                    Fluorophore
-                  </th>
-                  <th>
-                    Tagged alleles
-                  </th>
-                  <th>
-                    Tag Location
-                  </th>
-                  <th>
-                    Parental Line
-                  </th>
-
-
-                </tr>
-              </thead>
-              <tbody id="cell-line-table">
-                <p class = 'errors displayoff'>Nothing matches your filters</p>
-              </tbody>
-            </table>
+            <ul id="cell-line-table"  class="list-group">
+              <li class= "column-header list-group-item container-fluid">
+                <ul class="list-inline text-info list-inline-separated">
+                  <!-- <li class="col-lg-1 center-small image-holder"><div class="image-mask"><img src="/images/{{cell_line_id}}/single_plane_image.jpg"></div></li> -->
+                  <li class="col-lg-3 center-small">
+                    <span class="header">
+                      <h4 class='table-cell-line-id'><span class="text-primary">Cell Line ID  </span>
+                        Protein
+                      </h4>
+                    </span>
+                  </li>
+                  <li class="col-lg-3 inline-seperated-item">Gene Name <span class=gene-symbol>(gene symbol)</span></li>
+                  <li class="col-lg-1 inline-seperated-item">Tagged alleles</li>
+                  <li class="col-lg-2 inline-seperated-item">Structure</li>
+                  <li class="col-lg-1 inline-seperated-item">Fluorescent Tag</span></li>
+                  <li class='col-lg-1 inline-seperated-item'>Tag Location</li>
+                  <li class="col-lg-1 inline-seperated-item col-smaller">Parental Line</li>
+                </ul>
+              </li>
+              <p class = 'errors displayoff'>Nothing matches your filters</p>
+            </ul>
             <small class="table-footer">Visit <a href="https://catalog.coriell.org/1/AllenCellCollection" target="_blank">Coriell </a>to order any of these cell lines, or click on a row for more infomation. </small>
           </div>
-          <div class="table-responsive" id="in_progress">
+          <div class="" id="in_progress">
             <h3 class="text-primary table-title">Cell lines in progress</h3>
-            <table class="table table-striped" >
-              <thead class='text-info'>
-                <tr>
-                  <th>
-                    Cell Line ID
-                  </th>
-                  <th>
-                    Protein
-                  </th>
-                  <th>
-                    Gene name
-                  </th>
-                  <th>
-                    Structure
-                  </th>
-                  <th>
-                    Fluorophore
-                  </th>
-                  <th>
-                    Tagged alleles
-                  </th>
-                  <th>
-                    Tag Location
-                  </th>
-                  <th>
-                    Parental Line
-                  </th>
-                  <th>
-                    Status
-                  </th>
-                </tr>
-              </thead>
-              <tbody id="in-progress-table">
-              </tbody>
-            </table>
+            <ul id="in-progress-table"class="list-group">
+            </ul>
           </div>
         </div>
       </section>
