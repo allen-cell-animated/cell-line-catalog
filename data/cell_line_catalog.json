@@ -1,6 +1,7 @@
 [
   {
     "cell_line_id": "AICS-0005",
+    "clone_number": "50",
     "alleleCount": "mono",
     "status": "Yes",
     "subpaged_status": [
@@ -193,6 +194,7 @@
   },
   {
     "cell_line_id": "AICS-0012",
+    "clone_number": "150",
     "alleleCount": "mono",
     "status": "Yes",
     "alleleCount": "mono",
@@ -396,6 +398,7 @@
   },
   {
     "cell_line_id": "AICS-0011",
+    "clone_number": "27",
     "alleleCount": "mono",
     "status": "Yes",
     "alleleCount": "mono",
@@ -589,6 +592,7 @@
   },
   {
     "cell_line_id": "AICS-0013",
+    "clone_number":"210",
     "alleleCount": "mono",
     "status": "Yes",
     "alleleCount": "mono",
@@ -791,6 +795,7 @@
   },
   {
     "cell_line_id": "AICS-0029",
+    "clone_number": "",
     "status": "Screening & QC",
     "alleleCount": "mono",
     "subpaged_status": [
@@ -866,6 +871,7 @@
   },
   {
     "cell_line_id": "AICS-0017",
+    "clone_number": "65",
     "alleleCount": "mono",
     "status": "Yes",
     "alleleCount": "mono",
@@ -1061,6 +1067,7 @@
   },
   {
     "cell_line_id": "AICS-0016",
+    "clone_number": "184",
     "alleleCount": "mono",
     "status": "Yes",
     "alleleCount": "mono",
@@ -1251,6 +1258,7 @@
   },
   {
     "cell_line_id": "AICS-0010",
+    "clone_number": "55",
     "alleleCount": "mono",
     "status": "Yes",
     "alleleCount": "mono",
@@ -1444,6 +1452,7 @@
   },
   {
     "cell_line_id": "AICS-0014",
+    "clone_number": "6",
     "alleleCount": "mono",
     "status": "Yes",
     "alleleCount": "mono",
@@ -1648,6 +1657,7 @@
   },
   {
     "cell_line_id": "AICS-0024",
+    "clone_number": "80",
     "alleleCount": "mono",
     "status": "Yes",
     "alleleCount": "mono",
@@ -1856,6 +1866,7 @@
   },
   {
     "cell_line_id": "AICS-0023",
+    "clone_number": "20",
     "alleleCount": "mono",
     "status": "Yes",
     "alleleCount": "mono",
@@ -2057,6 +2068,7 @@
   },
   {
     "cell_line_id": "AICS-0030",
+    "clone_number": "",
     "alleleCount": "mono",
     "status": "Screening & QC",
     "alleleCount": "mono",
@@ -2136,6 +2148,7 @@
   },
   {
     "cell_line_id": "AICS-0033",
+    "clone_number": "",
     "status": "Screening & QC",
     "alleleCount": "mono",
     "Main_data_available": "",
@@ -2292,6 +2305,7 @@
   },
   {
     "cell_line_id": "AICS-0053",
+    "clone_number": "",
     "status": "Edited population",
     "alleleCount": "mono",
     "Main_data_available": "",
@@ -2370,6 +2384,7 @@
   },
   {
     "cell_line_id": "AICS-0054",
+    "clone_number": "",
     "status": "Designed",
     "alleleCount": "mono",
     "Main_data_available": "",
@@ -2448,6 +2463,7 @@
   },
   {
     "cell_line_id": "AICS-0036",
+    "clone_number": "6",
     "alleleCount": "mono",
     "status": "Yes",
     "alleleCount": "mono",
@@ -2617,6 +2633,7 @@
   },
   {
     "cell_line_id": "AICS-0031",
+    "clone_number": "35",
     "alleleCount": "mono",
     "status": "Yes",
     "subpaged_status": [
@@ -2785,6 +2802,7 @@
   },
   {
     "cell_line_id": "AICS-0022",
+    "clone_number": "37",
     "alleleCount": "mono",
     "status": "Yes",
     "subpaged_status": [
@@ -2953,6 +2971,7 @@
   },
   {
     "cell_line_id": "AICS-0032",
+    "clone_number": "19",
     "alleleCount": "mono",
     "status": "Yes",
     "subpaged_status": [
@@ -3092,7 +3111,6 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0032/CETN2_cl.19.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -3130,6 +3148,7 @@
   },
   {
     "cell_line_id": "AICS-0025",
+    "clone_number": "1",
     "alleleCount": "mono",
     "status": "Yes",
     "subpaged_status": [
@@ -3300,6 +3319,7 @@
   },
   {
     "cell_line_id": "AICS-0025",
+    "clone_number": "44",
     "alleleCount": "bi",
     "status": "Yes",
     "subpaged_status": [

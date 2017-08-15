@@ -72,7 +72,7 @@
       ctx.celllines = array;
       next();
     };
-    var array = CellLine.allCellLines.find(function(ele, index, array){ return ele.cell_line_id === ctx.params.id  && ;});
+    var array = CellLine.allCellLines.find(function(ele, index, array){ return ele.cell_line_id === ctx.params.id  && ele.clone_number === ctx.params.cloneid;});
     complaintsData(array);
   };
 

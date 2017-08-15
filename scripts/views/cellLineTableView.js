@@ -6,9 +6,10 @@
 
   $('#cell-line-table').on('click', '.cellline',function() {
     currentID=(this.id);
+    var clone_number = $(this).attr('data-cloneid')
     $('#cell-line-list').hide();
     $('#cellline-profile').fadeIn();
-    page('/cellline/' + currentID);
+    page('/cellline/' + currentID + '/clone/' + clone_number);
   });
 
   cellListView.checkPrivate = function(){

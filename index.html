@@ -35,7 +35,7 @@
       <tr class= 'cellline'
        data-Main_fluorescent_tag-filter={{Main_fluorescent_tag}} data-Main_structure-filter ={{Main_structure}}
        data-Main_gene_name-filter ={{Main_gene_name}}
-       data-Main_parent_line-filter ="{{Main_parent_line}}"
+       data-Main_parent_line-filter ="{{Main_parent_line}}" data-cloneid="{{clone_number}}"
        id = {{cell_line_id}}>
         <td class='table-cell-line-id'>
           {{cell_line_id}}
@@ -64,7 +64,6 @@
         <td class="status">
           {{status}}
         </td>
-
       </tr>
     </script>
     <script id="-filter-template" type="text/x-handlebars-template">
