@@ -2636,7 +2636,7 @@
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
@@ -2668,6 +2668,30 @@
     "Main_plasmid_sequence": "na",
 
     "Main_media": [
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0031",
+          "data_type": "high mag z-stack",
+          "file_name": "20170811_C01_001Pt75Fr3to52_8bit5fps",
+          "caption": "Z-stack of live hiPS cells expressing mTagRFP-T tagged alpha-tubulin imaged on a spinning-disk confocal microscope. Movie starts at the bottom of the cells and ends at the top.",
+          "link": "https://player.vimeo.com/video/229759138"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0031",
+          "data_type": "timelapse in low mag",
+          "file_name": "20170519_C02_001_s6_z12_t1to120Pt75_8bit10fps",
+          "caption": "Timelapse movie of a live hiPS cell colony expressing mTagRFP-T tagged alpha-tubulin. Images were taken in 3D every 5 minutes for 10 hours on a spinning-disk confocal microscope. Images are maximum intensity projections with the ‘despeckle’ ImageJ filter applied. Movie sped up 3000x over real time.",
+          "link": "https://player.vimeo.com/video/229759137"
+        },
+        {
+          "type": "image",
+          "cell_line_id": "AICS-0031",
+          "data_type": "single plane image",
+          "file_name": "20170811_C01_001Pt75Fr37_8bitSpecSheet",
+          "caption": "Single image of a live hiPS cell colony expressing mTagRFP-T tagged alpha-tubulin imaged on a spinning-disk confocal microscope. Image is a single slice from a 3D z-stack in the top half of the cell",
+          "link": "/images/AICS-0031/single_plane_image.jpg"
+        },
         {
           "type": "image",
           "cell_line_id": "AICS-0031",
@@ -2720,9 +2744,9 @@
     "GenomicCharacterization_ddpcr_caption": "mTagRFP-T: mTagRFP-T/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "/images/AICS-0031/N",
+    "Validation_WesternBlot": "/images/AICS-0031/Western blot documentation TUBA1B-RFPt final clone only_final.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "/images/AICS-0031/N",
+    "Validation_Immunofluorescence": "/images/AICS-0031/tubulin mTagRFPt_cl35 - FINAL 081417.jpg",
     "Validation_Immunofluorescence_caption": "",
 
     "StemCellCharacterization_pluripotency_analysis": [
@@ -2777,10 +2801,10 @@
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "85-96 (2)",
-          "Day_of_beating_percent": "100",
+          "Day_of_beating_percent": "100 (3)",
           "Day_of_beating_range": "d7-d9"
         },
-    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control.",
+    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-cardiac Troponin T and gating was based on an isotype control. Range observed across multiple experiments is shown for Day of beating initiation; number of experiments is shown in ().",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0031/",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
@@ -2805,7 +2829,7 @@
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
@@ -2837,6 +2861,30 @@
     "Main_plasmid_sequence": "na",
 
     "Main_media": [
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0022",
+          "data_type": "high mag z-stack",
+          "file_name": "C1-20170211_I05_002_03_substack_8bitPt75_5fps",
+          "caption": "Z-stack of live hiPS cells expressing mEGFP tagged LAMP1 imaged on a spinning-disk confocal microscope. Movie starts at the bottom of the cells and ends at the top.",
+          "link": "https://player.vimeo.com/video/229764111"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0022",
+          "data_type": "timelapse in high mag ",
+          "file_name": "20170724_I01_011_topPt75_8bit10fps",
+          "caption": "Timelapse movie of live hiPS cells expressing mEGFP tagged LAMP1. Images were taken as a single slice every 1 second for 100 seconds on a spinning-disk confocal microscope. Images have had the ‘despeckle’ ImageJ filter applied. Movie sped up 10x over real time.",
+          "link": "https://player.vimeo.com/video/229764093"
+        },
+        {
+          "type": "image",
+          "cell_line_id": "AICS-0022",
+          "data_type": "single plane image",
+          "file_name": "C1-20170211_I05_002_03_substack_8bitPt75Fr31SpecSheet",
+          "caption": "Single image of a live hiPS cell colony expressing mEGFP tagged LAMP1 imaged on a spinning-disk confocal microscope. Image is a single slice from a 3D z-stack in the top half of the cell. ",
+          "link": "/images/AICS-0022/single_plane_image.jpg"
+        },
         {
           "type": "image",
           "cell_line_id": "AICS-0022",
@@ -2889,9 +2937,9 @@
     "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "/images/AICS-0022/N",
+    "Validation_WesternBlot": "/images/AICS-0022/Western blot documentation LAMP1 final clone only_final.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "/images/AICS-0022/N",
+    "Validation_Immunofluorescence": "/images/AICS-0022/LAMP1_cl37 FINAL 081417.jpg",
     "Validation_Immunofluorescence_caption": "",
 
     "StemCellCharacterization_pluripotency_analysis": [
@@ -2946,10 +2994,10 @@
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "76 (1)",
-          "Day_of_beating_percent": "80",
+          "Day_of_beating_percent": "80 (5)",
           "Day_of_beating_range": "d7-d10"
         },
-    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control.",
+    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-cardiac Troponin T and gating was based on an isotype control. Range observed across multiple experiments is shown for Day of beating initiation; number of experiments is shown in ().",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0022/",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
@@ -2974,7 +3022,7 @@
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
@@ -3006,6 +3054,30 @@
     "Main_plasmid_sequence": "na",
 
     "Main_media": [
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0032",
+          "data_type": "high mag z-stack",
+          "file_name": "20170127_C02_006_s6Pt75_8bit5fps",
+          "caption": "Z-stack of live hiPS cells expressing mTagRFP-T tagged centrin-2 imaged on a spinning-disk confocal microscope. Movie starts at the bottom of the cells and ends at the top.",
+          "link": "https://player.vimeo.com/video/229763183"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0032",
+          "data_type": "timelapse in low mag",
+          "file_name": "MAX_C1-20170505_I03_001_s4_despeckle_8bitPt75Cont10fps",
+          "caption": "Timelapse movie of a live hiPS cell colony expressing mTagRFP-T tagged centrin-2. Images were taken in 3D every 3 minutes for 6 hours on a spinning-disk confocal microscope. Images are maximum intensity projections with the ‘despeckle’ ImageJ filter applied. Movie sped up 1800x over real time.",
+          "link": "https://player.vimeo.com/video/229763165"
+        },
+        {
+          "type": "image",
+          "cell_line_id": "AICS-0032",
+          "data_type": "single plane image",
+          "file_name": "20170127_C02_006_s6Pt75MaxProj8bitComboSpecSheet",
+          "caption": "Single image of a live hiPS cell colony expressing mTagRFP-T tagged centrin-2 imaged on a spinning-disk confocal microscope. Left image is a maximum intensity projection of a 3D z-stack. Right image shows centrin (red) overlaid with DNA (Hoechst, blue). ",
+          "link": "/images/AICS-0032/single_plane_image.jpg"
+        },
         {
           "type": "image",
           "cell_line_id": "AICS-0032",
@@ -3067,9 +3139,9 @@
                 ]
         ,
     "GenomicCharacterization_offtargets_caption": "Potential off-targets were identified using Cas-OFFinder; ~4 off-targets in exons and ~4 most likely to cut off-targets (having fewest # of flaws relative to on-target) were sanger sequenced to confirm no off-target editing",
-    "Validation_WesternBlot": "/images/AICS-0032/N",
+    "Validation_WesternBlot": "",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "/images/AICS-0032/N",
+    "Validation_Immunofluorescence": "/images/AICS-0032/Centrin clone 19 and AICS000 new.jpg",
     "Validation_Immunofluorescence_caption": "",
 
     "StemCellCharacterization_pluripotency_analysis": [
@@ -3123,10 +3195,10 @@
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "95 (2)",
-          "Day_of_beating_percent": "100",
+          "Day_of_beating_percent": "100 (3)",
           "Day_of_beating_range": "d8-d11"
         },
-    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control.",
+    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-cardiac Troponin T and gating was based on an isotype control. Range observed across multiple experiments is shown for Day of beating initiation; number of experiments is shown in ().",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0032/",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
@@ -3151,7 +3223,7 @@
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
@@ -3185,6 +3257,38 @@
     "Main_plasmid_sequence": "na",
 
     "Main_media": [
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0025",
+          "data_type": "high mag z-stack",
+          "file_name": "C1-20170321_I06_002_01_substackPt75_8bitCont2_5fps",
+          "caption": "Z-stack of live hiPS cells expressing one copy (monoallelic) of mEGFP tagged sialyltransferase 1 (ST6GAL 1) imaged on a spinning-disk confocal microscope. Movie starts at the bottom of the cells and ends at the top.",
+          "link": "https://player.vimeo.com/video/229765789"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0025",
+          "data_type": "timelapse in high mag",
+          "file_name": "MAX_C1-20170525_I05_001_s2_despeckle_8bitPt75Fr1to15Cont3fps",
+          "caption": "Timelapse movie of live hiPS cells expressing one copy (monoallelic) of mEGFP tagged sialyltransferase 1 (ST6GAL 1). Images were taken in 3D every 5 minutes for 75 minutes on a spinning-disk confocal microscope. Images are maximum intensity projections with the ‘despeckle’ ImageJ filter applied. Movie sped up 900x over real time.",
+          "link": "https://player.vimeo.com/video/229765811"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0025",
+          "data_type": "timelapse in low mag",
+          "file_name": "MAX_20170509_I04_001_7_despecklePt75_8bit10fps",
+          "caption": "Timelapse movie of a live hiPS cell colony expressing one copy (monoallelic) of mEGFP tagged sialyltransferase 1 (ST6GAL 1). Images were taken in 3D every 3 minutes for 6 hours on a spinning-disk confocal microscope. Images are maximum intensity projections with the ‘despeckle’ ImageJ filter applied. Movie sped up 1800x over real time.",
+          "link": "https://player.vimeo.com/video/229765812"
+        },
+        {
+          "type": "image",
+          "cell_line_id": "AICS-0025",
+          "data_type": "single plane image",
+          "file_name": "MAX_C1-20170321_I06_002_01_substackPt75_8bitDespeckleMaxSpecSheet ",
+          "caption": "Single image of a live hiPS cell colony expressing one copy (monoallelic) of mEGFP tagged sialyltransferase 1 (ST6GAL 1) imaged on a spinning-disk confocal microscope. Image is a maximum intensity projection of a 3D z-stack.",
+          "link": "/images/AICS-0025/single_plane_image_mono.jpg"
+        },
         {
           "type": "image",
           "cell_line_id": "AICS-0025",
@@ -3237,7 +3341,7 @@
     "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "/images/AICS-0025/N",
+    "Validation_WesternBlot": "/images/AICS-0025/Western blot documentation ST6GAL1 1 (m).jpg",
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0025/N",
     "Validation_Immunofluorescence_caption": "",
@@ -3294,10 +3398,10 @@
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "64-88 (3)",
-          "Day_of_beating_percent": "100",
+          "Day_of_beating_percent": "100 (3)",
           "Day_of_beating_range": "d7-d9"
         },
-    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control.",
+    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-cardiac Troponin T and gating was based on an isotype control. Range observed across multiple experiments is shown for Day of beating initiation; number of experiments is shown in ().",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0025/",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
@@ -3322,7 +3426,7 @@
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
@@ -3356,6 +3460,38 @@
     "Main_plasmid_sequence": "na",
 
     "Main_media": [
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0025",
+          "data_type": "high mag z-ztack",
+          "file_name": "C1-20170321_I08_002_01_substackPt75_8bit5fps",
+          "caption": "Z-stack of live hiPS cells expressing two copies (biallelic) of mEGFP tagged sialyltransferase 1 (ST6GAL 1) imaged on a spinning-disk confocal microscope. Movie starts at the bottom of the cells and ends at the top.",
+          "link": "https://player.vimeo.com/video/229764891"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0025",
+          "data_type": "timelapse in high mag",
+          "file_name": "MAX_C1-20170512_I01_002_s6_despeckled_1to20_8bitPt75_3fps",
+          "caption": "Timelapse movie of live hiPS cells expressing two copies (biallelic) of mEGFP tagged sialyltransferase 1 (ST6GAL 1). Images were taken in 3D every 5 minutes for 100 minutes on a spinning-disk confocal microscope. Images are maximum intensity projections with the ‘despeckle’ ImageJ filter applied. Movie sped up 900x over real time.",
+          "link": "https://player.vimeo.com/video/229764934"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0025",
+          "data_type": "timelapse in low mag",
+          "file_name": "MAX_C1-20170508_I02_001_s7_despeckle_8bitPt75_10fps",
+          "caption": "Timelapse movie of a live hiPS cell colony expressing two copies (biallelic) of mEGFP tagged sialyltransferase 1 (ST6GAL 1). Images were taken in 3D every 3 minutes for 6 hours on a spinning-disk confocal microscope. Images are maximum intensity projections with the ‘despeckle’ ImageJ filter applied. Movie sped up 1800x over real time.",
+          "link": "https://player.vimeo.com/video/229764910"
+        },
+        {
+          "type": "image",
+          "cell_line_id": "AICS-0025",
+          "data_type": "single plane image",
+          "file_name": "C1-20170321_I08_002_01_substackPt75_8bitMaxSpecSheet",
+          "caption": "Single image of a live hiPS cell colony expressing two copies (biallelic) of mEGFP tagged sialyltransferase 1 (ST6GAL 1) imaged on a spinning-disk confocal microscope. Image is a maximum intensity projection of a 3D z-stack. ",
+          "link": "/images/AICS-0025/single_plane_image_bi.jpg"
+        },
         {
           "type": "image",
           "cell_line_id": "AICS-0025",
@@ -3408,7 +3544,7 @@
     "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.05 indicate heterozygous clone, values = 1 +/- 0.05 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "/images/AICS-0025/N",
+    "Validation_WesternBlot": "/images/AICS-0025/Western blot documentation ST6GAL1 44 (b).jpg",
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0025/N",
     "Validation_Immunofluorescence_caption": "",
@@ -3465,10 +3601,10 @@
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "88-95 (3)",
-          "Day_of_beating_percent": "100",
+          "Day_of_beating_percent": "100 (3)",
           "Day_of_beating_range": "d7-d9"
         },
-    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control.",
+    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-cardiac Troponin T and gating was based on an isotype control. Range observed across multiple experiments is shown for Day of beating initiation; number of experiments is shown in ().",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0025/",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
