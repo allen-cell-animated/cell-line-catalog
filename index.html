@@ -92,12 +92,16 @@
               </ul>
             <div class="row">
               <div class="col-md-12">
+                {{#if Main_cofa}}
                 <div class="col-xlg-6">
                   <a class="btn btn-warning btn-block" role="button" href="{{Main_cofa}}" target="_blank">QC Data Summary</a>
                 </div>
+                {{/if}}
+                {{#if Main_order_link}}
                 <div class="col-xlg-6">
                   <a class="btn btn-warning btn-block" role="button" href="{{Main_order_link}}" target="_blank">Obtain {{cell_line_id}}</a>
                 </div>
+                {{/if}}
                 <div class="col-xlg-6">
                   <a class="btn btn-warning btn-block" role="button" href="{{Main_parental_order_link}}" target="_blank">Obtain parental line</a>
                 </div>
