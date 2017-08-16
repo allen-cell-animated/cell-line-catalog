@@ -207,7 +207,7 @@
         <div class="col-sm-12">
           <div class="panel panel-primary">
             <div class="panel-heading">
-              <h4>GFP Insert</h4>
+              <h4>{{Main_fluorescent_tag}} Insert</h4>
             </div>
             <div class="panel-body ">
               <div class="center-block image-scale">
@@ -390,6 +390,7 @@
     <script id="validation-template" type="text/x-handlebars-template">
       <div class="row">
         <div class="col-sm-6">
+          {{#if Validation_WesternBlot}}
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h4>Western Blot</h4>
@@ -402,6 +403,7 @@
                 <p>{{Validation_western_blot_caption}}</p>
               </div>
             </div>
+            {{/if}}
           </div>
         </div>
         <div class="col-sm-6">
