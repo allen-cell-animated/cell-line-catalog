@@ -190,7 +190,8 @@
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
-    "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf"
+    "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Supplementary_offtargets_link":"/data/offtargets/AICS-0005/offtarget_primers.xlsx"
   },
   {
     "cell_line_id": "AICS-0012",
@@ -393,7 +394,7 @@
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
     "Supplementary_primers_link": "",
-    "Supplementary_offtargets_link": ""
+    "Supplementary_offtargets_link":"/data/offtargets/AICS-0012/offtarget_primers.xlsx"
   },
   {
     "cell_line_id": "AICS-0011",
@@ -582,7 +583,7 @@
     "Supplementary_transfection_link": "",
     "Supplementary_ddPCR_link": "",
     "Supplementary_primers_link": "",
-    "Supplementary_offtargets_link": "",
+    "Supplementary_offtargets_link":"/data/offtargets/AICS-0011/offtarget_primers.xlsx",
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
@@ -788,7 +789,7 @@
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
     "Supplementary_primers_link": "",
-    "Supplementary_offtargets_link": ""
+    "Supplementary_offtargets_link":"/data/offtargets/AICS-0013/offtarget_primers.xlsx"
   },
   {
     "cell_line_id": "AICS-0029",
@@ -1059,7 +1060,7 @@
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
     "Supplementary_primers_link": "",
-    "Supplementary_offtargets_link": ""
+    "Supplementary_offtargets_link":"/data/offtargets/AICS-0017/offtarget_primers.xlsx"
   },
   {
     "cell_line_id": "AICS-0016",
@@ -1249,7 +1250,8 @@
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
-    "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf"
+    "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Supplementary_offtargets_link":"/data/offtargets/AICS-0016/offtarget_primers.xlsx"
   },
   {
     "cell_line_id": "AICS-0010",
@@ -1442,7 +1444,8 @@
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
-    "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf"
+    "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
+    "Supplementary_offtargets_link":"/data/offtargets/AICS-0010/offtarget_primers.xlsx"
   },
   {
     "cell_line_id": "AICS-0014",
@@ -1646,7 +1649,8 @@
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
-    "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf"
+    "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
+    "Supplementary_offtargets_link": "/data/offtargets/AICS-0014/offtarget_primers.xlsx"
   },
   {
     "cell_line_id": "AICS-0024",
@@ -1854,7 +1858,8 @@
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
-    "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf"
+    "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Supplementary_offtargets_link":"/data/offtargets/AICS-0024/offtarget_primers.xlsx"
   },
   {
     "cell_line_id": "AICS-0023",
@@ -2055,7 +2060,8 @@
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
-    "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf"
+    "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
+    "Supplementary_offtargets_link":"/data/offtargets/AICS-0023/offtarget_primers.xlsx"
   },
   {
     "cell_line_id": "AICS-0030",
@@ -3206,6 +3212,7 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Supplementary_offtargets_link":"/data/offtargets/AICS-0032/offtarget_primers.xlsx",
     "Protocols_offtargets": "N"
   },
   {
