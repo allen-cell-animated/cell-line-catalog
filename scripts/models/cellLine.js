@@ -4,6 +4,11 @@
       this[key] = opts[key];
     }
     this.displayID = Number(opts.cell_line_id.split('-')[1])
+    if (opts.alleleCount === 'bi') {
+      this.thumbnailimage = 'single_plane_image_bi.jpg'
+    } else {
+      this.thumbnailimage = 'single_plane_image.jpg'
+    }
   }
 
   CellLine.allCellLines = [];
