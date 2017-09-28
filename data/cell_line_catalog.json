@@ -2668,8 +2668,8 @@
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mTagRFP-T",
     "Main_linker": "GGSGGS",
-    "Main_order_link": "",
-    "Main_cofa_link": "",
+    "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0031-035&Product=iPSC",
+    "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0031-035_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
 
@@ -2861,8 +2861,8 @@
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "EFGSTGSTGSTGADPPVAT",
-    "Main_order_link": "",
-    "Main_cofa_link": "",
+    "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0022-037&Product=iPSC",
+    "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0022-037_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
 
@@ -3011,7 +3011,7 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
-    "Protocols_offtargets": "N"
+    "Protocols_offtargets": ""
   },
   {
     "cell_line_id": "AICS-0032",
@@ -3054,8 +3054,8 @@
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mTagRFP-T",
     "Main_linker": "SGLRS",
-    "Main_order_link": "",
-    "Main_cofa_link": "",
+    "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0032-019&Product=iPSC",
+    "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0032-019_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
 
@@ -3258,8 +3258,8 @@
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "LQSTVPRARDPPVAT",
-    "Main_order_link": "",
-    "Main_cofa_link": "",
+    "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0025-001&Product=iPSC",
+    "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0025-001_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
 
@@ -3461,8 +3461,8 @@
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "LQSTVPRARDPPVAT",
-    "Main_order_link": "",
-    "Main_cofa_link": "",
+    "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0025-044&Product=iPSC",
+    "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0025-044_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
 
