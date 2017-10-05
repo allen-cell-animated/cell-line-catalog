@@ -45,11 +45,13 @@
             <span class="header">
               <h4 class='table-cell-line-id'><span class="text-primary">{{displayID}}  </span>
                 {{Main_protein}}
-                <!-- <small>  {{alleleCount}}-allelic</small> -->
+                {{#if new}}
+                <span class="badge bright">New</span>
+                {{/if}}
               </h4>
             </span>
           </li>
-          <li class="col-lg-3 inline-seperated-item">{{Main_gene_name}} <span class=gene-symbol>({{Main_gene_symbol}})</span></li>
+          <li class="col-lg-3 inline-seperated-item">{{Main_gene_name}}<span class=gene-symbol>({{Main_gene_symbol}})</span></li>
           <li class="col-lg-1 inline-seperated-item">{{alleleCount}}</li>
           <li class="col-lg-2 inline-seperated-item">{{Main_structure}}</li>
           <li class="col-lg-1 inline-seperated-item">{{Main_fluorescent_tag}}</span></li>
@@ -77,10 +79,8 @@
                 <li class="list-group-item"><span class="profile-summary-key">Gene: </span><span class="profile-summary-value">{{Main_gene_name}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Gene symbol:</span> <span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id}}">{{Main_gene_symbol}}</a></span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Protein: </span><span class="profile-summary-value">{{Main_protein}}</span></li>
-<!--                <li class="list-group-item"><span class="profile-summary-key">mRNA:</span> <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id}}">{{Main_mrna_id}}</a></span></li> -->
                 <li class="list-group-item"><span class="profile-summary-key">Fluorophore:</span> <span class="profile-summary-value">{{Main_fluorescent_tag}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Tagged alleles:</span> <span class="profile-summary-value">{{alleleCount}}</span></li>
-                <!-- <li class="list-group-item"><span class="profile-summary-key">Plasmid Sequence:</span><span class="profile-summary-value">{{Main_plasmid_sequence}}</span></li> -->
               </ul>
             <div class="row">
               <div class="col-md-12">
@@ -711,7 +711,6 @@
             <ul id="cell-line-table"  class="list-group">
               <li class= "column-header list-group-item container-fluid">
                 <ul class="list-inline text-info list-inline-separated">
-                  <!-- <li class="col-lg-1 center-small image-holder"><div class="image-mask"><img src="/images/{{cell_line_id}}/single_plane_image.jpg"></div></li> -->
                   <li class="col-lg-3 center-small">
                     <span class="header">
                       <h4 class='table-cell-line-id'><span class="text-primary">Cell Line ID  </span>

@@ -2632,6 +2632,7 @@
     "clone_number": "35",
     "alleleCount": "mono",
     "status": "Yes",
+    "new": "true",
     "subpaged_status": [
       { "id": "editingdesign",
         "done": "true"
@@ -2825,6 +2826,7 @@
     "clone_number": "37",
     "alleleCount": "mono",
     "status": "Yes",
+    "new": "true",
     "subpaged_status": [
       { "id": "editingdesign",
         "done": "true"
@@ -3018,6 +3020,7 @@
     "clone_number": "19",
     "alleleCount": "mono",
     "status": "Yes",
+    "new": "true",
     "subpaged_status": [
       { "id": "editingdesign",
         "done": "true"
@@ -3220,6 +3223,7 @@
     "clone_number": "1",
     "alleleCount": "mono",
     "status": "Yes",
+    "new": "true",
     "subpaged_status": [
       { "id": "editingdesign",
         "done": "true"
@@ -3423,6 +3427,7 @@
     "clone_number": "44",
     "alleleCount": "bi",
     "status": "Yes",
+    "new": "true",
     "subpaged_status": [
       { "id": "editingdesign",
         "done": "true"
