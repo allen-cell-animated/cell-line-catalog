@@ -71,7 +71,7 @@
         "data_type": "single plane high mag image",
         "file_name": "20160513_C03_010Scalept75_ComboSpecSheet.tif",
         "caption": "Single image of a live hiPSC colony expressing paxillin-EGFP imaged on a spinning-disk confocal microscope. Left panel is a single slice of the z-tack near the bottom of the cell; right panel is this same projection overlaid onto one slice of the same z-stack in the transmitted light channel.",
-        "link": "/images/AICS-0005/Main_cell_line_movie1.jpg"
+        "link": "/images/AICS-0005/single_plane_image.jpg"
       },
       {
         "type":"image",
@@ -270,7 +270,7 @@
         "data_type": "single plane high mag image",
         "file_name": "20160531_C03_007scalePt75_8bit_fr24SpecSheet.tif",
         "caption": "Single image of a live hiPSC colony expressing alpha tubulin-mEGFP imaged on a spinning-disk confocal microscope. Image is a single slice taken in the middle of the z-stack.",
-        "link": "/images/AICS-0012/20160531_C03_007scalePt75_8bit_fr24SpecSheet.jpg"
+        "link": "/images/AICS-0012/single_plane_image.jpg"
       },
       {
         "type":"image",
@@ -462,7 +462,7 @@
         "cell_line_id": "AICS-0011",
         "data_type": "single plane high mag image",
         "type":"image",
-        "link":"/images/AICS-0011/Main_cell_line_movie1.jpg",
+        "link":"/images/AICS-0011/single_plane_image.jpg",
         "caption":"Single image of a live hiPSC colony expressing Tom20-mEGFP imaged on a spinning-disk confocal microscope. Image is a maximum intensity projection of 5 z-slices near the bottom of the cell."
       },
       {
@@ -666,7 +666,7 @@
         "file_name": "20161011_S01_001pos3t005maxProjScalePt75_8bitSpecSheet.tif",
         "caption": "Single image of a live hiPSC colony expressing LaminB1-mEGFP. Image is a maximum intensity projection of a spinning-disk confocal z-stack.",
         "type":"image",
-        "link":"/images/AICS-0013/Main_cell_line_movie1.jpg"
+        "link":"/images/AICS-0013/single_plane_image.jpg"
       },
       {
         "type":"image",
@@ -937,7 +937,7 @@
         "file_name": "20161013_C01_001_s1_MAXonTransmittedz13_8bitScalePt75RGBresizeComboSpecSheet.tif",
         "type":"image",
         "caption": "Single image of a live hiPSC colony expressing Desmoplakin-mEGFP imaged on a spinning-disk confocal microscope. Left panel is a maximum intensity projection of the z-stack; right panel is this same projection overlaid onto one slice of the same z-stack in the transmitted light channel.",
-        "link": "/images/AICS-0017/Main_cell_line_movie1.jpg"
+        "link": "/images/AICS-0017/single_plane_image.jpg"
       },
       {
         "type":"image",
@@ -1517,7 +1517,7 @@
         "data_type": "morphology_image",
         "file_name": "AICS-14_cl6_Post-Bank_P25_161028_day3_4X_scale",
         "caption": "Viability and colony formation photographed 3 days post-thaw at 4X magnification. Cells were treated with ROCK inhibitor for 24 hrs post-thaw.",
-        "link": "/images/AICS-0014/AICS-14_cl6_Post-Bank_P25_161028_day3_4X_scale.jpg"
+        "link": "/images/AICS-0014/Main_cell_line_morphology.jpg"
       }
     ],
     "Main_parent_line": "WTC",
@@ -1931,7 +1931,7 @@
         "data_type": "morphology_image",
         "file_name": "Final_clones_72hr_cl20_p26_4x_1_scale",
         "caption": "Viability and colony formation photographed 3 days post-thaw at 4X magnification. Cells were treated with ROCK inhibitor for 24 hrs post-thaw.",
-        "link": "/images/AICS-0023/Final_clones_72hr_cl20_p26_4x_1_scale.jpg"
+        "link": "/images/AICS-0023/Main_cell_line_morphology.jpg"
       }
     ],
     "Main_parent_line": "WTC",
@@ -2510,7 +2510,7 @@
         "data_type": "single plane image",
         "file_name": "AAVS1_cl6_MAX_ 20170306_I03_001Pos3ScalePt75_8bitSpecSheet",
         "caption": "Localization of mEGFP expressed from a safe harbor locus in hiPSC colony. mEGFP localizes to the cytoplasm and nucleus. Spaces between cells appear dark. Weaker intensity is observed in the nucleolus within the nucleus. The bright spots are dead cells on top of the colony. Some variation in intensity levels is seen between cells. Image is a maximum intensity projection of a 3D spinning disk confocal z-stack of a live hiPSC colony. ",
-        "link": "/images/AICS-0036/AAVS1_cl6_MAX_ 20170306_I03_001Pos3ScalePt75_8bitSpecSheet.jpg"
+        "link": "/images/AICS-0036/single_plane_image.jpg"
       },
       {
         "cell_line_id": "AICS-0036",
@@ -3298,7 +3298,7 @@
           "data_type": "single plane image",
           "file_name": "MAX_C1-20170321_I06_002_01_substackPt75_8bitDespeckleMaxSpecSheet ",
           "caption": "Single image of a live hiPS cell colony expressing one copy (monoallelic) of mEGFP tagged sialyltransferase 1 (ST6GAL 1) imaged on a spinning-disk confocal microscope. Image is a maximum intensity projection of a 3D z-stack.",
-          "link": "/images/AICS-0025/single_plane_image_mono.jpg"
+          "link": "/images/AICS-0025/single_plane_image.jpg"
         },
         {
           "type": "image",
