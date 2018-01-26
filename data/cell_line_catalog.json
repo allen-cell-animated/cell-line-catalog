@@ -2471,9 +2471,9 @@
           "type": "image",
           "cell_line_id": "AICS-0040",
           "data_type": "single plane image",
-          "file_name": "single_plane_image_clone35.jpg",
+          "file_name": "single_plane_image_bi.jpg",
           "caption": "mEGFP-tagged RAB5A protein localization in an hiPSC colony. Image is a single, central z-slice from a 3D spinning disk confocal z-stack of a live hiPSC colony. ",
-          "link": "/images/AICS-0040/single_plane_image_clone35.jpg"
+          "link": "/images/AICS-0040/single_plane_image_bi.jpg"
         },
         {
           "type": "image",
@@ -2649,9 +2649,9 @@
           "type": "image",
           "cell_line_id": "AICS-0040",
           "data_type": "single plane image",
-          "file_name": "single_plane_image_clone13.jpg",
+          "file_name": "single_plane_image.jpg",
           "caption": "mEGFP-tagged RAB5A protein localization in an hiPSC colony. Image is a single, central z-slice from a 3D spinning disk confocal z-stack of a live hiPSC colony. ",
-          "link": "/images/AICS-0040/single_plane_image_clone13.jpg"
+          "link": "/images/AICS-0040/single_plane_image.jpg"
         },
         {
           "type": "image",
