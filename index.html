@@ -456,7 +456,12 @@
                       </th>
                       <th class="text-center">Marker
                       </th>
-                      <th class="text-center">% positive cells
+                      {{#if trilineage_ddpcr}}
+                          <th class="text-center">Status
+                      {{/if}}
+                      {{#unless trilineage_ddpcr}}
+                          <th class="text-center">% positive cells
+                      {{/unless}}
                       </th>
                     </tr>
                   </thead>
