@@ -5629,17 +5629,17 @@
         {
           "Germ_Layer": "Ectoderm",
           "Marker": "PAX6",
-          "percent_positive_cells": "Analysis in progress"
+          "percent_positive_cells": "98.4"
         },
         {
           "Germ_Layer": "Endoderm",
           "Marker": "SOX17",
-          "percent_positive_cells": "Analysis in progress"
+          "percent_positive_cells": "73.7"
         },
         {
           "Germ_Layer": "Mesoderm",
           "Marker": "Brachyury",
-          "percent_positive_cells": "Analysis in progress"
+          "percent_positive_cells": "96.6"
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Cells were stained for markers of Ectoderm, Endoderm, and Mesoderm lineages using directly conjugated antibodies from BD Biosciences. Gating was based on isotype controls.",
@@ -5832,17 +5832,17 @@
         {
           "Germ_Layer": "Ectoderm",
           "Marker": "PAX6",
-          "percent_positive_cells": "Analysis in progress"
+          "percent_positive_cells": "97.6"
         },
         {
           "Germ_Layer": "Endoderm",
           "Marker": "SOX17",
-          "percent_positive_cells": "Analysis in progress"
+          "percent_positive_cells": "71.6"
         },
         {
           "Germ_Layer": "Mesoderm",
           "Marker": "Brachyury",
-          "percent_positive_cells": "Analysis in progress"
+          "percent_positive_cells": "97.3"
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Cells were stained for markers of Ectoderm, Endoderm, and Mesoderm lineages using directly conjugated antibodies from BD Biosciences. Gating was based on isotype controls.",
