@@ -1312,7 +1312,7 @@
     "Main_gene_id": "7273",
     "Main_mrna_id": "",
     "Main_mrna_id1": "",
-    "Main_structure": " Sarcomere",
+    "Main_structure": " Sarcomere M-line",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "",
@@ -3915,7 +3915,7 @@
         }
         ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
-    "StemCellCharacterization_karyotype": "/images/AICS-0030/LC3_cl.22.JPG",
+    "StemCellCharacterization_karyotype": "/images/AICS-0030/MAP1LC3B_cl.22.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 20 G-banded metaphase cells were karyotyped.",
     
     "StemCellCharacterization_trilineage": [
@@ -3935,7 +3935,7 @@
           "percent_positive_cells": "Pass"
         }
         ],
-    "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
+    "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
     
     "StemCellCharacterization_differentiation":
         {
@@ -3944,7 +3944,7 @@
           "Day_of_beating_range": "d7-d10"
         },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in (). ",
-    "StemCellCharacterization_rnaseq_fig": "/images/AICS-0030/",
+    "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Protocols_culturing": "/data/pdfs/AICS_SOP_WTC culture.pdf",
@@ -4088,15 +4088,15 @@
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
-          "positiveCells": "99.83"
+          "positiveCells": "99.8"
         },
         {
           "Marker": "SOX2",
-          "positiveCells": "99.72"
+          "positiveCells": "99.7"
         },
         {
-          "Marker": "4-Oct",
-          "positiveCells": "97.94"
+          "Marker": "OCT4",
+          "positiveCells": "97.9"
         },
         {
           "Marker": "SSEA-1",
@@ -4104,11 +4104,11 @@
         },
         {
           "Marker": "SSEA-3",
-          "positiveCells": "97.56"
+          "positiveCells": "97.5"
         },
         {
           "Marker": "TRA-160",
-          "positiveCells": "98.77"
+          "positiveCells": "98.7"
         }
         ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
@@ -4132,16 +4132,16 @@
           "percent_positive_cells": "PASS"
         }
         ],
-    "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
+    "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
     
     "StemCellCharacterization_differentiation":
         {
-          "troponin_percent_positive": "91.8% - 93.75 (n=3)",
-          "Day_of_beating_percent": "100%(3/3)",
-          "Day_of_beating_range": "D7-D8"
+          "troponin_percent_positive": "92-94 (3)",
+          "Day_of_beating_percent": "100 (3)",
+          "Day_of_beating_range": "d7-d8"
         },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in (). ",
-    "StemCellCharacterization_rnaseq_fig": "/images/AICS-0033/",
+    "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Protocols_culturing": "/data/pdfs/AICS_SOP_WTC culture.pdf",
@@ -4197,7 +4197,7 @@
     "Main_order_link": "https://www.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0040-013&PgId=166",
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0040-013_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
-    "Main_plasmid_sequence": "",
+    "Main_donor_plasmid": "",
     
     "Main_media": [
         {
@@ -4291,7 +4291,7 @@
           "positiveCells": "99.2"
         },
         {
-          "Marker": "4-Oct",
+          "Marker": "OCT4",
           "positiveCells": "97.7"
         },
         {
@@ -4328,16 +4328,16 @@
           "percent_positive_cells": "Pass"
         }
         ],
-    "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
+    "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
     
     "StemCellCharacterization_differentiation":
         {
-          "troponin_percent_positive": "94%-96% (n=2)",
-          "Day_of_beating_percent": "100%(3/3)",
-          "Day_of_beating_range": "D9 to D14"
+          "troponin_percent_positive": "94-96 (2)",
+          "Day_of_beating_percent": "100 (3)",
+          "Day_of_beating_range": "d9-d14"
         },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in (). ",
-    "StemCellCharacterization_rnaseq_fig": "/images/AICS-0040/",
+    "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Protocols_culturing": "/data/pdfs/AICS_SOP_WTC culture.pdf",
@@ -4393,7 +4393,7 @@
     "Main_order_link": "https://www.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0040-035&PgId=166",
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0040-035_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
-    "Main_plasmid_sequence": "",
+    "Main_donor_plasmid": "",
     
     "Main_media": [
         {
@@ -4487,7 +4487,7 @@
           "positiveCells": "98.8"
         },
         {
-          "Marker": "4-Oct",
+          "Marker": "OCT4",
           "positiveCells": "96.7"
         },
         {
@@ -4524,16 +4524,16 @@
           "percent_positive_cells": "Pass"
         }
         ],
-    "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
+    "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
     
     "StemCellCharacterization_differentiation":
         {
-          "troponin_percent_positive": "91.83%-95.4%(n=2)",
-          "Day_of_beating_percent": "100%(3/3)",
-          "Day_of_beating_range": "D8-D13"
+          "troponin_percent_positive": "92-95 (2)",
+          "Day_of_beating_percent": "100 (3)",
+          "Day_of_beating_range": "d8-d13"
         },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in (). ",
-    "StemCellCharacterization_rnaseq_fig": "/images/AICS-0040/",
+    "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Protocols_culturing": "/data/pdfs/AICS_SOP_WTC culture.pdf",
@@ -5053,7 +5053,7 @@
           "Day_of_beating_range": "d7-d9"
         },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Range observed across multiple experiments is shown for Day of beating initiation; number of experiments is shown in ().",
-    "StemCellCharacterization_rnaseq_fig": "/images/AICS-0031/",
+    "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Protocols_culturing": "/data/pdfs/AICS_SOP_WTC culture.pdf",
