@@ -191,6 +191,7 @@
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Supplementary_offtargets_link":"/data/offtargets/AICS-0005/offtarget_primers.xlsx"
   },
   {
@@ -393,6 +394,7 @@
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Supplementary_primers_link": "",
     "Supplementary_offtargets_link":"/data/offtargets/AICS-0012/offtarget_primers.xlsx"
   },
@@ -587,6 +589,7 @@
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf"
   },
   {
@@ -788,6 +791,7 @@
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Supplementary_primers_link": "",
     "Supplementary_offtargets_link":"/data/offtargets/AICS-0013/offtarget_primers.xlsx"
   },
@@ -950,6 +954,7 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -1111,6 +1116,7 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -1272,6 +1278,7 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -1433,6 +1440,7 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -1594,6 +1602,7 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -1755,6 +1764,7 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -1916,6 +1926,7 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -2077,6 +2088,7 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -2238,6 +2250,7 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -2399,6 +2412,7 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -2560,6 +2574,7 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -2754,6 +2769,7 @@
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Supplementary_primers_link": "",
     "Supplementary_offtargets_link":"/data/offtargets/AICS-0017/offtarget_primers.xlsx"
   },
@@ -2946,6 +2962,7 @@
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Supplementary_offtargets_link":"/data/offtargets/AICS-0016/offtarget_primers.xlsx"
   },
   {
@@ -3139,6 +3156,7 @@
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Supplementary_offtargets_link":"/data/offtargets/AICS-0010/offtarget_primers.xlsx"
   },
@@ -3344,6 +3362,7 @@
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Supplementary_offtargets_link": "/data/offtargets/AICS-0014/offtarget_primers.xlsx"
   },
@@ -3554,6 +3573,7 @@
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Supplementary_offtargets_link":"/data/offtargets/AICS-0024/offtarget_primers.xlsx"
   },
   {
@@ -3756,6 +3776,7 @@
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Supplementary_offtargets_link":"/data/offtargets/AICS-0023/offtarget_primers.xlsx"
   },
   {
@@ -3845,7 +3866,7 @@
     "EditingDesign_NCBI_isoform": "N",
     "EditingDesign_gene_figure": "/images/AICS-0030/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: MAP1LC3B locus; Bottom: Zoom in on mEGFP insertion site at MAP1LC3B N-terminal exon",
-    "GenomicCharacterization_junction_schematic": "/images/AICS-0030/GenomicCharacterization_junction_schematic.png",
+    "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0030/GenomicCharacterization_tagged_allele_gel.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder).",
     
@@ -3951,6 +3972,7 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -4042,7 +4064,7 @@
     "EditingDesign_NCBI_isoform": "N",
     "EditingDesign_gene_figure": "/images/AICS-0033/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: SLC25A17 locus showing 3 SLC25A17 isoforms; Bottom: Zoom in on mEGFP insertion site at SLC25A17C-terminal exon",
-    "GenomicCharacterization_junction_schematic": "/images/AICS-0033/GenomicCharacterization_junction_schematic.png",
+    "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
     
@@ -4148,6 +4170,7 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -4238,7 +4261,7 @@
     "EditingDesign_NCBI_isoform": "N",
     "EditingDesign_gene_figure": "/images/AICS-0040/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: RAB5A locus showing 2 RAB5A isoforms; Bottom: Zoom in on mEGFP insertion site at RAB5A N-terminal exon",
-    "GenomicCharacterization_junction_schematic": "/images/AICS-0040/GenomicCharacterization_junction_schematic.png",
+    "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0040/GenomicCharacterization_tagged_allele_gel_cl13.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction for monoallelic clone 13. (1% Agarose gel with Thermo Fisher 1kb ladder).",
     
@@ -4344,6 +4367,7 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -4434,7 +4458,7 @@
     "EditingDesign_NCBI_isoform": "N",
     "EditingDesign_gene_figure": "/images/AICS-0040/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: RAB5A locus showing 2 RAB5A isoforms; Bottom: Zoom in on mEGFP insertion site at RAB5A N-terminal exon",
-    "GenomicCharacterization_junction_schematic": "/images/AICS-0040/GenomicCharacterization_junction_schematic.png",
+    "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0040/GenomicCharacterization_tagged_allele_gel_cl35.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows tagged allele (larger band) only for biallelic clone 35. (1% Agarose gel with Thermo Fisher 1kb ladder).",
     
@@ -4540,6 +4564,7 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -4867,6 +4892,7 @@
     "Protocols_culturing":"/data/pdfs/AICS_SOP_WTC culture.pdf",
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Protocols_ddpcr":"/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf"
   },
   {
@@ -5060,6 +5086,7 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Protocols_offtargets": "N"
   },
   {
@@ -5253,6 +5280,7 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -5454,6 +5482,7 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Supplementary_offtargets_link":"/data/offtargets/AICS-0032/offtarget_primers.xlsx",
     "Protocols_offtargets": "N"
   },
@@ -5658,6 +5687,7 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -5861,6 +5891,7 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Protocols_offtargets": ""
   }
 ]
