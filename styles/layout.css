@@ -150,7 +150,7 @@
   max-width: 369%;
   left: -101px;
   position: absolute;
-  top: -40px;
+  top: 0px;
 }
 .column-header .center-small {
   width: 30%;
@@ -240,7 +240,6 @@ footer{
     max-width: 369%;
     left: -101px;
     position: absolute;
-    top: -40px;
   }
   #complete .center-small{
     text-align: left;
