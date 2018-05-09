@@ -5385,7 +5385,7 @@
           "positiveCells": ""
         },
         {
-          "Marker": "4-Oct",
+          "Marker": "OCT4",
           "positiveCells": ""
         },
         {
@@ -5583,7 +5583,7 @@
           "positiveCells": "99.9"
         },
         {
-          "Marker": "4-Oct",
+          "Marker": "OCT4",
           "positiveCells": "99.5"
         },
         {
@@ -5791,7 +5791,7 @@
           "positiveCells": "100"
         },
         {
-          "Marker": "4-Oct",
+          "Marker": "OCT4",
           "positiveCells": "99.3"
         },
         {
@@ -6232,8 +6232,8 @@
     
     "StemCellCharacterization_differentiation":
         {
-          "troponin_percent_positive": "fill",
-          "Day_of_beating_percent": "100",
+          "troponin_percent_positive": "90.1 (7)",
+          "Day_of_beating_percent": "100 (7)",
           "Day_of_beating_range": "D7"
         },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in (). ",
