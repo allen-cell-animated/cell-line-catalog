@@ -5251,10 +5251,10 @@
     "clone_number": "172",
     "alleleCount": "mono",
     "trilineage_ddpcr": "true",
-    "status": "In Progress",
+    "status": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
-        "done": "false"
+        "done": "true"
       },
       {
         "id":"genomiccharacterizations",
@@ -5262,22 +5262,22 @@
       },
       {
         "id": "validation",
-        "done": ""
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
-        "done": ""
+        "done": "false"
       },
       {
         "id": "supplementaryinformation",
-        "done": ""
+        "done": "true"
       },
       {
         "id": "protocols",
-        "done": ""
+        "done": "true"
       }
     ],
-    "Main_data_available": "No",
+    "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TNNI1",
     "Main_gene_name": "Troponin I1, slow skeletal type",
@@ -5287,9 +5287,9 @@
     "Main_structure": "Sarcomeric thin filament",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
-    "Main_linker": "",
-    "Main_order_link": "",
-    "Main_cofa": "",
+    "Main_linker": "SGSG",
+    "Main_order_link": "https://www.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0037-172&PgId=166",
+    "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0037-172_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "",
     
@@ -5331,8 +5331,8 @@
     "EditingDesign_cas9": "Wildtype spCas9",
     "EditingDesign_NCBI_isoform": "N",
     "EditingDesign_gene_figure": "/images/AICS-0037/EditingDesign_gene_figure.png",
-    "EditingDesign_gene_figure_caption": "Top: TNNI1 locus; Bottom: Zoom in on mEGFP insertion site at TNNI1 C-terminus",
-    "GenomicCharacterization_junction_schematic": "/images/AICS-0037/GenomicCharacterization_junction_schematic_mEGFP.png",
+    "EditingDesign_gene_figure_caption": "Top: TNNI1 locus; Bottom: Zoom in on mEGFP insertion site at TNNI1 C-terminus. For more information on tagging transcriptionally silent genes in hiPSCs see: Roberts et al. 2018. Scarless gene tagging of transcriptionally silent genes in hiPSCs to visualize cardiomyocyte sarcomeres in live cells. bioRxiv doi:10.1101/342881",
+    "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0037/",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
     
@@ -5370,9 +5370,9 @@
     "GenomicCharacterization_ddpcr_caption": "",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "/images/AICS-0037/",
+    "Validation_WesternBlot": "",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "/images/AICS-0037/",
+    "Validation_Immunofluorescence": "/images/AICS-0037/troponinI_clone172_and_AICS0000_20180329_final.jpg",
     "Validation_Immunofluorescence_caption": "",
     
     "StemCellCharacterization_pluripotency_analysis": [
@@ -5385,7 +5385,7 @@
           "positiveCells": ""
         },
         {
-          "Marker": "OCT4",
+          "Marker": "4-Oct",
           "positiveCells": ""
         },
         {
@@ -5438,7 +5438,6 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/sop_for_ddpcr_cnv_assay_for_screening_clones_v1.0.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
     "Protocols_offtargets": ""
   },
   {
