@@ -1105,26 +1105,26 @@
         {
           "Germ_Layer": "Ectoderm",
           "Marker": "PAX6",
-          "percent_positive_cells": "Fill"
+          "percent_positive_cells": "Pass"
         },
         {
           "Germ_Layer": "Endoderm",
           "Marker": "SOX17",
-          "percent_positive_cells": "Fill"
+          "percent_positive_cells": "Pass"
         },
         {
           "Germ_Layer": "Mesoderm",
           "Marker": "Brachyury",
-          "percent_positive_cells": "Fill"
+          "percent_positive_cells": "Pass"
         }
         ],
-    "StemCellCharacterization_trilineage_caption": "",
+    "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
     
     "StemCellCharacterization_differentiation":
         {
-          "troponin_percent_positive": "Fill",
-          "Day_of_beating_percent": "Fill",
-          "Day_of_beating_range": "Fill"
+          "troponin_percent_positive": "84.7",
+          "Day_of_beating_percent": "38",
+          "Day_of_beating_range": "Pass"
         },
     "StemCellCharacterization_differentiation_caption": "",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0060/",
