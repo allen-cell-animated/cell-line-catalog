@@ -48,6 +48,9 @@
                 {{#if new}}
                 <span class="badge bright">New</span>
                 {{/if}}
+                {{#if multipleTag}}
+                <span class="badge bright">Dual tag</span>
+                {{/if}}
               </h4>
             </span>
           </li>
@@ -77,7 +80,13 @@
             <div class="panel-body">
               <ul id={{cell_line_id}} class="list-group">
                 <li class="list-group-item"><span class="profile-summary-key">Gene: </span><span class="profile-summary-value">{{Main_gene_name}}</span></li>
-                <li class="list-group-item"><span class="profile-summary-key">Gene symbol:</span> <span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id}}">{{Main_gene_symbol}}</a></span></li>
+                {{#if multipleTag}}
+                    <li class="list-group-item"><span class="profile-summary-key">Gene symbol: </span>
+                        <span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id1}}">{{Main_gene_symbol1}}</a></span> /
+                        <span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id2}}">{{Main_gene_symbol2}}</a></span></li>
+                {{else}}
+                    <li class="list-group-item"><span class="profile-summary-key">Gene symbol: </span><span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id}}">{{Main_gene_symbol}}</a></span></li>
+                {{/if}}
                 <li class="list-group-item"><span class="profile-summary-key">Protein: </span><span class="profile-summary-value">{{Main_protein}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Fluorophore:</span> <span class="profile-summary-value">{{Main_fluorescent_tag}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Tagged alleles:</span> <span class="profile-summary-value">{{alleleCount}}</span></li>
@@ -176,12 +185,28 @@
             <div class="panel-body ">
               <ul id=editingDesign-info class="list-group">
                 <li class="list-group-item">
+
+                {{#if multipleTag}}
+                  <span class="profile-summary-key">{{Main_gene_symbol1}} NCBI Isoform(s):</span>
+                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna1_id}}">{{Main_mrna1_id}}</a></span>
+                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna1_id1}}">{{Main_mrna1_id1}}</a></span>
+                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna1_id2}}">{{Main_mrna1_id2}}</a></span>
+                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna1_id3}}">{{Main_mrna1_id3}}</a></span></li>
+                <li class="list-group-item">
+                  <span class="profile-summary-key">{{Main_gene_symbol2}} NCBI Isoform(s):</span>
+                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna2_id}}">{{Main_mrna2_id}}</a></span>
+                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna2_id1}}">{{Main_mrna2_id1}}</a></span>
+                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna2_id2}}">{{Main_mrna2_id2}}</a></span>
+                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna2_id3}}">{{Main_mrna2_id3}}</a></span></li>
+                {{else}}
                   <span class="profile-summary-key">NCBI Isoform(s):</span>
                   <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id}}">{{Main_mrna_id}}</a></span>
                   <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id1}}">{{Main_mrna_id1}}</a></span>
                   <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id2}}">{{Main_mrna_id2}}</a></span>
                   <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id3}}">{{Main_mrna_id3}}</a></span></li>
+                {{/if}}
                 <li class="list-group-item">
+
                   <span class="profile-summary-key">crRNA:</span>
                   <span>{{EditingDesign_crRNA_seq}}</span></li>
                 <li class="list-group-item">
@@ -245,6 +270,7 @@
               <table class="table">
                 <thead>
                   <tr>
+                    <th>Edited Gene</th>
                     <th>Junction</th>
                     <th>Expected Size</th>
                     <th>Confirmed Sequence</th>
@@ -253,6 +279,7 @@
                 <tbody id="junction-table">
                   {{#each GenomicCharacterization_junction_table}}
                   <tr>
+                    <td class="tex-left">{{this.editedGene}}</td>
                     <td class="tex-left">{{this.junction}}</td>
                     <td class="tex-left">{{this.expected_size}}</td>
                     <td class="tex-left">{{this.confirmed_sequence}}</td>
@@ -294,11 +321,13 @@
               <table class = "table">
                 <thead>
                   <tr>
-                    <th>
+                    <th>Tag
                     </th>
-                    <th>{{Main_fluorescent_tag}}
+                    <th>Clone
                     </th>
-                    <th>plasmid
+                    <th>FP:RPP30
+                    </th>
+                    <th>Plasmid
                     </th>
                   </tr>
                   <tbody id="ddPCR-table">
@@ -362,9 +391,11 @@
     </script>
     <script id="ddPCR-template" type="text/x-handlebars-template">
       <tr>
+        <td>{{gene_tag}}
+        </td>
         <td>{{clone}}
         </td>
-        <td>{{tag}}
+        <td>{{fp_ratio}}
         </td>
         <td>{{plasmid}}
         </td>
