@@ -55,7 +55,8 @@
             </span>
           </li>
           <li class="col-lg-3 inline-seperated-item">{{Main_gene_name}}<span class=gene-symbol>({{Main_gene_symbol}})</span></li>
-          <li class="col-lg-1 inline-seperated-item">{{alleleCount}}</li>
+          <li class="col-lg-1 inline-seperated-item col-smaller">{{displayClone}}</li>
+          <li class="col-lg-1 inline-seperated-item col-smaller">{{alleleCount}}</li>
           <li class="col-lg-2 inline-seperated-item">{{Main_structure}}</li>
           <li class="col-lg-1 inline-seperated-item">{{Main_fluorescent_tag}}</span></li>
           <li class='col-lg-1 inline-seperated-item'>{{Main_terminal_tagged}}</li>
@@ -75,7 +76,7 @@
         <div class="">
           <div class="panel panel-primary">
             <div class="panel-heading">
-              <h4>Cell Line ID: {{cell_line_id}}</h4>
+              <h4>Cell Line ID: {{cell_line_id}} cl.{{clone_number}}</h4>
             </div>
             <div class="panel-body">
               <ul id={{cell_line_id}} class="list-group">
@@ -100,7 +101,7 @@
                 {{/if}}
                 {{#if Main_order_link}}
                 <div class="col-xlg-6">
-                  <a class="btn btn-warning btn-block" role="button" href="{{Main_order_link}}" target="_blank">Obtain {{cell_line_id}}</a>
+                  <a class="btn btn-warning btn-block" role="button" href="{{Main_order_link}}" target="_blank">Obtain {{cell_line_id}} cl.{{clone_number}}</a>
                 </div>
                 {{/if}}
                 <div class="col-xlg-6">
@@ -772,7 +773,8 @@
                     </span>
                   </li>
                   <li class="col-lg-3 inline-seperated-item">Gene Name <span class=gene-symbol>(gene symbol)</span></li>
-                  <li class="col-lg-1 inline-seperated-item">Tagged alleles</li>
+                  <li class="col-lg-1 inline-seperated-item col-smaller">Clone</li>
+                  <li class="col-lg-1 inline-seperated-item col-smaller">Tagged alleles</li>
                   <li class="col-lg-2 inline-seperated-item">Structure</li>
                   <li class="col-lg-1 inline-seperated-item">Fluorescent Tag</span></li>
                   <li class='col-lg-1 inline-seperated-item'>Tag Location</li>
@@ -781,7 +783,7 @@
               </li>
               <p class = 'errors displayoff'>Nothing matches your filters</p>
             </ul>
-            <small class="table-footer">Visit <a href="https://catalog.coriell.org/1/AllenCellCollection" target="_blank">Coriell </a>to order any of these cell lines, or click on a row for more infomation. </small>
+            <small class="table-footer">Visit <a href="https://catalog.coriell.org/1/AllenCellCollection" target="_blank">Coriell </a>to order any of these cell lines, or click on a row for more infomation. <br/>** Backup clone </small>
           </div>
           <div class="" id="in_progress">
             <h3 class="text-primary table-title">Cell lines in progress</h3>

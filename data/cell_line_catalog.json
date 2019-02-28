@@ -71,7 +71,7 @@
         "data_type": "single plane high mag image",
         "file_name": "20160513_C03_010Scalept75_ComboSpecSheet.tif",
         "caption": "Single image of a live hiPSC colony expressing paxillin-EGFP imaged on a spinning-disk confocal microscope. Left panel is a single slice of the z-tack near the bottom of the cell; right panel is this same projection overlaid onto one slice of the same z-stack in the transmitted light channel.",
-        "link": "/images/AICS-0005/single_plane_image.jpg"
+        "link": "/images/AICS-0005/single_plane_image_cl50.jpg"
       },
       {
         "type":"image",
@@ -276,7 +276,7 @@
         "data_type": "single plane high mag image",
         "file_name": "20160531_C03_007scalePt75_8bit_fr24SpecSheet.tif",
         "caption": "Single image of a live hiPSC colony expressing alpha tubulin-mEGFP imaged on a spinning-disk confocal microscope. Image is a single slice taken in the middle of the z-stack.",
-        "link": "/images/AICS-0012/single_plane_image.jpg"
+        "link": "/images/AICS-0012/single_plane_image_cl105.jpg"
       },
       {
         "type":"image",
@@ -474,7 +474,7 @@
         "cell_line_id": "AICS-0011",
         "data_type": "single plane high mag image",
         "type":"image",
-        "link":"/images/AICS-0011/single_plane_image.jpg",
+        "link":"/images/AICS-0011/single_plane_image_cl27.jpg",
         "caption":"Single image of a live hiPSC colony expressing Tom20-mEGFP imaged on a spinning-disk confocal microscope. Image is a maximum intensity projection of 5 z-slices near the bottom of the cell."
       },
       {
@@ -684,7 +684,7 @@
         "file_name": "20161011_S01_001pos3t005maxProjScalePt75_8bitSpecSheet.tif",
         "caption": "Single image of a live hiPSC colony expressing LaminB1-mEGFP. Image is a maximum intensity projection of a spinning-disk confocal z-stack.",
         "type":"image",
-        "link":"/images/AICS-0013/single_plane_image.jpg"
+        "link":"/images/AICS-0013/single_plane_image_cl210.jpg"
       },
       {
         "type":"image",
@@ -1209,7 +1209,7 @@
         "file_name": "20161013_C01_001_s1_MAXonTransmittedz13_8bitScalePt75RGBresizeComboSpecSheet.tif",
         "type":"image",
         "caption": "Single image of a live hiPSC colony expressing Desmoplakin-mEGFP imaged on a spinning-disk confocal microscope. Left panel is a maximum intensity projection of the z-stack; right panel is this same projection overlaid onto one slice of the same z-stack in the transmitted light channel.",
-        "link": "/images/AICS-0017/single_plane_image.jpg"
+        "link": "/images/AICS-0017/single_plane_image_cl65.jpg"
       },
       {
         "type":"image",
@@ -1394,7 +1394,7 @@
         "data_type": "single plane image",
         "file_name": "20160801_C05_006ScalePt5Fr1to43_8bitFr2and37MontageSpecSheet",
         "caption": "Single images of a live hiPS cell colony expressing mEGFP tagged beta-actin imaged on a spinning-disk confocal microscope. Left panel is a single slice near the bottom of the cell; right panel is a single slice near the top of the cell",
-        "link": "/images/AICS-0016/single_plane_image.jpg"
+        "link": "/images/AICS-0016/single_plane_image_cl184.jpg"
       },
       {
         "cell_line_id": "AICS-0016",
@@ -1592,7 +1592,7 @@
         "data_type": "single plane image",
         "file_name": "20161220_C01_022Ch2ScalePt75Fr11and25Mont_8bitRescaleSpecSheet",
         "caption": "hiPS cell colony expressing mEGFP tagged Sec61-beta imaged on a spinning-disk confocal microscope. Left panel is a single slice near the bottom of the cell; right panel is a single slice near the middle of the cell.",
-        "link": "/images/AICS-0010/single_plane_image.jpg"
+        "link": "/images/AICS-0010/single_plane_image_cl55.jpg"
       },
       {
         "cell_line_id": "AICS-0010",
@@ -1799,7 +1799,7 @@
         "data_type": "single plane high mag image",
         "file_name": "20161024_I01_002pos3MaxProjScalePt75_8bitFr12SpecSheet",
         "caption": "Single image of a live hiPS cell colony expressing mEGFP tagged fibrillarin imaged on a spinning-disk confocal microscope. Image is a maximum intensity projection of a 3D z-stack.",
-        "link": "/images/AICS-0014/single_plane_image.jpg"
+        "link": "/images/AICS-0014/single_plane_image_cl6.jpg"
       },
       {
         "cell_line_id": "AICS-0014",
@@ -2018,7 +2018,7 @@
         "data_type": "single plane image",
         "file_name": "20161006_C03_002Pos10ScaledPt5Fr29-65_8bitFr2and29MontageSpecSheet",
         "caption": "Single images of a live hiPS cell colony expressing mEGFP tagged non-muscle myosin heavy chain IIB imaged on a spinning-disk confocal microscope. Left panel is a single slice near the bottom of the cell; right panel is a single slice near the top of the cell.",
-        "link": "/images/AICS-0024/single_plane_image.jpg"
+        "link": "/images/AICS-0024/single_plane_image_cl80.jpg"
       },
       {
         "cell_line_id": "AICS-0024",
@@ -2225,7 +2225,7 @@
         "data_type": "single plane high mag image",
         "file_name": "MAX_20170123_I01_003#4ScalePt75_8bitResizeSpecSheet",
         "caption": "Single image of a live hiPS cell colony expressing mEGFP tagged tight junction protein ZO-1 imaged on a spinning-disk confocal microscope. Image is a maximum intensity projection of a 3D z-stack.",
-        "link": "/images/AICS-0023/single_plane_image.jpg"
+        "link": "/images/AICS-0023/single_plane_image_cl20.jpg"
       },
       {
         "cell_line_id": "AICS-0023",
@@ -2439,9 +2439,9 @@
           "type": "image",
           "cell_line_id": "AICS-0030",
           "data_type": "single plane image",
-          "file_name": "single_plane_image.jpg",
+          "file_name": "single_plane_image_cl22.jpg",
           "caption": "mEGFP-tagged autophagy-related protein LC3 B localization in an hiPSC colony. Image is a single slice of a 3Dspinning disk confocal z-stack of a live hiPSC colony in the bottom half of the cells. Both untreated cells (left panel) andcells treated for 24 hours with 800nM leupeptin to visualize autophagosomes (right panel) are shown.",
-          "link": "/images/AICS-0030/single_plane_image.jpg"
+          "link": "/images/AICS-0030/single_plane_image_cl22.jpg"
         },
         {
           "type": "image",
@@ -2641,9 +2641,9 @@
           "type": "image",
           "cell_line_id": "AICS-0033",
           "data_type": "single plane image",
-          "file_name": "single_plane_image.jpg",
+          "file_name": "single_plane_image_cl115.jpg",
           "caption": "mEGFP-tagged PMP34 protein localization in an hiPSC colony. Image is a single, central z-slice from a 3D spinning disk confocal z-stack of a live hiPSC colony. ",
-          "link": "/images/AICS-0033/single_plane_image.jpg"
+          "link": "/images/AICS-0033/single_plane_image_cl115.jpg"
         },
         {
           "type": "image",
@@ -2842,9 +2842,9 @@
           "type": "image",
           "cell_line_id": "AICS-0040",
           "data_type": "single plane image",
-          "file_name": "single_plane_image_clone.jpg",
+          "file_name": "single_plane_image_clone_cl13.jpg",
           "caption": "mEGFP-tagged RAB5A protein localization in an hiPSC colony. Image is a single, central z-slice from a 3D spinning disk confocal z-stack of a live hiPSC colony. ",
-          "link": "/images/AICS-0040/single_plane_image.jpg"
+          "link": "/images/AICS-0040/single_plane_image_cl13.jpg"
         },
         {
           "type": "image",
@@ -3043,9 +3043,9 @@
           "type": "image",
           "cell_line_id": "AICS-0040",
           "data_type": "single plane image",
-          "file_name": "single_plane_image_bi.jpg",
+          "file_name": "single_plane_image_cl35.jpg",
           "caption": "mEGFP-tagged RAB5A protein localization in an hiPSC colony. Image is a single, central z-slice from a 3D spinning disk confocal z-stack of a live hiPSC colony. ",
-          "link": "/images/AICS-0040/single_plane_image_bi.jpg"
+          "link": "/images/AICS-0040/single_plane_image_cl35.jpg"
         },
         {
           "type": "image",
@@ -3217,7 +3217,7 @@
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "NA",
     "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0036_CofA.pdf",
-    "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0036&Product=iPSC",
+    "Main_order_link": "https://www.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0036-006&PgId=166",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/91565/",
     "Main_media":[
@@ -3227,7 +3227,7 @@
         "data_type": "single plane image",
         "file_name": "AAVS1_cl6_MAX_ 20170306_I03_001Pos3ScalePt75_8bitSpecSheet",
         "caption": "Localization of mEGFP expressed from a safe harbor locus in hiPSC colony. mEGFP localizes to the cytoplasm and nucleus. Spaces between cells appear dark. Weaker intensity is observed in the nucleolus within the nucleus. The bright spots are dead cells on top of the colony. Some variation in intensity levels is seen between cells. Image is a maximum intensity projection of a 3D spinning disk confocal z-stack of a live hiPSC colony. ",
-        "link": "/images/AICS-0036/single_plane_image.jpg"
+        "link": "/images/AICS-0036/single_plane_image_cl6.jpg"
       },
       {
         "cell_line_id": "AICS-0036",
@@ -3287,6 +3287,183 @@
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
     "Validation_WesternBlot": "/images/AICS-0036/Western blot documentation AAVS1 final clone only_final.jpg",
+    "Validation_Immunofluorescence": "",
+    "StemCellCharacterization_pluripotency_analysis": [
+                  {
+                    "Marker": "NANOG",
+                    "positiveCells": 98.5
+                  },
+                  {
+                    "Marker": "SOX2",
+                    "positiveCells": 98.7
+                  },
+                  {
+                    "Marker": "OCT4",
+                    "positiveCells": 97.9
+                  },
+                  {
+                    "Marker": "SSEA-1",
+                    "positiveCells": 0.21
+                  },
+                  {
+                    "Marker": "SSEA-3",
+                    "positiveCells": 99.8
+                  },
+                  {
+                    "Marker": "TRA-160",
+                    "positiveCells": 85.3
+                  }
+                ],
+    "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
+    "StemCellCharacterization_trilineage": [
+            {
+              "Germ_Layer": "Ectoderm",
+              "Marker": "PAX6",
+              "percent_positive_cells": 98.5
+            },
+            {
+              "Germ_Layer": "Endoderm",
+              "Marker": "SOX17",
+              "percent_positive_cells": 52.3
+            },
+            {
+              "Germ_Layer": "Mesoderm",
+              "Marker": "Brachyury",
+              "percent_positive_cells": 98.9
+            }
+          ],
+    "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Cells were stained for markers of Ectoderm, Endoderm, and Mesoderm lineages using directly conjugated antibodies from BD Biosciences. Gating was based on isotype controls.",
+    "StemCellCharacterization_karyotype": "/images/AICS-0036/AAVS1_cl.6.JPG",
+    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
+    "StemCellCharacterization_differentiation": {
+      "troponin_percent_positive": "94-96 (2)",
+      "Day_of_beating_percent": "100 (2)",
+      "Day_of_beating_range": "d8-d18"
+    },
+    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in ().",
+    "StemCellCharacterization_rnaseq_fig": "",
+    "StemCellCharacterization_rnaseq_fig_caption": "",
+    "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
+    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
+    "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.0.pdf",
+    "Protocols_ddpcr":"/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf"
+  },
+  {
+    "cell_line_id": "AICS-0036",
+    "clone_number": "28",
+    "new": "true",
+    "backup": "true",
+    "alleleCount": "mono",
+    "status": "Yes",
+    "Main_data_available": "Yes",
+    "subpaged_status": [
+      { "id": "editingdesign",
+        "done": "true"
+      },
+      {
+        "id":"genomiccharacterizations",
+        "done": "false"
+      },
+      {
+        "id": "validation",
+        "done": "true"
+      },
+      {
+        "id": "stemcellcharacteristics",
+        "done": "false"
+      },
+      {
+        "id": "supplementaryinformation",
+        "done": "true"
+      },
+      {
+        "id": "protocols",
+        "done": "true"
+      }
+    ],
+    "Main_parent_line": "WTC",
+    "Main_gene_symbol": "AAVS1",
+    "Main_gene_name": "Safe harbor locus",
+    "Main_protein": "NA",
+    "Main_gene_id": "17",
+    "Main_mrna_id": "NA",
+    "Main_structure": "Cytoplasm",
+    "Main_terminal_tagged": "NA",
+    "Main_fluorescent_tag": "mEGFP",
+    "Main_linker": "NA",
+    "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0036-028_CofA.pdf",
+    "Main_order_link": "https://www.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0036-028&PgId=166",
+    "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
+    "Main_donor_plasmid": "https://www.addgene.org/91565/",
+    "Main_media":[
+      {
+        "cell_line_id": "AICS-0036",
+        "type": "image",
+        "data_type": "single plane image",
+        "file_name": "MAX_20161110_I07_001_s09_8bit",
+        "caption": "Localization of mEGFP expressed from a safe harbor locus in hiPSC colony. mEGFP localizes to the cytoplasm and nucleus. Spaces between cells appear dark. Weaker intensity is observed in the nucleolus within the nucleus. The bright spots are dead cells on top of the colony. Some variation in intensity levels is seen between cells. Image is a maximum intensity projection of a 3D spinning disk confocal z-stack of a live hiPSC colony. ",
+        "link": "/images/AICS-0036/single_plane_image_cl28.jpg"
+      },
+      {
+        "cell_line_id": "AICS-0036",
+        "type": "image",
+        "data_type": "morphology_image",
+        "file_name": "AICS-36_CL28_P28_POST-BANK_170227_4X",
+        "caption": "Viability and colony formation photographed 3 days post-thaw at 4X magnification. Cells were treated with ROCK inhibitor for 24 hrs post-thaw.",
+        "link": "/images/AICS-0036/Main_cell_line_morphology_cl28.jpg"
+      }
+    ],
+
+    "EditingDesign_crRNA_seq": "GGGGCCACTAGGGACAGGAT",
+    "EditingDesign_cas9": "Wildtype spCas9",
+    "EditingDesign_NCBI_isoform": "NA",
+    "EditingDesign_gene_figure": "/images/AICS-0036/AAVS1_gfp.png",
+    "EditingDesign_gene_figure_caption": "Top: mEGFP insertion site at AAVS1 locus in PPP1R12C intron; Bottom: Zoom in on mEGFP insertion site at AAVS1 locus",
+    "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
+    "GenomicCharacterization_tagged_allele_gel": "",
+    "GenomicCharacterization_tagged_allele_gel_caption": "",
+    "GenomicCharacterization_junction_table": [
+
+                                                {
+                                                  "editedGene": "AAVS1-mEGFP",
+                                                  "junction": "5'",
+                                                  "expected_size": "NA",
+                                                  "confirmed_sequence": "NA"
+                                                },
+                                                {
+                                                  "editedGene": "AAVS1-mEGFP",
+                                                  "junction": "3'",
+                                                  "expected_size": "1214",
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "editedGene": "AAVS1-mEGFP",
+                                                  "junction": "WT internal",
+                                                  "expected_size": 1391,
+                                                  "confirmed_sequence": "Yes"
+                                                },
+                                                {
+                                                  "editedGene": "AAVS1-mEGFP",
+                                                  "junction": "Full junctional allele",
+                                                  "expected_size": "NA",
+                                                  "confirmed_sequence": "NA"
+                                                }
+                                            ],
+    "GenomicCharacterization_junction_table_caption": "PCR amplified 3' junction was used to establish delivery via HDR at the intended genomic locus. Tiled junctions were not possible to amplify or sequence due to the large size of the delivered sequence (5KB). The precise sequence of the delivered sequence was not determined because the mEGFP tag sequence was not fused to an endogenous coding sequence.",
+    "GenomicCharacterization_ddpcr": [
+                                        {
+                                          "gene_tag": "AAVS1-mEGFP",
+                                          "clone": "cl6",
+                                          "fp_ratio": 0.48,
+                                          "plasmid": 0.003
+                                        }
+                                      ],
+    "GenomicCharacterization_ddpcr_caption": "mEGFP: mEGFP/RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.1 indicate heterozygous clone, values = 1 +/- 0.1 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
+    "GenomicCharacterization_offtargets": "",
+    "GenomicCharacterization_offtargets_caption": "",
+    "Validation_WesternBlot": "/images/AICS-0036/Western blot documentation AAVS1 backup clone only_final.jpg",
     "Validation_Immunofluorescence": "",
     "StemCellCharacterization_pluripotency_analysis": [
                   {
@@ -3419,7 +3596,7 @@
           "data_type": "single plane image",
           "file_name": "20170811_C01_001Pt75Fr37_8bitSpecSheet",
           "caption": "Single image of a live hiPS cell colony expressing mTagRFP-T tagged alpha-tubulin imaged on a spinning-disk confocal microscope. Image is a single slice from a 3D z-stack in the top half of the cell",
-          "link": "/images/AICS-0031/single_plane_image.jpg"
+          "link": "/images/AICS-0031/single_plane_image_cl35.jpg"
         },
         {
           "type": "image",
@@ -3618,7 +3795,7 @@
           "data_type": "single plane image",
           "file_name": "C1-20170211_I05_002_03_substack_8bitPt75Fr31SpecSheet",
           "caption": "Single image of a live hiPS cell colony expressing mEGFP tagged LAMP-1 imaged on a spinning-disk confocal microscope. Image is a single slice from a 3D z-stack in the top half of the cell. ",
-          "link": "/images/AICS-0022/single_plane_image.jpg"
+          "link": "/images/AICS-0022/single_plane_image_cl37.jpg"
         },
         {
           "type": "image",
@@ -3817,7 +3994,7 @@
           "data_type": "single plane image",
           "file_name": "20170127_C02_006_s6Pt75MaxProj8bitComboSpecSheet",
           "caption": "Single image of a live hiPS cell colony expressing mTagRFP-T tagged centrin-2 imaged on a spinning-disk confocal microscope. Left image is a maximum intensity projection of a 3D z-stack. Right image shows centrin (red) overlaid with DNA (Hoechst, blue). ",
-          "link": "/images/AICS-0032/single_plane_image.jpg"
+          "link": "/images/AICS-0032/single_plane_image_cl19.jpg"
         },
         {
           "type": "image",
@@ -4035,7 +4212,7 @@
           "data_type": "single plane image",
           "file_name": "MAX_C1-20170321_I06_002_01_substackPt75_8bitDespeckleMaxSpecSheet ",
           "caption": "Single image of a live hiPS cell colony expressing one copy (monoallelic) of mEGFP tagged sialyltransferase 1 (ST6GAL 1) imaged on a spinning-disk confocal microscope. Image is a maximum intensity projection of a 3D z-stack.",
-          "link": "/images/AICS-0025/single_plane_image.jpg"
+          "link": "/images/AICS-0025/single_plane_image_cl1.jpg"
         },
         {
           "type": "image",
@@ -4244,7 +4421,7 @@
           "data_type": "single plane image",
           "file_name": "C1-20170321_I08_002_01_substackPt75_8bitMaxSpecSheet",
           "caption": "Single image of a live hiPS cell colony expressing two copies (biallelic) of mEGFP tagged sialyltransferase 1 (ST6GAL 1) imaged on a spinning-disk confocal microscope. Image is a maximum intensity projection of a 3D z-stack. ",
-          "link": "/images/AICS-0025/single_plane_image_bi.jpg"
+          "link": "/images/AICS-0025/single_plane_image_cl44.jpg"
         },
         {
           "type": "image",
@@ -4444,7 +4621,7 @@
           "data_type": "single plane image",
           "file_name": "20180317_M02_001_s08_z23_comboWithInset_scalebar_RGB",
           "caption": "Single mid-level plane of live hiPSC-derived cardiomyocytes expressing mEGFP-tagged troponin I, slow skeletal. Twelve days after the onset of differentiation, cells were plated on PEI and laminin coated glass and imaged 15 days later on a spinning-disk confocal microscope (27 days total after the onset of differentiation). Scale bar, 10µm.",
-          "link": "/images/AICS-0037/single_plane_image.jpg"
+          "link": "/images/AICS-0037/single_plane_image_cl172.jpg"
         },
         {
           "type": "image",
@@ -4643,9 +4820,9 @@
           "type": "image",
           "cell_line_id": "AICS-0058",
           "data_type": "single plane image",
-          "file_name": "single_plane_image.jpg",
+          "file_name": "single_plane_image_cl67.jpg",
           "caption": "Single-planes of live hiPS cell colony expressing mEGFP-tagged beta catenin. Z-planes shown are at the bottom (left), middle (middle) and top (right) of cells. Cells were imaged in 3D on a spinning-disk confocal microscope. Scale bar, 5µm.",
-          "link": "/images/AICS-0058/single_plane_image.jpg"
+          "link": "/images/AICS-0058/single_plane_image_cl67.jpg"
         },
         {
           "type": "image",
@@ -4855,9 +5032,9 @@
           "type": "image",
           "cell_line_id": "AICS-0057",
           "data_type": "single plane image",
-          "file_name": "single_plane_image.jpg",
+          "file_name": "single_plane_image_cl50.jpg",
           "caption": "Single mid-level plane of live hiPS cell colony expressing mEGFP-tagged nucleophosmin. Right panel is the same image as the left but with contrast enhanced to visualize dimmer localization in mitotic cells. Images are maximum intensity projections through the volume of the cells. Cells were imaged in 3D on a spinning-disk confocal microscope. Scale bar, 5µm. ",
-          "link": "/images/AICS-0057/single_plane_image.jpg"
+          "link": "/images/AICS-0057/single_plane_image_cl50.jpg"
         },
         {
           "type": "image",
@@ -5054,9 +5231,9 @@
           "type": "image",
           "cell_line_id": "AICS-0054",
           "data_type": "single plane image",
-          "file_name": "single_plane_image",
+          "file_name": "single_plane_image_cl91",
           "caption": "Single-planes of live hiPS cell colony expressing the CAAX domain of K-Ras tagged with mEGFP expressed from a safe harbor locus. Z-planes shown are at the bottom (left), middle (middle) and top (right) of cells. Cells were imaged in 3D on a spinning-disk confocal microscope. Scale bar, 5µm. ",
-          "link": "/images/AICS-0054/single_plane_image.jpg"
+          "link": "/images/AICS-0054/single_plane_image_cl91.jpg"
         },
         {
           "type": "image",
@@ -5262,9 +5439,9 @@
           "type": "image",
           "cell_line_id": "AICS-0053",
           "data_type": "single plane image",
-          "file_name": "single_plane_image.jpg",
+          "file_name": "single_plane_image_cl16.jpg",
           "caption": "Single-plane of live hiPS cell colony expressing mEGFP-tagged GJA1 near the top of cells. Left: Contrast optimized to view connexin at apical cell-cell junctions. Right: The same image with contrast enhanced to show intracellular localization of connexin. Cells were imaged in 3D on a spinning-disk confocal microscope. Scale bar, 5µm. ",
-          "link": "/images/AICS-0053/single_plane_image.jpg"
+          "link": "/images/AICS-0053/single_plane_image_cl16.jpg"
         },
         {
           "type": "image",
@@ -5796,9 +5973,9 @@
           "type": "image",
           "cell_line_id": "AICS-0069",
           "data_type": "single plane image",
-          "file_name": "single_plane_image.jpg",
+          "file_name": "single_plane_image_cl88.jpg",
           "caption": "Single, mid-level plane of cells in a live hiPS cell colony expressing mEGFP-tagged Nucleoporin Nup153 protein. Cells were imaged in 3D on a spinning-disk confocal microscope. Inset depicts the bottom z-section of the boxed cell to show localization of Nucleoporin Nup153 protein across the surface of the nuclear envelope. Scale bar, 5 µm.",
-          "link": "/images/AICS-0069/single_plane_image.jpg"
+          "link": "/images/AICS-0069/single_plane_image_cl88.jpg"
         },
         {
           "type": "image",
@@ -6004,9 +6181,9 @@
           "type": "image",
           "cell_line_id": "AICS-0046",
           "data_type": "single plane image",
-          "file_name": "single_plane_image.jpg",
+          "file_name": "single_plane_image_cl51.jpg",
           "caption": "Left: Single, mid-level plane of cells in a live hiPS cell colony expressing mEGFP-tagged SERCA2 protein. Cells were imaged four days after plating on Matrigel-coated glass as described in methods at www.allencell.org. Scale bar, 5 µm. Right: Single, near-bottom plane of hiPSC-derived cardiomyocytes expressing mEGFP-tagged SERCA2 protein.Twelve days after the onset of differentiation, cells were plated on PEI and laminin coated glass and imaged 29 days later (41 days total after the onset of differentiation). Inset shows detail of SERCA2 in longitudinal sarcoplasmic reticulum (SR). Scale bars, 10 µm. Cells were imaged in 3D on a spinning-disk confocal microscope. ",
-          "link": "/images/AICS-0046/single_plane_image.jpg"
+          "link": "/images/AICS-0046/single_plane_image_cl51.jpg"
         },
         {
           "type": "image",
@@ -6203,9 +6380,9 @@
           "type": "image",
           "cell_line_id": "AICS-0052",
           "data_type": "single plane image",
-          "file_name": "single_plane_image.jpg",
+          "file_name": "single_plane_image_cl3.jpg",
           "caption": "Single, mid-level plane of live hiPSC-derived cardiomyocytes expressing mEGFP-tagged MLC-2a protein. Twelve days after the onset of differentiation, cells were plated on PEI and laminin coated glass and imaged in 3D on a spinning disk confocal microscope 20 days later (32 days total after the onset of differentiation). Scale bar, 10 µm. ",
-          "link": "/images/AICS-0052/single_plane_image.jpg"
+          "link": "/images/AICS-0052/single_plane_image_cl3.jpg"
         },
         {
           "type": "image",
@@ -6407,9 +6584,9 @@
           "type": "image",
           "cell_line_id": "AICS-0048",
           "data_type": "single plane image",
-          "file_name": "single_plane_image.jpg",
+          "file_name": "single_plane_image_cl39.jpg",
           "caption": "Single, mid-level plane of live hiPSC-derived cardiomyocytes expressing mEGFP-tagged titin protein. Twelve days after the onset of differentiation, cells were plated on PEI and laminin coated glass and imaged in 3D on a spinning disk confocal microscope 23 days later (35 days total after the onset of differentiation). Scale bar, 10 µm. ",
-          "link": "/images/AICS-0048/single_plane_image.jpg"
+          "link": "/images/AICS-0048/single_plane_image_cl39.jpg"
         },
         {
           "type": "image",
@@ -6614,9 +6791,9 @@
           "type": "image",
           "cell_line_id": "AICS-0061",
           "data_type": "single plane image",
-          "file_name": "single_plane_image.jpg",
+          "file_name": "single_plane_image_cl36.jpg",
           "caption": "Single, mid-level plane of cells in a live hiPS cell colony expressing mEGFP-tagged Histone H2B type 1-J protein. The cells in the imaged region highlight cell-cycle-dependent changes in localization. The large dim regions within nuclei likely represent nucleoli. Cells were imaged in 3D on a spinning-disk confocal microscope. Scale bar, 5 µm.",
-          "link": "/images/AICS-0061/single_plane_image.jpg"
+          "link": "/images/AICS-0061/single_plane_image_cl36.jpg"
         },
         {
           "type": "image",
@@ -7467,9 +7644,9 @@
           "type": "image",
           "cell_line_id": "AICS-0060",
           "data_type": "single plane image",
-          "file_name": "single_plane_image.jpg",
+          "file_name": "single_plane_image_cl27.jpg",
           "caption": "Single, mid-level plane of live hiPSC-derived cardiomyocytes expressing mEGFP-tagged MLC-2v protein. Representative high-expressing, relatively mature cell is shown surrounded by more immature cells with lower expression levels (the culture contains cells of varying levels of maturity). Twelve days after the onset of differentiation, cells were plated on PEI and laminin coated glass and imaged in 3D on a spinning disk confocal microscope 47 days later (59 days total after the onset of differentiation). Scale bars, 10 μm.",
-          "link": "/images/AICS-0060/single_plane_image.jpg"
+          "link": "/images/AICS-0060/single_plane_image_cl27.jpg"
         },
         {
           "type": "image",
@@ -7682,9 +7859,9 @@
           "type": "image",
           "cell_line_id": "AICS-0059",
           "data_type": "single plane image",
-          "file_name": "single_plane_image.jpg",
+          "file_name": "single_plane_image_cl36.jpg",
           "caption": "Single, mid-level plane of cells in a live hiPS cell colony expressing mEGFP-tagged Sec61 beta and mTagRFP-T-tagged lamin B1. Panels show individual channels for Sec61 beta (left) and lamin B1 (middle) and the overlay of the two (right). Imaged region captures cells at different stages of the cell cycle to highlight cell cycle-dependent variation in co-localization of Sec61 beta and Lamin B1. Cells were imaged in 3D on a spinning-disk confocal microscope. Scale bar, 5 µm. ",
-          "link": "/images/AICS-0059/single_plane_image.jpg"
+          "link": "/images/AICS-0059/single_plane_image_cl36.jpg"
         },
         {
           "type": "image",
@@ -7926,9 +8103,9 @@
           "type": "image",
           "cell_line_id": "AICS-0068",
           "data_type": "single plane image",
-          "file_name": "single_plane_image.jpg",
+          "file_name": "single_plane_image_cl91.jpg",
           "caption": "Single, mid-level plane of cells in a live hiPS cell colony expressing mEGFP-tagged SMC protein 1A. Cells were imaged in 3D on a spinning-disk confocal microscope. Scale bar, 5 µm.",
-          "link": "/images/AICS-0068/single_plane_image.jpg"
+          "link": "/images/AICS-0068/single_plane_image_cl91.jpg"
         },
         {
           "type": "image",
@@ -8133,9 +8310,9 @@
           "type": "image",
           "cell_line_id": "AICS-0080",
           "data_type": "single plane image",
-          "file_name": "single_plane_image.jpg",
+          "file_name": "single_plane_image_cl69.jpg",
           "caption": "Single, mid-level plane of cells in a live hiPS cell colony expressing mEGFP-tagged RNA-binding protein FUS in control cells (left panel) and in the presence of 500 µM sodium arsenite for 15 min (right panel). Cells were imaged in 3D on a spinning-disk confocal microscope. Scale bar, 5 µm. ",
-          "link": "/images/AICS-0080/single_plane_image.jpg"
+          "link": "/images/AICS-0080/single_plane_image_cl69.jpg"
         },
         {
           "type": "image",
