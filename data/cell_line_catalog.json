@@ -3178,6 +3178,7 @@
   {
     "cell_line_id": "AICS-0036",
     "clone_number": "6",
+    "backup": "true",
     "alleleCount": "mono",
     "status": "Yes",
     "Main_data_available": "Yes",
