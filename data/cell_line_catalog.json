@@ -2452,7 +2452,7 @@
           "link": "/images/AICS-0030/Main_cell_line_morphology.jpg"
         }
         ],
-    "EditingDesign_crRNA_seq": "TGGTGCGGGGATCTGGGCGG",
+    "EditingDesign_crRNA_seq": "TGGTGCAGGGATCTGGGCGG",
     "EditingDesign_cas9": "Wildtype spCas9",
     "EditingDesign_NCBI_isoform": "N",
     "EditingDesign_gene_figure": "/images/AICS-0030/EditingDesign_gene_figure.png",
