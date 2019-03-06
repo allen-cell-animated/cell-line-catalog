@@ -4,11 +4,14 @@
       this[key] = opts[key];
     }
     this.displayID = Number(opts.cell_line_id.split('-')[1])
-    if (opts.alleleCount === 'bi') {
-      this.thumbnailimage = 'single_plane_image_bi.jpg'
-    } else {
-      this.thumbnailimage = 'single_plane_image.jpg'
+    var thumbnail = 'single_plane_image_cl'
+    if (opts.backup === 'true') {
+        this.displayClone = opts.clone_number.concat('**')
     }
+    else {
+        this.displayClone = opts.clone_number
+    }
+    this.thumbnailimage = thumbnail.concat(opts.clone_number, '.jpg')
   }
 
   CellLine.allCellLines = [];
