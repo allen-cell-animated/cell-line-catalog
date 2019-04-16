@@ -7863,7 +7863,7 @@
     "cell_line_id": "AICS-0068",
     "multipleTag": "",
     "new": "true",
-    "clone_number": "91",
+    "clone_number": "9",
     "alleleCount": "mono",
     "trilineage_ddpcr": "true",
     "status": "Yes",
@@ -7944,7 +7944,7 @@
           "data_type": "single plane image",
           "file_name": "single_plane_image_cl91.jpg",
           "caption": "Single, mid-level plane of cells in a live hiPS cell colony expressing mEGFP-tagged SMC protein 1A. Cells were imaged in 3D on a spinning-disk confocal microscope. Scale bar, 5 µm.",
-          "link": "/images/AICS-0068/single_plane_image_cl91.jpg"
+          "link": "/images/AICS-0068/single_plane_image_cl9.jpg"
         },
         {
           "type": "image",
