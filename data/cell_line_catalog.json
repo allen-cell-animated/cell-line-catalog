@@ -858,8 +858,8 @@
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "GGSG",
-    "Main_order_link": "",
-    "Main_cofa": "",
+    "Main_order_link": "https://www.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0074-026&PgId=166",
+    "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0074-026_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
     
@@ -8535,8 +8535,8 @@
     "Main_terminal_tagged": "C-terminus / C-terminus",
     "Main_fluorescent_tag": "mEGFP / mTagRFP-T",
     "Main_linker": "KPNSAVDGTAGPGSIAT / KPNSAVDGTAGPGSIAT",
-    "Main_order_link": "",
-    "Main_cofa": "",
+    "Main_order_link": "https://www.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0084-018&PgId=166",
+    "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0084-018_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "",
     
