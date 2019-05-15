@@ -87,7 +87,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_EGFP.png",
     "GenomicCharacterization_junction_schematic_caption": "",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0005/PXN_full_allele.jpg",
-    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
+    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_junction_table": [
 
                                                 {
@@ -321,7 +321,7 @@
                                             ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0012/TUBA1B_full_allele.jpg",
-    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
+    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
                                       	{
                                             "gene_tag": "TUBA1B-mEGFP",
@@ -519,7 +519,7 @@
                                             ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0011/TOMM20_full_allele.jpg",
-    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. GFP-tagged allele could not be amplified in TOMM20-mEGFP due to possible duplication at insertion site. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
+    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. GFP-tagged allele could not be amplified in TOMM20-mEGFP due to possible duplication at insertion site. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "TOMM20-mEGFP",
@@ -728,7 +728,7 @@
                                             ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0013/LMNB1_full_allele.jpg",
-    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
+    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
                                         {
                                           "gene_tag": "LMNB1-mEGFP",
@@ -929,7 +929,7 @@
                                             ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified and Sanger sequenced 5’, 3’, WT, and full allele junctions to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0017/DSP_full_allele.jpg",
-    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
+    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
                                         {
                                           "gene_tag": "DSP-mEGFP",
@@ -1102,7 +1102,7 @@
     "EditingDesign_gene_figure_caption": "Top: ACTB locus; Bottom: Zoom in on mEGFP insertion site at ACTB N-terminal exon",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0016/ACTB_full_allele_gel.jpg",
-    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
+    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
                                         {
                                           "gene_tag": "ACTB-mEGFP",
@@ -1302,7 +1302,7 @@
     "EditingDesign_gene_figure_caption": "Top: SEC61B locus; Bottom: Zoom in on mEGFP insertion site at SEC61B N-terminal exon",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0010/SEC61B_full_allele_gel.jpg",
-    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
+    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
                                         {
                                           "gene_tag": "SEC61B-mEGFP",
@@ -1513,7 +1513,7 @@
     "EditingDesign_gene_figure_caption": "Top: FBL locus; Bottom: Zoom in on mEGFP insertion site at FBL C-terminal exon",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0014/FBL_full_allele_gel.jpg",
-    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
+    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
                                         {
                                           "gene_tag": "FBL-mEGFP",
@@ -1728,7 +1728,7 @@
     "EditingDesign_gene_figure_caption": "Top: MYH10 locus showing 3 MYH10 isoforms; Bottom: Zoom in on mEGFP insertion site at MYH10 N-terminal exon",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0024/MYH10_full_allele_gel.jpg",
-    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
+    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
                                         {
                                           "gene_tag": "MYH10-mEGFP",
@@ -1936,7 +1936,7 @@
     "EditingDesign_gene_figure_caption": "Top: TJP1 locus showing 4 TJP1  isoforms; Bottom: Zoom in on mEGFP insertion site at TJP1 N-terminal exon",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0023/TJP1_full_allele_gel.jpg",
-    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
+    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder). *clone available from Coriell",
     "GenomicCharacterization_ddpcr": [
                                         {
                                           "gene_tag": "TJP1-mEGFP",
@@ -3050,7 +3050,7 @@
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "supplementaryinformation",
@@ -3191,9 +3191,9 @@
     "StemCellCharacterization_karyotype": "/images/AICS-0036/AAVS1_cl28_final_karyo.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
     "StemCellCharacterization_differentiation": {
-      "troponin_percent_positive": "",
-      "Day_of_beating_percent": "",
-      "Day_of_beating_range": ""
+      "troponin_percent_positive": "82 (1)",
+      "Day_of_beating_percent": "100 (3)",
+      "Day_of_beating_range": "d8-d16"
     },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in ().",
     "StemCellCharacterization_rnaseq_fig": "",
@@ -7799,7 +7799,7 @@
     "EditingDesign_gene_figure_caption": "Top: SMC1A locus showing 2 SMC1A isoforms; Bottom: Zoom in on mEGFP insertion site at SMC1A C-terminal exon",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0068/FULL_ALLELE_CL9.jpg",
-    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flaking the homology arms in the distal genome were used together to amplify tagged and untagged allele. Gel shows untagged allele (smaller band) for WT unedited line and tagged allele (larger band) for cl9. (1% Agarose gel with Thermo Fisher 1kb ladder).",
+    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to amplify tagged and untagged allele. Gel shows untagged allele (smaller band) for WT unedited line and tagged allele (larger band) for cl9. (1% Agarose gel with Thermo Fisher 1kb ladder).",
     
     "GenomicCharacterization_junction_table": [
         {
@@ -8132,7 +8132,7 @@
       },
       {
         "id":"genomiccharacterizations",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "validation",
@@ -8140,7 +8140,7 @@
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "supplementaryinformation",
@@ -8219,33 +8219,33 @@
     "EditingDesign_gene_figure": "/images/AICS-0074/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: SOX2 locus; Bottom: Zoom in on mEGFP insertion site at SOX2 C-terminus",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
-    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0074/",
-    "GenomicCharacterization_tagged_allele_gel_caption": "",
+    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0074/Website_fullAllele_AICS-74.jpg",
+    "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to amplify tagged and untagged allele. Gel shows untagged allele (smaller band) for WT unedited line and tagged allele (larger band) for cl26. (1% Agarose gel with Thermo Fisher 1kb ladder).",
     
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "SOX2-mEGFP",
           "junction": "5'",
-          "expected_size": "fill",
-          "confirmed_sequence": "fill"
+          "expected_size": "1599",
+          "confirmed_sequence": "Yes"
         },
         {
           "editedGene": "SOX2-mEGFP",
           "junction": "3'",
-          "expected_size": "fill",
-          "confirmed_sequence": "fill"
+          "expected_size": "1663",
+          "confirmed_sequence": "Yes"
         },
         {
           "editedGene": "SOX2-mEGFP",
           "junction": "WT internal",
-          "expected_size": "fill",
-          "confirmed_sequence": "fill"
+          "expected_size": "377",
+          "confirmed_sequence": "Yes"
         },
         {
           "editedGene": "SOX2-mEGFP",
           "junction": "Full junctional allele",
-          "expected_size": "Tagged:; Untagged:",
-          "confirmed_sequence": "fill"
+          "expected_size": "Tagged: 3033; Untagged: 2298",
+          "confirmed_sequence": "Yes"
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
@@ -8317,9 +8317,9 @@
     
     "StemCellCharacterization_differentiation":
         {
-          "troponin_percent_positive": "fill",
-          "Day_of_beating_percent": "fill",
-          "Day_of_beating_range": "fill"
+          "troponin_percent_positive": "81.8 (1)",
+          "Day_of_beating_percent": "75 (8)",
+          "Day_of_beating_range": "d11"
         },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 12, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in (). ",
     "StemCellCharacterization_rnaseq_fig": "",
@@ -8354,7 +8354,7 @@
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "supplementaryinformation",
@@ -8427,7 +8427,7 @@
     "EditingDesign_gene_figure": "/images/AICS-0075/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: ACTN2 locus showing 3 ACTN2 isoforms; Bottom: Zoom in on mEGFP insertion site at ACTN2 C-terminus; More information on tagging transcriptionally silent genes in hiPSCs is available in Roberts et al. (2019) Stem Cell Reports",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
-    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0075/",
+    "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
     
     "GenomicCharacterization_junction_table": [
@@ -8525,9 +8525,9 @@
     
     "StemCellCharacterization_differentiation":
         {
-          "troponin_percent_positive": "79.5 (1)",
-          "Day_of_beating_percent": "100 (3)",
-          "Day_of_beating_range": "d10"
+          "troponin_percent_positive": "70.5-75.3 (4)",
+          "Day_of_beating_percent": "100 (4)",
+          "Day_of_beating_range": "d9-d11"
         },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 12, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in (). ",
     "StemCellCharacterization_rnaseq_fig": "",
@@ -8554,7 +8554,7 @@
       },
       {
         "id":"genomiccharacterizations",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "validation",
@@ -8562,7 +8562,7 @@
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "supplementaryinformation",
@@ -8646,56 +8646,56 @@
     "EditingDesign_gene_figure": "/images/AICS-0084/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: FBL locus with zoom in on mEGFP insertion site at FBL C-terminal exon. Bottom: NPM1 locus showing 7 NPM1 isoforms with zoom in on mTagRFP-T insertion site at NPM1 C-terminal exon",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
-    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-84/",
+    "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
     
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "FBL-mEGFP",
           "junction": "5'",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1560",
+          "confirmed_sequence": "Yes"
         },
         {
           "editedGene": "FBL-mEGFP",
           "junction": "3'",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1754",
+          "confirmed_sequence": "Yes"
         },
         {
           "editedGene": "FBL-mEGFP",
           "junction": "WT internal",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "671",
+          "confirmed_sequence": "Yes"
         },
         {
           "editedGene": "FBL-mEGFP",
           "junction": "Full junctional allele",
-          "expected_size": "Tagged:; Untagged:",
+          "expected_size": "Tagged:2925; Untagged:2169",
           "confirmed_sequence": ""
         },
         {
           "editedGene": "NPM1-mTagRFP-T",
           "junction": "5'",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1560",
+          "confirmed_sequence": "Yes"
         },
         {
           "editedGene": "NPM1-mTagRFP-T",
           "junction": "3'",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1657",
+          "confirmed_sequence": "Yes"
         },
         {
           "editedGene": "NPM1-mTagRFP-T",
           "junction": "WT internal",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1179",
+          "confirmed_sequence": "Yes"
         },
         {
           "editedGene": "NPM1-mTagRFP-T",
           "junction": "Full junctional allele",
-          "expected_size": "Tagged:; Untagged:",
+          "expected_size": "Tagged:WIP; Untagged:WIP",
           "confirmed_sequence": ""
         }
         ],
@@ -8774,9 +8774,9 @@
     
     "StemCellCharacterization_differentiation":
         {
-          "troponin_percent_positive": "fill",
-          "Day_of_beating_percent": "fill",
-          "Day_of_beating_range": "fill"
+          "troponin_percent_positive": "76.8 (1)",
+          "Day_of_beating_percent": "100 (3)",
+          "Day_of_beating_range": "d11"
         },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 12, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in (). ",
     "StemCellCharacterization_rnaseq_fig": "",
