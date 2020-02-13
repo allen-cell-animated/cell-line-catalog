@@ -47,6 +47,7 @@
     "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0005_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/87420/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-1",
     "Main_media":[
 
       {
@@ -245,6 +246,7 @@
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0012_CofA.pdf",
     "Main_donor_plasmid": "https://www.addgene.org/87421/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-2",
     "Main_media":[
       {
         "type":"movie",
@@ -453,6 +455,7 @@
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0011_CofA.pdf",
     "Main_donor_plasmid": "https://www.addgene.org/87423/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-5",
     "Main_media":[
        {
          "cell_line_id": "AICS-0011",
@@ -652,6 +655,7 @@
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0013_CofA.pdf",
     "Main_donor_plasmid": "https://www.addgene.org/87422/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-6",
     "Main_media":[
 
       {
@@ -862,6 +866,7 @@
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0017_CofA.pdf",
     "Main_donor_plasmid": "https://www.addgene.org/87424/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-7",
     "Main_media":[
       {
         "type":"movie",
@@ -1095,6 +1100,7 @@
     "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0016&Product=iPSC",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/87425/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-3",
     "EditingDesign_crRNA_seq": "GCCGTTGTCGACGACGAGCG",
     "EditingDesign_cas9": "Wildtype spCas9",
     "EditingDesign_NCBI_isoform": "NM_001101",
@@ -1293,6 +1299,7 @@
     "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0010&Product=iPSC",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/87426/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-8",
     "Main_cell_line_morphology": "",
     "Main_cell_line_morphology_caption": "Viability and colony formation photographed 3 days post-thaw at 4X magnification. Cells were treated with ROCK inhibitor for 24 hrs post-thaw.",
     "EditingDesign_crRNA_seq": "GCCATACCATATTGGAGATG",
@@ -1500,6 +1507,7 @@
     "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0014&Product=iPSC",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/87427/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-9",
     "Main_cell_line_morphology": "",
     "Main_cell_line_morphology_caption": "Viability and colony formation photographed 3 days post-thaw at 4X magnification. Cells were treated with ROCK inhibitor for 24 hrs post-thaw.",
     "Main_cell_line_movie1": "N",
@@ -1721,6 +1729,7 @@
     "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0024&Product=iPSC",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/87428/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-11",
     "EditingDesign_crRNA_seq": "GTTCTCTGCGCCATTGTAAA",
     "EditingDesign_cas9": "Wildtype spCas9",
     "EditingDesign_NCBI_isoform": "NM_001256012",
@@ -1927,6 +1936,7 @@
     "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0023&Product=iPSC",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/87429/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-10",
     "Main_cell_line_morphology": "",
     "Main_cell_line_morphology_caption": "Viability and colony formation photographed 3 days post-thaw at 4X magnification. Cells were treated with ROCK inhibitor for 24 hrs post-thaw.",
     "EditingDesign_crRNA_seq": "GGCCGCGGAGGCGCTCACCT",
@@ -2093,6 +2103,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0030-022_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/101783/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-18",
     
     "Main_media": [
         {
@@ -2295,6 +2306,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0033-115_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/101784/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-19",
     
     "Main_media": [
         {
@@ -2496,6 +2508,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0040-013_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/107579/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-20",
     
     "Main_media": [
         {
@@ -2697,6 +2710,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0040-035_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/107579/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-21",
     
     "Main_media": [
         {
@@ -2897,6 +2911,7 @@
     "Main_order_link": "https://www.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0036-006&PgId=166",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/91565/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-12",
     "Main_media":[
       {
         "cell_line_id": "AICS-0036",
@@ -3074,6 +3089,7 @@
     "Main_order_link": "https://www.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0036-028&PgId=166",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/91565/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-36",
     "Main_media":[
       {
         "cell_line_id": "AICS-0036",
@@ -3249,6 +3265,7 @@
     "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0031-035_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/101785/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-16",
 
     "Main_media": [
         {
@@ -3448,6 +3465,7 @@
     "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0022-037_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/101782/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-13",
 
     "Main_media": [
         {
@@ -3647,6 +3665,7 @@
     "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0032-019_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/101781/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-17",
 
     "Main_media": [
         {
@@ -3857,6 +3876,7 @@
     "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0025-001_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/101786/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-14",
 
     "Main_media": [
         {
@@ -4066,6 +4086,7 @@
     "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0025-044_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/101786/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-15",
 
     "Main_media": [
         {
@@ -4274,6 +4295,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0037-172_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/114411/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-26",
     
     "Main_media": [
         {
@@ -4476,6 +4498,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0058-067_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/109119/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-25",
     
     "Main_media": [
         {
@@ -4680,6 +4703,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0057-050_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/109122/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-24",
     
     "Main_media": [
         {
@@ -4887,6 +4911,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0054-091_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/107580/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-23",
     
     "Main_media": [
         {
@@ -5077,8 +5102,7 @@
     "Main_gene_symbol": "GJA1",
     "Main_gene_name": "Gap junction protein alpha 1",
     "Main_protein": "Connexin-43",
-    "Main_gene_id": "2697",
-    "Main_mrna_id": "NM_000165",
+    "Main_gene_id": "2697", "Main_mrna_id": "NM_000165",
     "Main_structure": "Gap junction",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -5087,6 +5111,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0053-016_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/109120/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-22",
     
     "Main_media": [
         {
@@ -5621,6 +5646,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0069-088_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/114407/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-31",
     
     "Main_media": [
         {
@@ -5830,6 +5856,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0046-051_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/114405/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-30",
     
     "Main_media": [
         {
@@ -6038,6 +6065,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0052-003_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/114413/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-29",
     
     "Main_media": [
         {
@@ -6243,6 +6271,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0048-039_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/114412/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-27",
     
     "Main_media": [
         {
@@ -6443,6 +6472,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0061-036_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/109121/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-28",
     
     "Main_media": [
         {
@@ -7304,6 +7334,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0060-027_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/114414/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-32",
     
     "Main_media": [
         {
@@ -7510,6 +7541,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0059-036_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/The_Allen_Institute_for_Cell_Science/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-33",
     
     "Main_media": [
         {
@@ -7754,6 +7786,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0068-009_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/114406/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-34",
     
     "Main_media": [
         {
@@ -7969,6 +8002,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0080-069_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/114410/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-35",
     
     "Main_media": [
         {
@@ -8173,7 +8207,8 @@
     "Main_order_link": "https://www.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0074-026&PgId=166",
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0074-026_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
-    "Main_donor_plasmid": "",
+    "Main_donor_plasmid": "https://www.addgene.org/124606/",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-37",
     
     "Main_media": [
         {
@@ -8389,6 +8424,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0075-085_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-4",
     
     "Main_media": [
         {
@@ -8599,6 +8635,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0084-018_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-38",
     
     "Main_media": [
         {
