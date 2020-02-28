@@ -193,11 +193,12 @@
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0005/StemCellCharacterization_rnaseq_fig.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. PXN-EGFP samples are from two independent clones.",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr":"/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Supplementary_offtargets_link":"/data/offtargets/AICS-0005/offtarget_primers.xlsx"
   },
   {
@@ -402,11 +403,12 @@
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. TUBA1B-mEGFP samples are from two independent clones.",
     "Supplementary_cell_culture_link": "/data/pdfs/AICS-012/Supplementary_cell_culture_link.pdf",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr":"/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Supplementary_primers_link": "",
     "Supplementary_offtargets_link":"/data/offtargets/AICS-0012/offtarget_primers.xlsx"
   },
@@ -604,10 +606,11 @@
     "Supplementary_ddPCR_link": "",
     "Supplementary_primers_link": "",
     "Supplementary_offtargets_link":"/data/offtargets/AICS-0011/offtarget_primers.xlsx",
-    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_ddpcr":"/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf"
   },
   {
@@ -811,11 +814,12 @@
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. LMNB1-mEGFP samples are from two independent clones.",
     "Supplementary_cell_culture_link": "/data/pdfs/AICS-012/Supplementary_cell_culture_link.pdf",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr":"/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Supplementary_primers_link": "",
     "Supplementary_offtargets_link":"/data/offtargets/AICS-0013/offtarget_primers.xlsx"
   },
@@ -1013,11 +1017,12 @@
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. DSP-mEGFP samples are from two independent clones.",
     "Supplementary_cell_culture_link": "/data/pdfs/AICS-012/Supplementary_cell_culture_link.pdf",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr":"/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Supplementary_primers_link": "",
     "Supplementary_offtargets_link":"/data/offtargets/AICS-0017/offtarget_primers.xlsx"
   },
@@ -1212,11 +1217,12 @@
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0016/StemCellCharacterization_rnaseq_ACTB.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. ACTB-mEGFP samples are from two independent clones.",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr":"/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Supplementary_offtargets_link":"/data/offtargets/AICS-0016/offtarget_primers.xlsx"
   },
   {
@@ -1412,11 +1418,12 @@
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Range observed across multiple experiments is shown for Day of beating initiation; number of experiments is shown in ().",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0010/StemCellCharacterization_rnaseq_SEC61B.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. SEC61B-mEGFP samples are from two independent clones.",
-    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr":"/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Supplementary_offtargets_link":"/data/offtargets/AICS-0010/offtarget_primers.xlsx"
   },
@@ -1624,11 +1631,12 @@
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 20, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Range observed across multiple experiments is shown for Day of beating initiation; number of experiments is shown in ().",
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0014/StemCellCharacterization_rnaseq_FBL.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. FBL-mEGFP samples are from two independent clones.",
-    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_ddpcr":"/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Supplementary_offtargets_link": "/data/offtargets/AICS-0014/offtarget_primers.xlsx"
   },
@@ -1841,11 +1849,12 @@
     "StemCellCharacterization_rnaseq_fig": "/images/AICS-0024/StemCellCharacterization_rnaseq_MYH10.png",
     "StemCellCharacterization_rnaseq_fig_caption": "Transcript levels of stem cell markers and edited locus. Heat maps are based on log2 normalized read counts. Cardiomyocyte samples at Day 5 and Day 20 are shown for comparison. Unedited Stem Cell samples are from passage 14 and passage 8. MYH10-mEGFP samples are from two independent clones.",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr":"/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Supplementary_offtargets_link":"/data/offtargets/AICS-0024/offtarget_primers.xlsx"
   },
   {
@@ -2050,11 +2059,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_ddpcr":"/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Supplementary_offtargets_link":"/data/offtargets/AICS-0023/offtarget_primers.xlsx"
   },
   {
@@ -2251,11 +2261,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -2454,11 +2465,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -2656,11 +2668,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -2858,11 +2871,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -3036,10 +3050,11 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_ddpcr":"/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf"
   },
   {
@@ -3214,10 +3229,11 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection":"/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging":"/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_ddpcr":"/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf"
   },
   {
@@ -3413,11 +3429,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": "N"
   },
   {
@@ -3613,11 +3630,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -3821,11 +3839,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Supplementary_offtargets_link":"/data/offtargets/AICS-0032/offtarget_primers.xlsx",
     "Protocols_offtargets": "N"
   },
@@ -4032,11 +4051,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -4242,11 +4262,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP_Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -4443,11 +4464,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -4646,11 +4668,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -4858,11 +4881,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -5059,11 +5083,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -5267,11 +5292,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -5429,11 +5455,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -5591,11 +5618,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -5802,11 +5830,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -6012,11 +6041,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -6213,11 +6243,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -6419,11 +6450,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -6628,11 +6660,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -6790,11 +6823,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -6952,11 +6986,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -7114,11 +7149,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -7276,11 +7312,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -7482,11 +7519,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -7727,11 +7765,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -7942,11 +7981,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -8150,11 +8190,12 @@
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
-    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-6_2019_190115.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -8368,7 +8409,8 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -8576,7 +8618,8 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -8826,7 +8869,8 @@
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
     "Protocols_offtargets": "",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf"
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf"
   },
   {
     "cell_line_id": "AICS-0034",
@@ -9015,7 +9059,8 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -9273,7 +9318,8 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   },
   {
@@ -9466,7 +9512,8 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   }
 ]
