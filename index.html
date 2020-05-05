@@ -110,6 +110,11 @@
                   <a class="btn btn-warning btn-block" role="button" href="{{Main_donor_plasmid}}" target="_blank">Obtain donor plasmid</a>
                 </div>
                 {{/if}}
+                {{#if Main_eu_hpsc_reg}}
+                <div class="col-xlg-6">
+                  <a class="btn btn-warning btn-block" role="button" href="{{Main_eu_hpsc_reg}}" target="_blank">hPSCreg certificate</a>
+                </div>
+                {{/if}}
               </div>
               <div class="col-md-12">
                 <div class="col-md-12">
@@ -594,6 +599,9 @@
                 <li class="list-group-item">
                   <span class="profile-summary-key"><a href='{{Protocols_culturing}}'
                     download="AICS_WTC_cell_culture_protocol.pdf">WTC cell culture protocol</a></span></li>
+                <li class="list-group-item">
+                  <span class="profile-summary-key"><a href='{{Protocols_banking}}'
+                    download="AICS_WTC_scaleup_banking_protocol.pdf">WTC derived hiPSC scale up and banking protocol</a></span></li>
                 <li class="list-group-item">
                   <span class="profile-summary-key"><a href='{{Protocols_imaging}}'
                     download="AICS_WTC_plating_on_glass_for_imaging.pdf">WTC plating on glass for imaging protocol</a></span></li>
