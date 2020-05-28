@@ -32,8 +32,8 @@
     "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "PXN",
-    "Main_gene_name": "Paxillin",
-    "Main_protein": "Paxillin",
+    "Main_gene_name": "paxillin",
+    "Main_protein": "paxillin",
     "Main_gene_id": 5829,
     "Main_mrna_id": "NM_002859",
     "Main_mrna_id1": "NM_001080855",
@@ -235,8 +235,8 @@
     "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TUBA1B",
-    "Main_gene_name": "Tubulin-alpha 1b",
-    "Main_protein": "Alpha tubulin",
+    "Main_gene_name": "tubulin-alpha 1b",
+    "Main_protein": "alpha tubulin",
     "Main_gene_id": 10376,
     "Main_mrna_id": "NM_006082",
     "Main_structure": "Microtubules",
@@ -445,8 +445,8 @@
     "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TOMM20",
-    "Main_gene_name": "Translocase of outer mitochondrial membrane 20",
-    "Main_protein": "TOM20",
+    "Main_gene_name": "translocase of outer mitochondrial membrane 20",
+    "Main_protein": "Tom20",
     "Main_gene_id": 9804,
     "Main_mrna_id": "NM_014765",
     "Main_structure": "Mitochondria",
@@ -646,8 +646,8 @@
     "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "LMNB1",
-    "Main_gene_name": "Lamin B1",
-    "Main_protein": "Lamin B1",
+    "Main_gene_name": "lamin B1",
+    "Main_protein": "lamin B1",
     "Main_gene_id": 4001,
     "Main_mrna_id": "NM_005573",
     "Main_structure": "Nuclear envelope",
@@ -856,8 +856,8 @@
     ],
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "DSP",
-    "Main_gene_name": "Desmoplakin",
-    "Main_protein": "Desmoplakin",
+    "Main_gene_name": "desmoplakin",
+    "Main_protein": "desmoplakin",
     "Main_gene_id": 1832,
     "Main_mrna_id": "NM_004415",
     "Main_mrna_id1": "NM_001008844",
@@ -1093,8 +1093,8 @@
     ],
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "ACTB",
-    "Main_gene_name": "Actin beta",
-    "Main_protein": "Beta actin",
+    "Main_gene_name": "actin beta",
+    "Main_protein": "beta actin",
     "Main_gene_id": 60,
     "Main_mrna_id": "NM_001101",
     "Main_structure": "Actin filaments",
@@ -1293,7 +1293,7 @@
     ],
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "SEC61B",
-    "Main_gene_name": "Sec61 translocon beta subunit",
+    "Main_gene_name": "SEC61 translocon beta subunit",
     "Main_protein": "Sec61 beta",
     "Main_gene_id": 10952,
     "Main_mrna_id": "NM_006808",
@@ -1502,8 +1502,8 @@
     ],
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "FBL",
-    "Main_gene_name": "Fibrillarin",
-    "Main_protein": "Fibrillarin",
+    "Main_gene_name": "fibrillarin",
+    "Main_protein": "fibrillarin",
     "Main_gene_id": 2091,
     "Main_mrna_id": "NM_001436",
     "Main_structure": "Nucleolus (Dense Fibrillar Component)",
@@ -1723,8 +1723,8 @@
     ],
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "MYH10",
-    "Main_gene_name": "Myosin heavy chain 10",
-    "Main_protein": "Non-muscle myosin heavy chain IIB",
+    "Main_gene_name": "myosin heavy chain 10",
+    "Main_protein": "non-muscle myosin heavy chain IIB",
     "Main_gene_id": 4628,
     "Main_mrna_id": "NM_001256012",
     "Main_mrna_id1": "NM_001256095",
@@ -1932,8 +1932,8 @@
     ],
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TJP1",
-    "Main_gene_name": "Tight junction protein 1",
-    "Main_protein": "Tight junction protein ZO1",
+    "Main_gene_name": "tight junction protein 1",
+    "Main_protein": "tight junction protein ZO1",
     "Main_gene_id": 7082,
     "Main_mrna_id": "NM_003257",
     "Main_mrna_id1": "NM_175610",
@@ -2101,8 +2101,8 @@
     "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "MAP1LC3B",
-    "Main_gene_name": "Microtubule associated protein 1 light chain 3 beta",
-    "Main_protein": "LC3",
+    "Main_gene_name": "microtubule associated protein 1 light chain 3 beta",
+    "Main_protein": "autophagy-related protein LC3 B",
     "Main_gene_id": "81631",
     "Main_mrna_id": "NM_022818",
     "Main_structure": "Autophagosomes",
@@ -2157,7 +2157,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0030/GenomicCharacterization_tagged_allele_gel.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder).",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "MAP1LC3B-mEGFP",
@@ -2185,7 +2185,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "MAP1LC3B-mEGFP",
@@ -2201,7 +2201,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -2231,7 +2231,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0030/MAP1LC3B_cl.22.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 20 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -2250,7 +2250,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "74-86 (2)",
@@ -2303,8 +2303,8 @@
     "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "SLC25A17",
-    "Main_gene_name": "Solute carrier family 25 member 17",
-    "Main_protein": "Peroxisomal membrane protein PMP34",
+    "Main_gene_name": "solute carrier family 25 member 17",
+    "Main_protein": "peroxisomal membrane protein PMP34",
     "Main_gene_id": "10478",
     "Main_mrna_id": "NM_001282726",
     "Main_mrna_id1": "NM_001282727",
@@ -2361,7 +2361,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "SLC25A17-mEGFP",
@@ -2389,7 +2389,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "SLC25A17-mEGFP",
@@ -2405,7 +2405,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0033/new_PMP34_and_AICS0_transient_transfections.jpg",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -2435,7 +2435,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0033/SLC25A17_cl.115.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -2454,7 +2454,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "92-94 (3)",
@@ -2564,7 +2564,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0040/GenomicCharacterization_tagged_allele_gel_cl13.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction for monoallelic clone 13. (1% Agarose gel with Thermo Fisher 1kb ladder).",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "RAB5A-mEGFP",
@@ -2592,7 +2592,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "RAB5A-mEGFP",
@@ -2608,7 +2608,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0040/RAB5A_cl13_and_AICS0_transient_transfections.jpg",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -2638,7 +2638,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0040/RAB5A_cl.13.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 20 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -2657,7 +2657,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "94-96 (2)",
@@ -2767,7 +2767,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0040/GenomicCharacterization_tagged_allele_gel_cl35.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows tagged allele (larger band) only for biallelic clone 35. (1% Agarose gel with Thermo Fisher 1kb ladder).",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "RAB5A-mEGFP",
@@ -2795,7 +2795,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. Expect absence of WT (untagged) allele because clone 35 has bi-allelic RAB5A mEGFP tag. 5' and 3' junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "RAB5A-mEGFP",
@@ -2811,7 +2811,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0040/RAB5A_cl35_and_AICS0_transient_transfections.jpg",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -2841,7 +2841,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0040/RAB5A_cl.35.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 20 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -2860,7 +2860,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "92-95 (2)",
@@ -3269,8 +3269,8 @@
     "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TUBA1B",
-    "Main_gene_name": "Tubulin-alpha 1b",
-    "Main_protein": "Alpha tubulin",
+    "Main_gene_name": "tubulin-alpha 1b",
+    "Main_protein": "alpha tubulin",
     "Main_gene_id": "10376",
     "Main_mrna_id": "NM_006082",
     "Main_structure": "Microtubules",
@@ -3470,7 +3470,7 @@
     "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "LAMP1",
-    "Main_gene_name": "Lysosomal associated membrane protein 1",
+    "Main_gene_name": "lysosomal associated membrane protein 1",
     "Main_protein": "LAMP-1",
     "Main_gene_id": "3916",
     "Main_mrna_id": "NM_005561",
@@ -3671,8 +3671,8 @@
     "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "CETN2",
-    "Main_gene_name": "Centrin 2",
-    "Main_protein": "Centrin-2",
+    "Main_gene_name": "centrin 2",
+    "Main_protein": "centrin-2",
     "Main_gene_id": "1069",
     "Main_mrna_id": "NM_004344",
     "Main_structure": "Centrosome",
@@ -3882,7 +3882,7 @@
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "ST6GAL1",
     "Main_gene_name": "ST6 beta-galactoside alpha-2,6-sialyltransferase 1",
-    "Main_protein": "Sialyltransferase 1",
+    "Main_protein": "sialyltransferase 1",
     "Main_gene_id": "6480",
     "Main_mrna_id": "NM_003032",
     "Main_mrna_id1": "NM_173216",
@@ -4093,7 +4093,7 @@
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "ST6GAL1",
     "Main_gene_name": "ST6 beta-galactoside alpha-2,6-sialyltransferase 1",
-    "Main_protein": "Sialyltransferase 1",
+    "Main_protein": "sialyltransferase 1",
     "Main_gene_id": "6480",
     "Main_mrna_id": "NM_003032",
     "Main_mrna_id1": "NM_173216",
@@ -4304,8 +4304,8 @@
     "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TNNI1",
-    "Main_gene_name": "Troponin I1, slow skeletal type",
-    "Main_protein": "Troponin I, slow skeletal muscle",
+    "Main_gene_name": "troponin I1, slow skeletal type",
+    "Main_protein": "troponin I, slow skeletal muscle",
     "Main_gene_id": "7135",
     "Main_mrna_id": "NM_003281",
     "Main_structure": "Sarcomeric thin filament",
@@ -4360,7 +4360,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "TNNI1-mEGFP",
@@ -4388,7 +4388,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid. *5’ junction includes linker region with designed 21bp deletion via MMEJ repair. 1849 bp is expected at the 5’ junction from NHEJ mediated excision.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "TNNI1-mEGFP",
@@ -4404,7 +4404,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0037/troponinI_clone172_and_AICS0000_20180329_final.jpg",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -4434,7 +4434,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0037/TNNI1_cl.172.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -4453,7 +4453,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "92-96 (2)",
@@ -4506,8 +4506,8 @@
     "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "CTNNB1",
-    "Main_gene_name": "Catenin beta 1",
-    "Main_protein": "Beta catenin",
+    "Main_gene_name": "catenin beta 1",
+    "Main_protein": "beta catenin",
     "Main_gene_id": "1499",
     "Main_mrna_id": "NM_001904",
     "Main_mrna_id1": "NM_001098209",
@@ -4564,7 +4564,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0058/AICS-58_AICS-57_full_allele_PCR_180202b.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder).",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "CTNNB1-mEGFP",
@@ -4592,7 +4592,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "CTNNB1-mEGFP",
@@ -4608,7 +4608,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0058/beta catenin clone 67 and AICS000 v3.jpg",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -4638,7 +4638,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0058/AICS-58_CTNNB1-mEGFP_cl67.jpg",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -4657,7 +4657,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "83-72 (2)",
@@ -4710,8 +4710,8 @@
     "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "NPM1",
-    "Main_gene_name": "Nucleophosmin 1",
-    "Main_protein": "Nucleophosmin",
+    "Main_gene_name": "nucleophosmin 1",
+    "Main_protein": "nucleophosmin",
     "Main_gene_id": "4869",
     "Main_mrna_id": "NM_002520",
     "Main_mrna_id1": "NM_001355007",
@@ -4805,7 +4805,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "NPM1-mEGFP",
@@ -4821,7 +4821,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0057/nucleophosmin clone 50 and AICS000 032218 FINAL v2.jpg",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -4851,7 +4851,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0057/AICS-57_NPM1-mEGFP_cl50.jpg",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -4870,7 +4870,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "67-86 (2)",
@@ -4979,7 +4979,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mTag-RFP-T.png",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "AAVS1-mTagRFP-T",
@@ -5007,7 +5007,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 3' junction was used to establish delivery via HDR at the intended genomic locus. Tiled junctions were not possible to amplify or sequence due to the large size of the delivered sequence (6KB). The precise sequence of the delivered sequence was not determined because the mTag-RFP-T tag sequence was not fused to an endogenous coding sequence.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "AAVS1-mTagRFP-T",
@@ -5023,7 +5023,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0054/CAAX and AICS0 dye v2.jpg",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -5053,7 +5053,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0054/AAVS1_cl.91.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -5072,7 +5072,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "79.4 (2)",
@@ -5125,9 +5125,10 @@
     "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "GJA1",
-    "Main_gene_name": "Gap junction protein alpha 1",
-    "Main_protein": "Connexin-43",
-    "Main_gene_id": "2697", "Main_mrna_id": "NM_000165",
+    "Main_gene_name": "gap junction protein alpha 1",
+    "Main_protein": "connexin-43",
+    "Main_gene_id": "2697",
+    "Main_mrna_id": "NM_000165",
     "Main_structure": "Gap junction",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -5188,7 +5189,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "GJA1-mEGFP",
@@ -5216,7 +5217,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid. *Presence of GJA1 pseudogene resulted in mixed peaks for the WT junction; these mixed peaks correspond to mismtaches b/w WT GJA1 and the GJA1 pseudogene and not mis-editing or off-target cutting",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "GJA1-mEGFP",
@@ -5232,7 +5233,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0053/GJA1 clone 16 and AICS000 01302018 FINAL v2.jpg",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -5262,7 +5263,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0053/GJA1_cl.16.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -5281,7 +5282,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "90.1 (7)",
@@ -5333,8 +5334,8 @@
     "Main_data_available": "false",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "CBX1",
-    "Main_gene_name": "Chromobox 1",
-    "Main_protein": "Chromobox protein homolog 1",
+    "Main_gene_name": "chromobox 1",
+    "Main_protein": "chromobox protein homolog 1",
     "Main_gene_id": "10951",
     "Main_mrna_id": "",
     "Main_mrna_id1": "",
@@ -5346,7 +5347,7 @@
     "Main_cofa": "",
     "Main_parental_order_link": "",
     "Main_plasmid_sequence": "",
-    
+
     "Main_media": [],
     "EditingDesign_crRNA_seq": "N",
     "EditingDesign_cas9": "Wildtype spCas9",
@@ -5356,7 +5357,7 @@
     "GenomicCharacterization_junction_schematic": "",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "N",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "junction": "",
@@ -5380,7 +5381,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "clone": "",
@@ -5395,7 +5396,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -5425,7 +5426,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "N",
     "StemCellCharacterization_karyotype": "",
     "StemCellCharacterization_karyotype_caption": "N",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -5444,7 +5445,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "",
@@ -5497,7 +5498,7 @@
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "CTCF",
     "Main_gene_name": "CCCTC-binding factor",
-    "Main_protein": "Transcriptional repressor CTCF",
+    "Main_protein": "transcriptional repressor CTCF",
     "Main_gene_id": "10664",
     "Main_mrna_id": "",
     "Main_mrna_id1": "",
@@ -5509,7 +5510,7 @@
     "Main_cofa": "",
     "Main_parental_order_link": "",
     "Main_plasmid_sequence": "",
-    
+
     "Main_media": [],
     "EditingDesign_crRNA_seq": "N",
     "EditingDesign_cas9": "Wildtype spCas9",
@@ -5519,7 +5520,7 @@
     "GenomicCharacterization_junction_schematic": "",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "N",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "junction": "",
@@ -5543,7 +5544,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "clone": "",
@@ -5558,7 +5559,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -5588,7 +5589,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "N",
     "StemCellCharacterization_karyotype": "",
     "StemCellCharacterization_karyotype_caption": "N",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -5607,7 +5608,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "",
@@ -5660,8 +5661,8 @@
     "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "NUP153",
-    "Main_gene_name": "Nucleoporin 153",
-    "Main_protein": "Nucleoporin Nup153",
+    "Main_gene_name": "nucleoporin 153",
+    "Main_protein": "nucleoporin Nup153",
     "Main_gene_id": "9972",
     "Main_mrna_id": "NM_001278209",
     "Main_mrna_id1": "NM_001278210",
@@ -5726,7 +5727,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0069/AICS-69_NUP153_FullAllele.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder).",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "NUP153-mEGFP",
@@ -5754,7 +5755,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "NUP153-mEGFP",
@@ -5770,7 +5771,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0069/final _NUP153 clone 88 and AICS000 20180822.jpg",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -5800,7 +5801,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0069/AICS-69_c88_NUP153_Karyotype.jpg",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -5819,7 +5820,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "66-77 (2)",
@@ -5937,7 +5938,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0046/AICS-46_ATP2A2-mEGFP_Full_Allele.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder).",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "ATP2A2-mEGFP",
@@ -5965,7 +5966,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "ATP2A2-mEGFP",
@@ -5981,7 +5982,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0046/serca2_clone51_and_AICS0000.jpg",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -6011,7 +6012,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0046/AICS-46_c51_ATP2A2_karyotype.jpg",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -6030,7 +6031,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "72-89 (4)",
@@ -6083,7 +6084,7 @@
     "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "MYL7",
-    "Main_gene_name": "Myosin light chain 7",
+    "Main_gene_name": "myosin light chain 7",
     "Main_protein": "MLC-2a",
     "Main_gene_id": "58498",
     "Main_mrna_id": "NM_021223",
@@ -6139,7 +6140,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder).",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "MYL7-mEGFP",
@@ -6167,7 +6168,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "MYL7-mEGFP",
@@ -6183,7 +6184,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0052/myl7_clone3_and_AICS0000.jpg",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -6213,7 +6214,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0052/myl7_clone3_karyotype.jpg",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -6232,7 +6233,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "84-91 (3)",
@@ -6285,8 +6286,8 @@
     "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TTN",
-    "Main_gene_name": "Titin",
-    "Main_protein": "Titin",
+    "Main_gene_name": "titin",
+    "Main_protein": "titin",
     "Main_gene_id": "7273",
     "Main_mrna_id": "NM_001256850",
     "Main_mrna_id1": "NM_001267550",
@@ -6346,7 +6347,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder).",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "TTN-mEGFP",
@@ -6374,7 +6375,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "TTN-mEGFP",
@@ -6390,7 +6391,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0048/ttn_clone39_and_AICS0000_noDAPI.jpg",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -6420,7 +6421,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0048/ttn_clone39_karyotype.jpg",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -6439,7 +6440,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "79-85 (3)",
@@ -6492,8 +6493,8 @@
     "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "HIST1H2BJ",
-    "Main_gene_name": "Histone cluster 1 H2B family member j",
-    "Main_protein": "Histone H2B type 1-J",
+    "Main_gene_name": "histone cluster 1 H2B family member j",
+    "Main_protein": "histone H2B type 1-J",
     "Main_gene_id": "8970",
     "Main_mrna_id": "NM_021058",
     "Main_structure": "Histones",
@@ -6556,7 +6557,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0061/AICS-61_cl36_71 Full Allele redo_edited.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder).",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "HIST1H2BJ-mEGFP",
@@ -6584,7 +6585,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "HIST1H2BJ-mEGFP",
@@ -6600,7 +6601,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0061/H2B_clone36_and_AICS0000.jpg",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -6630,7 +6631,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0061/AICS-61 H2B-mEGFP cl36_karyo_image.jpg",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -6649,7 +6650,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "83-90 (2)",
@@ -6714,7 +6715,7 @@
     "Main_cofa": "",
     "Main_parental_order_link": "",
     "Main_plasmid_sequence": "",
-    
+
     "Main_media": [],
     "EditingDesign_crRNA_seq": "N",
     "EditingDesign_cas9": "Wildtype spCas9",
@@ -6724,7 +6725,7 @@
     "GenomicCharacterization_junction_schematic": "",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "N",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "junction": "",
@@ -6748,7 +6749,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "clone": "",
@@ -6763,7 +6764,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -6793,7 +6794,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "N",
     "StemCellCharacterization_karyotype": "",
     "StemCellCharacterization_karyotype_caption": "N",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -6812,7 +6813,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "",
@@ -6865,7 +6866,7 @@
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "G3BP1",
     "Main_gene_name": "G3BP stress granule assembly factor 1",
-    "Main_protein": "Ras GTPase-activating protein-binding protein 1",
+    "Main_protein": "ras GTPase-activating protein-binding protein 1",
     "Main_gene_id": "10146",
     "Main_mrna_id": "",
     "Main_mrna_id1": "",
@@ -6877,7 +6878,7 @@
     "Main_cofa": "",
     "Main_parental_order_link": "",
     "Main_plasmid_sequence": "",
-    
+
     "Main_media": [],
     "EditingDesign_crRNA_seq": "N",
     "EditingDesign_cas9": "Wildtype spCas9",
@@ -6887,7 +6888,7 @@
     "GenomicCharacterization_junction_schematic": "",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "N",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "junction": "",
@@ -6911,7 +6912,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "clone": "",
@@ -6926,7 +6927,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -6956,7 +6957,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "N",
     "StemCellCharacterization_karyotype": "",
     "StemCellCharacterization_karyotype_caption": "N",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -6975,7 +6976,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "",
@@ -7027,8 +7028,8 @@
     "Main_data_available": "false",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "RYR2",
-    "Main_gene_name": "Ryanodine receptor 2",
-    "Main_protein": "Ryanodine receptor 2",
+    "Main_gene_name": "ryanodine receptor 2",
+    "Main_protein": "ryanodine receptor 2",
     "Main_gene_id": "6262",
     "Main_mrna_id": "",
     "Main_mrna_id1": "",
@@ -7040,7 +7041,7 @@
     "Main_cofa": "",
     "Main_parental_order_link": "",
     "Main_plasmid_sequence": "",
-    
+
     "Main_media": [],
     "EditingDesign_crRNA_seq": "N",
     "EditingDesign_cas9": "Wildtype spCas9",
@@ -7050,7 +7051,7 @@
     "GenomicCharacterization_junction_schematic": "",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "N",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "junction": "",
@@ -7074,7 +7075,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "clone": "",
@@ -7089,7 +7090,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -7119,7 +7120,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "N",
     "StemCellCharacterization_karyotype": "",
     "StemCellCharacterization_karyotype_caption": "N",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -7138,7 +7139,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "",
@@ -7194,7 +7195,7 @@
     "Main_gene_symbol": "MYL2",
     "Main_gene_symbol1": "",
     "Main_gene_symbol2": "",
-    "Main_gene_name": "Myosin light chain 2",
+    "Main_gene_name": "myosin light chain 2",
     "Main_protein": "MLC-2v",
     "Main_gene_id": "4633",
     "Main_gene_id1": "",
@@ -7252,7 +7253,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0060/cl27_67_68_70_all_junctions_crop.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. A band intermediate in size between the anticipated tagged and untagged allele products is consistently observed and is a hypothesized heteroduplex of the tagged and untagged allele products. (1% Agarose gel with Thermo Fisher 1kb ladder).",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "MYL2-mEGFP",
@@ -7280,7 +7281,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "MYL2-mEGFP",
@@ -7296,7 +7297,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -7326,7 +7327,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0060/MYL2_cl_27_karyotype.jpg",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -7345,7 +7346,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "78.8-90.0 (3)",
@@ -7401,8 +7402,8 @@
     "Main_gene_symbol": "SEC61B/LMNB1",
     "Main_gene_symbol1": "SEC61B",
     "Main_gene_symbol2": "LMNB1",
-    "Main_gene_name": "Sec61 translocon beta subunit / Lamin B1",
-    "Main_protein": "Sec61 beta / Lamin B1",
+    "Main_gene_name": "Sec61 translocon beta subunit / lamin B1",
+    "Main_protein": "Sec61 beta / lamin B1",
     "Main_gene_id": "10952/4001",
     "Main_gene_id1": "10952",
     "Main_gene_id2": "4001",
@@ -7468,7 +7469,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_generic.png",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "SEC61B-mEGFP",
@@ -7520,7 +7521,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP and mTagRFP-T insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "SEC61B-mEGFP",
@@ -7542,7 +7543,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0059/SEC61B_LMNB1_dual_clone36_20181213.jpg",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -7572,7 +7573,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0059/AICS-59DualSec-LMNB1cl.jpg",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -7591,7 +7592,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "86.2-91.3 (2)",
@@ -7647,7 +7648,7 @@
     "Main_gene_symbol": "SMC1A",
     "Main_gene_symbol1": "",
     "Main_gene_symbol2": "",
-    "Main_gene_name": "Structural maintenance of chromosomes 1A",
+    "Main_gene_name": "structural maintenance of chromosomes 1A",
     "Main_protein": "SMC protein 1A",
     "Main_gene_id": "8243",
     "Main_gene_id1": "",
@@ -7714,7 +7715,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0068/FULL_ALLELE_CL9.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to amplify tagged and untagged allele. Gel shows untagged allele (smaller band) for WT unedited line and tagged allele (larger band) for cl9. (1% Agarose gel with Thermo Fisher 1kb ladder).",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "SMC1A-mEGFP",
@@ -7742,7 +7743,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "SMC1A-mEGFP",
@@ -7758,7 +7759,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0068/SMC1A clone 9 and AICS000_20181113.jpg",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -7788,7 +7789,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0068/Cl9_Karyo.PNG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -7807,7 +7808,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "79.5 (1)",
@@ -7923,7 +7924,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "FUS-mEGFP",
@@ -7951,7 +7952,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "FUS-mEGFP",
@@ -7967,7 +7968,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0080/final FUS IF 110918.jpg",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -7997,7 +7998,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0080/KARYO_cl69_AICS-80 FUS-mEGFP cl.jpg",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -8016,7 +8017,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "79.5-82.5 (2)",
@@ -8072,13 +8073,13 @@
     "Main_gene_symbol": "SOX2",
     "Main_gene_symbol1": "",
     "Main_gene_symbol2": "",
-    "Main_gene_name": "SRY-box 2",
-    "Main_protein": "Transcription factor SOX-2",
+    "Main_gene_name": "SRY-box transcription factor 2",
+    "Main_protein": "transcription factor SOX-2",
     "Main_gene_id": "6657",
     "Main_gene_id1": "",
     "Main_gene_id2": "",
     "Main_mrna_id": "NM_003106.4",
-    "Main_structure": "Transcription Factor",
+    "Main_structure": "Transcription factor",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "GGSG",
@@ -8138,7 +8139,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0074/Website_fullAllele_AICS-74.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to amplify tagged and untagged allele. Gel shows untagged allele (smaller band) for WT unedited line and tagged allele (larger band) for cl26. (1% Agarose gel with Thermo Fisher 1kb ladder).",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "SOX2-mEGFP",
@@ -8166,7 +8167,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "SOX2-mEFGP",
@@ -8182,7 +8183,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0074/SOX2_clone26_andAICS0_20190319_v2.jpg",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -8212,7 +8213,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0074/SOX2_cl26_final_karyo.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -8231,7 +8232,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "81.8 (1)",
@@ -8287,8 +8288,8 @@
     "Main_gene_symbol": "ACTN2",
     "Main_gene_symbol1": "",
     "Main_gene_symbol2": "",
-    "Main_gene_name": "Actinin alpha 2",
-    "Main_protein": "Alpha-actinin-2 ",
+    "Main_gene_name": "actinin alpha 2",
+    "Main_protein": "alpha-actinin-2 ",
     "Main_gene_id": "88",
     "Main_gene_id1": "",
     "Main_gene_id2": "",
@@ -8347,7 +8348,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "ACTN2-mEGFP",
@@ -8375,7 +8376,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "ACTN2-mEGFP",
@@ -8391,7 +8392,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0075/ACTN2_clone85_and_AICS0000.jpg",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -8421,7 +8422,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0075/ACTN2_cl85_final_karyo.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -8440,7 +8441,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "70.5-75.3 (4)",
@@ -8496,8 +8497,8 @@
     "Main_gene_symbol": "FBL/NPM1",
     "Main_gene_symbol1": "FBL",
     "Main_gene_symbol2": "NPM1",
-    "Main_gene_name": "Fibrillarin / Nucleophosmin 1",
-    "Main_protein": "Fibrillarin / Nucleophosmin",
+    "Main_gene_name": "fibrillarin / nucleophosmin 1",
+    "Main_protein": "fibrillarin / nucleophosmin",
     "Main_gene_id": "2091/4869",
     "Main_gene_id1": "2091",
     "Main_gene_id2": "4869",
@@ -8567,7 +8568,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "FBL-mEGFP",
@@ -8619,7 +8620,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "FBL-mEGFP",
@@ -8641,7 +8642,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0084/FBL_NPM1_clone18_andAICS0_20190319_v2.jpg",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -8671,7 +8672,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0084/FBL_NPM1_cl18_final_karyo.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -8690,7 +8691,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "76.8 (1)",
@@ -8760,7 +8761,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0034-062_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/114403/",
-    
+
     "Main_media": [
         {
           "type": "image",
@@ -8787,7 +8788,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0034/",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "LMNB1-mTagRFP-T",
@@ -8815,7 +8816,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "LMNB1-mTagRFP-T",
@@ -8831,7 +8832,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0034/",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -8861,7 +8862,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0034/",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -8880,7 +8881,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "fill",
@@ -8937,7 +8938,7 @@
     "Main_gene_symbol1": "FBL",
     "Main_gene_symbol2": "NPM1",
     "Main_gene_symbol3": "CLYBL",
-    "Main_gene_name": "fibrillarin / nucleophosmin 1 / citrate lyase beta like",
+    "Main_gene_name": "fibrillarin / nucleophosmin 1 / citramalyl-CoA lyase",
     "Main_protein": "fibrillarin / nucleophosmin / dCas9-KRAB",
     "Main_gene_id": "2091/4869",
     "Main_gene_id1": "2091",
@@ -8958,7 +8959,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0089-061_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "",
-    
+
     "Main_media": [
         {
           "type": "image",
@@ -8985,7 +8986,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0089/",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "FBL-mEGFP",
@@ -9061,7 +9062,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "FBL-mEGFP",
@@ -9089,7 +9090,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0089/",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -9119,7 +9120,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0089/",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -9138,7 +9139,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "fill",
@@ -9193,7 +9194,7 @@
     "Main_gene_symbol": "SON",
     "Main_gene_symbol1": "",
     "Main_gene_symbol2": "",
-    "Main_gene_name": "SON DNA binding protein",
+    "Main_gene_name": "SON DNA and RNA binding protein",
     "Main_protein": "SON",
     "Main_gene_id": "6651",
     "Main_gene_id1": "",
@@ -9210,7 +9211,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0094-024_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "https://www.addgene.org/133964/",
-    
+
     "Main_media": [
         {
           "type": "image",
@@ -9237,7 +9238,7 @@
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0094/",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
-    
+
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "SON-mEGFP",
@@ -9265,7 +9266,7 @@
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
-    
+
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "SON-mEGFP",
@@ -9281,7 +9282,7 @@
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "/images/AICS-0094/",
     "Validation_Immunofluorescence_caption": "",
-    
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -9311,7 +9312,7 @@
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "/images/AICS-0094/",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-    
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -9330,7 +9331,7 @@
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+
     "StemCellCharacterization_differentiation":
         {
           "troponin_percent_positive": "fill",
