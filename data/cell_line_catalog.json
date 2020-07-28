@@ -8727,7 +8727,7 @@
       },
       {
         "id": "validation",
-        "done": "False"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
@@ -8764,11 +8764,35 @@
 
     "Main_media": [
         {
+          "type": "movie",
+          "cell_line_id": "AICS-0034",
+          "data_type": "high mag z-stack",
+          "file_name": "20190613_S04_002_s38_cropped_z20to54_v2_8bit",
+          "caption": "Z-stack of live hiPS cell colony expressing mTagRFP-T-tagged lamin B1. Cells were imaged in 3D on a spinning-disk confocal microscope. Movie starts at the bottom of the cells and ends at the top. Scale bar, 5µm.",
+          "link": "https://player.vimeo.com/video/442184712"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0034",
+          "data_type": "time lapse in high mag",
+          "file_name": "20191206_N02_001-Scene-2_aligned_cropped-P5-C02_labels_8bit_10fps",
+          "caption": "Time-lapse movie of live hiPS cell colony expressing mTagRFP-T-tagged lamin B1. A single, mid-level plane of the cells was imaged every 3 min on a spinning-disk confocal microscope. Movie plays at 1800x real time. Scale bar, 5 µm.",
+          "link": "https://player.vimeo.com/video/442184397"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0034",
+          "data_type": "time lapse in low mag",
+          "file_name": "20191219_N01_001_s3_cropped_labeled_8bit_t1to100_10fps",
+          "caption": "Time-lapse movie of live hiPS cell colony expressing mTagRFP-T-tagged lamin B1. A single, mid-level plane of the cells was imaged every 3 min on a spinning-disk confocal microscope. Movie plays at 1800x real time. Scale bar, 20 µm.",
+          "link": "https://player.vimeo.com/video/442184428"
+        },
+        {
           "type": "image",
           "cell_line_id": "AICS-0034",
           "data_type": "single plane image",
           "file_name": "single_plane_image.jpg",
-          "caption": "ingle, mid-level plane of cells in a live hiPS cell colony expressing mTagRFP-T-tagged lamin B1. Cells wereimaged in 3D on a spinning-disk confocal microscope. Scale bar, 5μm.",
+          "caption": "Single, mid-level plane of cells in a live hiPS cell colony expressing mTagRFP-T-tagged lamin B1. Cells wereimaged in 3D on a spinning-disk confocal microscope. Scale bar, 5μm.",
           "link": "/images/AICS-0034/single_plane_image_cl62.jpg"
         },
         {
@@ -8828,9 +8852,9 @@
     "GenomicCharacterization_ddpcr_caption": "FP:RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.1 indicate heterozygous clone, values = 1 +/- 0.1 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "/images/AICS-0034/",
+    "Validation_WesternBlot": "/images/AICS-0034/ReleaseWestern_AICS0034_cl062_20191119_LMNB1_RFP_final.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "/images/AICS-0034/",
+    "Validation_Immunofluorescence": "/images/AICS-0034/AICS34_LMNB1_immuno_20190106_v2.jpg",
     "Validation_Immunofluorescence_caption": "",
 
     "StemCellCharacterization_pluripotency_analysis": [
@@ -8917,7 +8941,7 @@
       },
       {
         "id": "validation",
-        "done": "False"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
@@ -8961,6 +8985,30 @@
     "Main_donor_plasmid": "",
 
     "Main_media": [
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0089",
+          "data_type": "high mag z-stack",
+          "file_name": "20190215_N04_002_s2_cropped_combinedstacks_scalebar5_z14to35_textlabels",
+          "caption": "Z-stack of live hiPS cell colony expressing mEGFP-tagged fibrillarin, mTagRFP-T-tagged nucleophosmin, and TagBFP-tagged dCas9-KRAB. Panels show individual channels for fibrillarin, nucleophosmin, and the overlay of the two (left to right). TagBFP-tagged dCas9-KRAB is not shown here because it was used to identify dCas9-KRAB expressing cells and not to highlight a structure (see single z-slice image for its expression pattern). Cells were imaged in 3D on a spinning-disk confocal microscope. Movie starts at the bottom of the cells and ends at the top. Scale bar, 5µm.",
+          "link": "https://player.vimeo.com/video/442183009"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0089",
+          "data_type": "time lapse in high mag",
+          "file_name": "20190809_N01_001-Scene-3-P5-E06_slice7_squarecrop_multipanel_boxes_scalebar5_timestamp3_labels",
+          "caption": "Time-lapse movie of live hiPS cell colony expressing mEGFP-tagged fibrillarin, mTagRFP-T-tagged nucleophosmin, and TagBFP-tagged dCas9-KRAB. Panels show individual channels for fibrillarin, nucleophosmin, and the overlay of the two (left to right). TagBFP-tagged dCas9-KRAB is not shown here because it was used to identify dCas9-KRAB expressing cells and not to highlight a structure (see single z-slice image for its expression pattern). The regions bounded by a dashed line are shown at the same scale with increased brightness to highlight changes in localization during mitosis. A single, mid-level plane of the cells was imaged every 3 min on a spinning-disk confocal microscope. Movie plays at 900x real time. Scale bar, 5 µm.",
+          "link": "https://player.vimeo.com/video/442182527"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0089",
+          "data_type": "time lapse in low mag",
+          "file_name": "20190812_N01_001_s3_squarecropped_combined_scalebar20_time3_labels_10fps",
+          "caption": "Time-lapse movie of live hiPS cell colony expressing mEGFP-tagged fibrillarin, mTagRFP-T-tagged nucleophosmin, and TagBFP-tagged dCas9-KRAB. Panels show individual channels for fibrillarin, nucleophosmin, and the overlay of the two (left to right). TagBFP-tagged dCas9-KRAB is not shown here because it was used to identify dCas9-KRAB expressing cells and not to highlight a structure (see single z-slice image for its expression pattern). Cells were imaged in 3D on a spinning-disk confocal microscope every 3 min. A single mid-level plane is shown. Movie plays at 1800x real time. Scale bar, 20 µm.",
+          "link": "https://player.vimeo.com/video/442182868"
+        },
         {
           "type": "image",
           "cell_line_id": "AICS-0089",
@@ -9086,9 +9134,9 @@
     "GenomicCharacterization_ddpcr_caption": "FP:RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.1 indicate heterozygous clone, values = 1 +/- 0.1 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "/images/AICS-0089/",
+    "Validation_WesternBlot": "/images/AICS-0089/ReleaseWestern_AICS0089_cl061_20190822 Nucleolus_Triple_dcas9-KRAB_final.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "/images/AICS-0089/",
+    "Validation_Immunofluorescence": "/images/AICS-0089/AICS89_clone61_immuno_20200403_v5.jpg",
     "Validation_Immunofluorescence_caption": "",
 
     "StemCellCharacterization_pluripotency_analysis": [
@@ -9174,7 +9222,7 @@
       },
       {
         "id": "validation",
-        "done": "False"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
@@ -9213,6 +9261,30 @@
     "Main_donor_plasmid": "https://www.addgene.org/133964/",
 
     "Main_media": [
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0094",
+          "data_type": "high mag z-stack",
+          "file_name": "20190610_R02_002_s2_cropped_z25to49_scalebar5_8bit",
+          "caption": "Z-stack of live hiPS cell colony expressing mEGFP-tagged SON. Cells were imaged in 3D on a spinning-disk confocal microscope. Movie starts at the bottom of the cells and ends at the top. Scale bar, 5µm.",
+          "link": "https://player.vimeo.com/video/442186399"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0094",
+          "data_type": "time lapse in high mag",
+          "file_name": "20190815_R02_s9_gfp_z16_t0to20_cropped_scalebar5_timestamp3min_8bit_5fps",
+          "caption": "Time-lapse movie of live hiPS cell colony expressing mEGFP-tagged SON. A single, mid-level plane of the cells was imaged every 3 min on a spinning-disk confocal microscope. Movie plays at 900x real time. Scale bar, 5 µm.",
+          "link": "https://player.vimeo.com/video/442186172"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0094",
+          "data_type": "time lapse in low mag",
+          "file_name": "20190808_R01_s2_gfp_z6_labels_8bit_t1to100",
+          "caption": "Time-lapse movie of live hiPS cell colony expressing mEGFP-tagged SON. A single, mid-level plane of the cells was imaged every 3 min on a spinning-disk confocal microscope. Movie plays at 1800x real time. Scale bar, 20 µm.",
+          "link": "https://player.vimeo.com/video/442186194"
+        },
         {
           "type": "image",
           "cell_line_id": "AICS-0094",
@@ -9278,9 +9350,9 @@
     "GenomicCharacterization_ddpcr_caption": "FP:RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.1 indicate heterozygous clone, values = 1 +/- 0.1 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "/images/AICS-0094/",
+    "Validation_WesternBlot": "/images/AICS-0094/ReleaseWestern_AICS0094_cl024_20190801_SON_EGFP_final.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "/images/AICS-0094/",
+    "Validation_Immunofluorescence": "/images/AICS-0094/AICS94_SON_immuno_20200327_v2.jpg",
     "Validation_Immunofluorescence_caption": "",
 
     "StemCellCharacterization_pluripotency_analysis": [
@@ -9368,7 +9440,7 @@
       },
       {
         "id": "validation",
-        "done": "False"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
@@ -9414,6 +9486,30 @@
     "Main_donor_plasmid": "https://www.addgene.org/133963/",
     
     "Main_media": [
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0086",
+          "data_type": "high mag z-stack",
+          "file_name": "20190528_N01_002_s3_combinedstacks_square_labels_z17to39",
+          "caption": "Z-stack of live hiPS cell colony expressing mEGFP-tagged fibrillarin, mTagRFP-T-tagged nucleophosmin, and HaloTag-tagged nucleolar transcription factor UBF visualized with ligand Janelia Fluor 646 (Promega). Panels show individual channels for fibrillarin, nucleolar transcription factor UBF, nucleophosmin, and an overlay of the three (counterclockwise from top right). Cells were imaged in 3D on a spinning-disk confocal microscope. Movie starts at the bottom of the cells and ends at the top. Scale bar, 5 µm.",
+          "link": "https://player.vimeo.com/video/442124590"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0086",
+          "data_type": "time lapse in high mag",
+          "file_name": "20190806_N02_001_s2_combinedCombinedMultiPanel_rectangle_scalebars5_timestamp3_5fps",
+          "caption": "Time-lapse movie of live hiPS cell colony expressing mEGFP-tagged fibrillarin, mTagRFP-T-tagged nucleophosmin, and HaloTag-tagged nucleolar transcription factor UBF visualized with ligand Janelia Fluor 646 (Promega). Panels show individual channels for nucleolar transcription factor UBF, fibrillarin, nucleophosmin, and an overlay of the three (left to right). Boxed regions in top row are shown enlarged in the bottom row with increased brightness.  Cells were imaged in 3D on a spinning-disk confocal microscope every 3 min. A single mid-level plane is shown. Movie plays at 900x real time. Scale bar, 5 µm.",
+          "link": "https://player.vimeo.com/video/442123253"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0086",
+          "data_type": "time lapse in low mag",
+          "file_name": "20190805_N01_001-Scene-3_aligned_croppedsquare_t50to150_compositeRGB_scalebar20_timestamp3_10fps",
+          "caption": "Time-lapse movie of live hiPS cell colony expressing mEGFP-tagged fibrillarin (pseudocolored in magenta), mTagRFP-T-tagged nucleophosmin (pseudocolored in cyan), and HaloTag-tagged nucleolar transcription factor UBF visualized with ligand Janelia Fluor 646 (Promega) (pseudocolored in yellow); overlay of channels appears white where proteins are colocalized. Cells were imaged in 3D on a spinning-disk confocal microscope every 3 min. A single mid-level plane is shown. Movie plays at 1800x real time. Scale bar, 20 µm.",
+          "link": "https://player.vimeo.com/video/442124499"
+        },
         {
           "type": "image",
           "cell_line_id": "AICS-0086",
@@ -9539,9 +9635,9 @@
     "GenomicCharacterization_ddpcr_caption": "FP:RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.1 indicate heterozygous clone, values = 1 +/- 0.1 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "/images/AICS-0086/",
+    "Validation_WesternBlot": "/images/AICS-0086/ReleaseWestern_AICS0086_cl147_20190822_Nucleolus_Triple_UBF_final.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "/images/AICS-0086/",
+    "Validation_Immunofluorescence": "/images/AICS-0086/AICS86_tripleUBTF_immuno_20200403_v5.jpg",
     "Validation_Immunofluorescence_caption": "",
     
     "StemCellCharacterization_pluripotency_analysis": [
@@ -9628,7 +9724,7 @@
       },
       {
         "id": "validation",
-        "done": "False"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
@@ -9665,6 +9761,22 @@
     "Main_donor_plasmid": "",
     
     "Main_media": [
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0087",
+          "data_type": "high mag z-stack",
+          "file_name": "20190716_I01_002_scene08_cropped_z22to47_scalebar5_8bit",
+          "caption": "Z-stack of live hiPS cell colony expressing mEGFP-tagged mitochondrial transcription factor A (TFAM). Cells were imaged in 3D on a spinning-disk confocal microscope. Movie starts at the bottom of the cells and ends at the top. Scale bar, 5µm.",
+          "link": "https://player.vimeo.com/video/442126500"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0087",
+          "data_type": "time lapse in high mag",
+          "file_name": "20191122_N01_001_s3_squarecrop_t1to18_scalebar5_timestamp3_5fps",
+          "caption": "Time-lapse movie of live hiPS cell colony expressing mEGFP-tagged mitochondrial transcription factor A (TFAM). A single, mid-level plane of the cells was imaged every 3 min on a spinning-disk confocal microscope. Movie plays at 900x real time. Scale bar, 5 µm.",
+          "link": "https://player.vimeo.com/video/442126456"
+        },
         {
           "type": "image",
           "cell_line_id": "AICS-0087",
@@ -9730,9 +9842,9 @@
     "GenomicCharacterization_ddpcr_caption": "FP:RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.1 indicate heterozygous clone, values = 1 +/- 0.1 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "/images/AICS-0087/",
+    "Validation_WesternBlot": "/images/AICS-0087/ReleaseWestern_AICS0087_cl031_20191112_TFAM_EGFP_final.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "/images/AICS-0087/",
+    "Validation_Immunofluorescence": "/images/AICS-0087/AICS87_TFAM_immuno_20200327_v3.jpg",
     "Validation_Immunofluorescence_caption": "",
     
     "StemCellCharacterization_pluripotency_analysis": [
