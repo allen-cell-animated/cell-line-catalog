@@ -5465,7 +5465,7 @@
     "Protocols_offtargets": ""
   },
   {
-    "cell_line_id": "AICS-0067",
+    "cell_line_id": "AICS-0099",
     "clone_number": "",
     "alleleCount": "",
     "status": "In Progress",
@@ -5502,7 +5502,7 @@
     "Main_gene_id": "10664",
     "Main_mrna_id": "",
     "Main_mrna_id1": "",
-    "Main_structure": "",
+    "Main_structure": "Transcriptional repressor",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "",
@@ -6702,12 +6702,12 @@
     "Main_data_available": "false",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "DMD",
-    "Main_gene_name": "Dystrophin",
-    "Main_protein": "Dystrophin",
+    "Main_gene_name": "dystrophin",
+    "Main_protein": "dystrophin",
     "Main_gene_id": "1756",
     "Main_mrna_id": "",
     "Main_mrna_id1": "",
-    "Main_structure": "",
+    "Main_structure": "Costamere",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "",
@@ -6866,7 +6866,7 @@
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "G3BP1",
     "Main_gene_name": "G3BP stress granule assembly factor 1",
-    "Main_protein": "ras GTPase-activating protein-binding protein 1",
+    "Main_protein": "G3BP1",
     "Main_gene_id": "10146",
     "Main_mrna_id": "",
     "Main_mrna_id1": "",
@@ -7033,7 +7033,7 @@
     "Main_gene_id": "6262",
     "Main_mrna_id": "",
     "Main_mrna_id1": "",
-    "Main_structure": "",
+    "Main_structure": "Ion channel",
     "Main_terminal_tagged": "internal",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "",
@@ -8723,15 +8723,15 @@
       },
       {
         "id":"genomiccharacterizations",
-        "done": "False"
+        "done": "true"
       },
       {
         "id": "validation",
-        "done": "False"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "False"
+        "done": "true"
       },
       {
         "id": "supplementaryinformation",
@@ -8764,11 +8764,35 @@
 
     "Main_media": [
         {
+          "type": "movie",
+          "cell_line_id": "AICS-0034",
+          "data_type": "high mag z-stack",
+          "file_name": "20190613_S04_002_s38_cropped_z20to54_v2_8bit",
+          "caption": "Z-stack of live hiPS cell colony expressing mTagRFP-T-tagged lamin B1. Cells were imaged in 3D on a spinning-disk confocal microscope. Movie starts at the bottom of the cells and ends at the top. Scale bar, 5µm.",
+          "link": "https://player.vimeo.com/video/442184712"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0034",
+          "data_type": "time lapse in high mag",
+          "file_name": "20191206_N02_001-Scene-2_aligned_cropped-P5-C02_labels_8bit_10fps",
+          "caption": "Time-lapse movie of live hiPS cell colony expressing mTagRFP-T-tagged lamin B1. A single, mid-level plane of the cells was imaged every 3 min on a spinning-disk confocal microscope. Movie plays at 1800x real time. Scale bar, 5 µm.",
+          "link": "https://player.vimeo.com/video/442184397"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0034",
+          "data_type": "time lapse in low mag",
+          "file_name": "20191219_N01_001_s3_cropped_labeled_8bit_t1to100_10fps",
+          "caption": "Time-lapse movie of live hiPS cell colony expressing mTagRFP-T-tagged lamin B1. A single, mid-level plane of the cells was imaged every 3 min on a spinning-disk confocal microscope. Movie plays at 1800x real time. Scale bar, 20 µm.",
+          "link": "https://player.vimeo.com/video/442184428"
+        },
+        {
           "type": "image",
           "cell_line_id": "AICS-0034",
           "data_type": "single plane image",
           "file_name": "single_plane_image.jpg",
-          "caption": "ingle, mid-level plane of cells in a live hiPS cell colony expressing mTagRFP-T-tagged lamin B1. Cells wereimaged in 3D on a spinning-disk confocal microscope. Scale bar, 5μm.",
+          "caption": "Single, mid-level plane of cells in a live hiPS cell colony expressing mTagRFP-T-tagged lamin B1. Cells wereimaged in 3D on a spinning-disk confocal microscope. Scale bar, 5μm.",
           "link": "/images/AICS-0034/single_plane_image_cl62.jpg"
         },
         {
@@ -8786,33 +8810,33 @@
     "EditingDesign_gene_figure": "/images/AICS-0034/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: LMNB1 locus showing 2 LMNB1 isoforms with zoom in on mTagRFP-T insertion site at LMNB1 N-terminal exon.",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
-    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0034/",
+    "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
 
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "LMNB1-mTagRFP-T",
           "junction": "5'",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1406",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "LMNB1-mTagRFP-T",
           "junction": "3'",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1388",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "LMNB1-mTagRFP-T",
           "junction": "WT internal",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1462",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "LMNB1-mTagRFP-T",
           "junction": "Full junctional allele",
           "expected_size": "Tagged: bp; Untagged: bp",
-          "confirmed_sequence": ""
+          "confirmed_sequence": "Yes"
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
@@ -8820,47 +8844,47 @@
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "LMNB1-mTagRFP-T",
-          "clone": "62",
-          "fp_ratio": "",
-          "plasmid": ""
+          "clone": "cl62",
+          "fp_ratio": "0.523",
+          "plasmid": "0"
         }
         ],
     "GenomicCharacterization_ddpcr_caption": "FP:RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.1 indicate heterozygous clone, values = 1 +/- 0.1 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "/images/AICS-0034/",
+    "Validation_WesternBlot": "/images/AICS-0034/ReleaseWestern_AICS0034_cl062_20191119_LMNB1_RFP_final.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "/images/AICS-0034/",
+    "Validation_Immunofluorescence": "/images/AICS-0034/AICS34_LMNB1_immuno_20190106_v2.jpg",
     "Validation_Immunofluorescence_caption": "",
 
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
-          "positiveCells": ""
+          "positiveCells": "99.9"
         },
         {
           "Marker": "SOX2",
-          "positiveCells": ""
+          "positiveCells": "100"
         },
         {
-          "Marker": "4-Oct",
-          "positiveCells": ""
+          "Marker": "OCT4",
+          "positiveCells": "99.9"
         },
         {
           "Marker": "SSEA-1",
-          "positiveCells": ""
+          "positiveCells": "0.73"
         },
         {
           "Marker": "SSEA-4",
-          "positiveCells": ""
+          "positiveCells": "100"
         },
         {
           "Marker": "TRA-160",
-          "positiveCells": ""
+          "positiveCells": "99.9"
         }
         ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
-    "StemCellCharacterization_karyotype": "/images/AICS-0034/",
+    "StemCellCharacterization_karyotype": "/images/AICS-0034/AICS-34_cl62_LMNB1-mTagRFP-T_karyotype.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
 
     "StemCellCharacterization_trilineage": [
@@ -8884,12 +8908,12 @@
 
     "StemCellCharacterization_differentiation":
         {
-          "troponin_percent_positive": "fill",
-          "Day_of_beating_percent": "fill",
-          "Day_of_beating_range": "fill"
+          "troponin_percent_positive": "70 (1)",
+          "Day_of_beating_percent": "100 (4)",
+          "Day_of_beating_range": "d10"
         },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 12, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in (). ",
-    "StemCellCharacterization_rnaseq_fig": "/images/AICS-0034/",
+    "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
@@ -8913,15 +8937,15 @@
       },
       {
         "id":"genomiccharacterizations",
-        "done": "False"
+        "done": "true"
       },
       {
         "id": "validation",
-        "done": "False"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "False"
+        "done": "true"
       },
       {
         "id": "supplementaryinformation",
@@ -8937,8 +8961,8 @@
     "Main_gene_symbol": "FBL/NPM1/CLYBL-dCas9-KRAB",
     "Main_gene_symbol1": "FBL",
     "Main_gene_symbol2": "NPM1",
-    "Main_gene_symbol3": "CLYBL",
-    "Main_gene_name": "fibrillarin / nucleophosmin 1 / citramalyl-CoA lyase",
+    "Main_gene_symbol3": "CLYBL safe harbor",
+    "Main_gene_name": "fibrillarin / nucleophosmin 1 / citramalyl-CoA lyase safe harbor",
     "Main_protein": "fibrillarin / nucleophosmin / dCas9-KRAB",
     "Main_gene_id": "2091/4869",
     "Main_gene_id1": "2091",
@@ -8962,6 +8986,30 @@
 
     "Main_media": [
         {
+          "type": "movie",
+          "cell_line_id": "AICS-0089",
+          "data_type": "high mag z-stack",
+          "file_name": "20190215_N04_002_s2_cropped_combinedstacks_scalebar5_z14to35_textlabels",
+          "caption": "Z-stack of live hiPS cell colony expressing mEGFP-tagged fibrillarin, mTagRFP-T-tagged nucleophosmin, and TagBFP-tagged dCas9-KRAB. Panels show individual channels for fibrillarin, nucleophosmin, and the overlay of the two (left to right). TagBFP-tagged dCas9-KRAB is not shown here because it was used to identify dCas9-KRAB expressing cells and not to highlight a structure (see single z-slice image for its expression pattern). Cells were imaged in 3D on a spinning-disk confocal microscope. Movie starts at the bottom of the cells and ends at the top. Scale bar, 5µm.",
+          "link": "https://player.vimeo.com/video/442183009"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0089",
+          "data_type": "time lapse in high mag",
+          "file_name": "20190809_N01_001-Scene-3-P5-E06_slice7_squarecrop_multipanel_boxes_scalebar5_timestamp3_labels",
+          "caption": "Time-lapse movie of live hiPS cell colony expressing mEGFP-tagged fibrillarin, mTagRFP-T-tagged nucleophosmin, and TagBFP-tagged dCas9-KRAB. Panels show individual channels for fibrillarin, nucleophosmin, and the overlay of the two (left to right). TagBFP-tagged dCas9-KRAB is not shown here because it was used to identify dCas9-KRAB expressing cells and not to highlight a structure (see single z-slice image for its expression pattern). The regions bounded by a dashed line are shown at the same scale with increased brightness to highlight changes in localization during mitosis. A single, mid-level plane of the cells was imaged every 3 min on a spinning-disk confocal microscope. Movie plays at 900x real time. Scale bar, 5 µm.",
+          "link": "https://player.vimeo.com/video/442182527"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0089",
+          "data_type": "time lapse in low mag",
+          "file_name": "20190812_N01_001_s3_squarecropped_combined_scalebar20_time3_labels_10fps",
+          "caption": "Time-lapse movie of live hiPS cell colony expressing mEGFP-tagged fibrillarin, mTagRFP-T-tagged nucleophosmin, and TagBFP-tagged dCas9-KRAB. Panels show individual channels for fibrillarin, nucleophosmin, and the overlay of the two (left to right). TagBFP-tagged dCas9-KRAB is not shown here because it was used to identify dCas9-KRAB expressing cells and not to highlight a structure (see single z-slice image for its expression pattern). Cells were imaged in 3D on a spinning-disk confocal microscope every 3 min. A single mid-level plane is shown. Movie plays at 1800x real time. Scale bar, 20 µm.",
+          "link": "https://player.vimeo.com/video/442182868"
+        },
+        {
           "type": "image",
           "cell_line_id": "AICS-0089",
           "data_type": "single plane image",
@@ -8984,75 +9032,75 @@
     "EditingDesign_gene_figure": "/images/AICS-0089/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: FBL locus with zoom in on mEGFP insertion site at FBL C-terminal exon. Middle: NPM1 locus showing 7 NPM1 isoforms with zoom in on mTagRFP-T insertion site at NPM1 C-terminal exon. Bottom: CLYBL locus showing dCas9-TagBFP-KRAB insertion site at CLYBL safe harbor site between exons 2 and 3.",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
-    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0089/",
+    "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
 
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "FBL-mEGFP",
           "junction": "5'",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1424",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "FBL-mEGFP",
           "junction": "3'",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1489",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "FBL-mEGFP",
           "junction": "WT internal",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1800",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "FBL-mEGFP",
           "junction": "Full junctional allele",
           "expected_size": "Tagged: bp; Untagged: bp",
-          "confirmed_sequence": ""
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "NPM1-mTagRFP-T",
           "junction": "5'",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1489",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "NPM1-mTagRFP-T",
           "junction": "3'",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1581",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "NPM1-mTagRFP-T",
           "junction": "WT internal",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "2217",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "NPM1-mTagRFP-T",
           "junction": "Full junctional allele",
           "expected_size": "Tagged: bp; Untagged: bp",
-          "confirmed_sequence": ""
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "CLYBL-dCas9-KRAB",
           "junction": "5'",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1875",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "CLYBL-dCas9-KRAB",
           "junction": "3'",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "3471",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "CLYBL-dCas9-KRAB",
           "junction": "WT internal",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "2348",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "CLYBL-dCas9-KRAB",
@@ -9067,87 +9115,87 @@
         {
           "gene_tag": "FBL-mEGFP",
           "clone": "cl61",
-          "fp_ratio": "",
-          "plasmid": ""
+          "fp_ratio": "0.463",
+          "plasmid": "0.001"
         },
         {
           "gene_tag": "NPM1-mTagRFP-T",
           "clone": "cl61",
-          "fp_ratio": "",
-          "plasmid": ""
+          "fp_ratio": "0.485",
+          "plasmid": "0.001"
         },
         {
           "gene_tag": "CLYBL-dCas9-KRAB",
           "clone": "cl61",
-          "fp_ratio": "",
-          "plasmid": ""
+          "fp_ratio": "0.538",
+          "plasmid": "0.001"
         }
         ],
     "GenomicCharacterization_ddpcr_caption": "FP:RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.1 indicate heterozygous clone, values = 1 +/- 0.1 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "/images/AICS-0089/",
+    "Validation_WesternBlot": "/images/AICS-0089/ReleaseWestern_AICS0089_cl061_20190822 Nucleolus_Triple_dcas9-KRAB_final.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "/images/AICS-0089/",
+    "Validation_Immunofluorescence": "/images/AICS-0089/AICS89_clone61_immuno_20200403_v5.jpg",
     "Validation_Immunofluorescence_caption": "",
 
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
-          "positiveCells": ""
+          "positiveCells": "99.8"
         },
         {
           "Marker": "SOX2",
-          "positiveCells": ""
+          "positiveCells": "NA"
         },
         {
-          "Marker": "4-Oct",
-          "positiveCells": ""
+          "Marker": "OCT4",
+          "positiveCells": "99.8"
         },
         {
           "Marker": "SSEA-1",
-          "positiveCells": ""
+          "positiveCells": "NA"
         },
         {
           "Marker": "SSEA-4",
-          "positiveCells": ""
+          "positiveCells": "100"
         },
         {
           "Marker": "TRA-160",
-          "positiveCells": ""
+          "positiveCells": "NA"
         }
         ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
-    "StemCellCharacterization_karyotype": "/images/AICS-0089/",
+    "StemCellCharacterization_karyotype": "/images/AICS-0089/AICS-89_cl61_FBL-NPM1-dCas9-KRAB_karyotype.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
 
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
           "Marker": "PAX6",
-          "percent_positive_cells": ""
+          "percent_positive_cells": "Pass"
         },
         {
           "Germ_Layer": "Endoderm",
           "Marker": "SOX17",
-          "percent_positive_cells": ""
+          "percent_positive_cells": "Pass"
         },
         {
           "Germ_Layer": "Mesoderm",
           "Marker": "Brachyury",
-          "percent_positive_cells": ""
+          "percent_positive_cells": "Pass"
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
 
     "StemCellCharacterization_differentiation":
         {
-          "troponin_percent_positive": "fill",
-          "Day_of_beating_percent": "fill",
-          "Day_of_beating_range": "fill"
+          "troponin_percent_positive": "78.6 (1)",
+          "Day_of_beating_percent": "100 (4)",
+          "Day_of_beating_range": "d8-d12"
         },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 12, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in (). ",
-    "StemCellCharacterization_rnaseq_fig": "/images/AICS-0089/",
+    "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
@@ -9170,15 +9218,15 @@
       },
       {
         "id":"genomiccharacterizations",
-        "done": "False"
+        "done": "true"
       },
       {
         "id": "validation",
-        "done": "False"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "False"
+        "done": "true"
       },
       {
         "id": "supplementaryinformation",
@@ -9214,6 +9262,30 @@
 
     "Main_media": [
         {
+          "type": "movie",
+          "cell_line_id": "AICS-0094",
+          "data_type": "high mag z-stack",
+          "file_name": "20190610_R02_002_s2_cropped_z25to49_scalebar5_8bit",
+          "caption": "Z-stack of live hiPS cell colony expressing mEGFP-tagged SON. Cells were imaged in 3D on a spinning-disk confocal microscope. Movie starts at the bottom of the cells and ends at the top. Scale bar, 5µm.",
+          "link": "https://player.vimeo.com/video/442186399"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0094",
+          "data_type": "time lapse in high mag",
+          "file_name": "20190815_R02_s9_gfp_z16_t0to20_cropped_scalebar5_timestamp3min_8bit_5fps",
+          "caption": "Time-lapse movie of live hiPS cell colony expressing mEGFP-tagged SON. A single, mid-level plane of the cells was imaged every 3 min on a spinning-disk confocal microscope. Movie plays at 900x real time. Scale bar, 5 µm.",
+          "link": "https://player.vimeo.com/video/442186172"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0094",
+          "data_type": "time lapse in low mag",
+          "file_name": "20190808_R01_s2_gfp_z6_labels_8bit_t1to100",
+          "caption": "Time-lapse movie of live hiPS cell colony expressing mEGFP-tagged SON. A single, mid-level plane of the cells was imaged every 3 min on a spinning-disk confocal microscope. Movie plays at 1800x real time. Scale bar, 20 µm.",
+          "link": "https://player.vimeo.com/video/442186194"
+        },
+        {
           "type": "image",
           "cell_line_id": "AICS-0094",
           "data_type": "single plane image",
@@ -9236,33 +9308,33 @@
     "EditingDesign_gene_figure": "/images/AICS-0094/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: SON locus showing 4 SON isoforms; Bottom: Zoom in on mEGFP insertion site at SON N-terminal exon",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
-    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0094/",
+    "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
 
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "SON-mEGFP",
           "junction": "5'",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1592",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "SON-mEGFP",
           "junction": "3'",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1525",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "SON-mEGFP",
           "junction": "WT internal",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1694",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "SON-mEGFP",
           "junction": "Full junctional allele",
           "expected_size": "Tagged: bp; Untagged: bp",
-          "confirmed_sequence": ""
+          "confirmed_sequence": "Yes"
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
@@ -9270,76 +9342,76 @@
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "SON-mEGFP",
-          "clone": "",
-          "fp_ratio": "",
-          "plasmid": ""
+          "clone": "cl24",
+          "fp_ratio": "0.52",
+          "plasmid": "0.001"
         }
         ],
     "GenomicCharacterization_ddpcr_caption": "FP:RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.1 indicate heterozygous clone, values = 1 +/- 0.1 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "/images/AICS-0094/",
+    "Validation_WesternBlot": "/images/AICS-0094/ReleaseWestern_AICS0094_cl024_20190801_SON_EGFP_final.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "/images/AICS-0094/",
+    "Validation_Immunofluorescence": "/images/AICS-0094/AICS94_SON_immuno_20200327_v2.jpg",
     "Validation_Immunofluorescence_caption": "",
 
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
-          "positiveCells": ""
+          "positiveCells": "99.9"
         },
         {
           "Marker": "SOX2",
-          "positiveCells": ""
+          "positiveCells": "100"
         },
         {
-          "Marker": "4-Oct",
-          "positiveCells": ""
+          "Marker": "OCT4",
+          "positiveCells": "99.9"
         },
         {
           "Marker": "SSEA-1",
-          "positiveCells": ""
+          "positiveCells": "1.39"
         },
         {
           "Marker": "SSEA-4",
-          "positiveCells": ""
+          "positiveCells": "100"
         },
         {
           "Marker": "TRA-160",
-          "positiveCells": ""
+          "positiveCells": "100"
         }
         ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
-    "StemCellCharacterization_karyotype": "/images/AICS-0094/",
+    "StemCellCharacterization_karyotype": "/images/AICS-0094/AICS-94_cl24_SON_karyotype.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
 
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
           "Marker": "PAX6",
-          "percent_positive_cells": ""
+          "percent_positive_cells": "Pass"
         },
         {
           "Germ_Layer": "Endoderm",
           "Marker": "SOX17",
-          "percent_positive_cells": ""
+          "percent_positive_cells": "Pass"
         },
         {
           "Germ_Layer": "Mesoderm",
           "Marker": "Brachyury",
-          "percent_positive_cells": ""
+          "percent_positive_cells": "Pass"
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
 
     "StemCellCharacterization_differentiation":
         {
-          "troponin_percent_positive": "fill",
-          "Day_of_beating_percent": "fill",
-          "Day_of_beating_range": "fill"
+          "troponin_percent_positive": "77-82 (2)",
+          "Day_of_beating_percent": "100 (4)",
+          "Day_of_beating_range": "d8-d11"
         },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 12, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in (). ",
-    "StemCellCharacterization_rnaseq_fig": "/images/AICS-0094/",
+    "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Protocols_culturing":"/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
@@ -9364,15 +9436,15 @@
       },
       {
         "id":"genomiccharacterizations",
-        "done": "False"
+        "done": "true"
       },
       {
         "id": "validation",
-        "done": "False"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "False"
+        "done": "true"
       },
       {
         "id": "supplementaryinformation",
@@ -9415,6 +9487,30 @@
     
     "Main_media": [
         {
+          "type": "movie",
+          "cell_line_id": "AICS-0086",
+          "data_type": "high mag z-stack",
+          "file_name": "20190528_N01_002_s3_combinedstacks_square_labels_z17to39",
+          "caption": "Z-stack of live hiPS cell colony expressing mEGFP-tagged fibrillarin, mTagRFP-T-tagged nucleophosmin, and HaloTag-tagged nucleolar transcription factor UBF visualized with ligand Janelia Fluor 646 (Promega). Panels show individual channels for fibrillarin, nucleolar transcription factor UBF, nucleophosmin, and an overlay of the three (counterclockwise from top right). Cells were imaged in 3D on a spinning-disk confocal microscope. Movie starts at the bottom of the cells and ends at the top. Scale bar, 5 µm.",
+          "link": "https://player.vimeo.com/video/442124590"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0086",
+          "data_type": "time lapse in high mag",
+          "file_name": "20190806_N02_001_s2_combinedCombinedMultiPanel_rectangle_scalebars5_timestamp3_5fps",
+          "caption": "Time-lapse movie of live hiPS cell colony expressing mEGFP-tagged fibrillarin, mTagRFP-T-tagged nucleophosmin, and HaloTag-tagged nucleolar transcription factor UBF visualized with ligand Janelia Fluor 646 (Promega). Panels show individual channels for nucleolar transcription factor UBF, fibrillarin, nucleophosmin, and an overlay of the three (left to right). Boxed regions in top row are shown enlarged in the bottom row with increased brightness.  Cells were imaged in 3D on a spinning-disk confocal microscope every 3 min. A single mid-level plane is shown. Movie plays at 900x real time. Scale bar, 5 µm.",
+          "link": "https://player.vimeo.com/video/442123253"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0086",
+          "data_type": "time lapse in low mag",
+          "file_name": "20190805_N01_001-Scene-3_aligned_croppedsquare_t50to150_compositeRGB_scalebar20_timestamp3_10fps",
+          "caption": "Time-lapse movie of live hiPS cell colony expressing mEGFP-tagged fibrillarin (pseudocolored in magenta), mTagRFP-T-tagged nucleophosmin (pseudocolored in cyan), and HaloTag-tagged nucleolar transcription factor UBF visualized with ligand Janelia Fluor 646 (Promega) (pseudocolored in yellow); overlay of channels appears white where proteins are colocalized. Cells were imaged in 3D on a spinning-disk confocal microscope every 3 min. A single mid-level plane is shown. Movie plays at 1800x real time. Scale bar, 20 µm.",
+          "link": "https://player.vimeo.com/video/442124499"
+        },
+        {
           "type": "image",
           "cell_line_id": "AICS-0086",
           "data_type": "single plane image",
@@ -9437,81 +9533,81 @@
     "EditingDesign_gene_figure": "/images/AICS-0086/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: FBL locus with zoom in on mEGFP insertion site at FBL C-terminal exon. Middle: NPM1 locus showing 7 NPM1 isoforms with zoom in on mTagRFP-T insertion site at NPM1 C-terminal exon. Bottom: UBTF locus showing 3 UBTF isoforms with zoom in on HaloTag insertion site at UBTF N-terminal exon",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
-    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0086/",
+    "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
     
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "FBL-mEGFP",
           "junction": "5'",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1392",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "FBL-mEGFP",
           "junction": "3'",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1500",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "FBL-mEGFP",
           "junction": "WT internal",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1860",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "FBL-mEGFP",
           "junction": "Full junctional allele",
           "expected_size": "Tagged: bp; Untagged: bp",
-          "confirmed_sequence": ""
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "NPM1-mTagRFP-T",
           "junction": "5'",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1500",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "NPM1-mTagRFP-T",
           "junction": "3'",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1521",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "NPM1-mTagRFP-T",
           "junction": "WT internal",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "2325",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "NPM1-mTagRFP-T",
           "junction": "Full junctional allele",
           "expected_size": "Tagged: bp; Untagged: bp",
-          "confirmed_sequence": ""
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "UBTF-HaloTag",
           "junction": "5'",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1501",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "UBTF-HaloTag",
           "junction": "3'",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1721",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "UBTF-HaloTag",
           "junction": "WT internal",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "2297",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "UBTF-HaloTag",
           "junction": "Full junctional allele",
           "expected_size": "Tagged: bp; Untagged: bp",
-          "confirmed_sequence": ""
+          "confirmed_sequence": "yes"
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP, mTagRFP-T, and HaloTag insertion. Primers were designed to exclude amplification from the donor plasmid.",
@@ -9519,88 +9615,88 @@
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "FBL-mEGFP",
-          "clone": "",
-          "fp_ratio": "",
-          "plasmid": ""
+          "clone": "cl147",
+          "fp_ratio": "0.521",
+          "plasmid": "0"
         },
         {
           "gene_tag": "NPM1-mTagRFP-T",
-          "clone": "",
-          "fp_ratio": "",
-          "plasmid": ""
+          "clone": "cl147",
+          "fp_ratio": "0.492",
+          "plasmid": "0"
         },
         {
           "gene_tag": "UBTF-HaloTag",
-          "clone": "",
-          "fp_ratio": "",
-          "plasmid": ""
+          "clone": "cl147",
+          "fp_ratio": "0.482",
+          "plasmid": "0"
         }
         ],
     "GenomicCharacterization_ddpcr_caption": "FP:RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.1 indicate heterozygous clone, values = 1 +/- 0.1 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "/images/AICS-0086/",
+    "Validation_WesternBlot": "/images/AICS-0086/ReleaseWestern_AICS0086_cl147_20190822_Nucleolus_Triple_UBF_final.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "/images/AICS-0086/",
+    "Validation_Immunofluorescence": "/images/AICS-0086/AICS86_tripleUBTF_immuno_20200403_v5.jpg",
     "Validation_Immunofluorescence_caption": "",
     
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
-          "positiveCells": ""
+          "positiveCells": "99.7"
         },
         {
           "Marker": "SOX2",
-          "positiveCells": ""
+          "positiveCells": "99.8"
         },
         {
-          "Marker": "4-Oct",
-          "positiveCells": ""
+          "Marker": "OCT4",
+          "positiveCells": "99.3"
         },
         {
           "Marker": "SSEA-1",
-          "positiveCells": ""
+          "positiveCells": "0.08"
         },
         {
           "Marker": "SSEA-4",
-          "positiveCells": ""
+          "positiveCells": "100"
         },
         {
           "Marker": "TRA-160",
-          "positiveCells": ""
+          "positiveCells": "100"
         }
         ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
-    "StemCellCharacterization_karyotype": "/images/AICS-0086/",
+    "StemCellCharacterization_karyotype": "/images/AICS-0086/AICS-86_cl147_FBL_NPM1_UBTF_karyotype.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
     
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
           "Marker": "PAX6",
-          "percent_positive_cells": ""
+          "percent_positive_cells": "Pass"
         },
         {
           "Germ_Layer": "Endoderm",
           "Marker": "SOX17",
-          "percent_positive_cells": ""
+          "percent_positive_cells": "Pass"
         },
         {
           "Germ_Layer": "Mesoderm",
           "Marker": "Brachyury",
-          "percent_positive_cells": ""
+          "percent_positive_cells": "Pass"
         }
         ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
     
     "StemCellCharacterization_differentiation":
         {
-          "troponin_percent_positive": "fill",
-          "Day_of_beating_percent": "fill",
-          "Day_of_beating_range": "fill"
+          "troponin_percent_positive": "76-81 (4)",
+          "Day_of_beating_percent": "100 (4)",
+          "Day_of_beating_range": "d10-d12"
         },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 12, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in (). ",
-    "StemCellCharacterization_rnaseq_fig": "/images/AICS-0086/",
+    "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
@@ -9624,15 +9720,15 @@
       },
       {
         "id":"genomiccharacterizations",
-        "done": "False"
+        "done": "true"
       },
       {
         "id": "validation",
-        "done": "False"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "False"
+        "done": "true"
       },
       {
         "id": "supplementaryinformation",
@@ -9666,6 +9762,22 @@
     
     "Main_media": [
         {
+          "type": "movie",
+          "cell_line_id": "AICS-0087",
+          "data_type": "high mag z-stack",
+          "file_name": "20190716_I01_002_scene08_cropped_z22to47_scalebar5_8bit",
+          "caption": "Z-stack of live hiPS cell colony expressing mEGFP-tagged mitochondrial transcription factor A (TFAM). Cells were imaged in 3D on a spinning-disk confocal microscope. Movie starts at the bottom of the cells and ends at the top. Scale bar, 5µm.",
+          "link": "https://player.vimeo.com/video/442126500"
+        },
+        {
+          "type": "movie",
+          "cell_line_id": "AICS-0087",
+          "data_type": "time lapse in high mag",
+          "file_name": "20191122_N01_001_s3_squarecrop_t1to18_scalebar5_timestamp3_5fps",
+          "caption": "Time-lapse movie of live hiPS cell colony expressing mEGFP-tagged mitochondrial transcription factor A (TFAM). A single, mid-level plane of the cells was imaged every 3 min on a spinning-disk confocal microscope. Movie plays at 900x real time. Scale bar, 5 µm.",
+          "link": "https://player.vimeo.com/video/442126456"
+        },
+        {
           "type": "image",
           "cell_line_id": "AICS-0087",
           "data_type": "single plane image",
@@ -9688,33 +9800,33 @@
     "EditingDesign_gene_figure": "/images/AICS-0087/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: TFAM locus showing 2 TFAM isoforms; Bottom: Zoom in on mEGFP insertion site at TFAM C-terminal exon",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
-    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0087/",
+    "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
     
     "GenomicCharacterization_junction_table": [
         {
           "editedGene": "TFAM-mEGFP",
           "junction": "5'",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1629",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "TFAM-mEGFP",
           "junction": "3'",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1653",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "TFAM-mEGFP",
           "junction": "WT internal",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "expected_size": "1782",
+          "confirmed_sequence": "yes"
         },
         {
           "editedGene": "TFAM-mEGFP",
           "junction": "Full junctional allele",
           "expected_size": "Tagged: bp; Untagged: bp",
-          "confirmed_sequence": ""
+          "confirmed_sequence": "yes"
         }
         ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
@@ -9722,19 +9834,182 @@
     "GenomicCharacterization_ddpcr": [
         {
           "gene_tag": "TFAM-mEGFP",
-          "clone": "",
-          "fp_ratio": "",
-          "plasmid": ""
+          "clone": "cl31",
+          "fp_ratio": "0.453",
+          "plasmid": "0.009"
         }
         ],
     "GenomicCharacterization_ddpcr_caption": "FP:RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.1 indicate heterozygous clone, values = 1 +/- 0.1 indicate homozygous clone. Plasmid: AmpR/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "/images/AICS-0087/",
+    "Validation_WesternBlot": "/images/AICS-0087/ReleaseWestern_AICS0087_cl031_20191112_TFAM_EGFP_final.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "/images/AICS-0087/",
+    "Validation_Immunofluorescence": "/images/AICS-0087/AICS87_TFAM_immuno_20200327_v3.jpg",
     "Validation_Immunofluorescence_caption": "",
     
+    "StemCellCharacterization_pluripotency_analysis": [
+        {
+          "Marker": "NANOG",
+          "positiveCells": "99.9"
+        },
+        {
+          "Marker": "SOX2",
+          "positiveCells": "99.9"
+        },
+        {
+          "Marker": "OCT4",
+          "positiveCells": "99.9"
+        },
+        {
+          "Marker": "SSEA-1",
+          "positiveCells": "1.38"
+        },
+        {
+          "Marker": "SSEA-4",
+          "positiveCells": "100"
+        },
+        {
+          "Marker": "TRA-160",
+          "positiveCells": "99.8"
+        }
+        ],
+    "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
+    "StemCellCharacterization_karyotype": "/images/AICS-0087/AICS-87_cl31_TFAM_karyotype.JPG",
+    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
+    
+    "StemCellCharacterization_trilineage": [
+        {
+          "Germ_Layer": "Ectoderm",
+          "Marker": "PAX6",
+          "percent_positive_cells": "Pass"
+        },
+        {
+          "Germ_Layer": "Endoderm",
+          "Marker": "SOX17",
+          "percent_positive_cells": "Pass"
+        },
+        {
+          "Germ_Layer": "Mesoderm",
+          "Marker": "Brachyury",
+          "percent_positive_cells": "Pass"
+        }
+        ],
+    "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
+    
+    "StemCellCharacterization_differentiation":
+        {
+          "troponin_percent_positive": "83 (1)",
+          "Day_of_beating_percent": "100 (3)",
+          "Day_of_beating_range": "d11-d12"
+        },
+    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 12, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in (). ",
+    "StemCellCharacterization_rnaseq_fig": "",
+    "StemCellCharacterization_rnaseq_fig_caption": "",
+    "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
+    "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
+    "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
+    "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
+    "Protocols_cardio_diff": "/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
+    "Protocols_offtargets": ""
+  },
+  {
+    "cell_line_id": "AICS-0078",
+    "clone_number": "",
+    "alleleCount": "",
+    "status": "In Progress",
+    "subpaged_status": [
+      { "id": "editingdesign",
+        "done": "false"
+      },
+      {
+        "id":"genomiccharacterizations",
+        "done": "false"
+      },
+      {
+        "id": "validation",
+        "done": "false"
+      },
+      {
+        "id": "stemcellcharacteristics",
+        "done": "false"
+      },
+      {
+        "id": "supplementaryinformation",
+        "done": "false"
+      },
+      {
+        "id": "protocols",
+        "done": "false"
+      }
+    ],
+    "Main_data_available": "false",
+    "Main_parent_line": "WTC",
+    "Main_gene_symbol": "TOMM20 / TUBA1B",
+    "Main_gene_name": "translocase of outer mitochondrial membrane 20 / tubulin-alpha 1b",
+    "Main_protein": "Tom20 / alpha-tubulin",
+    "Main_gene_id": "",
+    "Main_mrna_id": "",
+    "Main_mrna_id1": "",
+    "Main_structure": "Mitochondria / microtubules",
+    "Main_terminal_tagged": "C-terminus / N-terminus",
+    "Main_fluorescent_tag": "mEGFP / mTagRFP-T",
+    "Main_linker": "",
+    "Main_order_link": "",
+    "Main_cofa": "",
+    "Main_parental_order_link": "",
+    "Main_plasmid_sequence": "",
+
+    "Main_media": [],
+    "EditingDesign_crRNA_seq": "N",
+    "EditingDesign_cas9": "Wildtype spCas9",
+    "EditingDesign_NCBI_isoform": "N",
+    "EditingDesign_gene_figure": "",
+    "EditingDesign_gene_figure_caption": "N",
+    "GenomicCharacterization_junction_schematic": "",
+    "GenomicCharacterization_tagged_allele_gel": "",
+    "GenomicCharacterization_tagged_allele_gel_caption": "N",
+
+    "GenomicCharacterization_junction_table": [
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        },
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        },
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        },
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        }
+        ],
+    "GenomicCharacterization_junction_table_caption": "",
+
+    "GenomicCharacterization_ddpcr": [
+        {
+          "clone": "",
+          "fp_ratio": "",
+          "plasmid": ""
+        }
+        ],
+    "GenomicCharacterization_ddpcr_caption": "N",
+    "GenomicCharacterization_offtargets": "",
+    "GenomicCharacterization_offtargets_caption": "N",
+    "Validation_WesternBlot": "",
+    "Validation_WesternBlot_caption": "",
+    "Validation_Immunofluorescence": "",
+    "Validation_Immunofluorescence_caption": "",
+
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -9745,7 +10020,7 @@
           "positiveCells": ""
         },
         {
-          "Marker": "4-Oct",
+          "Marker": "OCT4",
           "positiveCells": ""
         },
         {
@@ -9753,7 +10028,7 @@
           "positiveCells": ""
         },
         {
-          "Marker": "SSEA-4",
+          "Marker": "SSEA-3",
           "positiveCells": ""
         },
         {
@@ -9761,10 +10036,10 @@
           "positiveCells": ""
         }
         ],
-    "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
-    "StemCellCharacterization_karyotype": "/images/AICS-0087/",
-    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
-    
+    "StemCellCharacterization_pluripotency_analysis_caption": "N",
+    "StemCellCharacterization_karyotype": "",
+    "StemCellCharacterization_karyotype_caption": "N",
+
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
@@ -9782,23 +10057,838 @@
           "percent_positive_cells": ""
         }
         ],
-    "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
-    
+    "StemCellCharacterization_trilineage_caption": "",
+
     "StemCellCharacterization_differentiation":
         {
-          "troponin_percent_positive": "fill",
-          "Day_of_beating_percent": "fill",
-          "Day_of_beating_range": "fill"
+          "troponin_percent_positive": "",
+          "Day_of_beating_percent": "",
+          "Day_of_beating_range": ""
         },
-    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 12, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in (). ",
-    "StemCellCharacterization_rnaseq_fig": "/images/AICS-0087/",
+    "StemCellCharacterization_differentiation_caption": "N",
+    "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
     "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff": "/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
+    "Protocols_offtargets": ""
+  },
+  {
+    "cell_line_id": "AICS-0088",
+    "clone_number": "",
+    "alleleCount": "",
+    "status": "In Progress",
+    "subpaged_status": [
+      { "id": "editingdesign",
+        "done": "false"
+      },
+      {
+        "id":"genomiccharacterizations",
+        "done": "false"
+      },
+      {
+        "id": "validation",
+        "done": "false"
+      },
+      {
+        "id": "stemcellcharacteristics",
+        "done": "false"
+      },
+      {
+        "id": "supplementaryinformation",
+        "done": "false"
+      },
+      {
+        "id": "protocols",
+        "done": "false"
+      }
+    ],
+    "Main_data_available": "false",
+    "Main_parent_line": "WTC",
+    "Main_gene_symbol": "PCNA",
+    "Main_gene_name": "proliferating cell nuclear antigen",
+    "Main_protein": "proliferating cell nuclear antigen (PCNA)",
+    "Main_gene_id": "",
+    "Main_mrna_id": "",
+    "Main_mrna_id1": "",
+    "Main_structure": "DNA replication complex",
+    "Main_terminal_tagged": "N-Terminus",
+    "Main_fluorescent_tag": "mEGFP",
+    "Main_linker": "",
+    "Main_order_link": "",
+    "Main_cofa": "",
+    "Main_parental_order_link": "",
+    "Main_plasmid_sequence": "",
+
+    "Main_media": [],
+    "EditingDesign_crRNA_seq": "N",
+    "EditingDesign_cas9": "Wildtype spCas9",
+    "EditingDesign_NCBI_isoform": "N",
+    "EditingDesign_gene_figure": "",
+    "EditingDesign_gene_figure_caption": "N",
+    "GenomicCharacterization_junction_schematic": "",
+    "GenomicCharacterization_tagged_allele_gel": "",
+    "GenomicCharacterization_tagged_allele_gel_caption": "N",
+
+    "GenomicCharacterization_junction_table": [
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        },
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        },
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        },
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        }
+        ],
+    "GenomicCharacterization_junction_table_caption": "",
+
+    "GenomicCharacterization_ddpcr": [
+        {
+          "clone": "",
+          "fp_ratio": "",
+          "plasmid": ""
+        }
+        ],
+    "GenomicCharacterization_ddpcr_caption": "N",
+    "GenomicCharacterization_offtargets": "",
+    "GenomicCharacterization_offtargets_caption": "N",
+    "Validation_WesternBlot": "",
+    "Validation_WesternBlot_caption": "",
+    "Validation_Immunofluorescence": "",
+    "Validation_Immunofluorescence_caption": "",
+
+    "StemCellCharacterization_pluripotency_analysis": [
+        {
+          "Marker": "NANOG",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "SOX2",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "OCT4",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "SSEA-1",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "SSEA-3",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "TRA-160",
+          "positiveCells": ""
+        }
+        ],
+    "StemCellCharacterization_pluripotency_analysis_caption": "N",
+    "StemCellCharacterization_karyotype": "",
+    "StemCellCharacterization_karyotype_caption": "N",
+
+    "StemCellCharacterization_trilineage": [
+        {
+          "Germ_Layer": "Ectoderm",
+          "Marker": "PAX6",
+          "percent_positive_cells": ""
+        },
+        {
+          "Germ_Layer": "Endoderm",
+          "Marker": "SOX17",
+          "percent_positive_cells": ""
+        },
+        {
+          "Germ_Layer": "Mesoderm",
+          "Marker": "Brachyury",
+          "percent_positive_cells": ""
+        }
+        ],
+    "StemCellCharacterization_trilineage_caption": "",
+
+    "StemCellCharacterization_differentiation":
+        {
+          "troponin_percent_positive": "",
+          "Day_of_beating_percent": "",
+          "Day_of_beating_range": ""
+        },
+    "StemCellCharacterization_differentiation_caption": "N",
+    "StemCellCharacterization_rnaseq_fig": "",
+    "StemCellCharacterization_rnaseq_fig_caption": "",
+    "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
+    "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
+    "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
+    "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
+    "Protocols_offtargets": ""
+  },
+  {
+    "cell_line_id": "AICS-90",
+    "clone_number": "",
+    "alleleCount": "",
+    "status": "In Progress",
+    "subpaged_status": [
+      { "id": "editingdesign",
+        "done": "false"
+      },
+      {
+        "id":"genomiccharacterizations",
+        "done": "false"
+      },
+      {
+        "id": "validation",
+        "done": "false"
+      },
+      {
+        "id": "stemcellcharacteristics",
+        "done": "false"
+      },
+      {
+        "id": "supplementaryinformation",
+        "done": "false"
+      },
+      {
+        "id": "protocols",
+        "done": "false"
+      }
+    ],
+    "Main_data_available": "false",
+    "Main_parent_line": "WTC",
+    "Main_gene_symbol": "CLYBL",
+    "Main_gene_name": "CLYBL safe harbor",
+    "Main_protein": "NA",
+    "Main_gene_id": "",
+    "Main_mrna_id": "",
+    "Main_mrna_id1": "",
+    "Main_structure": "NA",
+    "Main_terminal_tagged": "NA",
+    "Main_fluorescent_tag": "dCas9-KRAB-TagBFP",
+    "Main_linker": "",
+    "Main_order_link": "",
+    "Main_cofa": "",
+    "Main_parental_order_link": "",
+    "Main_plasmid_sequence": "",
+
+    "Main_media": [],
+    "EditingDesign_crRNA_seq": "N",
+    "EditingDesign_cas9": "Wildtype spCas9",
+    "EditingDesign_NCBI_isoform": "N",
+    "EditingDesign_gene_figure": "",
+    "EditingDesign_gene_figure_caption": "N",
+    "GenomicCharacterization_junction_schematic": "",
+    "GenomicCharacterization_tagged_allele_gel": "",
+    "GenomicCharacterization_tagged_allele_gel_caption": "N",
+
+    "GenomicCharacterization_junction_table": [
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        },
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        },
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        },
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        }
+        ],
+    "GenomicCharacterization_junction_table_caption": "",
+
+    "GenomicCharacterization_ddpcr": [
+        {
+          "clone": "",
+          "fp_ratio": "",
+          "plasmid": ""
+        }
+        ],
+    "GenomicCharacterization_ddpcr_caption": "N",
+    "GenomicCharacterization_offtargets": "",
+    "GenomicCharacterization_offtargets_caption": "N",
+    "Validation_WesternBlot": "",
+    "Validation_WesternBlot_caption": "",
+    "Validation_Immunofluorescence": "",
+    "Validation_Immunofluorescence_caption": "",
+
+    "StemCellCharacterization_pluripotency_analysis": [
+        {
+          "Marker": "NANOG",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "SOX2",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "OCT4",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "SSEA-1",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "SSEA-3",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "TRA-160",
+          "positiveCells": ""
+        }
+        ],
+    "StemCellCharacterization_pluripotency_analysis_caption": "N",
+    "StemCellCharacterization_karyotype": "",
+    "StemCellCharacterization_karyotype_caption": "N",
+
+    "StemCellCharacterization_trilineage": [
+        {
+          "Germ_Layer": "Ectoderm",
+          "Marker": "PAX6",
+          "percent_positive_cells": ""
+        },
+        {
+          "Germ_Layer": "Endoderm",
+          "Marker": "SOX17",
+          "percent_positive_cells": ""
+        },
+        {
+          "Germ_Layer": "Mesoderm",
+          "Marker": "Brachyury",
+          "percent_positive_cells": ""
+        }
+        ],
+    "StemCellCharacterization_trilineage_caption": "",
+
+    "StemCellCharacterization_differentiation":
+        {
+          "troponin_percent_positive": "",
+          "Day_of_beating_percent": "",
+          "Day_of_beating_range": ""
+        },
+    "StemCellCharacterization_differentiation_caption": "N",
+    "StemCellCharacterization_rnaseq_fig": "",
+    "StemCellCharacterization_rnaseq_fig_caption": "",
+    "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
+    "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
+    "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
+    "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
+    "Protocols_offtargets": ""
+  },
+  {
+    "cell_line_id": "AICS-0093",
+    "clone_number": "",
+    "alleleCount": "",
+    "status": "In Progress",
+    "subpaged_status": [
+      { "id": "editingdesign",
+        "done": "false"
+      },
+      {
+        "id":"genomiccharacterizations",
+        "done": "false"
+      },
+      {
+        "id": "validation",
+        "done": "false"
+      },
+      {
+        "id": "stemcellcharacteristics",
+        "done": "false"
+      },
+      {
+        "id": "supplementaryinformation",
+        "done": "false"
+      },
+      {
+        "id": "protocols",
+        "done": "false"
+      }
+    ],
+    "Main_data_available": "false",
+    "Main_parent_line": "WTC",
+    "Main_gene_symbol": "TERF2",
+    "Main_gene_name": "telomeric repeat binding factor 2",
+    "Main_protein": "telomeric repeat-binding factor 2",
+    "Main_gene_id": "",
+    "Main_mrna_id": "",
+    "Main_mrna_id1": "",
+    "Main_structure": "Telomeres",
+    "Main_terminal_tagged": "N-terminus",
+    "Main_fluorescent_tag": "mEGFP",
+    "Main_linker": "",
+    "Main_order_link": "",
+    "Main_cofa": "",
+    "Main_parental_order_link": "",
+    "Main_plasmid_sequence": "",
+
+    "Main_media": [],
+    "EditingDesign_crRNA_seq": "N",
+    "EditingDesign_cas9": "Wildtype spCas9",
+    "EditingDesign_NCBI_isoform": "N",
+    "EditingDesign_gene_figure": "",
+    "EditingDesign_gene_figure_caption": "N",
+    "GenomicCharacterization_junction_schematic": "",
+    "GenomicCharacterization_tagged_allele_gel": "",
+    "GenomicCharacterization_tagged_allele_gel_caption": "N",
+
+    "GenomicCharacterization_junction_table": [
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        },
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        },
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        },
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        }
+        ],
+    "GenomicCharacterization_junction_table_caption": "",
+
+    "GenomicCharacterization_ddpcr": [
+        {
+          "clone": "",
+          "fp_ratio": "",
+          "plasmid": ""
+        }
+        ],
+    "GenomicCharacterization_ddpcr_caption": "N",
+    "GenomicCharacterization_offtargets": "",
+    "GenomicCharacterization_offtargets_caption": "N",
+    "Validation_WesternBlot": "",
+    "Validation_WesternBlot_caption": "",
+    "Validation_Immunofluorescence": "",
+    "Validation_Immunofluorescence_caption": "",
+
+    "StemCellCharacterization_pluripotency_analysis": [
+        {
+          "Marker": "NANOG",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "SOX2",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "OCT4",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "SSEA-1",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "SSEA-3",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "TRA-160",
+          "positiveCells": ""
+        }
+        ],
+    "StemCellCharacterization_pluripotency_analysis_caption": "N",
+    "StemCellCharacterization_karyotype": "",
+    "StemCellCharacterization_karyotype_caption": "N",
+
+    "StemCellCharacterization_trilineage": [
+        {
+          "Germ_Layer": "Ectoderm",
+          "Marker": "PAX6",
+          "percent_positive_cells": ""
+        },
+        {
+          "Germ_Layer": "Endoderm",
+          "Marker": "SOX17",
+          "percent_positive_cells": ""
+        },
+        {
+          "Germ_Layer": "Mesoderm",
+          "Marker": "Brachyury",
+          "percent_positive_cells": ""
+        }
+        ],
+    "StemCellCharacterization_trilineage_caption": "",
+
+    "StemCellCharacterization_differentiation":
+        {
+          "troponin_percent_positive": "",
+          "Day_of_beating_percent": "",
+          "Day_of_beating_range": ""
+        },
+    "StemCellCharacterization_differentiation_caption": "N",
+    "StemCellCharacterization_rnaseq_fig": "",
+    "StemCellCharacterization_rnaseq_fig_caption": "",
+    "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
+    "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
+    "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
+    "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
+    "Protocols_offtargets": ""
+  },
+  {
+    "cell_line_id": "AICS-0095",
+    "clone_number": "",
+    "alleleCount": "",
+    "status": "In Progress",
+    "subpaged_status": [
+      { "id": "editingdesign",
+        "done": "false"
+      },
+      {
+        "id":"genomiccharacterizations",
+        "done": "false"
+      },
+      {
+        "id": "validation",
+        "done": "false"
+      },
+      {
+        "id": "stemcellcharacteristics",
+        "done": "false"
+      },
+      {
+        "id": "supplementaryinformation",
+        "done": "false"
+      },
+      {
+        "id": "protocols",
+        "done": "false"
+      }
+    ],
+    "Main_data_available": "false",
+    "Main_parent_line": "WTC",
+    "Main_gene_symbol": "EZH2",
+    "Main_gene_name": "enhancer of zeste 2 polycomb repressive complex 2 subunit",
+    "Main_protein": "histone-lysine N-methyltransferase EZH2",
+    "Main_gene_id": "",
+    "Main_mrna_id": "",
+    "Main_mrna_id1": "",
+    "Main_structure": "Polycomb repressor complex",
+    "Main_terminal_tagged": "N-terminus",
+    "Main_fluorescent_tag": "mEGFP",
+    "Main_linker": "",
+    "Main_order_link": "",
+    "Main_cofa": "",
+    "Main_parental_order_link": "",
+    "Main_plasmid_sequence": "",
+
+    "Main_media": [],
+    "EditingDesign_crRNA_seq": "N",
+    "EditingDesign_cas9": "Wildtype spCas9",
+    "EditingDesign_NCBI_isoform": "N",
+    "EditingDesign_gene_figure": "",
+    "EditingDesign_gene_figure_caption": "N",
+    "GenomicCharacterization_junction_schematic": "",
+    "GenomicCharacterization_tagged_allele_gel": "",
+    "GenomicCharacterization_tagged_allele_gel_caption": "N",
+
+    "GenomicCharacterization_junction_table": [
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        },
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        },
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        },
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        }
+        ],
+    "GenomicCharacterization_junction_table_caption": "",
+
+    "GenomicCharacterization_ddpcr": [
+        {
+          "clone": "",
+          "fp_ratio": "",
+          "plasmid": ""
+        }
+        ],
+    "GenomicCharacterization_ddpcr_caption": "N",
+    "GenomicCharacterization_offtargets": "",
+    "GenomicCharacterization_offtargets_caption": "N",
+    "Validation_WesternBlot": "",
+    "Validation_WesternBlot_caption": "",
+    "Validation_Immunofluorescence": "",
+    "Validation_Immunofluorescence_caption": "",
+
+    "StemCellCharacterization_pluripotency_analysis": [
+        {
+          "Marker": "NANOG",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "SOX2",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "OCT4",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "SSEA-1",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "SSEA-3",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "TRA-160",
+          "positiveCells": ""
+        }
+        ],
+    "StemCellCharacterization_pluripotency_analysis_caption": "N",
+    "StemCellCharacterization_karyotype": "",
+    "StemCellCharacterization_karyotype_caption": "N",
+
+    "StemCellCharacterization_trilineage": [
+        {
+          "Germ_Layer": "Ectoderm",
+          "Marker": "PAX6",
+          "percent_positive_cells": ""
+        },
+        {
+          "Germ_Layer": "Endoderm",
+          "Marker": "SOX17",
+          "percent_positive_cells": ""
+        },
+        {
+          "Germ_Layer": "Mesoderm",
+          "Marker": "Brachyury",
+          "percent_positive_cells": ""
+        }
+        ],
+    "StemCellCharacterization_trilineage_caption": "",
+
+    "StemCellCharacterization_differentiation":
+        {
+          "troponin_percent_positive": "",
+          "Day_of_beating_percent": "",
+          "Day_of_beating_range": ""
+        },
+    "StemCellCharacterization_differentiation_caption": "N",
+    "StemCellCharacterization_rnaseq_fig": "",
+    "StemCellCharacterization_rnaseq_fig_caption": "",
+    "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
+    "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
+    "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
+    "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
+    "Protocols_offtargets": ""
+  },
+  {
+    "cell_line_id": "AICS-0096",
+    "clone_number": "",
+    "alleleCount": "",
+    "status": "In Progress",
+    "subpaged_status": [
+      { "id": "editingdesign",
+        "done": "false"
+      },
+      {
+        "id":"genomiccharacterizations",
+        "done": "false"
+      },
+      {
+        "id": "validation",
+        "done": "false"
+      },
+      {
+        "id": "stemcellcharacteristics",
+        "done": "false"
+      },
+      {
+        "id": "supplementaryinformation",
+        "done": "false"
+      },
+      {
+        "id": "protocols",
+        "done": "false"
+      }
+    ],
+    "Main_data_available": "false",
+    "Main_parent_line": "WTC",
+    "Main_gene_symbol": "POLR2A",
+    "Main_gene_name": "RNA polymerase II subunit A",
+    "Main_protein": "RNA polymerase II subunit B1",
+    "Main_gene_id": "",
+    "Main_mrna_id": "",
+    "Main_mrna_id1": "",
+    "Main_structure": "Transcriptional complex",
+    "Main_terminal_tagged": "N-terminus",
+    "Main_fluorescent_tag": "mEGFP",
+    "Main_linker": "",
+    "Main_order_link": "",
+    "Main_cofa": "",
+    "Main_parental_order_link": "",
+    "Main_plasmid_sequence": "",
+
+    "Main_media": [],
+    "EditingDesign_crRNA_seq": "N",
+    "EditingDesign_cas9": "Wildtype spCas9",
+    "EditingDesign_NCBI_isoform": "N",
+    "EditingDesign_gene_figure": "",
+    "EditingDesign_gene_figure_caption": "N",
+    "GenomicCharacterization_junction_schematic": "",
+    "GenomicCharacterization_tagged_allele_gel": "",
+    "GenomicCharacterization_tagged_allele_gel_caption": "N",
+
+    "GenomicCharacterization_junction_table": [
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        },
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        },
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        },
+        {
+          "junction": "",
+          "expected_size": "",
+          "confirmed_sequence": ""
+        }
+        ],
+    "GenomicCharacterization_junction_table_caption": "",
+
+    "GenomicCharacterization_ddpcr": [
+        {
+          "clone": "",
+          "fp_ratio": "",
+          "plasmid": ""
+        }
+        ],
+    "GenomicCharacterization_ddpcr_caption": "N",
+    "GenomicCharacterization_offtargets": "",
+    "GenomicCharacterization_offtargets_caption": "N",
+    "Validation_WesternBlot": "",
+    "Validation_WesternBlot_caption": "",
+    "Validation_Immunofluorescence": "",
+    "Validation_Immunofluorescence_caption": "",
+
+    "StemCellCharacterization_pluripotency_analysis": [
+        {
+          "Marker": "NANOG",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "SOX2",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "OCT4",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "SSEA-1",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "SSEA-3",
+          "positiveCells": ""
+        },
+        {
+          "Marker": "TRA-160",
+          "positiveCells": ""
+        }
+        ],
+    "StemCellCharacterization_pluripotency_analysis_caption": "N",
+    "StemCellCharacterization_karyotype": "",
+    "StemCellCharacterization_karyotype_caption": "N",
+
+    "StemCellCharacterization_trilineage": [
+        {
+          "Germ_Layer": "Ectoderm",
+          "Marker": "PAX6",
+          "percent_positive_cells": ""
+        },
+        {
+          "Germ_Layer": "Endoderm",
+          "Marker": "SOX17",
+          "percent_positive_cells": ""
+        },
+        {
+          "Germ_Layer": "Mesoderm",
+          "Marker": "Brachyury",
+          "percent_positive_cells": ""
+        }
+        ],
+    "StemCellCharacterization_trilineage_caption": "",
+
+    "StemCellCharacterization_differentiation":
+        {
+          "troponin_percent_positive": "",
+          "Day_of_beating_percent": "",
+          "Day_of_beating_range": ""
+        },
+    "StemCellCharacterization_differentiation_caption": "N",
+    "StemCellCharacterization_rnaseq_fig": "",
+    "StemCellCharacterization_rnaseq_fig_caption": "",
+    "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
+    "Protocols_culturing": "/data/pdfs/AICS_WTC_culture SOP_external_v1-7_200210.pdf",
+    "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
+    "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
+    "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
+    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
     "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
     "Protocols_offtargets": ""
   }
