@@ -10579,7 +10579,7 @@
       },
       {
         "id":"genomiccharacterizations",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "validation",
@@ -10600,19 +10600,19 @@
     ],
     "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
-    "Main_gene_symbol": "dCas9-KRAB",
+    "Main_gene_symbol": "CLYBL safe harbor",
     "Main_gene_symbol1": "",
     "Main_gene_symbol2": "",
-    "Main_gene_name": "NA",
+    "Main_gene_name": "citramalyl-CoA lyase safe harbor",
     "Main_protein": "dCas9-KRAB",
     "Main_gene_id": "171425",
     "Main_gene_id1": "",
     "Main_gene_id2": "",
-    "Main_mrna_id": "",
+    "Main_mrna_id": "NA",
     "Main_structure": "Nucleus",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "TagBFP",
-    "Main_linker": "",
+    "Main_linker": "N/A",
     "Main_order_link": "https://www.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0090-391&PgId=166",
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0090-391_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
@@ -10623,17 +10623,17 @@
           "type": "image",
           "cell_line_id": "AICS-0090",
           "data_type": "single plane image",
-          "file_name": "single_plane_image.jpg",
-          "caption": "Single, mid-level plane of cells in a live hiPS cell colony expressing TagBFP-tagged dCas9-KRAB. TagBFP-tagged dCas9-KRAB (left) and overlay onto transmitted light image (right) are shown. Cells were imaged in 3D on a spinning-disk confocal microscope. Scale bar, 50 $\mu$m.",
-          "link": "/images/AICS-0090/single_plane_image.jpg"
+          "file_name": "single_plane_image_cl391.jpg",
+          "caption": "Single, mid-level plane of cells in a live hiPS cell colony expressing TagBFP-tagged dCas9-KRAB. TagBFP-tagged dCas9-KRAB (left) and overlay onto transmitted light image (right) are shown. Cells were imaged in 3D on a spinning-disk confocal microscope. Scale bar, 50 μm.",
+          "link": "/images/AICS-0090/single_plane_image_cl391.jpg"
         },
         {
           "type": "image",
           "cell_line_id": "AICS-0090",
           "data_type": "morphology_image",
-          "file_name": "AICS-90_cl391_CLYBL-dCas9-KRAB.jpg",
+          "file_name": "Main_cell_line_morphology.jpg",
           "caption": "Viability and colony formation one day and three days post-thaw. Cells were treated with ROCK inhibitor for 24 hrs post-thaw.",
-          "link": "/images/AICS-0090/AICS-90_cl391_CLYBL-dCas9-KRAB.jpg"
+          "link": "/images/AICS-0090/Main_cell_line_morphology.jpg"
         }
         ],
     "EditingDesign_crRNA_seq": "TGTTGGAAGGATGAGGAAAT",
@@ -10642,7 +10642,7 @@
     "EditingDesign_gene_figure": "/images/AICS-0090/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: CLYBL locus; Bottom: Zoom in on dCas9-TagBFP-KRAB insertion site at CLYBL safe harbor site between exons 2 and 3",
     "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
-    "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0090/",
+    "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
 
     "GenomicCharacterization_junction_table": [
@@ -10758,7 +10758,6 @@
   },
   {
     "cell_line_id": "AICS-0063",
-    "multipleTag": "",
     "clone_number": "96",
     "alleleCount": "mono",
     "trilineage_ddpcr": "true",
@@ -10769,7 +10768,7 @@
       },
       {
         "id":"genomiccharacterizations",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "validation",
@@ -10815,17 +10814,17 @@
           "type": "image",
           "cell_line_id": "AICS-0063",
           "data_type": "single plane image",
-          "file_name": "single_plane_image.jpg",
-          "caption": "Single, mid-level planes of hiPSC-derived cardiomyocytes (left) and hiPSC-derived skeletal muscle myofibers (right) expressing mEGFP-tagged dystrophin imaged live in 3D on a spinning disk microscope. Left: Twelve days after the onset of differentiation, cells were plated on PEI and laminin coated glass and imaged 18 days later (30 days total after the onset of differentiation). Right: 25 days after the onset of differentiation, cells were plated on Matrigel (diluted 1:60) coated glass. Cell fusion was induced one day later, and muscle fibers were imaged 7 days after fusion induction (imaging was performed 33 days total after the onset of differentiation). Skeletal muscle sample was courtesy of Shawn Luttrell and David Mack (University of Washington). Brightness and contrast display settings are optimized for each panel; display settings are not the same between cell types. Scale bar, 20 $\mu$m.",
-          "link": "/images/AICS-0063/single_plane_image.jpg"
+          "file_name": "single_plane_image_cl96.jpg",
+          "caption": "Single, mid-level planes of hiPSC-derived cardiomyocytes (left) and hiPSC-derived skeletal muscle myofibers (right) expressing mEGFP-tagged dystrophin imaged live in 3D on a spinning disk microscope. Left: Twelve days after the onset of differentiation, cells were plated on PEI and laminin coated glass and imaged 18 days later (30 days total after the onset of differentiation). Right: 25 days after the onset of differentiation, cells were plated on Matrigel (diluted 1:60) coated glass. Cell fusion was induced one day later, and muscle fibers were imaged 7 days after fusion induction (imaging was performed 33 days total after the onset of differentiation). Skeletal muscle sample was courtesy of Shawn Luttrell and David Mack (University of Washington). Brightness and contrast display settings are optimized for each panel; display settings are not the same between cell types. Scale bar, 20μm.",
+          "link": "/images/AICS-0063/single_plane_image_cl96.jpg"
         },
         {
           "type": "image",
           "cell_line_id": "AICS-0063",
           "data_type": "morphology_image",
-          "file_name": "AICS-63_cl96_DMD_final.jpg",
+          "file_name": "Main_cell_line_morphology.jpg",
           "caption": "Viability and colony formation one day and three days post-thaw. Cells were treated with ROCK inhibitor for 24 hrs post-thaw.",
-          "link": "/images/AICS-0063/AICS-63_cl96_DMD_final.jpg"
+          "link": "/images/AICS-0063/Main_cell_line_morphology.jpg"
         }
         ],
     "EditingDesign_crRNA_seq": "AGACTTCCTACATTGTGTCC",
