@@ -9262,7 +9262,6 @@
   {
     "cell_line_id": "AICS-0086",
     "multipleTag": "true",
-    "new":"true",
     "clone_number": "147",
     "alleleCount": "mono / mono / mono",
     "trilineage_ddpcr": "true",
@@ -9546,7 +9545,6 @@
   },
   {
     "cell_line_id": "AICS-0087",
-    "new":"true",
     "clone_number": "31",
     "alleleCount": "mono",
     "trilineage_ddpcr": "true",
@@ -10569,6 +10567,7 @@
   {
     "cell_line_id": "AICS-0090",
     "multipleTag": "",
+    "new":"true",
     "clone_number": "391",
     "alleleCount": "mono",
     "trilineage_ddpcr": "true",
@@ -10759,6 +10758,7 @@
   {
     "cell_line_id": "AICS-0063",
     "clone_number": "96",
+    "new":"true",
     "alleleCount": "mono",
     "trilineage_ddpcr": "true",
     "status": "Yes",
