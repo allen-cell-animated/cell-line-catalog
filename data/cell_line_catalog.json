@@ -10241,7 +10241,6 @@
   {
     "cell_line_id": "AICS-0090",
     "multipleTag": "",
-    "new":"true",
     "clone_number": "391",
     "alleleCount": "mono",
     "trilineage_ddpcr": "true",
@@ -10432,7 +10431,6 @@
   {
     "cell_line_id": "AICS-0063",
     "clone_number": "96",
-    "new":"true",
     "alleleCount": "mono",
     "trilineage_ddpcr": "true",
     "status": "Yes",
@@ -10683,9 +10681,9 @@
           "type": "image",
           "cell_line_id": "AICS-0095",
           "data_type": "single plane image",
-          "file_name": "single_plane_image.jpg",
+          "file_name": "single_plane_image_cl18.jpg",
           "caption": "Single, mid-level plane of cells in a live hiPS cell colony expressing mEGFP-tagged EZH2. Cells were imaged in 3D on a spinning-disk confocal microscope and are shown here with the despeckle ImageJ filter applied. Scale bar, 50μm",
-          "link": "/images/AICS-0095/single_plane_image.jpg"
+          "link": "/images/AICS-0095/single_plane_image_cl18.jpg"
         },
         {
           "type": "image",
@@ -10759,7 +10757,7 @@
           "positiveCells": "99.6"
         },
         {
-          "Marker": "4-Oct",
+          "Marker": "OCT4",
           "positiveCells": "99.3"
         },
         {
@@ -10874,9 +10872,9 @@
           "type": "image",
           "cell_line_id": "AICS-0096",
           "data_type": "single plane image",
-          "file_name": "single_plane_image.jpg",
+          "file_name": "single_plane_image_cl74.jpg",
           "caption": "Single, mid-level plane of cells in a live hiPS cell colony expressing mEGFP-tagged RPB1. Cells were imaged in 3D on a spinning-disk confocal microscope. Scale bar, 50μm",
-          "link": "/images/AICS-0096/single_plane_image.jpg"
+          "link": "/images/AICS-0096/single_plane_image_cl74.jpg"
         },
         {
           "type": "image",
@@ -10950,7 +10948,7 @@
           "positiveCells": "100"
         },
         {
-          "Marker": "4-Oct",
+          "Marker": "OCT4",
           "positiveCells": "99.5"
         },
         {
