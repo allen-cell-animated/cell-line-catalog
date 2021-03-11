@@ -8402,7 +8402,7 @@
     "EditingDesign_NCBI_isoform": "n",
     "EditingDesign_gene_figure": "/images/AICS-0084/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: FBL locus with zoom in on mEGFP insertion site at FBL C-terminal exon. Bottom: NPM1 locus showing 7 NPM1 isoforms with zoom in on mTagRFP-T insertion site at NPM1 C-terminal exon",
-    "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
+    "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_generic.png",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
 
@@ -8870,7 +8870,7 @@
     "EditingDesign_NCBI_isoform": "n",
     "EditingDesign_gene_figure": "/images/AICS-0089/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: FBL locus with zoom in on mEGFP insertion site at FBL C-terminal exon. Middle: NPM1 locus showing 7 NPM1 isoforms with zoom in on mTagRFP-T insertion site at NPM1 C-terminal exon. Bottom: CLYBL locus showing dCas9-TagBFP-KRAB insertion site at CLYBL safe harbor site between exons 2 and 3.",
-    "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
+    "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_generic_insert.png",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
 
@@ -9372,7 +9372,7 @@
     "EditingDesign_NCBI_isoform": "n",
     "EditingDesign_gene_figure": "/images/AICS-0086/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: FBL locus with zoom in on mEGFP insertion site at FBL C-terminal exon. Middle: NPM1 locus showing 7 NPM1 isoforms with zoom in on mTagRFP-T insertion site at NPM1 C-terminal exon. Bottom: UBTF locus showing 3 UBTF isoforms with zoom in on HaloTag insertion site at UBTF N-terminal exon",
-    "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
+    "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_generic.png",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
 
@@ -10319,7 +10319,7 @@
     "EditingDesign_NCBI_isoform": "n",
     "EditingDesign_gene_figure": "/images/AICS-0090/EditingDesign_gene_figure.png",
     "EditingDesign_gene_figure_caption": "Top: CLYBL locus; Bottom: Zoom in on dCas9-TagBFP-KRAB insertion site at CLYBL safe harbor site between exons 2 and 3",
-    "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
+    "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_generic_insert.png",
     "GenomicCharacterization_tagged_allele_gel": "",
     "GenomicCharacterization_tagged_allele_gel_caption": "",
 
