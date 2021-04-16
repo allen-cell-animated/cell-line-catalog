@@ -10082,9 +10082,10 @@
   },
   {
     "cell_line_id": "AICS-0093",
+    "new": "true",
     "clone_number": "25",
     "alleleCount": "",
-    "status": "yes",
+    "status": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
         "done": "false"
@@ -10110,7 +10111,7 @@
         "done": "false"
       }
     ],
-    "Main_data_available": "false",
+    "Main_data_available": "Yes",
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TERF2",
     "Main_gene_name": "telomeric repeat binding factor 2",
