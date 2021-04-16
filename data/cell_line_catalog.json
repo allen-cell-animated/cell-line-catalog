@@ -10082,9 +10082,9 @@
   },
   {
     "cell_line_id": "AICS-0093",
-    "clone_number": "",
+    "clone_number": "25",
     "alleleCount": "",
-    "status": "In Progress",
+    "status": "yes",
     "subpaged_status": [
       { "id": "editingdesign",
         "done": "false"
@@ -10122,9 +10122,9 @@
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "",
-    "Main_order_link": "",
-    "Main_cofa": "",
-    "Main_parental_order_link": "",
+    "Main_order_link": "https://www.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0093-025&PgId=166",
+    "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0093-025_CofA.pdf",
+    "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_plasmid_sequence": "",
 
     "Main_media": [],
