@@ -10084,15 +10084,15 @@
     "cell_line_id": "AICS-0093",
     "new": "true",
     "clone_number": "25",
-    "alleleCount": "",
+    "alleleCount": "mono",
     "status": "Yes",
     "subpaged_status": [
       { "id": "editingdesign",
-        "done": "false"
+        "done": "true"
       },
       {
         "id":"genomiccharacterizations",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "validation",
@@ -10100,15 +10100,15 @@
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "supplementaryinformation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "protocols",
-        "done": "false"
+        "done": "true"
       }
     ],
     "Main_data_available": "Yes",
@@ -10116,62 +10116,83 @@
     "Main_gene_symbol": "TERF2",
     "Main_gene_name": "telomeric repeat binding factor 2",
     "Main_protein": "telomeric repeat-binding factor 2",
-    "Main_gene_id": "",
-    "Main_mrna_id": "",
-    "Main_mrna_id1": "",
+    "Main_gene_id": "7014",
+    "Main_mrna_id": "NM_005652.5",
     "Main_structure": "Telomeres",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
-    "Main_linker": "",
+    "Main_linker": "SGRTQIP",
     "Main_order_link": "https://www.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0093-025&PgId=166",
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0093-025_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
-    "Main_plasmid_sequence": "",
+    "Main_donor_plasmid": "https://www.addgene.org/168798/",
 
-    "Main_media": [],
-    "EditingDesign_crRNA_seq": "N",
+    "Main_media": [
+        {
+          "type": "image",
+          "cell_line_id": "AICS-0093",
+          "data_type": "single plane image",
+          "file_name": "single_plane_image_cl25.jpg",
+          "caption": "Single, mid-level plane of cells in a live hiPS cell colony expressing mEGFP-tagged telomeric repeat-binding factor 2 (TRF2). Cells were imaged in 3D on a spinning-disk confocal microscope. Scale bar, 5 μm.",
+          "link": "/images/AICS-0093/single_plane_image_cl25.jpg"
+        },
+        {
+          "type": "image",
+          "cell_line_id": "AICS-0093",
+          "data_type": "morphology_image",
+          "file_name": "Main_cell_line_morphology.jpg",
+          "caption": "Viability and colony formation one day and three days post-thaw. Cells were treated with ROCK inhibitor for 24 hrs post-thaw.",
+          "link": "/images/AICS-0093/Main_cell_line_morphology.jpg"
+        }
+        ],
+    "EditingDesign_crRNA_seq": "CGCTGTTTCTATCATGGCCG",
     "EditingDesign_cas9": "Wildtype spCas9",
-    "EditingDesign_NCBI_isoform": "N",
-    "EditingDesign_gene_figure": "",
-    "EditingDesign_gene_figure_caption": "N",
-    "GenomicCharacterization_junction_schematic": "",
+    "EditingDesign_NCBI_isoform": "",
+    "EditingDesign_gene_figure": "/images/AICS-0093/EditingDesign_gene_figure.png",
+    "EditingDesign_gene_figure_caption": "Top: TERF2 locus; Bottom: Zoom in on mEGFP insertion site at TERF2 N-terminal exon.",
+    "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
     "GenomicCharacterization_tagged_allele_gel": "",
-    "GenomicCharacterization_tagged_allele_gel_caption": "N",
+    "GenomicCharacterization_tagged_allele_gel_caption": "",
 
     "GenomicCharacterization_junction_table": [
         {
-          "junction": "",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "editedGene": "TERF2-mEGFP",
+          "junction": "5'",
+          "expected_size": "1712",
+          "confirmed_sequence": "Yes"
         },
         {
-          "junction": "",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "editedGene": "TERF2-mEGFP",
+          "junction": "3'",
+          "expected_size": "1652",
+          "confirmed_sequence": "Yes"
         },
         {
-          "junction": "",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "editedGene": "TERF2-mEGFP",
+          "junction": "WT",
+          "expected_size": "1637",
+          "confirmed_sequence": "Yes"
         },
         {
-          "junction": "",
-          "expected_size": "",
-          "confirmed_sequence": ""
+          "editedGene": "TERF2-mEGFP",
+          "junction": "Full junctional allele",
+          "expected_size": "Tagged: bp; Untagged: bp",
+          "confirmed_sequence": "Yes"
         }
         ],
-    "GenomicCharacterization_junction_table_caption": "",
+    "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplif      ication from the donor plasmid.",
 
     "GenomicCharacterization_ddpcr": [
         {
-          "clone": "",
-          "fp_ratio": "",
-          "plasmid": ""
+          "gene_tag": "TERF2-mEGFP",
+          "clone": "cl25",
+          "fp_ratio": "0.521",
+          "plasmid": "0.008"
         }
         ],
-    "GenomicCharacterization_ddpcr_caption": "N",
+    "GenomicCharacterization_ddpcr_caption": "FP:RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.1 indicate heterozygous clone, values = 1 +/- 0.1 indicate homozygous clone. Plasmid: KAN/RPP30 ratio from ddPCR assay; values <0.1 in      dicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
-    "GenomicCharacterization_offtargets_caption": "N",
+    "GenomicCharacterization_offtargets_caption": "",
     "Validation_WesternBlot": "",
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "",
@@ -10180,51 +10201,50 @@
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
-          "positiveCells": ""
+          "positiveCells": "99.95"
         },
         {
           "Marker": "SOX2",
-          "positiveCells": ""
+          "positiveCells": "99.99"
         },
         {
           "Marker": "OCT4",
-          "positiveCells": ""
+          "positiveCells": "99.95"
         },
         {
           "Marker": "SSEA-1",
-          "positiveCells": ""
+          "positiveCells": "1.83"
         },
         {
-          "Marker": "SSEA-3",
-          "positiveCells": ""
+          "Marker": "SSEA-4",
+          "positiveCells": "100"
         },
         {
           "Marker": "TRA-160",
-          "positiveCells": ""
+          "positiveCells": "99.92"
         }
         ],
-    "StemCellCharacterization_pluripotency_analysis_caption": "N",
+    "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
     "StemCellCharacterization_karyotype": "",
-    "StemCellCharacterization_karyotype_caption": "N",
-
+    "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
     "StemCellCharacterization_trilineage": [
         {
           "Germ_Layer": "Ectoderm",
           "Marker": "PAX6",
-          "percent_positive_cells": ""
+          "percent_positive_cells": "Pass"
         },
         {
           "Germ_Layer": "Endoderm",
           "Marker": "SOX17",
-          "percent_positive_cells": ""
+          "percent_positive_cells": "Pass"
         },
         {
           "Germ_Layer": "Mesoderm",
           "Marker": "Brachyury",
-          "percent_positive_cells": ""
+          "percent_positive_cells": "Pass"
         }
         ],
-    "StemCellCharacterization_trilineage_caption": "",
+    "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
 
     "StemCellCharacterization_differentiation":
         {
@@ -10232,7 +10252,7 @@
           "Day_of_beating_percent": "",
           "Day_of_beating_range": ""
         },
-    "StemCellCharacterization_differentiation_caption": "N",
+    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 12, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in (). ",
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
@@ -10240,9 +10260,8 @@
     "Protocols_transfection": "/data/pdfs/AICS_SOP_RNP Transfection.pdf",
     "Protocols_imaging": "/data/pdfs/AICS_SOP_WTC cell plating on glass for imaging.pdf",
     "Protocols_ddpcr": "/data/pdfs/ddPCR_CNV_ASSAY_170526_Final.pdf",
-    "Protocols_cardio_diff":"/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
-    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf",
-    "Protocols_offtargets": ""
+    "Protocols_cardio_diff": "/data/pdfs/sop_for_cardiomyocyte_differentiation_methods_v1.2_021020.pdf",
+    "Protocols_banking":"/data/pdfs/AICS_Banking_Guidelines_EXTERNAL_v1.3_200210.pdf"
   },
   {
     "cell_line_id": "AICS-0090",
