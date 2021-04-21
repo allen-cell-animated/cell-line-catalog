@@ -10225,7 +10225,7 @@
         }
         ],
     "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
-    "StemCellCharacterization_karyotype": "",
+    "StemCellCharacterization_karyotype": "/images/AICS-0093/AICS-93_cl25_TERF2_karyotype.JPG",
     "StemCellCharacterization_karyotype_caption": "After cells banks were created, one vial was thawed and 30 G-banded metaphase cells were karyotyped.",
     "StemCellCharacterization_trilineage": [
         {
