@@ -10115,7 +10115,7 @@
     "Main_parent_line": "WTC",
     "Main_gene_symbol": "TERF2",
     "Main_gene_name": "telomeric repeat binding factor 2",
-    "Main_protein": "telomeric repeat-binding factor 2",
+    "Main_protein": "telomeric repeat-binding factor 2 (TRF2)",
     "Main_gene_id": "7014",
     "Main_mrna_id": "NM_005652.5",
     "Main_structure": "Telomeres",
@@ -10248,9 +10248,9 @@
 
     "StemCellCharacterization_differentiation":
         {
-          "troponin_percent_positive": "",
-          "Day_of_beating_percent": "",
-          "Day_of_beating_range": ""
+          "troponin_percent_positive": "81.5 (3)",
+          "Day_of_beating_percent": "100 (4)",
+          "Day_of_beating_range": "d10-d12"
         },
     "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 12, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in (). ",
     "StemCellCharacterization_rnaseq_fig": "",
@@ -10649,7 +10649,6 @@
   {
     "cell_line_id": "AICS-0095",
     "multipleTag": "",
-    "new": "true",
     "clone_number": "18",
     "alleleCount": "mono",
     "trilineage_ddpcr": "true",
@@ -10844,7 +10843,6 @@
   {
     "cell_line_id": "AICS-0096",
     "multipleTag": "",
-    "new": "true",
     "clone_number": "74",
     "alleleCount": "mono",
     "trilineage_ddpcr": "true",
