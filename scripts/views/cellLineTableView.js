@@ -2,7 +2,7 @@
 
 
   var cellListView = {};
-  cellListView.filters = ['Main_gene_name', 'Main_structure', 'Main_fluorescent_tag', 'Main_parent_line'];
+  cellListView.filters = ['Main_gene_symbol', 'Main_structure', 'Main_fluorescent_tag', 'Main_parent_line'];
 
   $('#cell-line-table').on('click', '.cellline',function() {
     currentID=(this.id);
@@ -98,7 +98,9 @@
     $('#main').hide();
     if ($('select').find('.options').length ===0) {
       cellListView.filters.forEach(function(filter){
-        CellLine.allInCategory(filter).forEach(function(option){
+        let filter_options_sorted = CellLine.allInCategory(filter);
+        filter_options_sorted.sort((a, b) => (a > b) ? 1 : -1);
+        filter_options_sorted.forEach(function(option){
           cellListView.createFilter(('#'+filter+'-filter'), option);
         });
       });
@@ -106,6 +108,7 @@
     $('#cell-collection-banner').show();
 
     cellListView.setFilters(ctx);
+    // ctx.celllines.sort((a, b) => (a.Main_gene_name > b.Main_gene_name) ? 1 : -1); <- alphabetical sort
     cellListView.drawTable(ctx.celllines);
   };
 
