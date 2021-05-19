@@ -98,8 +98,13 @@
     $('#main').hide();
     if ($('select').find('.options').length ===0) {
       cellListView.filters.forEach(function(filter){
+
         let filter_options_sorted = CellLine.allInCategory(filter);
+        // remove options with '/'character
+        filter_options_sorted = filter_options_sorted.filter(option => !option.includes("/"));
+        // sort choices alphabetically
         filter_options_sorted.sort((a, b) => (a > b) ? 1 : -1);
+
         filter_options_sorted.forEach(function(option){
           cellListView.createFilter(('#'+filter+'-filter'), option);
         });
