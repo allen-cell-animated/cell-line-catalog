@@ -44,7 +44,7 @@
       ctx.celllines = array;
       next();
     };
-    var array = CellLine.allCellLines.filter(function(ele, index, array){ return ele[ctx.params.filtername] === ctx.params.filtervalue;});
+    var array = CellLine.allCellLines.filter(function(ele, index, array){ return ele[ctx.params.filtername].includes(ctx.params.filtervalue);});
     complaintsData(array);
   };
 
