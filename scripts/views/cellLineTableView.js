@@ -4,6 +4,17 @@
   var cellListView = {};
   cellListView.filters = ['Main_gene_symbol', 'Main_structure', 'Main_fluorescent_tag', 'Main_parent_line'];
 
+  // Specific filter options
+  gene_symbol_edits = function(options) {
+    options = options.filter(function(option){
+      return !option.includes("CLYBL");
+    })
+    options.push("CLYBL");
+    return options;
+  }
+
+
+
   $('#cell-line-table').on('click', '.cellline',function() {
     currentID=(this.id);
     var clone_number = $(this).attr('data-cloneid')
@@ -98,10 +109,32 @@
     $('#main').hide();
     if ($('select').find('.options').length ===0) {
       cellListView.filters.forEach(function(filter){
+        ///////
+        // populate list of all filter options
+        ///////
+        let options_list = [];
+        // handle multi labeled objects
+        CellLine.allInCategory(filter).forEach(function(option){
+          if (!option.includes("/")){
+            options_list.push(option);
+          } else { // split by / and add each option
+            parts_list = option.split("/");
+            parts_list.forEach(function(part){
+              options_list.push(part.trim());
+            })
+          }
+        });
 
-        let filter_options_sorted = CellLine.allInCategory(filter);
-        // remove options with '/'character
-        filter_options_sorted = filter_options_sorted.filter(option => !option.includes("/"));
+        ///////
+        // Apply additional processing
+        ///////
+        let filter_options_sorted = options_list.filter(function(option, index){
+          return options_list.indexOf(option) == index;
+        });
+
+        if (filter == 'Main_gene_symbol') {
+          filter_options_sorted = gene_symbol_edits(filter_options_sorted);
+        }
         // sort choices alphabetically
         filter_options_sorted.sort((a, b) => (a > b) ? 1 : -1);
 
