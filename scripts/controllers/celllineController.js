@@ -44,7 +44,7 @@
       ctx.celllines = array;
       next();
     };
-    var array = CellLine.allCellLines.filter(function(ele, index, array){ return ele[ctx.params.filtername].includes(ctx.params.filtervalue);});
+    var array = filter_fn(ctx, CellLine.allCellLines);
     complaintsData(array);
   };
 
@@ -53,7 +53,7 @@
       ctx.celllines = array;
       next();
     };
-    var array = ctx.celllines.filter(function(ele, index, array){ return ele[ctx.params.filternamesec] === ctx.params.filtervaluesec;});
+    var array = filter_fn(ctx, ctx.celllines);
     complaintsData(array);
   };
 
@@ -62,7 +62,7 @@
       ctx.celllines = array;
       next();
     };
-    var array = ctx.celllines.filter(function(ele, index, array){ return ele[ctx.params.filternamelast] === ctx.params.filtervaluelast;});
+    var array = filter_fn(ctx, ctx.celllines);
     complaintsData(array);
   };
 
@@ -102,7 +102,23 @@
     next();
   };
 
+  // Filter function for populating array of appropriate cell-lines
+  filter_fn = function(ctx, cell_lines) {
+    return cell_lines.filter(function(ele, index, array){
+      // SPECIAL CASES:
+      // fluorescent tag
+      if (ctx.params.filtername === 'Main_fluorescent_tag') {
+        if (ctx.params.filtervalue === '(m)EGFP') {
+          return ele[ctx.params.filtername].includes('EGFP');
+        } else if (ctx.params.filtervalue === 'mTagRFP-T') {
+          return ele[ctx.params.filtername].includes('mTagRFP');
+        }
+      }
 
+      // general case: if entry <INCLUDES> the filter value in its associated field
+      return ele[ctx.params.filtername].includes(ctx.params.filtervalue);
+    });
+  };
 
   module.celllineController = celllineController;
 })(window);

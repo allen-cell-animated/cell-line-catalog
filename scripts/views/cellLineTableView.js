@@ -7,9 +7,18 @@
   // Specific filter options
   gene_symbol_edits = function(options) {
     options = options.filter(function(option){
-      return !option.includes("CLYBL");
+      return !option.includes('CLYBL');
     })
-    options.push("CLYBL");
+    options.push('CLYBL');
+    return options;
+  }
+
+  fluorescent_tag_edits = function(options) {
+    options = options.filter(function(option){
+      return !option.includes('EGFP') && !option.includes('mTagRFP');
+    })
+    options.push('(m)EGFP');
+    options.push('mTagRFP-T');
     return options;
   }
 
@@ -134,6 +143,8 @@
 
         if (filter == 'Main_gene_symbol') {
           filter_options_sorted = gene_symbol_edits(filter_options_sorted);
+        } else if (filter == 'Main_fluorescent_tag') {
+          filter_options_sorted = fluorescent_tag_edits(filter_options_sorted);
         }
         // sort choices alphabetically
         filter_options_sorted.sort((a, b) => (a > b) ? 1 : -1);
