@@ -137,9 +137,7 @@
         ///////
         // Apply additional processing
         ///////
-        let filter_options_sorted = options_list.filter(function(option, index){
-          return options_list.indexOf(option) == index;
-        });
+        let filter_options_sorted = multi_label_parse(CellLine.allInCategory(filter));
 
         if (filter == 'Main_gene_symbol') {
           filter_options_sorted = gene_symbol_edits(filter_options_sorted);
@@ -174,6 +172,46 @@
 
   cellListView.resetFilters =function(){
     $('.filter').val('');
+  };
+
+  // multi labeled parsing
+  // - takes in array of filter values
+  // - returns array with multi labels parsed w/o duplicates
+  multi_label_parse = function(options) {
+    let options_list = [];
+    options.forEach(function(option){
+      if (!option.includes("/")){
+        options_list.push(option);
+      } else { // split by / and add each option
+        if (option.includes('Nucleolus')) {
+          let nucleolus_options = option
+              .substring(option.indexOf('(') + 1, option.indexOf(')'))
+              .split(' / ');
+          nucleolus_options.forEach(function(part){
+            // capitalizing each word
+            //######### REMOVE IF CAPITALIZATION IS CONSISTANT ##########
+            const words = part.split(' ');
+            options_list.push('Nucleolus ('+
+                words.map((word) => {
+                  return word[0].toUpperCase() + word.substring(1);
+                }).join(" ") +
+                ')');
+
+            // options_list.push('Nucleolus ('+ part +')');
+          });
+        } else {
+          parts_list = option.split("/");
+          parts_list.forEach(function(part){
+            options_list.push(part.trim());
+          })
+        }
+      }
+    });
+
+    // remove duplicates
+    return options_list.filter(function(option, index){
+      return options_list.indexOf(option) == index;
+    });
   };
 
   module.cellListView = cellListView;

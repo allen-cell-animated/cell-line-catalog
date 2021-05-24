@@ -105,18 +105,29 @@
   // Filter function for populating array of appropriate cell-lines
   filter_fn = function(ctx, cell_lines) {
     return cell_lines.filter(function(ele, index, array){
+      const fname = ctx.params.filtername;
+      const fvalue = ctx.params.filtervalue;
       // SPECIAL CASES:
+
       // fluorescent tag
-      if (ctx.params.filtername === 'Main_fluorescent_tag') {
-        if (ctx.params.filtervalue === '(m)EGFP') {
-          return ele[ctx.params.filtername].includes('EGFP');
-        } else if (ctx.params.filtervalue === 'mTagRFP-T') {
-          return ele[ctx.params.filtername].includes('mTagRFP');
+      if (fname === 'Main_fluorescent_tag') {
+        if (fvalue === '(m)EGFP') {
+          return ele[fname].includes('EGFP');
+        } else if (fvalue === 'mTagRFP-T') {
+          return ele[fname].includes('mTagRFP');
         }
       }
 
-      // general case: if entry <INCLUDES> the filter value in its associated field
-      return ele[ctx.params.filtername].includes(ctx.params.filtervalue);
+      // structure
+      if (fname === 'Main_structure') {
+        if (fvalue.includes('Nucleolus')) {
+          let target = fvalue.substring(fvalue.indexOf('(') + 1, fvalue.indexOf(')'));
+          return ele[fname].toLowerCase().includes(target.toLowerCase());  // ###### REMOVE TOLOWERCASE IF CAPITALIZATION IS CONSISTANT#####
+        }
+      }
+
+      // GENERAL CASE: if entry <INCLUDES> the filter value in its associated field
+      return ele[fname].includes(fvalue);
     });
   };
 
