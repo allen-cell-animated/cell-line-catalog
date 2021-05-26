@@ -44,7 +44,7 @@
       ctx.celllines = array;
       next();
     };
-    var array = filter_fn(ctx, CellLine.allCellLines);
+    var array = filter_fn(ctx, CellLine.allCellLines, ctx.params.filtername, ctx.params.filtervalue);
     complaintsData(array);
   };
 
@@ -53,7 +53,7 @@
       ctx.celllines = array;
       next();
     };
-    var array = filter_fn(ctx, ctx.celllines);
+    var array = filter_fn(ctx, ctx.celllines, ctx.params.filternamesec, ctx.params.filtervaluesec);
     complaintsData(array);
   };
 
@@ -62,7 +62,7 @@
       ctx.celllines = array;
       next();
     };
-    var array = filter_fn(ctx, ctx.celllines);
+    var array = filter_fn(ctx, ctx.celllines, ctx.params.filternamelast, ctx.params.filtervaluelast);
     complaintsData(array);
   };
 
@@ -103,10 +103,10 @@
   };
 
   // Filter function for populating array of appropriate cell-lines
-  filter_fn = function(ctx, cell_lines) {
+  filter_fn = function(ctx, cell_lines, filtername, filtervalue) {
     return cell_lines.filter(function(ele, index, array){
-      const fname = ctx.params.filtername;
-      const fvalue = ctx.params.filtervalue;
+      const fname = filtername;
+      const fvalue = filtervalue;
       // SPECIAL CASES:
 
       // fluorescent tag

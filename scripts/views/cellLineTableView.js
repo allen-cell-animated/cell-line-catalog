@@ -118,25 +118,6 @@
     $('#main').hide();
     if ($('select').find('.options').length ===0) {
       cellListView.filters.forEach(function(filter){
-        ///////
-        // populate list of all filter options
-        ///////
-        let options_list = [];
-        // handle multi labeled objects
-        CellLine.allInCategory(filter).forEach(function(option){
-          if (!option.includes("/")){
-            options_list.push(option);
-          } else { // split by / and add each option
-            parts_list = option.split("/");
-            parts_list.forEach(function(part){
-              options_list.push(part.trim());
-            })
-          }
-        });
-
-        ///////
-        // Apply additional processing
-        ///////
         let filter_options_sorted = multi_label_parse(CellLine.allInCategory(filter));
 
         if (filter == 'Main_gene_symbol') {
