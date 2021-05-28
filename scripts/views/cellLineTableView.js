@@ -2,7 +2,7 @@
 
 
   var cellListView = {};
-  cellListView.filters = ['Main_gene_symbol', 'Main_structure', 'Main_fluorescent_tag', 'Main_parent_line'];
+  cellListView.filters = ['Main_gene_symbol', 'Main_structure', 'Main_fluorescent_tag', 'Main_parent_line', 'Main_protein'];
 
   // Specific filter options
   gene_symbol_edits = function(options) {

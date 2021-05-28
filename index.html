@@ -34,7 +34,7 @@
     <script id="cellList-template" type="text/x-handlebars-template">
       <li class= "cellline list-group-item container-fluid"
        data-Main_fluorescent_tag-filter={{Main_fluorescent_tag}} data-Main_structure-filter ={{Main_structure}}
-       data-Main_gene_name-filter ={{Main_gene_name}}
+       data-Main_gene_name-filter ={{Main_gene_name}} data-Main_protein-filter ={{Main_protein}}
        data-Main_parent_line-filter ="{{Main_parent_line}}" data-cloneid="{{clone_number}}"
        id = {{cell_line_id}}>
        <span class="badge pull-right status">{{status}}</span>
@@ -766,6 +766,9 @@
                   </select>
                   <select id="Main_parent_line-filter" class="form-control filter col-md-2">
                     <option value="">Filter by Parental Line</option>
+                  </select>
+                  <select id="Main_protein-filter" class="form-control filter col-md-2">
+                    <option value="">Filter by Protein</option>
                   </select>
                 </div>
               </form>
