@@ -127,6 +127,11 @@
         }
       }
 
+      // Handle NA
+      if (fvalue === 'NA') {
+        return ele[fname] ==='NA';
+      }
+
       // GENERAL CASE: if entry <INCLUDES> the filter value in its associated field
       return ele[fname].includes(fvalue);
     });

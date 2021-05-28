@@ -126,7 +126,7 @@
           filter_options_sorted = fluorescent_tag_edits(filter_options_sorted);
         }
         // sort choices alphabetically
-        filter_options_sorted.sort((a, b) => (a > b) ? 1 : -1);
+        filter_options_sorted.sort((a, b) => (a.toLowerCase() > b.toLowerCase()) ? 1 : -1);
 
         filter_options_sorted.forEach(function(option){
           cellListView.createFilter(('#'+filter+'-filter'), option);
