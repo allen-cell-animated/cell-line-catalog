@@ -105,7 +105,6 @@
   // Filter function for populating array of appropriate cell-lines
   filter_fn = function(ctx, cell_lines, filtername, filtervalue) {
     return cell_lines.filter(function(ele, index, array){
-      console.log(ele);
       const fname = filtername;
       const fvalue = filtervalue;
       // SPECIAL CASES:
