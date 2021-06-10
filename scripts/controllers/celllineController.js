@@ -120,9 +120,9 @@
 
       // structure
       if (fname === 'Main_structure') {
-        if (fvalue.includes('Nucleolus')) {
+        if (fvalue.includes('nucleolus')) {
           let target = fvalue.substring(fvalue.indexOf('(') + 1, fvalue.indexOf(')'));
-          return ele[fname].toLowerCase().includes(target.toLowerCase());  // ###### REMOVE TOLOWERCASE IF CAPITALIZATION IS CONSISTANT#####
+          return ele[fname].includes(target.toLowerCase());  // ###### REMOVE TOLOWERCASE IF CAPITALIZATION IS CONSISTANT#####
         }
       }
 

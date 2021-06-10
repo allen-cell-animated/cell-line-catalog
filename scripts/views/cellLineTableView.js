@@ -164,21 +164,12 @@
       if (!option.includes("/")){
         options_list.push(option);
       } else { // split by / and add each option
-        if (option.includes('Nucleolus')) {
+        if (option.includes('nucleolus')) {
           let nucleolus_options = option
               .substring(option.indexOf('(') + 1, option.indexOf(')'))
               .split(' / ');
           nucleolus_options.forEach(function(part){
-            // capitalizing each word
-            //######### REMOVE IF CAPITALIZATION IS CONSISTANT ##########
-            const words = part.split(' ');
-            options_list.push('Nucleolus ('+
-                words.map((word) => {
-                  return word[0].toUpperCase() + word.substring(1);
-                }).join(" ") +
-                ')');
-
-            // options_list.push('Nucleolus ('+ part +')');
+            options_list.push('nucleolus ('+ part +')');
           });
         } else {
           parts_list = option.split("/");
