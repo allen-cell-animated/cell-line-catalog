@@ -58,7 +58,6 @@
   cellLineProfileView.makeGallery = function(cellLine){
     $('.morphology-main').empty();
     $('#gallery-thumbnails').empty();
-
     if (cellLine.Main_media[0].type === 'movie') {
       $('.morphology-main').append(cellLine.nestedToHtml($('#gallery-main-movie-template'), cellLine.Main_media[0]));
     }
@@ -76,6 +75,36 @@
       }
     });
   };
+
+  cellLineProfileView.makeIsoformList = function(cellLine) {
+    $('#isoform-list').empty();
+
+    // Create label
+    var label = document.createElement('span');
+    label.classList.add('profile-summary-key');
+    label.textContent = 'NCBI Isoform(s): ';
+    $('#isoform-list').append(label);
+
+    // local helper function for generating isoform links
+    var genIsoformChild = (isoform) => {
+      var child = document.createElement('span');
+      var isoformLink = document.createElement('a');
+      child.classList.add('profile-summary-value');
+      isoformLink.href = 'http://www.ncbi.nlm.nih.gov/nuccore/' + isoform;
+      isoformLink.textContent = isoform + ' ';
+      child.appendChild(isoformLink);
+      $('#isoform-list').append(child);
+    };
+
+    // populate a link for each isoform
+    if (Array.isArray(cellLine.Main_mrna_id)) { // handles array
+      cellLine.Main_mrna_id.forEach((isoform) => {
+        genIsoformChild(isoform);
+      });
+    } else { // handles single isoform
+      genIsoformChild(cellLine.Main_mrna_id);
+    }
+  }
 
   cellLineProfileView.RenderProfile = function(cellLine) {
     $('#cellline-info').children().remove();
@@ -116,6 +145,7 @@
       $('#cell-collection-banner').show();
       cellLineProfileView.checkforData(cellLine);
       cellLineProfileView.disableLinks();
+      cellLineProfileView.makeIsoformList(cellLine);
       $('#cellline-profile').show();
 
     }
