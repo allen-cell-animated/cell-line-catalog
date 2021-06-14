@@ -9639,10 +9639,11 @@
     "Main_terminal_tagged": "C-terminus / N-terminus",
     "Main_fluorescent_tag": "mEGFP / mTagRFP-T",
     "Main_linker": "GGSGDPPVAT / GGSGGS",
-    "Main_order_link": "add link",
-    "Main_cofa": "add link",
+    "Main_order_link": "https://www.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0078-079&PgId=166",
+    "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0078-079_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
-    "Main_donor_plasmid": "",
+    "Main_imp_info": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0078-079_Information.pdf",
+    "Main_donor_plasmid": "https://www.addgene.org/The_Allen_Institute_for_Cell_Science/",
     "Main_eu_hpsc_reg": "",
 
     "Main_media": [
@@ -10776,10 +10777,11 @@
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "GEGQGQGQGPGRGYAYRS",
-    "Main_order_link": "",
-    "Main_cofa": "",
+    "Main_order_link": "https://www.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0088-083&PgId=166",
+    "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0088-083_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
-    "Main_donor_plasmid": "",
+    "Main_imp_info": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0088-083_Information.pdf",
+    "Main_donor_plasmid": "https://www.addgene.org/170818/",
     "Main_eu_hpsc_reg": "",
 
     "Main_media": [
@@ -10961,10 +10963,10 @@
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "EDLYFQS",
-    "Main_order_link": "",
-    "Main_cofa": "",
+    "Main_order_link": "https://www.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0099-020&PgId=166",
+    "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0099-020_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
-    "Main_donor_plasmid": "",
+    "Main_donor_plasmid": "https://www.addgene.org/168799/",
     "Main_eu_hpsc_reg": "",
 
     "Main_media": [
