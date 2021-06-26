@@ -155,6 +155,8 @@
     $('.filter').val('');
   };
 
+  // <Helper functions>
+
   // multi labeled parsing
   // - takes in array of filter values
   // - returns array with multi labels parsed w/o duplicates

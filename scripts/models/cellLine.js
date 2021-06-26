@@ -18,15 +18,30 @@
   CellLine.allCellLinesFB = [];
 
   CellLine.prototype.toHtml= function(templateid){
-    var source = $(templateid).html();
-    var renderTemplate = Handlebars.compile(source);
-    return renderTemplate(this);
+    return CellLine.prototype.nestedToHtml(templateid, this)
   };
 
   CellLine.prototype.nestedToHtml= function(templateid, nestedObj){
     var source = $(templateid).html();
     var renderTemplate = Handlebars.compile(source);
-    return renderTemplate(nestedObj);
+    var html = renderTemplate(nestedObj);
+
+    // Using template to covert html to js element
+    var template = document.createElement('template');
+    html = html.trim(); // Never return a text node of whitespace as the result
+    template.innerHTML = html;
+    finalElement = template.content.firstChild;
+
+    // Populate Gene Symbol Text entry
+    if (finalElement instanceof Element) {
+      var geneSymbolEntry = finalElement.getElementsByClassName('gene-symbol');
+      if (geneSymbolEntry &&
+         HTMLCollection.prototype.isPrototypeOf(geneSymbolEntry)
+         && geneSymbolEntry.length == 1)
+        geneSymbolEntry[0].textContent = ' ('+ nestedObj.Main_gene_symbol.join(' / ') + ')';
+    }
+
+    return finalElement;
   };
 
   CellLine.loadIntoObjectArray = function(name){

@@ -77,6 +77,36 @@
     });
   };
 
+  cellLineProfileView.renderGeneSymbList = function(cellLine) {
+    $('#gene-symb-list').empty();
+
+    // Create label
+    var label = document.createElement('span');
+    label.classList.add('profile-summary-key');
+    label.textContent = 'Gene symbol: ';
+    $('#gene-symb-list').append(label);
+
+    // local helper function for generating gene links
+    var genGeneChild = (gene, gene_id) => {
+      var child = document.createElement('span');
+      var geneLink = document.createElement('a');
+      child.classList.add('profile-summary-value');
+      geneLink.href = 'http://www.ncbi.nlm.nih.gov/gene/' + gene_id;
+      geneLink.textContent = gene;
+      child.appendChild(geneLink);
+      $('#gene-symb-list').append(child);
+    };
+
+    for (var i = 0; i < cellLine.Main_gene_symbol.length; i++) {
+      genGeneChild(cellLine.Main_gene_symbol[i], cellLine.Main_gene_id[i]);
+      if (i <cellLine.Main_gene_symbol.length -1){
+        var slash= document.createElement('span');
+        slash.textContent = ' / '
+        $('#gene-symb-list').append(slash);
+      }
+    }
+  }
+
   cellLineProfileView.RenderProfile = function(cellLine) {
     $('#cellline-info').children().remove();
     $('.subpage-tab').children().remove();
@@ -115,6 +145,7 @@
       cellLineProfileView.gallery();
       $('#cell-collection-banner').show();
       cellLineProfileView.checkforData(cellLine);
+      cellLineProfileView.renderGeneSymbList(cellLine)
       cellLineProfileView.disableLinks();
       $('#cellline-profile').show();
 

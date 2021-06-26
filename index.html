@@ -54,7 +54,7 @@
               </h4>
             </span>
           </li>
-          <li class="col-lg-2 inline-seperated-item">{{Main_gene_name}}<span class=gene-symbol>({{Main_gene_symbol}})</span></li>
+          <li class="col-lg-2 inline-seperated-item">{{Main_gene_name}}<span class="gene-symbol"></span></li>
           <li class="col-lg-1 inline-seperated-item">{{displayClone}}</li>
           <li class="col-lg-1 inline-seperated-item">{{alleleCount}}</li>
           <li class="col-lg-2 inline-seperated-item">{{Main_structure}}</li>
@@ -81,9 +81,7 @@
             <div class="panel-body">
               <ul id={{cell_line_id}} class="list-group">
                 <li class="list-group-item"><span class="profile-summary-key">Gene: </span><span class="profile-summary-value">{{Main_gene_name}}</span></li>
-
-                <li class="list-group-item"><span class="profile-summary-key">Gene symbol: </span><span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id}}">{{Main_gene_symbol}}</a></span></li>
-
+                <li id="gene-symb-list" class="list-group-item"><span class="profile-summary-key">Gene symbol: </span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Protein: </span><span class="profile-summary-value">{{Main_protein}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Fluorophore:</span> <span class="profile-summary-value">{{Main_fluorescent_tag}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Tagged alleles:</span> <span class="profile-summary-value">{{alleleCount}}</span></li>
