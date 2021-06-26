@@ -161,7 +161,9 @@
   multi_label_parse = function(options) {
     let options_list = [];
     options.forEach(function(option){
-      if (!option.includes("/")){
+      if (Array.isArray(option)){
+        options_list = options_list.concat(option);
+      }else if (!option.includes("/")){
         options_list.push(option);
       } else { // split by / and add each option
         if (option.includes('nucleolus')) {

@@ -81,14 +81,9 @@
             <div class="panel-body">
               <ul id={{cell_line_id}} class="list-group">
                 <li class="list-group-item"><span class="profile-summary-key">Gene: </span><span class="profile-summary-value">{{Main_gene_name}}</span></li>
-                {{#if multipleTag}}
-                    <li class="list-group-item"><span class="profile-summary-key">Gene symbol: </span>
-                        <span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id1}}">{{Main_gene_symbol1}}</a></span> /
-                        <span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id2}}">{{Main_gene_symbol2}}</a></span> /
-                        <span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id3}}">{{Main_gene_symbol3}}</a></span></li>
-                {{else}}
-                    <li class="list-group-item"><span class="profile-summary-key">Gene symbol: </span><span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id}}">{{Main_gene_symbol}}</a></span></li>
-                {{/if}}
+
+                <li class="list-group-item"><span class="profile-summary-key">Gene symbol: </span><span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id}}">{{Main_gene_symbol}}</a></span></li>
+
                 <li class="list-group-item"><span class="profile-summary-key">Protein: </span><span class="profile-summary-value">{{Main_protein}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Fluorophore:</span> <span class="profile-summary-value">{{Main_fluorescent_tag}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Tagged alleles:</span> <span class="profile-summary-value">{{alleleCount}}</span></li>
