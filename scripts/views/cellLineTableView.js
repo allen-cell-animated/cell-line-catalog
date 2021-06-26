@@ -2,7 +2,27 @@
 
 
   var cellListView = {};
-  cellListView.filters = ['Main_gene_name', 'Main_structure', 'Main_fluorescent_tag', 'Main_parent_line'];
+  cellListView.filters = ['Main_gene_symbol', 'Main_structure', 'Main_fluorescent_tag', 'Main_parent_line', 'Main_protein'];
+
+  // Specific filter options
+  gene_symbol_edits = function(options) {
+    options = options.filter(function(option){
+      return !option.includes('CLYBL');
+    })
+    options.push('CLYBL');
+    return options;
+  }
+
+  fluorescent_tag_edits = function(options) {
+    options = options.filter(function(option){
+      return !option.includes('EGFP') && !option.includes('mTagRFP');
+    })
+    options.push('(m)EGFP');
+    options.push('mTagRFP-T');
+    return options;
+  }
+
+
 
   $('#cell-line-table').on('click', '.cellline',function() {
     currentID=(this.id);
@@ -98,7 +118,17 @@
     $('#main').hide();
     if ($('select').find('.options').length ===0) {
       cellListView.filters.forEach(function(filter){
-        CellLine.allInCategory(filter).forEach(function(option){
+        let filter_options_sorted = multi_label_parse(CellLine.allInCategory(filter));
+
+        if (filter == 'Main_gene_symbol') {
+          filter_options_sorted = gene_symbol_edits(filter_options_sorted);
+        } else if (filter == 'Main_fluorescent_tag') {
+          filter_options_sorted = fluorescent_tag_edits(filter_options_sorted);
+        }
+        // sort choices alphabetically
+        filter_options_sorted.sort((a, b) => (a.toLowerCase() > b.toLowerCase()) ? 1 : -1);
+
+        filter_options_sorted.forEach(function(option){
           cellListView.createFilter(('#'+filter+'-filter'), option);
         });
       });
@@ -106,6 +136,7 @@
     $('#cell-collection-banner').show();
 
     cellListView.setFilters(ctx);
+    // ctx.celllines.sort((a, b) => (a.Main_gene_name > b.Main_gene_name) ? 1 : -1); <- alphabetical sort
     cellListView.drawTable(ctx.celllines);
   };
 
@@ -122,6 +153,37 @@
 
   cellListView.resetFilters =function(){
     $('.filter').val('');
+  };
+
+  // multi labeled parsing
+  // - takes in array of filter values
+  // - returns array with multi labels parsed w/o duplicates
+  multi_label_parse = function(options) {
+    let options_list = [];
+    options.forEach(function(option){
+      if (!option.includes("/")){
+        options_list.push(option);
+      } else { // split by / and add each option
+        if (option.includes('nucleolus')) {
+          let nucleolus_options = option
+              .substring(option.indexOf('(') + 1, option.indexOf(')'))
+              .split(' / ');
+          nucleolus_options.forEach(function(part){
+            options_list.push('nucleolus ('+ part +')');
+          });
+        } else {
+          parts_list = option.split("/");
+          parts_list.forEach(function(part){
+            options_list.push(part.trim());
+          })
+        }
+      }
+    });
+
+    // remove duplicates
+    return options_list.filter(function(option, index){
+      return options_list.indexOf(option) == index;
+    });
   };
 
   module.cellListView = cellListView;

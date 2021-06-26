@@ -5,6 +5,7 @@ e(function(module){
   newCellLine.currentCellLine;
   newCellLine.allAttributes = [
     'cell_line_id',
+    'Main_protein',
     'Main_gene_symbol',
     'Main_gene_name',
     'Main_gene_id',

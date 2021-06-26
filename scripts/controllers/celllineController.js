@@ -44,7 +44,7 @@
       ctx.celllines = array;
       next();
     };
-    var array = CellLine.allCellLines.filter(function(ele, index, array){ return ele[ctx.params.filtername] === ctx.params.filtervalue;});
+    var array = filter_fn(ctx, CellLine.allCellLines, ctx.params.filtername, ctx.params.filtervalue);
     complaintsData(array);
   };
 
@@ -53,7 +53,7 @@
       ctx.celllines = array;
       next();
     };
-    var array = ctx.celllines.filter(function(ele, index, array){ return ele[ctx.params.filternamesec] === ctx.params.filtervaluesec;});
+    var array = filter_fn(ctx, ctx.celllines, ctx.params.filternamesec, ctx.params.filtervaluesec);
     complaintsData(array);
   };
 
@@ -62,7 +62,7 @@
       ctx.celllines = array;
       next();
     };
-    var array = ctx.celllines.filter(function(ele, index, array){ return ele[ctx.params.filternamelast] === ctx.params.filtervaluelast;});
+    var array = filter_fn(ctx, ctx.celllines, ctx.params.filternamelast, ctx.params.filtervaluelast);
     complaintsData(array);
   };
 
@@ -102,7 +102,39 @@
     next();
   };
 
+  // Filter function for populating array of appropriate cell-lines
+  filter_fn = function(ctx, cell_lines, filtername, filtervalue) {
+    return cell_lines.filter(function(ele, index, array){
+      const fname = filtername;
+      const fvalue = filtervalue;
+      // SPECIAL CASES:
 
+      // fluorescent tag
+      if (fname === 'Main_fluorescent_tag') {
+        if (fvalue === '(m)EGFP') {
+          return ele[fname].includes('EGFP');
+        } else if (fvalue === 'mTagRFP-T') {
+          return ele[fname].includes('mTagRFP');
+        }
+      }
+
+      // structure
+      if (fname === 'Main_structure') {
+        if (fvalue.includes('nucleolus')) {
+          let target = fvalue.substring(fvalue.indexOf('(') + 1, fvalue.indexOf(')'));
+          return ele[fname].includes(target.toLowerCase());  // ###### REMOVE TOLOWERCASE IF CAPITALIZATION IS CONSISTANT#####
+        }
+      }
+
+      // Handle NA
+      if (fvalue === 'NA') {
+        return ele[fname] ==='NA';
+      }
+
+      // GENERAL CASE: if entry <INCLUDES> the filter value in its associated field
+      return ele[fname].includes(fvalue);
+    });
+  };
 
   module.celllineController = celllineController;
 })(window);

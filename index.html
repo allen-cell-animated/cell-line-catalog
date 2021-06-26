@@ -34,7 +34,7 @@
     <script id="cellList-template" type="text/x-handlebars-template">
       <li class= "cellline list-group-item container-fluid"
        data-Main_fluorescent_tag-filter={{Main_fluorescent_tag}} data-Main_structure-filter ={{Main_structure}}
-       data-Main_gene_name-filter ={{Main_gene_name}}
+       data-Main_gene_name-filter ={{Main_gene_name}} data-Main_protein-filter ={{Main_protein}}
        data-Main_parent_line-filter ="{{Main_parent_line}}" data-cloneid="{{clone_number}}"
        id = {{cell_line_id}}>
        <span class="badge pull-right status">{{status}}</span>
@@ -756,7 +756,7 @@
             <p class="col-md-8 col-md-offset-2 text-info">For all the completed lines that are available for purchase at Coriell we provide supplemental material (data, images, videos) related to the rigorous testing and quality control steps each line has undergone. These data, along with ordering information, can quickly be accessed by clicking on the line of choice in the table below.</p>
           </div> -->
           <nav class="navbar navbar-default" id="top-of-table">
-            <div class="container">
+            <div class="container-fluid">
               <span class="navbar-text text-info">Filter cell lines:</span>
               <form id="filters" class="navbar-form">
                 <div class="form-group">
@@ -766,12 +766,16 @@
                   <select id="Main_fluorescent_tag-filter" class="form-control filter col-md-2">
                     <option value="">Filter by Fluorophore</option>
                   </select>
-                  <select id="Main_gene_name-filter" class="form-control filter col-md-2">
+                  <select id="Main_gene_symbol-filter" class="form-control filter col-md-2">
                     <option value="">Filter by Gene</option>
                   </select>
                   <select id="Main_parent_line-filter" class="form-control filter col-md-2">
                     <option value="">Filter by Parental Line</option>
                   </select>
+                  <select id="Main_protein-filter" class="form-control filter col-md-2">
+                    <option value="">Filter by Protein</option>
+                  </select>
+                  <button type="button" class="btn btn-primary mb-2 col-auto" onclick="page('/cell-line-catalog')">Clear</button>
                 </div>
               </form>
             </div>

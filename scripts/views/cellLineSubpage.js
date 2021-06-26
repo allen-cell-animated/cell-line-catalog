@@ -80,6 +80,7 @@
   cellLineProfileView.RenderProfile = function(cellLine) {
     $('#cellline-info').children().remove();
     $('.subpage-tab').children().remove();
+    $('.subpage-tab').removeClass('active');
     if ($('#cellline-info').find('ul').length ===0){
       $('#cellline-info').append(cellLine.toHtml($('#cell-profile-info-template')));
 

@@ -98,6 +98,10 @@
   margin: .2em 5%;
 }
 
+#filters button{
+  margin: .2em;
+}
+
 .table-head{
   font-size: 1.2em;
   font-weight: bold;
