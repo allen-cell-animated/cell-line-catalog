@@ -37,7 +37,7 @@
     "Main_gene_id": 5829,
     "Main_isoforms": [
       {
-        "gene_name": "PXM",
+        "gene_name": "PXN",
         "gene_isoforms": ["NM_002859", "NM_001080855", "NM_025157", "NM_001243756"]
       }
     ],
@@ -7915,7 +7915,7 @@
     "Main_isoforms": [
       {
         "gene_name": "SOX2",
-        "gene_isoforms": ["NM_003106.4"]
+        "gene_isoforms": ["NM_003106"]
       }
     ],
     "Main_structure": "transcription factor",
@@ -8135,7 +8135,7 @@
     "Main_isoforms": [
       {
         "gene_name": "ACTN2",
-        "gene_isoforms": ["NM_001103.3","NM_001278343.1","NM_001278344.1"]
+        "gene_isoforms": ["NM_001103","NM_001278343","NM_001278344"]
       }
     ],
     "Main_structure": "sarcomeric z-disks",
@@ -8347,11 +8347,11 @@
     "Main_isoforms": [
       {
         "gene_name": "FBL",
-        "gene_isoforms": ["NM_001436.4"]
+        "gene_isoforms": ["NM_001436"]
       },
       {
         "gene_name": "NPM1",
-        "gene_isoforms": ["NM_002520.6","NM_001355006.1","NM_199185.3","NM_001355007.1","NM_001355010.1"]
+        "gene_isoforms": ["NM_002520","NM_001355006","NM_199185","NM_001355007","NM_001355010"]
       }
     ],
     "Main_structure": "nucleolus (dense fibrillar component / granular component)",
@@ -8601,7 +8601,7 @@
     "Main_isoforms": [
       {
         "gene_name": "LMNB1",
-        "gene_isoforms": ["NM_005573.3"]
+        "gene_isoforms": ["NM_005573"]
       }
     ],
     "Main_structure": "nuclear envelope",
@@ -8823,11 +8823,11 @@
     "Main_isoforms": [
       {
         "gene_name": "FBL",
-        "gene_isoforms": ["NM_001436.4"]
+        "gene_isoforms": ["NM_001436"]
       },
       {
         "gene_name": "NPM1",
-        "gene_isoforms": ["NM_001355006.1","NM_002520.6","NM_199185.3","NM_001355007.1","NM_001355010.1"]
+        "gene_isoforms": ["NM_001355006","NM_002520","NM_199185","NM_001355007","NM_001355010"]
       },
       {
         "gene_name": "CLYBL safe harbor",
@@ -9110,7 +9110,7 @@
     "Main_isoforms": [
       {
         "gene_name": "SON",
-        "gene_isoforms": ["NM_001291412.2","NM_138927.3","NM_001291411.1","NM_032195.2"]
+        "gene_isoforms": ["NM_001291412","NM_138927","NM_001291411","NM_032195"]
       }
     ],
     "Main_structure": "nuclear speckles",
@@ -9332,15 +9332,15 @@
     "Main_isoforms": [
       {
         "gene_name": "FBL",
-        "gene_isoforms": ["NM_001436.4"]
+        "gene_isoforms": ["NM_001436"]
       },
       {
         "gene_name": "NPM1",
-        "gene_isoforms": ["NM_001355006.1","NM_002520.6","NM_199185.3","NM_001355007.1","NM_001355010.1"]
+        "gene_isoforms": ["NM_001355006","NM_002520","NM_199185","NM_001355007","NM_001355010"]
       },
       {
         "gene_name": "UBTF",
-        "gene_isoforms": ["NM_014233.4","NM_001076684.3","NM_001076683.2"]
+        "gene_isoforms": ["NM_014233","NM_001076684","NM_001076683"]
       }
     ],
     "Main_structure": "nucleolus (dense fibrillar component / granular component / fibrillar center)",
@@ -9619,7 +9619,7 @@
     "Main_isoforms": [
       {
         "gene_name": "TFAM",
-        "gene_isoforms": ["NM_003201.3","NM_001270782.1"]
+        "gene_isoforms": ["NM_003201","NM_001270782"]
       }
     ],
     "Main_structure": "mitochondrial nucleoids",
@@ -10024,7 +10024,7 @@
     "Main_isoforms": [
       {
         "gene_name": "TERF2",
-        "gene_isoforms": ["NM_005652.5"]
+        "gene_isoforms": ["NM_005652"]
       }
     ],
     "Main_structure": "telomeres",
@@ -10413,7 +10413,7 @@
     "Main_isoforms": [
       {
         "gene_name": "DMD",
-        "gene_isoforms": ["NM_004006.3","NM_000109.4","NM_004009.3"]
+        "gene_isoforms": ["NM_004006","NM_000109","NM_004009"]
       }
     ],
     "Main_structure": "costameres",
@@ -10609,7 +10609,7 @@
     "Main_isoforms": [
       {
         "gene_name": "EZH2",
-        "gene_isoforms": ["NM_004456.5","NM_152998.3","NM_001203247.2","NM_001203248.2","NM_001203249.2"]
+        "gene_isoforms": ["NM_004456","NM_152998","NM_001203247","NM_001203248","NM_001203249"]
       }
     ],
     "Main_structure": "polycomb repressive complex 2",
@@ -10805,7 +10805,7 @@
     "Main_isoforms": [
       {
         "gene_name": "POLR2A",
-        "gene_isoforms": ["NM_000937.5"]
+        "gene_isoforms": ["NM_000937"]
       }
     ],
     "Main_mrna_id": "NM_000937.5",
