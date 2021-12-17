@@ -18,7 +18,14 @@
   CellLine.allCellLinesFB = [];
 
   CellLine.prototype.toHtml= function(templateid){
-    return CellLine.prototype.nestedToHtml(templateid, this);
+    if (templateid.selector =="#editingDesign-template"){
+       return CellLine.prototype.nestedToHtml(templateid, this);
+    }
+
+    var source = $(templateid).html();
+    var renderTemplate = Handlebars.compile(source);
+    return renderTemplate(this);
+
   };
 
   CellLine.prototype.nestedToHtml= function(templateid, nestedObj){
@@ -72,7 +79,7 @@
       }
 
     }
-    return finalElement;
+    return template.content;
   };
 
   CellLine.loadIntoObjectArray = function(name){
