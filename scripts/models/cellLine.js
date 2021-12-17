@@ -18,7 +18,16 @@
   CellLine.allCellLinesFB = [];
 
   CellLine.prototype.toHtml= function(templateid){
-    return CellLine.prototype.nestedToHtml(templateid, this)
+      if (templateid.selector =="#cell-profile-info-template"){
+          return CellLine.prototype.nestedToHtml(templateid, this);
+      }
+      else if (templateid.selector =="#cellList-template"){
+          return CellLine.prototype.nestedToHtml(templateid, this);
+      }
+
+      var source = $(templateid).html();
+      var renderTemplate = Handlebars.compile(source);
+      return renderTemplate(this);
   };
 
   CellLine.prototype.nestedToHtml= function(templateid, nestedObj){
@@ -41,7 +50,7 @@
         geneSymbolEntry[0].textContent = ' ('+ nestedObj.Main_gene_symbol.join(' / ') + ')';
     }
 
-    return finalElement;
+    return template.content;
   };
 
   CellLine.loadIntoObjectArray = function(name){
