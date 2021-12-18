@@ -54,7 +54,7 @@
               </h4>
             </span>
           </li>
-          <li class="col-lg-2 inline-seperated-item">{{Main_gene_name}}<span class=gene-symbol>({{Main_gene_symbol}})</span></li>
+          <li class="col-lg-2 inline-seperated-item">{{Main_gene_name}}<span class="gene-symbol"></span></li>
           <li class="col-lg-1 inline-seperated-item">{{displayClone}}</li>
           <li class="col-lg-1 inline-seperated-item">{{alleleCount}}</li>
           <li class="col-lg-2 inline-seperated-item">{{Main_structure}}</li>
@@ -81,14 +81,7 @@
             <div class="panel-body">
               <ul id={{cell_line_id}} class="list-group">
                 <li class="list-group-item"><span class="profile-summary-key">Gene: </span><span class="profile-summary-value">{{Main_gene_name}}</span></li>
-                {{#if multipleTag}}
-                    <li class="list-group-item"><span class="profile-summary-key">Gene symbol: </span>
-                        <span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id1}}">{{Main_gene_symbol1}}</a></span> /
-                        <span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id2}}">{{Main_gene_symbol2}}</a></span> /
-                        <span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id3}}">{{Main_gene_symbol3}}</a></span></li>
-                {{else}}
-                    <li class="list-group-item"><span class="profile-summary-key">Gene symbol: </span><span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id}}">{{Main_gene_symbol}}</a></span></li>
-                {{/if}}
+                <li id="gene-symb-list" class="list-group-item"><span class="profile-summary-key">Gene symbol: </span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Protein: </span><span class="profile-summary-value">{{Main_protein}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Fluorophore:</span> <span class="profile-summary-value">{{Main_fluorescent_tag}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Tagged alleles:</span> <span class="profile-summary-value">{{alleleCount}}</span></li>
@@ -193,33 +186,6 @@
           <div class="panel panel-primary bg-lightgray">
             <div class="panel-body ">
               <ul id=editingDesign-info class="list-group">
-                <li class="list-group-item">
-
-                {{#if multipleTag}}
-                  <span class="profile-summary-key">{{Main_gene_symbol1}} NCBI Isoform(s):</span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna1_id}}">{{Main_mrna1_id}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna1_id1}}">{{Main_mrna1_id1}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna1_id2}}">{{Main_mrna1_id2}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna1_id3}}">{{Main_mrna1_id3}}</a></span></li>
-                <li class="list-group-item">
-                  <span class="profile-summary-key">{{Main_gene_symbol2}} NCBI Isoform(s):</span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna2_id}}">{{Main_mrna2_id}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna2_id1}}">{{Main_mrna2_id1}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna2_id2}}">{{Main_mrna2_id2}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna2_id3}}">{{Main_mrna2_id3}}</a></span></li>
-                <li class="list-group-item">
-                  <span class="profile-summary-key">{{Main_gene_symbol3}} NCBI Isoform(s):</span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna2_id}}">{{Main_mrna3_id}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna2_id1}}">{{Main_mrna3_id1}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna2_id2}}">{{Main_mrna3_id2}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna2_id3}}">{{Main_mrna3_id3}}</a></span></li>
-                {{else}}
-                  <span class="profile-summary-key">NCBI Isoform(s):</span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id}}">{{Main_mrna_id}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id1}}">{{Main_mrna_id1}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id2}}">{{Main_mrna_id2}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id3}}">{{Main_mrna_id3}}</a></span></li>
-                {{/if}}
                 <li class="list-group-item">
 
                   <span class="profile-summary-key">crRNA:</span>
