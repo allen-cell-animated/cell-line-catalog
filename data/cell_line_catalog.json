@@ -35,10 +35,12 @@
     "Main_gene_name": "paxillin",
     "Main_protein": "paxillin",
     "Main_gene_id": [5829],
-    "Main_mrna_id": "NM_002859",
-    "Main_mrna_id1": "NM_001080855",
-    "Main_mrna_id2": "NM_025157",
-    "Main_mrna_id3": "NM_001243756",
+    "Main_isoforms": [
+      {
+        "gene_name": "PXN",
+        "gene_isoforms": ["NM_002859", "NM_001080855", "NM_025157", "NM_001243756"]
+      }
+    ],
     "Main_structure": "matrix adhesions",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "EGFP",
@@ -238,7 +240,12 @@
     "Main_gene_name": "tubulin-alpha 1b",
     "Main_protein": "alpha-tubulin",
     "Main_gene_id": [10376],
-    "Main_mrna_id": "NM_006082",
+    "Main_isoforms": [
+      {
+        "gene_name": "TUBA1B",
+        "gene_isoforms": ["NM_006082"]
+      }
+    ],
     "Main_structure": "microtubules",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -448,7 +455,12 @@
     "Main_gene_name": "translocase of outer mitochondrial membrane 20",
     "Main_protein": "Tom20",
     "Main_gene_id": [9804],
-    "Main_mrna_id": "NM_014765",
+    "Main_isoforms": [
+      {
+        "gene_name": "TOMM20",
+        "gene_isoforms": ["NM_014765"]
+      }
+    ],
     "Main_structure": "mitochondria",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -649,7 +661,12 @@
     "Main_gene_name": "lamin B1",
     "Main_protein": "lamin B1",
     "Main_gene_id": [4001],
-    "Main_mrna_id": "NM_005573",
+    "Main_isoforms": [
+      {
+        "gene_name": "LMNB1",
+        "gene_isoforms": ["NM_005573"]
+      }
+    ],
     "Main_structure": "nuclear envelope",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -859,9 +876,12 @@
     "Main_gene_name": "desmoplakin",
     "Main_protein": "desmoplakin",
     "Main_gene_id": [1832],
-    "Main_mrna_id": "NM_004415",
-    "Main_mrna_id1": "NM_001008844",
-    "Main_mrna_id2": "NM_001319034",
+    "Main_isoforms": [
+      {
+        "gene_name": "DSP",
+        "gene_isoforms": ["NM_004415", "NM_001008844", "NM_001319034"]
+      }
+    ],
     "Main_structure": "desmosomes",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -1096,7 +1116,12 @@
     "Main_gene_name": "actin beta",
     "Main_protein": "beta-actin",
     "Main_gene_id": [60],
-    "Main_mrna_id": "NM_001101",
+    "Main_isoforms": [
+      {
+        "gene_name": "ACTB",
+        "gene_isoforms": ["NM_001101"]
+      }
+    ],
     "Main_structure": "actin filaments",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -1296,7 +1321,12 @@
     "Main_gene_name": "SEC61 translocon beta subunit",
     "Main_protein": "Sec61 beta",
     "Main_gene_id": [10952],
-    "Main_mrna_id": "NM_006808",
+    "Main_isoforms": [
+      {
+        "gene_name": "SEC61B",
+        "gene_isoforms": ["NM_006808"]
+      }
+    ],
     "Main_structure": "endoplasmic reticulum",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -1505,7 +1535,12 @@
     "Main_gene_name": "fibrillarin",
     "Main_protein": "fibrillarin",
     "Main_gene_id": [2091],
-    "Main_mrna_id": "NM_001436",
+    "Main_isoforms": [
+      {
+        "gene_name": "FBL",
+        "gene_isoforms": ["NM_001436"]
+      }
+    ],
     "Main_structure": "nucleolus (dense fibrillar component)",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -1726,9 +1761,12 @@
     "Main_gene_name": "myosin heavy chain 10",
     "Main_protein": "non-muscle myosin heavy chain IIB",
     "Main_gene_id": [4628],
-    "Main_mrna_id": "NM_001256012",
-    "Main_mrna_id1": "NM_001256095",
-    "Main_mrna_id2": "NM_005964",
+    "Main_isoforms": [
+      {
+        "gene_name": "MYH10",
+        "gene_isoforms": ["NM_001256012", "NM_001256095", "NM_005964"]
+      }
+    ],
     "Main_structure": "actomyosin bundles",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -1935,8 +1973,12 @@
     "Main_gene_name": "tight junction protein 1",
     "Main_protein": "tight junction protein ZO1",
     "Main_gene_id": [7082],
-    "Main_mrna_id": "NM_003257",
-    "Main_mrna_id1": "NM_175610",
+    "Main_isoforms": [
+      {
+        "gene_name": "TJP1",
+        "gene_isoforms": ["NM_003257", "NM_175610"]
+      }
+    ],
     "Main_structure": "tight junctions",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -2104,7 +2146,12 @@
     "Main_gene_name": "microtubule associated protein 1 light chain 3 beta",
     "Main_protein": "autophagy-related protein LC3 B",
     "Main_gene_id": [81631],
-    "Main_mrna_id": "NM_022818",
+    "Main_isoforms": [
+      {
+        "gene_name": "MAP1LC3B",
+        "gene_isoforms": ["NM_022818"]
+      }
+    ],
     "Main_structure": "autophagosomes",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -2306,9 +2353,12 @@
     "Main_gene_name": "solute carrier family 25 member 17",
     "Main_protein": "peroxisomal membrane protein PMP34",
     "Main_gene_id": [10478],
-    "Main_mrna_id": "NM_001282726",
-    "Main_mrna_id1": "NM_001282727",
-    "Main_mrna_id2": "NM_006358",
+    "Main_isoforms": [
+      {
+        "gene_name": "SLC25A17",
+        "gene_isoforms": ["NM_001282726", "NM_001282727", "NM_006358"]
+      }
+    ],
     "Main_structure": "peroxisomes",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -2510,8 +2560,12 @@
     "Main_gene_name": "RAB5A, member RAS oncogene family",
     "Main_protein": "Ras-related protein Rab-5A",
     "Main_gene_id": [5868],
-    "Main_mrna_id": "NM_001292048",
-    "Main_mrna_id1": "NM_004162",
+    "Main_isoforms": [
+      {
+        "gene_name": "RAB5A",
+        "gene_isoforms": ["NM_001292048", "NM_004162"]
+      }
+    ],
     "Main_structure": "endosomes",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -2713,8 +2767,12 @@
     "Main_gene_name": "RAB5A, member RAS oncogene family",
     "Main_protein": "Ras-related protein Rab-5A",
     "Main_gene_id": [5868],
-    "Main_mrna_id": "NM_001292048",
-    "Main_mrna_id1": "NM_004162",
+    "Main_isoforms": [
+      {
+        "gene_name": "RAB5A",
+        "gene_isoforms": ["NM_001292048", "NM_004162"]
+      }
+    ],
     "Main_structure": "endosomes",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -2916,7 +2974,12 @@
     "Main_gene_name": "safe harbor locus",
     "Main_protein": "NA",
     "Main_gene_id": [17],
-    "Main_mrna_id": "NA",
+    "Main_isoforms": [
+      {
+        "gene_name": "AAVS1",
+        "gene_isoforms": []
+      }
+    ],
     "Main_structure": "cytoplasm",
     "Main_terminal_tagged": "NA",
     "Main_fluorescent_tag": "mEGFP",
@@ -3095,7 +3158,12 @@
     "Main_gene_name": "safe harbor locus",
     "Main_protein": "NA",
     "Main_gene_id": [17],
-    "Main_mrna_id": "NA",
+    "Main_isoforms": [
+      {
+        "gene_name": "AAVS1",
+        "gene_isoforms": []
+      }
+    ],
     "Main_structure": "cytoplasm",
     "Main_terminal_tagged": "NA",
     "Main_fluorescent_tag": "mEGFP",
@@ -3272,7 +3340,12 @@
     "Main_gene_name": "tubulin-alpha 1b",
     "Main_protein": "alpha-tubulin",
     "Main_gene_id": [10376],
-    "Main_mrna_id": "NM_006082",
+    "Main_isoforms": [
+      {
+        "gene_name": "TUBA1B",
+        "gene_isoforms": ["NM_006082"]
+      }
+    ],
     "Main_structure": "microtubules",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mTagRFP-T",
@@ -3473,7 +3546,12 @@
     "Main_gene_name": "lysosomal associated membrane protein 1",
     "Main_protein": "LAMP-1",
     "Main_gene_id": [3916],
-    "Main_mrna_id": "NM_005561",
+    "Main_isoforms": [
+      {
+        "gene_name": "LAMP1",
+        "gene_isoforms": ["NM_005561"]
+      }
+    ],
     "Main_structure": "lysosomes",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -3674,7 +3752,12 @@
     "Main_gene_name": "centrin 2",
     "Main_protein": "centrin-2",
     "Main_gene_id": [1069],
-    "Main_mrna_id": "NM_004344",
+    "Main_isoforms": [
+      {
+        "gene_name": "CETN2",
+        "gene_isoforms": ["NM_004344"]
+      }
+    ],
     "Main_structure": "centrioles",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mTagRFP-T",
@@ -3884,9 +3967,12 @@
     "Main_gene_name": "ST6 beta-galactoside alpha-2,6-sialyltransferase 1",
     "Main_protein": "sialyltransferase 1",
     "Main_gene_id": [6480],
-    "Main_mrna_id": "NM_003032",
-    "Main_mrna_id1": "NM_173216",
-    "Main_mrna_id2": "NM_173217",
+    "Main_isoforms": [
+      {
+        "gene_name": "ST6GAL1",
+        "gene_isoforms": ["NM_003032", "NM_173216", "NM_173217"]
+      }
+    ],
     "Main_structure": "Golgi",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -4095,9 +4181,12 @@
     "Main_gene_name": "ST6 beta-galactoside alpha-2,6-sialyltransferase 1",
     "Main_protein": "sialyltransferase 1",
     "Main_gene_id": [6480],
-    "Main_mrna_id": "NM_003032",
-    "Main_mrna_id1": "NM_173216",
-    "Main_mrna_id2": "NM_173217",
+    "Main_isoforms": [
+      {
+        "gene_name": "ST6GAL1",
+        "gene_isoforms": ["NM_003032", "NM_173216", "NM_173217"]
+      }
+    ],
     "Main_structure": "Golgi",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -4307,7 +4396,12 @@
     "Main_gene_name": "troponin I1, slow skeletal type",
     "Main_protein": "troponin I, slow skeletal muscle",
     "Main_gene_id": [7135],
-    "Main_mrna_id": "NM_003281",
+    "Main_isoforms": [
+      {
+        "gene_name": "TNNI1",
+        "gene_isoforms": ["NM_003281"]
+      }
+    ],
     "Main_structure": "sarcomeric thin filaments",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -4509,9 +4603,12 @@
     "Main_gene_name": "catenin beta 1",
     "Main_protein": "beta-catenin",
     "Main_gene_id": [1499],
-    "Main_mrna_id": "NM_001904",
-    "Main_mrna_id1": "NM_001098209",
-    "Main_mrna_id2": "NM_001098210",
+    "Main_isoforms": [
+      {
+        "gene_name": "CTNNB1",
+        "gene_isoforms": ["NM_001904", "NM_001098209", "NM_001098210"]
+      }
+    ],
     "Main_structure": "adherens junctions",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -4713,11 +4810,12 @@
     "Main_gene_name": "nucleophosmin 1",
     "Main_protein": "nucleophosmin",
     "Main_gene_id": [4869],
-    "Main_mrna_id": "NM_002520",
-    "Main_mrna_id1": "NM_001355007",
-    "Main_mrna_id2": "NM_001355010",
-    "Main_mrna_id3": "NM_199185",
-    "Main_mrna_id4": "NM_001355006",
+    "Main_isoforms": [
+      {
+        "gene_name": "NPM1",
+        "gene_isoforms": ["NM_002520", "NM_001355007", "NM_001355010", "NM_199185", "NM_001355006"]
+      }
+    ],
     "Main_structure": "nucleolus (granular component)",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -4926,7 +5024,12 @@
     "Main_gene_name": "safe harbor locus",
     "Main_protein": "CAAX domain of K-Ras",
     "Main_gene_id": [17],
-    "Main_mrna_id": "NA",
+    "Main_isoforms": [
+      {
+        "gene_name": "AAVS1",
+        "gene_isoforms": []
+      }
+    ],
     "Main_structure": "plasma membrane",
     "Main_terminal_tagged": "NA",
     "Main_fluorescent_tag": "mTagRFP-T",
@@ -5128,7 +5231,12 @@
     "Main_gene_name": "gap junction protein alpha 1",
     "Main_protein": "connexin-43",
     "Main_gene_id": [2697],
-    "Main_mrna_id": "NM_000165",
+    "Main_isoforms": [
+      {
+        "gene_name": "GJA1",
+        "gene_isoforms": ["NM_000165"]
+      }
+    ],
     "Main_structure": "gap junctions",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -5337,8 +5445,12 @@
     "Main_gene_name": "chromobox 1",
     "Main_protein": "chromobox protein homolog 1",
     "Main_gene_id": [10951],
-    "Main_mrna_id": "",
-    "Main_mrna_id1": "",
+    "Main_isoforms": [
+      {
+        "gene_name": "CBX1",
+        "gene_isoforms": []
+      }
+    ],
     "Main_structure": "Heterochromatin",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -5501,9 +5613,12 @@
     "Main_gene_name": "nucleoporin 153",
     "Main_protein": "nucleoporin Nup153",
     "Main_gene_id": [9972],
-    "Main_mrna_id": "NM_001278209",
-    "Main_mrna_id1": "NM_001278210",
-    "Main_mrna_id2": "NM_005124",
+    "Main_isoforms": [
+      {
+        "gene_name": "NUP153",
+        "gene_isoforms": ["NM_001278209", "NM_001278210", "NM_005124"]
+      }
+    ],
     "Main_structure": "nuclear pores",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -5713,8 +5828,12 @@
     "Main_gene_name": "ATPase sarcoplasmic/endoplasmic reticulum Ca2+ transporting 2",
     "Main_protein": "SERCA2",
     "Main_gene_id": [488],
-    "Main_mrna_id": "NM_001681",
-    "Main_mrna_id1": "NM_170665",
+    "Main_isoforms": [
+      {
+        "gene_name": "ATP2A2",
+        "gene_isoforms": ["NM_001681","NM_170665"]
+      }
+    ],
     "Main_structure": "sarcoplasmic reticulum/endoplasmic reticulum",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -5924,7 +6043,12 @@
     "Main_gene_name": "myosin light chain 7",
     "Main_protein": "MLC-2a",
     "Main_gene_id": [58498],
-    "Main_mrna_id": "NM_021223",
+    "Main_isoforms": [
+      {
+        "gene_name": "MYL7",
+        "gene_isoforms": ["NM_021223"]
+      }
+    ],
     "Main_structure": "sarcomeric thick filaments",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -6126,12 +6250,12 @@
     "Main_gene_name": "titin",
     "Main_protein": "titin",
     "Main_gene_id": [7273],
-    "Main_mrna_id": "NM_001256850",
-    "Main_mrna_id1": "NM_001267550",
-    "Main_mrna_id2": "NM_003319",
-    "Main_mrna_id3": "NM_133378",
-    "Main_mrna_id4": "NM_133432",
-    "Main_mrna_id5": "NM_133437",
+    "Main_isoforms": [
+      {
+        "gene_name": "TTN",
+        "gene_isoforms": ["NM_001256850","NM_001267550","NM_003319","NM_133378","NM_133432","NM_133437"]
+      }
+    ],
     "Main_structure": "sarcomeres (M-line tag)",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -6333,7 +6457,12 @@
     "Main_gene_name": "histone cluster 1 H2B family member j",
     "Main_protein": "histone H2B type 1-J",
     "Main_gene_id": [8970],
-    "Main_mrna_id": "NM_021058",
+    "Main_isoforms": [
+      {
+        "gene_name": "HIST1H2BJ",
+        "gene_isoforms": ["NM_021058"]
+      }
+    ],
     "Main_structure": "histones",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -6542,8 +6671,12 @@
     "Main_gene_name": "G3BP stress granule assembly factor 1",
     "Main_protein": "G3BP1",
     "Main_gene_id": [10146],
-    "Main_mrna_id": "",
-    "Main_mrna_id1": "",
+    "Main_isoforms": [
+      {
+        "gene_name": "G3BP1",
+        "gene_isoforms": []
+      }
+    ],
     "Main_structure": "stress granules",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -6705,8 +6838,12 @@
     "Main_gene_name": "ryanodine receptor 2",
     "Main_protein": "ryanodine receptor 2",
     "Main_gene_id": [6262],
-    "Main_mrna_id": "",
-    "Main_mrna_id1": "",
+    "Main_isoforms": [
+      {
+        "gene_name": "RYR2",
+        "gene_isoforms": []
+      }
+    ],
     "Main_structure": "Ion channel",
     "Main_terminal_tagged": "internal",
     "Main_fluorescent_tag": "mEGFP",
@@ -6870,9 +7007,12 @@
     "Main_gene_name": "myosin light chain 2",
     "Main_protein": "MLC-2v",
     "Main_gene_id": [4633],
-    "Main_gene_id1": "",
-    "Main_gene_id2": "",
-    "Main_mrna_id": "NM_000432",
+    "Main_isoforms": [
+      {
+        "gene_name": "MYL2",
+        "gene_isoforms": ["NM_000432"]
+      }
+    ],
     "Main_structure": "sarcomeric thick filaments",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -7075,8 +7215,16 @@
     "Main_gene_name": "Sec61 translocon beta subunit / lamin B1",
     "Main_protein": "Sec61 beta / lamin B1",
     "Main_gene_id": [10952,4001],
-    "Main_mrna1_id": "NM_006808",
-    "Main_mrna2_id": "NM_005573",
+    "Main_isoforms": [
+      {
+        "gene_name": "SEC61B",
+        "gene_isoforms": ["NM_006808"]
+      },
+      {
+        "gene_name": "LMNB1",
+        "gene_isoforms": ["NM_005573"]
+      }
+    ],
     "Main_structure": "endoplasmic reticulum / nuclear envelope",
     "Main_terminal_tagged": "N-terminus / N-terminus",
     "Main_fluorescent_tag": "mEGFP / mTagRFP-T",
@@ -7317,10 +7465,12 @@
     "Main_gene_name": "structural maintenance of chromosomes 1A",
     "Main_protein": "SMC protein 1A",
     "Main_gene_id": [8243],
-    "Main_gene_id1": "",
-    "Main_gene_id2": "",
-    "Main_mrna_id": "NM_001281463",
-    "Main_mrna_id1": "NM_006306",
+    "Main_isoforms": [
+      {
+        "gene_name": "SMC1A",
+        "gene_isoforms": ["NM_001281463", "NM_006306"]
+      }
+    ],
     "Main_structure": "cohesins",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -7531,11 +7681,12 @@
     "Main_gene_name": "FUS RNA binding protein",
     "Main_protein": "RNA-binding protein FUS",
     "Main_gene_id": [2521],
-    "Main_gene_id1": "",
-    "Main_gene_id2": "",
-    "Main_mrna_id": "NM_001170634",
-    "Main_mrna_id1": "NM_001170937",
-    "Main_mrna_id2": "NM_004960",
+    "Main_isoforms": [
+      {
+        "gene_name": "FUS",
+        "gene_isoforms": ["NM_001170634","NM_001170937","NM_004960"]
+      }
+    ],
     "Main_structure": "paraspeckles / stress granules",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -7738,9 +7889,12 @@
     "Main_gene_name": "SRY-box transcription factor 2",
     "Main_protein": "transcription factor SOX-2",
     "Main_gene_id": [6657],
-    "Main_gene_id1": "",
-    "Main_gene_id2": "",
-    "Main_mrna_id": "NM_003106.4",
+    "Main_isoforms": [
+      {
+        "gene_name": "SOX2",
+        "gene_isoforms": ["NM_003106"]
+      }
+    ],
     "Main_structure": "transcription factor",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -7951,11 +8105,12 @@
     "Main_gene_name": "actinin alpha 2",
     "Main_protein": "alpha-actinin-2 ",
     "Main_gene_id": [88],
-    "Main_gene_id1": "",
-    "Main_gene_id2": "",
-    "Main_mrna_id": "NM_001103.3",
-            "Main_mrna_id1": "NM_001278343.1",
-            "Main_mrna_id2": "NM_001278344.1",
+    "Main_isoforms": [
+      {
+        "gene_name": "ACTN2",
+        "gene_isoforms": ["NM_001103","NM_001278343","NM_001278344"]
+      }
+    ],
     "Main_structure": "sarcomeric z-disks",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -8158,12 +8313,16 @@
     "Main_gene_name": "fibrillarin / nucleophosmin 1",
     "Main_protein": "fibrillarin / nucleophosmin",
     "Main_gene_id": [2091,4869],
-    "Main_mrna1_id": "NM_001436.4",
-    "Main_mrna2_id": "NM_002520.6",
-    "Main_mrna2_id2": "NM_001355006.1",
-    "Main_mrna2_id3": "NM_199185.3",
-    "Main_mrna2_id4": "NM_001355007.1",
-    "Main_mrna2_id5": "NM_001355010.1",
+    "Main_isoforms": [
+      {
+        "gene_name": "FBL",
+        "gene_isoforms": ["NM_001436"]
+      },
+      {
+        "gene_name": "NPM1",
+        "gene_isoforms": ["NM_002520","NM_001355006","NM_199185","NM_001355007","NM_001355010"]
+      }
+    ],
     "Main_structure": "nucleolus (dense fibrillar component / granular component)",
     "Main_terminal_tagged": "C-terminus / C-terminus",
     "Main_fluorescent_tag": "mEGFP / mTagRFP-T",
@@ -8404,9 +8563,12 @@
     "Main_gene_name": "lamin B1",
     "Main_protein": "lamin B1",
     "Main_gene_id": [4001],
-    "Main_gene_id1": "",
-    "Main_gene_id2": "",
-    "Main_mrna_id": "NM_005573.3",
+    "Main_isoforms": [
+      {
+        "gene_name": "LMNB1",
+        "gene_isoforms": ["NM_005573"]
+      }
+    ],
     "Main_structure": "nuclear envelope",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mTagRFP-T",
@@ -8616,15 +8778,21 @@
     "Main_gene_symbol": ["FBL","NPM1","CLYBL-dCas9-KRAB"],
     "Main_gene_name": "fibrillarin / nucleophosmin 1 / citramalyl-CoA lyase safe harbor",
     "Main_protein": "fibrillarin / nucleophosmin / dCas9-KRAB",
-    "Main_gene_id": [2091,4869],
-    "Main_gene_id3": "171425",
-    "Main_mrna1_id": "NM_001436.4",
-    "Main_mrna2_id": "NM_001355006.1",
-    "Main_mrna2_id1": "NM_002520.6",
-    "Main_mrna2_id2": "NM_199185.3",
-    "Main_mrna2_id3": "NM_001355007.1",
-    "Main_mrna2_id4": "NM_001355010.1",
-    "Main_mrna3_id1": "NA",
+    "Main_gene_id": [2091,4869,171425],
+    "Main_isoforms": [
+      {
+        "gene_name": "FBL",
+        "gene_isoforms": ["NM_001436"]
+      },
+      {
+        "gene_name": "NPM1",
+        "gene_isoforms": ["NM_001355006","NM_002520","NM_199185","NM_001355007","NM_001355010"]
+      },
+      {
+        "gene_name": "CLYBL safe harbor",
+        "gene_isoforms": ["NA"]
+      }
+    ],
     "Main_structure": "nucleolus (dense fibrillar component / granular component) / nucleus",
     "Main_terminal_tagged": "C-terminus / C-terminus / NA",
     "Main_fluorescent_tag": "mEGFP / mTagRFP-T/ TagBFP",
@@ -8894,12 +9062,12 @@
     "Main_gene_name": "SON DNA and RNA binding protein",
     "Main_protein": "SON",
     "Main_gene_id": [6651],
-    "Main_gene_id1": "",
-    "Main_gene_id2": "",
-    "Main_mrna_id": "NM_001291412.2",
-            "Main_mrna_id1": "NM_138927.3",
-            "Main_mrna_id2": "NM_001291411.1",
-            "Main_mrna_id3": "NM_032195.2",
+    "Main_isoforms": [
+      {
+        "gene_name": "SON",
+        "gene_isoforms": ["NM_001291412","NM_138927","NM_001291411","NM_032195"]
+      }
+    ],
     "Main_structure": "nuclear speckles",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -9110,15 +9278,20 @@
     "Main_gene_name": "fibrillarin / nucleophosmin 1 / upstream binding transcription factor",
     "Main_protein": "fibrillarin / nucleophosmin / nucleolar transcription factor UBF",
     "Main_gene_id": [2091,4869,7343],
-    "Main_mrna1_id": "NM_001436.4",
-    "Main_mrna2_id": "NM_001355006.1",
-    "Main_mrna2_id1": "NM_002520.6",
-    "Main_mrna2_id2": "NM_199185.3",
-    "Main_mrna2_id3": "NM_001355007.1",
-    "Main_mrna2_id4": "NM_001355010.1",
-    "Main_mrna3_id": "NM_014233.4",
-    "Main_mrna3_id1": "NM_001076684.3",
-    "Main_mrna3_id2": "NM_001076683.2",
+    "Main_isoforms": [
+      {
+        "gene_name": "FBL",
+        "gene_isoforms": ["NM_001436"]
+      },
+      {
+        "gene_name": "NPM1",
+        "gene_isoforms": ["NM_001355006","NM_002520","NM_199185","NM_001355007","NM_001355010"]
+      },
+      {
+        "gene_name": "UBTF",
+        "gene_isoforms": ["NM_014233","NM_001076684","NM_001076683"]
+      }
+    ],
     "Main_structure": "nucleolus (dense fibrillar component / granular component / fibrillar center)",
     "Main_terminal_tagged": "C-terminus / C-terminus / N-terminus",
     "Main_fluorescent_tag": "mEGFP / mTagRFP-T / HaloTag",
@@ -9388,10 +9561,12 @@
     "Main_gene_name": "transcription factor A, mitochondrial",
     "Main_protein": "mitochondrial transcription factor A (TFAM)",
     "Main_gene_id": [7019],
-    "Main_gene_id1": "",
-    "Main_gene_id2": "",
-    "Main_mrna_id": "NM_003201.3",
-    "Main_mrna_id1": "NM_001270782.1",
+    "Main_isoforms": [
+      {
+        "gene_name": "TFAM",
+        "gene_isoforms": ["NM_003201","NM_001270782"]
+      }
+    ],
     "Main_structure": "mitochondrial nucleoids",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -9594,8 +9769,16 @@
     "Main_gene_name": "translocase of outer mitochondrial membrane 20 / tubulin-alpha 1b",
     "Main_protein": "Tom20 / alpha-tubulin",
     "Main_gene_id": [9804,10376],
-    "Main_mrna1_id": "NM_014765",
-    "Main_mrna2_id": "NM_006082",
+    "Main_isoforms": [
+      {
+        "gene_name": "TOMM20",
+        "gene_isoforms": ["NM_014765"]
+      },
+      {
+        "gene_name": "TUBA1B",
+        "gene_isoforms": ["NM_006082"]
+      }
+    ],
     "Main_structure": "mitochondria / microtubules",
     "Main_terminal_tagged": "C-terminus / N-terminus",
     "Main_fluorescent_tag": "mEGFP / mTagRFP-T",
@@ -9779,7 +9962,12 @@
     "Main_gene_name": "telomeric repeat binding factor 2",
     "Main_protein": "telomeric repeat-binding factor 2 (TRF2)",
     "Main_gene_id": [7014],
-    "Main_mrna_id": "NM_005652.5",
+    "Main_isoforms": [
+      {
+        "gene_name": "TERF2",
+        "gene_isoforms": ["NM_005652"]
+      }
+    ],
     "Main_structure": "telomeres",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -9964,9 +10152,12 @@
     "Main_gene_name": "citramalyl-CoA lyase safe harbor",
     "Main_protein": "dCas9-KRAB",
     "Main_gene_id": [171425],
-    "Main_gene_id1": "",
-    "Main_gene_id2": "",
-    "Main_mrna_id": "NA",
+    "Main_isoforms": [
+      {
+        "gene_name": "CLYBL safe harbor",
+        "gene_isoforms": []
+      }
+    ],
     "Main_structure": "nucleus",
     "Main_terminal_tagged": "NA",
     "Main_fluorescent_tag": "TagBFP",
@@ -10152,11 +10343,12 @@
     "Main_gene_name": "dystrophin",
     "Main_protein": "dystrophin",
     "Main_gene_id": [1756],
-    "Main_gene_id1": "",
-    "Main_gene_id2": "",
-    "Main_mrna_id": "NM_004006.3",
-    "Main_mrna_id1": "NM_000109.4",
-    "Main_mrna_id2": "NM_004009.3",
+    "Main_isoforms": [
+      {
+        "gene_name": "DMD",
+        "gene_isoforms": ["NM_004006","NM_000109","NM_004009"]
+      }
+    ],
     "Main_structure": "costameres",
     "Main_terminal_tagged": "C-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -10343,13 +10535,12 @@
     "Main_gene_name": "enhancer of zeste 2 polycomb repressive complex 2 subunit",
     "Main_protein": "EZH2",
     "Main_gene_id": [2146],
-    "Main_gene_id1": "",
-    "Main_gene_id2": "",
-    "Main_mrna_id": "NM_004456.5",
-    "Main_mrna_id1": "NM_152998.3",
-    "Main_mrna_id2": "NM_001203247.2",
-    "Main_mrna_id3": "NM_001203248.2",
-    "Main_mrna_id4": "NM_001203249.2",
+    "Main_isoforms": [
+      {
+        "gene_name": "EZH2",
+        "gene_isoforms": ["NM_004456","NM_152998","NM_001203247","NM_001203248","NM_001203249"]
+      }
+    ],
     "Main_structure": "polycomb repressive complex 2",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -10536,9 +10727,12 @@
     "Main_gene_name": "RNA polymerase II subunit A",
     "Main_protein": "RPB1",
     "Main_gene_id": [5430],
-    "Main_gene_id1": "",
-    "Main_gene_id2": "",
-    "Main_mrna_id": "NM_000937.5",
+    "Main_isoforms": [
+      {
+        "gene_name": "POLR2A",
+        "gene_isoforms": ["NM_000937"]
+      }
+    ],
     "Main_structure": "RNA polymerase II",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -10724,8 +10918,12 @@
     "Main_gene_name": "proliferating cell nuclear antigen",
     "Main_protein": "proliferating cell nuclear antigen (PCNA)",
     "Main_gene_id": [5111],
-    "Main_mrna_id": "NM_002592",
-    "Main_mrna_id1": "NM_182649",
+    "Main_isoforms": [
+      {
+        "gene_name": "PCNA",
+        "gene_isoforms": ["NM_002592", "NM_182649"]
+      }
+    ],
     "Main_structure": "DNA replication foci",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
@@ -10910,8 +11108,12 @@
     "Main_gene_name": "CCCTC-binding factor",
     "Main_protein": "CCCTC-binding factor (CTCF)",
     "Main_gene_id": [10664],
-    "Main_mrna_id": "NM_006565",
-    "Main_mrna_id1": "NM_001363916",
+    "Main_isoforms": [
+      {
+        "gene_name": "CTCF",
+        "gene_isoforms": ["NM_006565","NM_001363916"]
+      }
+    ],
     "Main_structure": "CTCF-binding sites",
     "Main_terminal_tagged": "N-terminus",
     "Main_fluorescent_tag": "mEGFP",
