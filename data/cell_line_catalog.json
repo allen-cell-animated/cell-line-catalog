@@ -27,7 +27,12 @@
       {
         "id": "protocols",
         "done": "true"
+      },
+      {
+        "id": "stranalysis",
+        "done": "true"
       }
+
     ],
     "Main_data_available": "Yes",
     "Main_parent_line": "WTC",

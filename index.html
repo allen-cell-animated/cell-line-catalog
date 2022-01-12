@@ -667,6 +667,26 @@
       </div>
     {{/if}}
     </script>
+
+    <!-- STR analysis template --------------->
+    <script id="stranalysis-template" type="text/x-handlebars-template">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="panel panel-primary bg-lightgray">
+            <div class="panel-heading">
+              <h4>Acknowledgements</h4>
+            </div>
+            <div class="panel-body">
+              <ul id=editingDesign-info class="list-group">
+                <li class="list-group-item">
+                  <a href='{{Supplementary_acknowledgements}}' download="Allen_Cell_Collection_Acknowledgements.pdf">Allen Cell Collection Acknowledgements</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </script>
+    
   </head>
 <!-- BODY START -->
   <body>
@@ -823,6 +843,9 @@
                 <a data-toggle="tab" href="#protocols">Protocols</a></li>
               <li id="tab_supplementaryinformation" class="sub-page-tab disabled">
                 <a data-toggle="tab" href="#supplementaryinformation">Supplementary Information</a></li>
+              <li id="tab_stranalysis" class="sub-page-tab disabled">
+                <a data-toggle="tab" href="#stranalysis">STR Analysis</a></li>
+
             </ul>
           </nav>
         </div>
@@ -842,6 +865,10 @@
 
           </div>
           <div class="tab-pane subpage-tab container" id="supplementaryinformation" role="tabpanel">
+
+          </div>
+          <div class="tab-pane subpage-tab container" id="stranalysis" role="tabpanel">
+
 
           </div>
         </div>
