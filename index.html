@@ -674,14 +674,40 @@
         <div class="col-sm-6">
           <div class="panel panel-primary bg-lightgray">
             <div class="panel-heading">
-              <h4>Acknowledgements</h4>
+              <h4>STR Analysis</h4>
             </div>
             <div class="panel-body">
               <ul id=editingDesign-info class="list-group">
                 <li class="list-group-item">
-                  <a href='{{Supplementary_acknowledgements}}' download="Allen_Cell_Collection_Acknowledgements.pdf">Allen Cell Collection Acknowledgements</a></li>
+                  <a href='{{Stranalysis_report}}' download="WTC11_STR_analysis_report.pdf">STR Analysis report</a></li>
               </ul>
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h4>STR Analysis Results</h4>
+          </div>
+          <div class="panel-body">
+            <table class = "table">
+              <thead>
+                <tr>
+                  <th>Sample
+                  </th>
+                  <th>Donor Fibroblasts
+                  </th>
+                  <th>WTC11 line
+                  </th>
+                </tr>
+                <tbody id="str-table">
+                </tbody>
+              </thead>
+            </table>
+          </div>
+          <div class="panel-footer">
+            <p>{{STRanalysis_legend}}</p>
           </div>
         </div>
       </div>
