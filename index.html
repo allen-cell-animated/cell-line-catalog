@@ -667,6 +667,131 @@
       </div>
     {{/if}}
     </script>
+
+    <!-- STR analysis template --------------->
+    <script id="stranalysis-template" type="text/x-handlebars-template">
+      <div class="row">
+      <div class="col-sm-6">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h4>STR Analysis Results</h4>
+          </div>
+          <div class="panel-body">
+            <table class = "table">
+              <thead>
+                <tr>
+                  <th>
+                  </th>
+                  <th>Donor fibroblasts
+                  </th>
+                  <th>WTC line
+                  </th>
+                </tr>
+                <tr>
+                  <td><b>FGA<b></td>
+                  <td>22,25</td>
+                  <td>22,25</td>
+                </tr>
+                <tr>
+                  <td><b>TPOX<b></td>
+                  <td>8,11</td>
+                  <td>8,11</td>
+                </tr>
+                <tr>
+                  <td><b>D8S1179<b></td>
+                  <td>11,13</td>
+                  <td>11,13</td>
+                </tr>
+                <tr>
+                  <td><b>vWA<b></td>
+                  <td>17,19</td>
+                  <td>17,19</td>
+                </tr>
+                <tr>
+                  <td><b>Penta D<b></td>
+                  <td>9,11</td>
+                  <td>9,11</td>
+                </tr>
+                <tr>
+                  <td><b>CSF1PO<b></td>
+                  <td>10,12</td>
+                  <td>10,12</td>
+                </tr>
+                <tr>
+                  <td><b>D16S539<b></td>
+                  <td>9,10</td>
+                  <td>9,10</td>
+                </tr>
+                <tr>
+                  <td><b>D7S820<b></td>
+                  <td>10,12</td>
+                  <td>10,12</td>
+                </tr>
+                <tr>
+                  <td><b>D13S317<b></td>
+                  <td>8,11</td>
+                  <td>8,11</td>
+                </tr>
+                <tr>
+                  <td><b>D5S818<b></td>
+                  <td>9,10</td>
+                  <td>9,10</td>
+                </tr>
+                <tr>
+                  <td><b>Penta E<b></td>
+                  <td>13,15</td>
+                  <td>13,15</td>
+                </tr>
+                <tr>
+                  <td><b>D18S51<b></td>
+                  <td>12,21</td>
+                  <td>12,21</td>
+                </tr>
+                <tr>
+                  <td><b>D21S11<b></td>
+                  <td>29,29</td>
+                  <td>29,29</td>
+                </tr>
+                <tr>
+                  <td><b>TH01<b></td>
+                  <td>6,7</td>
+                  <td>6,7</td>
+                </tr>
+                <tr>
+                  <td><b>D3S1358<b></td>
+                  <td>15,16</td>
+                  <td>15,16</td>
+                </tr>
+                <tr>
+                  <td><b>Allelic polymorphisms<b></td>
+                  <td>29</td>
+                  <td>29</td>
+                </tr>
+                <tbody id="str-table">
+                </tbody>
+              </thead>
+            </table>
+          </div>
+          <div class="panel-footer">
+            <p>Short tandem repeat (STR) analysis confirms the identity of the WTC cell line in comparison to the donor fibroblasts that were used to generate the line. STR analysis was done by WiCell Cytogenetics using the Promega Powerplex 16 System. Download the full <a href='{{Stranalysis_report}}' download="WTC11_STR_analysis_report.pdf">STR analysis report here.</a></p>
+          </div>
+        </div>
+        </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="panel panel-primary bg-white">
+            <div class="panel-heading">
+              <h4>Amelogenin in WTC</h4>
+            </div>
+            <div class="panel-body">
+            <p>WTC has an Amelogenin Y (AMELY) variant that causes the WTC line to be misidentified as female (XX) by some molecular typing assays. AMELY variants and sex mis-typing have previously been reported in several populations. For more information on AMELY variant mis-typing, see <a href='https://www.sciencedirect.com/science/article/abs/pii/S1752928X13000632'>Tozzo et al, 2013.</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </script>
+    
   </head>
 <!-- BODY START -->
   <body>
@@ -823,6 +948,9 @@
                 <a data-toggle="tab" href="#protocols">Protocols</a></li>
               <li id="tab_supplementaryinformation" class="sub-page-tab disabled">
                 <a data-toggle="tab" href="#supplementaryinformation">Supplementary Information</a></li>
+              <li id="tab_stranalysis" class="sub-page-tab disabled">
+                <a data-toggle="tab" href="#stranalysis">STR Analysis</a></li>
+
             </ul>
           </nav>
         </div>
@@ -842,6 +970,10 @@
 
           </div>
           <div class="tab-pane subpage-tab container" id="supplementaryinformation" role="tabpanel">
+
+          </div>
+          <div class="tab-pane subpage-tab container" id="stranalysis" role="tabpanel">
+
 
           </div>
         </div>
