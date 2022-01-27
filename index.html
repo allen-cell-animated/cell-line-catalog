@@ -54,7 +54,7 @@
               </h4>
             </span>
           </li>
-          <li class="col-lg-2 inline-seperated-item">{{Main_gene_name}}<span class=gene-symbol>({{Main_gene_symbol}})</span></li>
+          <li class="col-lg-2 inline-seperated-item">{{Main_gene_name}}<span class="gene-symbol"></span></li>
           <li class="col-lg-1 inline-seperated-item">{{displayClone}}</li>
           <li class="col-lg-1 inline-seperated-item">{{alleleCount}}</li>
           <li class="col-lg-2 inline-seperated-item">{{Main_structure}}</li>
@@ -81,14 +81,7 @@
             <div class="panel-body">
               <ul id={{cell_line_id}} class="list-group">
                 <li class="list-group-item"><span class="profile-summary-key">Gene: </span><span class="profile-summary-value">{{Main_gene_name}}</span></li>
-                {{#if multipleTag}}
-                    <li class="list-group-item"><span class="profile-summary-key">Gene symbol: </span>
-                        <span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id1}}">{{Main_gene_symbol1}}</a></span> /
-                        <span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id2}}">{{Main_gene_symbol2}}</a></span> /
-                        <span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id3}}">{{Main_gene_symbol3}}</a></span></li>
-                {{else}}
-                    <li class="list-group-item"><span class="profile-summary-key">Gene symbol: </span><span class="profile-summary-value"><a href=" http://www.ncbi.nlm.nih.gov/gene/{{Main_gene_id}}">{{Main_gene_symbol}}</a></span></li>
-                {{/if}}
+                <li id="gene-symb-list" class="list-group-item"><span class="profile-summary-key">Gene symbol: </span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Protein: </span><span class="profile-summary-value">{{Main_protein}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Fluorophore:</span> <span class="profile-summary-value">{{Main_fluorescent_tag}}</span></li>
                 <li class="list-group-item"><span class="profile-summary-key">Tagged alleles:</span> <span class="profile-summary-value">{{alleleCount}}</span></li>
@@ -193,33 +186,6 @@
           <div class="panel panel-primary bg-lightgray">
             <div class="panel-body ">
               <ul id=editingDesign-info class="list-group">
-                <li class="list-group-item">
-
-                {{#if multipleTag}}
-                  <span class="profile-summary-key">{{Main_gene_symbol1}} NCBI Isoform(s):</span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna1_id}}">{{Main_mrna1_id}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna1_id1}}">{{Main_mrna1_id1}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna1_id2}}">{{Main_mrna1_id2}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna1_id3}}">{{Main_mrna1_id3}}</a></span></li>
-                <li class="list-group-item">
-                  <span class="profile-summary-key">{{Main_gene_symbol2}} NCBI Isoform(s):</span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna2_id}}">{{Main_mrna2_id}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna2_id1}}">{{Main_mrna2_id1}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna2_id2}}">{{Main_mrna2_id2}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna2_id3}}">{{Main_mrna2_id3}}</a></span></li>
-                <li class="list-group-item">
-                  <span class="profile-summary-key">{{Main_gene_symbol3}} NCBI Isoform(s):</span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna2_id}}">{{Main_mrna3_id}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna2_id1}}">{{Main_mrna3_id1}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna2_id2}}">{{Main_mrna3_id2}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna2_id3}}">{{Main_mrna3_id3}}</a></span></li>
-                {{else}}
-                  <span class="profile-summary-key">NCBI Isoform(s):</span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id}}">{{Main_mrna_id}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id1}}">{{Main_mrna_id1}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id2}}">{{Main_mrna_id2}}</a></span>
-                  <span class="profile-summary-value"><a href="  http://www.ncbi.nlm.nih.gov/nuccore/{{Main_mrna_id3}}">{{Main_mrna_id3}}</a></span></li>
-                {{/if}}
                 <li class="list-group-item">
 
                   <span class="profile-summary-key">crRNA:</span>
@@ -701,6 +667,131 @@
       </div>
     {{/if}}
     </script>
+
+    <!-- STR analysis template --------------->
+    <script id="stranalysis-template" type="text/x-handlebars-template">
+      <div class="row">
+      <div class="col-sm-6">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h4>STR Analysis Results</h4>
+          </div>
+          <div class="panel-body">
+            <table class = "table">
+              <thead>
+                <tr>
+                  <th>
+                  </th>
+                  <th>Donor fibroblasts
+                  </th>
+                  <th>WTC line*
+                  </th>
+                </tr>
+                <tr>
+                  <td><b>FGA<b></td>
+                  <td>22,25</td>
+                  <td>22,25</td>
+                </tr>
+                <tr>
+                  <td><b>TPOX<b></td>
+                  <td>8,11</td>
+                  <td>8,11</td>
+                </tr>
+                <tr>
+                  <td><b>D8S1179<b></td>
+                  <td>11,13</td>
+                  <td>11,13</td>
+                </tr>
+                <tr>
+                  <td><b>vWA<b></td>
+                  <td>17,19</td>
+                  <td>17,19</td>
+                </tr>
+                <tr>
+                  <td><b>Penta D<b></td>
+                  <td>9,11</td>
+                  <td>9,11</td>
+                </tr>
+                <tr>
+                  <td><b>CSF1PO<b></td>
+                  <td>10,12</td>
+                  <td>10,12</td>
+                </tr>
+                <tr>
+                  <td><b>D16S539<b></td>
+                  <td>9,10</td>
+                  <td>9,10</td>
+                </tr>
+                <tr>
+                  <td><b>D7S820<b></td>
+                  <td>10,12</td>
+                  <td>10,12</td>
+                </tr>
+                <tr>
+                  <td><b>D13S317<b></td>
+                  <td>8,11</td>
+                  <td>8,11</td>
+                </tr>
+                <tr>
+                  <td><b>D5S818<b></td>
+                  <td>9,10</td>
+                  <td>9,10</td>
+                </tr>
+                <tr>
+                  <td><b>Penta E<b></td>
+                  <td>13,15</td>
+                  <td>13,15</td>
+                </tr>
+                <tr>
+                  <td><b>D18S51<b></td>
+                  <td>12,21</td>
+                  <td>12,21</td>
+                </tr>
+                <tr>
+                  <td><b>D21S11<b></td>
+                  <td>29,29</td>
+                  <td>29,29</td>
+                </tr>
+                <tr>
+                  <td><b>TH01<b></td>
+                  <td>6,7</td>
+                  <td>6,7</td>
+                </tr>
+                <tr>
+                  <td><b>D3S1358<b></td>
+                  <td>15,16</td>
+                  <td>15,16</td>
+                </tr>
+                <tr>
+                  <td><b>Allelic polymorphisms<b></td>
+                  <td>29</td>
+                  <td>29</td>
+                </tr>
+                <tbody id="str-table">
+                </tbody>
+              </thead>
+            </table>
+          </div>
+          <div class="panel-footer">
+            <p>Short tandem repeat (STR) analysis confirms the identity of the WTC cell line in comparison to the donor fibroblasts that were used to generate the line. STR analysis was done by WiCell Cytogenetics using the Promega Powerplex 16 System. Download the full <a href='{{Stranalysis_report}}' download="WTC11_STR_analysis_report.pdf">STR analysis report here.</a> <br> * STR analysis was conducted for the WTC parental line prior to editing. WTC is the only cell line used by the Allen Institute for Cell Science. Edited WTC cells were not re-tested because they did not come into contact with any other cell lines. </p>
+          </div>
+        </div>
+        </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="panel panel-primary bg-white">
+            <div class="panel-heading">
+              <h4>Amelogenin in WTC</h4>
+            </div>
+            <div class="panel-body">
+            <p>WTC has an Amelogenin Y (AMELY) variant that causes the WTC line to be misidentified as female (XX) by some molecular typing assays. AMELY variants and sex mis-typing have previously been reported in several populations. For more information on AMELY variant mis-typing, see <a href='https://www.sciencedirect.com/science/article/abs/pii/S1752928X13000632'>Tozzo et al, 2013.</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </script>
+    
   </head>
 <!-- BODY START -->
   <body>
@@ -857,6 +948,9 @@
                 <a data-toggle="tab" href="#protocols">Protocols</a></li>
               <li id="tab_supplementaryinformation" class="sub-page-tab disabled">
                 <a data-toggle="tab" href="#supplementaryinformation">Supplementary Information</a></li>
+              <li id="tab_stranalysis" class="sub-page-tab disabled">
+                <a data-toggle="tab" href="#stranalysis">STR Analysis</a></li>
+
             </ul>
           </nav>
         </div>
@@ -876,6 +970,10 @@
 
           </div>
           <div class="tab-pane subpage-tab container" id="supplementaryinformation" role="tabpanel">
+
+          </div>
+          <div class="tab-pane subpage-tab container" id="stranalysis" role="tabpanel">
+
 
           </div>
         </div>
