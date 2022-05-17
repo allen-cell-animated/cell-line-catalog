@@ -6797,7 +6797,7 @@
     "Stranalysis_report":"/data/pdfs/WTC11_STR_analysis.pdf"
   },
   {
-    "cell_line_id": "AICS-0081",
+    "cell_line_id": "AICS-0114",
     "clone_number": "",
     "alleleCount": "",
     "status": "In Progress",
@@ -6832,18 +6832,18 @@
     ],
     "Main_data_available": "false",
     "Main_parent_line": "WTC",
-    "Main_gene_symbol": ["RYR2"],
-    "Main_gene_name": "ryanodine receptor 2",
-    "Main_protein": "ryanodine receptor 2",
-    "Main_gene_id": [6262],
+    "Main_gene_symbol": ["CDH1"],
+    "Main_gene_name": "cadherin 1",
+    "Main_protein": "cadherin 1",
+    "Main_gene_id": [999],
     "Main_isoforms": [
       {
-        "gene_name": "RYR2",
+        "gene_name": "CDH1",
         "gene_isoforms": []
       }
     ],
-    "Main_structure": "Ion channel",
-    "Main_terminal_tagged": "internal",
+    "Main_structure": "adherens junctions",
+    "Main_terminal_tagged": "C-Terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "",
     "Main_order_link": "",
@@ -11357,7 +11357,7 @@
   },
   {
     "cell_line_id": "AICS-0082",
-    "new": "true",
+    "new": "",
     "clone_number": "1",
     "alleleCount": "mono",
     "status": "Yes",
