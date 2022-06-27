@@ -6842,7 +6842,7 @@
         "gene_isoforms": []
       }
     ],
-    "Main_structure": "decapping complex",
+    "Main_structure": "P-bodies",
     "Main_terminal_tagged": "N-Terminus",
     "Main_fluorescent_tag": "mEGFP",
     "Main_linker": "",
@@ -11410,7 +11410,7 @@
     "Main_cofa": "https://www.coriell.org/0/PDF/Allen/ipsc/AICS-0082-001_CofA.pdf",
     "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
     "Main_donor_plasmid": "",
-    "Main_eu_hpsc_reg": "",
+    "Main_eu_hpsc_reg": "https://hpscreg.eu/cell-line/UCSFi001-A-63",
 
     "Main_media": [
         {
@@ -11569,7 +11569,7 @@
     },
     {
       "id": "stemcellcharacteristics",
-      "done": "false"
+      "done": "true"
     },
     {
       "id": "supplementaryinformation",
@@ -11624,7 +11624,7 @@
         "link": "/images/AICS-0114/AICS-114_cl32_CDH1.jpg"
       }
       ],
-  "EditingDesign_crRNA_seq": "TTGCTTTGGTCAATTCAACC",
+  "EditingDesign_crRNA_seq": "ACGACTAGGGGACTCGAGAG",
   "EditingDesign_cas9": "Wildtype spCas9",
   "EditingDesign_NCBI_isoform": "",
   "EditingDesign_gene_figure": "/images/AICS-0114/CDH1_gfp.png",
@@ -11680,27 +11680,27 @@
   "StemCellCharacterization_pluripotency_analysis": [
       {
         "Marker": "NANOG",
-        "positiveCells": ""
+        "positiveCells": "99.5"
       },
       {
         "Marker": "SOX2",
-        "positiveCells": ""
+        "positiveCells": "99.3"
       },
       {
         "Marker": "OCT4",
-        "positiveCells": ""
+        "positiveCells": "99.2"
       },
       {
         "Marker": "SSEA-1",
-        "positiveCells": ""
+        "positiveCells": "0.96"
       },
       {
         "Marker": "SSEA-4",
-        "positiveCells": ""
+        "positiveCells": "100"
       },
       {
         "Marker": "TRA-160",
-        "positiveCells": ""
+        "positiveCells": "100"
       }
       ],
   "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
@@ -11727,9 +11727,9 @@
 
   "StemCellCharacterization_differentiation":
       {
-        "troponin_percent_positive": "",
-        "Day_of_beating_percent": "",
-        "Day_of_beating_range": ""
+        "troponin_percent_positive": "65.2",
+        "Day_of_beating_percent": "100 (4)",
+        "Day_of_beating_range": "D8 - D11"
       },
   "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 12, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in (). ",
   "StemCellCharacterization_rnaseq_fig": "",
@@ -11763,7 +11763,7 @@
     },
     {
       "id": "stemcellcharacteristics",
-      "done": "false"
+      "done": "true"
     },
     {
       "id": "supplementaryinformation",
@@ -11818,7 +11818,7 @@
         "link": "/images/AICS-0114/AICS-114_cl35_CDH1.jpg"
       }
       ],
-  "EditingDesign_crRNA_seq": "TTGCTTTGGTCAATTCAACC",
+  "EditingDesign_crRNA_seq": "ACGACTAGGGGACTCGAGAG",
   "EditingDesign_cas9": "Wildtype spCas9",
   "EditingDesign_NCBI_isoform": "",
   "EditingDesign_gene_figure": "/images/AICS-0114/CDH1_gfp.png",
@@ -11874,27 +11874,27 @@
   "StemCellCharacterization_pluripotency_analysis": [
       {
         "Marker": "NANOG",
-        "positiveCells": ""
+        "positiveCells": "99.8"
       },
       {
         "Marker": "SOX2",
-        "positiveCells": ""
+        "positiveCells": "99.9"
       },
       {
         "Marker": "OCT4",
-        "positiveCells": ""
+        "positiveCells": "99.7"
       },
       {
         "Marker": "SSEA-1",
-        "positiveCells": ""
+        "positiveCells": "0.47"
       },
       {
         "Marker": "SSEA-4",
-        "positiveCells": ""
+        "positiveCells": "100"
       },
       {
         "Marker": "TRA-160",
-        "positiveCells": ""
+        "positiveCells": "100"
       }
       ],
   "StemCellCharacterization_pluripotency_analysis_caption": "iPSCs were stained with directly conjugated antibodies from BD Biosciences, acquired using a FACSAria III Fusion (BD Biosciences), and analyzed using FlowJo software (Treestar, Inc.). Doublets were excluded, then marker-specific gates were set according to corresponding fluorescence-minus-one (FMO) controls.",
@@ -11921,9 +11921,9 @@
 
   "StemCellCharacterization_differentiation":
       {
-        "troponin_percent_positive": "",
-        "Day_of_beating_percent": "",
-        "Day_of_beating_range": ""
+        "troponin_percent_positive": "70.4",
+        "Day_of_beating_percent": "100 (4)",
+        "Day_of_beating_range": "D8 - D11"
       },
   "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 12, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in (). ",
   "StemCellCharacterization_rnaseq_fig": "",
