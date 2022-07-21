@@ -11599,7 +11599,7 @@
   "Main_structure": "adherens junctions",
   "Main_terminal_tagged": "C-terminus",
   "Main_fluorescent_tag": "mEGFP",
-  "Main_linker": "SGLRS",
+  "Main_linker": "LE",
   "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0114-032&Product=iPSC",
   "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0114-032_CofA.pdf",
   "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
@@ -11710,7 +11710,7 @@
       {
         "Germ_Layer": "Ectoderm",
         "Marker": "PAX6",
-        "percent_positive_cells": "Pass"
+        "percent_positive_cell": "Pass"
       },
       {
         "Germ_Layer": "Endoderm",
@@ -11793,7 +11793,7 @@
   "Main_structure": "adherens junctions",
   "Main_terminal_tagged": "C-terminus",
   "Main_fluorescent_tag": "mEGFP",
-  "Main_linker": "SGLRS",
+  "Main_linker": "LE",
   "Main_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=AICS-0114-035&Product=iPSC",
   "Main_cofa": "https://catalog.coriell.org/0/PDF/Allen/ipsc/AICS-0114-035_CofA.pdf",
   "Main_parental_order_link": "https://catalog.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM25256&Product=CC",
