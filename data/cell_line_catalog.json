@@ -11805,7 +11805,7 @@
   "Main_parent_line": "WTC",
   "Main_gene_symbol": ["DCP1A"],
   "Main_gene_name": "decapping mRNA 1A",
-  "Main_protein": "P-bodies",
+  "Main_protein": "mRNA-decapping enzyme 1A (DCP1A)",
   "Main_gene_id": ["55802"],
   "Main_isoforms": [
     {
@@ -11813,7 +11813,7 @@
       "gene_isoforms": ["NP_060873.4","NP_001277133.1", "NP_00127134.1", "NP_00127135.1", "NP_00127136.1"] 
     }
   ],
-  "Main_structure": "P-bodies",
+  "Main_structure": "processing bodies (P-bodies)",
   "Main_terminal_tagged": "N-terminus",
   "Main_fluorescent_tag": "mEGFP",
   "Main_linker": "SRA",
@@ -11827,10 +11827,10 @@
       {
         "type": "image",
         "cell_line_id": "AICS-0083",
-        "data_type": "combined plane image",
-        "file_name": "DCP1A_cl5_combined_img.jpg",
-        "caption": ": hiPS cells expressing mEGFP-tagged mRNA-decapping enzyme 1A (DCP1A) control cells (left panel) and cells in the presence of 62.5 µM sodium arsenite for 60 minutes (right panel). Main panel images (scalebar, 20 um) show the change in distribution of puncta at the colony level with oxidative stress. Insets (scalebar, 5 um) show structural detail of puncta in center cells in each condition (different cells imaged at higher resolution). Images are maximum intensity projections spanning the whole cell volume (main panel) or 1.5 µm around the middle z-section of the cells (insets). Cells were imaged live in 3D on a spinning-disk confocal microscope.",
-        "link": "/images/AICS-0083/DCP1A_cl5_combined_img.jpg"
+        "data_type": "single plane image",
+        "file_name": "single_plane_image_cl5.jpg",
+        "caption": "hiPS cells expressing mEGFP-tagged mRNA-decapping enzyme 1A (DCP1A) control cells (left panel) and cells in the presence of 62.5 µM sodium arsenite for 60 minutes (right panel). Main panel images (scalebar, 20 um) show the change in distribution of puncta at the colony level with oxidative stress. Insets (scalebar, 5 um) show structural detail of puncta in center cells in each condition (different cells imaged at higher resolution). Images are maximum intensity projections spanning the whole cell volume (main panel) or 1.5 µm around the middle z-section of the cells (insets). Cells were imaged live in 3D on a spinning-disk confocal microscope.",
+        "link": "/images/AICS-0083/single_plane_image_cl5.jpg"
       },
       {
         "type": "image",
@@ -11838,7 +11838,7 @@
         "data_type": "morphology_image",
         "file_name": "AICS-83_cl5_DCP1A.jpg",
         "caption": " Viability and colony formation one day, three days and four days post-thaw. Scale bars are as shown.",
-        "link": "/images/AICS-0114/AICS-83_cl5_DCP1A.jpg"
+        "link": "/images/AICS-0083/AICS-83_cl5_DCP1A.jpg"
       }
       ],
   "EditingDesign_crRNA_seq": "GGCTCTGGGATTCAAGATGG",
@@ -11999,7 +11999,7 @@
   "Main_parent_line": "WTC",
   "Main_gene_symbol": ["DCP1A"],
   "Main_gene_name": "decapping mRNA 1A",
-  "Main_protein": "P-bodies",
+  "Main_protein": "mRNA-decapping enzyme 1A (DCP1A)",
   "Main_gene_id": ["55802"],
   "Main_isoforms": [
     {
@@ -12007,7 +12007,7 @@
       "gene_isoforms": ["NP_060873.4","NP_001277133.1", "NP_00127134.1", "NP_00127135.1", "NP_00127136.1"] 
     }
   ],
-  "Main_structure": "P-bodies",
+  "Main_structure": "processing bodies (P-bodies)",
   "Main_terminal_tagged": "N-terminus",
   "Main_fluorescent_tag": "mEGFP",
   "Main_linker": "SRA",
@@ -12021,10 +12021,10 @@
       {
         "type": "image",
         "cell_line_id": "AICS-0083",
-        "data_type": "combined plane image",
-        "file_name": "DCP1A_cl124_combined_img.jpg",
-        "caption": ": hiPS cells expressing mEGFP-tagged mRNA-decapping enzyme 1A (DCP1A) control cells (left panel) and cells in the presence of 62.5 µM sodium arsenite for 60 minutes (right panel). Main panel images (scalebar, 20 um) show the change in distribution of puncta at the colony level with oxidative stress. Insets (scalebar, 5 um) show structural detail of puncta in center cells in each condition (different cells imaged at higher resolution). Images are maximum intensity projections spanning the whole cell volume (main panel) or 1.5 µm around the middle z-section of the cells (insets). Cells were imaged live in 3D on a spinning-disk confocal microscope.",
-        "link": "/images/AICS-0083/DCP1A_cl124_combined_img.jpg"
+        "data_type": "single plane image",
+        "file_name": "single_plane_image_cl124.jpg",
+        "caption": "hiPS cells expressing mEGFP-tagged mRNA-decapping enzyme 1A (DCP1A) control cells (left panel) and cells in the presence of 62.5 µM sodium arsenite for 60 minutes (right panel). Main panel images (scalebar, 20 um) show the change in distribution of puncta at the colony level with oxidative stress. Insets (scalebar, 5 um) show structural detail of puncta in center cells in each condition (different cells imaged at higher resolution). Images are maximum intensity projections spanning the whole cell volume (main panel) or 1.5 µm around the middle z-section of the cells (insets). Cells were imaged live in 3D on a spinning-disk confocal microscope.",
+        "link": "/images/AICS-0083/single_plane_image_cl124.jpg"
       },
       {
         "type": "image",
@@ -12032,7 +12032,7 @@
         "data_type": "morphology_image",
         "file_name": "AICS-83_cl124_DCP1A.jpg",
         "caption": "Viability and colony formation one day and three days post-thaw. Scale bars are as shown",
-        "link": "/images/AICS-0114/AICS-83_cl124_DCP1A.jpg"
+        "link": "/images/AICS-0083/AICS-83_cl124_DCP1A.jpg"
       }
       ],
   "EditingDesign_crRNA_seq": "GGCTCTGGGATTCAAGATGG",
