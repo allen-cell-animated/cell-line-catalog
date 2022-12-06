@@ -22,11 +22,11 @@
     "grunt-banner": "^0.2.3",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-cssmin": "^0.10.0",
-    "grunt-contrib-less": "^0.11.4",
+    "grunt-contrib-less": "^3.0.0",
     "gulp": "^3.9.1"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "express-request-proxy": "^2.0.0"
   }
 }
