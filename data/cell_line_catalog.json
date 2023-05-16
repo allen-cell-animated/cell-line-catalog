@@ -9634,7 +9634,7 @@
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
@@ -9745,7 +9745,7 @@
     "GenomicCharacterization_ddpcr_caption": "FP:RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.1 indicate heterozygous clone, values = 1 +/- 0.1 indicate homozygous clone. Plasmid: KAN/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "",
+    "Validation_WesternBlot": "/images/AICS-0078/ReleaseWestern_AICS-0078_TUBULIN_TOMM20.jpg",
     "Validation_WesternBlot_caption": "",
     "Validation_Immunofluorescence": "",
     "Validation_Immunofluorescence_caption": "",
@@ -9831,7 +9831,7 @@
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
@@ -9938,11 +9938,10 @@
     "GenomicCharacterization_ddpcr_caption": "FP:RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.1 indicate heterozygous clone, values = 1 +/- 0.1 indicate homozygous clone. Plasmid: KAN/RPP30 ratio from ddPCR assay; values <0.1 in      dicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "",
+    "Validation_WesternBlot": "/images/AICS-0093/ReleaseWestern_AICS0093_TRF2-mEGFP.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "",
+    "Validation_Immunofluorescence": "/images/AICS-0093/ReleaseIF_AICS0093_TRF2-mEGFP.jpg",
     "Validation_Immunofluorescence_caption": "",
-
     "StemCellCharacterization_pluripotency_analysis": [
         {
           "Marker": "NANOG",
@@ -10026,7 +10025,7 @@
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
@@ -10083,6 +10082,22 @@
           "file_name": "Main_cell_line_morphology.jpg",
           "caption": "Viability and colony formation one day and three days post-thaw. Cells were treated with ROCK inhibitor for 24 hrs post-thaw.",
           "link": "/images/AICS-0090/Main_cell_line_morphology.jpg"
+        },
+        {
+          "type": "image",
+          "cell_line_id": "AICS-0090",
+          "data_type": "single plane high mag image",
+          "file_name": "20191108_M02_001_s6_z11_cropped_combined_scalebar50.tif",
+          "caption": "Single, mid-level plane of cells in a live hiPS cell colony expressing TagBFP-tagged dCas9-KRAB. TagBFP-tagged dCas9-KRAB (left) and overlay onto transmitted light image (right) are shown. Cells were imaged in 3D on a spinning-disk confocal microscope. Scale bar, 50 µm.",
+          "link": "/images/AICS-0090/20191108_M02_001_s6_z11_cropped_combined_scalebar50.tif"
+        },
+        {
+          "type": "image",
+          "cell_line_id": "AICS-0090",
+          "data_type": "single plane low mag image",
+          "file_name": "20191108_M02_001_s6_cropped_combinedstacks_ch1_overlay_RGB_scalebar20.avi",
+          "caption": "Z-stack of live hiPS cell colony expressing TagBFP-tagged dCas9-KRAB. TagBFP-tagged dCas9-KRAB (left) and overlay onto transmitted light image stack (right) are shown. Cells were imaged in 3D on a spinning-disk confocal microscope. Movie starts at the bottom of the cells and ends at the top. Scale bar, 20 µm.",
+          "link": "/images/AICS-0090/20191108_M02_001_s6_z11_cropped_combined_scalebar50.tif"
         }
         ],
     "EditingDesign_crRNA_seq": "TGTTGGAAGGATGAGGAAAT",
@@ -10133,10 +10148,9 @@
     "GenomicCharacterization_ddpcr_caption": "FP:RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.1 indicate heterozygous clone, values = 1 +/- 0.1 indicate homozygous clone. Plasmid: KAN/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "/images/AICS-0090/",
+    "Validation_WesternBlot": "/images/AICS-0090/WesternRelease_AICS-0090_dCas9-KRAB.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "/images/AICS-0090/",
-    "Validation_Immunofluorescence_caption": "",
+  
 
     "StemCellCharacterization_pluripotency_analysis": [
         {
@@ -10419,7 +10433,7 @@
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
@@ -10526,9 +10540,9 @@
     "GenomicCharacterization_ddpcr_caption": "FP:RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.1 indicate heterozygous clone, values = 1 +/- 0.1 indicate homozygous clone. Plasmid: KAN/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "",
+    "Validation_WesternBlot": "/images/AICS-0095/WesternRelease_AICS-0095_EZH2-mEGFP.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "",
+    "Validation_Immunofluorescence": "/images/AICS-0095/IFRelease_AICS-0095_EZH2-mEGFP.jpg",
     "Validation_Immunofluorescence_caption": "",
 
     "StemCellCharacterization_pluripotency_analysis": [
@@ -10616,7 +10630,7 @@
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
@@ -10723,9 +10737,9 @@
     "GenomicCharacterization_ddpcr_caption": "FP:RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.1 indicate heterozygous clone, values = 1 +/- 0.1 indicate homozygous clone. Plasmid: KAN/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "",
+    "Validation_WesternBlot": "/images/AICS-0096/ReleaseWestern_AICS-0096_POLR2A.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "",
+    "Validation_Immunofluorescence": "/images/AICS-0096/ReleaseIF_AICS-0096_POLR2A.jpg",
     "Validation_Immunofluorescence_caption": "",
 
     "StemCellCharacterization_pluripotency_analysis": [
@@ -10811,7 +10825,7 @@
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
@@ -10919,9 +10933,9 @@
     "GenomicCharacterization_ddpcr_caption": "FP:RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.1 indicate heterozygous clone, values = 1 +/- 0.1 indicate homozygous clone. Plasmid: KAN/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "",
+    "Validation_WesternBlot": "/images/AICS-0088/ReleaseWestern_AICS-0088_PCNA-mEGFP.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "",
+    "Validation_Immunofluorescence": "/images/AICS-0088/ReleaseIF_AICS-0088_PCNA-mEGFP.jpg",
     "Validation_Immunofluorescence_caption": "",
 
     "StemCellCharacterization_pluripotency_analysis": [
@@ -11005,7 +11019,7 @@
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
@@ -11112,9 +11126,9 @@
     "GenomicCharacterization_ddpcr_caption": "FP:RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.1 indicate heterozygous clone, values = 1 +/- 0.1 indicate homozygous clone. Plasmid: KAN/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "",
+    "Validation_WesternBlot": "/images/AICS-0099/ReleaseWestern_AICS-0099_CTCF-mEGFP.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "",
+    "Validation_Immunofluorescence": "/images/AICS-0099/ReleaseIF_AICS-0099_CTCF-mEGFP.jpg",
     "Validation_Immunofluorescence_caption": "",
 
     "StemCellCharacterization_pluripotency_analysis": [
@@ -11199,7 +11213,7 @@
       },
       {
         "id": "validation",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "stemcellcharacteristics",
@@ -11306,9 +11320,9 @@
     "GenomicCharacterization_ddpcr_caption": "FP:RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.1 indicate heterozygous clone, values = 1 +/- 0.1 indicate homozygous clone. Plasmid: KAN/RPP30 ratio from ddPCR assay; values <0.1 indicate clone with no detectable plasmid integration. RPP30 is known 2n reference gene.",
     "GenomicCharacterization_offtargets": "",
     "GenomicCharacterization_offtargets_caption": "",
-    "Validation_WesternBlot": "",
+    "Validation_WesternBlot": "/images/AICS-0082/ReleaseWestern_AICS-0082_G2BP1-mEGFP.jpg",
     "Validation_WesternBlot_caption": "",
-    "Validation_Immunofluorescence": "",
+    "Validation_Immunofluorescence": "/images/AICS-0082/ReleaseIF_AICS-0082_G2BP1-mEGFP.jpg",
     "Validation_Immunofluorescence_caption": "",
 
     "StemCellCharacterization_pluripotency_analysis": [
