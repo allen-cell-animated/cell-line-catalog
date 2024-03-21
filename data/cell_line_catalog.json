@@ -11407,7 +11407,7 @@
     },
     {
       "id": "validation",
-      "done": "false"
+      "done": "true"
     },
     {
       "id": "stemcellcharacteristics",
@@ -11514,9 +11514,9 @@
   "GenomicCharacterization_ddpcr_caption": "FP:RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.1 indicate heterozygous clone, values = 1 +/- 0.1 indicate homozygous clone. RPP30 is known 2n reference gene.",
   "GenomicCharacterization_offtargets": "",
   "GenomicCharacterization_offtargets_caption": "",
-  "Validation_WesternBlot": "",
+  "Validation_WesternBlot": "/images/AICS-0114/AICS-114_cl32_CDH1_Western.jpg",
   "Validation_WesternBlot_caption": "",
-  "Validation_Immunofluorescence": "",
+  "Validation_Immunofluorescence": "/images/AICS-0114/AICS-114_cl32_CDH1_antibody_staining.jpg",
   "Validation_Immunofluorescence_caption": "",
 
   "StemCellCharacterization_pluripotency_analysis": [
@@ -11601,7 +11601,7 @@
     },
     {
       "id": "validation",
-      "done": "false"
+      "done": "true"
     },
     {
       "id": "stemcellcharacteristics",
@@ -11708,9 +11708,9 @@
   "GenomicCharacterization_ddpcr_caption": "FP:RPP30 ratio from ddPCR assay; values = 0.5 +/- 0.1 indicate heterozygous clone, values = 1 +/- 0.1 indicate homozygous clone. RPP30 is known 2n reference gene.",
   "GenomicCharacterization_offtargets": "",
   "GenomicCharacterization_offtargets_caption": "",
-  "Validation_WesternBlot": "",
+  "Validation_WesternBlot": "/images/AICS-0114/AICS-114_cl35_CDH1_Western.jpg",
   "Validation_WesternBlot_caption": "",
-  "Validation_Immunofluorescence": "",
+  "Validation_Immunofluorescence": "/images/AICS-0114/AICS-114_cl35_CDH1_antibody_staining.jpg",
   "Validation_Immunofluorescence_caption": "",
 
   "StemCellCharacterization_pluripotency_analysis": [
@@ -12439,7 +12439,7 @@
   "EditingDesign_cas9": "Wildtype spCas9",
   "EditingDesign_NCBI_isoform": "",
   "EditingDesign_gene_figure": "/images/AICS-0126/CDH5_GFP.png",
-  "EditingDesign_gene_figure_caption": "Top: CDH5 locus showing 3 CDH1 isoforms; Bottom: Zoom in on mEGFP insertion site at CDH5 C-terminal exon.",
+  "EditingDesign_gene_figure_caption": "Top: CDH5 locus showing 3 CDH5 isoforms; Bottom: Zoom in on mEGFP insertion site at CDH5 C-terminal exon.",
   "GenomicCharacterization_junction_schematic": "/images/GenomicCharacterization_junction_schematic_mEGFP.png",
   "GenomicCharacterization_tagged_allele_gel": "/images/AICS-0126/CDH5_cl68_full_allele.jpg",
     "GenomicCharacterization_tagged_allele_gel_caption": "Junctional PCR primers complementary to sequences flanking the homology arms in the distal genome were used together to co-amplify tagged and untagged alleles. Gel shows untagged allele (smaller band) and tagged allele (larger band) from single PCR reaction. (1% Agarose gel with Thermo Fisher 1kb ladder). Clone 68 is available from Coriell.",
