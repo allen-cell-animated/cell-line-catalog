@@ -17,16 +17,16 @@
   },
   "homepage": "https://github.com/meganrm/cell-line-catalog#readme",
   "devDependencies": {
-    "grunt": "^0.4.5",
+    "grunt": "^1.5.3",
     "grunt-autoprefixer": "^0.8.2",
     "grunt-banner": "^0.2.3",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-cssmin": "^0.10.0",
     "grunt-contrib-less": "^0.11.4",
-    "gulp": "^3.9.1"
+    "gulp": "^4.0.2"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-request-proxy": "^2.0.0"
   }
 }
