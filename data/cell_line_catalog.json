@@ -12186,7 +12186,7 @@
       },
       {
         "id": "stemcellcharacteristics",
-        "done": "false"
+        "done": "true"
       },
       {
         "id": "supplementaryinformation",
@@ -12375,7 +12375,7 @@
     },
     {
       "id": "stemcellcharacteristics",
-      "done": "false"
+      "done": "true"
     },
     {
       "id": "supplementaryinformation",
@@ -12501,10 +12501,6 @@
       },
       {
         "Marker": "SSEA-4",
-        "positiveCells": "100.0"
-      },
-      {
-        "Marker": "TRA-160",
         "positiveCells": "100.0"
       }
       ],
