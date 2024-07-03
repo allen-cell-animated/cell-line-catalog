@@ -11105,13 +11105,13 @@
         "editedGene": "CTCF-mEGFP",
         "junction": "WT",
         "expected_size": "1208",
-        "confirmed_sequence": "yes"
+        "confirmed_sequence": "Yes"
       },
       {
         "editedGene": "CTCF-mEGFP",
         "junction": "Full junctional allele",
         "expected_size": "Tagged:  3232 bp; Untagged: 2498 bp",
-        "confirmed_sequence": ""
+        "confirmed_sequence": "Yes"
       }
     ],
     "GenomicCharacterization_junction_table_caption": "PCR amplified 5', 3', WT, and full allele junctions. 5', 3', and WT junctions were Sanger sequenced to check for precise mEGFP insertion. Primers were designed to exclude amplification from the donor plasmid.",
@@ -12338,12 +12338,12 @@
     ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
 
-    "StemCellCharacterization_differentiation": {
-      "troponin_percent_positive": "65.2",
-      "Day_of_beating_percent": "100 (4)",
-      "Day_of_beating_range": "D8 - D11"
-    },
-    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 12, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in (). ",
+    //"StemCellCharacterization_differentiation": {
+    //  "troponin_percent_positive": "65.2",
+    //  "Day_of_beating_percent": "100 (4)",
+    //  "Day_of_beating_range": "D8 - D11"
+    //},
+    //"StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 12, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in (). ",
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
@@ -12527,12 +12527,12 @@
     ],
     "StemCellCharacterization_trilineage_caption": "iPSCs were subjected to a 5-7 day, non-terminal, directed differentiation using the STEMdiff™ Trilineage Differentiation Kit (STEMCELL Technologies, Inc.). Total RNA was isolated from each lineage specific differentiation and assayed via ddPCR for the expression of lineage specific transcripts; Pax6(Ectoderm), Sox17(Endoderm) and Brachyury(Mesoderm).",
 
-    "StemCellCharacterization_differentiation": {
-      "troponin_percent_positive": "65.2",
-      "Day_of_beating_percent": "100 (4)",
-      "Day_of_beating_range": "D8 - D11"
-    },
-    "StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 12, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in (). ",
+    //"StemCellCharacterization_differentiation": {
+    //  "troponin_percent_positive": "65.2",
+    //  "Day_of_beating_percent": "100 (4)",
+    //  "Day_of_beating_range": "D8 - D11"
+    //},
+    //"StemCellCharacterization_differentiation_caption": "iPSCs were differentiated to cardiomyocytes and observed for initiation of beating starting at day 6. At ~day 12, cells were fixed and stained with anti-cardiac Troponin T (BD Biosciences) and gating was based on an isotype control. Ranges observed across multiple experiments are shown for Troponin T and Day of beating initiation; number of experiments is shown in (). ",
     "StemCellCharacterization_rnaseq_fig": "",
     "StemCellCharacterization_rnaseq_fig_caption": "",
     "Supplementary_acknowledgements": "/data/pdfs/aics_acknowledgements.pdf",
