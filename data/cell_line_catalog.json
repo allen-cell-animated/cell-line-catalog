@@ -2021,7 +2021,7 @@
     "Main_parent_line": "WTC",
     "Main_gene_symbol": ["TJP1"],
     "Main_gene_name": "tight junction protein 1",
-    "Main_protein": "tight junction protein ZO1",
+    "Main_protein": "tight junction protein ZO-1",
     "Main_gene_id": [7082],
     "Main_isoforms": [
       {
@@ -12581,7 +12581,7 @@
   ],
   "Main_data_available": "false",
   "Main_parent_line": "WTC",
-  "Main_gene_symbol": ["TBR2"],
+  "Main_gene_symbol": [ "EOMES" ],
   "Main_gene_name": "eomesodermin",
   "Main_protein": "T-box protein",
   "Main_gene_id": [10951],
