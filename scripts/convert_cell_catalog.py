@@ -1,6 +1,21 @@
 import json
 import os
 
+
+def sort_media_data(media_list):
+    new_media_dict = {"images": [], "videos": []}
+    for media in media_list:
+        if media["type"] == "image":
+            new_media_dict["images"].append(
+                {"image": media["link"], "caption": media["caption"]}
+            )
+        elif media["type"] == "movie":
+            new_media_dict["videos"].append(
+                {"video": media["link"], "caption": media["caption"]}
+            )
+    return new_media_dict
+
+
 with open("./data/cell_line_catalog.json", "r") as f:
     data = cell_line_catalog = json.load(f)
 
@@ -45,6 +60,7 @@ for cell_line in data:
     path = f"./cell-lines/AICS-{cell_line_id}"
     if not os.path.exists(path):
         os.mkdir(f"./cell-lines/AICS-{cell_line_id}")  # create directory
+    new_media_data = sort_media_data(cell_line["Main_media"])
     with open(f"./cell-lines/AICS-{cell_line_id}/index.md", "w") as f:
         f.write("---\n")
         f.write("templateKey: cell-line\n")
@@ -59,4 +75,18 @@ for cell_line in data:
         f.write("fluorescent_tag:\n")
         f.write(f"  - {cell_line['Main_fluorescent_tag']}\n")
         f.write(f"order_link: {cell_line['Main_order_link']}\n")
+        f.write(f"cofa: {cell_line['Main_cofa']}\n")
+        # AICS 70 and 122 has only limited data, some keys are missing(e.g.Main_donor_plasmid, Main_eu_hpsc_reg)
+        f.write(f"donor_plasmid: {cell_line.get('Main_donor_plasmid', '')}\n")
+        f.write(f"eu_hpsc_reg: {cell_line.get('Main_eu_hpsc_reg', '')}\n")
+        # TODO: check if media links are working
+        f.write(f"images_and_videos:\n")
+        f.write(f"  images:\n")
+        for image in new_media_data["images"]:
+            f.write(f"    - image: {image['image']}\n")
+            f.write(f"      caption: {image['caption']}\n")
+        f.write(f"  videos:\n")
+        for video in new_media_data["videos"]:
+            f.write(f"    - video: {video['video']}\n")
+            f.write(f"      caption: {video['caption']}\n")
         f.write("---")
