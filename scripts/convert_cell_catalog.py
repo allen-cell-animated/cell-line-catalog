@@ -75,6 +75,15 @@ for cell_line in data:
         f.write("templateKey: cell-line\n")
         f.write(f"cell_line_id: {cell_line_id}\n")
         f.write(f"status: {check_status(cell_line['status'])}\n")
+        # handle parental line thumbnail image
+        if cell_line_id == 13:
+            f.write("date: 2024-02-27T01:25:04.306Z\n")
+            f.write(f"thumbnail_image: aics-{cell_line_id}.jpg\n")
+        elif cell_line_id == 75:
+            f.write("date: 2024-02-06T04:38:23.506Z\n")
+            f.write(
+                "thumbnail_image: 20181023_m02_001_s13_cl85_cropped_scalebar20_withinset_rgb.jpg\n"
+            )
         f.write(f"clone_number: {cell_line['clone_number']}\n")
         f.write(f"allele_count: {cell_line['alleleCount']}\n")
         f.write(f"parental_line: 0\n")
@@ -88,7 +97,6 @@ for cell_line in data:
         # In progress cell lines (AICS 70 and 122) have only limited data, check the keys before accessing
         f.write(f"donor_plasmid: {cell_line.get('Main_donor_plasmid', '')}\n")
         f.write(f"eu_hpsc_reg: {cell_line.get('Main_eu_hpsc_reg', '')}\n")
-        # TODO: check if media links are working
         f.write(f"images_and_videos:\n")
         f.write(f"  images:\n")
         for image in new_media_data["images"]:
