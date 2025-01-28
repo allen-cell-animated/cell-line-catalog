@@ -15,6 +15,15 @@ def sort_media_data(media_list):
             )
     return new_media_dict
 
+def check_status(status):
+    try:
+        if status == "In Progress":
+            return "in progress"
+        elif status == "Yes":
+            return "released"
+    except KeyError:
+        return "no status found"
+
 
 with open("./data/cell_line_catalog.json", "r") as f:
     data = cell_line_catalog = json.load(f)
@@ -65,7 +74,7 @@ for cell_line in data:
         f.write("---\n")
         f.write("templateKey: cell-line\n")
         f.write(f"cell_line_id: {cell_line_id}\n")
-        f.write(f"status: released\n")
+        f.write(f"status: {check_status(cell_line['status'])}\n")
         f.write(f"clone_number: {cell_line['clone_number']}\n")
         f.write(f"allele_count: {cell_line['alleleCount']}\n")
         f.write(f"parental_line: 0\n")
@@ -76,7 +85,7 @@ for cell_line in data:
         f.write(f"  - {cell_line['Main_fluorescent_tag']}\n")
         f.write(f"order_link: {cell_line['Main_order_link']}\n")
         f.write(f"cofa: {cell_line['Main_cofa']}\n")
-        # AICS 70 and 122 has only limited data, some keys are missing(e.g.Main_donor_plasmid, Main_eu_hpsc_reg)
+        # In progress cell lines (AICS 70 and 122) have only limited data, check the keys before accessing
         f.write(f"donor_plasmid: {cell_line.get('Main_donor_plasmid', '')}\n")
         f.write(f"eu_hpsc_reg: {cell_line.get('Main_eu_hpsc_reg', '')}\n")
         # TODO: check if media links are working
