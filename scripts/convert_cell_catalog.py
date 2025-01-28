@@ -7,11 +7,11 @@ def sort_media_data(media_list):
     for media in media_list:
         if media["type"] == "image":
             new_media_dict["images"].append(
-                {"image": media["link"], "caption": media["caption"]}
+                {"image": media["link"], "caption":f'"{media["caption"]}"'}
             )
         elif media["type"] == "movie":
             new_media_dict["videos"].append(
-                {"video": media["link"], "caption": media["caption"]}
+                {"video": media["link"], "caption": f'"{media["caption"]}"'}
             )
     return new_media_dict
 
