@@ -3,13 +3,9 @@ import os
 
 
 def sort_media_data(media_list):
-    new_media_dict = {"images": [], "videos": []}
+    new_media_dict = {"videos": []}
     for media in media_list:
-        if media["type"] == "image":
-            new_media_dict["images"].append(
-                {"image": media["link"], "caption":f'"{media["caption"]}"'}
-            )
-        elif media["type"] == "movie":
+        if media["type"] == "movie":
             new_media_dict["videos"].append(
                 {"video": media["link"], "caption": f'"{media["caption"]}"'}
             )
@@ -77,10 +73,8 @@ for cell_line in data:
         f.write(f"status: {check_status(cell_line['status'])}\n")
         # handle parental line thumbnail image
         if cell_line_id == 13:
-            f.write("date: 2024-02-27T01:25:04.306Z\n")
             f.write(f"thumbnail_image: aics-{cell_line_id}.jpg\n")
         elif cell_line_id == 75:
-            f.write("date: 2024-02-06T04:38:23.506Z\n")
             f.write(
                 "thumbnail_image: 20181023_m02_001_s13_cl85_cropped_scalebar20_withinset_rgb.jpg\n"
             )
@@ -98,10 +92,6 @@ for cell_line in data:
         f.write(f"donor_plasmid: {cell_line.get('Main_donor_plasmid', '')}\n")
         f.write(f"eu_hpsc_reg: {cell_line.get('Main_eu_hpsc_reg', '')}\n")
         f.write(f"images_and_videos:\n")
-        f.write(f"  images:\n")
-        for image in new_media_data["images"]:
-            f.write(f"    - image: {image['image']}\n")
-            f.write(f"      caption: {image['caption']}\n")
         f.write(f"  videos:\n")
         for video in new_media_data["videos"]:
             f.write(f"    - video: {video['video']}\n")
