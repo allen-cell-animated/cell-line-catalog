@@ -62,11 +62,15 @@ for cell_line in data:
     if not os.path.exists(directory):
         os.mkdir(directory)
     cell_line_id = int(cell_line["cell_line_id"].split("-")[1])
-    path = f"./cell-lines/AICS-{cell_line_id}"
+    if cell_line['clone_number']:
+        cell_line_name = f"AICS-{cell_line_id}-{cell_line['clone_number']}"
+    else:
+        cell_line_name = f"AICS-{cell_line_id}-in-progress"
+    path = f"./cell-lines/{cell_line_name}"
     if not os.path.exists(path):
-        os.mkdir(f"./cell-lines/AICS-{cell_line_id}")  # create directory
+        os.mkdir(path)  # create directory
     new_media_data = sort_media_data(cell_line["Main_media"])
-    with open(f"./cell-lines/AICS-{cell_line_id}/index.md", "w") as f:
+    with open(f"./cell-lines/{cell_line_name}/index.md", "w") as f:
         f.write("---\n")
         f.write("templateKey: cell-line\n")
         f.write(f"cell_line_id: {cell_line_id}\n")
