@@ -1,6 +1,26 @@
 import json
 import os
 
+
+def sort_media_data(media_list):
+    new_media_dict = {"videos": []}
+    for media in media_list:
+        if media["type"] == "movie":
+            new_media_dict["videos"].append(
+                {"video": media["link"], "caption": f'"{media["caption"]}"'}
+            )
+    return new_media_dict
+
+def check_status(status):
+    try:
+        if status == "In Progress":
+            return "in progress"
+        elif status == "Yes":
+            return "released"
+    except KeyError:
+        return "no status found"
+
+
 with open("./data/cell_line_catalog.json", "r") as f:
     data = cell_line_catalog = json.load(f)
 
@@ -42,14 +62,26 @@ for cell_line in data:
     if not os.path.exists(directory):
         os.mkdir(directory)
     cell_line_id = int(cell_line["cell_line_id"].split("-")[1])
-    path = f"./cell-lines/AICS-{cell_line_id}"
+    if cell_line['clone_number']:
+        cell_line_name = f"AICS-{cell_line_id}-{cell_line['clone_number']}"
+    else:
+        cell_line_name = f"AICS-{cell_line_id}-in-progress"
+    path = f"./cell-lines/{cell_line_name}"
     if not os.path.exists(path):
-        os.mkdir(f"./cell-lines/AICS-{cell_line_id}")  # create directory
-    with open(f"./cell-lines/AICS-{cell_line_id}/index.md", "w") as f:
+        os.mkdir(path)  # create directory
+    new_media_data = sort_media_data(cell_line["Main_media"])
+    with open(f"./cell-lines/{cell_line_name}/index.md", "w") as f:
         f.write("---\n")
         f.write("templateKey: cell-line\n")
         f.write(f"cell_line_id: {cell_line_id}\n")
-        f.write(f"status: released\n")
+        f.write(f"status: {check_status(cell_line['status'])}\n")
+        # handle parental line thumbnail image
+        if cell_line_id == 13:
+            f.write(f"thumbnail_image: aics-{cell_line_id}.jpg\n")
+        elif cell_line_id == 75:
+            f.write(
+                "thumbnail_image: 20181023_m02_001_s13_cl85_cropped_scalebar20_withinset_rgb.jpg\n"
+            )
         f.write(f"clone_number: {cell_line['clone_number']}\n")
         f.write(f"allele_count: {cell_line['alleleCount']}\n")
         f.write(f"parental_line: 0\n")
@@ -59,4 +91,13 @@ for cell_line in data:
         f.write("fluorescent_tag:\n")
         f.write(f"  - {cell_line['Main_fluorescent_tag']}\n")
         f.write(f"order_link: {cell_line['Main_order_link']}\n")
+        f.write(f"cofa: {cell_line['Main_cofa']}\n")
+        # In progress cell lines (AICS 70 and 122) have only limited data, check the keys before accessing
+        f.write(f"donor_plasmid: {cell_line.get('Main_donor_plasmid', '')}\n")
+        f.write(f"eu_hpsc_reg: {cell_line.get('Main_eu_hpsc_reg', '')}\n")
+        f.write(f"images_and_videos:\n")
+        f.write(f"  videos:\n")
+        for video in new_media_data["videos"]:
+            f.write(f"    - video: {video['video']}\n")
+            f.write(f"      caption: {video['caption']}\n")
         f.write("---")
