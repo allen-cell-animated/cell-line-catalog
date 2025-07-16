@@ -8,16 +8,17 @@ def sort_media_data(media_list):
     new_image_dict = {"images": []}
     for image in media_list:
         if image["type"] == "image":
-            new_image_dict["images"].append(
-                {"image": image["link"], "caption": f'"{image["caption"]}"'}
-            )
+            if "link" in image and "caption" in image:
+                new_image_dict["images"].append(
+                    {"image": image["link"], "caption": f'"{image.get("caption", "")}"'}
+                )
     new_video_dict = {"videos": []}
     for video in media_list:
         if video["type"] == "movie":
-            new_video_dict["videos"].append(
-                {"video": video["link"], "caption": f'"{video["caption"]}"'}
-            )
-    
+            if "link" in video and "caption" in video:
+                new_video_dict["videos"].append(
+                    {"video": video["link"], "caption": f'"{video["caption"]}"'}
+                )
     return new_image_dict, new_video_dict
 
 def check_status(status):
@@ -82,15 +83,18 @@ def get_all_images():
         cell_line_id = int(folder_name.split("-")[1])
         images_dict[cell_line_id] = []
 
-        jpg_pattern = os.path.join(folder, "*.jpg")
-        jpg_files = glob.glob(jpg_pattern)
+        all_files = glob.glob(os.path.join(folder, "*"))
+        jpg_files = [f for f in all_files if f.lower().endswith((".jpg", ".jpeg"))]
+        png_files = [f for f in all_files if f.lower().endswith(".png")]
 
-        if jpg_files:
-            for jpg_file in jpg_files:
-                filename = os.path.basename(jpg_file)  # e.g., "CDH5_cl41_full_allele.jpg"
+        all_images = jpg_files + png_files
+
+        if all_images:
+            for image in all_images:
+                filename = os.path.basename(image)  # e.g., "CDH5_cl41_full_allele.jpg"
                 image_info = {
                     "filename": filename,
-                    "filepath": jpg_file,
+                    "filepath": image,
                 }
                 images_dict[cell_line_id].append(image_info)
                 print(f"Found {folder_name}/{filename} in {folder_name}")
@@ -204,10 +208,10 @@ for cell_line in data:
             for image in images:
                 image_name = image["filename"]
                 source_path = image["filepath"]
-                f.write(f"    - image: {image_name}\n")
                 for image in new_image_dict["images"]:
                     if image["image"].split("/")[-1] == image_name:
                         caption = image["caption"]
+                        f.write(f"    - image: {image_name}\n")
                         f.write(f"      caption: {caption}\n")
                 copy_images(source_path, path, image_name)
         f.write(f"  videos:\n")
