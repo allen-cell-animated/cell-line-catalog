@@ -1,6 +1,7 @@
 import glob
 import json
 import os
+import re
 import shutil
 
 
@@ -30,6 +31,32 @@ def check_status(status):
     except KeyError:
         return "no status found"
 
+
+def extract_number_from_string(value):
+    if isinstance(value, (int, float)):
+        return value
+    if isinstance(value, str):
+        numbers = re.findall(r"\d+\.?\d*", value)
+        if numbers:
+            num_str = numbers[0]
+            if "." in num_str:
+                return float(num_str)
+            else:
+                return int(num_str)
+    return value
+
+
+def safe_float_conversion(value):
+    if isinstance(value, (int, float)):
+        return float(value)
+    if isinstance(value, str):
+        try:
+            return float(value)
+        except ValueError:
+            return value
+    return value
+
+
 def process_slash_separated_value(data):
     """
     Convert a string with slash separated values to a list. For lines with multiple gene symbols(59,78,84,86,89).
@@ -37,35 +64,6 @@ def process_slash_separated_value(data):
     if isinstance(data, str) and "/" in data:
         return [item.strip() for item in data.split("/")]
     return [data]
-
-# def get_thumbnails():
-#     thumbnail_dict = {}
-#     images_path = "./images"
-
-#     all_cell_line_folders = glob.glob(os.path.join(images_path, "AICS-*"))
-
-#     for folder in all_cell_line_folders:
-#         folder_name = os.path.basename(folder)
-#         cell_line_id = folder_name.split("-")[1]
-#         thumbnail_path = os.path.join(folder, "single_plane_image_cl*.jpg")
-#         thumbnail_files = glob.glob(thumbnail_path)
-
-#         for thumbnail_file in thumbnail_files:
-#             filename = os.path.basename(thumbnail_file)
-#             clone_number = filename.replace("single_plane_image_cl", "").replace(".jpg", "")
-#             cell_line_name = f"AICS-{int(cell_line_id)}-{clone_number}"
-#             thumbnail_dict[cell_line_name] = (filename, thumbnail_file)
-#             print(f"Mapped {cell_line_name} -> {filename}")
-#     print("total lines", len(thumbnail_dict))
-
-#     return thumbnail_dict
-
-# thumbnail_dict = get_thumbnails()
-
-# def copy_thumbnails(source_path, target_folder, filename):
-#     target_path = os.path.join(target_folder, filename)
-#     shutil.copy(source_path, target_path)
-#     print(f"Copied {filename} to {target_folder}")
 
 def sort_images_with_thumbnail_first(images_list):
     thumbnail_images = [img for img in images_list if "single_plane_image_cl" in img["filename"]]
@@ -153,6 +151,118 @@ for cell_line in data:
     #                     f.write(f"      - {key}\n")
     #     f.write("---")
 
+    def write_editing_design_section(f, cell_line):
+        # Extract editing design data
+        ncbi_isoform = cell_line.get("EditingDesign_NCBI_isoform", "")
+        crna_seq = cell_line.get("EditingDesign_crRNA_seq", "")
+        linker = cell_line.get("Main_linker", "")
+        cas9 = cell_line.get("EditingDesign_cas9", "")
+        gene_figure = cell_line.get("EditingDesign_gene_figure", "")
+        gene_figure_caption = cell_line.get("EditingDesign_gene_figure_caption", "")
+
+        f.write("editing_design:\n")
+        f.write(f"  ncbi_isoforms:\n")
+        f.write(f"    - {ncbi_isoform}\n")
+        f.write(f"  crna: {crna_seq}\n")
+        f.write(f"  linker: {linker}\n")
+        f.write(f"  cas9: {cas9}\n")
+
+        if gene_figure and gene_figure_caption:
+            f.write("  diagrams:\n")
+            f.write("    - title: \"mEGFP Insert\"\n")
+            f.write("      images:\n")
+
+            # Extract filename from path
+            image_filename = os.path.basename(gene_figure)
+            f.write(f"        - image: {image_filename}\n")
+            f.write(f"          caption: \"{gene_figure_caption}\"\n")
+
+    def write_genomic_characterization_section(f, cell_line):
+        f.write("genomic_characterization:\n")
+
+        diagrams = []
+        junction_schematic = cell_line.get("GenomicCharacterization_junction_schematic", "")
+        if junction_schematic:
+            diagrams.append({
+                "title": "Schematic of Junctions",
+                "images": [{
+                    "image": os.path.basename(junction_schematic),
+                    "caption": "" 
+                }]
+            })
+
+        tagged_allele_gel = cell_line.get("GenomicCharacterization_tagged_allele_gel", "")
+        tagged_allele_gel_caption = cell_line.get("GenomicCharacterization_tagged_allele_gel_caption", "")
+        if tagged_allele_gel:
+            diagrams.append({
+                "title": "GFP-tagged and untagged alleles",
+                "images": [{
+                    "image": os.path.basename(tagged_allele_gel),
+                    "caption": tagged_allele_gel_caption
+                }]
+            })
+
+        karyotype_image = cell_line.get("StemCellCharacterization_karyotype", "")
+        karyotype_caption = cell_line.get("StemCellCharacterization_karyotype_caption", "")
+        if karyotype_image:
+            diagrams.append({
+                "title": "Karyotype Analysis",
+                "images": [{
+                    "image": os.path.basename(karyotype_image),
+                    "caption": karyotype_caption
+                }]
+            })
+
+        if diagrams:
+            f.write("  diagrams:\n")
+            for diagram in diagrams:
+                f.write(f"    - title: \"{diagram['title']}\"\n")
+                f.write("      images:\n")
+                for image in diagram['images']:
+                    f.write(f"        - image: {image['image']}\n")
+                    if image['caption']:
+                        f.write(f"          caption: \"{image['caption']}\"\n")
+
+        junction_table = cell_line.get("GenomicCharacterization_junction_table", [])
+        if junction_table:
+            f.write("  amplified_junctions:\n")
+            for junction in junction_table:
+                f.write("    - editedGene: \"{}\"\n".format(junction.get("editedGene", "")))
+                f.write("      junction: \"{}\"\n".format(junction.get("junction", "")))
+                f.write("      expected_size: \"{}\"\n".format(junction.get("expected_size", "")))
+                f.write("      confirmed_sequence: \"{}\"\n".format(junction.get("confirmed_sequence", "")))
+
+        junction_table_caption = cell_line.get("GenomicCharacterization_junction_table_caption", "")
+        if junction_table_caption:
+            f.write(f"  junction_table_caption: \"{junction_table_caption}\"\n")
+
+        ddpcr_data = cell_line.get("GenomicCharacterization_ddpcr", [])
+        if ddpcr_data:
+            f.write("  ddpcr:\n")
+            for ddpcr in ddpcr_data:
+                clone_value = extract_number_from_string(ddpcr.get("clone", None))
+                fp_ratio_value = safe_float_conversion(ddpcr.get("fp_ratio", None))
+                plasmid_value = safe_float_conversion(ddpcr.get("plasmid", None))
+                f.write("    - tag: {}\n".format(ddpcr.get("gene_tag", "")))
+                f.write("      clone: {}\n".format(clone_value))
+                f.write("      fp_ratio: {}\n".format(fp_ratio_value))
+                f.write("      plasmid: {}\n".format(plasmid_value))
+
+        ddpcr_caption = cell_line.get("GenomicCharacterization_ddpcr_caption", "")
+        if ddpcr_caption:
+            f.write(f"  ddpcr_caption: \"{ddpcr_caption}\"\n")
+
+        offtargets = cell_line.get("GenomicCharacterization_offtargets", [])
+        if offtargets:
+            f.write("  cr_rna_off_targets:\n")
+            for offtarget in offtargets:
+                f.write("    - clones_analyzed: {}\n".format(offtarget.get("clonesAnalyzed", "")))
+                f.write("      off_targets_sequenced_per_clone: {}\n".format(offtarget.get("off-targetsSequenced", "")))
+                total_sites = offtarget.get("sitesSequenced", "")
+                f.write("      total_sites_sequenced: {}\n".format(total_sites))
+                f.write("      mutations_identified: {}\n".format(offtarget.get("mutationsIdentified", "")))
+            f.write("  off_targets_caption: \"{}\"\n".format(cell_line.get("GenomicCharacterization_offtargets_caption", "")))
+
     # Main cell line data
     directory = "./cell-lines"
     if not os.path.exists(directory):
@@ -172,22 +282,6 @@ for cell_line in data:
         f.write("templateKey: cell-line\n")
         f.write(f"cell_line_id: {cell_line_id}\n")
         f.write(f"status: {check_status(cell_line['status'])}\n")
-        # handle parental line thumbnail image
-        # if cell_line_id == 13:
-        #     f.write(f"thumbnail_image: aics-{cell_line_id}.jpg\n")
-        # elif cell_line_id == 75:
-        #     f.write(
-        #         "thumbnail_image: 20181023_m02_001_s13_cl85_cropped_scalebar20_withinset_rgb.jpg\n"
-        #     )
-        # else:
-        # if check_status(cell_line["status"]) == "released":
-        #     f.write(f"thumbnail_image: {thumbnail_dict[cell_line_name][0]}\n")
-        #     thumbnail_file = thumbnail_dict.get(cell_line_name, None)
-        #     if thumbnail_file:
-        #         filename, source_path = thumbnail_file
-        #         copy_thumbnails(source_path, path, filename)
-        #     else:
-        #         print(f"No thumbnail found for {cell_line_name}, skipping thumbnail copy.")
         f.write(f"clone_number: {cell_line['clone_number']}\n")
         f.write(f"parental_line: 0\n")
         f.write(f"genetic_modifications:\n")
@@ -218,4 +312,7 @@ for cell_line in data:
         for video in new_video_dict["videos"]:
             f.write(f"    - video: {video['video']}\n")
             f.write(f"      caption: {video['caption']}\n")
+
+        write_editing_design_section(f, cell_line)
+        write_genomic_characterization_section(f, cell_line)
         f.write("---")
